@@ -19,6 +19,8 @@ This repository does only one thing: provide online JSON data for the DevEnv Man
 - `data/catalog-tools.json`: full-category online developer tool catalog used by the scanner.
 - `data/online/manifest.json`: generated manifest with dataset paths, byte sizes, and SHA-256 hashes.
 
+Suite install plans use `suites[].requiredToolIds` and `suites[].optionalToolIds`. Tool-level `requirements.required` is a derived compatibility flag.
+
 ## Public URLs
 
 After this repository is published to GitHub, the app can read:
@@ -51,9 +53,9 @@ node scripts/sync-from-project.mjs --source "C:\\path\\to\\devenv-manager"
 
 `sync-from-project` only reads the application project and writes into this data repository.
 
-## Automation Contract
+## Scheduled Refresh Contract
 
-The Codex automation should periodically:
+The scheduled refresh job should periodically:
 
 1. Read the application project's `src-tauri/environment-tools.json` and `src-tauri/scan-rules.json` without modifying that project.
 2. Keep this repository's online-data schema compatible with the app's current data structure.

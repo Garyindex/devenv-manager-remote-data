@@ -61,6 +61,27 @@ function assertUnique(items, getId, label) {
   return seen
 }
 
+function validateSuiteToolRefs(suite, toolIds, label) {
+  assert(Array.isArray(suite?.toolIds), `${label}.toolIds must be an array`)
+  assert(Array.isArray(suite?.requiredToolIds), `${label}.requiredToolIds must be an array`)
+  assert(Array.isArray(suite?.optionalToolIds), `${label}.optionalToolIds must be an array`)
+  const declared = new Set(suite?.toolIds ?? [])
+  const required = new Set(suite?.requiredToolIds ?? [])
+  const optional = new Set(suite?.optionalToolIds ?? [])
+  for (const toolId of declared) {
+    assert(toolIds.has(toolId), `${label}.toolIds references unknown tool: ${toolId}`)
+  }
+  for (const toolId of required) {
+    assert(toolIds.has(toolId), `${label}.requiredToolIds references unknown tool: ${toolId}`)
+    assert(declared.has(toolId), `${label}.requiredToolIds must also appear in toolIds: ${toolId}`)
+    assert(!optional.has(toolId), `${label}.${toolId} cannot be both required and optional`)
+  }
+  for (const toolId of optional) {
+    assert(toolIds.has(toolId), `${label}.optionalToolIds references unknown tool: ${toolId}`)
+    assert(declared.has(toolId), `${label}.optionalToolIds must also appear in toolIds: ${toolId}`)
+  }
+}
+
 function validateEnvironmentTools(data) {
   assert(isObject(data), 'environment-tools root must be an object')
   assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'environment-tools schemaVersion must be a positive integer')
@@ -103,9 +124,7 @@ function validateEnvironmentTools(data) {
     assertString(suite?.name, `${suite?.id}.name`)
     assert(typeof suite?.description === 'string', `${suite?.id}.description must be a string`)
     assert(Array.isArray(suite?.toolIds), `${suite?.id}.toolIds must be an array`)
-    for (const toolId of suite?.toolIds ?? []) {
-      assert(toolIds.has(toolId), `${suite.id}.toolIds references unknown tool: ${toolId}`)
-    }
+    for (const toolId of suite?.toolIds ?? []) assert(toolIds.has(toolId), `${suite.id}.toolIds references unknown tool: ${toolId}`)
   }
 }
 
@@ -317,10 +336,8 @@ function validateCatalog(data) {
   }
   for (const suite of data?.suites ?? []) {
     assertString(suite?.id, 'catalog suite.id')
-    assert(Array.isArray(suite?.toolIds), `${suite?.id}.toolIds must be an array`)
-    for (const toolId of suite?.toolIds ?? []) {
-      assert(toolIds.has(toolId), `${suite.id}.toolIds references unknown catalog tool: ${toolId}`)
-    }
+    assertString(suite?.name, `${suite?.id}.name`)
+    validateSuiteToolRefs(suite, toolIds, `catalog suite ${suite?.id}`)
   }
 }
 

@@ -61,6 +61,8 @@ export function buildSourceMetadata({ tool, source, provider, details, versions,
     commands,
     quality,
     dependencies: {
+      required: Boolean(tool.requirements?.required),
+      requiredBySuites: tool.requirements?.requiredBySuites ?? [],
       dependsOn: tool.requirements?.dependencies ?? [],
       optionalDependencies: tool.requirements?.optionalDependencies ?? []
     },
@@ -88,6 +90,8 @@ export function buildToolMetadata(tool, sources) {
     detection: tool.detection ?? { commands: [] },
     verify: verifyFor(tool),
     dependencies: {
+      required: Boolean(tool.requirements?.required),
+      requiredBySuites: tool.requirements?.requiredBySuites ?? [],
       dependsOn: tool.requirements?.dependencies ?? [],
       optionalDependencies: tool.requirements?.optionalDependencies ?? []
     },

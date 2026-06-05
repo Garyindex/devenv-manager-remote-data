@@ -68,9 +68,19 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
       }
     }
   ],
-  "suites": [{ "id": "frontend", "name": "Frontend and web apps", "toolIds": ["node_lts"] }]
+  "suites": [
+    {
+      "id": "frontend",
+      "name": "Frontend and web apps",
+      "requiredToolIds": ["git", "node_lts", "npm"],
+      "optionalToolIds": ["pnpm", "yarn", "bun", "deno", "volta", "vscode"],
+      "toolIds": ["git", "node_lts", "npm", "pnpm", "yarn", "bun", "deno", "volta", "vscode"]
+    }
+  ]
 }
 ```
+
+`suites[].requiredToolIds` is the install-plan source of truth. `tools[].requirements.required` is a compatibility flag derived from whether the tool appears in at least one `requiredToolIds` list. A tool can be required in one suite and optional in another; clients should read the suite lists when building a suite-specific install plan.
 
 ## Online Metadata Shape
 

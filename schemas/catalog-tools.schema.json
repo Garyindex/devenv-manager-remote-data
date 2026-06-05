@@ -24,11 +24,13 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "toolIds"],
+        "required": ["id", "name", "toolIds", "requiredToolIds", "optionalToolIds"],
         "properties": {
           "id": { "type": "string" },
           "name": { "type": "string" },
-          "toolIds": { "type": "array", "items": { "type": "string" } }
+          "toolIds": { "type": "array", "items": { "type": "string" } },
+          "requiredToolIds": { "type": "array", "items": { "type": "string" } },
+          "optionalToolIds": { "type": "array", "items": { "type": "string" } }
         }
       }
     }

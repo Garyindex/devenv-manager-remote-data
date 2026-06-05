@@ -33,17 +33,41 @@ const categories = {
 }
 
 const suites = [
-  { id: 'core', name: 'Core developer workstation', toolIds: ['git', 'github_cli', 'vscode', 'windows_terminal', 'powershell', 'ripgrep', 'fd', 'jq'] },
-  { id: 'frontend', name: 'Frontend and web apps', toolIds: ['node_lts', 'npm', 'pnpm', 'yarn', 'bun', 'deno', 'volta', 'vscode'] },
-  { id: 'python', name: 'Python development', toolIds: ['python_312', 'uv', 'pipx', 'poetry', 'miniconda', 'pycharm_community'] },
-  { id: 'native', name: 'Native and desktop builds', toolIds: ['rustup', 'go', 'cmake', 'ninja', 'llvm', 'vs_build_tools', 'msys2'] },
-  { id: 'java', name: 'Java and JVM development', toolIds: ['temurin_21', 'temurin_17', 'maven', 'gradle', 'scala', 'sbt', 'clojure'] },
-  { id: 'container', name: 'Container and Kubernetes', toolIds: ['docker_desktop', 'podman', 'rancher_desktop', 'kubectl', 'helm', 'minikube', 'kind'] },
-  { id: 'cloud', name: 'Cloud and deployment', toolIds: ['aws_cli', 'azure_cli', 'google_cloud_sdk', 'terraform', 'opentofu', 'pulumi', 'vercel_cli', 'netlify_cli', 'cloudflared'] },
-  { id: 'database', name: 'Database workbench', toolIds: ['postgresql', 'pgadmin', 'mysql', 'mysql_workbench', 'mongodb_compass', 'redis', 'sqlite_browser', 'dbeaver', 'beekeeper_studio'] },
-  { id: 'mobile', name: 'Mobile development', toolIds: ['android_studio', 'android_platform_tools', 'flutter', 'dart', 'temurin_21'] },
-  { id: 'security', name: 'Security and diagnostics', toolIds: ['wireshark', 'mitmproxy', 'sysinternals_suite', 'process_explorer', 'sysmon', 'nmap'] }
+  suite('core', 'Core developer workstation', ['git', 'vscode', 'powershell'], ['github_cli', 'windows_terminal', 'ripgrep', 'fd', 'jq']),
+  suite('frontend', 'Frontend and web apps', ['git', 'node_lts', 'npm'], ['pnpm', 'yarn', 'bun', 'deno', 'volta', 'vscode']),
+  suite('python', 'Python development', ['git', 'python_312'], ['uv', 'pipx', 'poetry', 'miniconda', 'pycharm_community']),
+  suite('native', 'Native and desktop builds', ['git', 'cmake', 'ninja'], ['rustup', 'go', 'llvm', 'vs_build_tools', 'msys2']),
+  suite('java', 'Java and JVM development', ['git', 'temurin_21'], ['temurin_17', 'maven', 'gradle', 'scala', 'sbt', 'clojure']),
+  suite('container', 'Container and Kubernetes', ['docker_desktop', 'kubectl'], ['podman', 'rancher_desktop', 'helm', 'minikube', 'kind']),
+  suite('cloud', 'Cloud and deployment', ['git'], ['aws_cli', 'azure_cli', 'google_cloud_sdk', 'terraform', 'opentofu', 'pulumi', 'vercel_cli', 'netlify_cli', 'cloudflared']),
+  suite('database', 'Database workbench', [], ['postgresql', 'pgadmin', 'mysql', 'mysql_workbench', 'mongodb_compass', 'redis', 'sqlite_browser', 'dbeaver', 'beekeeper_studio']),
+  suite('mobile', 'Mobile development', ['git', 'android_studio', 'temurin_21'], ['android_platform_tools', 'flutter', 'dart']),
+  suite('security', 'Security and diagnostics', [], ['wireshark', 'mitmproxy', 'sysinternals_suite', 'process_explorer', 'sysmon', 'nmap'])
 ]
+
+function suite(id, name, requiredToolIds, optionalToolIds) {
+  return {
+    id,
+    name,
+    requiredToolIds,
+    optionalToolIds,
+    toolIds: [...new Set([...requiredToolIds, ...optionalToolIds])]
+  }
+}
+
+function requiredBySuites() {
+  const map = new Map()
+  for (const item of suites) {
+    for (const toolId of item.requiredToolIds) {
+      const suiteIds = map.get(toolId) ?? []
+      suiteIds.push(item.id)
+      map.set(toolId, suiteIds)
+    }
+  }
+  return map
+}
+
+const requiredSuiteIdsByToolId = requiredBySuites()
 
 function tool({
   id,
@@ -62,6 +86,7 @@ function tool({
   platforms = ['windows'],
   tags = []
 }) {
+  const requiredBySuites = requiredSuiteIdsByToolId.get(id) ?? []
   const sources = []
   if (homepage || downloadPage || releasePage) {
     sources.push({
@@ -128,7 +153,8 @@ function tool({
     },
     sources,
     requirements: {
-      required,
+      required: required || requiredBySuites.length > 0,
+      requiredBySuites,
       requiresAdmin: needsAdmin,
       dependencies: []
     },
