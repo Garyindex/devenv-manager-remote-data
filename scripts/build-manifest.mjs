@@ -8,9 +8,10 @@ const repoRoot = path.resolve(__dirname, '..')
 
 const datasets = [
   { id: 'environmentTools', path: 'data/environment-tools.json', schema: 'schemas/environment-tools.schema.json' },
+  { id: 'catalogTools', path: 'data/catalog-tools.json', schema: 'schemas/catalog-tools.schema.json' },
   { id: 'scanRules', path: 'data/scan-rules.json', schema: 'schemas/scan-rules.schema.json' },
   { id: 'toolRequests', path: 'data/tool-requests.json', schema: null },
-  { id: 'installVersions', path: 'data/online/install-versions.json', schema: null }
+  { id: 'installVersions', path: 'data/online/install-versions.json', schema: 'schemas/install-versions.schema.json' }
 ]
 
 function fileHash(relativePath) {

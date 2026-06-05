@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/GaryIndex/devenv-manager-remote-data/main/schemas/catalog-tools.schema.json",
+  "title": "DevEnv Manager catalog tools",
+  "type": "object",
+  "required": ["schemaVersion", "categories", "tools", "suites"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "generatedAt": { "type": "string" },
+    "purpose": { "type": "string" },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" }
+        }
+      }
+    },
+    "tools": { "type": "array", "items": { "$ref": "#/$defs/tool" } },
+    "suites": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "toolIds"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "toolIds": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "tool": {
+      "type": "object",
+      "required": ["id", "name", "categoryId", "platforms", "links", "detection", "sources", "requirements", "lifecycle"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "summary": { "type": ["string", "null"] },
+        "description": { "type": ["string", "null"] },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "platforms": { "type": "array", "items": { "type": "string" } },
+        "links": { "type": "object" },
+        "detection": { "type": "object" },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+        "requirements": { "type": "object" },
+        "lifecycle": { "type": "object" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "manager", "platforms", "official", "priority", "links", "capabilities"],
+      "properties": {
+        "id": { "type": "string" },
+        "manager": { "type": "string" },
+        "packageId": { "type": ["string", "null"] },
+        "platforms": { "type": "array", "items": { "type": "string" } },
+        "official": { "type": "boolean" },
+        "priority": { "type": "integer" },
+        "links": { "type": "object" },
+        "capabilities": { "type": "object" }
+      }
+    }
+  }
+}
+

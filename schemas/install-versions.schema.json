@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/GaryIndex/devenv-manager-remote-data/main/schemas/install-versions.schema.json",
+  "title": "DevEnv Manager online tool metadata",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "status", "summary", "tools", "errors"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "generatedAt": { "type": "string" },
+    "purpose": { "type": "string" },
+    "platform": { "type": "string" },
+    "status": { "type": "string" },
+    "summary": { "type": "object" },
+    "tools": { "type": "array", "items": { "$ref": "#/$defs/toolMetadata" } },
+    "errors": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "toolMetadata": {
+      "type": "object",
+      "required": ["id", "name", "categoryId", "platforms", "detection", "sources"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "platforms": { "type": "array", "items": { "type": "string" } },
+        "detection": { "type": "object" },
+        "dependencies": { "type": "object" },
+        "risk": { "type": "object" },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/sourceMetadata" } }
+      }
+    },
+    "sourceMetadata": {
+      "type": "object",
+      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "versions", "downloads", "commands"],
+      "properties": {
+        "id": { "type": "string" },
+        "manager": { "type": "string" },
+        "packageId": { "type": ["string", "null"] },
+        "platforms": { "type": "array", "items": { "type": "string" } },
+        "scan": { "type": "object" },
+        "package": { "type": "object" },
+        "links": { "type": "object" },
+        "versions": { "type": "array", "items": { "$ref": "#/$defs/version" } },
+        "downloads": { "type": "array", "items": { "$ref": "#/$defs/download" } },
+        "commands": { "type": "array", "items": { "$ref": "#/$defs/command" } }
+      }
+    },
+    "version": {
+      "type": "object",
+      "required": ["version", "channel", "latest", "prerelease"],
+      "properties": {
+        "version": { "type": "string" },
+        "channel": { "type": "string" },
+        "latest": { "type": "boolean" },
+        "prerelease": { "type": "boolean" },
+        "lts": { "type": ["boolean", "null"] },
+        "releaseDate": { "type": ["string", "null"] },
+        "eolDate": { "type": ["string", "null"] },
+        "changelogUrl": { "type": ["string", "null"] }
+      }
+    },
+    "download": {
+      "type": "object",
+      "required": ["id", "platform", "urlType", "direct"],
+      "properties": {
+        "id": { "type": "string" },
+        "version": { "type": ["string", "null"] },
+        "platform": { "type": "string" },
+        "architecture": { "type": ["string", "null"] },
+        "type": { "type": "string" },
+        "url": { "type": ["string", "null"] },
+        "urlType": { "type": "string" },
+        "direct": { "type": "boolean" },
+        "sha256": { "type": ["string", "null"] },
+        "sizeBytes": { "type": ["number", "null"] }
+      }
+    },
+    "command": {
+      "type": "object",
+      "required": ["action", "manager", "platform", "requiresAdmin", "supportsVersion", "shell", "command"],
+      "properties": {
+        "action": { "type": "string" },
+        "manager": { "type": "string" },
+        "platform": { "type": "string" },
+        "version": { "type": ["string", "null"] },
+        "requiresAdmin": { "type": "boolean" },
+        "supportsVersion": { "type": "boolean" },
+        "shell": { "type": "string" },
+        "command": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

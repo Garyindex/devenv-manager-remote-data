@@ -131,28 +131,79 @@ function validateInstallVersions(data) {
   assert(isObject(data), 'install-versions root must be an object')
   assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'install-versions schemaVersion must be a positive integer')
   assert(typeof data?.generatedAt === 'string', 'install-versions generatedAt must be a string')
-  assert(typeof data?.source === 'string', 'install-versions source must be a string')
   assert(typeof data?.status === 'string', 'install-versions status must be a string')
+  assert(isObject(data?.summary), 'install-versions summary must be an object')
   assert(Array.isArray(data?.tools), 'install-versions tools must be an array')
   for (const tool of data?.tools ?? []) {
-    assertString(tool?.toolId, 'install-versions toolId')
-    assertString(tool?.name, `${tool?.toolId}.name`)
-    assertString(tool?.packageId, `${tool?.toolId}.packageId`)
-    assert(typeof tool?.homepage === 'string' || tool?.homepage === null, `${tool?.toolId}.homepage must be string or null`)
-    assert(typeof tool?.downloadUrl === 'string' || tool?.downloadUrl === null, `${tool?.toolId}.downloadUrl must be string or null`)
-    assert(Array.isArray(tool?.availableVersions), `${tool?.toolId}.availableVersions must be an array`)
-    assert(Array.isArray(tool?.installCommands), `${tool?.toolId}.installCommands must be an array`)
-    assert(Array.isArray(tool?.packages), `${tool?.toolId}.packages must be an array`)
-    for (const command of tool?.installCommands ?? []) {
-      assertString(command?.id, `${tool.toolId}.installCommands.id`)
-      assertString(command?.label, `${tool.toolId}.installCommands.label`)
-      assert(Array.isArray(command?.command), `${tool.toolId}.installCommands.command must be an array`)
+    assertString(tool?.id, 'install-versions tool.id')
+    assertString(tool?.name, `${tool?.id}.name`)
+    assertString(tool?.categoryId, `${tool?.id}.categoryId`)
+    assert(Array.isArray(tool?.platforms), `${tool?.id}.platforms must be an array`)
+    assert(isObject(tool?.detection), `${tool?.id}.detection must be an object`)
+    assert(Array.isArray(tool?.sources), `${tool?.id}.sources must be an array`)
+    for (const source of tool?.sources ?? []) {
+      assertString(source?.id, `${tool.id}.sources.id`)
+      assertString(source?.manager, `${tool.id}.sources.manager`)
+      assertString(source?.packageId, `${tool.id}.sources.packageId`)
+      assert(Array.isArray(source?.platforms), `${tool.id}.sources.platforms must be an array`)
+      assert(isObject(source?.scan), `${tool.id}.sources.scan must be an object`)
+      assert(isObject(source?.package), `${tool.id}.sources.package must be an object`)
+      assert(isObject(source?.links), `${tool.id}.sources.links must be an object`)
+      assert(Array.isArray(source?.versions), `${tool.id}.sources.versions must be an array`)
+      assert(Array.isArray(source?.downloads), `${tool.id}.sources.downloads must be an array`)
+      assert(Array.isArray(source?.commands), `${tool.id}.sources.commands must be an array`)
+      for (const version of source?.versions ?? []) {
+        assertString(version?.version, `${tool.id}.sources.versions.version`)
+        assert(typeof version?.latest === 'boolean', `${tool.id}.sources.versions.latest must be boolean`)
+      }
+      for (const download of source?.downloads ?? []) {
+        assertString(download?.id, `${tool.id}.sources.downloads.id`)
+        assertString(download?.platform, `${tool.id}.sources.downloads.platform`)
+        assert(typeof download?.url === 'string' || download?.url === null, `${tool.id}.sources.downloads.url must be string or null`)
+        assertString(download?.urlType, `${tool.id}.sources.downloads.urlType`)
+      }
+      for (const command of source?.commands ?? []) {
+        assertString(command?.action, `${tool.id}.sources.commands.action`)
+        assertString(command?.manager, `${tool.id}.sources.commands.manager`)
+        assertString(command?.platform, `${tool.id}.sources.commands.platform`)
+        assert(Array.isArray(command?.command), `${tool.id}.sources.commands.command must be an array`)
+      }
     }
-    for (const packageInfo of tool?.packages ?? []) {
-      assertString(packageInfo?.packageId, `${tool.toolId}.packages.packageId`)
-      assertString(packageInfo?.source, `${tool.toolId}.packages.source`)
-      assert(Array.isArray(packageInfo?.availableVersions), `${tool.toolId}.packages.availableVersions must be an array`)
-      assert(Array.isArray(packageInfo?.installCommands), `${tool.toolId}.packages.installCommands must be an array`)
+  }
+}
+
+function validateCatalog(data) {
+  assert(isObject(data), 'catalog root must be an object')
+  assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'catalog schemaVersion must be a positive integer')
+  assert(Array.isArray(data?.categories), 'catalog categories must be an array')
+  assert(Array.isArray(data?.tools), 'catalog tools must be an array')
+  assert(Array.isArray(data?.suites), 'catalog suites must be an array')
+  const categoryIds = assertUnique(data?.categories ?? [], (category) => category?.id, 'catalog category')
+  const toolIds = assertUnique(data?.tools ?? [], (tool) => tool?.id, 'catalog tool')
+  for (const category of data?.categories ?? []) {
+    assertString(category?.id, 'catalog category.id')
+    assertString(category?.name, `${category?.id}.name`)
+  }
+  for (const tool of data?.tools ?? []) {
+    assertString(tool?.id, 'catalog tool.id')
+    assertString(tool?.name, `${tool?.id}.name`)
+    assert(categoryIds.has(tool?.categoryId), `${tool?.id}.categoryId references unknown category`)
+    assert(Array.isArray(tool?.platforms), `${tool?.id}.platforms must be an array`)
+    assert(isObject(tool?.links), `${tool?.id}.links must be an object`)
+    assert(isObject(tool?.detection), `${tool?.id}.detection must be an object`)
+    assert(Array.isArray(tool?.sources), `${tool?.id}.sources must be an array`)
+    for (const source of tool?.sources ?? []) {
+      assertString(source?.id, `${tool.id}.sources.id`)
+      assertString(source?.manager, `${tool.id}.sources.manager`)
+      assert(Array.isArray(source?.platforms), `${tool.id}.sources.platforms must be an array`)
+      assert(isObject(source?.capabilities), `${tool.id}.sources.capabilities must be an object`)
+    }
+  }
+  for (const suite of data?.suites ?? []) {
+    assertString(suite?.id, 'catalog suite.id')
+    assert(Array.isArray(suite?.toolIds), `${suite?.id}.toolIds must be an array`)
+    for (const toolId of suite?.toolIds ?? []) {
+      assert(toolIds.has(toolId), `${suite.id}.toolIds references unknown catalog tool: ${toolId}`)
     }
   }
 }
@@ -164,6 +215,7 @@ function validateToolRequests(data) {
 }
 
 validateEnvironmentTools(readJson('data/environment-tools.json'))
+validateCatalog(readJson('data/catalog-tools.json'))
 validateScanRules(readJson('data/scan-rules.json'))
 validateToolRequests(readJson('data/tool-requests.json'))
 
