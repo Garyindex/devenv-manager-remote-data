@@ -1,0 +1,68 @@
+name: Tool support request
+description: Ask DevEnv Manager to support a new development tool.
+title: "[Tool]: "
+labels: ["tool-request"]
+body:
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool name
+      description: Official name shown to users.
+      placeholder: "Example: Node.js"
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage
+      description: Official website or documentation page.
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: install_sources
+    attributes:
+      label: Install sources
+      description: Package manager IDs, download pages, GitHub releases, or installer links.
+      placeholder: |
+        winget: OpenJS.NodeJS.LTS
+        GitHub releases: https://github.com/nodejs/node/releases
+    validations:
+      required: true
+  - type: textarea
+    id: version_commands
+    attributes:
+      label: Version check commands
+      description: Commands the app can run to detect whether the tool is installed.
+      placeholder: |
+        node --version
+        npm --version
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - source-control
+        - javascript
+        - python
+        - rust
+        - go
+        - java
+        - dotnet
+        - mobile
+        - container
+        - devops
+        - editor
+        - shell
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything special about permissions, versions, portable installs, or platform support.
+    validations:
+      required: false

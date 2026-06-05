@@ -9,6 +9,7 @@ const repoRoot = path.resolve(__dirname, '..')
 const datasets = [
   { id: 'environmentTools', path: 'data/environment-tools.json', schema: 'schemas/environment-tools.schema.json' },
   { id: 'scanRules', path: 'data/scan-rules.json', schema: 'schemas/scan-rules.schema.json' },
+  { id: 'toolRequests', path: 'data/tool-requests.json', schema: null },
   { id: 'installVersions', path: 'data/online/install-versions.json', schema: null }
 ]
 
@@ -39,4 +40,3 @@ const outputPath = path.join(repoRoot, 'data/online/manifest.json')
 fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 fs.writeFileSync(outputPath, `${JSON.stringify(manifest, null, 2)}\n`)
 console.log(`Wrote ${path.relative(repoRoot, outputPath)}`)
-

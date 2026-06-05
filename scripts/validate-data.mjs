@@ -138,13 +138,34 @@ function validateInstallVersions(data) {
     assertString(tool?.toolId, 'install-versions toolId')
     assertString(tool?.name, `${tool?.toolId}.name`)
     assertString(tool?.packageId, `${tool?.toolId}.packageId`)
+    assert(typeof tool?.homepage === 'string' || tool?.homepage === null, `${tool?.toolId}.homepage must be string or null`)
+    assert(typeof tool?.downloadUrl === 'string' || tool?.downloadUrl === null, `${tool?.toolId}.downloadUrl must be string or null`)
     assert(Array.isArray(tool?.availableVersions), `${tool?.toolId}.availableVersions must be an array`)
     assert(Array.isArray(tool?.installCommands), `${tool?.toolId}.installCommands must be an array`)
+    assert(Array.isArray(tool?.packages), `${tool?.toolId}.packages must be an array`)
+    for (const command of tool?.installCommands ?? []) {
+      assertString(command?.id, `${tool.toolId}.installCommands.id`)
+      assertString(command?.label, `${tool.toolId}.installCommands.label`)
+      assert(Array.isArray(command?.command), `${tool.toolId}.installCommands.command must be an array`)
+    }
+    for (const packageInfo of tool?.packages ?? []) {
+      assertString(packageInfo?.packageId, `${tool.toolId}.packages.packageId`)
+      assertString(packageInfo?.source, `${tool.toolId}.packages.source`)
+      assert(Array.isArray(packageInfo?.availableVersions), `${tool.toolId}.packages.availableVersions must be an array`)
+      assert(Array.isArray(packageInfo?.installCommands), `${tool.toolId}.packages.installCommands must be an array`)
+    }
   }
+}
+
+function validateToolRequests(data) {
+  assert(isObject(data), 'tool-requests root must be an object')
+  assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'tool-requests schemaVersion must be a positive integer')
+  assert(Array.isArray(data?.requests), 'tool-requests requests must be an array')
 }
 
 validateEnvironmentTools(readJson('data/environment-tools.json'))
 validateScanRules(readJson('data/scan-rules.json'))
+validateToolRequests(readJson('data/tool-requests.json'))
 
 const installVersionsPath = path.join(repoRoot, 'data/online/install-versions.json')
 if (fs.existsSync(installVersionsPath)) {
@@ -157,4 +178,3 @@ if (failures.length > 0) {
 }
 
 console.log('Data validation passed.')
-

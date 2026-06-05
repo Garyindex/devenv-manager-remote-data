@@ -1,15 +1,16 @@
 # DevEnv Manager Remote Data
 
-Remote data repository for DevEnv Manager.
+Online data source for DevEnv Manager.
 
-This repository is intentionally separate from the application repository. It stores online JSON data that the application can consume later without requiring the app source repository to be uploaded here.
+This repository does only one thing: provide online JSON data for the DevEnv Manager app. It does not store, build, deploy, or publish the application source code.
 
 ## Data Files
 
-- `data/environment-tools.json`: development tool definitions, command probes, winget package IDs, install suites, and one-click install metadata.
-- `data/scan-rules.json`: developer environment scan rules, path templates, risk factors, and dependency graph metadata.
-- `data/online/install-versions.json`: generated online package-version metadata for one-click installs.
-- `data/online/manifest.json`: generated manifest with dataset paths and SHA-256 hashes.
+- `data/environment-tools.json`: configured tool definitions read from the app's data structure.
+- `data/scan-rules.json`: configured environment scan rules read from the app's data structure.
+- `data/tool-requests.json`: accepted requests for new developer tools to support.
+- `data/online/install-versions.json`: generated online package metadata for one-click installs, including versions, install commands, download links, homepages, release-note links, publisher, license, and scan status.
+- `data/online/manifest.json`: generated manifest with dataset paths, byte sizes, and SHA-256 hashes.
 
 ## Public URLs
 
@@ -19,6 +20,7 @@ After this repository is published to GitHub, the app can read:
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/manifest.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/environment-tools.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/scan-rules.json
+https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/tool-requests.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/install-versions.json
 ```
 
@@ -37,9 +39,9 @@ node scripts/sync-from-project.mjs --source "C:\\path\\to\\devenv-manager"
 
 The Codex automation should periodically:
 
-1. Read the application project's `src-tauri/environment-tools.json` and `src-tauri/scan-rules.json`.
-2. Sync matching data into this repository.
-3. If the source structure changes, update this repository's schemas, validators, and online data shape to match.
-4. Refresh package-version metadata where real package manager data is available.
-5. Validate the result before publishing or reporting completion.
-
+1. Read the application project's `src-tauri/environment-tools.json` and `src-tauri/scan-rules.json` without modifying that project.
+2. Keep this repository's online-data schema compatible with the app's current data structure.
+3. Refresh detailed tool metadata from real sources where available, currently `winget` for Windows tools.
+4. Preserve install commands and download links as honest runtime data; do not invent versions, links, or package IDs.
+5. Check GitHub issues labeled `tool-request` when GitHub access is available, then add accepted tools to this data repository only.
+6. Validate the result before publishing or reporting completion.
