@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { ProviderManager } from '../core/provider-manager.mjs'
 import { ChocoProvider } from '../providers/choco-provider.mjs'
 import { GitHubProvider } from '../providers/github-provider.mjs'
+import { HomebrewProvider } from '../providers/homebrew-provider.mjs'
 import { ScoopProvider } from '../providers/scoop-provider.mjs'
 import { WingetProvider } from '../providers/winget-provider.mjs'
 
@@ -27,6 +28,7 @@ const providers = [
   new WingetProvider(),
   new ScoopProvider(),
   new ChocoProvider(),
+  new HomebrewProvider(),
   new GitHubProvider()
 ]
 const manager = new ProviderManager(providers, { maxConcurrency })
@@ -58,4 +60,3 @@ const output = {
 fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`)
 console.log(`Wrote ${path.relative(repoRoot, outputPath)} with status ${output.status}.`)
-

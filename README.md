@@ -10,7 +10,7 @@ This repository does only one thing: provide online JSON data for the DevEnv Man
 - `data/environment-tools.json`: configured tool definitions read from the app's data structure.
 - `data/scan-rules.json`: configured environment scan rules read from the app's data structure.
 - `data/tool-requests.json`: accepted requests for new developer tools to support.
-- `data/online/install-versions.json`: generated online package metadata for one-click installs, including versions, install commands, download links, homepages, release-note links, publisher, license, and scan status.
+- `data/online/install-versions.json`: generated online package metadata for one-click installs, including versions, install command templates, download links, homepages, release-note links, publisher, license, quality scoring, and scan status.
 - `data/catalog-tools.json`: full-category online developer tool catalog used by the scanner.
 - `data/online/manifest.json`: generated manifest with dataset paths, byte sizes, and SHA-256 hashes.
 
@@ -32,7 +32,8 @@ https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/o
 ```bash
 npm run validate
 npm run manifest
-npm run refresh:winget
+npm run catalog
+npm run refresh:metadata
 node scripts/sync-from-project.mjs --source "C:\\path\\to\\devenv-manager"
 ```
 
@@ -44,7 +45,7 @@ The Codex automation should periodically:
 
 1. Read the application project's `src-tauri/environment-tools.json` and `src-tauri/scan-rules.json` without modifying that project.
 2. Keep this repository's online-data schema compatible with the app's current data structure.
-3. Refresh detailed tool metadata from real sources where available, currently `winget` for Windows tools.
+3. Refresh detailed tool metadata from real sources where available, including `winget`, `scoop`, `choco`, `homebrew`, and GitHub releases.
 4. Preserve install commands and download links as honest runtime data; do not invent versions, links, or package IDs.
 5. Check GitHub issues labeled `tool-request` when GitHub access is available, then add accepted tools to this data repository only.
 6. Validate the result before publishing or reporting completion.

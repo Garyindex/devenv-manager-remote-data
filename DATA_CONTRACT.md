@@ -143,11 +143,21 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
               "requiresAdmin": false,
               "supportsVersion": true,
               "shell": "argv",
-              "command": ["winget", "install", "--id", "OpenJS.NodeJS.LTS", "--exact"]
+              "command": ["winget", "install", "--id", "OpenJS.NodeJS.LTS", "--exact"],
+              "template": ["winget", "install", "--id", "OpenJS.NodeJS.LTS", "--exact", "--version", "{{version}}"]
             }
-          ]
+          ],
+          "quality": {
+            "confidence": "high",
+            "score": 90,
+            "official": true,
+            "lastSuccessfulScanAt": "2026-06-05T00:00:00.000Z",
+            "failureCount": 0,
+            "staleAfterDays": 7
+          }
         }
-      ]
+      ],
+      "quality": { "confidence": "high", "score": 90 }
     }
   ],
   "errors": []
@@ -158,9 +168,12 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
 
 - `platforms` values are `windows`, `macos`, `linux`, or a narrower OS label if needed.
 - `commands[].shell = "argv"` means the app should execute the command as an argv array, not through shell string interpolation.
-- `commands[].supportsVersion = true` means the app may inject a selected version into the provider-specific command template. The data source does not pre-generate one command per historical version.
+- `commands[].command` is the latest/default command.
+- `commands[].template` is the provider-specific argv template. When `supportsVersion = true`, replace the literal `{{version}}` item with the selected version. The data source does not pre-generate one command per historical version.
 - `downloads[].urlType = "direct-installer"` means the app can download the installer directly.
 - `downloads[].urlType = "download-page"` means the app should open the page or ask the user before downloading.
+- `quality.score` is a 0-100 source confidence score based on official source status, successful scan, version history, download availability, and direct download confidence.
+- Prefer higher `quality.score`, lower `priority`, and platform match when choosing a source for one-click install.
 - Missing runtime data must remain `null` or an empty array. Do not fabricate versions, URLs, hashes, dates, or EOL status.
 
 ## Provider Architecture
@@ -170,6 +183,7 @@ Runtime metadata is refreshed through Provider modules:
 - `providers/winget-provider.mjs`
 - `providers/scoop-provider.mjs`
 - `providers/choco-provider.mjs`
+- `providers/homebrew-provider.mjs`
 - `providers/github-provider.mjs`
 
 The common interface is:
@@ -181,6 +195,7 @@ interface ToolProvider {
   getPackageDetails(tool: Tool, source: Source): Promise<PackageDetails>
   getVersions(tool: Tool, source: Source): Promise<Version[]>
   buildCommands(tool: Tool, source: Source): Command[]
+  buildDownloads?(tool: Tool, source: Source, details: PackageDetails, versions: Version[]): Download[]
 }
 ```
 

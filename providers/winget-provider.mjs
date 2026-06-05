@@ -8,10 +8,20 @@ function run(command, args, timeoutMs = 25_000) {
       resolve({
         ok: !error,
         code: error?.code ?? 0,
-        output: `${stdout ?? ''}${stderr ?? ''}`.trim()
+        output: cleanOutput(`${stdout ?? ''}${stderr ?? ''}`)
       })
     })
   })
+}
+
+function cleanOutput(output) {
+  return output
+    .replace(/\x1b\[[0-9;?]*[A-Za-z]/g, '')
+    .split(/\r?\n/)
+    .map((line) => line.replace(/^[\s\\|/\-]+$/, '').trimEnd())
+    .filter((line) => line.trim().length > 0)
+    .join('\n')
+    .trim()
 }
 
 function parseKeyValueDetails(output) {
@@ -67,6 +77,9 @@ function uninstallCommand(packageId) {
 }
 
 function command(action, command, tool) {
+  const template = action === 'install'
+    ? [...command.slice(0, 6), '--version', '{{version}}', ...command.slice(6)]
+    : command
   return {
     action,
     manager: 'winget',
@@ -74,7 +87,8 @@ function command(action, command, tool) {
     requiresAdmin: Boolean(tool.requirements?.requiresAdmin),
     supportsVersion: action === 'install',
     shell: 'argv',
-    command
+    command,
+    template
   }
 }
 
@@ -94,6 +108,7 @@ export class WingetProvider {
       '--exact',
       '--source',
       'winget',
+      '--disable-interactivity',
       '--accept-source-agreements'
     ])
     if (!result.ok) throw new Error(result.output || `winget exited with ${result.code}`)
@@ -125,6 +140,7 @@ export class WingetProvider {
       '--source',
       'winget',
       '--versions',
+      '--disable-interactivity',
       '--accept-source-agreements'
     ])
     if (!result.ok) throw new Error(result.output || `winget exited with ${result.code}`)
@@ -158,4 +174,3 @@ export class WingetProvider {
     ]
   }
 }
-

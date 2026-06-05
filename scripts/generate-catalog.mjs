@@ -102,6 +102,9 @@ function tool({
         installCommand: true,
         updateCommand: true,
         uninstallCommand: true
+      },
+      metadata: {
+        registry: 'microsoft/winget-pkgs'
       }
     })
   }
@@ -135,6 +138,143 @@ function tool({
       replacedBy: null
     }
   }
+}
+
+function source({
+  id,
+  manager,
+  packageId,
+  platforms,
+  priority,
+  official = true,
+  links = {},
+  capabilities = {},
+  metadata = null
+}) {
+  return {
+    id,
+    manager,
+    packageId,
+    platforms,
+    official,
+    priority,
+    links: {
+      homepage: links.homepage ?? null,
+      download: links.download ?? null,
+      releases: links.releases ?? null,
+      docs: links.docs ?? null
+    },
+    capabilities,
+    ...(metadata ? { metadata } : {})
+  }
+}
+
+function homebrew(packageId, { kind = 'formula', priority = 20 } = {}) {
+  return source({
+    id: 'homebrew',
+    manager: 'homebrew',
+    packageId,
+    platforms: kind === 'cask' ? ['macos'] : ['macos', 'linux'],
+    priority,
+    capabilities: {
+      versionHistory: true,
+      directDownload: true,
+      installCommand: true,
+      updateCommand: true,
+      uninstallCommand: true
+    },
+    metadata: {
+      kind,
+      registry: kind === 'cask' ? 'Homebrew/homebrew-cask' : 'Homebrew/homebrew-core'
+    }
+  })
+}
+
+function scoop(packageId, { bucket = null, manifest = null, priority = 25 } = {}) {
+  return source({
+    id: 'scoop',
+    manager: 'scoop',
+    packageId,
+    platforms: ['windows'],
+    priority,
+    capabilities: {
+      versionHistory: false,
+      directDownload: true,
+      installCommand: true,
+      updateCommand: true,
+      uninstallCommand: true
+    },
+    metadata: {
+      registry: bucket ?? 'ScoopInstaller',
+      ...(bucket ? { bucket } : {}),
+      ...(manifest ? { manifest } : {})
+    }
+  })
+}
+
+function choco(packageId, { priority = 30 } = {}) {
+  return source({
+    id: 'choco',
+    manager: 'choco',
+    packageId,
+    platforms: ['windows'],
+    priority,
+    capabilities: {
+      versionHistory: true,
+      directDownload: false,
+      installCommand: true,
+      updateCommand: true,
+      uninstallCommand: true
+    },
+    metadata: {
+      registry: 'Chocolatey/community-packages'
+    }
+  })
+}
+
+function github(packageId, { platforms = ['windows', 'macos', 'linux'], priority = 40 } = {}) {
+  return source({
+    id: 'github',
+    manager: 'github',
+    packageId,
+    platforms,
+    priority,
+    capabilities: {
+      versionHistory: true,
+      directDownload: true,
+      installCommand: false,
+      updateCommand: false,
+      uninstallCommand: false
+    },
+    links: {
+      homepage: `https://github.com/${packageId}`,
+      releases: `https://github.com/${packageId}/releases`
+    },
+    metadata: {
+      registry: 'github-releases',
+      repo: packageId
+    }
+  })
+}
+
+function mergeAdditionalSources(item) {
+  const disabledSourceIds = new Set(disabledSourcesByToolId[item.id] ?? [])
+  const additions = extraSourcesByToolId[item.id] ?? []
+  const baseSources = item.sources.filter((itemSource) => !disabledSourceIds.has(itemSource.id))
+  if (additions.length === 0 && baseSources.length === item.sources.length) return item
+  const existingIds = new Set(baseSources.map((itemSource) => itemSource.id))
+  const sources = [
+    ...baseSources,
+    ...additions.filter((itemSource) => !existingIds.has(itemSource.id))
+  ]
+  const platformOrder = ['windows', 'macos', 'linux', 'cross-platform', 'unknown']
+  const platforms = [...new Set([...item.platforms, ...sources.flatMap((itemSource) => itemSource.platforms)])]
+    .sort((left, right) => {
+      const leftIndex = platformOrder.indexOf(left)
+      const rightIndex = platformOrder.indexOf(right)
+      return (leftIndex === -1 ? 999 : leftIndex) - (rightIndex === -1 ? 999 : rightIndex)
+    })
+  return { ...item, platforms, sources }
 }
 
 const tools = [
@@ -296,15 +436,167 @@ const tools = [
   tool({ id: 'mkdocs', name: 'MkDocs', category: 'docs', wingetId: '', commands: [{ command: 'mkdocs', versionArg: '--version' }], homepage: 'https://www.mkdocs.org/', source: 'manual', notes: 'Install with pipx or pip. No stable winget package is configured yet.' })
 ]
 
+const extraSourcesByToolId = {
+  git: [homebrew('git'), scoop('git'), choco('git')],
+  github_cli: [homebrew('gh'), scoop('gh'), choco('gh'), github('cli/cli')],
+  git_lfs: [homebrew('git-lfs'), scoop('git-lfs'), choco('git-lfs'), github('git-lfs/git-lfs')],
+  github_desktop: [homebrew('github', { kind: 'cask' }), choco('github-desktop')],
+
+  vscode: [homebrew('visual-studio-code', { kind: 'cask' }), scoop('vscode'), choco('vscode'), github('microsoft/vscode')],
+  vscodium: [homebrew('vscodium', { kind: 'cask' }), scoop('vscodium'), choco('vscodium'), github('VSCodium/vscodium')],
+  neovim: [homebrew('neovim'), scoop('neovim'), choco('neovim'), github('neovim/neovim')],
+  vim: [homebrew('vim'), scoop('vim'), choco('vim')],
+  emacs: [homebrew('emacs'), scoop('emacs'), choco('emacs')],
+
+  windows_terminal: [github('microsoft/terminal', { platforms: ['windows'] })],
+  powershell: [homebrew('powershell'), scoop('pwsh'), choco('powershell-core'), github('PowerShell/PowerShell')],
+  oh_my_posh: [scoop('oh-my-posh'), choco('oh-my-posh'), github('JanDeDobbeleer/oh-my-posh')],
+  starship: [homebrew('starship'), scoop('starship'), choco('starship'), github('starship/starship')],
+  ripgrep: [homebrew('ripgrep'), scoop('ripgrep'), choco('ripgrep'), github('BurntSushi/ripgrep')],
+  fd: [homebrew('fd'), scoop('fd'), choco('fd'), github('sharkdp/fd')],
+  bat: [homebrew('bat'), scoop('bat'), choco('bat'), github('sharkdp/bat')],
+  fzf: [homebrew('fzf'), scoop('fzf'), choco('fzf'), github('junegunn/fzf')],
+  jq: [homebrew('jq'), scoop('jq'), choco('jq'), github('jqlang/jq')],
+  zoxide: [homebrew('zoxide'), scoop('zoxide'), choco('zoxide'), github('ajeetdsouza/zoxide')],
+
+  node_lts: [scoop('nodejs-lts'), choco('nodejs-lts')],
+  node_current: [homebrew('node'), scoop('nodejs'), choco('nodejs')],
+  pnpm: [homebrew('pnpm'), scoop('pnpm'), choco('pnpm')],
+  yarn: [homebrew('yarn'), scoop('yarn'), choco('yarn')],
+  bun: [homebrew('bun'), scoop('bun'), choco('bun'), github('oven-sh/bun')],
+  deno: [homebrew('deno'), scoop('deno'), choco('deno'), github('denoland/deno')],
+  volta: [homebrew('volta'), scoop('volta'), choco('volta'), github('volta-cli/volta')],
+  nvm_windows: [scoop('nvm'), choco('nvm'), github('coreybutler/nvm-windows', { platforms: ['windows'] })],
+
+  python_312: [homebrew('python@3.12'), scoop('python312'), choco('python312')],
+  python_311: [homebrew('python@3.11'), scoop('python311'), choco('python311')],
+  uv: [homebrew('uv'), scoop('uv'), choco('uv'), github('astral-sh/uv')],
+  pipx: [homebrew('pipx'), scoop('pipx')],
+  poetry: [homebrew('poetry'), scoop('poetry'), github('python-poetry/poetry')],
+  miniconda: [homebrew('miniconda', { kind: 'cask' }), scoop('miniconda3'), choco('miniconda3')],
+
+  rustup: [scoop('rustup'), choco('rustup'), github('rust-lang/rustup')],
+  go: [homebrew('go'), scoop('go'), choco('golang')],
+  tinygo: [scoop('tinygo'), github('tinygo-org/tinygo')],
+
+  temurin_21: [homebrew('temurin@21', { kind: 'cask' }), scoop('temurin21-jdk', { bucket: 'ScoopInstaller/Java' }), choco('temurin21')],
+  temurin_17: [homebrew('temurin@17', { kind: 'cask' }), scoop('temurin17-jdk', { bucket: 'ScoopInstaller/Java' }), choco('temurin17')],
+  maven: [homebrew('maven'), scoop('maven'), choco('maven')],
+  gradle: [homebrew('gradle'), scoop('gradle'), choco('gradle')],
+  scala: [homebrew('scala'), scoop('scala'), choco('scala')],
+  sbt: [homebrew('sbt'), scoop('sbt'), choco('sbt')],
+
+  cmake: [homebrew('cmake'), scoop('cmake'), choco('cmake'), github('Kitware/CMake')],
+  ninja: [homebrew('ninja'), scoop('ninja'), choco('ninja'), github('ninja-build/ninja')],
+  llvm: [homebrew('llvm'), scoop('llvm'), choco('llvm')],
+
+  docker_desktop: [homebrew('docker-desktop', { kind: 'cask' }), choco('docker-desktop')],
+  podman: [homebrew('podman'), scoop('podman'), github('containers/podman')],
+  kubectl: [homebrew('kubernetes-cli'), scoop('kubectl'), choco('kubernetes-cli')],
+  helm: [homebrew('helm'), scoop('helm'), choco('kubernetes-helm'), github('helm/helm')],
+  minikube: [homebrew('minikube'), scoop('minikube'), choco('minikube'), github('kubernetes/minikube')],
+  kind: [homebrew('kind'), scoop('kind'), choco('kind'), github('kubernetes-sigs/kind')],
+
+  terraform: [scoop('terraform'), choco('terraform'), github('hashicorp/terraform')],
+  opentofu: [homebrew('opentofu'), scoop('opentofu'), choco('opentofu'), github('opentofu/opentofu')],
+  packer: [scoop('packer'), choco('packer'), github('hashicorp/packer')],
+  vagrant: [homebrew('vagrant', { kind: 'cask' }), scoop('vagrant'), choco('vagrant'), github('hashicorp/vagrant')],
+  pulumi: [homebrew('pulumi'), scoop('pulumi'), choco('pulumi'), github('pulumi/pulumi')],
+  ansible: [homebrew('ansible')],
+
+  aws_cli: [homebrew('awscli'), scoop('aws'), choco('awscli')],
+  azure_cli: [homebrew('azure-cli'), scoop('azure-cli'), choco('azure-cli')],
+  google_cloud_sdk: [scoop('gcloud', { bucket: 'ScoopInstaller/Extras' }), choco('gcloudsdk')],
+  cloudflared: [homebrew('cloudflared'), scoop('cloudflared'), choco('cloudflared'), github('cloudflare/cloudflared')],
+
+  postman: [homebrew('postman', { kind: 'cask' }), scoop('postman'), choco('postman')],
+  insomnia: [homebrew('insomnia', { kind: 'cask' }), scoop('insomnia'), choco('insomnia-rest-api-client'), github('Kong/insomnia')],
+  bruno: [homebrew('bruno', { kind: 'cask' }), scoop('bruno'), choco('bruno'), github('usebruno/bruno')],
+  httpie: [homebrew('httpie'), choco('httpie'), github('httpie/cli')],
+
+  mysql: [homebrew('mysql'), scoop('mysql'), choco('mysql')],
+  mariadb: [homebrew('mariadb'), scoop('mariadb'), choco('mariadb')],
+  redis: [homebrew('redis'), scoop('redis'), choco('redis-64')],
+  dbeaver: [homebrew('dbeaver-community', { kind: 'cask' }), scoop('dbeaver'), choco('dbeaver'), github('dbeaver/dbeaver')],
+  beekeeper_studio: [homebrew('beekeeper-studio', { kind: 'cask' }), choco('beekeeper-studio'), github('beekeeper-studio/beekeeper-studio')],
+
+  android_studio: [homebrew('android-studio', { kind: 'cask' }), choco('androidstudio')],
+  android_platform_tools: [homebrew('android-platform-tools', { kind: 'cask' }), scoop('adb'), choco('adb')],
+  flutter: [homebrew('flutter', { kind: 'cask' }), scoop('flutter'), choco('flutter'), github('flutter/flutter')],
+
+  wireshark: [homebrew('wireshark'), scoop('wireshark'), choco('wireshark')],
+  mitmproxy: [homebrew('mitmproxy', { kind: 'cask' }), scoop('mitmproxy'), choco('mitmproxy'), github('mitmproxy/mitmproxy')],
+  nmap: [homebrew('nmap'), scoop('nmap'), choco('nmap')],
+
+  r: [homebrew('r'), choco('r.project')],
+  rstudio: [homebrew('rstudio', { kind: 'cask' }), choco('r.studio')],
+  julia: [homebrew('julia'), scoop('julia'), choco('julia')],
+  quarto: [homebrew('quarto', { kind: 'cask' }), scoop('quarto'), choco('quarto'), github('quarto-dev/quarto-cli')],
+
+  vercel_cli: [github('vercel/vercel')],
+  netlify_cli: [github('netlify/cli')],
+  stripe_cli: [homebrew('stripe-cli'), choco('stripe-cli'), github('stripe/stripe-cli')],
+  supabase_cli: [homebrew('supabase'), scoop('supabase'), github('supabase/cli')],
+  prisma_cli: [github('prisma/prisma')],
+
+  php: [homebrew('php'), scoop('php'), choco('php')],
+  composer: [homebrew('composer'), scoop('composer'), choco('composer')],
+
+  ruby: [homebrew('ruby'), scoop('ruby'), choco('ruby')],
+  erlang: [homebrew('erlang'), scoop('erlang'), choco('erlang')],
+  elixir: [homebrew('elixir'), scoop('elixir'), choco('elixir')],
+
+  godot: [homebrew('godot', { kind: 'cask' }), scoop('godot'), choco('godot'), github('godotengine/godot')],
+  unity_hub: [homebrew('unity-hub', { kind: 'cask' }), choco('unity-hub')],
+  blender: [homebrew('blender', { kind: 'cask' }), scoop('blender'), choco('blender')],
+
+  pandoc: [homebrew('pandoc'), scoop('pandoc'), choco('pandoc'), github('jgm/pandoc')],
+  hugo: [homebrew('hugo'), scoop('hugo'), choco('hugo-extended'), github('gohugoio/hugo')],
+  mkdocs: [homebrew('mkdocs'), choco('mkdocs')]
+}
+
+const disabledSourcesByToolId = {
+  pipx: ['winget'],
+  poetry: ['winget'],
+  tinygo: ['winget'],
+  maven: ['winget'],
+  gradle: ['winget'],
+  scala: ['winget'],
+  clojure: ['winget'],
+  ddev: ['winget'],
+  ansible: ['winget'],
+  wrangler: ['winget'],
+  doppler: ['winget'],
+  insomnia: ['winget'],
+  graphql_playground: ['winget'],
+  graphiql: ['winget'],
+  postgresql: ['winget'],
+  flutter: ['winget'],
+  dart: ['winget'],
+  vercel_cli: ['winget'],
+  netlify_cli: ['winget'],
+  ngrok: ['winget'],
+  stripe_cli: ['winget'],
+  supabase_cli: ['winget'],
+  prisma_cli: ['winget'],
+  php: ['winget'],
+  composer: ['winget'],
+  active_state_cli: ['winget'],
+  elixir: ['winget'],
+  haskell_ghcup: ['winget']
+}
+
+const catalogTools = tools.map(mergeAdditionalSources)
+
 const catalog = {
   schemaVersion: 1,
   generatedAt: new Date().toISOString(),
   purpose: 'Full-category online developer tool catalog for DevEnv Manager.',
   categories: Object.entries(categories).map(([id, name]) => ({ id, name })),
-  tools,
+  tools: catalogTools,
   suites
 }
 
 const outputPath = path.join(repoRoot, 'data/catalog-tools.json')
 fs.writeFileSync(outputPath, `${JSON.stringify(catalog, null, 2)}\n`)
-console.log(`Wrote ${path.relative(repoRoot, outputPath)} with ${tools.length} tools.`)
+console.log(`Wrote ${path.relative(repoRoot, outputPath)} with ${catalogTools.length} tools.`)

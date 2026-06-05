@@ -37,6 +37,19 @@ function assertBoolean(value, label) {
   assert(typeof value === 'boolean', `${label} must be boolean`)
 }
 
+function assertNumber(value, label, { min = null, max = null } = {}) {
+  assert(typeof value === 'number' && Number.isFinite(value), `${label} must be a finite number`)
+  if (typeof value !== 'number' || !Number.isFinite(value)) return
+  if (min !== null) assert(value >= min, `${label} must be >= ${min}`)
+  if (max !== null) assert(value <= max, `${label} must be <= ${max}`)
+}
+
+function validateQuality(value, label) {
+  assert(isObject(value), `${label} must be an object`)
+  assert(['high', 'medium', 'low'].includes(value?.confidence), `${label}.confidence must be high, medium, or low`)
+  assertNumber(value?.score, `${label}.score`, { min: 0, max: 100 })
+}
+
 function assertUnique(items, getId, label) {
   const seen = new Set()
   for (const item of items) {
@@ -140,6 +153,7 @@ function validateInstallVersions(data) {
     assertString(tool?.categoryId, `${tool?.id}.categoryId`)
     assert(Array.isArray(tool?.platforms), `${tool?.id}.platforms must be an array`)
     assert(isObject(tool?.detection), `${tool?.id}.detection must be an object`)
+    validateQuality(tool?.quality, `${tool?.id}.quality`)
     assert(Array.isArray(tool?.sources), `${tool?.id}.sources must be an array`)
     for (const source of tool?.sources ?? []) {
       assertString(source?.id, `${tool.id}.sources.id`)
@@ -152,6 +166,7 @@ function validateInstallVersions(data) {
       assert(Array.isArray(source?.versions), `${tool.id}.sources.versions must be an array`)
       assert(Array.isArray(source?.downloads), `${tool.id}.sources.downloads must be an array`)
       assert(Array.isArray(source?.commands), `${tool.id}.sources.commands must be an array`)
+      validateQuality(source?.quality, `${tool.id}.sources.${source?.id}.quality`)
       for (const version of source?.versions ?? []) {
         assertString(version?.version, `${tool.id}.sources.versions.version`)
         assert(typeof version?.latest === 'boolean', `${tool.id}.sources.versions.latest must be boolean`)
@@ -166,7 +181,14 @@ function validateInstallVersions(data) {
         assertString(command?.action, `${tool.id}.sources.commands.action`)
         assertString(command?.manager, `${tool.id}.sources.commands.manager`)
         assertString(command?.platform, `${tool.id}.sources.commands.platform`)
+        assertBoolean(command?.requiresAdmin, `${tool.id}.sources.commands.requiresAdmin`)
+        assertBoolean(command?.supportsVersion, `${tool.id}.sources.commands.supportsVersion`)
+        assertString(command?.shell, `${tool.id}.sources.commands.shell`)
         assert(Array.isArray(command?.command), `${tool.id}.sources.commands.command must be an array`)
+        assert(Array.isArray(command?.template), `${tool.id}.sources.commands.template must be an array`)
+        if (command?.supportsVersion) {
+          assert(command.template?.includes('{{version}}'), `${tool.id}.sources.commands.template must include {{version}} when supportsVersion is true`)
+        }
       }
     }
   }
@@ -192,10 +214,13 @@ function validateCatalog(data) {
     assert(isObject(tool?.links), `${tool?.id}.links must be an object`)
     assert(isObject(tool?.detection), `${tool?.id}.detection must be an object`)
     assert(Array.isArray(tool?.sources), `${tool?.id}.sources must be an array`)
+    assertUnique(tool?.sources ?? [], (source) => source?.id, `${tool?.id}.sources`)
     for (const source of tool?.sources ?? []) {
       assertString(source?.id, `${tool.id}.sources.id`)
       assertString(source?.manager, `${tool.id}.sources.manager`)
       assert(Array.isArray(source?.platforms), `${tool.id}.sources.platforms must be an array`)
+      assertBoolean(source?.official, `${tool.id}.sources.official`)
+      assert(Number.isInteger(source?.priority), `${tool.id}.sources.priority must be an integer`)
       assert(isObject(source?.capabilities), `${tool.id}.sources.capabilities must be an object`)
     }
   }

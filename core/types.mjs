@@ -10,6 +10,7 @@
  * @property {boolean} supportsVersion
  * @property {'argv'} shell
  * @property {string[]} command
+ * @property {string[]} template
  *
  * @typedef {object} ProviderVersion
  * @property {string} version
@@ -33,13 +34,21 @@
  * @property {string | null} sha256
  * @property {number | null} sizeBytes
  *
+ * @typedef {object} QualityMetadata
+ * @property {'high' | 'medium' | 'low'} confidence
+ * @property {number} score
+ * @property {boolean=} official
+ * @property {string | null=} lastSuccessfulScanAt
+ * @property {number=} failureCount
+ * @property {number=} staleAfterDays
+ *
  * @typedef {object} ToolProvider
  * @property {string} id
  * @property {(tool: object, source?: object) => boolean} supports
  * @property {(tool: object, source: object) => Promise<object>} getPackageDetails
  * @property {(tool: object, source: object) => Promise<ProviderVersion[]>} getVersions
  * @property {(tool: object, source: object) => ProviderCommand[]} buildCommands
+ * @property {(tool: object, source: object, details: object, versions: ProviderVersion[]) => ProviderDownload[]=} buildDownloads
  */
 
 export {}
-

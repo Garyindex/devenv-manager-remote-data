@@ -2,15 +2,21 @@ name: refresh online data
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    - cron: "17 0,6,12,18 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: refresh-online-data
+  cancel-in-progress: false
+
 jobs:
-  refresh-winget:
+  refresh-metadata:
     runs-on: windows-latest
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/online data/environment-tools.json data/scan-rules.json schemas scripts package.json README.md
+          git add data schemas scripts core providers .github/workflows package.json README.md DATA_CONTRACT.md
           if (git diff --cached --quiet) {
             Write-Host "No data changes to commit."
           } else {

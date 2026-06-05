@@ -54,6 +54,7 @@ export class ProviderManager {
     const errors = []
     let details = {}
     let versions = []
+    let downloads = []
     let commands = []
     let status = 'ok'
 
@@ -78,9 +79,14 @@ export class ProviderManager {
       errors.push(`commands: ${error.message ?? String(error)}`)
     }
 
-    const downloads = provider.buildDownloads
-      ? provider.buildDownloads(tool, source, details, versions)
-      : []
+    try {
+      downloads = provider.buildDownloads
+        ? provider.buildDownloads(tool, source, details, versions)
+        : []
+    } catch (error) {
+      status = 'partial'
+      errors.push(`downloads: ${error.message ?? String(error)}`)
+    }
 
     return {
       tool,
@@ -97,4 +103,3 @@ export class ProviderManager {
     }
   }
 }
-

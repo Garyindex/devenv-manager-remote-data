@@ -17,7 +17,7 @@
   "$defs": {
     "toolMetadata": {
       "type": "object",
-      "required": ["id", "name", "categoryId", "platforms", "detection", "sources"],
+      "required": ["id", "name", "categoryId", "platforms", "detection", "quality", "sources"],
       "properties": {
         "id": { "type": "string" },
         "name": { "type": "string" },
@@ -26,12 +26,13 @@
         "detection": { "type": "object" },
         "dependencies": { "type": "object" },
         "risk": { "type": "object" },
+        "quality": { "$ref": "#/$defs/quality" },
         "sources": { "type": "array", "items": { "$ref": "#/$defs/sourceMetadata" } }
       }
     },
     "sourceMetadata": {
       "type": "object",
-      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "versions", "downloads", "commands"],
+      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "versions", "downloads", "commands", "quality"],
       "properties": {
         "id": { "type": "string" },
         "manager": { "type": "string" },
@@ -42,7 +43,20 @@
         "links": { "type": "object" },
         "versions": { "type": "array", "items": { "$ref": "#/$defs/version" } },
         "downloads": { "type": "array", "items": { "$ref": "#/$defs/download" } },
-        "commands": { "type": "array", "items": { "$ref": "#/$defs/command" } }
+        "commands": { "type": "array", "items": { "$ref": "#/$defs/command" } },
+        "quality": { "$ref": "#/$defs/quality" }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "required": ["confidence", "score"],
+      "properties": {
+        "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+        "score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "official": { "type": "boolean" },
+        "lastSuccessfulScanAt": { "type": ["string", "null"] },
+        "failureCount": { "type": "integer", "minimum": 0 },
+        "staleAfterDays": { "type": "integer", "minimum": 1 }
       }
     },
     "version": {
@@ -77,7 +91,7 @@
     },
     "command": {
       "type": "object",
-      "required": ["action", "manager", "platform", "requiresAdmin", "supportsVersion", "shell", "command"],
+      "required": ["action", "manager", "platform", "requiresAdmin", "supportsVersion", "shell", "command", "template"],
       "properties": {
         "action": { "type": "string" },
         "manager": { "type": "string" },
@@ -86,7 +100,8 @@
         "requiresAdmin": { "type": "boolean" },
         "supportsVersion": { "type": "boolean" },
         "shell": { "type": "string" },
-        "command": { "type": "array", "items": { "type": "string" } }
+        "command": { "type": "array", "items": { "type": "string" } },
+        "template": { "type": "array", "items": { "type": "string" } }
       }
     }
   }
