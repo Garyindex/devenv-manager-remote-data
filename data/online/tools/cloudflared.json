@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "cloudflared",
@@ -23,6 +23,33 @@
       "download": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "The command-line client for Argo Tunnel, a tunneling daemon that proxies any local webserver through the Cloudflare network.",
+      "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
+      "source": "choco",
+      "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
+      "lastUpdatedAt": "2026-06-05T06:53:44.408Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "cloud"
+      ],
+      "keywords": [
+        "cloudflared",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco",
+        "github"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -70,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:57.654Z",
+          "scannedAt": "2026-06-05T06:53:44.159Z",
           "errors": []
         },
         "package": {
@@ -87,6 +114,28 @@
           "download": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+          "lastUpdatedAt": "2026-06-05T06:53:44.159Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cloud"
+          ],
+          "keywords": [
+            "cloudflared",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -498,7 +547,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:57.654Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:44.159Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -545,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:57.760Z",
+          "scannedAt": "2026-06-05T06:53:44.233Z",
           "errors": []
         },
         "package": {
@@ -565,6 +614,30 @@
           "download": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.5.2.tar.gz",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Cloudflare Tunnel client (formerly Argo Tunnel)",
+          "long": "Cloudflare Tunnel client (formerly Argo Tunnel)",
+          "source": "homebrew",
+          "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
+          "lastUpdatedAt": "2026-06-05T06:53:44.233Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cloud"
+          ],
+          "keywords": [
+            "cloudflared",
+            "homebrew",
+            "formula",
+            "homebrew/core"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -652,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:57.760Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:44.233Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -698,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:57.790Z",
+          "scannedAt": "2026-06-05T06:53:44.273Z",
           "errors": []
         },
         "package": {
@@ -718,6 +791,29 @@
           "download": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Command-line client to interact with Cloudflare Tunnel, Cloudflare Access, start up a DNS over HTTPS resolver and more.",
+          "long": "Command-line client to interact with Cloudflare Tunnel, Cloudflare Access, start up a DNS over HTTPS resolver and more.",
+          "source": "scoop",
+          "homepage": "https://github.com/cloudflare/cloudflared",
+          "lastUpdatedAt": "2026-06-05T06:53:44.273Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cloud"
+          ],
+          "keywords": [
+            "cloudflared",
+            "scoop",
+            "ScoopInstaller/Main"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -805,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:57.790Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:44.273Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -851,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:57.979Z",
+          "scannedAt": "2026-06-05T06:53:44.408Z",
           "errors": []
         },
         "package": {
@@ -873,6 +969,31 @@
           "download": "https://community.chocolatey.org/api/v2/package/cloudflared/2026.5.2",
           "releases": "https://github.com/cloudflare/cloudflared/releases",
           "docs": null
+        },
+        "descriptions": {
+          "short": "The command-line client for Argo Tunnel, a tunneling daemon that proxies any local webserver through the Cloudflare network.",
+          "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
+          "source": "choco",
+          "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
+          "lastUpdatedAt": "2026-06-05T06:53:44.408Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cloud"
+          ],
+          "keywords": [
+            "cloudflared",
+            "choco",
+            "cloudflare",
+            "argo",
+            "tunnel"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -1258,7 +1379,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:57.979Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:44.408Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1306,7 +1427,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:58.046Z",
+          "scannedAt": "2026-06-05T06:53:44.455Z",
           "errors": []
         },
         "package": {
@@ -1328,6 +1449,32 @@
           "download": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
           "releases": "https://github.com/cloudflare/cloudflared/releases",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Cloudflare Tunnel client",
+          "long": "Cloudflare Tunnel client",
+          "source": "github",
+          "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
+          "lastUpdatedAt": "2026-06-05T06:53:44.455Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cloud"
+          ],
+          "keywords": [
+            "cloudflared",
+            "github",
+            "cloudflare",
+            "cloudflare-tunnel",
+            "reverse-proxy",
+            "zero-trust-network-access"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -2598,7 +2745,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:58.046Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:44.455Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

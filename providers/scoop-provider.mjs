@@ -62,11 +62,15 @@ export class ScoopProvider {
 
   async getPackageDetails(tool, source) {
     const { bucket, data } = await this.manifest(source)
+    const description = data.description ?? tool.description ?? null
     return {
       name: data.name ?? tool.name,
       publisher: bucket,
       author: bucket,
-      description: data.description ?? tool.description ?? null,
+      summary: description,
+      description,
+      longDescription: description,
+      descriptionSource: 'scoop',
       homepage: data.homepage ?? source.links?.homepage ?? tool.links?.homepage ?? null,
       downloadUrl: Array.isArray(data.url) ? data.url[0] : data.url ?? source.links?.download ?? tool.links?.download ?? null,
       releaseNotesUrl: source.links?.releases ?? tool.links?.releases ?? null,

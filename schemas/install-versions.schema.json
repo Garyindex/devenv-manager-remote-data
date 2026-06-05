@@ -17,12 +17,15 @@
   "$defs": {
     "toolMetadata": {
       "type": "object",
-      "required": ["id", "name", "categoryId", "platforms", "detection", "verify", "quality", "sources"],
+      "required": ["id", "name", "categoryId", "platforms", "descriptions", "usage", "notes", "detection", "verify", "quality", "sources"],
       "properties": {
         "id": { "type": "string" },
         "name": { "type": "string" },
         "categoryId": { "type": "string" },
         "platforms": { "type": "array", "items": { "type": "string" } },
+        "descriptions": { "$ref": "#/$defs/descriptions" },
+        "usage": { "$ref": "#/$defs/usage" },
+        "notes": { "$ref": "#/$defs/notes" },
         "detection": { "type": "object" },
         "verify": { "$ref": "#/$defs/verify" },
         "dependencies": { "type": "object" },
@@ -33,7 +36,7 @@
     },
     "sourceMetadata": {
       "type": "object",
-      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "versions", "downloads", "commands", "quality", "verify"],
+      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "descriptions", "usage", "notes", "versions", "downloads", "commands", "quality", "verify"],
       "properties": {
         "id": { "type": "string" },
         "manager": { "type": "string" },
@@ -42,11 +45,43 @@
         "scan": { "type": "object" },
         "package": { "type": "object" },
         "links": { "type": "object" },
+        "descriptions": { "$ref": "#/$defs/descriptions" },
+        "usage": { "$ref": "#/$defs/usage" },
+        "notes": { "$ref": "#/$defs/notes" },
         "versions": { "type": "array", "items": { "$ref": "#/$defs/version" } },
         "downloads": { "type": "array", "items": { "$ref": "#/$defs/download" } },
         "commands": { "type": "array", "items": { "$ref": "#/$defs/command" } },
         "quality": { "$ref": "#/$defs/quality" },
         "verify": { "$ref": "#/$defs/verify" }
+      }
+    },
+    "descriptions": {
+      "type": "object",
+      "required": ["short", "long", "source", "homepage", "lastUpdatedAt"],
+      "properties": {
+        "short": { "type": ["string", "null"], "maxLength": 280 },
+        "long": { "type": ["string", "null"], "maxLength": 1200 },
+        "source": { "type": "string" },
+        "homepage": { "type": ["string", "null"] },
+        "lastUpdatedAt": { "type": ["string", "null"] }
+      }
+    },
+    "usage": {
+      "type": "object",
+      "required": ["primaryUseCases", "keywords", "relatedTools"],
+      "properties": {
+        "primaryUseCases": { "type": "array", "items": { "type": "string" } },
+        "keywords": { "type": "array", "items": { "type": "string" } },
+        "relatedTools": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "notes": {
+      "type": "object",
+      "required": ["install", "upgrade", "knownIssues"],
+      "properties": {
+        "install": { "type": "array", "items": { "type": "string" } },
+        "upgrade": { "type": "array", "items": { "type": "string" } },
+        "knownIssues": { "type": "array", "items": { "type": "string" } }
       }
     },
     "verify": {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "minikube",
@@ -23,6 +23,33 @@
       "download": "https://minikube.sigs.k8s.io/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "Minikube is a tool that makes it easy to run Kubernetes locally.",
+      "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
+      "source": "choco",
+      "homepage": "https://kubernetes.io/",
+      "lastUpdatedAt": "2026-06-05T06:53:40.718Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "container"
+      ],
+      "keywords": [
+        "minikube",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco",
+        "github"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -70,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:53.404Z",
+          "scannedAt": "2026-06-05T06:53:40.228Z",
           "errors": []
         },
         "package": {
@@ -87,6 +114,28 @@
           "download": "https://minikube.sigs.k8s.io/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://minikube.sigs.k8s.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:40.228Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "container"
+          ],
+          "keywords": [
+            "minikube",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -498,7 +547,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:53.404Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:40.228Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -545,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:53.472Z",
+          "scannedAt": "2026-06-05T06:53:40.563Z",
           "errors": []
         },
         "package": {
@@ -565,6 +614,30 @@
           "download": "https://github.com/kubernetes/minikube.git",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Run a Kubernetes cluster locally",
+          "long": "Run a Kubernetes cluster locally",
+          "source": "homebrew",
+          "homepage": "https://minikube.sigs.k8s.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:40.563Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "container"
+          ],
+          "keywords": [
+            "minikube",
+            "homebrew",
+            "formula",
+            "homebrew/core"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -652,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:53.472Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:40.563Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -698,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:53.705Z",
+          "scannedAt": "2026-06-05T06:53:40.701Z",
           "errors": []
         },
         "package": {
@@ -718,6 +791,29 @@
           "download": "https://minikube.sigs.k8s.io/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
+          "long": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
+          "source": "scoop",
+          "homepage": "https://minikube.sigs.k8s.io/docs/",
+          "lastUpdatedAt": "2026-06-05T06:53:40.701Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "container"
+          ],
+          "keywords": [
+            "minikube",
+            "scoop",
+            "ScoopInstaller/Main"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -805,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:53.705Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:40.701Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -851,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:53.715Z",
+          "scannedAt": "2026-06-05T06:53:40.718Z",
           "errors": []
         },
         "package": {
@@ -877,6 +973,35 @@
           "download": "https://community.chocolatey.org/api/v2/package/Minikube/1.38.1",
           "releases": "https://github.com/kubernetes/minikube/blob/v1.38.1/CHANGELOG.md",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Minikube is a tool that makes it easy to run Kubernetes locally.",
+          "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
+          "source": "choco",
+          "homepage": "https://kubernetes.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:40.718Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "container"
+          ],
+          "keywords": [
+            "minikube",
+            "choco",
+            "kubernetes",
+            "docker",
+            "rkt",
+            "containers",
+            "devops",
+            "cli",
+            "foss"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -1262,7 +1387,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:53.715Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:40.718Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1310,7 +1435,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:53.722Z",
+          "scannedAt": "2026-06-05T06:53:40.727Z",
           "errors": []
         },
         "package": {
@@ -1334,6 +1459,33 @@
           "download": "https://minikube.sigs.k8s.io/",
           "releases": "https://github.com/kubernetes/minikube/releases",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Run Kubernetes locally",
+          "long": "Run Kubernetes locally",
+          "source": "github",
+          "homepage": "https://minikube.sigs.k8s.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:40.727Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "container"
+          ],
+          "keywords": [
+            "minikube",
+            "github",
+            "cluster",
+            "cncf",
+            "containers",
+            "go",
+            "kubernetes"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -2604,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:53.722Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:40.727Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

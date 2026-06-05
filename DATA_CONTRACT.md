@@ -150,6 +150,23 @@ The compatibility aggregate remains:
       "name": "Node.js LTS",
       "categoryId": "javascript",
       "platforms": ["windows", "macos", "linux"],
+      "descriptions": {
+        "short": "JavaScript runtime built on Chrome's V8 engine.",
+        "long": "JavaScript runtime built on Chrome's V8 engine.",
+        "source": "winget",
+        "homepage": "https://nodejs.org/",
+        "lastUpdatedAt": "2026-06-05T00:00:00.000Z"
+      },
+      "usage": {
+        "primaryUseCases": ["javascript"],
+        "keywords": ["node_lts", "Node.js LTS", "node", "npm", "winget"],
+        "relatedTools": []
+      },
+      "notes": {
+        "install": [],
+        "upgrade": [],
+        "knownIssues": []
+      },
       "detection": {},
       "verify": {
         "commands": [
@@ -174,6 +191,23 @@ The compatibility aggregate remains:
             "download": "https://nodejs.org/",
             "releases": null,
             "docs": null
+          },
+          "descriptions": {
+            "short": "JavaScript runtime built on Chrome's V8 engine.",
+            "long": "JavaScript runtime built on Chrome's V8 engine.",
+            "source": "winget",
+            "homepage": "https://nodejs.org/",
+            "lastUpdatedAt": "2026-06-05T00:00:00.000Z"
+          },
+          "usage": {
+            "primaryUseCases": ["javascript"],
+            "keywords": ["node_lts", "Node.js LTS", "node", "npm", "winget"],
+            "relatedTools": []
+          },
+          "notes": {
+            "install": [],
+            "upgrade": [],
+            "knownIssues": []
           },
           "versions": [
             {
@@ -242,6 +276,9 @@ The compatibility aggregate remains:
 - `commands[].shell = "argv"` means the app should execute the command as an argv array, not through shell string interpolation.
 - `commands[].command` is the latest/default command.
 - `commands[].template` is the provider-specific argv template. When `supportsVersion = true`, replace the literal `{{version}}` item with the selected version. The data source does not pre-generate one command per historical version.
+- `descriptions.short` is capped at 280 characters. `descriptions.long` is capped at 1200 characters. Both fields are cleaned from upstream package metadata and may be `null` when no reliable description exists.
+- `usage.primaryUseCases`, `usage.keywords`, and `usage.relatedTools` help clients search, group, and explain tools without parsing free text.
+- `notes.install`, `notes.upgrade`, and `notes.knownIssues` are controlled arrays for client display. They are not changelog fields.
 - `downloads[].urlType = "direct-installer"` means the app can download the installer directly.
 - `downloads[].urlType = "download-page"` means the app should open the page or ask the user before downloading.
 - `quality.score` is a 0-100 source confidence score based on official source status, successful scan, version history, download availability, and direct download confidence.

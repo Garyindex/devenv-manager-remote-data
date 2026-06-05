@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "miniconda",
@@ -22,6 +22,34 @@
       "download": "https://docs.conda.io/projects/miniconda/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for...",
+      "long": "Conda is a cross-platform, Python-agnostic binary package manager by Continuum. By default, this installation: will not add miniconda python to path, will register miniconda python at default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path)",
+      "source": "choco",
+      "homepage": "http://conda.pydata.org/miniconda.html",
+      "lastUpdatedAt": "2026-06-05T06:53:30.882Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "python"
+      ],
+      "keywords": [
+        "miniconda",
+        "Miniconda",
+        "conda",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -69,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:45.562Z",
+          "scannedAt": "2026-06-05T06:53:30.649Z",
           "errors": []
         },
         "package": {
@@ -86,6 +114,30 @@
           "download": "https://docs.conda.io/projects/miniconda/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://docs.conda.io/projects/miniconda/",
+          "lastUpdatedAt": "2026-06-05T06:53:30.649Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "python"
+          ],
+          "keywords": [
+            "miniconda",
+            "Miniconda",
+            "conda",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [],
         "downloads": [
@@ -196,7 +248,7 @@
           "confidence": "medium",
           "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:45.562Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:30.649Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -242,7 +294,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:45.608Z",
+          "scannedAt": "2026-06-05T06:53:30.696Z",
           "errors": []
         },
         "package": {
@@ -262,6 +314,32 @@
           "download": "https://repo.anaconda.com/miniconda/Miniconda3-py313_26.3.2-2-MacOSX-arm64.sh",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Minimal installer for conda",
+          "long": "Minimal installer for conda",
+          "source": "homebrew",
+          "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
+          "lastUpdatedAt": "2026-06-05T06:53:30.696Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "python"
+          ],
+          "keywords": [
+            "miniconda",
+            "Miniconda",
+            "conda",
+            "homebrew",
+            "cask",
+            "homebrew/cask"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -349,7 +427,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:45.608Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:30.696Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -395,7 +473,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:45.673Z",
+          "scannedAt": "2026-06-05T06:53:30.800Z",
           "errors": []
         },
         "package": {
@@ -415,6 +493,31 @@
           "download": "https://docs.conda.io/projects/miniconda/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "A cross-platform, Python-agnostic binary package manager",
+          "long": "A cross-platform, Python-agnostic binary package manager",
+          "source": "scoop",
+          "homepage": "https://docs.anaconda.com/miniconda/",
+          "lastUpdatedAt": "2026-06-05T06:53:30.800Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "python"
+          ],
+          "keywords": [
+            "miniconda",
+            "Miniconda",
+            "conda",
+            "scoop",
+            "ScoopInstaller/Extras"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -502,7 +605,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:45.673Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:30.800Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -548,7 +651,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:45.852Z",
+          "scannedAt": "2026-06-05T06:53:30.882Z",
           "errors": []
         },
         "package": {
@@ -571,6 +674,33 @@
           "download": "https://community.chocolatey.org/api/v2/package/miniconda3/4.12.0",
           "releases": "",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for...",
+          "long": "Conda is a cross-platform, Python-agnostic binary package manager by Continuum. By default, this installation: will not add miniconda python to path, will register miniconda python at default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path)",
+          "source": "choco",
+          "homepage": "http://conda.pydata.org/miniconda.html",
+          "lastUpdatedAt": "2026-06-05T06:53:30.882Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "python"
+          ],
+          "keywords": [
+            "miniconda",
+            "Miniconda",
+            "conda",
+            "choco",
+            "anaconda",
+            "python",
+            "miniconda3"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -856,7 +986,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:45.852Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:30.882Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

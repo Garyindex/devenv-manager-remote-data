@@ -51,11 +51,15 @@ export class HomebrewProvider {
 
   async getPackageDetails(tool, source) {
     const { kind, data } = await this.fetchPackage(source)
+    const description = data.desc ?? data.description ?? tool.description ?? null
     return {
       name: data.full_name ?? data.name?.[0] ?? data.token ?? tool.name,
       publisher: data.tap ?? 'Homebrew',
       author: data.tap ?? 'Homebrew',
-      description: data.desc ?? data.description ?? tool.description ?? null,
+      summary: description,
+      description,
+      longDescription: description,
+      descriptionSource: 'homebrew',
       homepage: data.homepage ?? source.links?.homepage ?? tool.links?.homepage ?? null,
       downloadUrl: kind === 'formula'
         ? data.urls?.stable?.url ?? source.links?.download ?? tool.links?.download ?? null

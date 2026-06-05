@@ -63,11 +63,16 @@ export class ChocoProvider {
     const feed = await this.feed(source)
     const first = entries(feed)[0]
     if (!first) throw new Error(`No Chocolatey package found for ${source.packageId}`)
+    const summary = xmlText(first, 'd:Summary') ?? xmlText(first, 'summary') ?? null
+    const longDescription = xmlText(first, 'd:Description') ?? null
     return {
       name: xmlText(first, 'd:Title') ?? xmlText(first, 'title') ?? tool.name,
       publisher: xmlText(first, 'd:Authors') ?? xmlText(first, 'name') ?? null,
       author: xmlText(first, 'd:Authors') ?? xmlText(first, 'name') ?? null,
-      description: xmlText(first, 'd:Summary') ?? xmlText(first, 'summary') ?? xmlText(first, 'd:Description') ?? null,
+      summary,
+      description: summary ?? longDescription,
+      longDescription,
+      descriptionSource: 'choco',
       homepage: xmlText(first, 'd:ProjectUrl') ?? source.links?.homepage ?? tool.links?.homepage ?? null,
       downloadUrl: contentUrl(first) ?? source.links?.download ?? tool.links?.download ?? null,
       releaseNotesUrl: xmlText(first, 'd:ReleaseNotes') ?? source.links?.releases ?? tool.links?.releases ?? null,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "redis",
@@ -23,6 +23,34 @@
       "download": "https://redis.io/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabili...",
+      "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
+      "source": "choco",
+      "homepage": "https://github.com/microsoftarchive/redis",
+      "lastUpdatedAt": "2026-06-05T06:53:47.397Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "database"
+      ],
+      "keywords": [
+        "redis",
+        "Redis",
+        "redis-server",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -70,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:58:00.930Z",
+          "scannedAt": "2026-06-05T06:53:47.260Z",
           "errors": []
         },
         "package": {
@@ -87,6 +115,30 @@
           "download": "https://redis.io/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://redis.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:47.260Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "database"
+          ],
+          "keywords": [
+            "redis",
+            "Redis",
+            "redis-server",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -208,7 +260,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:58:00.930Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:47.260Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -255,7 +307,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:58:00.957Z",
+          "scannedAt": "2026-06-05T06:53:47.288Z",
           "errors": []
         },
         "package": {
@@ -275,6 +327,32 @@
           "download": "https://download.redis.io/releases/redis-8.8.0.tar.gz",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Persistent key-value database, with built-in net interface",
+          "long": "Persistent key-value database, with built-in net interface",
+          "source": "homebrew",
+          "homepage": "https://redis.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:47.288Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "database"
+          ],
+          "keywords": [
+            "redis",
+            "Redis",
+            "redis-server",
+            "homebrew",
+            "formula",
+            "homebrew/core"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -382,7 +460,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:58:00.957Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:47.288Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -428,7 +506,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:58:01.004Z",
+          "scannedAt": "2026-06-05T06:53:47.288Z",
           "errors": []
         },
         "package": {
@@ -448,6 +526,31 @@
           "download": "https://redis.io/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "In-memory data structure store, used as a database, cache and message broker",
+          "long": "In-memory data structure store, used as a database, cache and message broker",
+          "source": "scoop",
+          "homepage": "https://redis.io",
+          "lastUpdatedAt": "2026-06-05T06:53:47.288Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "database"
+          ],
+          "keywords": [
+            "redis",
+            "Redis",
+            "redis-server",
+            "scoop",
+            "ScoopInstaller/Main"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -535,7 +638,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:58:01.004Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:47.288Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -581,7 +684,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:58:01.055Z",
+          "scannedAt": "2026-06-05T06:53:47.397Z",
           "errors": []
         },
         "package": {
@@ -602,6 +705,32 @@
           "download": "https://community.chocolatey.org/api/v2/package/redis-64/3.1.0",
           "releases": "The release notes are available [here](https://raw.githubusercontent.com/MSOpenTech/redis/3.0/Redis%20on%20Windows%20Release%20Notes.md)",
           "docs": null
+        },
+        "descriptions": {
+          "short": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabili...",
+          "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
+          "source": "choco",
+          "homepage": "https://github.com/microsoftarchive/redis",
+          "lastUpdatedAt": "2026-06-05T06:53:47.397Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "database"
+          ],
+          "keywords": [
+            "redis",
+            "Redis",
+            "redis-server",
+            "choco",
+            "nosql",
+            "cache"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -837,7 +966,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:58:01.055Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:47.397Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

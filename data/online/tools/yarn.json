@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "yarn",
@@ -23,6 +23,33 @@
       "download": "https://yarnpkg.com/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "Package manager for the npm and bower package repositories",
+      "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
+      "source": "choco",
+      "homepage": "https://classic.yarnpkg.com/",
+      "lastUpdatedAt": "2026-06-05T06:53:27.114Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "javascript"
+      ],
+      "keywords": [
+        "yarn",
+        "Yarn",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -70,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.640Z",
+          "scannedAt": "2026-06-05T06:53:26.924Z",
           "errors": []
         },
         "package": {
@@ -87,6 +114,29 @@
           "download": "https://yarnpkg.com/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://yarnpkg.com/",
+          "lastUpdatedAt": "2026-06-05T06:53:26.924Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "yarn",
+            "Yarn",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -258,7 +308,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.640Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:26.924Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -305,7 +355,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.671Z",
+          "scannedAt": "2026-06-05T06:53:27.071Z",
           "errors": []
         },
         "package": {
@@ -325,6 +375,31 @@
           "download": "https://yarnpkg.com/downloads/1.22.22/yarn-v1.22.22.tar.gz",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "JavaScript package manager",
+          "long": "JavaScript package manager",
+          "source": "homebrew",
+          "homepage": "https://yarnpkg.com/",
+          "lastUpdatedAt": "2026-06-05T06:53:27.071Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "yarn",
+            "Yarn",
+            "homebrew",
+            "formula",
+            "homebrew/core"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -412,7 +487,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.671Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:27.071Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -458,7 +533,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.756Z",
+          "scannedAt": "2026-06-05T06:53:27.091Z",
           "errors": []
         },
         "package": {
@@ -478,6 +553,30 @@
           "download": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Node.js dependency manager",
+          "long": "Node.js dependency manager",
+          "source": "scoop",
+          "homepage": "https://yarnpkg.com/",
+          "lastUpdatedAt": "2026-06-05T06:53:27.091Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "yarn",
+            "Yarn",
+            "scoop",
+            "ScoopInstaller/Main"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -565,7 +664,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.756Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:27.091Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +710,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.910Z",
+          "scannedAt": "2026-06-05T06:53:27.114Z",
           "errors": []
         },
         "package": {
@@ -637,6 +736,36 @@
           "download": "https://community.chocolatey.org/api/v2/package/yarn/1.22.22",
           "releases": "https://github.com/yarnpkg/yarn/releases/tag/v1.22.19",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Package manager for the npm and bower package repositories",
+          "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
+          "source": "choco",
+          "homepage": "https://classic.yarnpkg.com/",
+          "lastUpdatedAt": "2026-06-05T06:53:27.114Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "yarn",
+            "Yarn",
+            "choco",
+            "node",
+            "nodejs",
+            "npm",
+            "javascript",
+            "packages",
+            "bower",
+            "admin"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -1022,7 +1151,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.910Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:27.114Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

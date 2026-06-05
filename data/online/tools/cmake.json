@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "cmake",
@@ -23,6 +23,34 @@
       "download": "https://cmake.org/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "Cross-platform, open-source build system including CMake, CTest, CPack, and CMake-GUI",
+      "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
+      "source": "choco",
+      "homepage": "https://www.cmake.org/",
+      "lastUpdatedAt": "2026-06-05T06:53:35.102Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "cpp"
+      ],
+      "keywords": [
+        "cmake",
+        "CMake",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco",
+        "github"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -72,7 +100,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:49.616Z",
+          "scannedAt": "2026-06-05T06:53:35.020Z",
           "errors": []
         },
         "package": {
@@ -89,6 +117,29 @@
           "download": "https://cmake.org/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://cmake.org/",
+          "lastUpdatedAt": "2026-06-05T06:53:35.020Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cpp"
+          ],
+          "keywords": [
+            "cmake",
+            "CMake",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -500,7 +551,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:49.616Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:35.020Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -549,7 +600,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:49.671Z",
+          "scannedAt": "2026-06-05T06:53:35.079Z",
           "errors": []
         },
         "package": {
@@ -569,6 +620,31 @@
           "download": "https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3.tar.gz",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Cross-platform make",
+          "long": "Cross-platform make",
+          "source": "homebrew",
+          "homepage": "https://www.cmake.org/",
+          "lastUpdatedAt": "2026-06-05T06:53:35.079Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cpp"
+          ],
+          "keywords": [
+            "cmake",
+            "CMake",
+            "homebrew",
+            "formula",
+            "homebrew/core"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -656,7 +732,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:49.671Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:35.079Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -704,7 +780,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:49.681Z",
+          "scannedAt": "2026-06-05T06:53:35.080Z",
           "errors": []
         },
         "package": {
@@ -724,6 +800,30 @@
           "download": "https://cmake.org/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Family of tools designed to build, test and package software",
+          "long": "Family of tools designed to build, test and package software",
+          "source": "scoop",
+          "homepage": "https://cmake.org",
+          "lastUpdatedAt": "2026-06-05T06:53:35.080Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cpp"
+          ],
+          "keywords": [
+            "cmake",
+            "CMake",
+            "scoop",
+            "ScoopInstaller/Main"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -811,7 +911,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:49.681Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:35.080Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -859,7 +959,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:49.703Z",
+          "scannedAt": "2026-06-05T06:53:35.102Z",
           "errors": []
         },
         "package": {
@@ -883,6 +983,34 @@
           "download": "https://community.chocolatey.org/api/v2/package/cmake/4.3.3",
           "releases": "#### Program\n* [News](https://blog.kitware.com/tag/CMake/)\n* [Changelog](https://www.cmake.org/download/#latest)",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Cross-platform, open-source build system including CMake, CTest, CPack, and CMake-GUI",
+          "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
+          "source": "choco",
+          "homepage": "https://www.cmake.org/",
+          "lastUpdatedAt": "2026-06-05T06:53:35.102Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cpp"
+          ],
+          "keywords": [
+            "cmake",
+            "CMake",
+            "choco",
+            "compiler",
+            "make",
+            "build",
+            "foss",
+            "cross-platform"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -1268,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:49.703Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:35.102Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1318,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:49.777Z",
+          "scannedAt": "2026-06-05T06:53:35.264Z",
           "errors": []
         },
         "package": {
@@ -1335,6 +1463,29 @@
           "download": "https://cmake.org/",
           "releases": "https://github.com/Kitware/CMake/releases",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Mirror of CMake upstream repository",
+          "long": "Mirror of CMake upstream repository",
+          "source": "github",
+          "homepage": "https://gitlab.kitware.com/cmake/cmake",
+          "lastUpdatedAt": "2026-06-05T06:53:35.264Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "cpp"
+          ],
+          "keywords": [
+            "cmake",
+            "CMake",
+            "github"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -2605,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:49.777Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:35.264Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

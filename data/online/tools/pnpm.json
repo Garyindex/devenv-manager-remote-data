@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "pnpm",
@@ -23,6 +23,32 @@
       "download": "https://pnpm.io/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "Fast, disk space efficient package manager for Node-based projects.",
+      "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
+      "source": "choco",
+      "homepage": "https://pnpm.io/",
+      "lastUpdatedAt": "2026-06-05T06:53:26.924Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "javascript"
+      ],
+      "keywords": [
+        "pnpm",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -70,7 +96,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.296Z",
+          "scannedAt": "2026-06-05T06:53:26.669Z",
           "errors": []
         },
         "package": {
@@ -87,6 +113,28 @@
           "download": "https://pnpm.io/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://pnpm.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:26.669Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "pnpm",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -498,7 +546,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.296Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:26.669Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -545,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.354Z",
+          "scannedAt": "2026-06-05T06:53:26.723Z",
           "errors": []
         },
         "package": {
@@ -565,6 +613,30 @@
           "download": "https://registry.npmjs.org/pnpm/-/pnpm-11.5.1.tgz",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Fast, disk space efficient package manager",
+          "long": "Fast, disk space efficient package manager",
+          "source": "homebrew",
+          "homepage": "https://pnpm.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:26.723Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "pnpm",
+            "homebrew",
+            "formula",
+            "homebrew/core"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -672,7 +744,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.354Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:26.723Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -718,7 +790,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.450Z",
+          "scannedAt": "2026-06-05T06:53:26.734Z",
           "errors": []
         },
         "package": {
@@ -738,6 +810,29 @@
           "download": "https://pnpm.io/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "A fast and disk space efficient Node package manager.",
+          "long": "A fast and disk space efficient Node package manager.",
+          "source": "scoop",
+          "homepage": "https://pnpm.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:26.734Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "pnpm",
+            "scoop",
+            "ScoopInstaller/Main"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -825,7 +920,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.450Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:26.734Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -871,7 +966,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:41.510Z",
+          "scannedAt": "2026-06-05T06:53:26.924Z",
           "errors": []
         },
         "package": {
@@ -892,6 +987,30 @@
           "download": "https://community.chocolatey.org/api/v2/package/pnpm/10.33.2",
           "releases": "[pnpm release notes](https://github.com/pnpm/pnpm/releases)",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Fast, disk space efficient package manager for Node-based projects.",
+          "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
+          "source": "choco",
+          "homepage": "https://pnpm.io/",
+          "lastUpdatedAt": "2026-06-05T06:53:26.924Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "javascript"
+          ],
+          "keywords": [
+            "pnpm",
+            "choco",
+            "node",
+            "npm"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -1277,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:41.510Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:26.924Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

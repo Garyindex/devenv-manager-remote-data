@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T05:58:12.006Z",
+  "generatedAt": "2026-06-05T06:53:58.082Z",
   "status": "ok",
   "tool": {
     "id": "temurin_21",
@@ -22,6 +22,35 @@
       "download": "https://adoptium.net/",
       "releases": null,
       "docs": null
+    },
+    "descriptions": {
+      "short": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK HotSpot.",
+      "long": "Temurin The Temurin21 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
+      "source": "choco",
+      "homepage": "https://adoptium.net/",
+      "lastUpdatedAt": "2026-06-05T06:53:33.370Z"
+    },
+    "usage": {
+      "primaryUseCases": [
+        "java"
+      ],
+      "keywords": [
+        "temurin_21",
+        "Eclipse Temurin JDK 21",
+        "java",
+        "javac",
+        "official-download",
+        "winget",
+        "homebrew",
+        "scoop",
+        "choco"
+      ],
+      "relatedTools": []
+    },
+    "notes": {
+      "install": [],
+      "upgrade": [],
+      "knownIssues": []
     },
     "detection": {
       "commands": [
@@ -83,7 +112,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:47.522Z",
+          "scannedAt": "2026-06-05T06:53:32.527Z",
           "errors": []
         },
         "package": {
@@ -100,6 +129,31 @@
           "download": "https://adoptium.net/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": null,
+          "long": null,
+          "source": "winget",
+          "homepage": "https://adoptium.net/",
+          "lastUpdatedAt": "2026-06-05T06:53:32.527Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "java"
+          ],
+          "keywords": [
+            "temurin_21",
+            "Eclipse Temurin JDK 21",
+            "java",
+            "javac",
+            "winget"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -331,7 +385,7 @@
           "confidence": "high",
           "score": 90,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:47.522Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:32.527Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -391,7 +445,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:47.592Z",
+          "scannedAt": "2026-06-05T06:53:32.764Z",
           "errors": []
         },
         "package": {
@@ -411,6 +465,33 @@
           "download": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.11_10.pkg",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "JDK from the Eclipse Foundation (Adoptium)",
+          "long": "JDK from the Eclipse Foundation (Adoptium)",
+          "source": "homebrew",
+          "homepage": "https://adoptium.net/",
+          "lastUpdatedAt": "2026-06-05T06:53:32.764Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "java"
+          ],
+          "keywords": [
+            "temurin_21",
+            "Eclipse Temurin JDK 21",
+            "java",
+            "javac",
+            "homebrew",
+            "cask",
+            "homebrew/cask"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -498,7 +579,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:47.592Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:32.764Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -558,7 +639,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:47.724Z",
+          "scannedAt": "2026-06-05T06:53:33.190Z",
           "errors": []
         },
         "package": {
@@ -578,6 +659,32 @@
           "download": "https://adoptium.net/",
           "releases": null,
           "docs": null
+        },
+        "descriptions": {
+          "short": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
+          "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
+          "source": "scoop",
+          "homepage": "https://adoptium.net",
+          "lastUpdatedAt": "2026-06-05T06:53:33.190Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "java"
+          ],
+          "keywords": [
+            "temurin_21",
+            "Eclipse Temurin JDK 21",
+            "java",
+            "javac",
+            "scoop",
+            "ScoopInstaller/Java"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -665,7 +772,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:47.724Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:33.190Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -725,7 +832,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T05:57:47.750Z",
+          "scannedAt": "2026-06-05T06:53:33.370Z",
           "errors": []
         },
         "package": {
@@ -746,6 +853,33 @@
           "download": "https://community.chocolatey.org/api/v2/package/Temurin21/21.0.9.10",
           "releases": "",
           "docs": null
+        },
+        "descriptions": {
+          "short": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK HotSpot.",
+          "long": "Temurin The Temurin21 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
+          "source": "choco",
+          "homepage": "https://adoptium.net/",
+          "lastUpdatedAt": "2026-06-05T06:53:33.370Z"
+        },
+        "usage": {
+          "primaryUseCases": [
+            "java"
+          ],
+          "keywords": [
+            "temurin_21",
+            "Eclipse Temurin JDK 21",
+            "java",
+            "javac",
+            "choco",
+            "openjdk",
+            "jvm"
+          ],
+          "relatedTools": []
+        },
+        "notes": {
+          "install": [],
+          "upgrade": [],
+          "knownIssues": []
         },
         "versions": [
           {
@@ -921,7 +1055,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T05:57:47.750Z",
+          "lastSuccessfulScanAt": "2026-06-05T06:53:33.370Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

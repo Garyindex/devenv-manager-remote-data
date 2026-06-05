@@ -42,13 +42,46 @@
  * @property {number=} failureCount
  * @property {number=} staleAfterDays
  *
+ * @typedef {object} DescriptionMetadata
+ * @property {string | null} short
+ * @property {string | null} long
+ * @property {string} source
+ * @property {string | null} homepage
+ * @property {string | null} lastUpdatedAt
+ *
+ * @typedef {object} UsageMetadata
+ * @property {string[]} primaryUseCases
+ * @property {string[]} keywords
+ * @property {string[]} relatedTools
+ *
+ * @typedef {object} NotesMetadata
+ * @property {string[]} install
+ * @property {string[]} upgrade
+ * @property {string[]} knownIssues
+ *
+ * @typedef {object} PackageDetails
+ * @property {string=} name
+ * @property {string | null=} publisher
+ * @property {string | null=} author
+ * @property {string | null=} summary
+ * @property {string | null=} description
+ * @property {string | null=} longDescription
+ * @property {string | null=} descriptionSource
+ * @property {string | null=} homepage
+ * @property {string | null=} downloadUrl
+ * @property {string | null=} releaseNotesUrl
+ * @property {string | null=} license
+ * @property {string | null=} licenseUrl
+ * @property {string[]=} tags
+ * @property {NotesMetadata=} notes
+ *
  * @typedef {object} ToolProvider
  * @property {string} id
  * @property {(tool: object, source?: object) => boolean} supports
- * @property {(tool: object, source: object) => Promise<object>} getPackageDetails
+ * @property {(tool: object, source: object) => Promise<PackageDetails>} getPackageDetails
  * @property {(tool: object, source: object) => Promise<ProviderVersion[]>} getVersions
  * @property {(tool: object, source: object) => ProviderCommand[]} buildCommands
- * @property {(tool: object, source: object, details: object, versions: ProviderVersion[]) => ProviderDownload[]=} buildDownloads
+ * @property {(tool: object, source: object, details: PackageDetails, versions: ProviderVersion[]) => ProviderDownload[]=} buildDownloads
  */
 
 export {}

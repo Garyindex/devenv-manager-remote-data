@@ -51,6 +51,38 @@ function validateQuality(value, label) {
   assertNumber(value?.score, `${label}.score`, { min: 0, max: 100 })
 }
 
+function validateStringArray(value, label) {
+  assert(Array.isArray(value), `${label} must be an array`)
+  for (const [index, item] of (value ?? []).entries()) {
+    assertString(item, `${label}[${index}]`)
+  }
+}
+
+function validateDescriptions(value, label) {
+  assert(isObject(value), `${label} must be an object`)
+  assert(typeof value?.short === 'string' || value?.short === null, `${label}.short must be string or null`)
+  assert(typeof value?.long === 'string' || value?.long === null, `${label}.long must be string or null`)
+  if (typeof value?.short === 'string') assert(value.short.length <= 280, `${label}.short must be <= 280 characters`)
+  if (typeof value?.long === 'string') assert(value.long.length <= 1200, `${label}.long must be <= 1200 characters`)
+  assertString(value?.source, `${label}.source`)
+  assert(typeof value?.homepage === 'string' || value?.homepage === null, `${label}.homepage must be string or null`)
+  assert(typeof value?.lastUpdatedAt === 'string' || value?.lastUpdatedAt === null, `${label}.lastUpdatedAt must be string or null`)
+}
+
+function validateUsage(value, label) {
+  assert(isObject(value), `${label} must be an object`)
+  validateStringArray(value?.primaryUseCases, `${label}.primaryUseCases`)
+  validateStringArray(value?.keywords, `${label}.keywords`)
+  validateStringArray(value?.relatedTools, `${label}.relatedTools`)
+}
+
+function validateNotes(value, label) {
+  assert(isObject(value), `${label} must be an object`)
+  validateStringArray(value?.install, `${label}.install`)
+  validateStringArray(value?.upgrade, `${label}.upgrade`)
+  validateStringArray(value?.knownIssues, `${label}.knownIssues`)
+}
+
 function assertUnique(items, getId, label) {
   const seen = new Set()
   for (const item of items) {
@@ -172,6 +204,9 @@ function validateInstallVersions(data) {
     assertString(tool?.name, `${tool?.id}.name`)
     assertString(tool?.categoryId, `${tool?.id}.categoryId`)
     assert(Array.isArray(tool?.platforms), `${tool?.id}.platforms must be an array`)
+    validateDescriptions(tool?.descriptions, `${tool?.id}.descriptions`)
+    validateUsage(tool?.usage, `${tool?.id}.usage`)
+    validateNotes(tool?.notes, `${tool?.id}.notes`)
     assert(isObject(tool?.detection), `${tool?.id}.detection must be an object`)
     validateVerify(tool?.verify, `${tool?.id}.verify`)
     validateQuality(tool?.quality, `${tool?.id}.quality`)
@@ -184,6 +219,9 @@ function validateInstallVersions(data) {
       assert(isObject(source?.scan), `${tool.id}.sources.scan must be an object`)
       assert(isObject(source?.package), `${tool.id}.sources.package must be an object`)
       assert(isObject(source?.links), `${tool.id}.sources.links must be an object`)
+      validateDescriptions(source?.descriptions, `${tool.id}.sources.${source?.id}.descriptions`)
+      validateUsage(source?.usage, `${tool.id}.sources.${source?.id}.usage`)
+      validateNotes(source?.notes, `${tool.id}.sources.${source?.id}.notes`)
       assert(Array.isArray(source?.versions), `${tool.id}.sources.versions must be an array`)
       assert(Array.isArray(source?.downloads), `${tool.id}.sources.downloads must be an array`)
       assert(Array.isArray(source?.commands), `${tool.id}.sources.commands must be an array`)
