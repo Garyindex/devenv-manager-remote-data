@@ -21,6 +21,16 @@ function qualityFor({ source, details, versions, downloads, scan }) {
   }
 }
 
+function verifyFor(tool) {
+  return {
+    commands: (tool.detection?.commands ?? []).map((item) => ({
+      command: item.command,
+      args: item.versionArg ? [item.versionArg] : [],
+      expectedPattern: item.expectedPattern ?? '.+'
+    }))
+  }
+}
+
 export function buildSourceMetadata({ tool, source, provider, details, versions, downloads, commands, scan }) {
   const quality = qualityFor({ source, details, versions, downloads, scan })
   return {
@@ -55,6 +65,7 @@ export function buildSourceMetadata({ tool, source, provider, details, versions,
       optionalDependencies: tool.requirements?.optionalDependencies ?? []
     },
     detection: tool.detection ?? { commands: [] },
+    verify: verifyFor(tool),
     risk: {
       requiresAdmin: Boolean(tool.requirements?.requiresAdmin),
       portable: Boolean(tool.requirements?.portable),
@@ -75,6 +86,7 @@ export function buildToolMetadata(tool, sources) {
     lifecycle: tool.lifecycle ?? {},
     links: tool.links ?? {},
     detection: tool.detection ?? { commands: [] },
+    verify: verifyFor(tool),
     dependencies: {
       dependsOn: tool.requirements?.dependencies ?? [],
       optionalDependencies: tool.requirements?.optionalDependencies ?? []

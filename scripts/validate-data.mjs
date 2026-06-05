@@ -153,6 +153,7 @@ function validateInstallVersions(data) {
     assertString(tool?.categoryId, `${tool?.id}.categoryId`)
     assert(Array.isArray(tool?.platforms), `${tool?.id}.platforms must be an array`)
     assert(isObject(tool?.detection), `${tool?.id}.detection must be an object`)
+    validateVerify(tool?.verify, `${tool?.id}.verify`)
     validateQuality(tool?.quality, `${tool?.id}.quality`)
     assert(Array.isArray(tool?.sources), `${tool?.id}.sources must be an array`)
     for (const source of tool?.sources ?? []) {
@@ -167,6 +168,7 @@ function validateInstallVersions(data) {
       assert(Array.isArray(source?.downloads), `${tool.id}.sources.downloads must be an array`)
       assert(Array.isArray(source?.commands), `${tool.id}.sources.commands must be an array`)
       validateQuality(source?.quality, `${tool.id}.sources.${source?.id}.quality`)
+      validateVerify(source?.verify, `${tool.id}.sources.${source?.id}.verify`)
       for (const version of source?.versions ?? []) {
         assertString(version?.version, `${tool.id}.sources.versions.version`)
         assert(typeof version?.latest === 'boolean', `${tool.id}.sources.versions.latest must be boolean`)
@@ -191,6 +193,44 @@ function validateInstallVersions(data) {
         }
       }
     }
+  }
+}
+
+function validateVerify(value, label) {
+  assert(isObject(value), `${label} must be an object`)
+  assert(Array.isArray(value?.commands), `${label}.commands must be an array`)
+  for (const [index, command] of (value?.commands ?? []).entries()) {
+    assertString(command?.command, `${label}.commands[${index}].command`)
+    assert(Array.isArray(command?.args), `${label}.commands[${index}].args must be an array`)
+    assertString(command?.expectedPattern, `${label}.commands[${index}].expectedPattern`)
+  }
+}
+
+function validateSourcePolicy(data) {
+  if (!data) return
+  assert(isObject(data), 'source-policy root must be an object')
+  assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'source-policy schemaVersion must be a positive integer')
+  assert(typeof data?.generatedAt === 'string', 'source-policy generatedAt must be a string')
+  assert(isObject(data?.platforms), 'source-policy platforms must be an object')
+  for (const platform of ['windows', 'macos', 'linux']) {
+    const policy = data?.platforms?.[platform]
+    assert(isObject(policy), `source-policy.platforms.${platform} must be an object`)
+    assert(Array.isArray(policy?.managerPriority) && policy.managerPriority.length > 0, `source-policy.platforms.${platform}.managerPriority must be a non-empty array`)
+    assertNumber(policy?.minimumQualityScore, `source-policy.platforms.${platform}.minimumQualityScore`, { min: 0, max: 100 })
+  }
+  assert(isObject(data?.selection), 'source-policy selection must be an object')
+  assert(isObject(data?.commandHandling), 'source-policy commandHandling must be an object')
+}
+
+function validateDelta(data) {
+  if (!data) return
+  assert(isObject(data), 'delta root must be an object')
+  assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'delta schemaVersion must be a positive integer')
+  assert(typeof data?.generatedAt === 'string', 'delta generatedAt must be a string')
+  assert(isObject(data?.summary), 'delta summary must be an object')
+  assert(isObject(data?.changes), 'delta changes must be an object')
+  for (const key of ['addedTools', 'removedTools', 'changedTools', 'addedSources', 'removedSources', 'versionChanges', 'qualityChanges']) {
+    assert(Array.isArray(data?.changes?.[key]), `delta.changes.${key} must be an array`)
   }
 }
 
@@ -247,6 +287,16 @@ validateToolRequests(readJson('data/tool-requests.json'))
 const installVersionsPath = path.join(repoRoot, 'data/online/install-versions.json')
 if (fs.existsSync(installVersionsPath)) {
   validateInstallVersions(readJson('data/online/install-versions.json'))
+}
+
+const sourcePolicyPath = path.join(repoRoot, 'data/online/source-policy.json')
+if (fs.existsSync(sourcePolicyPath)) {
+  validateSourcePolicy(readJson('data/online/source-policy.json'))
+}
+
+const deltaPath = path.join(repoRoot, 'data/online/delta.json')
+if (fs.existsSync(deltaPath)) {
+  validateDelta(readJson('data/online/delta.json'))
 }
 
 if (failures.length > 0) {

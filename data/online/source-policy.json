@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:24:04.395Z",
+  "purpose": "Provider selection policy for DevEnv Manager.",
+  "platforms": {
+    "windows": {
+      "managerPriority": [
+        "winget",
+        "scoop",
+        "choco",
+        "github"
+      ],
+      "minimumQualityScore": 45,
+      "preferOfficial": true,
+      "preferPackageManager": true
+    },
+    "macos": {
+      "managerPriority": [
+        "homebrew",
+        "github"
+      ],
+      "minimumQualityScore": 45,
+      "preferOfficial": true,
+      "preferPackageManager": true
+    },
+    "linux": {
+      "managerPriority": [
+        "homebrew",
+        "github"
+      ],
+      "minimumQualityScore": 45,
+      "preferOfficial": true,
+      "preferPackageManager": true
+    }
+  },
+  "selection": {
+    "sort": [
+      {
+        "field": "platformMatch",
+        "direction": "desc"
+      },
+      {
+        "field": "quality.score",
+        "direction": "desc"
+      },
+      {
+        "field": "source.priority",
+        "direction": "asc"
+      },
+      {
+        "field": "managerPriority",
+        "direction": "asc"
+      },
+      {
+        "field": "directDownload",
+        "direction": "desc"
+      }
+    ],
+    "reject": {
+      "scanStatus": [
+        "failed"
+      ],
+      "qualityConfidence": [
+        "low"
+      ],
+      "missingInstallCommandForPackageManagers": true
+    },
+    "fallback": {
+      "allowGithubReleaseDownload": true,
+      "allowDownloadPage": true
+    }
+  },
+  "commandHandling": {
+    "shell": "argv",
+    "versionPlaceholder": "{{version}}",
+    "injectVersionOnlyWhenSupportsVersion": true
+  }
+}

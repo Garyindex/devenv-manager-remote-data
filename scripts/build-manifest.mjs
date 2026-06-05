@@ -11,7 +11,9 @@ const datasets = [
   { id: 'catalogTools', path: 'data/catalog-tools.json', schema: 'schemas/catalog-tools.schema.json' },
   { id: 'scanRules', path: 'data/scan-rules.json', schema: 'schemas/scan-rules.schema.json' },
   { id: 'toolRequests', path: 'data/tool-requests.json', schema: null },
-  { id: 'installVersions', path: 'data/online/install-versions.json', schema: 'schemas/install-versions.schema.json' }
+  { id: 'installVersions', path: 'data/online/install-versions.json', schema: 'schemas/install-versions.schema.json' },
+  { id: 'sourcePolicy', path: 'data/online/source-policy.json', schema: null },
+  { id: 'delta', path: 'data/online/delta.json', schema: null }
 ]
 
 function fileHash(relativePath) {

@@ -6,6 +6,8 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
 
 - `data/catalog-tools.json`: static cross-platform tool catalog.
 - `data/online/install-versions.json`: daily scanned package metadata.
+- `data/online/source-policy.json`: platform-specific provider selection policy.
+- `data/online/delta.json`: change summary from the previous metadata refresh.
 - `data/online/manifest.json`: dataset index with hashes and byte sizes.
 - `data/tool-requests.json`: accepted or pending tool-support requests.
 
@@ -89,6 +91,11 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
       "categoryId": "javascript",
       "platforms": ["windows", "macos", "linux"],
       "detection": {},
+      "verify": {
+        "commands": [
+          { "command": "node", "args": ["--version"], "expectedPattern": ".+" }
+        ]
+      },
       "sources": [
         {
           "id": "winget",
@@ -154,6 +161,11 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
             "lastSuccessfulScanAt": "2026-06-05T00:00:00.000Z",
             "failureCount": 0,
             "staleAfterDays": 7
+          },
+          "verify": {
+            "commands": [
+              { "command": "node", "args": ["--version"], "expectedPattern": ".+" }
+            ]
           }
         }
       ],
@@ -174,7 +186,38 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
 - `downloads[].urlType = "download-page"` means the app should open the page or ask the user before downloading.
 - `quality.score` is a 0-100 source confidence score based on official source status, successful scan, version history, download availability, and direct download confidence.
 - Prefer higher `quality.score`, lower `priority`, and platform match when choosing a source for one-click install.
+- `verify.commands` gives post-install argv checks. The app should run these after install/update when possible and treat failure as an installation verification failure, not as proof the package source is invalid.
 - Missing runtime data must remain `null` or an empty array. Do not fabricate versions, URLs, hashes, dates, or EOL status.
+
+## Source Policy
+
+`data/online/source-policy.json` tells the app how to rank package sources:
+
+- Windows defaults to `winget`, then `scoop`, then `choco`, then GitHub release downloads.
+- macOS and Linux default to `homebrew`, then GitHub release downloads.
+- Reject sources below `minimumQualityScore` unless the user explicitly chooses a fallback.
+- Always inject versions through `commands[].template` by replacing the literal `{{version}}` argv item.
+
+## Delta Shape
+
+`data/online/delta.json` is generated whenever metadata refresh runs:
+
+```json
+{
+  "schemaVersion": 1,
+  "fromGeneratedAt": "2026-06-05T00:00:00.000Z",
+  "toGeneratedAt": "2026-06-05T06:00:00.000Z",
+  "summary": {
+    "versionChanges": 12,
+    "qualityChanges": 2
+  },
+  "changes": {
+    "versionChanges": [
+      { "toolId": "node_lts", "sourceId": "winget", "manager": "winget", "from": "22.0.0", "to": "22.1.0" }
+    ]
+  }
+}
+```
 
 ## Provider Architecture
 

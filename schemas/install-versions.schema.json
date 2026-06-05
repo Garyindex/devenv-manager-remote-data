@@ -17,13 +17,14 @@
   "$defs": {
     "toolMetadata": {
       "type": "object",
-      "required": ["id", "name", "categoryId", "platforms", "detection", "quality", "sources"],
+      "required": ["id", "name", "categoryId", "platforms", "detection", "verify", "quality", "sources"],
       "properties": {
         "id": { "type": "string" },
         "name": { "type": "string" },
         "categoryId": { "type": "string" },
         "platforms": { "type": "array", "items": { "type": "string" } },
         "detection": { "type": "object" },
+        "verify": { "$ref": "#/$defs/verify" },
         "dependencies": { "type": "object" },
         "risk": { "type": "object" },
         "quality": { "$ref": "#/$defs/quality" },
@@ -32,7 +33,7 @@
     },
     "sourceMetadata": {
       "type": "object",
-      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "versions", "downloads", "commands", "quality"],
+      "required": ["id", "manager", "packageId", "platforms", "scan", "package", "links", "versions", "downloads", "commands", "quality", "verify"],
       "properties": {
         "id": { "type": "string" },
         "manager": { "type": "string" },
@@ -44,7 +45,26 @@
         "versions": { "type": "array", "items": { "$ref": "#/$defs/version" } },
         "downloads": { "type": "array", "items": { "$ref": "#/$defs/download" } },
         "commands": { "type": "array", "items": { "$ref": "#/$defs/command" } },
-        "quality": { "$ref": "#/$defs/quality" }
+        "quality": { "$ref": "#/$defs/quality" },
+        "verify": { "$ref": "#/$defs/verify" }
+      }
+    },
+    "verify": {
+      "type": "object",
+      "required": ["commands"],
+      "properties": {
+        "commands": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["command", "args", "expectedPattern"],
+            "properties": {
+              "command": { "type": "string" },
+              "args": { "type": "array", "items": { "type": "string" } },
+              "expectedPattern": { "type": "string" }
+            }
+          }
+        }
       }
     },
     "quality": {
