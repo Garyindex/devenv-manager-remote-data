@@ -1,0 +1,1290 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "blender",
+    "name": "Blender",
+    "categoryId": "game",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://www.blender.org/",
+      "download": "https://www.blender.org/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "blender",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "blender",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "BlenderFoundation.Blender",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:33.893Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Blender",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://www.blender.org/",
+          "download": "https://www.blender.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "5.1.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "5.1.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://www.blender.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "BlenderFoundation.Blender",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "BlenderFoundation.Blender",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "BlenderFoundation.Blender",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "BlenderFoundation.Blender",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "BlenderFoundation.Blender",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "BlenderFoundation.Blender",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:33.893Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "blender",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "blender",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "blender",
+        "platforms": [
+          "macos"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.000Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Blender",
+          "publisher": "homebrew/cask",
+          "author": "homebrew/cask",
+          "description": "3D creation suite",
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "cask",
+            "homebrew/cask"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.blender.org/",
+          "download": "https://download.blender.org/release/Blender5.1/blender-5.1.2-macos-arm64.dmg",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "5.1.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "5.1.2",
+            "platform": "macos",
+            "architecture": null,
+            "type": "cask",
+            "url": "https://download.blender.org/release/Blender5.1/blender-5.1.2-macos-arm64.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "f104ffee2ba6aee32328e5c203b7e4608d8a1745f7bbcf2766f3b9777e8fbe17",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "blender"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "blender"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "blender"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "blender"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "blender"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "blender"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.000Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "blender",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "blender",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "blender",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.177Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Blender",
+          "publisher": "ScoopInstaller/Extras",
+          "author": "ScoopInstaller/Extras",
+          "description": "3D creation suite",
+          "license": "GPL-3.0-or-later",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Extras"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.blender.org",
+          "download": "https://www.blender.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "5.1.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "5.1.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://www.blender.org/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "blender"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "blender"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "blender"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "blender"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "blender"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "blender"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.177Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "blender",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "blender",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "blender",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.316Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Blender",
+          "publisher": "Blender Foundation",
+          "author": "Blender Foundation",
+          "description": "Blender is 3D creation for everyone, free to use for any purpose.",
+          "license": null,
+          "licenseUrl": "https://www.blender.org/about/license/",
+          "tags": [
+            "blender",
+            "3d",
+            "rendering",
+            "foss",
+            "cross-platform",
+            "modeling",
+            "animation",
+            "admin"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.blender.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/blender/5.1.2",
+          "releases": "https://wiki.blender.org/wiki/Reference/Release_Notes",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "5.1.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.82",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.73",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.68.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.74",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.93.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.90.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.93.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.75",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.72.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "5.1.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/blender/5.1.2",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "XPzWdy21PKqIO08V3EAjt42KGUg3LfGjhzYLfWDkUlv0G/qhOnzb74niOIolb5Nn+4JjK6nwTzkHPVOOpj6w2Q==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "blender",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "blender",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "blender",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "blender",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "blender",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "blender",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.316Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "blender",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "blender",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

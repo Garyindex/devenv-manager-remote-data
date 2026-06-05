@@ -1,0 +1,2098 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "insomnia",
+    "name": "Insomnia",
+    "categoryId": "api",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://insomnia.rest/",
+      "download": "https://insomnia.rest/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": []
+    },
+    "verify": {
+      "commands": []
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "insomnia",
+        "platforms": [
+          "macos"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:23.619Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Insomnia",
+          "publisher": "homebrew/cask",
+          "author": "homebrew/cask",
+          "description": "HTTP and GraphQL Client",
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "cask",
+            "homebrew/cask"
+          ]
+        },
+        "links": {
+          "homepage": "https://insomnia.rest/",
+          "download": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.dmg",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.6.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "12.6.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "cask",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "a922a54282f063da82775826389c05c751f74e3259a9f69b8eaa2bf252531fef",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "insomnia"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "insomnia"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "insomnia"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "insomnia"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "insomnia"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "insomnia"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:23.619Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": []
+        },
+        "verify": {
+          "commands": []
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "insomnia",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:23.694Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Insomnia",
+          "publisher": "ScoopInstaller/Extras",
+          "author": "ScoopInstaller/Extras",
+          "description": "HTTP and GraphQL client",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Extras"
+          ]
+        },
+        "links": {
+          "homepage": "https://insomnia.rest",
+          "download": "https://insomnia.rest/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.6.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "12.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://insomnia.rest/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "insomnia"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "insomnia"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "insomnia"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "insomnia"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "insomnia"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "insomnia"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:23.694Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": []
+        },
+        "verify": {
+          "commands": []
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "insomnia-rest-api-client",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:23.812Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Insomnia",
+          "publisher": "Floating Keyboard Software",
+          "author": "Floating Keyboard Software",
+          "description": "Debug APIs like a human, not a robot. Finally, a REST client you'll love. For 64bit only.",
+          "license": null,
+          "licenseUrl": "https://github.com/getinsomnia/insomnia/blob/develop/LICENSE",
+          "tags": [
+            "admin",
+            "electron",
+            "rest",
+            "api",
+            "curl",
+            "http",
+            "client",
+            "multi-platform"
+          ]
+        },
+        "links": {
+          "homepage": "https://insomnia.rest/",
+          "download": "https://community.chocolatey.org/api/v2/package/insomnia-rest-api-client/2023.11.2",
+          "releases": "https://github.com/getinsomnia/insomnia/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2023.11.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.5.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.8.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.8.4.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.11.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.10.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.16.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.10.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2020.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.7.14",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.7.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2023.11.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/insomnia-rest-api-client/2023.11.2",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "3aegwaHER8ir/K8+f+rM5GXuv+4njr8M76NmVnjXd604w3BFG2Tjfqcge3ksWPILMXb15q/07cDV7IFpCI0RzA==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "insomnia-rest-api-client",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "insomnia-rest-api-client",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "insomnia-rest-api-client",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "insomnia-rest-api-client",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "insomnia-rest-api-client",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "insomnia-rest-api-client",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:23.812Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": []
+        },
+        "verify": {
+          "commands": []
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "Kong/insomnia",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:23.897Z",
+          "errors": []
+        },
+        "package": {
+          "name": "insomnia",
+          "publisher": "Kong",
+          "author": "Kong",
+          "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": [
+            "api",
+            "api-client",
+            "api-design",
+            "curl",
+            "electron-app",
+            "graphql",
+            "grpc",
+            "http-client",
+            "rest-api",
+            "websockets"
+          ]
+        },
+        "links": {
+          "homepage": "https://insomnia.rest",
+          "download": "https://insomnia.rest/",
+          "releases": "https://github.com/Kong/insomnia/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "core@12.6.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-22T00:40:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.6.0"
+          },
+          {
+            "version": "core@12.6.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-05-11T19:04:13Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.6.0-beta.0"
+          },
+          {
+            "version": "core@12.5.1-alpha.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-11T01:00:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.5.1-alpha.0"
+          },
+          {
+            "version": "core@12.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-02T00:50:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.5.0"
+          },
+          {
+            "version": "core@12.5.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-03-26T05:33:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.5.0-beta.0"
+          },
+          {
+            "version": "core@12.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-05T01:22:14Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.4.0"
+          },
+          {
+            "version": "core@12.4.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-02-26T05:14:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.4.0-beta.0"
+          },
+          {
+            "version": "core@12.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-05T06:14:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.3.1"
+          },
+          {
+            "version": "core@12.3.1-beta.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-02-04T09:00:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.3.1-beta.1"
+          },
+          {
+            "version": "core@12.3.1-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-02-02T00:58:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.3.1-beta.0"
+          },
+          {
+            "version": "core@12.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-15T01:39:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.3.0"
+          },
+          {
+            "version": "core@12.3.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-01-08T06:25:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.3.0-beta.0"
+          },
+          {
+            "version": "core@12.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-19T01:12:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.2.0"
+          },
+          {
+            "version": "core@12.2.0-beta.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-16T21:27:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.2.0-beta.1"
+          },
+          {
+            "version": "core@12.2.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-12T19:24:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.2.0-beta.0"
+          },
+          {
+            "version": "core@12.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-21T17:29:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.1.0"
+          },
+          {
+            "version": "core@12.1.0-beta.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-20T11:52:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.1.0-beta.1"
+          },
+          {
+            "version": "core@12.1.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-14T09:22:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.1.0-beta.0"
+          },
+          {
+            "version": "core@12.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-03T13:06:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.0.0"
+          },
+          {
+            "version": "core@12.0.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-10-24T05:13:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4012.0.0-beta.0"
+          },
+          {
+            "version": "core@11.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-21T21:08:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.6.2"
+          },
+          {
+            "version": "core@11.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-18T07:30:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.6.1"
+          },
+          {
+            "version": "core@11.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-11T23:57:40Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.6.0"
+          },
+          {
+            "version": "core@11.6.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-09-05T08:10:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.6.0-beta.0"
+          },
+          {
+            "version": "core@11.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-26T14:18:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.5.0"
+          },
+          {
+            "version": "core@11.5.0-beta.4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-25T10:24:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.5.0-beta.4"
+          },
+          {
+            "version": "core@11.5.0-beta.3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-25T06:23:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.5.0-beta.3"
+          },
+          {
+            "version": "core@11.5.0-beta.2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-21T14:39:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.5.0-beta.2"
+          },
+          {
+            "version": "core@11.5.0-beta.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-20T06:58:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.5.0-beta.1"
+          },
+          {
+            "version": "core@11.5.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-15T03:59:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kong/insomnia/releases/tag/core%4011.5.0-beta.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "alpha.yml",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/alpha.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 356
+          },
+          {
+            "id": "beta.yml",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/beta.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 356
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.cyclonedx.json",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/image-inso-Linux-X64-sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 831602
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.spdx.json",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/image-inso-Linux-X64-sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1901923
+          },
+          {
+            "id": "inso-docker-image.tar",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/inso-docker-image.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 364590592
+          },
+          {
+            "id": "inso-linux-x64-12.6.0.tar.xz",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/inso-linux-x64-12.6.0.tar.xz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50715900
+          },
+          {
+            "id": "inso-macos-12.6.0.zip",
+            "version": "core@12.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/inso-macos-12.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87015076
+          },
+          {
+            "id": "inso-macos-latest-large-12.6.0.pkg",
+            "version": "core@12.6.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/inso-macos-latest-large-12.6.0.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87031378
+          },
+          {
+            "id": "inso-provenance.intoto.jsonl",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/inso-provenance.intoto.jsonl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22251
+          },
+          {
+            "id": "inso-windows-12.6.0.zip",
+            "version": "core@12.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/inso-windows-12.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 88802181
+          },
+          {
+            "id": "insomnia-12.6.0-full.nupkg",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/insomnia-12.6.0-full.nupkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 612850580
+          },
+          {
+            "id": "insomnia-provenance.intoto.jsonl",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/insomnia-provenance.intoto.jsonl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22927
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.AppImage",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "appimage",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.AppImage",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 607222934
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.deb",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 416146968
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.dmg",
+            "version": "core@12.6.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 367557589
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.exe",
+            "version": "core@12.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 610751168
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.rpm",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 361928781
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.snap",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.snap",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 516329472
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.tar.gz",
+            "version": "core@12.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 591504692
+          },
+          {
+            "id": "Insomnia.Core-12.6.0.zip",
+            "version": "core@12.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 353079289
+          },
+          {
+            "id": "Insomnia.Core-nsis-12.6.0.exe",
+            "version": "core@12.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-nsis-12.6.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 506012800
+          },
+          {
+            "id": "latest.yml",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/latest.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 356
+          },
+          {
+            "id": "RELEASES",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/RELEASES",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 80
+          },
+          {
+            "id": "sbom.cyclonedx.json",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3330222
+          },
+          {
+            "id": "sbom.spdx.json",
+            "version": "core@12.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5531148
+          },
+          {
+            "id": "alpha.yml",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/alpha.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 377
+          },
+          {
+            "id": "beta.yml",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/beta.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 377
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.cyclonedx.json",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/image-inso-Linux-X64-sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 831602
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.spdx.json",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/image-inso-Linux-X64-sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1901923
+          },
+          {
+            "id": "inso-docker-image.tar",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/inso-docker-image.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 364591104
+          },
+          {
+            "id": "inso-linux-x64-12.6.0-beta.0.tar.xz",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/inso-linux-x64-12.6.0-beta.0.tar.xz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50720804
+          },
+          {
+            "id": "inso-macos-12.6.0-beta.0.zip",
+            "version": "core@12.6.0-beta.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/inso-macos-12.6.0-beta.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87033794
+          },
+          {
+            "id": "inso-macos-latest-large-12.6.0-beta.0.pkg",
+            "version": "core@12.6.0-beta.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/inso-macos-latest-large-12.6.0-beta.0.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87050208
+          },
+          {
+            "id": "inso-provenance.intoto.jsonl",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/inso-provenance.intoto.jsonl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22063
+          },
+          {
+            "id": "inso-windows-12.6.0-beta.0.zip",
+            "version": "core@12.6.0-beta.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/inso-windows-12.6.0-beta.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 88737052
+          },
+          {
+            "id": "insomnia-12.6.0-beta0-full.nupkg",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/insomnia-12.6.0-beta0-full.nupkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 612834940
+          },
+          {
+            "id": "insomnia-provenance.intoto.jsonl",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/insomnia-provenance.intoto.jsonl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22939
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.AppImage",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "appimage",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.AppImage",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 607230756
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.deb",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 417419480
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.dmg",
+            "version": "core@12.6.0-beta.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 367552685
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.exe",
+            "version": "core@12.6.0-beta.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 610742976
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.rpm",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 361917337
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.snap",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.snap",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 516329472
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.tar.gz",
+            "version": "core@12.6.0-beta.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 591505277
+          },
+          {
+            "id": "Insomnia.Core-12.6.0-beta.0.zip",
+            "version": "core@12.6.0-beta.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-12.6.0-beta.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 353079738
+          },
+          {
+            "id": "Insomnia.Core-nsis-12.6.0-beta.0.exe",
+            "version": "core@12.6.0-beta.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/Insomnia.Core-nsis-12.6.0-beta.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 506016104
+          },
+          {
+            "id": "RELEASES",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/RELEASES",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86
+          },
+          {
+            "id": "sbom.cyclonedx.json",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3330621
+          },
+          {
+            "id": "sbom.spdx.json",
+            "version": "core@12.6.0-beta.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0-beta.0/sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5531505
+          },
+          {
+            "id": "alpha.yml",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/alpha.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 380
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.cyclonedx.json",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/image-inso-Linux-X64-sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 831602
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.spdx.json",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/image-inso-Linux-X64-sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1901923
+          },
+          {
+            "id": "inso-docker-image.tar",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/inso-docker-image.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 364327424
+          },
+          {
+            "id": "inso-linux-x64-12.5.1-alpha.0.tar.xz",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/inso-linux-x64-12.5.1-alpha.0.tar.xz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50678388
+          },
+          {
+            "id": "inso-macos-12.5.1-alpha.0.zip",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/inso-macos-12.5.1-alpha.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86928409
+          },
+          {
+            "id": "inso-macos-latest-large-12.5.1-alpha.0.pkg",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/inso-macos-latest-large-12.5.1-alpha.0.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86944754
+          },
+          {
+            "id": "inso-provenance.intoto.jsonl",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/inso-provenance.intoto.jsonl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14898
+          },
+          {
+            "id": "inso-windows-12.5.1-alpha.0.zip",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/inso-windows-12.5.1-alpha.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 88725417
+          },
+          {
+            "id": "insomnia-12.5.1-alpha0-full.nupkg",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/insomnia-12.5.1-alpha0-full.nupkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 612000048
+          },
+          {
+            "id": "insomnia-provenance.intoto.jsonl",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/insomnia-provenance.intoto.jsonl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 15778
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.AppImage",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "appimage",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.AppImage",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 606235041
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.deb",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 416376228
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.dmg",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 366633598
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.exe",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 609913536
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.rpm",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 362228109
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.snap",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.snap",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 515563520
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.tar.gz",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 590698756
+          },
+          {
+            "id": "Insomnia.Core-12.5.1-alpha.0.zip",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-12.5.1-alpha.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 352258609
+          },
+          {
+            "id": "Insomnia.Core-nsis-12.5.1-alpha.0.exe",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/Insomnia.Core-nsis-12.5.1-alpha.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 505419296
+          },
+          {
+            "id": "RELEASES",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/RELEASES",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87
+          },
+          {
+            "id": "sbom.cyclonedx.json",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3319142
+          },
+          {
+            "id": "sbom.spdx.json",
+            "version": "core@12.5.1-alpha.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.1-alpha.0/sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5517453
+          },
+          {
+            "id": "alpha.yml",
+            "version": "core@12.5.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/alpha.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 356
+          },
+          {
+            "id": "beta.yml",
+            "version": "core@12.5.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/beta.yml",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 356
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.cyclonedx.json",
+            "version": "core@12.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/image-inso-Linux-X64-sbom.cyclonedx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 831682
+          },
+          {
+            "id": "image-inso-Linux-X64-sbom.spdx.json",
+            "version": "core@12.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/image-inso-Linux-X64-sbom.spdx.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1901923
+          },
+          {
+            "id": "inso-docker-image.tar",
+            "version": "core@12.5.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/inso-docker-image.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 358124032
+          },
+          {
+            "id": "inso-linux-x64-12.5.0.tar.xz",
+            "version": "core@12.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/inso-linux-x64-12.5.0.tar.xz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50250080
+          },
+          {
+            "id": "inso-macos-12.5.0.zip",
+            "version": "core@12.5.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/inso-macos-12.5.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85610280
+          },
+          {
+            "id": "inso-macos-latest-large-12.5.0.pkg",
+            "version": "core@12.5.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/Kong/insomnia/releases/download/core%4012.5.0/inso-macos-latest-large-12.5.0.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85626566
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:23.897Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": []
+        },
+        "verify": {
+          "commands": []
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

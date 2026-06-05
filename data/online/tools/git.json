@@ -1,0 +1,1298 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "git",
+    "name": "Git",
+    "categoryId": "source-control",
+    "aliases": [],
+    "tags": [
+      "vcs"
+    ],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://git-scm.com/",
+      "download": "https://git-scm.com/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "git",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "git",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Git.Git",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.123Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Git",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "vcs"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-scm.com/",
+          "download": "https://git-scm.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.54.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.53.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.53.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.53.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.52.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.50.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.50.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.50.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.49.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.48.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.47.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.47.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.47.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.47.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.46.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.46.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.46.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.45.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.45.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.45.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.44.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.43.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.42.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.42.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.41.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.41.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.54.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://git-scm.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Git.Git",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Git.Git",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Git.Git",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Git.Git",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Git.Git",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Git.Git",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.123Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "git",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.161Z",
+          "errors": []
+        },
+        "package": {
+          "name": "git",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Distributed revision control system",
+          "license": "GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause AND MIT",
+          "licenseUrl": null,
+          "tags": [
+            "vcs",
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-scm.com",
+          "download": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.54.0.tar.xz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.54.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.54.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.54.0.tar.xz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "f689162364c10de79ef89aa8dbf48731eb057e34edbbd20aca510ce0154681a3",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "git"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "git"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "git"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "git"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "git"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "git"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.161Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "git",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.190Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Git",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A free and open source distributed version control system.",
+          "license": "GPL-2.0-only",
+          "licenseUrl": "https://github.com/git-for-windows/git/blob/HEAD/COPYING",
+          "tags": [
+            "vcs",
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://gitforwindows.org",
+          "download": "https://git-scm.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.54.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.54.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://git-scm.com/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "git"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "git"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "git"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "git"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "git"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "git"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.190Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "git",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.191Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Git",
+          "publisher": "The Git Development Community",
+          "author": "The Git Development Community",
+          "description": "Git for Windows offers a native set of tools that bring the full feature set of the Git SCM to Windows",
+          "license": null,
+          "licenseUrl": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+          "tags": [
+            "vcs",
+            "git",
+            "dvcs",
+            "version-control",
+            "msysgit",
+            "foss",
+            "cross-platform",
+            "cli"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-for-windows.github.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/git/2.54.0",
+          "releases": "",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.54.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.53.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.53.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.53.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.52.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.51.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.49.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.33.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.39.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.44.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.45.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.32.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.11.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.45.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.39.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.50.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.48.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.50.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.43.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.42.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.50.0.20250703",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.47.1.20250115",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.47.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.46.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.41.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.40.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.54.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/git/2.54.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "J3TPhS91A/ZJmH78pNT2D8fJgpiogV14VLC+sNyFxnaWNxNu2Wb/VD7iiLHx82tm57rETauehoQhw0HdiWV/hw==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "git",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "git",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "git",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "git",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "git",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "git",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.191Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

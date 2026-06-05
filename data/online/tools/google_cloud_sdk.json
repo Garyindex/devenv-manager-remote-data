@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "google_cloud_sdk",
+    "name": "Google Cloud SDK",
+    "categoryId": "cloud",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://cloud.google.com/sdk",
+      "download": "https://cloud.google.com/sdk",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "gcloud",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "gcloud",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Google.CloudSDK",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:22.749Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Google Cloud SDK",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://cloud.google.com/sdk",
+          "download": "https://cloud.google.com/sdk",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "571.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "571.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://cloud.google.com/sdk",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Google.CloudSDK",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Google.CloudSDK",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Google.CloudSDK",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Google.CloudSDK",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Google.CloudSDK",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Google.CloudSDK",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:22.749Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gcloud",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gcloud",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "gcloud",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:22.767Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Google Cloud SDK",
+          "publisher": "ScoopInstaller/Extras",
+          "author": "ScoopInstaller/Extras",
+          "description": "Command-line interface for Google Cloud Platform products and services.",
+          "license": "Proprietary",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Extras"
+          ]
+        },
+        "links": {
+          "homepage": "https://cloud.google.com/sdk/",
+          "download": "https://cloud.google.com/sdk",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "571.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "571.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://cloud.google.com/sdk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "gcloud"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "gcloud"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "gcloud"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "gcloud"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "gcloud"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "gcloud"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:22.767Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gcloud",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gcloud",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "gcloudsdk",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:22.870Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Google Cloud SDK",
+          "publisher": "Google",
+          "author": "Google",
+          "description": "The Google Cloud CLI is a set of tools to create and manage Google Cloud resources. You can use these tools to perform many common platform tasks from the command line or through scripts and other automation.",
+          "license": null,
+          "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+          "tags": [
+            "google",
+            "cloud",
+            "cli",
+            "gcloud",
+            "sdk",
+            "admin",
+            "gcloudsdk",
+            "gcp"
+          ]
+        },
+        "links": {
+          "homepage": "https://cloud.google.com/cli",
+          "download": "https://community.chocolatey.org/api/v2/package/gcloudsdk/571.0.0",
+          "releases": "https://cloud.google.com/sdk/docs/release-notes",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "571.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "570.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "569.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "567.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "566.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "564.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "565.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "563.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "562.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "560.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "559.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "558.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "557.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "556.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "555.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "554.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "553.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "552.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "551.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "550.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "549.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "549.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "548.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "547.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "546.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "545.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "544.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "543.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "542.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "541.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "571.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/gcloudsdk/571.0.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "3W9Z7sf2ncS5wdFNlF7DMYeuIUhW3o477tjuKDr7a9hhYKwCPC2h4jSc7uTzkGmnLTtkfxRwYTS7st257DKUQw==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "gcloudsdk",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "gcloudsdk",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "gcloudsdk",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "gcloudsdk",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "gcloudsdk",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "gcloudsdk",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:22.870Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gcloud",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gcloud",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

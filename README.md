@@ -8,11 +8,14 @@ This repository does only one thing: provide online JSON data for the DevEnv Man
 
 - `DATA_CONTRACT.md`: current software-facing data contract.
 - `data/environment-tools.json`: configured tool definitions read from the app's data structure.
+- `data/identities.json`: stable tool identity, rename, alias, and package-name mapping.
 - `data/scan-rules.json`: configured environment scan rules read from the app's data structure.
 - `data/tool-requests.json`: accepted requests for new developer tools to support.
 - `data/online/install-versions.json`: generated online package metadata for one-click installs, including versions, install command templates, download links, homepages, release-note links, publisher, license, quality scoring, and scan status.
 - `data/online/source-policy.json`: provider selection policy for choosing the best install source per platform.
 - `data/online/delta.json`: generated change summary between the previous and latest online metadata refresh.
+- `data/online/index.json`: compact index for split per-tool metadata.
+- `data/online/tools/*.json`: split per-tool metadata files for on-demand loading.
 - `data/catalog-tools.json`: full-category online developer tool catalog used by the scanner.
 - `data/online/manifest.json`: generated manifest with dataset paths, byte sizes, and SHA-256 hashes.
 
@@ -24,11 +27,14 @@ After this repository is published to GitHub, the app can read:
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/manifest.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/environment-tools.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/catalog-tools.json
+https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/identities.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/scan-rules.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/tool-requests.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/install-versions.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/source-policy.json
 https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/delta.json
+https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/index.json
+https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/online/tools/git.json
 ```
 
 ## Local Commands
@@ -37,6 +43,7 @@ https://raw.githubusercontent.com/<owner>/devenv-manager-remote-data/main/data/o
 npm run validate
 npm run manifest
 npm run catalog
+npm run identities
 npm run policy
 npm run refresh:metadata
 node scripts/sync-from-project.mjs --source "C:\\path\\to\\devenv-manager"

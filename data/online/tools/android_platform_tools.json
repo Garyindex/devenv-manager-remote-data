@@ -1,0 +1,1087 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "android_platform_tools",
+    "name": "Android SDK Platform-Tools",
+    "categoryId": "mobile",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://developer.android.com/tools/releases/platform-tools",
+      "download": "https://developer.android.com/tools/releases/platform-tools",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "adb",
+          "versionArg": "version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "adb",
+          "args": [
+            "version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Google.PlatformTools",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.491Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android SDK Platform-Tools",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://developer.android.com/tools/releases/platform-tools",
+          "download": "https://developer.android.com/tools/releases/platform-tools",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "37.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://developer.android.com/tools/releases/platform-tools",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Google.PlatformTools",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Google.PlatformTools",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Google.PlatformTools",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Google.PlatformTools",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Google.PlatformTools",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Google.PlatformTools",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.491Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "adb",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "adb",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "android-platform-tools",
+        "platforms": [
+          "macos"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.665Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android SDK Platform-Tools",
+          "publisher": "homebrew/cask",
+          "author": "homebrew/cask",
+          "description": "Android SDK component",
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "cask",
+            "homebrew/cask"
+          ]
+        },
+        "links": {
+          "homepage": "https://developer.android.com/tools/releases/platform-tools",
+          "download": "https://dl.google.com/android/repository/platform-tools_r37.0.0-darwin.zip",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "37.0.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "cask",
+            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.0-darwin.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "094a1395683c509fd4d48667da0d8b5ef4d42b2abfcd29f2e8149e2f989357c7",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "android-platform-tools"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "android-platform-tools"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "android-platform-tools"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "android-platform-tools"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "android-platform-tools"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "android-platform-tools"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.665Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "adb",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "adb",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "adb",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.669Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android SDK Platform-Tools",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
+          "license": "Freeware",
+          "licenseUrl": "https://developer.android.com/studio/releases/platform-tools#downloads",
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://developer.android.com/studio/releases/platform-tools",
+          "download": "https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "37.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "4fe305812db074cea32903a489d061eb4454cbc90a49e8fea677f4b7af764918",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "adb"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "adb"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "adb"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "adb"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "adb"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "adb"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.669Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "adb",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "adb",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "adb",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.854Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android Debug Bridge",
+          "publisher": "Google",
+          "author": "Google",
+          "description": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.",
+          "license": null,
+          "licenseUrl": "https://developer.android.com/studio/terms",
+          "tags": [
+            "adb",
+            "fastboot",
+            "android",
+            "debug",
+            "bridge"
+          ]
+        },
+        "links": {
+          "homepage": "https://developer.android.com/studio/command-line/adb",
+          "download": "https://community.chocolatey.org/api/v2/package/adb/37.0.0",
+          "releases": "",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.39",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "32.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.1.20230514",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.32",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "28.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.3.20220129",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.39.20171026",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "27.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "28.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "27.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.32.230",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "37.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/adb/37.0.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "xaUlePw0ev8qlUtcq7QcyH9PXf7DTXD1B5zlwZucwB48/vgpzzn0Rtn0O1KUiR9a79IwZo3TEfSnX2TXcB9WSQ==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "adb",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "adb",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "adb",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "adb",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "adb",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "adb",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.854Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "adb",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "adb",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

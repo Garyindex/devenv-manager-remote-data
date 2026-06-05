@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "android_studio",
+    "name": "Android Studio",
+    "categoryId": "mobile",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://developer.android.com/studio",
+      "download": "https://developer.android.com/studio",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "studio64",
+          "versionArg": "--version"
+        },
+        {
+          "command": "studio",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "studio64",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        },
+        {
+          "command": "studio",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": true,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Google.AndroidStudio",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.115Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android Studio",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://developer.android.com/studio",
+          "download": "https://developer.android.com/studio",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2026.1.1.8",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.4.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.4.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.2.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.3.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.3.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.2.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.2.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.4.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.2.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.2.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.2.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.1.14",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.1.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.3.2.15",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.2.15",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.1.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.1.2.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.1.20",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.2.1.25",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.1.1.28",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.3.1.22",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.2.1.20",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.1.1.19",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2026.1.1.8",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://developer.android.com/studio",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": true,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Google.AndroidStudio",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Google.AndroidStudio",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Google.AndroidStudio",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Google.AndroidStudio",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Google.AndroidStudio",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Google.AndroidStudio",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.115Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "studio64",
+              "versionArg": "--version"
+            },
+            {
+              "command": "studio",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "studio64",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            },
+            {
+              "command": "studio",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": true,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "android-studio",
+        "platforms": [
+          "macos"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.144Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android Studio",
+          "publisher": "homebrew/cask",
+          "author": "homebrew/cask",
+          "description": "Tools for building Android applications",
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "cask",
+            "homebrew/cask"
+          ]
+        },
+        "links": {
+          "homepage": "https://developer.android.com/studio/",
+          "download": "https://edgedl.me.gvt1.com/android/studio/install/2026.1.1.8/android-studio-quail1-mac_arm.dmg",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2026.1.1.8,quail1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2026.1.1.8,quail1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "cask",
+            "url": "https://edgedl.me.gvt1.com/android/studio/install/2026.1.1.8/android-studio-quail1-mac_arm.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "85e17dfddf23b42d4ad9f8749d566657e752ec2f2432c3d49f4d83a0fa1fdf48",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "android-studio"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "android-studio"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "android-studio"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "android-studio"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "android-studio"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "android-studio"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.144Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "studio64",
+              "versionArg": "--version"
+            },
+            {
+              "command": "studio",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "studio64",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            },
+            {
+              "command": "studio",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": true,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "androidstudio",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:27.326Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Android Studio (Install)",
+          "publisher": "Google JetBrains",
+          "author": "Google JetBrains",
+          "description": "Android Studio is the official IDE for Android development",
+          "license": null,
+          "licenseUrl": "https://developer.android.com/studio/terms",
+          "tags": [
+            "google",
+            "android",
+            "studio",
+            "androidstudio",
+            "android-studio",
+            "cross-platform"
+          ]
+        },
+        "links": {
+          "homepage": "https://developer.android.com/studio",
+          "download": "https://community.chocolatey.org/api/v2/package/AndroidStudio/2025.2.3.9",
+          "releases": "* [Android Studio release notes](https://developer.android.com/studio/releases/)",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2025.2.3.9",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.2.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.2.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.2.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.4.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.1.1.28",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.0.24",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2022.1.1.21",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.0.18",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.3.1.17",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2020.3.1.25",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.1.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.2.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.2.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.2.15",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.2.1.16",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.0.16",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.3.2.15",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.1.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2021.1.1.21",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.1.19",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.2.1.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2025.2.3.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/AndroidStudio/2025.2.3.9",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "deM1WqSzofxuUBRH63SK7OzZbh25qXJcpyk8zimvx/1G3CNVbAwHiBfoKAFH454LhwkgUE7sV1nf5fSnajA95A==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": true,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "androidstudio",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "androidstudio",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "androidstudio",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "androidstudio",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": true,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "androidstudio",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "androidstudio",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:27.326Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "studio64",
+              "versionArg": "--version"
+            },
+            {
+              "command": "studio",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "studio64",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            },
+            {
+              "command": "studio",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": true,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

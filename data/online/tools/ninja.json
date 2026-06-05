@@ -1,0 +1,2040 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "ninja",
+    "name": "Ninja",
+    "categoryId": "cpp",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://ninja-build.org/",
+      "download": "https://ninja-build.org/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "ninja",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "ninja",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Ninja-build.Ninja",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:15.174Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Ninja",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://ninja-build.org/",
+          "download": "https://ninja-build.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.13.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://ninja-build.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Ninja-build.Ninja",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Ninja-build.Ninja",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Ninja-build.Ninja",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Ninja-build.Ninja",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Ninja-build.Ninja",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Ninja-build.Ninja",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:15.174Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "ninja",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "ninja",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "ninja",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:15.193Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ninja",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Small build system for use with gyp or CMake",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://ninja-build.org/",
+          "download": "https://github.com/ninja-build/ninja/archive/refs/tags/v1.13.2.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.13.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.13.2",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/ninja-build/ninja/archive/refs/tags/v1.13.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "974d6b2f4eeefa25625d34da3cb36bdcebe7fbce40f4c16ac0835fd1c0cbae17",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "ninja"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "ninja"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "ninja"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "ninja"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "ninja"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "ninja"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:15.193Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "ninja",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "ninja",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "ninja",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:15.373Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Ninja",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A small build system with a focus on speed.",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://ninja-build.org/",
+          "download": "https://ninja-build.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.13.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://ninja-build.org/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "ninja"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "ninja"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "ninja"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "ninja"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "ninja"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "ninja"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:15.373Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "ninja",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "ninja",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "ninja",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:15.537Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Ninja",
+          "publisher": "https://github.com/ninja-build/ninja/graphs/contributors",
+          "author": "https://github.com/ninja-build/ninja/graphs/contributors",
+          "description": "a small build system with a focus on speed",
+          "license": null,
+          "licenseUrl": "https://github.com/ninja-build/ninja/blob/master/COPYING",
+          "tags": [
+            "ninja",
+            "build",
+            "make",
+            "cmake",
+            "gyp"
+          ]
+        },
+        "links": {
+          "homepage": "https://ninja-build.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/ninja/1.13.2",
+          "releases": "https://github.com/ninja-build/ninja/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.13.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.0.20190208",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/ninja/1.13.2",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "6bGYSA/ym+l52t8LCb4OO+Jh9oHQO83LuKT4/gpWB+bkgLSJMe1+m8fAbtpli4eOg3frP/mgRY0E0h/4ucZaHg==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "ninja",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "ninja",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "ninja",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "ninja",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "ninja",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "ninja",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:15.537Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "ninja",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "ninja",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "ninja-build/ninja",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:15.543Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ninja",
+          "publisher": "ninja-build",
+          "author": "ninja-build",
+          "description": "a small build system with a focus on speed",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://ninja-build.org/",
+          "download": "https://ninja-build.org/",
+          "releases": "https://github.com/ninja-build/ninja/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.13.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-20T16:51:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.13.2"
+          },
+          {
+            "version": "1.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-10T20:49:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.13.1"
+          },
+          {
+            "version": "1.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-06-18T12:22:35Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.13.0"
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-11T12:40:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.12.1"
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-04-11T16:47:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.12.0"
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-08-30T19:58:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.11.1"
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-05-15T15:56:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.11.0"
+          },
+          {
+            "version": "1.10.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-11-28T12:03:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.10.2"
+          },
+          {
+            "version": "1.10.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-08-18T19:32:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.10.1"
+          },
+          {
+            "version": "1.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-01-28T08:05:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.10.0"
+          },
+          {
+            "version": "1.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-01-30T19:06:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.9.0"
+          },
+          {
+            "version": "1.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-09-13T01:32:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.8.2"
+          },
+          {
+            "version": "1.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2016-11-07T18:53:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.7.2"
+          },
+          {
+            "version": "1.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2016-04-28T15:43:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.7.1"
+          },
+          {
+            "version": "1.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-06-29T18:41:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.6.0"
+          },
+          {
+            "version": "1.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-11-24T22:08:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.5.3"
+          },
+          {
+            "version": "1.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-06-28T01:24:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.5.1"
+          },
+          {
+            "version": "1.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:59:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.4.0"
+          },
+          {
+            "version": "1.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:30:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.3.4"
+          },
+          {
+            "version": "1.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:29:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.3.3"
+          },
+          {
+            "version": "1.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:29:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.3.2"
+          },
+          {
+            "version": "1.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:29:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.3.1"
+          },
+          {
+            "version": "1.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:29:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.3.0"
+          },
+          {
+            "version": "1.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:32:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.2.0"
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:31:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.1.0"
+          },
+          {
+            "version": "1.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:28:14Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/v1.0.0"
+          },
+          {
+            "version": "release-120715",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:33:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/release-120715"
+          },
+          {
+            "version": "release-120508",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2013-09-12T03:33:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/ninja-build/ninja/releases/tag/release-120508"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "ninja-linux-aarch64.zip",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux-aarch64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 126256
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134040
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 314051
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 291570
+          },
+          {
+            "id": "ninja-winarm64.zip",
+            "version": "1.13.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-winarm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 270354
+          },
+          {
+            "id": "ninja-linux-aarch64.zip",
+            "version": "1.13.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux-aarch64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 126282
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.13.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134048
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.13.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 314009
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.13.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 289808
+          },
+          {
+            "id": "ninja-winarm64.zip",
+            "version": "1.13.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-winarm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 266805
+          },
+          {
+            "id": "ninja-linux-aarch64.zip",
+            "version": "1.13.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-linux-aarch64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 149063
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.13.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134141
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.13.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 313931
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.13.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 289425
+          },
+          {
+            "id": "ninja-winarm64.zip",
+            "version": "1.13.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-winarm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 266139
+          },
+          {
+            "id": "ninja-linux-aarch64.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux-aarch64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 121787
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 123084
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 281130
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 275425
+          },
+          {
+            "id": "ninja-winarm64.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-winarm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 254317
+          },
+          {
+            "id": "ninja-linux-aarch64.zip",
+            "version": "1.12.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-linux-aarch64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 122558
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.12.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 123353
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.12.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 281138
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.12.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 275253
+          },
+          {
+            "id": "ninja-winarm64.zip",
+            "version": "1.12.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-winarm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 254609
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.11.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 119463
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.11.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 277306
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.11.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 285922
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.11.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 119182
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.11.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 277298
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.11.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 285411
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.10.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 103219
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.10.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 234089
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.10.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 262670
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.10.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.1/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 99913
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.10.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.1/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 116967
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.10.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.1/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 263130
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.10.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 99857
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.10.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 116745
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.10.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 262400
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.9.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.9.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85212
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.9.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.9.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90974
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.9.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.9.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 254497
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.8.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 77854
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.8.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 77284
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.8.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 247692
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.7.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 75086
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.7.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74599
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.7.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 188813
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.1/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74111
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.1/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74830
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.1/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 184278
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.6.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 71368
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.6.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 72245
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.6.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 159957
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.5.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.3/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69130
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.5.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.3/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 71491
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.5.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.3/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 150236
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.5.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.1/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69875
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.5.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.1/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 71975
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.5.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.1/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 149759
+          },
+          {
+            "id": "ninja-linux.zip",
+            "version": "1.4.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.4.0/ninja-linux.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 66868
+          },
+          {
+            "id": "ninja-mac.zip",
+            "version": "1.4.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.4.0/ninja-mac.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 66763
+          },
+          {
+            "id": "ninja-win.zip",
+            "version": "1.4.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.4.0/ninja-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 143889
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:15.543Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "ninja",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "ninja",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

@@ -4,6 +4,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { buildMetadataDelta } from '../core/delta-builder.mjs'
 import { ProviderManager } from '../core/provider-manager.mjs'
+import { writeSplitMetadata } from '../core/split-metadata.mjs'
 import { ChocoProvider } from '../providers/choco-provider.mjs'
 import { GitHubProvider } from '../providers/github-provider.mjs'
 import { HomebrewProvider } from '../providers/homebrew-provider.mjs'
@@ -14,6 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..')
 const catalogPath = path.join(repoRoot, 'data/catalog-tools.json')
 const outputPath = path.join(repoRoot, 'data/online/install-versions.json')
+const onlineDir = path.dirname(outputPath)
 const deltaPath = path.join(repoRoot, 'data/online/delta.json')
 
 function numberArg(name, fallback) {
@@ -62,8 +64,10 @@ const output = {
   errors: result.errors
 }
 
-fs.mkdirSync(path.dirname(outputPath), { recursive: true })
+fs.mkdirSync(onlineDir, { recursive: true })
 fs.writeFileSync(deltaPath, `${JSON.stringify(buildMetadataDelta(previousOutput, output), null, 2)}\n`)
+writeSplitMetadata(output, { onlineDir })
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`)
 console.log(`Wrote ${path.relative(repoRoot, deltaPath)}.`)
+console.log(`Wrote ${path.relative(repoRoot, path.join(onlineDir, 'index.json'))}.`)
 console.log(`Wrote ${path.relative(repoRoot, outputPath)} with status ${output.status}.`)

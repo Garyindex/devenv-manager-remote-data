@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "netlify_cli",
+    "name": "Netlify CLI",
+    "categoryId": "web",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://docs.netlify.com/cli/get-started/",
+      "download": "https://docs.netlify.com/cli/get-started/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "netlify",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "netlify",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 75
+    },
+    "sources": [
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "netlify/cli",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:31.392Z",
+          "errors": []
+        },
+        "package": {
+          "name": "cli",
+          "publisher": "netlify",
+          "author": "netlify",
+          "description": "Netlify Command Line Interface",
+          "license": "MIT",
+          "licenseUrl": "https://api.github.com/licenses/mit",
+          "tags": [
+            "cli",
+            "netlify"
+          ]
+        },
+        "links": {
+          "homepage": "http://cli.netlify.com",
+          "download": "https://docs.netlify.com/cli/get-started/",
+          "releases": "https://github.com/netlify/cli/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "26.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-31T08:10:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v26.1.0"
+          },
+          {
+            "version": "26.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-15T16:24:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v26.0.2"
+          },
+          {
+            "version": "26.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-05T10:29:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v26.0.1"
+          },
+          {
+            "version": "26.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-28T14:38:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v26.0.0"
+          },
+          {
+            "version": "25.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-28T08:31:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.6.2"
+          },
+          {
+            "version": "25.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-27T10:43:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.6.1"
+          },
+          {
+            "version": "25.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-24T14:29:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.6.0"
+          },
+          {
+            "version": "25.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-23T19:27:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.5.0"
+          },
+          {
+            "version": "25.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-23T16:13:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.4.0"
+          },
+          {
+            "version": "25.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-22T22:14:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.3.0"
+          },
+          {
+            "version": "25.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-22T16:27:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.2.0"
+          },
+          {
+            "version": "25.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-21T13:40:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.1.1"
+          },
+          {
+            "version": "25.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-21T10:22:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.1.0"
+          },
+          {
+            "version": "25.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-18T14:56:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.0.1"
+          },
+          {
+            "version": "25.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-17T14:24:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v25.0.0"
+          },
+          {
+            "version": "24.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-15T11:17:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.11.3"
+          },
+          {
+            "version": "24.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-14T14:31:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.11.2"
+          },
+          {
+            "version": "24.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-09T19:00:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.11.1"
+          },
+          {
+            "version": "24.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-09T15:17:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.11.0"
+          },
+          {
+            "version": "24.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-06T10:40:48Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.10.0"
+          },
+          {
+            "version": "24.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-31T21:19:40Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.9.0"
+          },
+          {
+            "version": "24.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-31T13:00:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.8.2"
+          },
+          {
+            "version": "24.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-27T20:01:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.8.1"
+          },
+          {
+            "version": "24.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-27T18:31:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.8.0"
+          },
+          {
+            "version": "24.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-27T16:16:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.7.0"
+          },
+          {
+            "version": "24.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-26T15:02:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.6.2"
+          },
+          {
+            "version": "24.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-25T19:00:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.6.1"
+          },
+          {
+            "version": "24.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-25T17:24:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.6.0"
+          },
+          {
+            "version": "24.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-24T22:07:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.5.1"
+          },
+          {
+            "version": "24.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-24T15:05:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.5.0"
+          }
+        ],
+        "downloads": [],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 75,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:31.392Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "netlify",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "netlify",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1672 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "mitmproxy",
+    "name": "mitmproxy",
+    "categoryId": "security",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://mitmproxy.org/",
+      "download": "https://mitmproxy.org/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "mitmproxy",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "mitmproxy",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "mitmproxy.mitmproxy",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:28.704Z",
+          "errors": []
+        },
+        "package": {
+          "name": "mitmproxy",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://mitmproxy.org/",
+          "download": "https://mitmproxy.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.2.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "12.2.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://mitmproxy.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "mitmproxy.mitmproxy",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "mitmproxy.mitmproxy",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "mitmproxy.mitmproxy",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "mitmproxy.mitmproxy",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "mitmproxy.mitmproxy",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "mitmproxy.mitmproxy",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:28.704Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "mitmproxy",
+        "platforms": [
+          "macos"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:28.729Z",
+          "errors": []
+        },
+        "package": {
+          "name": "mitmproxy",
+          "publisher": "homebrew/cask",
+          "author": "homebrew/cask",
+          "description": "Intercept, modify, replay, save HTTP/S traffic",
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "cask",
+            "homebrew/cask"
+          ]
+        },
+        "links": {
+          "homepage": "https://mitmproxy.org/",
+          "download": "https://downloads.mitmproxy.org/12.2.3/mitmproxy-12.2.3-macos-arm64.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.2.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "12.2.3",
+            "platform": "macos",
+            "architecture": null,
+            "type": "cask",
+            "url": "https://downloads.mitmproxy.org/12.2.3/mitmproxy-12.2.3-macos-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "0a09ee3b82569e8985aff8186e4792618b8e5d0c766098db093d09a87d4b013a",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "mitmproxy"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "mitmproxy"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "mitmproxy"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "mitmproxy"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "mitmproxy"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "mitmproxy"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:28.729Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "mitmproxy",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:28.799Z",
+          "errors": []
+        },
+        "package": {
+          "name": "mitmproxy",
+          "publisher": "ScoopInstaller/Extras",
+          "author": "ScoopInstaller/Extras",
+          "description": "A free and open source interactive HTTPS proxy",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Extras"
+          ]
+        },
+        "links": {
+          "homepage": "https://mitmproxy.org/",
+          "download": "https://snapshots.mitmproxy.org/12.2.3/mitmproxy-12.2.3-windows-x86_64.zip",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.2.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "12.2.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://snapshots.mitmproxy.org/12.2.3/mitmproxy-12.2.3-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "04a01ea95ae96df75058a893e774957d294e69012dab1f4e256ce2b0c6725483",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "mitmproxy"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "mitmproxy"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "mitmproxy"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "mitmproxy"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "mitmproxy"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "mitmproxy"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:28.799Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "mitmproxy",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:28.803Z",
+          "errors": []
+        },
+        "package": {
+          "name": "mitmproxy",
+          "publisher": "Aldo Cortesi, Maximilian Hils, Thomas Kriechbaumer, contributors",
+          "author": "Aldo Cortesi, Maximilian Hils, Thomas Kriechbaumer, contributors",
+          "description": "A free and open source interactive HTTPS proxy",
+          "license": null,
+          "licenseUrl": "https://github.com/mitmproxy/mitmproxy/blob/master/LICENSE",
+          "tags": [
+            "mitmproxy",
+            "http",
+            "https",
+            "proxy",
+            "admin"
+          ]
+        },
+        "links": {
+          "homepage": "https://mitmproxy.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/mitmproxy/12.2.3",
+          "releases": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.2.3",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.2.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "12.2.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/mitmproxy/12.2.3",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "HndzOHuBdQGqaa8YIzEeB1TAzUvp5jWqz15d80TpC5aTcDPgyVT25aRS55qGx7cCbPD79KV16nAB4BHK9csYPg==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "mitmproxy",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "mitmproxy",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "mitmproxy",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "mitmproxy",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "mitmproxy",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "mitmproxy",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:28.803Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "mitmproxy/mitmproxy",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:28.926Z",
+          "errors": []
+        },
+        "package": {
+          "name": "mitmproxy",
+          "publisher": "mitmproxy",
+          "author": "mitmproxy",
+          "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+          "license": "MIT",
+          "licenseUrl": "https://api.github.com/licenses/mit",
+          "tags": [
+            "debugging",
+            "http",
+            "http2",
+            "man-in-the-middle",
+            "mitmproxy",
+            "proxy",
+            "python",
+            "security",
+            "ssl",
+            "tls",
+            "websocket"
+          ]
+        },
+        "links": {
+          "homepage": "https://mitmproxy.org",
+          "download": "https://mitmproxy.org/",
+          "releases": "https://github.com/mitmproxy/mitmproxy/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "12.2.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-12T13:02:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.2.3"
+          },
+          {
+            "version": "12.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-12T21:43:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.2.2"
+          },
+          {
+            "version": "12.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-24T18:47:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.2.1"
+          },
+          {
+            "version": "12.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-15T19:54:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.2.0"
+          },
+          {
+            "version": "12.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-24T18:28:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.1.2"
+          },
+          {
+            "version": "12.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-25T19:49:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.1.1"
+          },
+          {
+            "version": "12.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-24T13:24:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.1.0"
+          },
+          {
+            "version": "12.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-06T22:12:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.0.1"
+          },
+          {
+            "version": "12.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-04-29T17:47:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v12.0.0"
+          },
+          {
+            "version": "11.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-02-17T12:03:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v11.1.3"
+          },
+          {
+            "version": "11.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-02-06T00:41:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v11.1.2"
+          },
+          {
+            "version": "11.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-12T12:44:38Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v11.1.0"
+          },
+          {
+            "version": "11.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-05T09:31:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v11.0.2"
+          },
+          {
+            "version": "11.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-11-24T22:51:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v11.0.1"
+          },
+          {
+            "version": "11.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-10-02T17:14:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v11.0.0"
+          },
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-08-02T09:16:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.4.2"
+          },
+          {
+            "version": "10.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-07-29T18:52:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.4.1"
+          },
+          {
+            "version": "10.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-07-25T13:45:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.4.0"
+          },
+          {
+            "version": "10.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-06-12T22:56:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.3.1"
+          },
+          {
+            "version": "10.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-04-17T11:31:14Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.3.0"
+          },
+          {
+            "version": "10.2.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-03-07T20:55:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.2.4"
+          },
+          {
+            "version": "10.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-03-06T20:58:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.2.3"
+          },
+          {
+            "version": "10.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-01-21T17:09:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.2.2"
+          },
+          {
+            "version": "10.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-01-06T14:17:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.2.1"
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-01-04T12:00:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.2.0"
+          },
+          {
+            "version": "10.1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-12-14T09:39:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.1.6"
+          },
+          {
+            "version": "10.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-14T12:54:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.1.5"
+          },
+          {
+            "version": "10.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-13T14:11:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.1.4"
+          },
+          {
+            "version": "10.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-04T11:02:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.1.3"
+          },
+          {
+            "version": "10.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-03T11:58:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/mitmproxy/mitmproxy/releases/tag/v10.1.2"
+          }
+        ],
+        "downloads": [],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 75,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:28.926Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "mitmproxy",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

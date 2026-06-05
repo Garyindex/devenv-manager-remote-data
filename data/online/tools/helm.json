@@ -1,0 +1,2636 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "helm",
+    "name": "Helm",
+    "categoryId": "container",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://helm.sh/",
+      "download": "https://helm.sh/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "helm",
+          "versionArg": "version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "helm",
+          "args": [
+            "version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Helm.Helm",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.060Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Helm",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://helm.sh/",
+          "download": "https://helm.sh/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.16.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.16.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://helm.sh/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Helm.Helm",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Helm.Helm",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Helm.Helm",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Helm.Helm",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Helm.Helm",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Helm.Helm",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.060Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "helm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "helm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "helm",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.207Z",
+          "errors": []
+        },
+        "package": {
+          "name": "helm",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Kubernetes package manager",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://helm.sh/",
+          "download": "https://github.com/helm/helm.git",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "helm@3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/helm/helm.git",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "helm"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "helm"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "helm"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "helm"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "helm"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "helm"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.207Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "helm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "helm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "helm",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.411Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Helm",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "The package manager for Kubernetes.",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://helm.sh",
+          "download": "https://helm.sh/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://helm.sh/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "helm"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "helm"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "helm"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "helm"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "helm"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "helm"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.411Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "helm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "helm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "kubernetes-helm",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.564Z",
+          "errors": []
+        },
+        "package": {
+          "name": "helm",
+          "publisher": "Helm is supported by and built with a community of over 250 developers",
+          "author": "Helm is supported by and built with a community of over 250 developers",
+          "description": "Helm is the best way to find, share, and use software built for Kubernetes.",
+          "license": null,
+          "licenseUrl": "https://github.com/kubernetes/helm/blob/master/LICENSE",
+          "tags": [
+            "kubernetes",
+            "helm",
+            "container"
+          ]
+        },
+        "links": {
+          "homepage": "https://helm.sh/",
+          "download": "https://community.chocolatey.org/api/v2/package/kubernetes-helm/4.1.4",
+          "releases": "https://github.com/kubernetes/helm/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "4.1.4",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.10.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.16.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.17.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.13.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.12.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.15.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "4.1.4",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/kubernetes-helm/4.1.4",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "53c6W2vI2sztvr13iN6K4sB4Gj7pqj6JVwT3dRs2qjynLZXpbMHeKtCSVmoR/IG3ggfmP1uFrpgC0AzyirWuvQ==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "kubernetes-helm",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "kubernetes-helm",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "kubernetes-helm",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "kubernetes-helm",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "kubernetes-helm",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "kubernetes-helm",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.564Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "helm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "helm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "helm/helm",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.578Z",
+          "errors": []
+        },
+        "package": {
+          "name": "helm",
+          "publisher": "helm",
+          "author": "helm",
+          "description": "The Kubernetes Package Manager",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": [
+            "chart",
+            "charts",
+            "cncf",
+            "helm",
+            "kubernetes"
+          ]
+        },
+        "links": {
+          "homepage": "https://helm.sh",
+          "download": "https://helm.sh/",
+          "releases": "https://github.com/helm/helm/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-14T01:13:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.2.0"
+          },
+          {
+            "version": "3.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-14T01:22:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.21.0"
+          },
+          {
+            "version": "4.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-09T06:01:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.1.4"
+          },
+          {
+            "version": "3.20.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-09T21:17:14Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.20.2"
+          },
+          {
+            "version": "4.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-11T23:01:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.1.3"
+          },
+          {
+            "version": "3.20.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-12T00:26:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.20.1"
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-09T18:33:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.1.1"
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-21T22:31:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.1.0"
+          },
+          {
+            "version": "3.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-21T23:27:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.20.0"
+          },
+          {
+            "version": "4.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-14T23:46:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.5"
+          },
+          {
+            "version": "3.19.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-15T00:30:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.5"
+          },
+          {
+            "version": "4.1.0-rc.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-01-12T19:54:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.1.0-rc.1"
+          },
+          {
+            "version": "3.20.0-rc.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-01-12T20:34:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.20.0-rc.1"
+          },
+          {
+            "version": "4.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-13T01:22:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.4"
+          },
+          {
+            "version": "3.19.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-12T21:57:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.4"
+          },
+          {
+            "version": "4.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-10T21:02:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.2"
+          },
+          {
+            "version": "3.19.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-10T21:01:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.3"
+          },
+          {
+            "version": "4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-24T20:31:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.1"
+          },
+          {
+            "version": "4.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-12T16:04:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.0"
+          },
+          {
+            "version": "3.19.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-12T14:17:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.2"
+          },
+          {
+            "version": "3.19.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-11T02:57:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.1"
+          },
+          {
+            "version": "4.0.0-rc.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-04T02:31:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.0-rc.1"
+          },
+          {
+            "version": "4.0.0-beta.2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-10-27T19:55:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.0-beta.2"
+          },
+          {
+            "version": "4.0.0-beta.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-10-13T20:44:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.0-beta.1"
+          },
+          {
+            "version": "3.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-11T21:06:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.0"
+          },
+          {
+            "version": "3.19.0-rc.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-09-05T04:46:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.19.0-rc.1"
+          },
+          {
+            "version": "4.0.0-alpha.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-09-02T19:58:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v4.0.0-alpha.1"
+          },
+          {
+            "version": "3.18.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-19T20:33:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.18.6"
+          },
+          {
+            "version": "3.18.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-13T19:48:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.18.5"
+          },
+          {
+            "version": "3.17.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-16T19:30:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/helm/helm/releases/tag/v3.17.4"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "helm-v4.2.0-darwin-amd64.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-darwin-amd64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-darwin-amd64.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-darwin-amd64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-darwin-amd64.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-darwin-amd64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-darwin-arm64.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-darwin-arm64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-darwin-arm64.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-darwin-arm64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-darwin-arm64.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-darwin-arm64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-386.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-386.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-386.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-386.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-386.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-386.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-amd64.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-amd64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-amd64.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-amd64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-amd64.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-amd64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-arm.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-arm.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-arm.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-arm.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-arm.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-arm.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-arm64.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-arm64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-arm64.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-arm64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-arm64.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-arm64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-loong64.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-loong64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-loong64.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-loong64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-loong64.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-loong64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-ppc64le.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-ppc64le.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-ppc64le.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-ppc64le.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-ppc64le.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-ppc64le.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-riscv64.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-riscv64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-riscv64.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-riscv64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-riscv64.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-riscv64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-s390x.tar.gz.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-s390x.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-s390x.tar.gz.sha256.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-s390x.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-linux-s390x.tar.gz.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-linux-s390x.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-windows-amd64.zip.asc",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-windows-amd64.zip.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-windows-amd64.zip.sha256.asc",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-windows-amd64.zip.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-windows-amd64.zip.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-windows-amd64.zip.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-windows-arm64.zip.asc",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-windows-arm64.zip.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-windows-arm64.zip.sha256.asc",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-windows-arm64.zip.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.2.0-windows-arm64.zip.sha256sum.asc",
+            "version": "4.2.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.2.0/helm-v4.2.0-windows-arm64.zip.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-darwin-amd64.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-darwin-amd64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-darwin-amd64.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-darwin-amd64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-darwin-amd64.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-darwin-amd64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-darwin-arm64.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-darwin-arm64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-darwin-arm64.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-darwin-arm64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-darwin-arm64.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-darwin-arm64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-386.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-386.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-386.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-386.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-386.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-386.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-amd64.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-amd64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-amd64.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-amd64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-amd64.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-amd64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-arm.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-arm.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-arm.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-arm.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-arm.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-arm.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-arm64.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-arm64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-arm64.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-arm64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-arm64.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-arm64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-ppc64le.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-ppc64le.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-ppc64le.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-ppc64le.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-ppc64le.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-ppc64le.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-riscv64.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-riscv64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-riscv64.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-riscv64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-riscv64.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-riscv64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-s390x.tar.gz.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-s390x.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-s390x.tar.gz.sha256.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-s390x.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-linux-s390x.tar.gz.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-linux-s390x.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-windows-amd64.zip.asc",
+            "version": "3.21.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-windows-amd64.zip.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-windows-amd64.zip.sha256.asc",
+            "version": "3.21.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-windows-amd64.zip.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-windows-amd64.zip.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-windows-amd64.zip.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-windows-arm64.zip.asc",
+            "version": "3.21.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-windows-arm64.zip.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-windows-arm64.zip.sha256.asc",
+            "version": "3.21.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-windows-arm64.zip.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v3.21.0-windows-arm64.zip.sha256sum.asc",
+            "version": "3.21.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v3.21.0/helm-v3.21.0-windows-arm64.zip.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-darwin-amd64.tar.gz.asc",
+            "version": "4.1.4",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-darwin-amd64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-darwin-amd64.tar.gz.sha256.asc",
+            "version": "4.1.4",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-darwin-amd64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-darwin-amd64.tar.gz.sha256sum.asc",
+            "version": "4.1.4",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-darwin-amd64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-darwin-arm64.tar.gz.asc",
+            "version": "4.1.4",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-darwin-arm64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-darwin-arm64.tar.gz.sha256.asc",
+            "version": "4.1.4",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-darwin-arm64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-darwin-arm64.tar.gz.sha256sum.asc",
+            "version": "4.1.4",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-darwin-arm64.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-linux-386.tar.gz.asc",
+            "version": "4.1.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-linux-386.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-linux-386.tar.gz.sha256.asc",
+            "version": "4.1.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-linux-386.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-linux-386.tar.gz.sha256sum.asc",
+            "version": "4.1.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-linux-386.tar.gz.sha256sum.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-linux-amd64.tar.gz.asc",
+            "version": "4.1.4",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-linux-amd64.tar.gz.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          },
+          {
+            "id": "helm-v4.1.4-linux-amd64.tar.gz.sha256.asc",
+            "version": "4.1.4",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/helm/helm/releases/download/v4.1.4/helm-v4.1.4-linux-amd64.tar.gz.sha256.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 265
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.578Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "helm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "helm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

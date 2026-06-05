@@ -1,0 +1,2401 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "ripgrep",
+    "name": "ripgrep",
+    "categoryId": "terminal",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://github.com/BurntSushi/ripgrep",
+      "download": "https://github.com/BurntSushi/ripgrep",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "rg",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "rg",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "BurntSushi.ripgrep.MSVC",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:04.761Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ripgrep",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://github.com/BurntSushi/ripgrep",
+          "download": "https://github.com/BurntSushi/ripgrep",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "15.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "15.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "14.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "14.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "14.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "14.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "13.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://github.com/BurntSushi/ripgrep",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "BurntSushi.ripgrep.MSVC",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "BurntSushi.ripgrep.MSVC",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "BurntSushi.ripgrep.MSVC",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "BurntSushi.ripgrep.MSVC",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "BurntSushi.ripgrep.MSVC",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "BurntSushi.ripgrep.MSVC",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:04.761Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "rg",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "rg",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "ripgrep",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:04.826Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ripgrep",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Search tool like grep and The Silver Searcher",
+          "license": "Unlicense",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/BurntSushi/ripgrep",
+          "download": "https://github.com/BurntSushi/ripgrep/archive/refs/tags/15.1.0.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "15.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "15.1.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/BurntSushi/ripgrep/archive/refs/tags/15.1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "046fa01a216793b8bd2750f9d68d4ad43986eb9c0d6122600f993906012972e8",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "ripgrep"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "ripgrep"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "ripgrep"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "ripgrep"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "ripgrep"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "ripgrep"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:04.826Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "rg",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "rg",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "ripgrep",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:04.895Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ripgrep",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Recursively searches directories for a regex pattern.",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/BurntSushi/ripgrep",
+          "download": "https://github.com/BurntSushi/ripgrep",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "15.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://github.com/BurntSushi/ripgrep",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "ripgrep"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "ripgrep"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "ripgrep"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "ripgrep"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "ripgrep"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "ripgrep"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:04.895Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "rg",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "rg",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "ripgrep",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.035Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ripgrep",
+          "publisher": "BurntSushi",
+          "author": "BurntSushi",
+          "description": "A search tool that combines the usability of ag with the raw speed of grep.",
+          "license": null,
+          "licenseUrl": "https://github.com/BurntSushi/ripgrep/blob/14.1.0/LICENSE-MIT",
+          "tags": [
+            "search",
+            "ripgrep",
+            "rg"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/BurntSushi/ripgrep",
+          "download": "https://community.chocolatey.org/api/v2/package/ripgrep/14.1.0",
+          "releases": "https://github.com/BurntSushi/ripgrep/releases/tag/14.1.0",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "14.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.2.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.2.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "13.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.1.20200727",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "13.0.0.20220913",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.2.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.2.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "14.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.2.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "13.0.0.20210621",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "14.1.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/ripgrep/14.1.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "InArUQ733Q6L3ezbVwzHcMUfXfTs5V3/Ft+FezP2/jlcUMRVLlAX9G/NfX8c1miAWRi75oNF85KLDNQAPTMTTg==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "ripgrep",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "ripgrep",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "ripgrep",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "ripgrep",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "ripgrep",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "ripgrep",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.035Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "rg",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "rg",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "BurntSushi/ripgrep",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.064Z",
+          "errors": []
+        },
+        "package": {
+          "name": "ripgrep",
+          "publisher": "BurntSushi",
+          "author": "BurntSushi",
+          "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+          "license": "Unlicense",
+          "licenseUrl": "https://api.github.com/licenses/unlicense",
+          "tags": [
+            "cli",
+            "command-line",
+            "command-line-tool",
+            "gitignore",
+            "grep",
+            "recursively-search",
+            "regex",
+            "ripgrep",
+            "rust",
+            "search"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/BurntSushi/ripgrep",
+          "download": "https://github.com/BurntSushi/ripgrep",
+          "releases": "https://github.com/BurntSushi/ripgrep/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "15.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-22T13:00:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/15.1.0"
+          },
+          {
+            "version": "15.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-16T03:17:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/15.0.0"
+          },
+          {
+            "version": "14.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-09-09T02:28:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/14.1.1"
+          },
+          {
+            "version": "14.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-01-06T19:41:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/14.1.0"
+          },
+          {
+            "version": "14.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-28T21:22:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/14.0.3"
+          },
+          {
+            "version": "14.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-28T02:45:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/14.0.2"
+          },
+          {
+            "version": "14.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-26T22:36:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/14.0.1"
+          },
+          {
+            "version": "14.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-26T19:28:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/14.0.0"
+          },
+          {
+            "version": "13.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-06-12T12:27:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/13.0.0"
+          },
+          {
+            "version": "12.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-29T13:27:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/12.1.1"
+          },
+          {
+            "version": "12.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-09T15:27:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/12.1.0"
+          },
+          {
+            "version": "12.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-03-29T23:00:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/12.0.1"
+          },
+          {
+            "version": "12.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-03-16T01:57:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/12.0.0"
+          },
+          {
+            "version": "11.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-08-01T22:52:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/11.0.2"
+          },
+          {
+            "version": "11.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-04-16T17:12:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/11.0.1"
+          },
+          {
+            "version": "11.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-04-15T22:19:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/11.0.0"
+          },
+          {
+            "version": "0.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-09-07T18:16:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.10.0"
+          },
+          {
+            "version": "0.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-08-03T20:22:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.9.0"
+          },
+          {
+            "version": "0.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-02-21T02:11:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.8.1"
+          },
+          {
+            "version": "0.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-02-12T01:29:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.8.0"
+          },
+          {
+            "version": "0.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-10-22T14:37:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.7.1"
+          },
+          {
+            "version": "0.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-10-22T02:50:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.7.0"
+          },
+          {
+            "version": "0.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-08-24T00:06:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.6.0"
+          },
+          {
+            "version": "0.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-05-11T23:29:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.5.2"
+          },
+          {
+            "version": "0.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-04-09T13:54:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.5.1"
+          },
+          {
+            "version": "0.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-03-13T03:02:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.5.0"
+          },
+          {
+            "version": "0.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-01-14T04:56:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.4.0"
+          },
+          {
+            "version": "0.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2016-12-07T16:15:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.3.2"
+          },
+          {
+            "version": "0.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2016-11-22T02:04:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.3.1"
+          },
+          {
+            "version": "0.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2016-11-20T23:10:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/BurntSushi/ripgrep/releases/tag/0.3.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "ripgrep-15.1.0-aarch64-apple-darwin.tar.gz",
+            "version": "15.1.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1777930
+          },
+          {
+            "id": "ripgrep-15.1.0-aarch64-apple-darwin.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 109
+          },
+          {
+            "id": "ripgrep-15.1.0-aarch64-pc-windows-msvc.zip",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1675460
+          },
+          {
+            "id": "ripgrep-15.1.0-aarch64-pc-windows-msvc.zip.sha256",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 179
+          },
+          {
+            "id": "ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1869959
+          },
+          {
+            "id": "ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 114
+          },
+          {
+            "id": "ripgrep-15.1.0-armv7-unknown-linux-gnueabihf.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-armv7-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1831905
+          },
+          {
+            "id": "ripgrep-15.1.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 118
+          },
+          {
+            "id": "ripgrep-15.1.0-armv7-unknown-linux-musleabi.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-armv7-unknown-linux-musleabi.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1831202
+          },
+          {
+            "id": "ripgrep-15.1.0-armv7-unknown-linux-musleabi.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-armv7-unknown-linux-musleabi.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 117
+          },
+          {
+            "id": "ripgrep-15.1.0-armv7-unknown-linux-musleabihf.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-armv7-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1844969
+          },
+          {
+            "id": "ripgrep-15.1.0-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 119
+          },
+          {
+            "id": "ripgrep-15.1.0-i686-pc-windows-msvc.zip",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1665725
+          },
+          {
+            "id": "ripgrep-15.1.0-i686-pc-windows-msvc.zip.sha256",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-i686-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 176
+          },
+          {
+            "id": "ripgrep-15.1.0-i686-unknown-linux-gnu.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950407
+          },
+          {
+            "id": "ripgrep-15.1.0-i686-unknown-linux-gnu.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-i686-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 111
+          },
+          {
+            "id": "ripgrep-15.1.0-s390x-unknown-linux-gnu.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-s390x-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2441054
+          },
+          {
+            "id": "ripgrep-15.1.0-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 112
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-apple-darwin.tar.gz",
+            "version": "15.1.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1894127
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-apple-darwin.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 108
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-pc-windows-gnu.zip",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1897509
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-pc-windows-gnu.zip.sha256",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-pc-windows-gnu.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 177
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-pc-windows-msvc.zip",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1810687
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-pc-windows-msvc.zip.sha256",
+            "version": "15.1.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 178
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2263077
+          },
+          {
+            "id": "ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 114
+          },
+          {
+            "id": "ripgrep_15.1.0-1_amd64.deb",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep_15.1.0-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1704160
+          },
+          {
+            "id": "ripgrep_15.1.0-1_amd64.deb.sha256",
+            "version": "15.1.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep_15.1.0-1_amd64.deb.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 93
+          },
+          {
+            "id": "ripgrep-15.0.0-aarch64-apple-darwin.tar.gz",
+            "version": "15.0.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1775660
+          },
+          {
+            "id": "ripgrep-15.0.0-aarch64-apple-darwin.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-aarch64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 109
+          },
+          {
+            "id": "ripgrep-15.0.0-aarch64-pc-windows-msvc.zip",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1673744
+          },
+          {
+            "id": "ripgrep-15.0.0-aarch64-pc-windows-msvc.zip.sha256",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-aarch64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 179
+          },
+          {
+            "id": "ripgrep-15.0.0-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1864542
+          },
+          {
+            "id": "ripgrep-15.0.0-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 114
+          },
+          {
+            "id": "ripgrep-15.0.0-armv7-unknown-linux-gnueabihf.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-armv7-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1843702
+          },
+          {
+            "id": "ripgrep-15.0.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 118
+          },
+          {
+            "id": "ripgrep-15.0.0-armv7-unknown-linux-musleabi.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-armv7-unknown-linux-musleabi.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1836751
+          },
+          {
+            "id": "ripgrep-15.0.0-armv7-unknown-linux-musleabi.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-armv7-unknown-linux-musleabi.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 117
+          },
+          {
+            "id": "ripgrep-15.0.0-armv7-unknown-linux-musleabihf.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-armv7-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1844101
+          },
+          {
+            "id": "ripgrep-15.0.0-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 119
+          },
+          {
+            "id": "ripgrep-15.0.0-i686-pc-windows-msvc.zip",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1670048
+          },
+          {
+            "id": "ripgrep-15.0.0-i686-pc-windows-msvc.zip.sha256",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-i686-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 176
+          },
+          {
+            "id": "ripgrep-15.0.0-i686-unknown-linux-gnu.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1952857
+          },
+          {
+            "id": "ripgrep-15.0.0-i686-unknown-linux-gnu.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-i686-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 111
+          },
+          {
+            "id": "ripgrep-15.0.0-s390x-unknown-linux-gnu.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-s390x-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2431790
+          },
+          {
+            "id": "ripgrep-15.0.0-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 112
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-apple-darwin.tar.gz",
+            "version": "15.0.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1887368
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-apple-darwin.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 108
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-pc-windows-gnu.zip",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1897663
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-pc-windows-gnu.zip.sha256",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-pc-windows-gnu.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 177
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-pc-windows-msvc.zip",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1805250
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-pc-windows-msvc.zip.sha256",
+            "version": "15.0.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 178
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-unknown-linux-musl.tar.gz",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2262100
+          },
+          {
+            "id": "ripgrep-15.0.0-x86_64-unknown-linux-musl.tar.gz.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep-15.0.0-x86_64-unknown-linux-musl.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 114
+          },
+          {
+            "id": "ripgrep_15.0.0-1_amd64.deb",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep_15.0.0-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1702852
+          },
+          {
+            "id": "ripgrep_15.0.0-1_amd64.deb.sha256",
+            "version": "15.0.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.0.0/ripgrep_15.0.0-1_amd64.deb.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 93
+          },
+          {
+            "id": "ripgrep-14.1.1-aarch64-apple-darwin.tar.gz",
+            "version": "14.1.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1787248
+          },
+          {
+            "id": "ripgrep-14.1.1-aarch64-apple-darwin.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-aarch64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 123
+          },
+          {
+            "id": "ripgrep-14.1.1-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2047405
+          },
+          {
+            "id": "ripgrep-14.1.1-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 114
+          },
+          {
+            "id": "ripgrep-14.1.1-armv7-unknown-linux-gnueabihf.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-armv7-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2039117
+          },
+          {
+            "id": "ripgrep-14.1.1-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 118
+          },
+          {
+            "id": "ripgrep-14.1.1-armv7-unknown-linux-musleabi.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-armv7-unknown-linux-musleabi.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1952640
+          },
+          {
+            "id": "ripgrep-14.1.1-armv7-unknown-linux-musleabi.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-armv7-unknown-linux-musleabi.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 117
+          },
+          {
+            "id": "ripgrep-14.1.1-armv7-unknown-linux-musleabihf.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-armv7-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1956387
+          },
+          {
+            "id": "ripgrep-14.1.1-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 119
+          },
+          {
+            "id": "ripgrep-14.1.1-i686-pc-windows-msvc.zip",
+            "version": "14.1.1",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1918749
+          },
+          {
+            "id": "ripgrep-14.1.1-i686-pc-windows-msvc.zip.sha256",
+            "version": "14.1.1",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-i686-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 176
+          },
+          {
+            "id": "ripgrep-14.1.1-i686-unknown-linux-gnu.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2357090
+          },
+          {
+            "id": "ripgrep-14.1.1-i686-unknown-linux-gnu.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-i686-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 111
+          },
+          {
+            "id": "ripgrep-14.1.1-powerpc64-unknown-linux-gnu.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-powerpc64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2397601
+          },
+          {
+            "id": "ripgrep-14.1.1-powerpc64-unknown-linux-gnu.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-powerpc64-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 116
+          },
+          {
+            "id": "ripgrep-14.1.1-s390x-unknown-linux-gnu.tar.gz",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-s390x-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2712819
+          },
+          {
+            "id": "ripgrep-14.1.1-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 112
+          },
+          {
+            "id": "ripgrep-14.1.1-x86_64-apple-darwin.tar.gz",
+            "version": "14.1.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2082672
+          },
+          {
+            "id": "ripgrep-14.1.1-x86_64-apple-darwin.tar.gz.sha256",
+            "version": "14.1.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 108
+          },
+          {
+            "id": "ripgrep-14.1.1-x86_64-pc-windows-gnu.zip",
+            "version": "14.1.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10916507
+          },
+          {
+            "id": "ripgrep-14.1.1-x86_64-pc-windows-gnu.zip.sha256",
+            "version": "14.1.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-pc-windows-gnu.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 177
+          },
+          {
+            "id": "ripgrep-14.1.1-x86_64-pc-windows-msvc.zip",
+            "version": "14.1.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2058893
+          },
+          {
+            "id": "ripgrep-14.1.1-x86_64-pc-windows-msvc.zip.sha256",
+            "version": "14.1.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 178
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.064Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "rg",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "rg",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

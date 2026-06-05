@@ -1,0 +1,2430 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "fd",
+    "name": "fd",
+    "categoryId": "terminal",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://github.com/sharkdp/fd",
+      "download": "https://github.com/sharkdp/fd",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "fd",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "fd",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "sharkdp.fd",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.178Z",
+          "errors": []
+        },
+        "package": {
+          "name": "fd",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://github.com/sharkdp/fd",
+          "download": "https://github.com/sharkdp/fd",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://github.com/sharkdp/fd",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "sharkdp.fd",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "sharkdp.fd",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "sharkdp.fd",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "sharkdp.fd",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "sharkdp.fd",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "sharkdp.fd",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.178Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "fd",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "fd",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "fd",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.209Z",
+          "errors": []
+        },
+        "package": {
+          "name": "fd",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Simple, fast and user-friendly alternative to find",
+          "license": "Apache-2.0 OR MIT",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/sharkdp/fd",
+          "download": "https://github.com/sharkdp/fd/archive/refs/tags/v10.4.2.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "10.4.2",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/sharkdp/fd/archive/refs/tags/v10.4.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "3a7e027af8c8e91c196ac259c703d78cd55c364706ddafbc66d02c326e57a456",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "fd"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "fd"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "fd"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "fd"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "fd"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "fd"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.209Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "fd",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "fd",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "fd",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.407Z",
+          "errors": []
+        },
+        "package": {
+          "name": "fd",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A simple, fast and user-friendly alternative to 'find'.",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/sharkdp/fd",
+          "download": "https://github.com/sharkdp/fd",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://github.com/sharkdp/fd",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "fd"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "fd"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "fd"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "fd"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "fd"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "fd"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.407Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "fd",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "fd",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "fd",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.537Z",
+          "errors": []
+        },
+        "package": {
+          "name": "fd",
+          "publisher": "sharkdp",
+          "author": "sharkdp",
+          "description": "A simple, fast and user-friendly alternative to find.",
+          "license": null,
+          "licenseUrl": "https://github.com/sharkdp/fd/blob/master/LICENSE-APACHE",
+          "tags": [
+            "fd",
+            "find",
+            "shell"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/sharkdp/fd",
+          "download": "https://community.chocolatey.org/api/v2/package/fd/10.4.2",
+          "releases": "https://github.com/sharkdp/fd/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.1.0.20181001",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/fd/10.4.2",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "emzVtf/Rz82+PvemiARxkTLR7wKFC2VuKkirIwNtJ6fTCTzoe3uUeTVVO9Yrku7DnQ+NTxIcRqHQugUeRw6K9A==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "fd",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "fd",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "fd",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "fd",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "fd",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "fd",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.537Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "fd",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "fd",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "sharkdp/fd",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:05.588Z",
+          "errors": []
+        },
+        "package": {
+          "name": "fd",
+          "publisher": "sharkdp",
+          "author": "sharkdp",
+          "description": "A simple, fast and user-friendly alternative to 'find'",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": [
+            "cli",
+            "command-line",
+            "filesystem",
+            "hacktoberfest",
+            "regex",
+            "rust",
+            "search",
+            "terminal",
+            "tool"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/sharkdp/fd",
+          "download": "https://github.com/sharkdp/fd",
+          "releases": "https://github.com/sharkdp/fd/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-10T07:33:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.4.2"
+          },
+          {
+            "version": "10.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-08T08:41:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.4.1"
+          },
+          {
+            "version": "10.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-07T07:04:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.4.0"
+          },
+          {
+            "version": "10.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-26T08:18:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.3.0"
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-08-23T06:36:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.2.0"
+          },
+          {
+            "version": "10.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-08T06:41:38Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.1.0"
+          },
+          {
+            "version": "10.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-06T06:05:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.0.0"
+          },
+          {
+            "version": "9.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-12-19T10:31:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v9.0.0"
+          },
+          {
+            "version": "8.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-10-21T04:29:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.7.1"
+          },
+          {
+            "version": "8.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-02-24T08:25:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.7.0"
+          },
+          {
+            "version": "8.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-12-09T07:02:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.6.0"
+          },
+          {
+            "version": "8.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-21T19:43:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.5.3"
+          },
+          {
+            "version": "8.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-03T08:14:38Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.5.2"
+          },
+          {
+            "version": "8.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-02T12:48:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.5.1"
+          },
+          {
+            "version": "8.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-01T20:34:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.5.0"
+          },
+          {
+            "version": "8.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-05-29T09:29:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.4.0"
+          },
+          {
+            "version": "8.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-01-29T15:57:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.3.2"
+          },
+          {
+            "version": "8.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-01-06T13:20:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.3.1"
+          },
+          {
+            "version": "8.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-11-26T21:21:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.3.0"
+          },
+          {
+            "version": "8.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-12-07T18:03:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.2.1"
+          },
+          {
+            "version": "8.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-12-06T15:06:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.2.0"
+          },
+          {
+            "version": "8.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-25T13:39:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.1.1"
+          },
+          {
+            "version": "8.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-19T16:51:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.1.0"
+          },
+          {
+            "version": "8.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-04-16T08:30:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v8.0.0"
+          },
+          {
+            "version": "7.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-03-22T15:38:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.5.0"
+          },
+          {
+            "version": "7.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-09-15T17:45:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.4.0"
+          },
+          {
+            "version": "7.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-02-13T20:08:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.3.0"
+          },
+          {
+            "version": "7.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-10-27T16:44:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.2.0"
+          },
+          {
+            "version": "7.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-08-19T17:38:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.1.0"
+          },
+          {
+            "version": "7.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-03-26T09:39:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.0.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "fd-musl_10.4.2_amd64.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-musl_10.4.2_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1444340
+          },
+          {
+            "id": "fd-musl_10.4.2_arm64.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-musl_10.4.2_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1324274
+          },
+          {
+            "id": "fd-musl_10.4.2_armhf.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-musl_10.4.2_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1200474
+          },
+          {
+            "id": "fd-musl_10.4.2_i686.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-musl_10.4.2_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1264540
+          },
+          {
+            "id": "fd-v10.4.2-aarch64-apple-darwin.tar.gz",
+            "version": "10.4.2",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1328933
+          },
+          {
+            "id": "fd-v10.4.2-aarch64-pc-windows-msvc.zip",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1370473
+          },
+          {
+            "id": "fd-v10.4.2-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1559490
+          },
+          {
+            "id": "fd-v10.4.2-aarch64-unknown-linux-musl.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-aarch64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1604562
+          },
+          {
+            "id": "fd-v10.4.2-arm-unknown-linux-gnueabihf.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-arm-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1594207
+          },
+          {
+            "id": "fd-v10.4.2-arm-unknown-linux-musleabihf.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-arm-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1453576
+          },
+          {
+            "id": "fd-v10.4.2-i686-pc-windows-msvc.zip",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1379740
+          },
+          {
+            "id": "fd-v10.4.2-i686-unknown-linux-gnu.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1765873
+          },
+          {
+            "id": "fd-v10.4.2-i686-unknown-linux-musl.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-i686-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1514988
+          },
+          {
+            "id": "fd-v10.4.2-x86_64-pc-windows-gnu.zip",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1469143
+          },
+          {
+            "id": "fd-v10.4.2-x86_64-pc-windows-msvc.zip",
+            "version": "10.4.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1525898
+          },
+          {
+            "id": "fd-v10.4.2-x86_64-unknown-linux-gnu.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1700779
+          },
+          {
+            "id": "fd-v10.4.2-x86_64-unknown-linux-musl.tar.gz",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1754511
+          },
+          {
+            "id": "fd_10.4.2_amd64.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd_10.4.2_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1399120
+          },
+          {
+            "id": "fd_10.4.2_arm64.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd_10.4.2_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1277486
+          },
+          {
+            "id": "fd_10.4.2_armhf.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd_10.4.2_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1325632
+          },
+          {
+            "id": "fd_10.4.2_i686.deb",
+            "version": "10.4.2",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd_10.4.2_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1474036
+          },
+          {
+            "id": "fd-musl_10.4.1_amd64.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-musl_10.4.1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1445068
+          },
+          {
+            "id": "fd-musl_10.4.1_arm64.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-musl_10.4.1_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1324312
+          },
+          {
+            "id": "fd-musl_10.4.1_armhf.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-musl_10.4.1_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1200506
+          },
+          {
+            "id": "fd-musl_10.4.1_i686.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-musl_10.4.1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1264340
+          },
+          {
+            "id": "fd-v10.4.1-aarch64-apple-darwin.tar.gz",
+            "version": "10.4.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1329025
+          },
+          {
+            "id": "fd-v10.4.1-aarch64-pc-windows-msvc.zip",
+            "version": "10.4.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1371419
+          },
+          {
+            "id": "fd-v10.4.1-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1559457
+          },
+          {
+            "id": "fd-v10.4.1-aarch64-unknown-linux-musl.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-aarch64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1604864
+          },
+          {
+            "id": "fd-v10.4.1-arm-unknown-linux-gnueabihf.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-arm-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1594339
+          },
+          {
+            "id": "fd-v10.4.1-arm-unknown-linux-musleabihf.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-arm-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1453483
+          },
+          {
+            "id": "fd-v10.4.1-i686-pc-windows-msvc.zip",
+            "version": "10.4.1",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1379839
+          },
+          {
+            "id": "fd-v10.4.1-i686-unknown-linux-gnu.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1764929
+          },
+          {
+            "id": "fd-v10.4.1-i686-unknown-linux-musl.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-i686-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1514692
+          },
+          {
+            "id": "fd-v10.4.1-x86_64-pc-windows-gnu.zip",
+            "version": "10.4.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1469596
+          },
+          {
+            "id": "fd-v10.4.1-x86_64-pc-windows-msvc.zip",
+            "version": "10.4.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1526136
+          },
+          {
+            "id": "fd-v10.4.1-x86_64-unknown-linux-gnu.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-x86_64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1700845
+          },
+          {
+            "id": "fd-v10.4.1-x86_64-unknown-linux-musl.tar.gz",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd-v10.4.1-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1754489
+          },
+          {
+            "id": "fd_10.4.1_amd64.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd_10.4.1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1397558
+          },
+          {
+            "id": "fd_10.4.1_arm64.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd_10.4.1_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1277522
+          },
+          {
+            "id": "fd_10.4.1_armhf.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd_10.4.1_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1325934
+          },
+          {
+            "id": "fd_10.4.1_i686.deb",
+            "version": "10.4.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.1/fd_10.4.1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1473774
+          },
+          {
+            "id": "fd-musl_10.3.0_amd64.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-musl_10.3.0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1444530
+          },
+          {
+            "id": "fd-musl_10.3.0_arm64.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-musl_10.3.0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1313888
+          },
+          {
+            "id": "fd-musl_10.3.0_armhf.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-musl_10.3.0_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1203862
+          },
+          {
+            "id": "fd-musl_10.3.0_i686.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-musl_10.3.0_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1260344
+          },
+          {
+            "id": "fd-v10.3.0-aarch64-apple-darwin.tar.gz",
+            "version": "10.3.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1337349
+          },
+          {
+            "id": "fd-v10.3.0-aarch64-pc-windows-msvc.zip",
+            "version": "10.3.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1416342
+          },
+          {
+            "id": "fd-v10.3.0-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1575492
+          },
+          {
+            "id": "fd-v10.3.0-aarch64-unknown-linux-musl.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1608477
+          },
+          {
+            "id": "fd-v10.3.0-arm-unknown-linux-gnueabihf.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-arm-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1610195
+          },
+          {
+            "id": "fd-v10.3.0-arm-unknown-linux-musleabihf.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-arm-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1466796
+          },
+          {
+            "id": "fd-v10.3.0-i686-pc-windows-msvc.zip",
+            "version": "10.3.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1381022
+          },
+          {
+            "id": "fd-v10.3.0-i686-unknown-linux-gnu.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1773069
+          },
+          {
+            "id": "fd-v10.3.0-i686-unknown-linux-musl.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-i686-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1524821
+          },
+          {
+            "id": "fd-v10.3.0-x86_64-apple-darwin.tar.gz",
+            "version": "10.3.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1430203
+          },
+          {
+            "id": "fd-v10.3.0-x86_64-pc-windows-gnu.zip",
+            "version": "10.3.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1479456
+          },
+          {
+            "id": "fd-v10.3.0-x86_64-pc-windows-msvc.zip",
+            "version": "10.3.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1490905
+          },
+          {
+            "id": "fd-v10.3.0-x86_64-unknown-linux-gnu.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1710062
+          },
+          {
+            "id": "fd-v10.3.0-x86_64-unknown-linux-musl.tar.gz",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1759301
+          },
+          {
+            "id": "fd_10.3.0_amd64.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1401534
+          },
+          {
+            "id": "fd_10.3.0_arm64.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1282680
+          },
+          {
+            "id": "fd_10.3.0_armhf.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1330760
+          },
+          {
+            "id": "fd_10.3.0_i686.deb",
+            "version": "10.3.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1471806
+          },
+          {
+            "id": "fd-musl_10.2.0_amd64.deb",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1388390
+          },
+          {
+            "id": "fd-musl_10.2.0_arm64.deb",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1266304
+          },
+          {
+            "id": "fd-musl_10.2.0_armhf.deb",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1092360
+          },
+          {
+            "id": "fd-musl_10.2.0_i686.deb",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1149308
+          },
+          {
+            "id": "fd-v10.2.0-aarch64-apple-darwin.tar.gz",
+            "version": "10.2.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1220905
+          },
+          {
+            "id": "fd-v10.2.0-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1499935
+          },
+          {
+            "id": "fd-v10.2.0-aarch64-unknown-linux-musl.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1537874
+          },
+          {
+            "id": "fd-v10.2.0-arm-unknown-linux-gnueabihf.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-arm-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1523617
+          },
+          {
+            "id": "fd-v10.2.0-arm-unknown-linux-musleabihf.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-arm-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1330484
+          },
+          {
+            "id": "fd-v10.2.0-i686-pc-windows-msvc.zip",
+            "version": "10.2.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1193182
+          },
+          {
+            "id": "fd-v10.2.0-i686-unknown-linux-gnu.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1667456
+          },
+          {
+            "id": "fd-v10.2.0-i686-unknown-linux-musl.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-i686-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1377904
+          },
+          {
+            "id": "fd-v10.2.0-x86_64-apple-darwin.tar.gz",
+            "version": "10.2.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1301191
+          },
+          {
+            "id": "fd-v10.2.0-x86_64-pc-windows-gnu.zip",
+            "version": "10.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1307369
+          },
+          {
+            "id": "fd-v10.2.0-x86_64-pc-windows-msvc.zip",
+            "version": "10.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1315212
+          },
+          {
+            "id": "fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz",
+            "version": "10.2.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1629598
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:05.588Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "fd",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "fd",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

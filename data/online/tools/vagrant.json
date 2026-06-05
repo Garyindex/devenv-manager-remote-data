@@ -1,0 +1,2563 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "vagrant",
+    "name": "Vagrant",
+    "categoryId": "devops",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://www.vagrantup.com/",
+      "download": "https://www.vagrantup.com/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "vagrant",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "vagrant",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Hashicorp.Vagrant",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.950Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Vagrant",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://www.vagrantup.com/",
+          "download": "https://www.vagrantup.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.9",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.19",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.18",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.17",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.16",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.15",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.14",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.4.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://www.vagrantup.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Hashicorp.Vagrant",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Hashicorp.Vagrant",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Hashicorp.Vagrant",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Hashicorp.Vagrant",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Hashicorp.Vagrant",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Hashicorp.Vagrant",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.950Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "vagrant",
+        "platforms": [
+          "macos"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:21.187Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Vagrant",
+          "publisher": "homebrew/cask",
+          "author": "homebrew/cask",
+          "description": "Development environment",
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "cask",
+            "homebrew/cask"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.vagrantup.com/",
+          "download": "https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_darwin_arm64.dmg",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.9",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.4.9",
+            "platform": "macos",
+            "architecture": null,
+            "type": "cask",
+            "url": "https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_darwin_arm64.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "8de08bd435ef8ae0fc5fbd6acefa9c68e62fb898c5ae0fbdacd26853bea9d4d6",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "vagrant"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "vagrant"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "vagrant"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "vagrant"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "vagrant"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "vagrant"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:21.187Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "vagrant",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:21.332Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Vagrant",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A tool for building and managing virtual machine environments in a single workflow.",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.vagrantup.com/",
+          "download": "https://www.vagrantup.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.9",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.4.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://www.vagrantup.com/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "vagrant"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "vagrant"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "vagrant"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "vagrant"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "vagrant"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "vagrant"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:21.332Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "vagrant",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:21.374Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Vagrant (Install)",
+          "publisher": "Mitchell Hashimoto, John Bender, HashiCorp",
+          "author": "Mitchell Hashimoto, John Bender, HashiCorp",
+          "description": "Vagrant - Development environments made easy.",
+          "license": null,
+          "licenseUrl": "https://github.com/mitchellh/vagrant/blob/master/LICENSE",
+          "tags": [
+            "vagrant",
+            "admin",
+            "sandbox",
+            "virtual",
+            "machine",
+            "testing",
+            "vm",
+            "virtualbox",
+            "vmware",
+            "cross-platform",
+            "foss",
+            "cli"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.vagrantup.com/",
+          "download": "https://community.chocolatey.org/api/v2/package/vagrant/2.4.9",
+          "releases": "[CHANGELOG](https://github.com/mitchellh/vagrant/blob/master/CHANGELOG.md)",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.9",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.17",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.16",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.18.20210807",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.1.2.20180731",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.14",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.1.20160318",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.4.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/vagrant/2.4.9",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "3gnyBeM+k2pJC8LaeNoaWvrTtaPes79/nQ8CVbtRuR/sV1sVjPOZRlTzfxeyaMkDmdUVWsxDxjeLE/FdOHx7DQ==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "vagrant",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "vagrant",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "vagrant",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "vagrant",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "vagrant",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "vagrant",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:21.374Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "hashicorp/vagrant",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:21.408Z",
+          "errors": []
+        },
+        "package": {
+          "name": "vagrant",
+          "publisher": "hashicorp",
+          "author": "hashicorp",
+          "description": "Vagrant is a tool for building and distributing development environments.",
+          "license": "NOASSERTION",
+          "licenseUrl": null,
+          "tags": [
+            "automation",
+            "ruby",
+            "vagrant",
+            "virtualization"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.vagrantup.com",
+          "download": "https://www.vagrantup.com/",
+          "releases": "https://github.com/hashicorp/vagrant/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.10.dev+000834-2757db88",
+            "channel": "prerelease",
+            "latest": true,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-06-01T08:42:13Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000834-2757db88"
+          },
+          {
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-09T05:59:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000781-f9e2630d"
+          },
+          {
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-03-18T07:46:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000759-0b7d460a"
+          },
+          {
+            "version": "2.4.10.dev+000754-d3cecace",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-03-13T07:36:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000754-d3cecace"
+          },
+          {
+            "version": "2.4.10.dev+000724-92e88862",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-02-11T07:44:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000724-92e88862"
+          },
+          {
+            "version": "2.4.10.dev+000696-5099cac6",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-01-14T07:20:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000696-5099cac6"
+          },
+          {
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-24T05:20:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000675-b0593b6a"
+          },
+          {
+            "version": "2.4.10.dev+000674-395d9424",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-23T07:14:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000674-395d9424"
+          },
+          {
+            "version": "2.4.10.dev+000667-e15df819",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-16T05:30:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000667-e15df819"
+          },
+          {
+            "version": "2.4.10.dev+000664-bba4fbab",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-13T07:14:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000664-bba4fbab"
+          },
+          {
+            "version": "2.4.10.dev+000660-e1c22285",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-09T07:16:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000660-e1c22285"
+          },
+          {
+            "version": "2.4.10.dev+000656-ea57f40b",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-05T07:16:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000656-ea57f40b"
+          },
+          {
+            "version": "2.4.10.dev+000649-9f927973",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-28T05:26:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000649-9f927973"
+          },
+          {
+            "version": "2.4.10.dev+000648-6875998b",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-27T05:14:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000648-6875998b"
+          },
+          {
+            "version": "2.4.10.dev+000647-803cb1d8",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-26T05:15:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000647-803cb1d8"
+          },
+          {
+            "version": "2.4.10.dev+000646-fc70439e",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-25T08:14:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000646-fc70439e"
+          },
+          {
+            "version": "2.4.10.dev+000643-162b7c0d",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-22T05:13:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000643-162b7c0d"
+          },
+          {
+            "version": "2.4.10.dev+000642-342afc21",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-21T05:15:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000642-342afc21"
+          },
+          {
+            "version": "2.4.10.dev+000641-d2e552f9",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-20T07:13:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000641-d2e552f9"
+          },
+          {
+            "version": "2.4.10.dev+000573-f2960d54",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-09-12T06:46:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000573-f2960d54"
+          },
+          {
+            "version": "2.4.10.dev+000552-f0b1da8c",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-22T05:09:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.10.dev%2B000552-f0b1da8c"
+          },
+          {
+            "version": "2.4.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-21T07:45:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/v2.4.9"
+          },
+          {
+            "version": "2.4.9.dev+000551-069f40ca",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-21T05:10:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.9.dev%2B000551-069f40ca"
+          },
+          {
+            "version": "2.4.9.dev+000550-bb51184c",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-20T06:53:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.9.dev%2B000550-bb51184c"
+          },
+          {
+            "version": "2.4.9.dev+000538-0e08421b",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-08T07:17:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.9.dev%2B000538-0e08421b"
+          },
+          {
+            "version": "2.4.9.dev+000536-161d5593",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-06T05:17:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.9.dev%2B000536-161d5593"
+          },
+          {
+            "version": "2.4.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-05T13:09:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/v2.4.8"
+          },
+          {
+            "version": "2.4.8.dev+000534-120a3dc7",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-08-04T18:24:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.8.dev%2B000534-120a3dc7"
+          },
+          {
+            "version": "2.4.8.dev+000526-c70e8ab3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-06-20T05:12:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.8.dev%2B000526-c70e8ab3"
+          },
+          {
+            "version": "2.4.8.dev+000524-d750ad49",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-06-18T05:11:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/vagrant/releases/tag/2.4.8.dev%2B000524-d750ad49"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36697474
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86442796
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90250385
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90532050
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87007058
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56191759
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 47011739
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev_SHA256SUMS",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 993
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_amd64.msi",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 250560512
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_i686.msi",
+            "version": "2.4.10.dev+000834-2757db88",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000834-2757db88/vagrant_2.4.10.dev_windows_i686.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 256450560
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36216134
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86335727
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90119401
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90355256
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86828684
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56124055
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46951399
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev_SHA256SUMS",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 993
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_amd64.msi",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249954304
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_i686.msi",
+            "version": "2.4.10.dev+000781-f9e2630d",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000781-f9e2630d/vagrant_2.4.10.dev_windows_i686.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 246661120
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36216336
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86313364
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90134076
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90378660
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86848558
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56260735
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46946670
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev_SHA256SUMS",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 993
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_amd64.msi",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249823232
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_i686.msi",
+            "version": "2.4.10.dev+000759-0b7d460a",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000759-0b7d460a/vagrant_2.4.10.dev_windows_i686.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 247017472
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36208494
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86305307
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90132995
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90379000
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86843086
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56260447
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46947821
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev_SHA256SUMS",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 993
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_amd64.msi",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249806848
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_i686.msi",
+            "version": "2.4.10.dev+000754-d3cecace",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000754-d3cecace/vagrant_2.4.10.dev_windows_i686.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 246988800
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36198042
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86305378
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90098055
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90377538
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86853632
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56262276
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46945688
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev_SHA256SUMS",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 993
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_amd64.msi",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249704448
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_i686.msi",
+            "version": "2.4.10.dev+000724-92e88862",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000724-92e88862/vagrant_2.4.10.dev_windows_i686.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 246988800
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36197259
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86309645
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90094795
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90379238
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86845892
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56257005
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46944027
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev_SHA256SUMS",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 993
+          },
+          {
+            "id": "vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev_SHA256SUMS.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_amd64.msi",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 248651776
+          },
+          {
+            "id": "vagrant_2.4.10.dev_windows_i686.msi",
+            "version": "2.4.10.dev+000696-5099cac6",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000696-5099cac6/vagrant_2.4.10.dev_windows_i686.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 246009856
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant-2.4.10.dev-1-x86_64.pkg.tar.zst",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36340189
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.i686.rpm",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant-2.4.10.dev-1.i686.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86527707
+          },
+          {
+            "id": "vagrant-2.4.10.dev-1.x86_64.rpm",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant-2.4.10.dev-1.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90351640
+          },
+          {
+            "id": "vagrant-2.4.10.dev.gem",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant-2.4.10.dev.gem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 709632
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_amd64.deb",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant_2.4.10.dev-1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90629198
+          },
+          {
+            "id": "vagrant_2.4.10.dev-1_i686.deb",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant_2.4.10.dev-1_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87083956
+          },
+          {
+            "id": "vagrant_2.4.10.dev_darwin_universal.dmg",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant_2.4.10.dev_darwin_universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 56240363
+          },
+          {
+            "id": "vagrant_2.4.10.dev_linux_amd64.zip",
+            "version": "2.4.10.dev+000675-b0593b6a",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/hashicorp/vagrant/releases/download/2.4.10.dev%2B000675-b0593b6a/vagrant_2.4.10.dev_linux_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 47067496
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:21.408Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "vagrant",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

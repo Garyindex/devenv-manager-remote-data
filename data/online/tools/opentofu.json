@@ -1,0 +1,2619 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "opentofu",
+    "name": "OpenTofu",
+    "categoryId": "devops",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://opentofu.org/",
+      "download": "https://opentofu.org/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "tofu",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "tofu",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "OpenTofu.Tofu",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.190Z",
+          "errors": []
+        },
+        "package": {
+          "name": "OpenTofu",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://opentofu.org/",
+          "download": "https://opentofu.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://opentofu.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "OpenTofu.Tofu",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "OpenTofu.Tofu",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "OpenTofu.Tofu",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "OpenTofu.Tofu",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "OpenTofu.Tofu",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "OpenTofu.Tofu",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.190Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "tofu",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "tofu",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "opentofu",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.231Z",
+          "errors": []
+        },
+        "package": {
+          "name": "opentofu",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Drop-in replacement for Terraform. Infrastructure as Code Tool",
+          "license": "MPL-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://opentofu.org/",
+          "download": "https://github.com/opentofu/opentofu/archive/refs/tags/v1.12.1.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/opentofu/opentofu/archive/refs/tags/v1.12.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "c736126cea1f0067e046ef0172eb4ba2b39bcf1494d399e067b9e63e0f0d20d6",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "opentofu"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "opentofu"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "opentofu"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "opentofu"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "opentofu"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "opentofu"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.231Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "tofu",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "tofu",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "opentofu",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.239Z",
+          "errors": []
+        },
+        "package": {
+          "name": "OpenTofu",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "An OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions.",
+          "license": "MPL-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://opentofu.org/",
+          "download": "https://opentofu.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://opentofu.org/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "opentofu"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "opentofu"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "opentofu"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "opentofu"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "opentofu"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "opentofu"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.239Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "tofu",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "tofu",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "opentofu",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.410Z",
+          "errors": []
+        },
+        "package": {
+          "name": "OpenTofu",
+          "publisher": "Linux Foundation, HashiCorp, Inc.",
+          "author": "Linux Foundation, HashiCorp, Inc.",
+          "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+          "license": null,
+          "licenseUrl": "https://github.com/opentofu/opentofu/blob/main/LICENSE",
+          "tags": [
+            "opentofu",
+            "terraform"
+          ]
+        },
+        "links": {
+          "homepage": "https://opentofu.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/opentofu/1.12.1",
+          "releases": "https://github.com/opentofu/opentofu/blob/v1.11.1/CHANGELOG.md",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-beta1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.0-alpha3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.0-alpha2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.0-alpha4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/opentofu/1.12.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "HDl0e5RFY74UOz9FDqhnCLZ8ayVzgBDanUQJUrDXe9ORrVvda+U63UG6o4cJiUdLbXW5mDGBLVia1v/oSSvUFg==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "opentofu",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "opentofu",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "opentofu",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "opentofu",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "opentofu",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "opentofu",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.410Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "tofu",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "tofu",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "opentofu/opentofu",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.486Z",
+          "errors": []
+        },
+        "package": {
+          "name": "opentofu",
+          "publisher": "opentofu",
+          "author": "opentofu",
+          "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+          "license": "MPL-2.0",
+          "licenseUrl": "https://api.github.com/licenses/mpl-2.0",
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://opentofu.org",
+          "download": "https://opentofu.org/",
+          "releases": "https://github.com/opentofu/opentofu/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-27T10:44:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.12.1"
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-14T11:57:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.12.0"
+          },
+          {
+            "version": "1.11.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-14T09:47:13Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.8"
+          },
+          {
+            "version": "1.11.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-11T12:16:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.7"
+          },
+          {
+            "version": "1.10.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-11T11:29:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.10"
+          },
+          {
+            "version": "1.12.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-29T19:56:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.12.0-rc1"
+          },
+          {
+            "version": "1.12.0-beta1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-08T14:54:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.12.0-beta1"
+          },
+          {
+            "version": "1.11.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-08T11:48:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.6"
+          },
+          {
+            "version": "1.11.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-12T15:43:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.5"
+          },
+          {
+            "version": "1.10.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-12T14:58:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.9"
+          },
+          {
+            "version": "1.11.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-21T16:45:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.4"
+          },
+          {
+            "version": "1.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-13T17:51:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.3"
+          },
+          {
+            "version": "1.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-19T19:20:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.2"
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-10T17:45:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.1"
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-09T18:52:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.0"
+          },
+          {
+            "version": "1.10.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-08T19:49:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.8"
+          },
+          {
+            "version": "1.11.0-rc4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-25T16:48:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.0-rc4"
+          },
+          {
+            "version": "1.11.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-19T15:44:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.0-rc3"
+          },
+          {
+            "version": "1.11.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-17T14:43:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.0-rc2"
+          },
+          {
+            "version": "1.10.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-06T14:03:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.7"
+          },
+          {
+            "version": "1.11.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-03T16:51:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.0-rc1"
+          },
+          {
+            "version": "1.11.0-beta1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-10-23T16:16:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.11.0-beta1"
+          },
+          {
+            "version": "1.10.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-03T18:46:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.6"
+          },
+          {
+            "version": "1.9.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-03T18:46:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.9.4"
+          },
+          {
+            "version": "1.10.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-01T14:57:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.5"
+          },
+          {
+            "version": "1.10.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-31T14:18:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.4"
+          },
+          {
+            "version": "1.9.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-31T14:17:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.9.3"
+          },
+          {
+            "version": "1.8.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-31T14:16:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.8.11"
+          },
+          {
+            "version": "1.7.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-31T14:16:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.7.10"
+          },
+          {
+            "version": "1.10.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-15T14:33:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/opentofu/opentofu/releases/tag/v1.10.3"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "tofu_1.12.1_386.apk",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.apk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33186171
+          },
+          {
+            "id": "tofu_1.12.1_386.apk.gpgsig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.apk.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_386.apk.pem",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.apk.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_386.apk.sig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.apk.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_386.deb",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31830928
+          },
+          {
+            "id": "tofu_1.12.1_386.deb.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.deb.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_386.deb.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.deb.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_386.deb.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.deb.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_386.rpm",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33139369
+          },
+          {
+            "id": "tofu_1.12.1_386.rpm.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.rpm.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_386.rpm.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.rpm.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_386.rpm.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_386.rpm.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_amd64.apk",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.apk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36253490
+          },
+          {
+            "id": "tofu_1.12.1_amd64.apk.gpgsig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.apk.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_amd64.apk.pem",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.apk.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_amd64.apk.sig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.apk.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_amd64.deb",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34770068
+          },
+          {
+            "id": "tofu_1.12.1_amd64.deb.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.deb.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_amd64.deb.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.deb.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_amd64.deb.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.deb.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_amd64.rpm",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36271106
+          },
+          {
+            "id": "tofu_1.12.1_amd64.rpm.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.rpm.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_amd64.rpm.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.rpm.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_amd64.rpm.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_amd64.rpm.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_arm.apk",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.apk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33339864
+          },
+          {
+            "id": "tofu_1.12.1_arm.apk.gpgsig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.apk.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_arm.apk.pem",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.apk.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_arm.apk.sig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.apk.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_arm.deb",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32191840
+          },
+          {
+            "id": "tofu_1.12.1_arm.deb.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.deb.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_arm.deb.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.deb.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_arm.deb.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.deb.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_arm.rpm",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33325086
+          },
+          {
+            "id": "tofu_1.12.1_arm.rpm.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.rpm.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_arm.rpm.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.rpm.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_arm.rpm.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm.rpm.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_arm64.apk",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.apk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32225382
+          },
+          {
+            "id": "tofu_1.12.1_arm64.apk.gpgsig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.apk.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_arm64.apk.pem",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.apk.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_arm64.apk.sig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.apk.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_arm64.deb",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31128390
+          },
+          {
+            "id": "tofu_1.12.1_arm64.deb.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.deb.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_arm64.deb.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.deb.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_arm64.deb.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.deb.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_arm64.rpm",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32235188
+          },
+          {
+            "id": "tofu_1.12.1_arm64.rpm.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.rpm.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_arm64.rpm.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.rpm.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3344
+          },
+          {
+            "id": "tofu_1.12.1_arm64.rpm.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_arm64.rpm.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.tar.gz",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 35367449
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.tar.gz.gpgsig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.tar.gz.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.tar.gz.pem",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.tar.gz.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.tar.gz.sig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.tar.gz.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 35368575
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.zip.gpgsig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.zip.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.zip.pem",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.zip.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_darwin_amd64.zip.sig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_amd64.zip.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.tar.gz",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32595568
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.tar.gz.gpgsig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.tar.gz.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.tar.gz.pem",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.tar.gz.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.tar.gz.sig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.tar.gz.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32597725
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.zip.gpgsig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.zip.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.zip.pem",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.zip.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_darwin_arm64.zip.sig",
+            "version": "1.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_darwin_arm64.zip.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.tar.gz",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31642846
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.tar.gz.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.tar.gz.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.tar.gz.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.tar.gz.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.tar.gz.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.tar.gz.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31648445
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.zip.gpgsig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.zip.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.zip.pem",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.zip.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3352
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_386.zip.sig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_386.zip.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.tar.gz",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34590459
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.tar.gz.gpgsig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.tar.gz.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.tar.gz.pem",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.tar.gz.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3344
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.tar.gz.sig",
+            "version": "1.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.tar.gz.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.zip",
+            "version": "1.12.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34586309
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.zip.gpgsig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.zip.gpgsig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 566
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.zip.pem",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.zip.pem",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3344
+          },
+          {
+            "id": "tofu_1.12.1_freebsd_amd64.zip.sig",
+            "version": "1.12.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_freebsd_amd64.zip.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.486Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "tofu",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "tofu",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

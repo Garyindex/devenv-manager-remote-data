@@ -1,0 +1,2629 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "git_lfs",
+    "name": "Git LFS",
+    "categoryId": "source-control",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://git-lfs.com/",
+      "download": "https://git-lfs.com/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "git-lfs",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "git-lfs",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "GitHub.GitLFS",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.849Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Git LFS",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://git-lfs.com/",
+          "download": "https://git-lfs.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.7.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.13.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.13.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://git-lfs.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "GitHub.GitLFS",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "GitHub.GitLFS",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "GitHub.GitLFS",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "GitHub.GitLFS",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "GitHub.GitLFS",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "GitHub.GitLFS",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.849Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "git-lfs",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.874Z",
+          "errors": []
+        },
+        "package": {
+          "name": "git-lfs",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Git extension for versioning large files",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-lfs.com/",
+          "download": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-v3.7.1.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.7.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.7.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "8f56058622edfea1d111e50e9844ef2f5ce670b2dbe4d55d48e765c943af4351",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "git-lfs"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "git-lfs"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "git-lfs"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "git-lfs"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "git-lfs"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "git-lfs"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.874Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "git-lfs",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.875Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Git LFS",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Git extension for versioning large files.",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-lfs.com",
+          "download": "https://git-lfs.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.7.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://git-lfs.com/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "git-lfs"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "git-lfs"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "git-lfs"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "git-lfs"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "git-lfs"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "git-lfs"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.875Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "git-lfs",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.876Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Git Large File Storage",
+          "publisher": "GitHub Inc",
+          "author": "GitHub Inc",
+          "description": "An open source Git extension for versioning large files",
+          "license": null,
+          "licenseUrl": "http://opensource.org/licenses/MIT",
+          "tags": [
+            "git",
+            "lfs",
+            "vcs",
+            "dvcs",
+            "version-control",
+            "foss",
+            "cross-platform",
+            "cli"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-lfs.github.com/",
+          "download": "https://community.chocolatey.org/api/v2/package/git-lfs/3.7.1",
+          "releases": "https://github.com/git-lfs/git-lfs/releases/tag/v3.7.1",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.7.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.3.20161213",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.4.2.20161014",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/git-lfs/3.7.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "7SDRN+WUnyw3rd8LCmbazf3noZzvTjqCFlLrCHl5xd81kEHO5CMj+dd9tgUgfvpD7rnY3L209tluidBuISNmxQ==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "git-lfs",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "git-lfs",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "git-lfs",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "git-lfs",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "git-lfs",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "git-lfs",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.876Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "git-lfs/git-lfs",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.880Z",
+          "errors": []
+        },
+        "package": {
+          "name": "git-lfs",
+          "publisher": "git-lfs",
+          "author": "git-lfs",
+          "description": "Git extension for versioning large files",
+          "license": "NOASSERTION",
+          "licenseUrl": null,
+          "tags": [
+            "git",
+            "git-lfs",
+            "go"
+          ]
+        },
+        "links": {
+          "homepage": "https://git-lfs.com",
+          "download": "https://git-lfs.com/",
+          "releases": "https://github.com/git-lfs/git-lfs/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.7.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-17T02:46:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.7.1"
+          },
+          {
+            "version": "3.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-06-27T00:08:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.7.0"
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-14T19:27:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.6.1"
+          },
+          {
+            "version": "3.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-11-21T01:37:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.6.0"
+          },
+          {
+            "version": "3.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-03-07T21:03:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.5.1"
+          },
+          {
+            "version": "3.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-12-13T23:25:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.4.1"
+          },
+          {
+            "version": "3.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-07-26T20:18:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.4.0"
+          },
+          {
+            "version": "3.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-30T18:22:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.3.0"
+          },
+          {
+            "version": "3.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-05-25T15:39:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.2.0"
+          },
+          {
+            "version": "3.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-04-19T21:24:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.1.4"
+          },
+          {
+            "version": "3.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-02-16T20:07:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.1.2"
+          },
+          {
+            "version": "3.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-02-14T21:44:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.1.1"
+          },
+          {
+            "version": "3.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-10-28T19:04:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.0.2"
+          },
+          {
+            "version": "3.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-09-28T18:03:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v3.0.1"
+          },
+          {
+            "version": "2.13.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-03-26T16:10:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.13.3"
+          },
+          {
+            "version": "2.13.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-01-13T18:47:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.13.2"
+          },
+          {
+            "version": "2.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-12-11T20:47:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.13.1"
+          },
+          {
+            "version": "2.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-11-04T21:25:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.12.1"
+          },
+          {
+            "version": "2.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-09-01T18:45:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.12.0"
+          },
+          {
+            "version": "2.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-08T17:22:56Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.11.0"
+          },
+          {
+            "version": "2.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-01-21T19:52:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.10.0"
+          },
+          {
+            "version": "2.9.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-12-12T22:04:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.9.2"
+          },
+          {
+            "version": "2.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-11-25T22:57:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.9.1"
+          },
+          {
+            "version": "2.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-10-17T18:07:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.9.0"
+          },
+          {
+            "version": "2.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-07-23T17:12:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.8.0"
+          },
+          {
+            "version": "2.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-04-23T18:06:38Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.7.2"
+          },
+          {
+            "version": "2.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-02-26T18:35:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.7.1"
+          },
+          {
+            "version": "2.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-02-15T19:17:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.7.0"
+          },
+          {
+            "version": "2.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-12-03T20:52:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.6.1"
+          },
+          {
+            "version": "2.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-11-01T22:27:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/git-lfs/git-lfs/releases/tag/v2.6.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "git-lfs-darwin-amd64-v3.7.1.zip",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-darwin-amd64-v3.7.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5790188
+          },
+          {
+            "id": "git-lfs-darwin-arm64-v3.7.1.zip",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-darwin-arm64-v3.7.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5289015
+          },
+          {
+            "id": "git-lfs-freebsd-386-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-freebsd-386-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5261072
+          },
+          {
+            "id": "git-lfs-freebsd-amd64-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-freebsd-amd64-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5492308
+          },
+          {
+            "id": "git-lfs-linux-386-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-386-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5294828
+          },
+          {
+            "id": "git-lfs-linux-amd64-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-amd64-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5524590
+          },
+          {
+            "id": "git-lfs-linux-arm-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-arm-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5262815
+          },
+          {
+            "id": "git-lfs-linux-arm64-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-arm64-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5025763
+          },
+          {
+            "id": "git-lfs-linux-loong64-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-loong64-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5197855
+          },
+          {
+            "id": "git-lfs-linux-ppc64le-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-ppc64le-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5074793
+          },
+          {
+            "id": "git-lfs-linux-riscv64-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-riscv64-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5200342
+          },
+          {
+            "id": "git-lfs-linux-s390x-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-s390x-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5444986
+          },
+          {
+            "id": "git-lfs-v3.7.1.tar.gz",
+            "version": "3.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-v3.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 713503
+          },
+          {
+            "id": "git-lfs-windows-386-v3.7.1.zip",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-windows-386-v3.7.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5316883
+          },
+          {
+            "id": "git-lfs-windows-amd64-v3.7.1.zip",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-windows-amd64-v3.7.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5469282
+          },
+          {
+            "id": "git-lfs-windows-arm64-v3.7.1.zip",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-windows-arm64-v3.7.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4936229
+          },
+          {
+            "id": "git-lfs-windows-v3.7.1.exe",
+            "version": "3.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-windows-v3.7.1.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12124248
+          },
+          {
+            "id": "hashes.asc",
+            "version": "3.7.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/hashes.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22020
+          },
+          {
+            "id": "sha256sums.asc",
+            "version": "3.7.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/sha256sums.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2526
+          },
+          {
+            "id": "git-lfs-darwin-amd64-v3.7.0.zip",
+            "version": "3.7.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-darwin-amd64-v3.7.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5745161
+          },
+          {
+            "id": "git-lfs-darwin-arm64-v3.7.0.zip",
+            "version": "3.7.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-darwin-arm64-v3.7.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5291879
+          },
+          {
+            "id": "git-lfs-freebsd-386-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-freebsd-386-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5197965
+          },
+          {
+            "id": "git-lfs-freebsd-amd64-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-freebsd-amd64-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5449459
+          },
+          {
+            "id": "git-lfs-linux-386-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-386-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5217794
+          },
+          {
+            "id": "git-lfs-linux-amd64-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-amd64-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5462079
+          },
+          {
+            "id": "git-lfs-linux-arm-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-arm-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5184509
+          },
+          {
+            "id": "git-lfs-linux-arm64-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-arm64-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5017958
+          },
+          {
+            "id": "git-lfs-linux-loong64-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-loong64-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5139885
+          },
+          {
+            "id": "git-lfs-linux-ppc64le-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-ppc64le-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5009163
+          },
+          {
+            "id": "git-lfs-linux-riscv64-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-riscv64-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5138021
+          },
+          {
+            "id": "git-lfs-linux-s390x-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-linux-s390x-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5374322
+          },
+          {
+            "id": "git-lfs-v3.7.0.tar.gz",
+            "version": "3.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-v3.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 700986
+          },
+          {
+            "id": "git-lfs-windows-386-v3.7.0.zip",
+            "version": "3.7.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-386-v3.7.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5238922
+          },
+          {
+            "id": "git-lfs-windows-amd64-v3.7.0.zip",
+            "version": "3.7.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-amd64-v3.7.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5407920
+          },
+          {
+            "id": "git-lfs-windows-arm64-v3.7.0.zip",
+            "version": "3.7.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-arm64-v3.7.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4920537
+          },
+          {
+            "id": "git-lfs-windows-v3.7.0.exe",
+            "version": "3.7.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-v3.7.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11890880
+          },
+          {
+            "id": "hashes.asc",
+            "version": "3.7.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/hashes.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22020
+          },
+          {
+            "id": "sha256sums.asc",
+            "version": "3.7.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/sha256sums.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2526
+          },
+          {
+            "id": "git-lfs-darwin-amd64-v3.6.1.zip",
+            "version": "3.6.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-darwin-amd64-v3.6.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5536443
+          },
+          {
+            "id": "git-lfs-darwin-arm64-v3.6.1.zip",
+            "version": "3.6.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-darwin-arm64-v3.6.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5120559
+          },
+          {
+            "id": "git-lfs-freebsd-386-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-freebsd-386-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4926099
+          },
+          {
+            "id": "git-lfs-freebsd-amd64-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-freebsd-amd64-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5245523
+          },
+          {
+            "id": "git-lfs-linux-386-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-386-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4948535
+          },
+          {
+            "id": "git-lfs-linux-amd64-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5258253
+          },
+          {
+            "id": "git-lfs-linux-arm-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-arm-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4924514
+          },
+          {
+            "id": "git-lfs-linux-arm64-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-arm64-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4855163
+          },
+          {
+            "id": "git-lfs-linux-loong64-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-loong64-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4866180
+          },
+          {
+            "id": "git-lfs-linux-ppc64le-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-ppc64le-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4833307
+          },
+          {
+            "id": "git-lfs-linux-riscv64-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-riscv64-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4848427
+          },
+          {
+            "id": "git-lfs-linux-s390x-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-s390x-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5184843
+          },
+          {
+            "id": "git-lfs-v3.6.1.tar.gz",
+            "version": "3.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-v3.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 696263
+          },
+          {
+            "id": "git-lfs-windows-386-v3.6.1.zip",
+            "version": "3.6.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-386-v3.6.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4958580
+          },
+          {
+            "id": "git-lfs-windows-amd64-v3.6.1.zip",
+            "version": "3.6.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-amd64-v3.6.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5202926
+          },
+          {
+            "id": "git-lfs-windows-arm64-v3.6.1.zip",
+            "version": "3.6.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-arm64-v3.6.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4748032
+          },
+          {
+            "id": "git-lfs-windows-v3.6.1.exe",
+            "version": "3.6.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-v3.6.1.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11409744
+          },
+          {
+            "id": "hashes.asc",
+            "version": "3.6.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/hashes.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22020
+          },
+          {
+            "id": "sha256sums.asc",
+            "version": "3.6.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/sha256sums.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2526
+          },
+          {
+            "id": "git-lfs-darwin-amd64-v3.6.0.zip",
+            "version": "3.6.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-darwin-amd64-v3.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5535000
+          },
+          {
+            "id": "git-lfs-darwin-arm64-v3.6.0.zip",
+            "version": "3.6.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-darwin-arm64-v3.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5119394
+          },
+          {
+            "id": "git-lfs-freebsd-386-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-freebsd-386-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4928363
+          },
+          {
+            "id": "git-lfs-freebsd-amd64-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-freebsd-amd64-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5243578
+          },
+          {
+            "id": "git-lfs-linux-386-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-386-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4946387
+          },
+          {
+            "id": "git-lfs-linux-amd64-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-amd64-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5256514
+          },
+          {
+            "id": "git-lfs-linux-arm-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-arm-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4923124
+          },
+          {
+            "id": "git-lfs-linux-arm64-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-arm64-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4853720
+          },
+          {
+            "id": "git-lfs-linux-loong64-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-loong64-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4864396
+          },
+          {
+            "id": "git-lfs-linux-ppc64le-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-ppc64le-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4831958
+          },
+          {
+            "id": "git-lfs-linux-riscv64-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-riscv64-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4846592
+          },
+          {
+            "id": "git-lfs-linux-s390x-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-linux-s390x-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5183528
+          },
+          {
+            "id": "git-lfs-v3.6.0.tar.gz",
+            "version": "3.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-v3.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 694653
+          },
+          {
+            "id": "git-lfs-windows-386-v3.6.0.zip",
+            "version": "3.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-windows-386-v3.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4956771
+          },
+          {
+            "id": "git-lfs-windows-amd64-v3.6.0.zip",
+            "version": "3.6.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-windows-amd64-v3.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5201814
+          },
+          {
+            "id": "git-lfs-windows-arm64-v3.6.0.zip",
+            "version": "3.6.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-windows-arm64-v3.6.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4746362
+          },
+          {
+            "id": "git-lfs-windows-v3.6.0.exe",
+            "version": "3.6.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/git-lfs-windows-v3.6.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11406128
+          },
+          {
+            "id": "hashes.asc",
+            "version": "3.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/hashes.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22020
+          },
+          {
+            "id": "sha256sums.asc",
+            "version": "3.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.0/sha256sums.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2526
+          },
+          {
+            "id": "git-lfs-darwin-amd64-v3.5.1.zip",
+            "version": "3.5.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.5.1/git-lfs-darwin-amd64-v3.5.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5357215
+          },
+          {
+            "id": "git-lfs-darwin-arm64-v3.5.1.zip",
+            "version": "3.5.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.5.1/git-lfs-darwin-arm64-v3.5.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5037260
+          },
+          {
+            "id": "git-lfs-freebsd-386-v3.5.1.tar.gz",
+            "version": "3.5.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.5.1/git-lfs-freebsd-386-v3.5.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4694940
+          },
+          {
+            "id": "git-lfs-freebsd-amd64-v3.5.1.tar.gz",
+            "version": "3.5.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.5.1/git-lfs-freebsd-amd64-v3.5.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4959437
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.880Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "git-lfs",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

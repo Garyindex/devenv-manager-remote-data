@@ -41,6 +41,13 @@ export class ProviderManager {
       }
     }
 
+    const scannedTools = new Set(byTool.keys())
+    for (const tool of tools) {
+      if (!scannedTools.has(tool.id)) {
+        byTool.set(tool.id, { tool, sources: [] })
+      }
+    }
+
     return {
       jobs,
       selectedJobs,

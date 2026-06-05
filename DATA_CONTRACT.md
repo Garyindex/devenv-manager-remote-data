@@ -5,7 +5,10 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
 ## Files
 
 - `data/catalog-tools.json`: static cross-platform tool catalog.
+- `data/identities.json`: stable identity and rename mapping for tools.
 - `data/online/install-versions.json`: daily scanned package metadata.
+- `data/online/index.json`: compact split-metadata index.
+- `data/online/tools/*.json`: per-tool metadata files referenced by `index.json`.
 - `data/online/source-policy.json`: platform-specific provider selection policy.
 - `data/online/delta.json`: change summary from the previous metadata refresh.
 - `data/online/manifest.json`: dataset index with hashes and byte sizes.
@@ -70,6 +73,53 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
 ```
 
 ## Online Metadata Shape
+
+Clients should prefer the split metadata contract:
+
+1. Read `data/online/index.json`.
+2. Select tool entries by platform/category/search.
+3. Fetch only the needed `data/online/tools/<toolId>.json` files.
+4. Use `data/online/install-versions.json` only as a compatibility fallback.
+
+`index.json` shape:
+
+```json
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T00:00:00.000Z",
+  "status": "ok",
+  "summary": {
+    "totalTools": 133,
+    "totalPackageSources": 406
+  },
+  "tools": [
+    {
+      "id": "git",
+      "name": "Git",
+      "categoryId": "source-control",
+      "platforms": ["windows", "macos", "linux"],
+      "sourceCount": 4,
+      "bestQualityScore": 100,
+      "path": "data/online/tools/git.json",
+      "bytes": 12345,
+      "sha256": "..."
+    }
+  ]
+}
+```
+
+Each per-tool file has:
+
+```json
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T00:00:00.000Z",
+  "status": "ok",
+  "tool": {}
+}
+```
+
+The compatibility aggregate remains:
 
 ```json
 {
@@ -218,6 +268,40 @@ This is the current and only data contract for the unpublished DevEnv Manager ap
   }
 }
 ```
+
+## Identity Mapping
+
+`data/identities.json` preserves stable IDs across rename/package changes:
+
+```json
+{
+  "schemaVersion": 1,
+  "identities": [
+    {
+      "stableId": "vscode",
+      "currentId": "vscode",
+      "currentName": "Visual Studio Code",
+      "previousIds": [],
+      "previousNames": [],
+      "aliases": [],
+      "packageAliases": {
+        "winget": ["Microsoft.VisualStudioCode"],
+        "homebrew": ["visual-studio-code"]
+      },
+      "lifecycle": {
+        "status": "active",
+        "deprecated": false,
+        "renamedFrom": null,
+        "renamedTo": null,
+        "replacedBy": null
+      },
+      "identityConfidence": "high"
+    }
+  ]
+}
+```
+
+The app should store user state by `stableId`, not display name or package manager ID.
 
 ## Provider Architecture
 

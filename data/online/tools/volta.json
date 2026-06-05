@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "volta",
+    "name": "Volta",
+    "categoryId": "javascript",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://volta.sh/",
+      "download": "https://volta.sh/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "volta",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "volta",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Volta.Volta",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:08.945Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Volta",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://volta.sh/",
+          "download": "https://volta.sh/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://volta.sh/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Volta.Volta",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Volta.Volta",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Volta.Volta",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Volta.Volta",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Volta.Volta",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Volta.Volta",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:08.945Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "volta",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "volta",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "volta",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.096Z",
+          "errors": []
+        },
+        "package": {
+          "name": "volta",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "JavaScript toolchain manager for reproducible environments",
+          "license": "BSD-2-Clause",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://volta.sh",
+          "download": "https://github.com/volta-cli/volta/archive/refs/tags/v2.0.2.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.0.2",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/volta-cli/volta/archive/refs/tags/v2.0.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "0e93d17c36fb79222b10881d6c67d667483f85b19a0498eacfc535ef31894dbe",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "volta"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "volta"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "volta"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "volta"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "volta"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "volta"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.096Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "volta",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "volta",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "volta",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.402Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Volta",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Volta is a hassle-free way to manage your JavaScript command-line tools",
+          "license": "BSD-2-Clause",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://volta.sh/",
+          "download": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows.zip",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "d7678a485e2fc9b1a3f7e9da256d8b88a97d7e4c45e63701c4874f6c2a587e0f",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "volta"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "volta"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "volta"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "volta"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "volta"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "volta"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.402Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "volta",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "volta",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "volta",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.519Z",
+          "errors": []
+        },
+        "package": {
+          "name": "volta (Install)",
+          "publisher": "The Volta Contributors",
+          "author": "The Volta Contributors",
+          "description": "The Hassle-Free JavaScript Tool Manager",
+          "license": null,
+          "licenseUrl": "https://github.com/volta-cli/volta/blob/main/LICENSE",
+          "tags": [
+            "volta",
+            "volta.sh"
+          ]
+        },
+        "links": {
+          "homepage": "https://volta.sh/",
+          "download": "https://community.chocolatey.org/api/v2/package/volta/2.0.2",
+          "releases": "https://github.com/volta-cli/volta/releases/",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/volta/2.0.2",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "9aJzuIztMjwjVUxE9oaY1+JgY/ARx5TiqIbx7ucq+r2PeWfeZTFMVK/MRxOaXZ9ExmbLGacJK9NOHbvAnYiWRA==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "volta",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "volta",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "volta",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "volta",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "volta",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "volta",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.519Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "volta",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "volta",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "volta-cli/volta",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.571Z",
+          "errors": []
+        },
+        "package": {
+          "name": "volta",
+          "publisher": "volta-cli",
+          "author": "volta-cli",
+          "description": "Volta: JS Toolchains as Code. ⚡",
+          "license": "NOASSERTION",
+          "licenseUrl": null,
+          "tags": [
+            "node",
+            "nodejs",
+            "package-manager"
+          ]
+        },
+        "links": {
+          "homepage": "https://volta.sh",
+          "download": "https://volta.sh/",
+          "releases": "https://github.com/volta-cli/volta/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-05T06:48:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v2.0.2"
+          },
+          {
+            "version": "2.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-08-19T02:14:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v2.0.1"
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-08-11T23:53:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v2.0.0"
+          },
+          {
+            "version": "1.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-01-25T01:28:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.1.1"
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-09-30T18:58:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.1.0"
+          },
+          {
+            "version": "1.0.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-06-02T00:24:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.8"
+          },
+          {
+            "version": "1.0.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-04-22T23:07:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.7"
+          },
+          {
+            "version": "1.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-03-21T23:46:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.6"
+          },
+          {
+            "version": "1.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-09-07T19:01:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.5"
+          },
+          {
+            "version": "1.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-04-21T04:53:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.4"
+          },
+          {
+            "version": "1.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-04-14T17:03:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.3"
+          },
+          {
+            "version": "1.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-02-23T19:11:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.2"
+          },
+          {
+            "version": "1.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-01-15T19:52:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.1"
+          },
+          {
+            "version": "1.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-12-21T16:38:35Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v1.0.0"
+          },
+          {
+            "version": "0.9.99",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-12-16T03:11:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.9.99"
+          },
+          {
+            "version": "0.9.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-12-11T01:54:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.9.3"
+          },
+          {
+            "version": "0.9.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-10-29T20:12:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.9.2"
+          },
+          {
+            "version": "0.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-10-22T18:03:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.9.1"
+          },
+          {
+            "version": "0.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-10-21T22:10:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.9.0"
+          },
+          {
+            "version": "0.8.7",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-08-25T00:38:48Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.7"
+          },
+          {
+            "version": "0.8.6",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-08-03T20:32:35Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.6"
+          },
+          {
+            "version": "0.8.5",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-07-27T19:09:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.5"
+          },
+          {
+            "version": "0.8.4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-07-20T17:51:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.4"
+          },
+          {
+            "version": "0.8.3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-06-29T17:58:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.3"
+          },
+          {
+            "version": "0.8.2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-06-17T00:54:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.2"
+          },
+          {
+            "version": "0.8.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-05-26T17:24:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.1"
+          },
+          {
+            "version": "0.8.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-05-04T17:31:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.8.0"
+          },
+          {
+            "version": "0.7.2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-02-13T01:34:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.7.2"
+          },
+          {
+            "version": "0.7.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-01-24T19:32:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.7.1"
+          },
+          {
+            "version": "0.7.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2020-01-13T22:50:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/volta-cli/volta/releases/tag/v0.7.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "volta-2.0.2-linux-arm.tar.gz",
+            "version": "2.0.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-linux-arm.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9011664
+          },
+          {
+            "id": "volta-2.0.2-linux.tar.gz",
+            "version": "2.0.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-linux.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9783242
+          },
+          {
+            "id": "volta-2.0.2-macos.tar.gz",
+            "version": "2.0.2",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12863777
+          },
+          {
+            "id": "volta-2.0.2-windows-arm64.msi",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5292032
+          },
+          {
+            "id": "volta-2.0.2-windows-arm64.zip",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows-arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6163580
+          },
+          {
+            "id": "volta-2.0.2-windows-x86_64.msi",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5586944
+          },
+          {
+            "id": "volta-2.0.2-windows.zip",
+            "version": "2.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6516652
+          },
+          {
+            "id": "volta.manifest",
+            "version": "2.0.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-2.0.1-linux-arm.tar.gz",
+            "version": "2.0.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-linux-arm.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9020730
+          },
+          {
+            "id": "volta-2.0.1-linux.tar.gz",
+            "version": "2.0.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-linux.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9794724
+          },
+          {
+            "id": "volta-2.0.1-macos.tar.gz",
+            "version": "2.0.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12886258
+          },
+          {
+            "id": "volta-2.0.1-windows-arm64.msi",
+            "version": "2.0.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5296128
+          },
+          {
+            "id": "volta-2.0.1-windows-arm64.zip",
+            "version": "2.0.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-windows-arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6177106
+          },
+          {
+            "id": "volta-2.0.1-windows-x86_64.msi",
+            "version": "2.0.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5607424
+          },
+          {
+            "id": "volta-2.0.1-windows.zip",
+            "version": "2.0.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta-2.0.1-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6546535
+          },
+          {
+            "id": "volta.manifest",
+            "version": "2.0.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.1/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-2.0.0-linux-arm.tar.gz",
+            "version": "2.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-linux-arm.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10474941
+          },
+          {
+            "id": "volta-2.0.0-linux.tar.gz",
+            "version": "2.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-linux.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11257558
+          },
+          {
+            "id": "volta-2.0.0-macos.tar.gz",
+            "version": "2.0.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13898739
+          },
+          {
+            "id": "volta-2.0.0-windows-arm64.msi",
+            "version": "2.0.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5042176
+          },
+          {
+            "id": "volta-2.0.0-windows-arm64.zip",
+            "version": "2.0.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-windows-arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6059828
+          },
+          {
+            "id": "volta-2.0.0-windows-x86_64.msi",
+            "version": "2.0.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6012928
+          },
+          {
+            "id": "volta-2.0.0-windows.zip",
+            "version": "2.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta-2.0.0-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6292033
+          },
+          {
+            "id": "volta.manifest",
+            "version": "2.0.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.0/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.1.1-linux.tar.gz",
+            "version": "1.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-linux.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10784006
+          },
+          {
+            "id": "volta-1.1.1-macos-aarch64.tar.gz",
+            "version": "1.1.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6617265
+          },
+          {
+            "id": "volta-1.1.1-macos.tar.gz",
+            "version": "1.1.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 7087347
+          },
+          {
+            "id": "volta-1.1.1-windows-x86_64.msi",
+            "version": "1.1.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5853184
+          },
+          {
+            "id": "volta-1.1.1-windows.zip",
+            "version": "1.1.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6128684
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.1.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.1/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.1.0-linux.tar.gz",
+            "version": "1.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-linux.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10810857
+          },
+          {
+            "id": "volta-1.1.0-macos-aarch64.tar.gz",
+            "version": "1.1.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6740620
+          },
+          {
+            "id": "volta-1.1.0-macos.tar.gz",
+            "version": "1.1.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 7196969
+          },
+          {
+            "id": "volta-1.1.0-windows-x86_64.msi",
+            "version": "1.1.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5947392
+          },
+          {
+            "id": "volta-1.1.0-windows.zip",
+            "version": "1.1.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6191598
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.1.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.1.0/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.0.8-linux-openssl-1.0.tar.gz",
+            "version": "1.0.8",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-linux-openssl-1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18976505
+          },
+          {
+            "id": "volta-1.0.8-linux-openssl-1.1.tar.gz",
+            "version": "1.0.8",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-linux-openssl-1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18956187
+          },
+          {
+            "id": "volta-1.0.8-linux-openssl-3.0.tar.gz",
+            "version": "1.0.8",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-linux-openssl-3.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 8685953
+          },
+          {
+            "id": "volta-1.0.8-linux-openssl-rhel.tar.gz",
+            "version": "1.0.8",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-linux-openssl-rhel.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18981002
+          },
+          {
+            "id": "volta-1.0.8-macos-aarch64.tar.gz",
+            "version": "1.0.8",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5436939
+          },
+          {
+            "id": "volta-1.0.8-macos.tar.gz",
+            "version": "1.0.8",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5780230
+          },
+          {
+            "id": "volta-1.0.8-windows-x86_64.msi",
+            "version": "1.0.8",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4857856
+          },
+          {
+            "id": "volta-1.0.8-windows.zip",
+            "version": "1.0.8",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta-1.0.8-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5073529
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.0.8",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.8/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.0.7-linux-openssl-1.0.tar.gz",
+            "version": "1.0.7",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-linux-openssl-1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18908824
+          },
+          {
+            "id": "volta-1.0.7-linux-openssl-1.1.tar.gz",
+            "version": "1.0.7",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-linux-openssl-1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18881218
+          },
+          {
+            "id": "volta-1.0.7-linux-openssl-3.0.tar.gz",
+            "version": "1.0.7",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-linux-openssl-3.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9111556
+          },
+          {
+            "id": "volta-1.0.7-linux-openssl-rhel.tar.gz",
+            "version": "1.0.7",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-linux-openssl-rhel.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18912977
+          },
+          {
+            "id": "volta-1.0.7-macos-aarch64.tar.gz",
+            "version": "1.0.7",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5843050
+          },
+          {
+            "id": "volta-1.0.7-macos.tar.gz",
+            "version": "1.0.7",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6201704
+          },
+          {
+            "id": "volta-1.0.7-windows-x86_64.msi",
+            "version": "1.0.7",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5144576
+          },
+          {
+            "id": "volta-1.0.7-windows.zip",
+            "version": "1.0.7",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta-1.0.7-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5560084
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.0.7",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.7/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.0.6-linux-openssl-1.0.tar.gz",
+            "version": "1.0.6",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-linux-openssl-1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18722859
+          },
+          {
+            "id": "volta-1.0.6-linux-openssl-1.1.tar.gz",
+            "version": "1.0.6",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-linux-openssl-1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18694590
+          },
+          {
+            "id": "volta-1.0.6-linux-openssl-rhel.tar.gz",
+            "version": "1.0.6",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-linux-openssl-rhel.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18721225
+          },
+          {
+            "id": "volta-1.0.6-macos-aarch64.tar.gz",
+            "version": "1.0.6",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5731310
+          },
+          {
+            "id": "volta-1.0.6-macos.tar.gz",
+            "version": "1.0.6",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6085210
+          },
+          {
+            "id": "volta-1.0.6-windows-x86_64.msi",
+            "version": "1.0.6",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5050368
+          },
+          {
+            "id": "volta-1.0.6-windows.zip",
+            "version": "1.0.6",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta-1.0.6-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5435351
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.0.6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.6/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.0.5-linux-openssl-1.0.tar.gz",
+            "version": "1.0.5",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-linux-openssl-1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18826132
+          },
+          {
+            "id": "volta-1.0.5-linux-openssl-1.1.tar.gz",
+            "version": "1.0.5",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-linux-openssl-1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18795843
+          },
+          {
+            "id": "volta-1.0.5-linux-openssl-rhel.tar.gz",
+            "version": "1.0.5",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-linux-openssl-rhel.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18828602
+          },
+          {
+            "id": "volta-1.0.5-macos-aarch64.tar.gz",
+            "version": "1.0.5",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5657923
+          },
+          {
+            "id": "volta-1.0.5-macos.tar.gz",
+            "version": "1.0.5",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6021140
+          },
+          {
+            "id": "volta-1.0.5-windows-x86_64.msi",
+            "version": "1.0.5",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4956160
+          },
+          {
+            "id": "volta-1.0.5-windows.zip",
+            "version": "1.0.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta-1.0.5-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5309521
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.0.5",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.5/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.0.4-linux-openssl-1.0.tar.gz",
+            "version": "1.0.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-linux-openssl-1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18390790
+          },
+          {
+            "id": "volta-1.0.4-linux-openssl-1.1.tar.gz",
+            "version": "1.0.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-linux-openssl-1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18369737
+          },
+          {
+            "id": "volta-1.0.4-linux-openssl-rhel.tar.gz",
+            "version": "1.0.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-linux-openssl-rhel.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18391478
+          },
+          {
+            "id": "volta-1.0.4-macos-aarch64.tar.gz",
+            "version": "1.0.4",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-macos-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5936245
+          },
+          {
+            "id": "volta-1.0.4-macos.tar.gz",
+            "version": "1.0.4",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-macos.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6153455
+          },
+          {
+            "id": "volta-1.0.4-windows-x86_64.msi",
+            "version": "1.0.4",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5054464
+          },
+          {
+            "id": "volta-1.0.4-windows.zip",
+            "version": "1.0.4",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta-1.0.4-windows.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5455342
+          },
+          {
+            "id": "volta.manifest",
+            "version": "1.0.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.4/volta.manifest",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31
+          },
+          {
+            "id": "volta-1.0.3-linux-openssl-1.0.tar.gz",
+            "version": "1.0.3",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.3/volta-1.0.3-linux-openssl-1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18392910
+          },
+          {
+            "id": "volta-1.0.3-linux-openssl-1.1.tar.gz",
+            "version": "1.0.3",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/volta-cli/volta/releases/download/v1.0.3/volta-1.0.3-linux-openssl-1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18371617
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.571Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "volta",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "volta",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

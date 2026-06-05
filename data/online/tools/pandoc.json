@@ -1,0 +1,2636 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "pandoc",
+    "name": "Pandoc",
+    "categoryId": "docs",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://pandoc.org/",
+      "download": "https://pandoc.org/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "pandoc",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "pandoc",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "JohnMacFarlane.Pandoc",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.346Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Pandoc",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://pandoc.org/",
+          "download": "https://pandoc.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.9.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.9.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.7.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.12.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.9.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://pandoc.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "JohnMacFarlane.Pandoc",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "JohnMacFarlane.Pandoc",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "JohnMacFarlane.Pandoc",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "JohnMacFarlane.Pandoc",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "JohnMacFarlane.Pandoc",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "JohnMacFarlane.Pandoc",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.346Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "pandoc",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.464Z",
+          "errors": []
+        },
+        "package": {
+          "name": "pandoc",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Swiss-army knife of markup format conversion",
+          "license": "GPL-2.0-or-later",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://pandoc.org/",
+          "download": "https://github.com/jgm/pandoc/archive/refs/tags/3.9.0.2.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.9.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.9.0.2",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/jgm/pandoc/archive/refs/tags/3.9.0.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "c300c60ae4d47da6e5d265e93f89b896324cdc84ccbb504b88a9855bacd6b5d7",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "pandoc"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "pandoc"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "pandoc"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "pandoc"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "pandoc"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "pandoc"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.464Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "pandoc",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.649Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Pandoc",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Universal markup converter",
+          "license": "GPL-2.0-or-later",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://pandoc.org",
+          "download": "https://pandoc.org/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.10",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://pandoc.org/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "pandoc"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "pandoc"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "pandoc"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "pandoc"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "pandoc"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "pandoc"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.649Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "pandoc",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.712Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Pandoc",
+          "publisher": "John MacFarlane",
+          "author": "John MacFarlane",
+          "description": "A universal document converter.",
+          "license": null,
+          "licenseUrl": "https://github.com/jgm/pandoc/blob/master/COPYRIGHT",
+          "tags": [
+            "admin",
+            "text",
+            "markdown",
+            "latex",
+            "pdf",
+            "docx",
+            "html",
+            "docbook",
+            "opendocument"
+          ]
+        },
+        "links": {
+          "homepage": "http://pandoc.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/pandoc/3.10.0",
+          "releases": "https://github.com/jgm/pandoc/releases/tag/3.10",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.10.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.9.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.9.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.17.2.20160708",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.7.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.19.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.7.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.19",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.11.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.18",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.19.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.17.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "3.10.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/pandoc/3.10.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "rwCqktZFw1QQuW9sMd5JBt03zRg1ZcstVB9UaONXzKYA3KUO+YLjzddP6xeAq/PMeZdSbdsO4uX7FvTTOBkZxQ==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "pandoc",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "pandoc",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "pandoc",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "pandoc",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "pandoc",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "pandoc",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.712Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "jgm/pandoc",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:34.789Z",
+          "errors": []
+        },
+        "package": {
+          "name": "pandoc",
+          "publisher": "jgm",
+          "author": "jgm",
+          "description": "Universal markup converter",
+          "license": "GPL-2.0",
+          "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+          "tags": [
+            "commonmark",
+            "converter",
+            "document",
+            "haskell",
+            "markdown",
+            "markup",
+            "pandoc",
+            "presentation",
+            "publishing"
+          ]
+        },
+        "links": {
+          "homepage": "https://pandoc.org",
+          "download": "https://pandoc.org/",
+          "releases": "https://github.com/jgm/pandoc/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "3.10",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-06-04T16:31:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.10"
+          },
+          {
+            "version": "3.9.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-19T13:01:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.9.0.2"
+          },
+          {
+            "version": "3.9.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-18T15:30:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.9.0.1"
+          },
+          {
+            "version": "3.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-04T08:55:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.9"
+          },
+          {
+            "version": "3.8.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-01T10:30:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.8.3"
+          },
+          {
+            "version": "3.8.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-20T10:48:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.8.2.1"
+          },
+          {
+            "version": "3.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-05T21:26:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.8.2"
+          },
+          {
+            "version": "3.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-29T15:02:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.8.1"
+          },
+          {
+            "version": "3.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-06T22:24:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.8"
+          },
+          {
+            "version": "3.7.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-29T07:26:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.7.0.2"
+          },
+          {
+            "version": "3.7.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-17T20:04:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.7.0.1"
+          },
+          {
+            "version": "3.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-15T05:42:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.7"
+          },
+          {
+            "version": "3.6.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-03-16T19:05:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.6.4"
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-02-09T22:11:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.6.3"
+          },
+          {
+            "version": "3.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-12T22:39:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.6.2"
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-23T19:54:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.6.1"
+          },
+          {
+            "version": "3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-08T05:45:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.6"
+          },
+          {
+            "version": "3.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-10-05T21:13:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.5"
+          },
+          {
+            "version": "3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-09-10T17:33:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.4"
+          },
+          {
+            "version": "3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-07-29T00:13:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.3"
+          },
+          {
+            "version": "3.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-06-24T21:37:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.2.1"
+          },
+          {
+            "version": "3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-11T21:11:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.2"
+          },
+          {
+            "version": "3.1.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-04-07T15:51:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.13"
+          },
+          {
+            "version": "3.1.12.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-03-18T05:28:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.12.3"
+          },
+          {
+            "version": "3.1.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-03-01T06:00:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.12.2"
+          },
+          {
+            "version": "3.1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-02-18T01:42:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.12.1"
+          },
+          {
+            "version": "3.1.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-02-15T18:18:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.12"
+          },
+          {
+            "version": "3.1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-01-06T02:44:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.11.1"
+          },
+          {
+            "version": "3.1.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-12-16T03:57:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.11"
+          },
+          {
+            "version": "3.1.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-12-13T02:15:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.10"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "pandoc-3.10-1-amd64.deb",
+            "version": "3.10",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34098134
+          },
+          {
+            "id": "pandoc-3.10-1-arm64.deb",
+            "version": "3.10",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36570132
+          },
+          {
+            "id": "pandoc-3.10-arm64-macOS.pkg",
+            "version": "3.10",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41373002
+          },
+          {
+            "id": "pandoc-3.10-arm64-macOS.zip",
+            "version": "3.10",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41511397
+          },
+          {
+            "id": "pandoc-3.10-linux-amd64.tar.gz",
+            "version": "3.10",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34661245
+          },
+          {
+            "id": "pandoc-3.10-linux-arm64.tar.gz",
+            "version": "3.10",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37109798
+          },
+          {
+            "id": "pandoc-3.10-windows-x86_64.msi",
+            "version": "3.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41164800
+          },
+          {
+            "id": "pandoc-3.10-windows-x86_64.zip",
+            "version": "3.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41440900
+          },
+          {
+            "id": "pandoc-3.10-x86_64-macOS.pkg",
+            "version": "3.10",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25827518
+          },
+          {
+            "id": "pandoc-3.10-x86_64-macOS.zip",
+            "version": "3.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25867412
+          },
+          {
+            "id": "pandoc-3.10.wasm.zip",
+            "version": "3.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10.wasm.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 16228674
+          },
+          {
+            "id": "pandoc-3.9.0.2-1-amd64.deb",
+            "version": "3.9.0.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33955892
+          },
+          {
+            "id": "pandoc-3.9.0.2-1-arm64.deb",
+            "version": "3.9.0.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36418982
+          },
+          {
+            "id": "pandoc-3.9.0.2-arm64-macOS.pkg",
+            "version": "3.9.0.2",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36568072
+          },
+          {
+            "id": "pandoc-3.9.0.2-arm64-macOS.zip",
+            "version": "3.9.0.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36687858
+          },
+          {
+            "id": "pandoc-3.9.0.2-linux-amd64.tar.gz",
+            "version": "3.9.0.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34520947
+          },
+          {
+            "id": "pandoc-3.9.0.2-linux-arm64.tar.gz",
+            "version": "3.9.0.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36948718
+          },
+          {
+            "id": "pandoc-3.9.0.2-windows-x86_64.msi",
+            "version": "3.9.0.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40980480
+          },
+          {
+            "id": "pandoc-3.9.0.2-windows-x86_64.zip",
+            "version": "3.9.0.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41250425
+          },
+          {
+            "id": "pandoc-3.9.0.2-x86_64-macOS.pkg",
+            "version": "3.9.0.2",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25722703
+          },
+          {
+            "id": "pandoc-3.9.0.2-x86_64-macOS.zip",
+            "version": "3.9.0.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25764704
+          },
+          {
+            "id": "pandoc.wasm.zip",
+            "version": "3.9.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc.wasm.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 16182738
+          },
+          {
+            "id": "pandoc-3.9.0.1-1-amd64.deb",
+            "version": "3.9.0.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33956246
+          },
+          {
+            "id": "pandoc-3.9.0.1-1-arm64.deb",
+            "version": "3.9.0.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36416098
+          },
+          {
+            "id": "pandoc-3.9.0.1-arm64-macOS.pkg",
+            "version": "3.9.0.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36564711
+          },
+          {
+            "id": "pandoc-3.9.0.1-arm64-macOS.zip",
+            "version": "3.9.0.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36681554
+          },
+          {
+            "id": "pandoc-3.9.0.1-linux-amd64.tar.gz",
+            "version": "3.9.0.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34518111
+          },
+          {
+            "id": "pandoc-3.9.0.1-linux-arm64.tar.gz",
+            "version": "3.9.0.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36946860
+          },
+          {
+            "id": "pandoc-3.9.0.1-windows-x86_64.msi",
+            "version": "3.9.0.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40980480
+          },
+          {
+            "id": "pandoc-3.9.0.1-windows-x86_64.zip",
+            "version": "3.9.0.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41250989
+          },
+          {
+            "id": "pandoc-3.9.0.1-x86_64-macOS.pkg",
+            "version": "3.9.0.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25722692
+          },
+          {
+            "id": "pandoc-3.9.0.1-x86_64-macOS.zip",
+            "version": "3.9.0.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25768056
+          },
+          {
+            "id": "pandoc.wasm.zip",
+            "version": "3.9.0.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc.wasm.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 16182653
+          },
+          {
+            "id": "pandoc-3.9-1-amd64.deb",
+            "version": "3.9",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34090674
+          },
+          {
+            "id": "pandoc-3.9-1-arm64.deb",
+            "version": "3.9",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36556660
+          },
+          {
+            "id": "pandoc-3.9-arm64-macOS.pkg",
+            "version": "3.9",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42464507
+          },
+          {
+            "id": "pandoc-3.9-arm64-macOS.zip",
+            "version": "3.9",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42595715
+          },
+          {
+            "id": "pandoc-3.9-linux-amd64.tar.gz",
+            "version": "3.9",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34653874
+          },
+          {
+            "id": "pandoc-3.9-linux-arm64.tar.gz",
+            "version": "3.9",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37089130
+          },
+          {
+            "id": "pandoc-3.9-windows-x86_64.msi",
+            "version": "3.9",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41172992
+          },
+          {
+            "id": "pandoc-3.9-windows-x86_64.zip",
+            "version": "3.9",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40860638
+          },
+          {
+            "id": "pandoc-3.9-x86_64-macOS.pkg",
+            "version": "3.9",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25648665
+          },
+          {
+            "id": "pandoc-3.9-x86_64-macOS.zip",
+            "version": "3.9",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25692894
+          },
+          {
+            "id": "pandoc-3.9.wasm.zip",
+            "version": "3.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9.wasm.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 16155662
+          },
+          {
+            "id": "pandoc-3.8.3-1-amd64.deb",
+            "version": "3.8.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34395856
+          },
+          {
+            "id": "pandoc-3.8.3-1-arm64.deb",
+            "version": "3.8.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37414858
+          },
+          {
+            "id": "pandoc-3.8.3-arm64-macOS.pkg",
+            "version": "3.8.3",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 43456214
+          },
+          {
+            "id": "pandoc-3.8.3-arm64-macOS.zip",
+            "version": "3.8.3",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 43592399
+          },
+          {
+            "id": "pandoc-3.8.3-linux-amd64.tar.gz",
+            "version": "3.8.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34949607
+          },
+          {
+            "id": "pandoc-3.8.3-linux-arm64.tar.gz",
+            "version": "3.8.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37949860
+          },
+          {
+            "id": "pandoc-3.8.3-windows-x86_64.msi",
+            "version": "3.8.3",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41472000
+          },
+          {
+            "id": "pandoc-3.8.3-windows-x86_64.zip",
+            "version": "3.8.3",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40127259
+          },
+          {
+            "id": "pandoc-3.8.3-x86_64-macOS.pkg",
+            "version": "3.8.3",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26179243
+          },
+          {
+            "id": "pandoc-3.8.3-x86_64-macOS.zip",
+            "version": "3.8.3",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26227828
+          },
+          {
+            "id": "pandoc-3.8.2.1-1-amd64.deb",
+            "version": "3.8.2.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33698792
+          },
+          {
+            "id": "pandoc-3.8.2.1-1-arm64.deb",
+            "version": "3.8.2.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36649292
+          },
+          {
+            "id": "pandoc-3.8.2.1-arm64-macOS.pkg",
+            "version": "3.8.2.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42476396
+          },
+          {
+            "id": "pandoc-3.8.2.1-arm64-macOS.zip",
+            "version": "3.8.2.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42613887
+          },
+          {
+            "id": "pandoc-3.8.2.1-linux-amd64.tar.gz",
+            "version": "3.8.2.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34236950
+          },
+          {
+            "id": "pandoc-3.8.2.1-linux-arm64.tar.gz",
+            "version": "3.8.2.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37169916
+          },
+          {
+            "id": "pandoc-3.8.2.1-windows-x86_64.msi",
+            "version": "3.8.2.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40624128
+          },
+          {
+            "id": "pandoc-3.8.2.1-windows-x86_64.zip",
+            "version": "3.8.2.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 39279320
+          },
+          {
+            "id": "pandoc-3.8.2.1-x86_64-macOS.pkg",
+            "version": "3.8.2.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25622869
+          },
+          {
+            "id": "pandoc-3.8.2.1-x86_64-macOS.zip",
+            "version": "3.8.2.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2.1/pandoc-3.8.2.1-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25669063
+          },
+          {
+            "id": "pandoc-3.8.2-1-amd64.deb",
+            "version": "3.8.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33690320
+          },
+          {
+            "id": "pandoc-3.8.2-1-arm64.deb",
+            "version": "3.8.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36630706
+          },
+          {
+            "id": "pandoc-3.8.2-arm64-macOS.pkg",
+            "version": "3.8.2",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42477107
+          },
+          {
+            "id": "pandoc-3.8.2-arm64-macOS.zip",
+            "version": "3.8.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42605589
+          },
+          {
+            "id": "pandoc-3.8.2-linux-amd64.tar.gz",
+            "version": "3.8.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34229290
+          },
+          {
+            "id": "pandoc-3.8.2-linux-arm64.tar.gz",
+            "version": "3.8.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37157585
+          },
+          {
+            "id": "pandoc-3.8.2-windows-x86_64.msi",
+            "version": "3.8.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40611840
+          },
+          {
+            "id": "pandoc-3.8.2-windows-x86_64.zip",
+            "version": "3.8.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 39270165
+          },
+          {
+            "id": "pandoc-3.8.2-x86_64-macOS.pkg",
+            "version": "3.8.2",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25621412
+          },
+          {
+            "id": "pandoc-3.8.2-x86_64-macOS.zip",
+            "version": "3.8.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.2/pandoc-3.8.2-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25664618
+          },
+          {
+            "id": "pandoc-3.8.1-1-amd64.deb",
+            "version": "3.8.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.1/pandoc-3.8.1-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33628562
+          },
+          {
+            "id": "pandoc-3.8.1-1-arm64.deb",
+            "version": "3.8.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.1/pandoc-3.8.1-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36568586
+          },
+          {
+            "id": "pandoc-3.8.1-arm64-macOS.pkg",
+            "version": "3.8.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.1/pandoc-3.8.1-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42408487
+          },
+          {
+            "id": "pandoc-3.8.1-arm64-macOS.zip",
+            "version": "3.8.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.1/pandoc-3.8.1-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42537776
+          },
+          {
+            "id": "pandoc-3.8.1-linux-amd64.tar.gz",
+            "version": "3.8.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.1/pandoc-3.8.1-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34162807
+          },
+          {
+            "id": "pandoc-3.8.1-linux-arm64.tar.gz",
+            "version": "3.8.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.8.1/pandoc-3.8.1-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37090163
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:34.789Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "pandoc",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

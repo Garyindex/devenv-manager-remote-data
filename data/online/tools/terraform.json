@@ -1,0 +1,1512 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "terraform",
+    "name": "Terraform",
+    "categoryId": "devops",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://www.terraform.io/",
+      "download": "https://www.terraform.io/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "terraform",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "terraform",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Hashicorp.Terraform",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.898Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Terraform",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://www.terraform.io/",
+          "download": "https://www.terraform.io/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.15.5",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.15.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://www.terraform.io/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Hashicorp.Terraform",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Hashicorp.Terraform",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Hashicorp.Terraform",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Hashicorp.Terraform",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Hashicorp.Terraform",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Hashicorp.Terraform",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.898Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "terraform",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "terraform",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "terraform",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.919Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Terraform",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Create and manage infrastructure as code using simple declarative configuration files.",
+          "license": "BUSL-1.1",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.terraform.io",
+          "download": "https://www.terraform.io/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.15.5",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.15.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://www.terraform.io/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "terraform"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "terraform"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "terraform"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "terraform"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "terraform"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "terraform"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.919Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "terraform",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "terraform",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "terraform",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.064Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Terraform",
+          "publisher": "HashiCorp",
+          "author": "HashiCorp",
+          "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.",
+          "license": null,
+          "licenseUrl": "https://github.com/hashicorp/terraform/blob/v1.16.0-alpha20260603/LICENSE",
+          "tags": [
+            "terraform",
+            "hashicorp"
+          ]
+        },
+        "links": {
+          "homepage": "http://www.terraform.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/terraform/1.16.0-alpha20260603",
+          "releases": "## 1.16.0-alpha20260603 (June 03, 2026)\n\n\nNEW FEATURES:\n\n* Store PlannedPrivate data for providers ([#37986](https://github.com/hashicorp/terraform/issues/37986))\n\n* New store block in terraform_data that can handle ephemeral and sensitive values ([#38298](https://github.com/hashicorp/terraform/issues/38298))\n\n* Providers can now use nested blocks as computed values ([#38305](https://github.com/hashicorp/terraform/issues/38305))\n\n* import: add support for import blocks inside modules ([#38352](https://github.com/hashicorp/terraform/issues/38352))\n\n* We now produce builds for Linux s390x (zLinux) ([#38384](https://github.com/hashicorp/terraform/issues/38384))\n\n* workspace: The `workspace list` command can now produce machine-readable output when supplied with the `-json` flag ([#38397](https://github.com/hashicorp/terraform/issues/38397))\n\n\nENHANCEMENTS:\n\n* feat(cli): terraform state show accepts a -json flag ([#23940](https://github.com/hashicorp/terraform/issues/23940))\n\n* Show info when resources are left behind due to skip_cleanup ([#38449](https://github.com/hashicorp/terraform/issues/38449))\n\n\nBUG FIXES:\n\n* import blocks no longer ignore provider local names ([#38338](https://github.com/hashicorp/terraform/issues/38338))\n\n* Fix a `terraform apply` panic when the plan contained a no-op change for a deposed object on a resource whose configuration declared a `lifecycle.precondition` or `lifecycle.postcondition` ([#38586](https://github.com/hashicorp/terraform/issues/38586))\n\n* workspace: Terraform will now error if an invalid workspace name becomes selected due to actions performed out-of-band ([#38594](https://github.com/hashicorp/terraform/issues/38594))\n\n* test: Terraform will now raise a warning when a file referenced via `-filter` flag does not exist. ([#38603](https://github.com/hashicorp/terraform/issues/38603))\n\n* init: Stop removing locks from the dependency lock file corresponding to providers configured as a dev_override ([#38634](https://github.com/hashicorp/terraform/issues/38634))\n\n* init: Add warnings when unmanaged providers are in use and will impact provider installation processes. ([#38656](https://github.com/hashicorp/terraform/issues/38656))\n\n\nNOTES:\n\n* init: Errors due to incompatible `-upgrade` and `-lockfile=readonly` flags are now raised earlier in the init process. ([#38561](https://github.com/hashicorp/terraform/issues/38561))\n\n\nUPGRADE NOTES:\n\n* Provisioner bastion_host_key is now correctly applied. Existing usage of bastion_host_key should verify the configured key is correct. ([#38318](https://github.com/hashicorp/terraform/issues/38318))\n\n\nEXPERIMENTS:\n\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\n\n- The experimental \"deferred actions\" feature, enabled by passing the `-allow-deferral` option to `terraform plan`, permits `count` and `for_each` arguments in `module`, `resource`, and `data` blocks to have unknown values and allows providers to react more flexibly to unknown values.\n- `terraform test cleanup`: The experimental `test cleanup` command. In experimental builds of Terraform, a manifest file and state files for each failed cleanup operation during test operations are saved within the `.terraform` local directory. The `test cleanup` command will attempt to clean up the local state files left behind automatically, without requiring manual intervention.\n- `terraform test`: `backend` blocks and `skip_cleanup` attributes:\n  - Test authors can now specify `backend` blocks within `run` blocks in Terraform Test files. Run blocks with `backend` blocks will load state from the specified backend instead of starting from empty state on every execution. This allows test authors to keep long-running test infrastructure alive between test operations, saving time during regular test operations.\n  - Test authors can now specify `skip_cleanup` attributes within test files and within run blocks. The `skip_cleanup` attribute tells `terraform test` not to clean up state files produced by run blocks with this attribute set to true. The state files for affected run blocks will be written to disk within the `.terraform` directory, where they can then be cleaned up manually using the also experimental `terraform test cleanup` command.\n\n## Previous Releases\nFor more information on previous releases, check out the changelog on [GitHub](https://github.com/hashicorp/terraform/blob/v1.16.0-alpha20260603/CHANGELOG.md).",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.16.0-alpha20260603",
+            "channel": "prerelease",
+            "latest": true,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.16.0-alpha20260513",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-rc4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-beta2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-beta1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-alpha20260304",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-alpha20260218",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-alpha20260204",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-alpha20251203",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0-alpha20251119",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.16.0-alpha20260603",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/terraform/1.16.0-alpha20260603",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "WZQ0xaYibzPnApVxjQ39PtmNj8BezB2AgFF/Pc37bSD659xs37xh7dSNn+DxomMYpgq7Xg+QILpgXfcRycbJ3w==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "terraform",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "terraform",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "terraform",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "terraform",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "terraform",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "terraform",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.064Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "terraform",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "terraform",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "hashicorp/terraform",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:20.100Z",
+          "errors": []
+        },
+        "package": {
+          "name": "terraform",
+          "publisher": "hashicorp",
+          "author": "hashicorp",
+          "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+          "license": "NOASSERTION",
+          "licenseUrl": null,
+          "tags": [
+            "cloud",
+            "cloud-management",
+            "graph",
+            "infrastructure-as-code",
+            "terraform"
+          ]
+        },
+        "links": {
+          "homepage": "http://developer.hashicorp.com/terraform",
+          "download": "https://www.terraform.io/",
+          "releases": "https://github.com/hashicorp/terraform/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.16.0-alpha20260603",
+            "channel": "prerelease",
+            "latest": true,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-06-03T13:24:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260603"
+          },
+          {
+            "version": "1.15.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-27T14:52:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.5"
+          },
+          {
+            "version": "1.15.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-20T16:52:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.4"
+          },
+          {
+            "version": "1.16.0-alpha20260513",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-05-13T12:10:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260513"
+          },
+          {
+            "version": "1.15.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-13T09:58:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.3"
+          },
+          {
+            "version": "1.15.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-06T13:56:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.2"
+          },
+          {
+            "version": "1.15.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-01T16:43:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.1"
+          },
+          {
+            "version": "1.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-29T14:05:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0"
+          },
+          {
+            "version": "1.15.0-rc4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-28T17:58:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc4"
+          },
+          {
+            "version": "1.15.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-22T13:59:48Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc3"
+          },
+          {
+            "version": "1.14.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-20T18:46:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.9"
+          },
+          {
+            "version": "1.15.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-15T12:30:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc2"
+          },
+          {
+            "version": "1.15.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-09T13:59:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc1"
+          },
+          {
+            "version": "1.15.0-beta2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-04-01T13:26:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta2"
+          },
+          {
+            "version": "1.14.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-25T07:56:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.8"
+          },
+          {
+            "version": "1.15.0-beta1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-03-18T17:26:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta1"
+          },
+          {
+            "version": "1.14.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-11T14:14:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.7"
+          },
+          {
+            "version": "1.15.0-alpha20260304",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-03-04T13:01:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260304"
+          },
+          {
+            "version": "1.14.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-25T14:16:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.6"
+          },
+          {
+            "version": "1.15.0-alpha20260218",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-02-18T15:05:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260218"
+          },
+          {
+            "version": "1.14.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-11T15:57:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.5"
+          },
+          {
+            "version": "1.15.0-alpha20260204",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-02-04T11:09:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260204"
+          },
+          {
+            "version": "1.14.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-28T11:07:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.4"
+          },
+          {
+            "version": "1.14.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-17T11:53:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.3"
+          },
+          {
+            "version": "1.14.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-11T12:47:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.2"
+          },
+          {
+            "version": "1.15.0-alpha20251203",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-12-03T15:05:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20251203"
+          },
+          {
+            "version": "1.14.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-03T11:58:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.1"
+          },
+          {
+            "version": "1.15.0-alpha20251119",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-19T19:06:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20251119"
+          },
+          {
+            "version": "1.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-19T14:17:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.0"
+          },
+          {
+            "version": "1.14.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2025-11-05T13:51:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/terraform/releases/tag/v1.14.0-rc2"
+          }
+        ],
+        "downloads": [],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 75,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:20.100Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "terraform",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "terraform",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 import fs from 'node:fs'
+import crypto from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -234,6 +235,56 @@ function validateDelta(data) {
   }
 }
 
+function validateIdentities(data, catalog) {
+  if (!data) return
+  assert(isObject(data), 'identities root must be an object')
+  assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'identities schemaVersion must be a positive integer')
+  assert(Array.isArray(data?.identities), 'identities.identities must be an array')
+  const identityIds = assertUnique(data?.identities ?? [], (identity) => identity?.stableId, 'identity')
+  for (const tool of catalog?.tools ?? []) {
+    assert(identityIds.has(tool.id), `identities missing catalog tool: ${tool.id}`)
+  }
+  for (const identity of data?.identities ?? []) {
+    assertString(identity?.stableId, 'identity.stableId')
+    assertString(identity?.currentId, `${identity?.stableId}.currentId`)
+    assertString(identity?.currentName, `${identity?.stableId}.currentName`)
+    assert(Array.isArray(identity?.previousIds), `${identity?.stableId}.previousIds must be an array`)
+    assert(Array.isArray(identity?.previousNames), `${identity?.stableId}.previousNames must be an array`)
+    assert(isObject(identity?.packageAliases), `${identity?.stableId}.packageAliases must be an object`)
+    assert(isObject(identity?.lifecycle), `${identity?.stableId}.lifecycle must be an object`)
+    assertString(identity?.identityConfidence, `${identity?.stableId}.identityConfidence`)
+  }
+}
+
+function sha256(content) {
+  return crypto.createHash('sha256').update(content).digest('hex')
+}
+
+function validateSplitMetadata(index, installVersions) {
+  if (!index) return
+  assert(isObject(index), 'online index root must be an object')
+  assert(Number.isInteger(index?.schemaVersion) && index.schemaVersion >= 1, 'online index schemaVersion must be a positive integer')
+  assert(Array.isArray(index?.tools), 'online index tools must be an array')
+  const toolIds = new Set((installVersions?.tools ?? []).map((tool) => tool.id))
+  const indexIds = assertUnique(index?.tools ?? [], (tool) => tool?.id, 'online index tool')
+  for (const toolId of toolIds) {
+    assert(indexIds.has(toolId), `online index missing tool: ${toolId}`)
+  }
+  for (const entry of index?.tools ?? []) {
+    assertString(entry?.id, 'online index tool.id')
+    assertString(entry?.path, `${entry?.id}.path`)
+    const fullPath = path.join(repoRoot, entry.path)
+    assert(fs.existsSync(fullPath), `${entry.id}.path does not exist: ${entry.path}`)
+    if (fs.existsSync(fullPath)) {
+      const content = fs.readFileSync(fullPath)
+      assert(content.length === entry.bytes, `${entry.id}.bytes does not match file size`)
+      assert(sha256(content) === entry.sha256, `${entry.id}.sha256 does not match file content`)
+      const toolFile = JSON.parse(content.toString('utf8'))
+      assert(toolFile?.tool?.id === entry.id, `${entry.id}.tool file id mismatch`)
+    }
+  }
+}
+
 function validateCatalog(data) {
   assert(isObject(data), 'catalog root must be an object')
   assert(Number.isInteger(data?.schemaVersion) && data.schemaVersion >= 1, 'catalog schemaVersion must be a positive integer')
@@ -280,13 +331,22 @@ function validateToolRequests(data) {
 }
 
 validateEnvironmentTools(readJson('data/environment-tools.json'))
-validateCatalog(readJson('data/catalog-tools.json'))
+const catalogData = readJson('data/catalog-tools.json')
+validateCatalog(catalogData)
+validateIdentities(readJson('data/identities.json'), catalogData)
 validateScanRules(readJson('data/scan-rules.json'))
 validateToolRequests(readJson('data/tool-requests.json'))
 
 const installVersionsPath = path.join(repoRoot, 'data/online/install-versions.json')
+let installVersionsData = null
 if (fs.existsSync(installVersionsPath)) {
-  validateInstallVersions(readJson('data/online/install-versions.json'))
+  installVersionsData = readJson('data/online/install-versions.json')
+  validateInstallVersions(installVersionsData)
+}
+
+const splitIndexPath = path.join(repoRoot, 'data/online/index.json')
+if (fs.existsSync(splitIndexPath)) {
+  validateSplitMetadata(readJson('data/online/index.json'), installVersionsData)
 }
 
 const sourcePolicyPath = path.join(repoRoot, 'data/online/source-policy.json')

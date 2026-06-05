@@ -1,0 +1,2031 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "jq",
+    "name": "jq",
+    "categoryId": "terminal",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://jqlang.github.io/jq/",
+      "download": "https://jqlang.github.io/jq/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "jq",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "jq",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "jqlang.jq",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:06.348Z",
+          "errors": []
+        },
+        "package": {
+          "name": "jq",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://jqlang.github.io/jq/",
+          "download": "https://jqlang.github.io/jq/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.8.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://jqlang.github.io/jq/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "jqlang.jq",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "jqlang.jq",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "jqlang.jq",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "jqlang.jq",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "jqlang.jq",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "jqlang.jq",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:06.348Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "jq",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "jq",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "jq",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:06.606Z",
+          "errors": []
+        },
+        "package": {
+          "name": "jq",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Lightweight and flexible command-line JSON processor",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://jqlang.github.io/jq/",
+          "download": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-1.8.1.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.8.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-1.8.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "2be64e7129cecb11d5906290eba10af694fb9e3e7f9fc208a311dc33ca837eb0",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "jq"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "jq"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "jq"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "jq"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "jq"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "jq"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:06.606Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "jq",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "jq",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "jq",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:06.620Z",
+          "errors": []
+        },
+        "package": {
+          "name": "jq",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Lightweight and flexible command-line JSON processor",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://jqlang.github.io/jq/",
+          "download": "https://jqlang.github.io/jq/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.8.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://jqlang.github.io/jq/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "jq"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "jq"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "jq"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "jq"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "jq"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "jq"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:06.620Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "jq",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "jq",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "jq",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:06.789Z",
+          "errors": []
+        },
+        "package": {
+          "name": "jq",
+          "publisher": "https://github.com/jqlang/jq/blob/master/AUTHORS",
+          "author": "https://github.com/jqlang/jq/blob/master/AUTHORS",
+          "description": "Command-line JSON processor",
+          "license": null,
+          "licenseUrl": "https://github.com/jqlang/jq/blob/master/COPYING",
+          "tags": [
+            "jq",
+            "json"
+          ]
+        },
+        "links": {
+          "homepage": "https://jqlang.github.io/jq/",
+          "download": "https://community.chocolatey.org/api/v2/package/jq/1.8.1",
+          "releases": "",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.8.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/jq/1.8.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "SngHXVvMBqJHbSubxLCTYECviHAxfAtQs3p83mreohXQF+UGroM6l3SW7h9puPgGZ3K7y3iWaWeYVRFlZ6YWYg==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "jq",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "jq",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "jq",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "jq",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "jq",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "jq",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:06.789Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "jq",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "jq",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "jqlang/jq",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:06.790Z",
+          "errors": []
+        },
+        "package": {
+          "name": "jq",
+          "publisher": "jqlang",
+          "author": "jqlang",
+          "description": "Command-line JSON processor",
+          "license": "NOASSERTION",
+          "licenseUrl": null,
+          "tags": [
+            "jq"
+          ]
+        },
+        "links": {
+          "homepage": "https://jqlang.org",
+          "download": "https://jqlang.github.io/jq/",
+          "releases": "https://github.com/jqlang/jq/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "jq-1.8.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-01T11:50:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.8.1"
+          },
+          {
+            "version": "jq-1.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-06-01T06:05:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.8.0"
+          },
+          {
+            "version": "jq-1.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-12-13T19:56:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.7.1"
+          },
+          {
+            "version": "jq-1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-09-06T22:54:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.7"
+          },
+          {
+            "version": "jq-1.7rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2023-08-27T18:10:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.7rc2"
+          },
+          {
+            "version": "jq-1.7rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2023-07-31T23:04:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.7rc1"
+          },
+          {
+            "version": "jq-1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-11-02T01:54:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.6"
+          },
+          {
+            "version": "jq-1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-08-16T06:39:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.5"
+          },
+          {
+            "version": "jq-1.5rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2015-07-27T04:14:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.5rc2"
+          },
+          {
+            "version": "jq-1.5rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2015-01-01T02:54:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.5rc1"
+          },
+          {
+            "version": "jq-1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-08-08T05:00:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.4"
+          },
+          {
+            "version": "jq-1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-08-08T05:03:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.3"
+          },
+          {
+            "version": "jq-1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-08-08T05:04:02Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.2"
+          },
+          {
+            "version": "jq-1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-08-08T05:04:24Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.1"
+          },
+          {
+            "version": "jq-1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-08-08T05:04:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jqlang/jq/releases/tag/jq-1.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "jq-1.8.1.tar.gz",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-1.8.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2026798
+          },
+          {
+            "id": "jq-1.8.1.zip",
+            "version": "jq-1.8.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-1.8.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2242171
+          },
+          {
+            "id": "jq-linux-amd64",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2255816
+          },
+          {
+            "id": "jq-linux-arm64",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1797872
+          },
+          {
+            "id": "jq-linux-armel",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-armel",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1692212
+          },
+          {
+            "id": "jq-linux-armhf",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-armhf",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1331968
+          },
+          {
+            "id": "jq-linux-i386",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-i386",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2136100
+          },
+          {
+            "id": "jq-linux-mips",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mips",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2007180
+          },
+          {
+            "id": "jq-linux-mips64",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mips64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2081320
+          },
+          {
+            "id": "jq-linux-mips64el",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mips64el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2081320
+          },
+          {
+            "id": "jq-linux-mips64r6",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mips64r6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950144
+          },
+          {
+            "id": "jq-linux-mips64r6el",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mips64r6el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950144
+          },
+          {
+            "id": "jq-linux-mipsel",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mipsel",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2007184
+          },
+          {
+            "id": "jq-linux-mipsr6",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mipsr6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1941448
+          },
+          {
+            "id": "jq-linux-mipsr6el",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-mipsr6el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1941448
+          },
+          {
+            "id": "jq-linux-powerpc",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-powerpc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2187520
+          },
+          {
+            "id": "jq-linux-ppc64el",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-ppc64el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2453544
+          },
+          {
+            "id": "jq-linux-riscv64",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-riscv64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1601192
+          },
+          {
+            "id": "jq-linux-s390x",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-s390x",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1977976
+          },
+          {
+            "id": "jq-linux64",
+            "version": "jq-1.8.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2255816
+          },
+          {
+            "id": "jq-macos-amd64",
+            "version": "jq-1.8.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 855272
+          },
+          {
+            "id": "jq-macos-arm64",
+            "version": "jq-1.8.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 841408
+          },
+          {
+            "id": "jq-osx-amd64",
+            "version": "jq-1.8.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-osx-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 855272
+          },
+          {
+            "id": "jq-win64.exe",
+            "version": "jq-1.8.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-win64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1026560
+          },
+          {
+            "id": "jq-windows-amd64.exe",
+            "version": "jq-1.8.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1026560
+          },
+          {
+            "id": "jq-windows-i386.exe",
+            "version": "jq-1.8.1",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-windows-i386.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1050112
+          },
+          {
+            "id": "sha256sum.txt",
+            "version": "jq-1.8.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/sha256sum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2129
+          },
+          {
+            "id": "jq-1.8.0.tar.gz",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-1.8.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1908285
+          },
+          {
+            "id": "jq-1.8.0.zip",
+            "version": "jq-1.8.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-1.8.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2119845
+          },
+          {
+            "id": "jq-linux-amd64",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2255816
+          },
+          {
+            "id": "jq-linux-arm64",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1797872
+          },
+          {
+            "id": "jq-linux-armel",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-armel",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1692212
+          },
+          {
+            "id": "jq-linux-armhf",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-armhf",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1331968
+          },
+          {
+            "id": "jq-linux-i386",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-i386",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2136100
+          },
+          {
+            "id": "jq-linux-mips",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mips",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2007176
+          },
+          {
+            "id": "jq-linux-mips64",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mips64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2081312
+          },
+          {
+            "id": "jq-linux-mips64el",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mips64el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2081312
+          },
+          {
+            "id": "jq-linux-mips64r6",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mips64r6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950136
+          },
+          {
+            "id": "jq-linux-mips64r6el",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mips64r6el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950136
+          },
+          {
+            "id": "jq-linux-mipsel",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mipsel",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2007180
+          },
+          {
+            "id": "jq-linux-mipsr6",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mipsr6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1941444
+          },
+          {
+            "id": "jq-linux-mipsr6el",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-mipsr6el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1941444
+          },
+          {
+            "id": "jq-linux-powerpc",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-powerpc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2187520
+          },
+          {
+            "id": "jq-linux-ppc64el",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-ppc64el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2453544
+          },
+          {
+            "id": "jq-linux-riscv64",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-riscv64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1601192
+          },
+          {
+            "id": "jq-linux-s390x",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-s390x",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1977976
+          },
+          {
+            "id": "jq-linux64",
+            "version": "jq-1.8.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2255816
+          },
+          {
+            "id": "jq-macos-amd64",
+            "version": "jq-1.8.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 855248
+          },
+          {
+            "id": "jq-macos-arm64",
+            "version": "jq-1.8.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 841376
+          },
+          {
+            "id": "jq-osx-amd64",
+            "version": "jq-1.8.0",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-osx-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 855248
+          },
+          {
+            "id": "jq-win64.exe",
+            "version": "jq-1.8.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-win64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1026048
+          },
+          {
+            "id": "jq-windows-amd64.exe",
+            "version": "jq-1.8.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1026048
+          },
+          {
+            "id": "jq-windows-i386.exe",
+            "version": "jq-1.8.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-windows-i386.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1049600
+          },
+          {
+            "id": "sha256sum.txt",
+            "version": "jq-1.8.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/sha256sum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2129
+          },
+          {
+            "id": "jq-1.7.1.tar.gz",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-1.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950645
+          },
+          {
+            "id": "jq-1.7.1.zip",
+            "version": "jq-1.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-1.7.1.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2122908
+          },
+          {
+            "id": "jq-linux-amd64",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2319424
+          },
+          {
+            "id": "jq-linux-arm64",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1709616
+          },
+          {
+            "id": "jq-linux-armel",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-armel",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1680824
+          },
+          {
+            "id": "jq-linux-armhf",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-armhf",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1324676
+          },
+          {
+            "id": "jq-linux-i386",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-i386",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2111236
+          },
+          {
+            "id": "jq-linux-mips",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mips",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1973496
+          },
+          {
+            "id": "jq-linux-mips64",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mips64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2011736
+          },
+          {
+            "id": "jq-linux-mips64el",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mips64el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2015832
+          },
+          {
+            "id": "jq-linux-mips64r6",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mips64r6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1942016
+          },
+          {
+            "id": "jq-linux-mips64r6el",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mips64r6el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1942016
+          },
+          {
+            "id": "jq-linux-mipsel",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mipsel",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1977592
+          },
+          {
+            "id": "jq-linux-mipsr6",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mipsr6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1907776
+          },
+          {
+            "id": "jq-linux-mipsr6el",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-mipsr6el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1907776
+          },
+          {
+            "id": "jq-linux-powerpc",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-powerpc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2188468
+          },
+          {
+            "id": "jq-linux-ppc64el",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-ppc64el",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2389992
+          },
+          {
+            "id": "jq-linux-riscv64",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-riscv64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1374992
+          },
+          {
+            "id": "jq-linux-s390x",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-s390x",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1877608
+          },
+          {
+            "id": "jq-linux64",
+            "version": "jq-1.7.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2319424
+          },
+          {
+            "id": "jq-macos-amd64",
+            "version": "jq-1.7.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 851328
+          },
+          {
+            "id": "jq-macos-arm64",
+            "version": "jq-1.7.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 807984
+          },
+          {
+            "id": "jq-osx-amd64",
+            "version": "jq-1.7.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-osx-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 851328
+          },
+          {
+            "id": "jq-win64.exe",
+            "version": "jq-1.7.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-win64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 985088
+          },
+          {
+            "id": "jq-windows-amd64.exe",
+            "version": "jq-1.7.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 985088
+          },
+          {
+            "id": "jq-windows-i386.exe",
+            "version": "jq-1.7.1",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "exe",
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-i386.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1027584
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:06.790Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "jq",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "jq",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

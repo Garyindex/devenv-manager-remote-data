@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "prisma_cli",
+    "name": "Prisma CLI",
+    "categoryId": "web",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://www.prisma.io/docs/orm/tools/prisma-cli",
+      "download": "https://www.prisma.io/docs/orm/tools/prisma-cli",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "prisma",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "prisma",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 75
+    },
+    "sources": [
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "prisma/prisma",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:32.361Z",
+          "errors": []
+        },
+        "package": {
+          "name": "prisma",
+          "publisher": "prisma",
+          "author": "prisma",
+          "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": [
+            "cockroachdb",
+            "database",
+            "javascript",
+            "mariadb",
+            "mongo",
+            "mongodb",
+            "mongodb-orm",
+            "mssql",
+            "mysql",
+            "nodejs",
+            "orm",
+            "postgres",
+            "postgresql",
+            "prisma",
+            "prisma-client",
+            "query-builder",
+            "sql-server",
+            "sqlite",
+            "sqlserver",
+            "typescript"
+          ]
+        },
+        "links": {
+          "homepage": "https://www.prisma.io",
+          "download": "https://www.prisma.io/docs/orm/tools/prisma-cli",
+          "releases": "https://github.com/prisma/prisma/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "7.8.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-22T14:19:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.8.0"
+          },
+          {
+            "version": "7.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-07T16:00:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.7.0"
+          },
+          {
+            "version": "6.19.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-01T11:23:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.19.3"
+          },
+          {
+            "version": "7.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-27T14:11:00Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.6.0"
+          },
+          {
+            "version": "7.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-11T14:57:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.5.0"
+          },
+          {
+            "version": "7.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-27T16:38:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.4.2"
+          },
+          {
+            "version": "7.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-19T17:58:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.4.1"
+          },
+          {
+            "version": "7.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-11T17:09:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.4.0"
+          },
+          {
+            "version": "7.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-21T16:09:13Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.3.0"
+          },
+          {
+            "version": "6.19.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-13T12:09:19Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.19.2"
+          },
+          {
+            "version": "7.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-17T15:12:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.2.0"
+          },
+          {
+            "version": "6.19.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-11T12:30:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.19.1"
+          },
+          {
+            "version": "7.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-03T13:43:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.1.0"
+          },
+          {
+            "version": "7.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-25T14:48:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.0.1"
+          },
+          {
+            "version": "7.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-19T14:04:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/7.0.0"
+          },
+          {
+            "version": "6.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-05T13:19:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.19.0"
+          },
+          {
+            "version": "6.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-22T10:30:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.18.0"
+          },
+          {
+            "version": "6.17.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-10T14:38:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.17.1"
+          },
+          {
+            "version": "6.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-07T17:59:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.17.0"
+          },
+          {
+            "version": "6.16.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-30T14:17:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.16.3"
+          },
+          {
+            "version": "6.16.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-16T12:57:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.16.2"
+          },
+          {
+            "version": "6.16.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-11T12:36:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.16.1"
+          },
+          {
+            "version": "6.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-10T10:45:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.16.0"
+          },
+          {
+            "version": "6.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-27T13:25:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.15.0"
+          },
+          {
+            "version": "6.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-12T16:46:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.14.0"
+          },
+          {
+            "version": "6.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-29T12:31:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.13.0"
+          },
+          {
+            "version": "6.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-15T15:58:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.12.0"
+          },
+          {
+            "version": "6.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-03T15:05:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.11.1"
+          },
+          {
+            "version": "6.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-01T13:31:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.11.0"
+          },
+          {
+            "version": "6.10.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-06-18T20:51:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/prisma/prisma/releases/tag/6.10.1"
+          }
+        ],
+        "downloads": [],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 75,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:32.361Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "prisma",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "prisma",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

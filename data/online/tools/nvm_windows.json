@@ -1,0 +1,1919 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "nvm_windows",
+    "name": "nvm-windows",
+    "categoryId": "javascript",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://github.com/coreybutler/nvm-windows",
+      "download": "https://github.com/coreybutler/nvm-windows",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "nvm",
+          "versionArg": "version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "nvm",
+          "args": [
+            "version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "CoreyButler.NVMforWindows",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.650Z",
+          "errors": []
+        },
+        "package": {
+          "name": "nvm-windows",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://github.com/coreybutler/nvm-windows",
+          "download": "https://github.com/coreybutler/nvm-windows",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.2.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.2.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://github.com/coreybutler/nvm-windows",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "CoreyButler.NVMforWindows",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "CoreyButler.NVMforWindows",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "CoreyButler.NVMforWindows",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "CoreyButler.NVMforWindows",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "CoreyButler.NVMforWindows",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "CoreyButler.NVMforWindows",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.650Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "nvm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "nvm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "nvm",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.742Z",
+          "errors": []
+        },
+        "package": {
+          "name": "nvm-windows",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A node.js version management utility for Windows.",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/coreybutler/nvm-windows",
+          "download": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-noinstall.zip",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.2.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.2.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "md5:d654c26a04e35a318d5939f8ceb09934",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "nvm"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "nvm"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "nvm"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "nvm"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "nvm"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "nvm"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.742Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "nvm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "nvm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "nvm",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:09.970Z",
+          "errors": []
+        },
+        "package": {
+          "name": "NVM",
+          "publisher": "coreybutler",
+          "author": "coreybutler",
+          "description": "A node.js version management utility for Windows.",
+          "license": null,
+          "licenseUrl": "https://github.com/coreybutler/nvm-windows/blob/master/LICENSE",
+          "tags": [
+            "nvm",
+            "node",
+            "nodejs",
+            "node.js",
+            "version",
+            "management",
+            "windows",
+            "admin"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/coreybutler/nvm-windows",
+          "download": "https://community.chocolatey.org/api/v2/package/nvm/1.2.2.20251229",
+          "releases": "https://github.com/coreybutler/nvm-windows/releases/latest",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.2.2.20251229",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.2.2.20251229",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/nvm/1.2.2.20251229",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "yEAfnZ6J6hbUM2YK/QgPzhWTU/KgG4zHJ6fx5crsoC+ZJ6tAO2eSbS9xfO/ae34Afpa8+EnF0QZOL7k0pSLwiA==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "nvm",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "nvm",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "nvm",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "nvm",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "nvm",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "nvm",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:09.970Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "nvm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "nvm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "coreybutler/nvm-windows",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:10.029Z",
+          "errors": []
+        },
+        "package": {
+          "name": "nvm-windows",
+          "publisher": "coreybutler",
+          "author": "coreybutler",
+          "description": "A node.js version management utility for Windows. Ironically written in Go.",
+          "license": "MIT",
+          "licenseUrl": "https://api.github.com/licenses/mit",
+          "tags": [
+            "go",
+            "management",
+            "node",
+            "node-version-manager",
+            "nodejs",
+            "nvm",
+            "switch",
+            "version",
+            "version-manager",
+            "versioning",
+            "windows"
+          ]
+        },
+        "links": {
+          "homepage": "https://github.com/coreybutler/nvm-windows",
+          "download": "https://github.com/coreybutler/nvm-windows",
+          "releases": "https://github.com/coreybutler/nvm-windows/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.2.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-01T03:06:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.2.2"
+          },
+          {
+            "version": "1.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-30T22:34:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.2.1"
+          },
+          {
+            "version": "1.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-29T15:47:26Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.2.0"
+          },
+          {
+            "version": "1.1.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-22T20:01:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12"
+          },
+          {
+            "version": "1.1.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-04-13T03:36:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.11"
+          },
+          {
+            "version": "1.1.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-01T00:10:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.10"
+          },
+          {
+            "version": "1.1.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-12-10T19:16:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.9"
+          },
+          {
+            "version": "1.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-09-15T14:58:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.8"
+          },
+          {
+            "version": "1.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2018-08-02T04:58:35Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7"
+          },
+          {
+            "version": "1.1.6",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2017-07-15T18:33:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.6"
+          },
+          {
+            "version": "1.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-05-31T13:42:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.5"
+          },
+          {
+            "version": "1.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-05-10T23:16:35Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.4"
+          },
+          {
+            "version": "1.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-03-08T16:29:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.3"
+          },
+          {
+            "version": "1.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2017-02-22T21:37:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.2"
+          },
+          {
+            "version": "1.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2016-07-02T01:10:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.1"
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2015-09-30T20:56:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.1.0"
+          },
+          {
+            "version": "1.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-10-23T19:15:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.6"
+          },
+          {
+            "version": "1.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-10-15T18:02:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.5"
+          },
+          {
+            "version": "1.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-10-04T17:56:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.4"
+          },
+          {
+            "version": "1.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-10-03T19:43:56Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.3"
+          },
+          {
+            "version": "1.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-09-26T03:00:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.2"
+          },
+          {
+            "version": "1.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-09-25T01:45:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.1"
+          },
+          {
+            "version": "1.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2014-09-24T03:50:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/coreybutler/nvm-windows/releases/tag/1.0.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.2.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6306101
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.2.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.2.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5612296
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.2.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5071673
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.2.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.2.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.1/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6298866
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.2.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.1/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.2.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.1/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5607232
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.2.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.1/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5066587
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.2.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.1/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.2.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.0/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6293266
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.2.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.0/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.2.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.0/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5601176
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.2.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.0/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5060065
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.2.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.0/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.12",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4875049
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.1.12",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.1.12",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5784456
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.12",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5262127
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.1.12",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-update.zip",
+            "version": "1.1.12",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-update.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4350347
+          },
+          {
+            "id": "nvm-update.zip.checksum.txt",
+            "version": "1.1.12",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-update.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.11",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4801001
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.1.11",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.1.11",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5733808
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.11",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5211436
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.1.11",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-update.zip",
+            "version": "1.1.11",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-update.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4268274
+          },
+          {
+            "id": "nvm-update.zip.checksum.txt",
+            "version": "1.1.11",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-update.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4514666
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.1.10",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.1.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5474488
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4952357
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.1.10",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-update.exe",
+            "version": "1.1.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-update.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 7425440
+          },
+          {
+            "id": "nvm-update.zip",
+            "version": "1.1.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-update.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4279326
+          },
+          {
+            "id": "nvm-update.zip.checksum.txt",
+            "version": "1.1.10",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-update.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3815402
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.1.9",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.1.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4861752
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4339209
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.1.9",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-update.zip",
+            "version": "1.1.9",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-update.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3620914
+          },
+          {
+            "id": "nvm-update.zip.checksum.txt",
+            "version": "1.1.9",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-update.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.8",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.8/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3809812
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.1.8",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.8/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.8",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.8/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4339949
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.1.8",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.8/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-update.zip",
+            "version": "1.1.8",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.8/nvm-update.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3420632
+          },
+          {
+            "id": "nvm-update.zip.checksum.txt",
+            "version": "1.1.8",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.8/nvm-update.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.7",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2411181
+          },
+          {
+            "id": "nvm-noinstall.zip.checksum.txt",
+            "version": "1.1.7",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-noinstall.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.7",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2079418
+          },
+          {
+            "id": "nvm-setup.zip.checksum.txt",
+            "version": "1.1.7",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip.checksum.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.6",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.6/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2075441
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.6",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.6/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1812881
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.5/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1975617
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.5/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1693526
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.4",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.4/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1949046
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.4",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.4/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1675690
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.3/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1948730
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.3/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1675857
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.2/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1941861
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.2/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1671431
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.1/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2467628
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.1/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2010979
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.1.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.0/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1895343
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.1.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.0/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1612778
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.0.6",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.6/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1888925
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.0.6",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.6/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1619136
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.0.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.5/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1888773
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.0.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.5/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1618913
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.0.4",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.4/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1942241
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.0.4",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.4/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1648956
+          },
+          {
+            "id": "nvm-noinstall.zip",
+            "version": "1.0.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.3/nvm-noinstall.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1885775
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.0.3",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.3/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1803536
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.0.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.2/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1794730
+          },
+          {
+            "id": "nvm-setup.exe",
+            "version": "1.0.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.1/nvm-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1875444
+          },
+          {
+            "id": "nvm-setup.zip",
+            "version": "1.0.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.0.0/nvm-setup.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1800822
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:10.029Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "nvm",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "nvm",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

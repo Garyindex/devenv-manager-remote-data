@@ -1,0 +1,2460 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "kind",
+    "name": "kind",
+    "categoryId": "container",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://kind.sigs.k8s.io/",
+      "download": "https://kind.sigs.k8s.io/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "kind",
+          "versionArg": "version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "kind",
+          "args": [
+            "version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Kubernetes.kind",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.250Z",
+          "errors": []
+        },
+        "package": {
+          "name": "kind",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://kind.sigs.k8s.io/",
+          "download": "https://kind.sigs.k8s.io/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "0.32.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://kind.sigs.k8s.io/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Kubernetes.kind",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Kubernetes.kind",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Kubernetes.kind",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Kubernetes.kind",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Kubernetes.kind",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Kubernetes.kind",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.250Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "kind",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "kind",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "kind",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.346Z",
+          "errors": []
+        },
+        "package": {
+          "name": "kind",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Run local Kubernetes cluster in Docker",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://kind.sigs.k8s.io/",
+          "download": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.32.0.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "0.32.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.32.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "e2e1eb04fed4eed0715cc1c5938453d1edbf92b3c097ebec0a05d0903ba15508",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "kind"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "kind"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "kind"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "kind"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "kind"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "kind"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.346Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "kind",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "kind",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "kind",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.718Z",
+          "errors": []
+        },
+        "package": {
+          "name": "kind",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
+          "download": "https://kind.sigs.k8s.io/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "0.32.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://kind.sigs.k8s.io/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "kind"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "kind"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "kind"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "kind"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "kind"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "kind"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.718Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "kind",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "kind",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "kind",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.762Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Kind",
+          "publisher": "Kubernetes SIGs",
+          "author": "Kubernetes SIGs",
+          "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+          "license": null,
+          "licenseUrl": "https://github.com/kubernetes-sigs/kind/blob/master/LICENSE",
+          "tags": [
+            "kind",
+            "cli",
+            "kubernetes",
+            "docker",
+            "test",
+            "go"
+          ]
+        },
+        "links": {
+          "homepage": "https://kind.sigs.k8s.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/kind/0.31.0",
+          "releases": "https://github.com/kubernetes-sigs/kind/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "0.31.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/kind/0.31.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "TFZf8B2TgpSh8GJz7Ptpr6GPGU3CwIeMiooYrKjPW8Lk6WByPM4iXTaquPnDx9dRMwOq6lLEzSqC5GKStN/0tw==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "kind",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "kind",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "kind",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "kind",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "kind",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "kind",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.762Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "kind",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "kind",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "kubernetes-sigs/kind",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.894Z",
+          "errors": []
+        },
+        "package": {
+          "name": "kind",
+          "publisher": "kubernetes-sigs",
+          "author": "kubernetes-sigs",
+          "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": [
+            "docker",
+            "golang",
+            "k8s-sig-testing",
+            "kubeadm",
+            "kubernetes",
+            "podman"
+          ]
+        },
+        "links": {
+          "homepage": "https://kind.sigs.k8s.io/",
+          "download": "https://kind.sigs.k8s.io/",
+          "releases": "https://github.com/kubernetes-sigs/kind/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-06-02T17:34:57Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.32.0"
+          },
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-18T00:56:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.31.0"
+          },
+          {
+            "version": "0.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-27T17:45:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.30.0"
+          },
+          {
+            "version": "0.29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-21T01:54:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.29.0"
+          },
+          {
+            "version": "0.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-16T23:36:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.28.0"
+          },
+          {
+            "version": "0.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-02-15T00:54:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.27.0"
+          },
+          {
+            "version": "0.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-16T22:02:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.26.0"
+          },
+          {
+            "version": "0.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-11-08T20:37:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.25.0"
+          },
+          {
+            "version": "0.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-08-15T16:39:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.24.0"
+          },
+          {
+            "version": "0.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-14T02:02:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.23.0"
+          },
+          {
+            "version": "0.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-02-14T23:30:47Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.22.0"
+          },
+          {
+            "version": "0.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-02-02T20:31:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.21.0"
+          },
+          {
+            "version": "0.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-06-15T03:18:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.20.0"
+          },
+          {
+            "version": "0.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-05-17T00:46:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.19.0"
+          },
+          {
+            "version": "0.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-03-30T19:33:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.18.0"
+          },
+          {
+            "version": "0.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-10-26T15:53:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.17.0"
+          },
+          {
+            "version": "0.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-09-22T19:33:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.16.0"
+          },
+          {
+            "version": "0.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-09-02T01:31:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.15.0"
+          },
+          {
+            "version": "0.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-05-19T20:58:38Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.14.0"
+          },
+          {
+            "version": "0.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-05-10T19:40:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.13.0"
+          },
+          {
+            "version": "0.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-03-07T11:57:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.12.0"
+          },
+          {
+            "version": "0.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-05-28T00:46:11Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.11.1"
+          },
+          {
+            "version": "0.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-05-18T20:07:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.11.0"
+          },
+          {
+            "version": "0.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-01-23T00:14:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.10.0"
+          },
+          {
+            "version": "0.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-09-15T00:34:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.9.0"
+          },
+          {
+            "version": "0.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-02T00:14:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.8.1"
+          },
+          {
+            "version": "0.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-05-01T03:10:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.8.0"
+          },
+          {
+            "version": "0.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2020-01-14T02:05:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.7.0"
+          },
+          {
+            "version": "0.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-12-04T08:24:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.6.1"
+          },
+          {
+            "version": "0.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2019-11-18T17:33:20Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.6.0"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.32.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10719376
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.32.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.32.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9964754
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.32.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.32.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10522750
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.32.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.32.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9764990
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.32.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.32.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10833920
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.32.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.31.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11186256
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.31.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.31.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10538994
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.31.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.31.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11097044
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.31.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.31.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10458020
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.31.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.31.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11320320
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.31.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.30.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11189744
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.30.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.30.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10624850
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.30.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.30.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11055553
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.30.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.30.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10453204
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.30.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.30.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11264000
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.30.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.29.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11192272
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.29.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.29.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10627394
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.29.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.29.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11058152
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.29.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.29.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10455803
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.29.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.29.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11266048
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.29.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.28.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11192272
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.28.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.28.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10627394
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.28.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.28.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11058152
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.28.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.28.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10455803
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.28.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.28.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11266048
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.28.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.27.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10591392
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.27.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.27.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10167506
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.27.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.27.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10458985
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.27.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.27.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10058739
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.27.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.27.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10671616
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.27.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.26.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10583136
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.26.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.26.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10167442
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.26.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.26.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10454801
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.26.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.26.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10058651
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.26.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.26.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10668544
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.26.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.25.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10080240
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.25.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.25.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9697458
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.25.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.25.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9930525
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.25.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.25.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9545487
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.25.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.25.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10145792
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.25.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.894Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "kind",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "kind",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

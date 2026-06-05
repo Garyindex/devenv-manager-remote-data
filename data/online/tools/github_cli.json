@@ -1,0 +1,2640 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "github_cli",
+    "name": "GitHub CLI",
+    "categoryId": "source-control",
+    "aliases": [],
+    "tags": [
+      "github",
+      "vcs"
+    ],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://cli.github.com/",
+      "download": "https://cli.github.com/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "gh",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "gh",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "GitHub.cli",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.192Z",
+          "errors": []
+        },
+        "package": {
+          "name": "GitHub CLI",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": [
+            "github",
+            "vcs"
+          ]
+        },
+        "links": {
+          "homepage": "https://cli.github.com/",
+          "download": "https://cli.github.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.93.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.92.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.91.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.90.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.89.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.88.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.88.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.87.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.87.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.87.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.87.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.86.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.85.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.81.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.80.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.79.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.78.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.76.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.76.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.76.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.75.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.75.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.74.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.74.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.74.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.73.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.72.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://cli.github.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "GitHub.cli",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "GitHub.cli",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "GitHub.cli",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "GitHub.cli",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "GitHub.cli",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "GitHub.cli",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.192Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gh",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gh",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "gh",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.216Z",
+          "errors": []
+        },
+        "package": {
+          "name": "gh",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "GitHub command-line tool",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "github",
+            "vcs",
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://cli.github.com/",
+          "download": "https://github.com/cli/cli/archive/refs/tags/v2.93.0.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.93.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.93.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/cli/cli/archive/refs/tags/v2.93.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "8f3369ade41fe7a04ff93ec6029d5b0a8a94ccb4bb59f338d5c445aa695f0753",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "gh"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "gh"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "gh"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "gh"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "gh"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "gh"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.216Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gh",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gh",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "gh",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.217Z",
+          "errors": []
+        },
+        "package": {
+          "name": "GitHub CLI",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Official GitHub CLI",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "github",
+            "vcs",
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://cli.github.com",
+          "download": "https://cli.github.com/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.93.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://cli.github.com/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "gh"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "gh"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "gh"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "gh"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "gh"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "gh"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.217Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gh",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gh",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "gh",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.217Z",
+          "errors": []
+        },
+        "package": {
+          "name": "GitHub CLI",
+          "publisher": "GitHub",
+          "author": "GitHub",
+          "description": "Command line wrapper for git that makes you better at GitHub.",
+          "license": null,
+          "licenseUrl": "https://github.com/cli/cli/blob/trunk/LICENSE",
+          "tags": [
+            "github",
+            "vcs",
+            "cli",
+            "git",
+            "scm",
+            "admin"
+          ]
+        },
+        "links": {
+          "homepage": "https://cli.github.com/",
+          "download": "https://community.chocolatey.org/api/v2/package/gh/2.93.0",
+          "releases": "## Support agents in `gh secret` command set\n\nThe `gh secret` command set can now set agent secrets. For more information, see [\"Configuring secrets and variables for Copilot cloud agent\"](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables).\n\n\n## What's Changed\n\n### ✨ Features\n* Allow agents as application for secrets by @tenjaa in https://github.com/cli/cli/pull/13421\n\n\n### 🐛 Fixes\n* fix(pr): remove numberFieldOnly optimization that skips API validation by @williammartin in https://github.com/cli/cli/pull/13327\n* Print `gh auth refresh` for 401 returns by @333fred in https://github.com/cli/cli/pull/13068\n* Derive digest algorithm from ref length in release verify commands by @bdehamer in https://github.com/cli/cli/pull/13430\n\n\n### 📚 Docs & Chores\n* Add missing //go:build integration tag to verify_integration_test.go by @pdostal in https://github.com/cli/cli/pull/13303\n* Fix flaky accessible prompter Password test timeout by @pdostal in https://github.com/cli/cli/pull/13304\n* Enable extended PR screening for external PRs by @tidy-dev in https://github.com/cli/cli/pull/13312\n* Grammar fixes by @scop in https://github.com/cli/cli/pull/13326\n* Bump `gh copilot` telemetry sampling to 100% by @williammartin in https://github.com/cli/cli/pull/13362\n* Record accessibility feature state in telemetry by @williammartin in https://github.com/cli/cli/pull/13363\n* Poll TTY echo mode instead of sleeping in password tests by @pdostal in https://github.com/cli/cli/pull/13305\n* Switch from actions/attest-build-provenance to actions/attest by @scop in https://github.com/cli/cli/pull/13325\n* Fix skills acceptance tests by @williammartin in https://github.com/cli/cli/pull/13365\n* Bump Go toolchain to 1.26.3 by @Copilot in https://github.com/cli/cli/pull/13367\n* Trigger triage check-requirements on ready_for_review by @BagToad in https://github.com/cli/cli/pull/13383\n* fix(copilot): hint to run copilot directly when exec fails by @babakks in https://github.com/cli/cli/pull/13393\n* Update installation commands for GitHub CLI by @sassdawe in https://github.com/cli/cli/pull/13126\n* Update CODEOWNERS for skills directory ownership by @williammartin in https://github.com/cli/cli/pull/13416\n* fix(telemetry): prevent tzutil console flash on Windows by @adehad in https://github.com/cli/cli/pull/13353\n* Fix bump-go.sh to tolerate missing toolchain directive by @Copilot in https://github.com/cli/cli/pull/12581\n* docs: drop --repo gh-cli from dnf install lines by @c-tonneslan in https://github.com/cli/cli/pull/13444\n* Remove third-party license debris by @williammartin in https://github.com/cli/cli/pull/13470\n* Remove dependency on persistent token by @williammartin in https://github.com/cli/cli/pull/13474\n* Remove discussion workflow by @williammartin in https://github.com/cli/cli/pull/13476\n* Stop bumping homebrew on release by @williammartin in https://github.com/cli/cli/pull/13479\n* build: update golang.org/x/crypto by @tommaso-moro in https://github.com/cli/cli/pull/13486\n* Add 3 day dependabot cooldown period by @williammartin in https://github.com/cli/cli/pull/13488\n* Run govulncheck daily instead of weekly by @williammartin in https://github.com/cli/cli/pull/13487\n* SHA pin first-party GitHub Actions by @williammartin in https://github.com/cli/cli/pull/13491\n* Link to Accessibility category for community discussions instead of ACR by @mxie in https://github.com/cli/cli/pull/13481\n* docs: fix duplicated \"of\" in release-process-deep-dive by @vip892766gma in https://github.com/cli/cli/pull/13425\n* chore(deps): bump golang.org/x/net from 0.54.0 to 0.55.0 by @BagToad in https://github.com/cli/cli/pull/13510\n* docs: note immutable releases starting v2.93.0 by @BagToad in https://github.com/cli/cli/pull/13518\n* fix CI attestation integration tests after rename by @BagToad in https://github.com/cli/cli/pull/13536\n\n\n### :dependabot: Dependencies\n* chore(deps): bump goreleaser/goreleaser-action from 7.0.0 to 7.2.1 by @dependabot[bot] in https://github.com/cli/cli/pull/13297\n* chore(deps): bump github.com/klauspost/compress from 1.18.5 to 1.18.6 by @dependabot[bot] in https://github.com/cli/cli/pull/13328\n* chore(deps): bump golang.org/x/sys from 0.43.0 to 0.44.0 by @dependabot[bot] in https://github.com/cli/cli/pull/13381\n* chore(deps): bump golang.org/x/term from 0.42.0 to 0.43.0 by @dependabot[bot] in https://github.com/cli/cli/pull/13396\n* chore(deps): bump google.golang.org/grpc from 1.80.0 to 1.81.0 by @dependabot[bot] in https://github.com/cli/cli/pull/13346\n* chore(deps): bump golang.org/x/text from 0.36.0 to 0.37.0 by @dependabot[bot] in https://github.com/cli/cli/pull/13397\n* chore(deps): bump golang.org/x/crypto from 0.50.0 to 0.51.0 by @dependabot[bot] in https://github.com/cli/cli/pull/13420\n* chore(deps): bump google.golang.org/grpc from 1.81.0 to 1.81.1 by @dependabot[bot] in https://github.com/cli/cli/pull/13436\n* chore(deps): bump goreleaser/goreleaser-action from 7.2.1 to 7.2.2 by @dependabot[bot] in https://github.com/cli/cli/pull/13461\n* chore(deps): bump github/codeql-action from 4 to 4.35.5 by @dependabot[bot] in https://github.com/cli/cli/pull/13489\n* chore(deps): bump github.com/theupdateframework/go-tuf/v2 from 2.4.1 to 2.4.2 by @dependabot[bot] in https://github.com/cli/cli/pull/13462\n* chore(deps): bump github.com/google/go-containerregistry from 0.21.5 to 0.21.6 by @dependabot[bot] in https://github.com/cli/cli/pull/13457\n\n## New Contributors\n* @pdostal made their first contribution in https://github.com/cli/cli/pull/13303\n* @333fred made their first contribution in https://github.com/cli/cli/pull/13068\n* @scop made their first contribution in https://github.com/cli/cli/pull/13326\n* @sassdawe made their first contribution in https://github.com/cli/cli/pull/13126\n* @adehad made their first contribution in https://github.com/cli/cli/pull/13353\n* @c-tonneslan made their first contribution in https://github.com/cli/cli/pull/13444\n* @tenjaa made their first contribution in https://github.com/cli/cli/pull/13421\n* @mxie made their first contribution in https://github.com/cli/cli/pull/13481\n* @vip892766gma made their first contribution in https://github.com/cli/cli/pull/13425\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.92.0...v2.93.0",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.93.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.92.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.91.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.90.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.89.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.88.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.88.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.87.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.87.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.86.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.85.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.83.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.82.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.82.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.81.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.80.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.63.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.64.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.44.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.67.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.21.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.78.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.62.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.72.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.76.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.79.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.71.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.70.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/gh/2.93.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "sMetsShQlSVS6ZBAFOcxMonneckRx83sMdn7tODVAeBYgok1eleqx39s+DkR1fehE7PJZdVPuftz0pH+RWtQ3Q==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "gh",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "gh",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "gh",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "gh",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "gh",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "gh",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.217Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gh",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gh",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "cli/cli",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:41:58.829Z",
+          "errors": []
+        },
+        "package": {
+          "name": "cli",
+          "publisher": "cli",
+          "author": "cli",
+          "description": "GitHub’s official command line tool",
+          "license": "MIT",
+          "licenseUrl": "https://api.github.com/licenses/mit",
+          "tags": [
+            "github",
+            "vcs",
+            "cli",
+            "git",
+            "github-api-v4",
+            "golang"
+          ]
+        },
+        "links": {
+          "homepage": "https://cli.github.com",
+          "download": "https://cli.github.com/",
+          "releases": "https://github.com/cli/cli/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.93.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-27T17:47:48Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.93.0"
+          },
+          {
+            "version": "2.92.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-28T11:42:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.92.0"
+          },
+          {
+            "version": "2.91.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-22T10:40:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.91.0"
+          },
+          {
+            "version": "2.90.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-16T18:19:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.90.0"
+          },
+          {
+            "version": "2.89.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-26T14:22:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.89.0"
+          },
+          {
+            "version": "2.88.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-12T12:24:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.88.1"
+          },
+          {
+            "version": "2.88.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-10T19:40:45Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.88.0"
+          },
+          {
+            "version": "2.87.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-23T19:12:37Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.87.3"
+          },
+          {
+            "version": "2.87.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-20T20:30:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.87.2"
+          },
+          {
+            "version": "2.87.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-20T18:47:29Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.87.1"
+          },
+          {
+            "version": "2.87.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-18T17:19:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.87.0"
+          },
+          {
+            "version": "2.86.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-21T18:07:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.86.0"
+          },
+          {
+            "version": "2.85.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-14T18:44:58Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.85.0"
+          },
+          {
+            "version": "2.83.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-12-10T16:56:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.83.2"
+          },
+          {
+            "version": "2.83.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-13T17:11:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.83.1"
+          },
+          {
+            "version": "2.83.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-11-04T18:16:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.83.0"
+          },
+          {
+            "version": "2.82.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-22T01:34:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.82.1"
+          },
+          {
+            "version": "2.82.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-15T20:04:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.82.0"
+          },
+          {
+            "version": "2.81.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-10-01T20:22:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.81.0"
+          },
+          {
+            "version": "2.80.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-23T16:57:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.80.0"
+          },
+          {
+            "version": "2.79.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-09T14:46:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.79.0"
+          },
+          {
+            "version": "2.78.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-21T19:10:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.78.0"
+          },
+          {
+            "version": "2.77.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-21T18:26:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.77.0"
+          },
+          {
+            "version": "2.76.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-30T21:24:48Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.76.2"
+          },
+          {
+            "version": "2.76.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-23T18:39:48Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.76.1"
+          },
+          {
+            "version": "2.76.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-17T19:10:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.76.0"
+          },
+          {
+            "version": "2.75.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-14T21:51:23Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.75.1"
+          },
+          {
+            "version": "2.75.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-07-09T14:28:56Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.75.0"
+          },
+          {
+            "version": "2.74.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-06-18T17:25:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.74.2"
+          },
+          {
+            "version": "2.74.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-06-10T13:40:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.74.1"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "gh_2.93.0_checksums.txt",
+            "version": "2.93.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950
+          },
+          {
+            "id": "gh_2.93.0_linux_386.deb",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13485406
+          },
+          {
+            "id": "gh_2.93.0_linux_386.rpm",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14026788
+          },
+          {
+            "id": "gh_2.93.0_linux_386.tar.gz",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_386.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13427144
+          },
+          {
+            "id": "gh_2.93.0_linux_amd64.deb",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14407622
+          },
+          {
+            "id": "gh_2.93.0_linux_amd64.rpm",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14959127
+          },
+          {
+            "id": "gh_2.93.0_linux_amd64.tar.gz",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14332871
+          },
+          {
+            "id": "gh_2.93.0_linux_arm64.deb",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13102192
+          },
+          {
+            "id": "gh_2.93.0_linux_arm64.rpm",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13530981
+          },
+          {
+            "id": "gh_2.93.0_linux_arm64.tar.gz",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13035187
+          },
+          {
+            "id": "gh_2.93.0_linux_armv6.deb",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_armv6.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13568768
+          },
+          {
+            "id": "gh_2.93.0_linux_armv6.rpm",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_armv6.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14062744
+          },
+          {
+            "id": "gh_2.93.0_linux_armv6.tar.gz",
+            "version": "2.93.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_armv6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13520392
+          },
+          {
+            "id": "gh_2.93.0_macOS_amd64.zip",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14960426
+          },
+          {
+            "id": "gh_2.93.0_macOS_arm64.zip",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13646335
+          },
+          {
+            "id": "gh_2.93.0_macOS_universal.pkg",
+            "version": "2.93.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 27736519
+          },
+          {
+            "id": "gh_2.93.0_windows_386.msi",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14131200
+          },
+          {
+            "id": "gh_2.93.0_windows_386.zip",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13840693
+          },
+          {
+            "id": "gh_2.93.0_windows_amd64.msi",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14757888
+          },
+          {
+            "id": "gh_2.93.0_windows_amd64.zip",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14507687
+          },
+          {
+            "id": "gh_2.93.0_windows_arm64.msi",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13225984
+          },
+          {
+            "id": "gh_2.93.0_windows_arm64.zip",
+            "version": "2.93.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12999446
+          },
+          {
+            "id": "gh_2.92.0_checksums.txt",
+            "version": "2.92.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950
+          },
+          {
+            "id": "gh_2.92.0_linux_386.deb",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13450770
+          },
+          {
+            "id": "gh_2.92.0_linux_386.rpm",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14002428
+          },
+          {
+            "id": "gh_2.92.0_linux_386.tar.gz",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_386.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13396139
+          },
+          {
+            "id": "gh_2.92.0_linux_amd64.deb",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14365816
+          },
+          {
+            "id": "gh_2.92.0_linux_amd64.rpm",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14884189
+          },
+          {
+            "id": "gh_2.92.0_linux_amd64.tar.gz",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14296784
+          },
+          {
+            "id": "gh_2.92.0_linux_arm64.deb",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13072194
+          },
+          {
+            "id": "gh_2.92.0_linux_arm64.rpm",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13533575
+          },
+          {
+            "id": "gh_2.92.0_linux_arm64.tar.gz",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13002970
+          },
+          {
+            "id": "gh_2.92.0_linux_armv6.deb",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_armv6.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13544008
+          },
+          {
+            "id": "gh_2.92.0_linux_armv6.rpm",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_armv6.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14041260
+          },
+          {
+            "id": "gh_2.92.0_linux_armv6.tar.gz",
+            "version": "2.92.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_armv6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13493303
+          },
+          {
+            "id": "gh_2.92.0_macOS_amd64.zip",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_macOS_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14919974
+          },
+          {
+            "id": "gh_2.92.0_macOS_arm64.zip",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_macOS_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13614671
+          },
+          {
+            "id": "gh_2.92.0_macOS_universal.pkg",
+            "version": "2.92.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_macOS_universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 27667917
+          },
+          {
+            "id": "gh_2.92.0_windows_386.msi",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14102528
+          },
+          {
+            "id": "gh_2.92.0_windows_386.zip",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13811241
+          },
+          {
+            "id": "gh_2.92.0_windows_amd64.msi",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14721024
+          },
+          {
+            "id": "gh_2.92.0_windows_amd64.zip",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14468591
+          },
+          {
+            "id": "gh_2.92.0_windows_arm64.msi",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13185024
+          },
+          {
+            "id": "gh_2.92.0_windows_arm64.zip",
+            "version": "2.92.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12968037
+          },
+          {
+            "id": "gh_2.91.0_checksums.txt",
+            "version": "2.91.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950
+          },
+          {
+            "id": "gh_2.91.0_linux_386.deb",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13443900
+          },
+          {
+            "id": "gh_2.91.0_linux_386.rpm",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13958562
+          },
+          {
+            "id": "gh_2.91.0_linux_386.tar.gz",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_386.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13384587
+          },
+          {
+            "id": "gh_2.91.0_linux_amd64.deb",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14357442
+          },
+          {
+            "id": "gh_2.91.0_linux_amd64.rpm",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14906413
+          },
+          {
+            "id": "gh_2.91.0_linux_amd64.tar.gz",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14287621
+          },
+          {
+            "id": "gh_2.91.0_linux_arm64.deb",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13056722
+          },
+          {
+            "id": "gh_2.91.0_linux_arm64.rpm",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13508225
+          },
+          {
+            "id": "gh_2.91.0_linux_arm64.tar.gz",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12995303
+          },
+          {
+            "id": "gh_2.91.0_linux_armv6.deb",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_armv6.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13530472
+          },
+          {
+            "id": "gh_2.91.0_linux_armv6.rpm",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_armv6.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14027488
+          },
+          {
+            "id": "gh_2.91.0_linux_armv6.tar.gz",
+            "version": "2.91.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_linux_armv6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13482406
+          },
+          {
+            "id": "gh_2.91.0_macOS_amd64.zip",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_macOS_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14910435
+          },
+          {
+            "id": "gh_2.91.0_macOS_arm64.zip",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_macOS_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13608027
+          },
+          {
+            "id": "gh_2.91.0_macOS_universal.pkg",
+            "version": "2.91.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_macOS_universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 27649421
+          },
+          {
+            "id": "gh_2.91.0_windows_386.msi",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_windows_386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14090240
+          },
+          {
+            "id": "gh_2.91.0_windows_386.zip",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_windows_386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13800494
+          },
+          {
+            "id": "gh_2.91.0_windows_amd64.msi",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14712832
+          },
+          {
+            "id": "gh_2.91.0_windows_amd64.zip",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14455226
+          },
+          {
+            "id": "gh_2.91.0_windows_arm64.msi",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_windows_arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13180928
+          },
+          {
+            "id": "gh_2.91.0_windows_arm64.zip",
+            "version": "2.91.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.91.0/gh_2.91.0_windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12958569
+          },
+          {
+            "id": "gh_2.90.0_checksums.txt",
+            "version": "2.90.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950
+          },
+          {
+            "id": "gh_2.90.0_linux_386.deb",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13388760
+          },
+          {
+            "id": "gh_2.90.0_linux_386.rpm",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13954031
+          },
+          {
+            "id": "gh_2.90.0_linux_386.tar.gz",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_386.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13331782
+          },
+          {
+            "id": "gh_2.90.0_linux_amd64.deb",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14293138
+          },
+          {
+            "id": "gh_2.90.0_linux_amd64.rpm",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14846442
+          },
+          {
+            "id": "gh_2.90.0_linux_amd64.tar.gz",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14226921
+          },
+          {
+            "id": "gh_2.90.0_linux_arm64.deb",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13003872
+          },
+          {
+            "id": "gh_2.90.0_linux_arm64.rpm",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13453741
+          },
+          {
+            "id": "gh_2.90.0_linux_arm64.tar.gz",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12942709
+          },
+          {
+            "id": "gh_2.90.0_linux_armv6.deb",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_armv6.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13478066
+          },
+          {
+            "id": "gh_2.90.0_linux_armv6.rpm",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_armv6.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13954612
+          },
+          {
+            "id": "gh_2.90.0_linux_armv6.tar.gz",
+            "version": "2.90.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_linux_armv6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13424805
+          },
+          {
+            "id": "gh_2.90.0_macOS_amd64.zip",
+            "version": "2.90.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_macOS_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14846401
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:41:58.829Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "gh",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "gh",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

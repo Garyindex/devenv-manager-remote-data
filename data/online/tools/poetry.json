@@ -1,0 +1,1464 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "poetry",
+    "name": "Poetry",
+    "categoryId": "python",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://python-poetry.org/",
+      "download": "https://python-poetry.org/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "poetry",
+          "versionArg": "--version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "poetry",
+          "args": [
+            "--version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "poetry",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:11.356Z",
+          "errors": []
+        },
+        "package": {
+          "name": "poetry",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Python package management tool",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://python-poetry.org/",
+          "download": "https://files.pythonhosted.org/packages/c0/02/a309e58943f77f1947e4a658a9606933ab4a7b9f040025f4e25daf5fafbb/poetry-2.4.1.tar.gz",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.4.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://files.pythonhosted.org/packages/c0/02/a309e58943f77f1947e4a658a9606933ab4a7b9f040025f4e25daf5fafbb/poetry-2.4.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "189399b80347ecf908244b2564a7b1d92b648fa1fe2a204888f94a472fec0cac",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "poetry"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "poetry"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "poetry"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "poetry"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "poetry"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "poetry"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:11.356Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "poetry",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "poetry",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "poetry",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:11.408Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Poetry",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Dependency Management for Python",
+          "license": "MIT",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://python-poetry.org/",
+          "download": "https://install.python-poetry.org#/install-poetry.py",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "2.4.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://install.python-poetry.org#/install-poetry.py",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "75745ca71373a7b22fa150953543f03d826a52f8e4bc4350328a33bddd668026",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "poetry"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "poetry"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "poetry"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "poetry"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "poetry"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "poetry"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:11.408Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "poetry",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "poetry",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "python-poetry/poetry",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:11.535Z",
+          "errors": []
+        },
+        "package": {
+          "name": "poetry",
+          "publisher": "python-poetry",
+          "author": "python-poetry",
+          "description": "Python packaging and dependency management made easy",
+          "license": "MIT",
+          "licenseUrl": "https://api.github.com/licenses/mit",
+          "tags": [
+            "dependency-manager",
+            "package-manager",
+            "packaging",
+            "poetry",
+            "python"
+          ]
+        },
+        "links": {
+          "homepage": "https://python-poetry.org",
+          "download": "https://python-poetry.org/",
+          "releases": "https://github.com/python-poetry/poetry/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "2.4.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-09T15:17:39Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.4.1"
+          },
+          {
+            "version": "2.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-05-03T15:04:59Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.4.0"
+          },
+          {
+            "version": "2.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-04-12T15:14:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.3.4"
+          },
+          {
+            "version": "2.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-03-29T12:23:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.3.3"
+          },
+          {
+            "version": "2.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-01T15:39:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.3.2"
+          },
+          {
+            "version": "2.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-20T14:51:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.3.1"
+          },
+          {
+            "version": "2.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-18T13:44:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.3.0"
+          },
+          {
+            "version": "2.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-21T14:50:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.2.1"
+          },
+          {
+            "version": "2.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-14T11:43:56Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.2.0"
+          },
+          {
+            "version": "2.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-08-05T03:52:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.1.4"
+          },
+          {
+            "version": "2.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-04T13:37:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.1.3"
+          },
+          {
+            "version": "2.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-03-29T21:38:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.1.2"
+          },
+          {
+            "version": "2.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-02-16T21:04:55Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.1.1"
+          },
+          {
+            "version": "2.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-02-15T14:07:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.1.0"
+          },
+          {
+            "version": "2.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-12T05:10:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.0.1"
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-05T11:53:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.0.0"
+          },
+          {
+            "version": "1.8.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-12-06T16:29:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.8.5"
+          },
+          {
+            "version": "1.8.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-10-14T15:43:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.8.4"
+          },
+          {
+            "version": "1.8.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-08T13:45:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.8.3"
+          },
+          {
+            "version": "1.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-03-02T15:26:36Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.8.2"
+          },
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-02-26T16:12:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.8.1"
+          },
+          {
+            "version": "1.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-02-25T12:18:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.8.0"
+          },
+          {
+            "version": "1.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-16T19:09:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.7.1"
+          },
+          {
+            "version": "1.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-03T14:24:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.7.0"
+          },
+          {
+            "version": "1.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-08-21T17:53:17Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.6.1"
+          },
+          {
+            "version": "1.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-08-20T17:36:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.6.0"
+          },
+          {
+            "version": "1.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-05-29T16:05:27Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.5.1"
+          },
+          {
+            "version": "1.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-05-19T12:27:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.5.0"
+          },
+          {
+            "version": "1.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-04-02T16:02:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.4.2"
+          },
+          {
+            "version": "1.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-03-19T14:45:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.4.1"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "poetry-2.4.1-py3-none-any.whl",
+            "version": "2.4.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.4.1/poetry-2.4.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 292327
+          },
+          {
+            "id": "poetry-2.4.1.tar.gz",
+            "version": "2.4.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.4.1/poetry-2.4.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3282327
+          },
+          {
+            "id": "poetry-2.4.0-py3-none-any.whl",
+            "version": "2.4.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.4.0/poetry-2.4.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 292167
+          },
+          {
+            "id": "poetry-2.4.0.tar.gz",
+            "version": "2.4.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.4.0/poetry-2.4.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3281715
+          },
+          {
+            "id": "poetry-2.3.4-py3-none-any.whl",
+            "version": "2.3.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.4/poetry-2.3.4-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 289221
+          },
+          {
+            "id": "poetry-2.3.4.tar.gz",
+            "version": "2.3.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.4/poetry-2.3.4.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3467967
+          },
+          {
+            "id": "poetry-2.3.3-py3-none-any.whl",
+            "version": "2.3.3",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.3/poetry-2.3.3-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 288745
+          },
+          {
+            "id": "poetry-2.3.3.tar.gz",
+            "version": "2.3.3",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.3/poetry-2.3.3.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3465814
+          },
+          {
+            "id": "poetry-2.3.2-py3-none-any.whl",
+            "version": "2.3.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.2/poetry-2.3.2-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 287764
+          },
+          {
+            "id": "poetry-2.3.2.tar.gz",
+            "version": "2.3.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.2/poetry-2.3.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3462586
+          },
+          {
+            "id": "poetry-2.3.1-py3-none-any.whl",
+            "version": "2.3.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.1/poetry-2.3.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 287765
+          },
+          {
+            "id": "poetry-2.3.1.tar.gz",
+            "version": "2.3.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.1/poetry-2.3.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3462579
+          },
+          {
+            "id": "poetry-2.3.0-py3-none-any.whl",
+            "version": "2.3.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.0/poetry-2.3.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 287575
+          },
+          {
+            "id": "poetry-2.3.0.tar.gz",
+            "version": "2.3.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.3.0/poetry-2.3.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3462277
+          },
+          {
+            "id": "poetry-2.2.1-py3-none-any.whl",
+            "version": "2.2.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.2.1/poetry-2.2.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 281560
+          },
+          {
+            "id": "poetry-2.2.1.tar.gz",
+            "version": "2.2.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.2.1/poetry-2.2.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3441978
+          },
+          {
+            "id": "poetry-2.2.0-py3-none-any.whl",
+            "version": "2.2.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.2.0/poetry-2.2.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 281550
+          },
+          {
+            "id": "poetry-2.2.0.tar.gz",
+            "version": "2.2.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.2.0/poetry-2.2.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3441561
+          },
+          {
+            "id": "poetry-2.1.4-py3-none-any.whl",
+            "version": "2.1.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.4/poetry-2.1.4-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 278705
+          },
+          {
+            "id": "poetry-2.1.4.tar.gz",
+            "version": "2.1.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.4/poetry-2.1.4.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3435981
+          },
+          {
+            "id": "poetry-2.1.3-py3-none-any.whl",
+            "version": "2.1.3",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.3/poetry-2.1.3-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 278572
+          },
+          {
+            "id": "poetry-2.1.3.tar.gz",
+            "version": "2.1.3",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.3/poetry-2.1.3.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3435640
+          },
+          {
+            "id": "poetry-2.1.2-py3-none-any.whl",
+            "version": "2.1.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.2/poetry-2.1.2-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 277844
+          },
+          {
+            "id": "poetry-2.1.2.tar.gz",
+            "version": "2.1.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.2/poetry-2.1.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3434250
+          },
+          {
+            "id": "poetry-2.1.1-py3-none-any.whl",
+            "version": "2.1.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.1/poetry-2.1.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 277716
+          },
+          {
+            "id": "poetry-2.1.1.tar.gz",
+            "version": "2.1.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.1/poetry-2.1.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3433288
+          },
+          {
+            "id": "poetry-2.1.0-py3-none-any.whl",
+            "version": "2.1.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.0/poetry-2.1.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 277766
+          },
+          {
+            "id": "poetry-2.1.0.tar.gz",
+            "version": "2.1.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.1.0/poetry-2.1.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3433096
+          },
+          {
+            "id": "poetry-2.0.1-py3-none-any.whl",
+            "version": "2.0.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.0.1/poetry-2.0.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 254355
+          },
+          {
+            "id": "poetry-2.0.1.tar.gz",
+            "version": "2.0.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.0.1/poetry-2.0.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2846041
+          },
+          {
+            "id": "poetry-2.0.0-py3-none-any.whl",
+            "version": "2.0.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.0.0/poetry-2.0.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 253243
+          },
+          {
+            "id": "poetry-2.0.0.tar.gz",
+            "version": "2.0.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.0.0/poetry-2.0.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2844621
+          },
+          {
+            "id": "poetry-1.8.5-py3-none-any.whl",
+            "version": "1.8.5",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.5/poetry-1.8.5-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249976
+          },
+          {
+            "id": "poetry-1.8.5.tar.gz",
+            "version": "1.8.5",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.5/poetry-1.8.5.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1519790
+          },
+          {
+            "id": "poetry-1.8.4-py3-none-any.whl",
+            "version": "1.8.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.4/poetry-1.8.4-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249920
+          },
+          {
+            "id": "poetry-1.8.4.tar.gz",
+            "version": "1.8.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.4/poetry-1.8.4.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1519105
+          },
+          {
+            "id": "poetry-1.8.3-py3-none-any.whl",
+            "version": "1.8.3",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.3/poetry-1.8.3-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249916
+          },
+          {
+            "id": "poetry-1.8.3.tar.gz",
+            "version": "1.8.3",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.3/poetry-1.8.3.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1518910
+          },
+          {
+            "id": "poetry-1.8.2-py3-none-any.whl",
+            "version": "1.8.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.2/poetry-1.8.2-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249442
+          },
+          {
+            "id": "poetry-1.8.2.tar.gz",
+            "version": "1.8.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.2/poetry-1.8.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1516966
+          },
+          {
+            "id": "poetry-1.8.1-py3-none-any.whl",
+            "version": "1.8.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.1/poetry-1.8.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 248924
+          },
+          {
+            "id": "poetry-1.8.1.tar.gz",
+            "version": "1.8.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.1/poetry-1.8.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1514978
+          },
+          {
+            "id": "poetry-1.8.0-py3-none-any.whl",
+            "version": "1.8.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.0/poetry-1.8.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 249010
+          },
+          {
+            "id": "poetry-1.8.0.tar.gz",
+            "version": "1.8.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.8.0/poetry-1.8.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1514968
+          },
+          {
+            "id": "poetry-1.7.1-py3-none-any.whl",
+            "version": "1.7.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.7.1/poetry-1.7.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 235978
+          },
+          {
+            "id": "poetry-1.7.1.tar.gz",
+            "version": "1.7.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.7.1/poetry-1.7.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1483927
+          },
+          {
+            "id": "poetry-1.7.0-py3-none-any.whl",
+            "version": "1.7.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.7.0/poetry-1.7.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 235834
+          },
+          {
+            "id": "poetry-1.7.0.tar.gz",
+            "version": "1.7.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.7.0/poetry-1.7.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1482460
+          },
+          {
+            "id": "poetry-1.6.1-py3-none-any.whl",
+            "version": "1.6.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.6.1/poetry-1.6.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 232811
+          },
+          {
+            "id": "poetry-1.6.1.tar.gz",
+            "version": "1.6.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.6.1/poetry-1.6.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1475487
+          },
+          {
+            "id": "poetry-1.6.0-py3-none-any.whl",
+            "version": "1.6.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.6.0/poetry-1.6.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 232815
+          },
+          {
+            "id": "poetry-1.6.0.tar.gz",
+            "version": "1.6.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.6.0/poetry-1.6.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1475454
+          },
+          {
+            "id": "poetry-1.5.1-py3-none-any.whl",
+            "version": "1.5.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.5.1/poetry-1.5.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 225156
+          },
+          {
+            "id": "poetry-1.5.1.tar.gz",
+            "version": "1.5.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.5.1/poetry-1.5.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1469755
+          },
+          {
+            "id": "poetry-1.5.0-py3-none-any.whl",
+            "version": "1.5.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.5.0/poetry-1.5.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 224464
+          },
+          {
+            "id": "poetry-1.5.0.tar.gz",
+            "version": "1.5.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.5.0/poetry-1.5.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1467007
+          },
+          {
+            "id": "poetry-1.4.2-py3-none-any.whl",
+            "version": "1.4.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.4.2/poetry-1.4.2-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 222695
+          },
+          {
+            "id": "poetry-1.4.2.tar.gz",
+            "version": "1.4.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.4.2/poetry-1.4.2.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1454500
+          },
+          {
+            "id": "poetry-1.4.1-py3-none-any.whl",
+            "version": "1.4.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.4.1/poetry-1.4.1-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 222346
+          },
+          {
+            "id": "poetry-1.4.1.tar.gz",
+            "version": "1.4.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/1.4.1/poetry-1.4.1.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1452495
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:11.535Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "poetry",
+              "versionArg": "--version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "poetry",
+              "args": [
+                "--version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}

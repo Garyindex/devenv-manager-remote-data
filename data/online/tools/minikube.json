@@ -1,0 +1,2632 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-05T05:42:37.102Z",
+  "status": "ok",
+  "tool": {
+    "id": "minikube",
+    "name": "minikube",
+    "categoryId": "container",
+    "aliases": [],
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "lifecycle": {
+      "status": "active",
+      "deprecated": false,
+      "replacedBy": null
+    },
+    "links": {
+      "homepage": "https://minikube.sigs.k8s.io/",
+      "download": "https://minikube.sigs.k8s.io/",
+      "releases": null,
+      "docs": null
+    },
+    "detection": {
+      "commands": [
+        {
+          "command": "minikube",
+          "versionArg": "version"
+        }
+      ]
+    },
+    "verify": {
+      "commands": [
+        {
+          "command": "minikube",
+          "args": [
+            "version"
+          ],
+          "expectedPattern": ".+"
+        }
+      ]
+    },
+    "dependencies": {
+      "dependsOn": [],
+      "optionalDependencies": []
+    },
+    "risk": {
+      "requiresAdmin": false,
+      "portable": false,
+      "systemCritical": false
+    },
+    "quality": {
+      "confidence": "high",
+      "score": 100
+    },
+    "sources": [
+      {
+        "id": "winget",
+        "manager": "winget",
+        "packageId": "Kubernetes.minikube",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 10,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.677Z",
+          "errors": []
+        },
+        "package": {
+          "name": "minikube",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
+        "links": {
+          "homepage": "https://minikube.sigs.k8s.io/",
+          "download": "https://minikube.sigs.k8s.io/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.38.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.38.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.37.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.32.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.31.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.31.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.30.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.26.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.23.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.23.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.18.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "package-manager",
+            "url": "https://minikube.sigs.k8s.io/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "install",
+              "--id",
+              "Kubernetes.minikube",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "install",
+              "--id",
+              "Kubernetes.minikube",
+              "--exact",
+              "--source",
+              "--version",
+              "{{version}}",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Kubernetes.minikube",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ],
+            "template": [
+              "winget",
+              "upgrade",
+              "--id",
+              "Kubernetes.minikube",
+              "--exact",
+              "--source",
+              "winget",
+              "--accept-package-agreements",
+              "--accept-source-agreements"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "winget",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Kubernetes.minikube",
+              "--exact",
+              "--source",
+              "winget"
+            ],
+            "template": [
+              "winget",
+              "uninstall",
+              "--id",
+              "Kubernetes.minikube",
+              "--exact",
+              "--source",
+              "winget"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 90,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.677Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "minikube",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "minikube",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "homebrew",
+        "manager": "homebrew",
+        "packageId": "minikube",
+        "platforms": [
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 20,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.700Z",
+          "errors": []
+        },
+        "package": {
+          "name": "minikube",
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Run a Kubernetes cluster locally",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
+        },
+        "links": {
+          "homepage": "https://minikube.sigs.k8s.io/",
+          "download": "https://github.com/kubernetes/minikube.git",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.38.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": null,
+            "type": "formula",
+            "url": "https://github.com/kubernetes/minikube.git",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "install",
+              "minikube"
+            ],
+            "template": [
+              "brew",
+              "install",
+              "minikube"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "upgrade",
+              "minikube"
+            ],
+            "template": [
+              "brew",
+              "upgrade",
+              "minikube"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "homebrew",
+            "platform": "macos",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "brew",
+              "uninstall",
+              "minikube"
+            ],
+            "template": [
+              "brew",
+              "uninstall",
+              "minikube"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.700Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "minikube",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "minikube",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "scoop",
+        "manager": "scoop",
+        "packageId": "minikube",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 25,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:18.892Z",
+          "errors": []
+        },
+        "package": {
+          "name": "minikube",
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
+          "license": "Apache-2.0",
+          "licenseUrl": null,
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
+        },
+        "links": {
+          "homepage": "https://minikube.sigs.k8s.io/docs/",
+          "download": "https://minikube.sigs.k8s.io/",
+          "releases": null,
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.38.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "scoop-manifest",
+            "url": "https://minikube.sigs.k8s.io/",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "install",
+              "minikube"
+            ],
+            "template": [
+              "scoop",
+              "install",
+              "minikube"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "update",
+              "minikube"
+            ],
+            "template": [
+              "scoop",
+              "update",
+              "minikube"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "scoop",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "scoop",
+              "uninstall",
+              "minikube"
+            ],
+            "template": [
+              "scoop",
+              "uninstall",
+              "minikube"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:18.892Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "minikube",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "minikube",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "choco",
+        "manager": "choco",
+        "packageId": "minikube",
+        "platforms": [
+          "windows"
+        ],
+        "official": true,
+        "priority": 30,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.072Z",
+          "errors": []
+        },
+        "package": {
+          "name": "Minikube: Run Kubernetes locally",
+          "publisher": "Google",
+          "author": "Google",
+          "description": "Minikube is a tool that makes it easy to run Kubernetes locally.",
+          "license": null,
+          "licenseUrl": "https://github.com/kubernetes/minikube/blob/master/LICENSE",
+          "tags": [
+            "kubernetes",
+            "minikube",
+            "docker",
+            "rkt",
+            "containers",
+            "devops",
+            "cli",
+            "foss"
+          ]
+        },
+        "links": {
+          "homepage": "https://kubernetes.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/Minikube/1.38.1",
+          "releases": "https://github.com/kubernetes/minikube/blob/v1.38.1/CHANGELOG.md",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.38.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.38.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.37.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.32.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.34.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.33.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.34.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.28.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
+        "downloads": [
+          {
+            "id": "default",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "chocolatey-package",
+            "url": "https://community.chocolatey.org/api/v2/package/Minikube/1.38.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "z0S424qQXXQ8PITLSdgbJU/Aw3Hb1CejzTNi3ilz81/UdpMz7nQfhU1Jafn/6FNRjQL0I9vFF5wx26Ghj/0ICg==",
+            "sizeBytes": null
+          }
+        ],
+        "commands": [
+          {
+            "action": "install",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": true,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "install",
+              "minikube",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "install",
+              "minikube",
+              "--version",
+              "{{version}}",
+              "-y"
+            ]
+          },
+          {
+            "action": "update",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "upgrade",
+              "minikube",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "upgrade",
+              "minikube",
+              "-y"
+            ]
+          },
+          {
+            "action": "uninstall",
+            "manager": "choco",
+            "platform": "windows",
+            "requiresAdmin": false,
+            "supportsVersion": false,
+            "shell": "argv",
+            "command": [
+              "choco",
+              "uninstall",
+              "minikube",
+              "-y"
+            ],
+            "template": [
+              "choco",
+              "uninstall",
+              "minikube",
+              "-y"
+            ]
+          }
+        ],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.072Z",
+          "failureCount": 0,
+          "staleAfterDays": 7
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "minikube",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "minikube",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      },
+      {
+        "id": "github",
+        "manager": "github",
+        "packageId": "kubernetes/minikube",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ],
+        "official": true,
+        "priority": 40,
+        "scan": {
+          "status": "ok",
+          "scannedAt": "2026-06-05T05:42:19.193Z",
+          "errors": []
+        },
+        "package": {
+          "name": "minikube",
+          "publisher": "kubernetes",
+          "author": "kubernetes",
+          "description": "Run Kubernetes locally",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://api.github.com/licenses/apache-2.0",
+          "tags": [
+            "cluster",
+            "cncf",
+            "containers",
+            "go",
+            "kubernetes",
+            "minikube"
+          ]
+        },
+        "links": {
+          "homepage": "https://minikube.sigs.k8s.io/",
+          "download": "https://minikube.sigs.k8s.io/",
+          "releases": "https://github.com/kubernetes/minikube/releases",
+          "docs": null
+        },
+        "versions": [
+          {
+            "version": "1.38.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-02-19T19:41:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.38.1"
+          },
+          {
+            "version": "1.38.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-01-29T07:22:18Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.38.0"
+          },
+          {
+            "version": "1.37.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-09-09T21:54:31Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.37.0"
+          },
+          {
+            "version": "1.36.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-05-22T18:26:34Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.36.0"
+          },
+          {
+            "version": "1.35.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2025-01-16T01:12:16Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.35.0"
+          },
+          {
+            "version": "1.34.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-09-09T18:48:05Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.34.0"
+          },
+          {
+            "version": "1.33.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-05-13T21:35:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.33.1"
+          },
+          {
+            "version": "1.33.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2024-04-19T23:21:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.33.0"
+          },
+          {
+            "version": "1.33.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2024-03-26T16:39:49Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.33.0-beta.0"
+          },
+          {
+            "version": "1.32.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-11-08T17:21:51Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.32.0"
+          },
+          {
+            "version": "1.32.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2023-10-28T01:28:10Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.32.0-beta.0"
+          },
+          {
+            "version": "1.31.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-08-16T22:32:44Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.31.2"
+          },
+          {
+            "version": "1.31.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-07-20T17:46:01Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.31.1"
+          },
+          {
+            "version": "1.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-07-18T17:25:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.31.0"
+          },
+          {
+            "version": "1.30.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-04-04T22:19:15Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.30.1"
+          },
+          {
+            "version": "1.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-04-03T18:11:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.30.0"
+          },
+          {
+            "version": "1.29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2023-01-27T19:37:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.29.0"
+          },
+          {
+            "version": "1.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-11-04T20:54:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.28.0"
+          },
+          {
+            "version": "1.27.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-10-08T03:28:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.27.1"
+          },
+          {
+            "version": "1.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-09-15T21:28:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.27.0"
+          },
+          {
+            "version": "1.26.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-08-02T22:16:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.26.1"
+          },
+          {
+            "version": "1.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-06-22T23:29:28Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.26.0"
+          },
+          {
+            "version": "1.26.0-beta.1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2022-05-18T00:15:33Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.26.0-beta.1"
+          },
+          {
+            "version": "1.26.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2022-05-13T21:39:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.26.0-beta.0"
+          },
+          {
+            "version": "1.25.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-02-24T19:25:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.25.2"
+          },
+          {
+            "version": "1.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-01-21T01:20:56Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.25.1"
+          },
+          {
+            "version": "1.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2022-01-20T01:16:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.25.0"
+          },
+          {
+            "version": "1.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-11-05T16:04:07Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.24.0"
+          },
+          {
+            "version": "1.24.0-beta.0",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2021-10-28T21:33:38Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.24.0-beta.0"
+          },
+          {
+            "version": "1.23.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2021-09-21T23:39:06Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes/minikube/releases/tag/v1.23.2"
+          }
+        ],
+        "downloads": [
+          {
+            "id": "kicbase-v0.0.50-amd64.tar",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-amd64.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1377231872
+          },
+          {
+            "id": "kicbase-v0.0.50-amd64.tar.sha256",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-amd64.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "kicbase-v0.0.50-arm64.tar",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-arm64.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1355939840
+          },
+          {
+            "id": "kicbase-v0.0.50-arm64.tar.sha256",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-arm64.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "kicbase-v0.0.50-ppc64le.tar",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-ppc64le.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1283636736
+          },
+          {
+            "id": "kicbase-v0.0.50-ppc64le.tar.sha256",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-ppc64le.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "kicbase-v0.0.50-s390x.tar",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-s390x.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1373895168
+          },
+          {
+            "id": "kicbase-v0.0.50-s390x.tar.sha256",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/kicbase-v0.0.50-s390x.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "licenses.tar.gz",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/licenses.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 335999
+          },
+          {
+            "id": "minikube-1.38.1-0.aarch64.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-1.38.1-0.aarch64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46203664
+          },
+          {
+            "id": "minikube-1.38.1-0.ppc64le.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-1.38.1-0.ppc64le.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46395682
+          },
+          {
+            "id": "minikube-1.38.1-0.s390x.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-1.38.1-0.s390x.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49092970
+          },
+          {
+            "id": "minikube-1.38.1-0.x86_64.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-1.38.1-0.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 48376294
+          },
+          {
+            "id": "minikube-darwin-amd64",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 141216160
+          },
+          {
+            "id": "minikube-darwin-amd64.sha256",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-darwin-amd64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-darwin-amd64.tar.gz",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-darwin-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 54116885
+          },
+          {
+            "id": "minikube-darwin-arm64",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 135488786
+          },
+          {
+            "id": "minikube-darwin-arm64.sha256",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-darwin-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-darwin-arm64.tar.gz",
+            "version": "1.38.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-darwin-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 51356172
+          },
+          {
+            "id": "minikube-installer.exe",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-installer.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50928289
+          },
+          {
+            "id": "minikube-latest.aarch64.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-latest.aarch64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46203664
+          },
+          {
+            "id": "minikube-latest.ppc64le.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-latest.ppc64le.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46395682
+          },
+          {
+            "id": "minikube-latest.s390x.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-latest.s390x.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49092970
+          },
+          {
+            "id": "minikube-latest.x86_64.rpm",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-latest.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 48376294
+          },
+          {
+            "id": "minikube-linux-amd64",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134891912
+          },
+          {
+            "id": "minikube-linux-amd64.sha256",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-amd64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-linux-amd64.tar.gz",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 48663970
+          },
+          {
+            "id": "minikube-linux-arm64",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 128832446
+          },
+          {
+            "id": "minikube-linux-arm64.sha256",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-linux-arm64.tar.gz",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46391533
+          },
+          {
+            "id": "minikube-linux-ppc64le",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-ppc64le",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134483479
+          },
+          {
+            "id": "minikube-linux-ppc64le.sha256",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-ppc64le.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-linux-s390x",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-s390x",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 140024464
+          },
+          {
+            "id": "minikube-linux-s390x.sha256",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-linux-s390x.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-windows-amd64.exe",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 136384512
+          },
+          {
+            "id": "minikube-windows-amd64.exe.sha256",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-windows-amd64.exe.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-windows-amd64.tar.gz",
+            "version": "1.38.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-windows-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50580353
+          },
+          {
+            "id": "minikube_1.38.1-0_amd64.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_1.38.1-0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 38634360
+          },
+          {
+            "id": "minikube_1.38.1-0_arm64.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_1.38.1-0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36849184
+          },
+          {
+            "id": "minikube_1.38.1-0_ppc64el.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_1.38.1-0_ppc64el.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36790756
+          },
+          {
+            "id": "minikube_1.38.1-0_s390x.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_1.38.1-0_s390x.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 38143512
+          },
+          {
+            "id": "minikube_latest_amd64.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_latest_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 38634360
+          },
+          {
+            "id": "minikube_latest_arm64.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_latest_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36849184
+          },
+          {
+            "id": "minikube_latest_ppc64el.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_latest_ppc64el.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36790756
+          },
+          {
+            "id": "minikube_latest_s390x.deb",
+            "version": "1.38.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_latest_s390x.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 38143512
+          },
+          {
+            "id": "minikube_v1.38.1_sbom.spdx",
+            "version": "1.38.1",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube_v1.38.1_sbom.spdx",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3137087
+          },
+          {
+            "id": "kicbase-v0.0.49-amd64.tar",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-amd64.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1356547072
+          },
+          {
+            "id": "kicbase-v0.0.49-amd64.tar.sha256",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-amd64.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "kicbase-v0.0.49-arm64.tar",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-arm64.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1336431616
+          },
+          {
+            "id": "kicbase-v0.0.49-arm64.tar.sha256",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-arm64.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "kicbase-v0.0.49-ppc64le.tar",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-ppc64le.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1262652416
+          },
+          {
+            "id": "kicbase-v0.0.49-ppc64le.tar.sha256",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-ppc64le.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "kicbase-v0.0.49-s390x.tar",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-s390x.tar",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1344921600
+          },
+          {
+            "id": "kicbase-v0.0.49-s390x.tar.sha256",
+            "version": "1.38.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/kicbase-v0.0.49-s390x.tar.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "licenses.tar.gz",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/licenses.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 336171
+          },
+          {
+            "id": "minikube-1.38.0-0.aarch64.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-1.38.0-0.aarch64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46164190
+          },
+          {
+            "id": "minikube-1.38.0-0.ppc64le.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-1.38.0-0.ppc64le.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46352530
+          },
+          {
+            "id": "minikube-1.38.0-0.s390x.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-1.38.0-0.s390x.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49047264
+          },
+          {
+            "id": "minikube-1.38.0-0.x86_64.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-1.38.0-0.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 48342514
+          },
+          {
+            "id": "minikube-darwin-amd64",
+            "version": "1.38.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 141064576
+          },
+          {
+            "id": "minikube-darwin-amd64.sha256",
+            "version": "1.38.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-darwin-amd64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-darwin-amd64.tar.gz",
+            "version": "1.38.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-darwin-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 54076450
+          },
+          {
+            "id": "minikube-darwin-arm64",
+            "version": "1.38.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 135327762
+          },
+          {
+            "id": "minikube-darwin-arm64.sha256",
+            "version": "1.38.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-darwin-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-darwin-arm64.tar.gz",
+            "version": "1.38.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-darwin-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 51306851
+          },
+          {
+            "id": "minikube-installer.exe",
+            "version": "1.38.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-installer.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50871807
+          },
+          {
+            "id": "minikube-latest.aarch64.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-latest.aarch64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46164190
+          },
+          {
+            "id": "minikube-latest.ppc64le.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-latest.ppc64le.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46352530
+          },
+          {
+            "id": "minikube-latest.s390x.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-latest.s390x.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49047264
+          },
+          {
+            "id": "minikube-latest.x86_64.rpm",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-latest.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 48342514
+          },
+          {
+            "id": "minikube-linux-amd64",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134748640
+          },
+          {
+            "id": "minikube-linux-amd64.sha256",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-amd64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-linux-amd64.tar.gz",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 48623256
+          },
+          {
+            "id": "minikube-linux-arm64",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 128745167
+          },
+          {
+            "id": "minikube-linux-arm64.sha256",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-linux-arm64.tar.gz",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46351973
+          },
+          {
+            "id": "minikube-linux-ppc64le",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-ppc64le",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 134256896
+          },
+          {
+            "id": "minikube-linux-ppc64le.sha256",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-ppc64le.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          },
+          {
+            "id": "minikube-linux-s390x",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-s390x",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 139870217
+          },
+          {
+            "id": "minikube-linux-s390x.sha256",
+            "version": "1.38.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.0/minikube-linux-s390x.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 65
+          }
+        ],
+        "commands": [],
+        "quality": {
+          "confidence": "high",
+          "score": 100,
+          "official": true,
+          "lastSuccessfulScanAt": "2026-06-05T05:42:19.193Z",
+          "failureCount": 0,
+          "staleAfterDays": 3
+        },
+        "dependencies": {
+          "dependsOn": [],
+          "optionalDependencies": []
+        },
+        "detection": {
+          "commands": [
+            {
+              "command": "minikube",
+              "versionArg": "version"
+            }
+          ]
+        },
+        "verify": {
+          "commands": [
+            {
+              "command": "minikube",
+              "args": [
+                "version"
+              ],
+              "expectedPattern": ".+"
+            }
+          ]
+        },
+        "risk": {
+          "requiresAdmin": false,
+          "portable": false,
+          "systemCritical": false
+        }
+      }
+    ]
+  }
+}
