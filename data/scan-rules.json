@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 1,
+  "variables": {
+    "all": {
+      "home": "{home}",
+      "temp": "{temp}"
+    },
+    "windows": {
+      "local": "{local}",
+      "roaming": "{roaming}"
+    }
+  },
+  "riskModel": {
+    "default": "caution",
+    "levels": {
+      "keep": {
+        "score": 10,
+        "deleteAllowed": false
+      },
+      "caution": {
+        "score": 50,
+        "deleteAllowed": false
+      },
+      "cleanable": {
+        "score": 80,
+        "deleteAllowed": true
+      }
+    },
+    "factors": {
+      "userConfig": -40,
+      "credentialPossible": -40,
+      "toolchainExecutable": -25,
+      "cacheRebuildable": 35,
+      "temporary": 45,
+      "packageMirror": 20,
+      "largeMutableStore": 15
+    }
+  },
+  "semanticGroups": {
+    "developerEnvironment": ["runtime", "toolchain", "packageManager", "buildTool", "ide"],
+    "cleanup": ["cache", "temp"],
+    "sensitiveConfig": ["config", "aiTool", "container"],
+    "mobile": ["mobile"]
+  },
+  "rules": [
+    {
+      "id": "codex_home",
+      "nameKey": "env.codexHome",
+      "category": "aiTool",
+      "semantics": ["agentConfig", "userConfig", "credentialPossible"],
+      "riskFactors": ["userConfig", "credentialPossible"],
+      "pathByPlatform": {"all": "{home}/.codex"},
+      "dependsOn": []
+    },
+    {
+      "id": "codex_skills",
+      "nameKey": "env.codexSkills",
+      "category": "config",
+      "semantics": ["agentSkill", "userConfig"],
+      "riskFactors": ["userConfig"],
+      "pathByPlatform": {"all": "{home}/.codex/skills"},
+      "dependsOn": ["codex_home"]
+    },
+    {
+      "id": "codex_cache",
+      "nameKey": "env.codexCache",
+      "category": "runtime",
+      "semantics": ["runtimeCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.cache/codex-runtimes"},
+      "dependsOn": ["codex_home"]
+    },
+    {
+      "id": "general_cache",
+      "nameKey": "env.generalCache",
+      "category": "cache",
+      "semantics": ["cacheRoot", "mixedOwnership"],
+      "riskFactors": ["largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.cache"},
+      "dependsOn": []
+    },
+    {
+      "id": "cargo_home",
+      "nameKey": "env.cargoHome",
+      "category": "toolchain",
+      "semantics": ["rust", "packageHome", "userConfig"],
+      "riskFactors": ["userConfig", "toolchainExecutable"],
+      "pathByPlatform": {"all": "{home}/.cargo"},
+      "dependsOn": []
+    },
+    {
+      "id": "cargo_bin",
+      "nameKey": "env.cargoBin",
+      "category": "toolchain",
+      "semantics": ["rust", "executablePath"],
+      "riskFactors": ["toolchainExecutable"],
+      "pathByPlatform": {"all": "{home}/.cargo/bin"},
+      "dependsOn": ["cargo_home"]
+    },
+    {
+      "id": "rustup_home",
+      "nameKey": "env.rustupHome",
+      "category": "toolchain",
+      "semantics": ["rust", "toolchainManager"],
+      "riskFactors": ["toolchainExecutable", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.rustup"},
+      "dependsOn": ["cargo_home"]
+    },
+    {
+      "id": "rust_toolchains",
+      "nameKey": "env.rustToolchains",
+      "category": "toolchain",
+      "semantics": ["rust", "toolchainInstall"],
+      "riskFactors": ["toolchainExecutable", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.rustup/toolchains"},
+      "dependsOn": ["rustup_home"]
+    },
+    {
+      "id": "go_path",
+      "nameKey": "env.goPath",
+      "category": "runtime",
+      "semantics": ["go", "workspace"],
+      "riskFactors": ["userConfig"],
+      "pathByPlatform": {"all": "{home}/go"},
+      "dependsOn": []
+    },
+    {
+      "id": "go_cache",
+      "nameKey": "env.goCache",
+      "category": "cache",
+      "semantics": ["go", "buildCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.cache/go-build"},
+      "dependsOn": ["go_path"]
+    },
+    {
+      "id": "maven_home",
+      "nameKey": "env.mavenHome",
+      "category": "packageManager",
+      "semantics": ["jvm", "packageMirror"],
+      "riskFactors": ["packageMirror", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.m2"},
+      "dependsOn": []
+    },
+    {
+      "id": "gradle_home",
+      "nameKey": "env.gradleHome",
+      "category": "buildTool",
+      "semantics": ["jvm", "buildTool", "cacheRoot"],
+      "riskFactors": ["packageMirror", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.gradle"},
+      "dependsOn": []
+    },
+    {
+      "id": "android_gradle_cache",
+      "nameKey": "env.androidGradle",
+      "category": "cache",
+      "semantics": ["android", "gradle", "cacheRebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.gradle/caches"},
+      "dependsOn": ["gradle_home"]
+    },
+    {
+      "id": "deno_home",
+      "nameKey": "env.denoHome",
+      "category": "runtime",
+      "semantics": ["javascript", "runtime", "packageCache"],
+      "riskFactors": ["packageMirror"],
+      "pathByPlatform": {"all": "{home}/.deno"},
+      "dependsOn": []
+    },
+    {
+      "id": "bun_home",
+      "nameKey": "env.bunHome",
+      "category": "runtime",
+      "semantics": ["javascript", "runtime", "packageCache"],
+      "riskFactors": ["packageMirror"],
+      "pathByPlatform": {"all": "{home}/.bun"},
+      "dependsOn": []
+    },
+    {
+      "id": "pnpm_store",
+      "nameKey": "env.pnpmHome",
+      "category": "packageManager",
+      "semantics": ["javascript", "packageStore", "rebuildable"],
+      "riskFactors": ["packageMirror", "cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.pnpm-store", "windows": "{local}/pnpm"},
+      "dependsOn": []
+    },
+    {
+      "id": "npm_cache",
+      "nameKey": "env.npmCache",
+      "category": "cache",
+      "semantics": ["javascript", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"windows": "{local}/npm-cache", "linux": "{home}/.npm", "macos": "{home}/.npm"},
+      "dependsOn": []
+    },
+    {
+      "id": "npm_global",
+      "nameKey": "env.npmGlobal",
+      "category": "packageManager",
+      "semantics": ["javascript", "globalExecutables"],
+      "riskFactors": ["toolchainExecutable"],
+      "pathByPlatform": {"windows": "{roaming}/npm"},
+      "dependsOn": ["npm_cache"]
+    },
+    {
+      "id": "yarn_cache",
+      "nameKey": "env.yarnCache",
+      "category": "cache",
+      "semantics": ["javascript", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.yarn/berry/cache", "windows": "{local}/Yarn/Cache"},
+      "dependsOn": []
+    },
+    {
+      "id": "pip_cache",
+      "nameKey": "env.pipCache",
+      "category": "cache",
+      "semantics": ["python", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"windows": "{local}/pip", "linux": "{home}/.cache/pip", "macos": "{home}/.cache/pip"},
+      "dependsOn": []
+    },
+    {
+      "id": "python_programs",
+      "nameKey": "env.pythonPrograms",
+      "category": "runtime",
+      "semantics": ["python", "runtimeInstall"],
+      "riskFactors": ["toolchainExecutable"],
+      "pathByPlatform": {"windows": "{local}/Programs/Python"},
+      "dependsOn": ["pip_cache"]
+    },
+    {
+      "id": "poetry_cache",
+      "nameKey": "env.poetryCache",
+      "category": "cache",
+      "semantics": ["python", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.cache/pypoetry"},
+      "dependsOn": ["pip_cache"]
+    },
+    {
+      "id": "uv_cache",
+      "nameKey": "env.uvCache",
+      "category": "cache",
+      "semantics": ["python", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"all": "{home}/.cache/uv"},
+      "dependsOn": ["pip_cache"]
+    },
+    {
+      "id": "conda_home",
+      "nameKey": "env.condaHome",
+      "category": "runtime",
+      "semantics": ["python", "environmentManager"],
+      "riskFactors": ["toolchainExecutable", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.conda"},
+      "dependsOn": []
+    },
+    {
+      "id": "docker_home",
+      "nameKey": "env.dockerHome",
+      "category": "container",
+      "semantics": ["container", "userConfig", "credentialPossible"],
+      "riskFactors": ["userConfig", "credentialPossible"],
+      "pathByPlatform": {"all": "{home}/.docker", "windows": "{local}/Docker"},
+      "dependsOn": []
+    },
+    {
+      "id": "vscode_home",
+      "nameKey": "env.vscodeHome",
+      "category": "ide",
+      "semantics": ["ide", "extensions", "userConfig"],
+      "riskFactors": ["userConfig", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.vscode", "windows": "{roaming}/Code"},
+      "dependsOn": []
+    },
+    {
+      "id": "jetbrains_cache",
+      "nameKey": "env.jetbrainsCache",
+      "category": "ide",
+      "semantics": ["ide", "cache", "index"],
+      "riskFactors": ["largeMutableStore"],
+      "pathByPlatform": {"windows": "{local}/JetBrains"},
+      "dependsOn": []
+    },
+    {
+      "id": "android_home",
+      "nameKey": "env.androidHome",
+      "category": "mobile",
+      "semantics": ["android", "userConfig"],
+      "riskFactors": ["userConfig"],
+      "pathByPlatform": {"all": "{home}/.android"},
+      "dependsOn": []
+    },
+    {
+      "id": "android_sdk",
+      "nameKey": "env.androidSdk",
+      "category": "mobile",
+      "semantics": ["android", "sdk", "toolchainInstall"],
+      "riskFactors": ["toolchainExecutable", "largeMutableStore"],
+      "pathByPlatform": {"windows": "{local}/Android/Sdk"},
+      "dependsOn": ["android_home"]
+    },
+    {
+      "id": "flutter_home",
+      "nameKey": "env.flutterHome",
+      "category": "mobile",
+      "semantics": ["flutter", "userConfig"],
+      "riskFactors": ["userConfig"],
+      "pathByPlatform": {"all": "{home}/.flutter"},
+      "dependsOn": []
+    },
+    {
+      "id": "ai_openai_local",
+      "nameKey": "env.openaiLocal",
+      "category": "aiTool",
+      "semantics": ["aiTool", "localData", "credentialPossible"],
+      "riskFactors": ["credentialPossible", "userConfig"],
+      "pathByPlatform": {"windows": "{local}/OpenAI"},
+      "dependsOn": []
+    },
+    {
+      "id": "ai_claude_home",
+      "nameKey": "env.claudeHome",
+      "category": "aiTool",
+      "semantics": ["aiTool", "localData", "credentialPossible"],
+      "riskFactors": ["credentialPossible", "userConfig"],
+      "pathByPlatform": {"all": "{home}/.claude", "windows": "{roaming}/Claude"},
+      "dependsOn": []
+    },
+    {
+      "id": "ai_claude_config",
+      "nameKey": "env.claudeRoaming",
+      "category": "aiTool",
+      "semantics": ["aiTool", "localData", "credentialPossible"],
+      "riskFactors": ["credentialPossible", "userConfig"],
+      "pathByPlatform": {"windows": "{roaming}/Claude"},
+      "dependsOn": ["ai_claude_home"]
+    },
+    {
+      "id": "ai_codeium_windsurf",
+      "nameKey": "env.codeiumHome",
+      "category": "aiTool",
+      "semantics": ["aiTool", "ideAssistant", "credentialPossible"],
+      "riskFactors": ["credentialPossible", "userConfig"],
+      "pathByPlatform": {"all": "{home}/.codeium", "windows": "{roaming}/Codeium"},
+      "dependsOn": []
+    },
+    {
+      "id": "ai_openclaw_home",
+      "nameKey": "env.openclawHome",
+      "category": "aiTool",
+      "semantics": ["aiTool", "agentConfig", "credentialPossible"],
+      "riskFactors": ["credentialPossible", "userConfig"],
+      "pathByPlatform": {"all": "{home}/.openclaw"},
+      "dependsOn": []
+    },
+    {
+      "id": "ai_qclaw_home",
+      "nameKey": "env.qclawHome",
+      "category": "aiTool",
+      "semantics": ["aiTool", "agentConfig", "credentialPossible"],
+      "riskFactors": ["credentialPossible", "userConfig"],
+      "pathByPlatform": {"all": "{home}/.qclaw"},
+      "dependsOn": []
+    },
+    {
+      "id": "config_home",
+      "nameKey": "env.configHome",
+      "category": "config",
+      "semantics": ["userConfig", "mixedOwnership"],
+      "riskFactors": ["userConfig"],
+      "pathByPlatform": {"all": "{home}/.config"},
+      "dependsOn": []
+    },
+    {
+      "id": "pnpm_local",
+      "nameKey": "env.pnpmLocal",
+      "category": "cache",
+      "semantics": ["javascript", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"windows": "{local}/pnpm-cache"},
+      "dependsOn": ["pnpm_store"]
+    },
+    {
+      "id": "yarn_local_cache",
+      "nameKey": "env.yarnLocalCache",
+      "category": "cache",
+      "semantics": ["javascript", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"windows": "{local}/Yarn"},
+      "dependsOn": ["yarn_cache"]
+    },
+    {
+      "id": "ivy_cache",
+      "nameKey": "env.ivyHome",
+      "category": "cache",
+      "semantics": ["jvm", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"all": "{home}/.ivy2/cache"},
+      "dependsOn": ["maven_home"]
+    },
+    {
+      "id": "sbt_cache",
+      "nameKey": "env.sbtHome",
+      "category": "buildTool",
+      "semantics": ["jvm", "buildTool", "packageCache"],
+      "riskFactors": ["packageMirror", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.sbt"},
+      "dependsOn": ["ivy_cache"]
+    },
+    {
+      "id": "docker_desktop",
+      "nameKey": "env.dockerDesktop",
+      "category": "container",
+      "semantics": ["container", "localData", "largeMutableStore"],
+      "riskFactors": ["largeMutableStore", "userConfig"],
+      "pathByPlatform": {"windows": "{roaming}/Docker Desktop"},
+      "dependsOn": ["docker_home"]
+    },
+    {
+      "id": "vscode_user_data",
+      "nameKey": "env.vscodeRoaming",
+      "category": "ide",
+      "semantics": ["ide", "userConfig", "extensions"],
+      "riskFactors": ["userConfig", "largeMutableStore"],
+      "pathByPlatform": {"windows": "{roaming}/Code/User"},
+      "dependsOn": ["vscode_home"]
+    },
+    {
+      "id": "visual_studio_cache",
+      "nameKey": "env.visualStudioCache",
+      "category": "ide",
+      "semantics": ["ide", "cache", "index"],
+      "riskFactors": ["largeMutableStore"],
+      "pathByPlatform": {"windows": "{local}/Microsoft/VisualStudio"},
+      "dependsOn": []
+    },
+    {
+      "id": "nuget_cache",
+      "nameKey": "env.nugetCache",
+      "category": "cache",
+      "semantics": ["dotnet", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"all": "{home}/.nuget/packages"},
+      "dependsOn": []
+    },
+    {
+      "id": "windows_winget_cache",
+      "nameKey": "env.wingetCache",
+      "category": "cache",
+      "semantics": ["windows", "packageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable"],
+      "pathByPlatform": {"windows": "{local}/Packages/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/LocalCache"},
+      "dependsOn": []
+    },
+    {
+      "id": "temp",
+      "nameKey": "env.temp",
+      "category": "temp",
+      "semantics": ["temporary", "rebuildable"],
+      "riskFactors": ["temporary"],
+      "pathByPlatform": {"windows": "{local}/Temp", "linux": "{temp}", "macos": "{temp}"},
+      "dependsOn": []
+    },
+    {
+      "id": "vscode_extensions",
+      "nameKey": "env.vscodeExtensions",
+      "category": "ide",
+      "semantics": ["ide", "extensions", "largeMutableStore"],
+      "riskFactors": ["userConfig", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.vscode/extensions"},
+      "dependsOn": ["vscode_home"]
+    },
+    {
+      "id": "node_global_modules",
+      "nameKey": "env.nodeGlobalModules",
+      "category": "packageManager",
+      "semantics": ["javascript", "globalPackages", "toolchainExecutable"],
+      "riskFactors": ["toolchainExecutable", "largeMutableStore"],
+      "pathByPlatform": {"windows": "{roaming}/npm/node_modules", "linux": "{home}/.npm-global/lib/node_modules", "macos": "{home}/.npm-global/lib/node_modules"},
+      "dependsOn": ["npm_global"]
+    },
+    {
+      "id": "go_module_cache",
+      "nameKey": "env.goModuleCache",
+      "category": "cache",
+      "semantics": ["go", "moduleCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"all": "{home}/go/pkg/mod"},
+      "dependsOn": ["go_path"]
+    },
+    {
+      "id": "cargo_registry",
+      "nameKey": "env.cargoRegistry",
+      "category": "cache",
+      "semantics": ["rust", "packageRegistry", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"all": "{home}/.cargo/registry"},
+      "dependsOn": ["cargo_home"]
+    },
+    {
+      "id": "cargo_git_cache",
+      "nameKey": "env.cargoGitCache",
+      "category": "cache",
+      "semantics": ["rust", "gitPackageCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"all": "{home}/.cargo/git"},
+      "dependsOn": ["cargo_home"]
+    },
+    {
+      "id": "rust_target_cache",
+      "nameKey": "env.rustTargetCache",
+      "category": "cache",
+      "semantics": ["rust", "buildArtifacts", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.cargo/target"},
+      "dependsOn": ["cargo_home"]
+    },
+    {
+      "id": "docker_wsl_data",
+      "nameKey": "env.dockerWslData",
+      "category": "container",
+      "semantics": ["container", "wsl", "largeMutableStore"],
+      "riskFactors": ["largeMutableStore", "userConfig"],
+      "pathByPlatform": {"windows": "{local}/Docker/wsl"},
+      "dependsOn": ["docker_home"]
+    },
+    {
+      "id": "visual_studio_packages",
+      "nameKey": "env.visualStudioPackages",
+      "category": "cache",
+      "semantics": ["windows", "visualStudio", "packageCache"],
+      "riskFactors": ["cacheRebuildable", "largeMutableStore"],
+      "pathByPlatform": {"windows": "{programData}/Microsoft/VisualStudio/Packages"},
+      "dependsOn": ["visual_studio_cache"]
+    },
+    {
+      "id": "dotnet_tools",
+      "nameKey": "env.dotnetTools",
+      "category": "toolchain",
+      "semantics": ["dotnet", "globalExecutables"],
+      "riskFactors": ["toolchainExecutable"],
+      "pathByPlatform": {"all": "{home}/.dotnet/tools"},
+      "dependsOn": ["nuget_cache"]
+    },
+    {
+      "id": "deno_cache",
+      "nameKey": "env.denoCache",
+      "category": "cache",
+      "semantics": ["javascript", "deno", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"windows": "{local}/deno", "linux": "{home}/.cache/deno", "macos": "{home}/Library/Caches/deno"},
+      "dependsOn": ["deno_home"]
+    },
+    {
+      "id": "bun_install_cache",
+      "nameKey": "env.bunInstallCache",
+      "category": "cache",
+      "semantics": ["javascript", "bun", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "packageMirror"],
+      "pathByPlatform": {"all": "{home}/.bun/install/cache"},
+      "dependsOn": ["bun_home"]
+    },
+    {
+      "id": "android_build_cache",
+      "nameKey": "env.androidBuildCache",
+      "category": "cache",
+      "semantics": ["android", "buildCache", "rebuildable"],
+      "riskFactors": ["cacheRebuildable", "largeMutableStore"],
+      "pathByPlatform": {"all": "{home}/.android/build-cache"},
+      "dependsOn": ["android_home"]
+    }
+  ]
+}

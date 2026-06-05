@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "tools": [
+    {
+      "id": "git",
+      "name": "Git",
+      "commands": [
+        { "command": "git", "versionArg": "--version" }
+      ],
+      "wingetId": "Git.Git",
+      "required": true,
+      "category": "source-control",
+      "needsAdmin": false,
+      "notes": "Required for cloning repositories, working with branches, and running common project workflows."
+    },
+    {
+      "id": "node",
+      "name": "Node.js",
+      "commands": [
+        { "command": "node", "versionArg": "--version" }
+      ],
+      "wingetId": "OpenJS.NodeJS.LTS",
+      "required": true,
+      "category": "javascript",
+      "needsAdmin": false,
+      "notes": "Required for Vite, Svelte, frontend tooling, and many package manager commands.",
+      "versionOptions": [
+        { "id": "lts", "label": "LTS 24", "wingetId": "OpenJS.NodeJS.LTS" },
+        { "id": "latest", "label": "Latest 26", "wingetId": "OpenJS.NodeJS" }
+      ]
+    },
+    {
+      "id": "npm",
+      "name": "npm",
+      "commands": [
+        { "command": "npm", "versionArg": "--version" }
+      ],
+      "wingetId": "OpenJS.NodeJS.LTS",
+      "required": true,
+      "category": "javascript",
+      "needsAdmin": false,
+      "notes": "Bundled with Node.js and used when a project contains package-lock.json."
+    },
+    {
+      "id": "pnpm",
+      "name": "pnpm",
+      "commands": [
+        { "command": "pnpm", "versionArg": "--version" }
+      ],
+      "wingetId": "pnpm.pnpm",
+      "required": false,
+      "category": "javascript",
+      "needsAdmin": false,
+      "notes": "Optional JavaScript package manager used by projects with pnpm-lock.yaml."
+    },
+    {
+      "id": "yarn",
+      "name": "Yarn",
+      "commands": [
+        { "command": "yarn", "versionArg": "--version" }
+      ],
+      "wingetId": "Yarn.Yarn",
+      "required": false,
+      "category": "javascript",
+      "needsAdmin": false,
+      "notes": "Optional JavaScript package manager used by projects with yarn.lock."
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "commands": [
+        { "command": "python", "versionArg": "--version" },
+        { "command": "py", "versionArg": "--version" },
+        { "command": "python3", "versionArg": "--version" }
+      ],
+      "wingetId": "Python.Python.3.12",
+      "required": false,
+      "category": "python",
+      "needsAdmin": false,
+      "notes": "Optional runtime for Python tooling, scripts, and project automation.",
+      "versionOptions": [
+        { "id": "py313", "label": "Python 3.13", "wingetId": "Python.Python.3.13" },
+        { "id": "py312", "label": "Python 3.12", "wingetId": "Python.Python.3.12" },
+        { "id": "py311", "label": "Python 3.11", "wingetId": "Python.Python.3.11" }
+      ]
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "commands": [
+        { "command": "uv", "versionArg": "--version" }
+      ],
+      "wingetId": "astral-sh.uv",
+      "required": false,
+      "category": "python",
+      "needsAdmin": false,
+      "notes": "Optional Python package and environment manager for modern Python projects."
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "commands": [
+        { "command": "rustc", "versionArg": "--version" }
+      ],
+      "wingetId": "Rustlang.Rustup",
+      "required": false,
+      "category": "rust",
+      "needsAdmin": false,
+      "notes": "Optional compiler required for Rust and Tauri backend development."
+    },
+    {
+      "id": "cargo",
+      "name": "Cargo",
+      "commands": [
+        { "command": "cargo", "versionArg": "--version" }
+      ],
+      "wingetId": "Rustlang.Rustup",
+      "required": false,
+      "category": "rust",
+      "needsAdmin": false,
+      "notes": "Bundled with Rust and required for building Tauri backend crates."
+    },
+    {
+      "id": "tauri_cli",
+      "name": "Tauri CLI",
+      "commands": [
+        { "command": "cargo-tauri", "versionArg": "--version" }
+      ],
+      "wingetId": "",
+      "required": false,
+      "category": "desktop",
+      "needsAdmin": false,
+      "notes": "Optional global Tauri CLI. This project can also use the local @tauri-apps/cli package."
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "commands": [
+        { "command": "docker", "versionArg": "--version" }
+      ],
+      "wingetId": "Docker.DockerDesktop",
+      "required": false,
+      "category": "container",
+      "needsAdmin": true,
+      "notes": "Optional container runtime for projects that depend on local services."
+    },
+    {
+      "id": "code",
+      "name": "Visual Studio Code",
+      "commands": [
+        { "command": "code", "versionArg": "--version" }
+      ],
+      "wingetId": "Microsoft.VisualStudioCode",
+      "required": false,
+      "category": "editor",
+      "needsAdmin": false,
+      "notes": "Optional editor command used for opening projects and files from the terminal."
+    },
+    {
+      "id": "go",
+      "name": "Go",
+      "commands": [
+        { "command": "go", "versionArg": "version" }
+      ],
+      "wingetId": "GoLang.Go",
+      "required": false,
+      "category": "go",
+      "needsAdmin": false,
+      "notes": "Optional Go toolchain for backend services, CLIs, and cross-platform tools."
+    },
+    {
+      "id": "jdk",
+      "name": "JDK 21",
+      "commands": [
+        { "command": "java", "versionArg": "--version" },
+        { "command": "javac", "versionArg": "--version" }
+      ],
+      "wingetId": "EclipseAdoptium.Temurin.21.JDK",
+      "required": false,
+      "category": "java",
+      "needsAdmin": false,
+      "notes": "Optional Java runtime and compiler for JVM, Android, and build tooling.",
+      "versionOptions": [
+        { "id": "jdk21", "label": "Temurin JDK 21", "wingetId": "EclipseAdoptium.Temurin.21.JDK" },
+        { "id": "jdk17", "label": "Temurin JDK 17", "wingetId": "EclipseAdoptium.Temurin.17.JDK" }
+      ]
+    },
+    {
+      "id": "maven",
+      "name": "Maven",
+      "commands": [
+        { "command": "mvn", "versionArg": "--version" }
+      ],
+      "wingetId": "",
+      "required": false,
+      "category": "java",
+      "needsAdmin": false,
+      "notes": "Optional JVM build tool. No verified winget package is configured, so this item is checked only."
+    },
+    {
+      "id": "gradle",
+      "name": "Gradle",
+      "commands": [
+        { "command": "gradle", "versionArg": "--version" }
+      ],
+      "wingetId": "",
+      "required": false,
+      "category": "java",
+      "needsAdmin": false,
+      "notes": "Optional JVM and Android build tool. No verified winget package is configured, so this item is checked only."
+    },
+    {
+      "id": "dotnet",
+      "name": ".NET SDK",
+      "commands": [
+        { "command": "dotnet", "versionArg": "--version" }
+      ],
+      "wingetId": "Microsoft.DotNet.SDK.9",
+      "required": false,
+      "category": "dotnet",
+      "needsAdmin": false,
+      "notes": "Optional .NET SDK for C#, F#, ASP.NET, and Windows desktop projects.",
+      "versionOptions": [
+        { "id": "dotnet9", "label": ".NET SDK 9", "wingetId": "Microsoft.DotNet.SDK.9" },
+        { "id": "dotnet8", "label": ".NET SDK 8", "wingetId": "Microsoft.DotNet.SDK.8" }
+      ]
+    },
+    {
+      "id": "deno",
+      "name": "Deno",
+      "commands": [
+        { "command": "deno", "versionArg": "--version" }
+      ],
+      "wingetId": "DenoLand.Deno",
+      "required": false,
+      "category": "javascript",
+      "needsAdmin": false,
+      "notes": "Optional JavaScript and TypeScript runtime."
+    },
+    {
+      "id": "bun",
+      "name": "Bun",
+      "commands": [
+        { "command": "bun", "versionArg": "--version" }
+      ],
+      "wingetId": "Oven-sh.Bun",
+      "required": false,
+      "category": "javascript",
+      "needsAdmin": false,
+      "notes": "Optional JavaScript runtime and package manager."
+    },
+    {
+      "id": "android_studio",
+      "name": "Android Studio",
+      "commands": [
+        { "command": "studio64", "versionArg": "--version" },
+        { "command": "studio", "versionArg": "--version" }
+      ],
+      "wingetId": "Google.AndroidStudio",
+      "required": false,
+      "category": "mobile",
+      "needsAdmin": true,
+      "notes": "Optional Android IDE and SDK management entry point."
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "commands": [
+        { "command": "flutter", "versionArg": "--version" }
+      ],
+      "wingetId": "",
+      "required": false,
+      "category": "mobile",
+      "needsAdmin": false,
+      "notes": "Optional Flutter SDK. No verified winget package is configured, so this item is checked only."
+    },
+    {
+      "id": "github_cli",
+      "name": "GitHub CLI",
+      "commands": [
+        { "command": "gh", "versionArg": "--version" }
+      ],
+      "wingetId": "GitHub.cli",
+      "required": false,
+      "category": "devops",
+      "needsAdmin": false,
+      "notes": "Optional GitHub command line tool for auth, issues, pull requests, and releases."
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell 7",
+      "commands": [
+        { "command": "pwsh", "versionArg": "--version" }
+      ],
+      "wingetId": "Microsoft.PowerShell",
+      "required": false,
+      "category": "shell",
+      "needsAdmin": false,
+      "notes": "Optional modern PowerShell runtime for cross-platform scripting."
+    },
+    {
+      "id": "kubectl",
+      "name": "kubectl",
+      "commands": [
+        { "command": "kubectl", "versionArg": "version" }
+      ],
+      "wingetId": "Kubernetes.kubectl",
+      "required": false,
+      "category": "devops",
+      "needsAdmin": false,
+      "notes": "Optional Kubernetes CLI."
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "commands": [
+        { "command": "helm", "versionArg": "version" }
+      ],
+      "wingetId": "Helm.Helm",
+      "required": false,
+      "category": "devops",
+      "needsAdmin": false,
+      "notes": "Optional Kubernetes package manager."
+    },
+    {
+      "id": "visual_studio",
+      "name": "Visual Studio Community",
+      "commands": [
+        { "command": "devenv", "versionArg": "/?" }
+      ],
+      "wingetId": "Microsoft.VisualStudio.2022.Community",
+      "required": false,
+      "category": "windows-native",
+      "needsAdmin": true,
+      "notes": "Optional Windows native IDE for C++, .NET, and desktop workloads."
+    }
+  ],
+  "suites": [
+    {
+      "id": "web",
+      "name": "Web development",
+      "description": "Core tools for JavaScript and frontend projects.",
+      "toolIds": ["git", "node", "npm", "pnpm", "yarn", "deno", "bun", "code"]
+    },
+    {
+      "id": "tauri",
+      "name": "Tauri desktop development",
+      "description": "Tools commonly needed for building Svelte and Tauri desktop apps.",
+      "toolIds": ["git", "node", "npm", "rust", "cargo", "tauri_cli", "code"]
+    },
+    {
+      "id": "python",
+      "name": "Python development",
+      "description": "Python runtime and modern package tooling.",
+      "toolIds": ["git", "python", "uv"]
+    },
+    {
+      "id": "go",
+      "name": "Go development",
+      "description": "Go toolchain for services, CLIs, and cross-platform utilities.",
+      "toolIds": ["git", "go", "code"]
+    },
+    {
+      "id": "java",
+      "name": "Java and JVM development",
+      "description": "JDK plus common JVM build tools.",
+      "toolIds": ["git", "jdk", "maven", "gradle", "code"]
+    },
+    {
+      "id": "dotnet",
+      "name": ".NET development",
+      "description": ".NET SDK and optional Windows native tooling.",
+      "toolIds": ["git", "dotnet", "powershell", "visual_studio", "code"]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile development",
+      "description": "Android and Flutter-oriented toolchain checks.",
+      "toolIds": ["git", "node", "jdk", "android_studio", "flutter"]
+    },
+    {
+      "id": "container",
+      "name": "Container development",
+      "description": "Docker and container workflow tools.",
+      "toolIds": ["git", "docker", "kubectl", "helm"]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps utilities",
+      "description": "Shell, GitHub, Kubernetes, and release workflow tools.",
+      "toolIds": ["git", "github_cli", "powershell", "kubectl", "helm", "docker"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+name: refresh online data
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-winget:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm run validate
+      - run: npm run refresh:winget
+      - run: npm run manifest
+      - run: npm run validate
+      - name: Commit refreshed data
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/online data/environment-tools.json data/scan-rules.json schemas scripts package.json README.md
+          if (git diff --cached --quiet) {
+            Write-Host "No data changes to commit."
+          } else {
+            git commit -m "Refresh online development environment data"
+            git push
+          }
+

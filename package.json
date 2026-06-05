@@ -1,0 +1,13 @@
+{
+  "name": "devenv-manager-remote-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "manifest": "node scripts/build-manifest.mjs",
+    "sync:project": "node scripts/sync-from-project.mjs",
+    "refresh:winget": "node scripts/refresh-winget-versions.mjs"
+  }
+}
+

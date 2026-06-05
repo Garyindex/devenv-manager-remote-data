@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/devenv-manager/scan-rules.schema.json",
+  "title": "DevEnv Manager scan rules",
+  "type": "object",
+  "required": ["schemaVersion", "riskModel", "semanticGroups", "rules"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "variables": { "type": "object" },
+    "riskModel": {
+      "type": "object",
+      "required": ["default", "levels", "factors"],
+      "additionalProperties": true
+    },
+    "semanticGroups": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/rule" }
+    }
+  },
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "required": ["id", "nameKey", "category", "semantics", "riskFactors", "pathByPlatform", "dependsOn"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "nameKey": { "type": "string", "minLength": 1 },
+        "category": { "type": "string", "minLength": 1 },
+        "semantics": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "riskFactors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "pathByPlatform": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string" }
+        },
+        "dependsOn": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+
