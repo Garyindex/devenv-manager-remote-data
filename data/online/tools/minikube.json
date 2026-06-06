@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "minikube",
@@ -29,7 +29,7 @@
       "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
       "source": "choco",
       "homepage": "https://kubernetes.io/",
-      "lastUpdatedAt": "2026-06-05T06:53:40.718Z"
+      "lastUpdatedAt": "2026-06-06T03:49:00.349Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,30 +97,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.228Z",
+          "scannedAt": "2026-06-06T03:48:59.969Z",
           "errors": []
         },
         "package": {
           "name": "minikube",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Kubernetes",
+          "author": "Kubernetes",
+          "description": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/kubernetes/minikube/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://minikube.sigs.k8s.io/",
-          "download": "https://minikube.sigs.k8s.io/",
-          "releases": null,
+          "homepage": "https://minikube.sigs.k8s.io/docs",
+          "download": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-installer.exe",
+          "releases": "https://github.com/kubernetes/minikube/releases/tag/v1.38.1",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
+          "long": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
           "source": "winget",
-          "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.228Z"
+          "homepage": "https://minikube.sigs.k8s.io/docs",
+          "lastUpdatedAt": "2026-06-06T03:48:59.969Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -445,11 +445,11 @@
             "version": "1.38.1",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://minikube.sigs.k8s.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://github.com/kubernetes/minikube/releases/download/v1.38.1/minikube-installer.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "4191fa56bdf25c4bb785f62bbb005a06c56e51cc9e08116149f7f816b907187d",
             "sizeBytes": null
           }
         ],
@@ -545,9 +545,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.228Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:59.969Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.563Z",
+          "scannedAt": "2026-06-06T03:49:00.183Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Run a Kubernetes cluster locally",
           "source": "homebrew",
           "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.563Z"
+          "lastUpdatedAt": "2026-06-06T03:49:00.183Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.563Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:00.183Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.701Z",
+          "scannedAt": "2026-06-06T03:49:00.245Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
           "source": "scoop",
           "homepage": "https://minikube.sigs.k8s.io/docs/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.701Z"
+          "lastUpdatedAt": "2026-06-06T03:49:00.245Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.701Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:00.245Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.718Z",
+          "scannedAt": "2026-06-06T03:49:00.349Z",
           "errors": []
         },
         "package": {
@@ -979,7 +979,7 @@
           "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
           "source": "choco",
           "homepage": "https://kubernetes.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.718Z"
+          "lastUpdatedAt": "2026-06-06T03:49:00.349Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1387,7 +1387,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.718Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:00.349Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1435,7 +1435,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.727Z",
+          "scannedAt": "2026-06-06T03:49:00.514Z",
           "errors": []
         },
         "package": {
@@ -1465,7 +1465,7 @@
           "long": "Run Kubernetes locally",
           "source": "github",
           "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.727Z"
+          "lastUpdatedAt": "2026-06-06T03:49:00.514Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.727Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:00.514Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

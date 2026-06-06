@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "pgadmin",
@@ -65,7 +65,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -79,30 +79,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:46.255Z",
+          "scannedAt": "2026-06-06T03:49:08.922Z",
           "errors": []
         },
         "package": {
           "name": "pgAdmin",
-          "publisher": null,
-          "author": null,
+          "publisher": "The pgAdmin Development Team",
+          "author": "The pgAdmin Development Team",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "PostgreSQL",
+          "licenseUrl": "https://www.pgadmin.org/licence/",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.pgadmin.org/",
-          "download": "https://www.pgadmin.org/",
-          "releases": null,
+          "homepage": "https://www.pgadmin.org/download/pgadmin-4-windows/",
+          "download": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/windows/pgadmin4-9.15-x64.exe",
+          "releases": "https://www.pgadmin.org/docs/pgadmin4/9.15/release_notes_9_15.html",
           "docs": null
         },
         "descriptions": {
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://www.pgadmin.org/",
-          "lastUpdatedAt": "2026-06-05T06:53:46.255Z"
+          "homepage": "https://www.pgadmin.org/download/pgadmin-4-windows/",
+          "lastUpdatedAt": "2026-06-06T03:49:08.922Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -378,11 +378,11 @@
             "version": "9.15",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.pgadmin.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "inno",
+            "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/windows/pgadmin4-9.15-x64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "bbefd88e62ce9d8c51588e24bf7234c3002116925519cbb94de16c287657a0ca",
             "sizeBytes": null
           }
         ],
@@ -478,9 +478,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:46.255Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:08.922Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

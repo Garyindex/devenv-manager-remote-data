@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "azure_cli",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
-      "long": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
-      "source": "scoop",
-      "homepage": "https://aka.ms/cli",
-      "lastUpdatedAt": "2026-06-05T06:53:43.945Z"
+      "short": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
+      "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
+      "source": "winget",
+      "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
+      "lastUpdatedAt": "2026-06-06T03:49:05.487Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,30 +98,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:43.678Z",
+          "scannedAt": "2026-06-06T03:49:05.487Z",
           "errors": []
         },
         "package": {
           "name": "Azure CLI",
-          "publisher": null,
+          "publisher": "Microsoft Corporation",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/Azure/azure-cli/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/cli/azure/",
-          "download": "https://learn.microsoft.com/cli/azure/",
-          "releases": null,
+          "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
+          "download": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.87.0-x64.msi",
+          "releases": "https://learn.microsoft.com/en-us/cli/azure/release-notes-azure-cli",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
+          "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/cli/azure/",
-          "lastUpdatedAt": "2026-06-05T06:53:43.678Z"
+          "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
+          "lastUpdatedAt": "2026-06-06T03:49:05.487Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -448,11 +448,11 @@
             "version": "2.87.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://learn.microsoft.com/cli/azure/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.87.0-x64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "6e159983a19aabcbe4f6380368ed5e0775ad11d93e86d4fd41bb0e314d3731d9",
             "sizeBytes": null
           }
         ],
@@ -548,9 +548,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:43.678Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:05.487Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:43.930Z",
+          "scannedAt": "2026-06-06T03:49:05.556Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Microsoft Azure CLI 2.0",
           "source": "homebrew",
           "homepage": "https://docs.microsoft.com/cli/azure/overview",
-          "lastUpdatedAt": "2026-06-05T06:53:43.930Z"
+          "lastUpdatedAt": "2026-06-06T03:49:05.556Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -730,7 +730,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:43.930Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:05.556Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -776,7 +776,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:43.945Z",
+          "scannedAt": "2026-06-06T03:49:05.628Z",
           "errors": []
         },
         "package": {
@@ -802,7 +802,7 @@
           "long": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
           "source": "scoop",
           "homepage": "https://aka.ms/cli",
-          "lastUpdatedAt": "2026-06-05T06:53:43.945Z"
+          "lastUpdatedAt": "2026-06-06T03:49:05.628Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -908,7 +908,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:43.945Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:05.628Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -954,7 +954,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:43.950Z",
+          "scannedAt": "2026-06-06T03:49:05.706Z",
           "errors": []
         },
         "package": {
@@ -982,7 +982,7 @@
           "long": "The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "choco",
           "homepage": "https://github.com/azure/azure-cli/",
-          "lastUpdatedAt": "2026-06-05T06:53:43.950Z"
+          "lastUpdatedAt": "2026-06-06T03:49:05.706Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1389,7 +1389,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:43.950Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:05.706Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

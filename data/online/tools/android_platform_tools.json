@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "android_platform_tools",
@@ -28,7 +28,7 @@
       "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
       "source": "choco",
       "homepage": "https://developer.android.com/studio/command-line/adb",
-      "lastUpdatedAt": "2026-06-05T06:53:49.617Z"
+      "lastUpdatedAt": "2026-06-06T03:49:16.008Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,22 +97,22 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:49.288Z",
+          "scannedAt": "2026-06-06T03:49:15.810Z",
           "errors": []
         },
         "package": {
           "name": "Android SDK Platform-Tools",
-          "publisher": null,
+          "publisher": "Google LLC",
           "author": null,
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Apache-2.0",
+          "licenseUrl": "https://android.googlesource.com/platform/packages/modules/adb/+/refs/heads/main/NOTICE",
           "tags": []
         },
         "links": {
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "download": "https://developer.android.com/tools/releases/platform-tools",
-          "releases": null,
+          "download": "https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip",
+          "releases": "https://developer.android.com/tools/releases/platform-tools",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-06-05T06:53:49.288Z"
+          "lastUpdatedAt": "2026-06-06T03:49:15.810Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -247,11 +247,11 @@
             "version": "37.0.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://developer.android.com/tools/releases/platform-tools",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "4fe305812db074cea32903a489d061eb4454cbc90a49e8fea677f4b7af764918",
             "sizeBytes": null
           }
         ],
@@ -347,9 +347,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:49.288Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:15.810Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -395,7 +395,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:49.432Z",
+          "scannedAt": "2026-06-06T03:49:15.841Z",
           "errors": []
         },
         "package": {
@@ -421,7 +421,7 @@
           "long": "Android SDK component",
           "source": "homebrew",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-06-05T06:53:49.432Z"
+          "lastUpdatedAt": "2026-06-06T03:49:15.841Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -528,7 +528,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:49.432Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:15.841Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -574,7 +574,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:49.554Z",
+          "scannedAt": "2026-06-06T03:49:15.905Z",
           "errors": []
         },
         "package": {
@@ -600,7 +600,7 @@
           "long": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
           "source": "scoop",
           "homepage": "https://developer.android.com/studio/releases/platform-tools",
-          "lastUpdatedAt": "2026-06-05T06:53:49.554Z"
+          "lastUpdatedAt": "2026-06-06T03:49:15.905Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -706,7 +706,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:49.554Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:15.905Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -752,7 +752,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:49.617Z",
+          "scannedAt": "2026-06-06T03:49:16.008Z",
           "errors": []
         },
         "package": {
@@ -781,7 +781,7 @@
           "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
           "source": "choco",
           "homepage": "https://developer.android.com/studio/command-line/adb",
-          "lastUpdatedAt": "2026-06-05T06:53:49.617Z"
+          "lastUpdatedAt": "2026-06-06T03:49:16.008Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1188,7 +1188,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:49.617Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:16.008Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

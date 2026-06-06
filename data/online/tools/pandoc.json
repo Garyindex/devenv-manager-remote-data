@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "pandoc",
@@ -29,7 +29,7 @@
       "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX and many others. Features - HTML formats: XHTML, HTML5, and HTML slide shows using Slidy, reveal.js, Slideous, S5, or DZSlides. - Word processor formats: Microsoft Word docx, OpenOffice/LibreOffice ODT, OpenDocument XML - Ebooks: EPUB version 2 or 3, FictionBook2 - Documentation formats: DocBook, TEI Simple, GNU TexInfo, Groff man pages, Haddock markup - Page layout formats: InDesign ICML - Outline formats: OPML - TeX formats: LaTeX, ConTeXt, LaTeX Beamer slides - PDF via LaTeX - Lightweight markup formats: Markdown (including CommonMark), reStructuredText, AsciiDoc, MediaWiki markup, DokuWiki markup, Emacs Org-Mode, Textile - Custom formats: custom writers can be written in lua. Notes - The package by default installs pandoc for current user. To install for all users use choco install pandoc --install-arguments=ALLUSERS=1 - This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer up...",
       "source": "choco",
       "homepage": "http://pandoc.org/",
-      "lastUpdatedAt": "2026-06-05T06:53:55.996Z"
+      "lastUpdatedAt": "2026-06-06T03:49:28.222Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,30 +98,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:55.776Z",
+          "scannedAt": "2026-06-06T03:49:27.980Z",
           "errors": []
         },
         "package": {
           "name": "Pandoc",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "John MacFarlane",
+          "author": "John Mac Farlane",
+          "description": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
+          "license": "GPL-2.0",
+          "licenseUrl": "https://github.com/jgm/pandoc/blob/master/COPYRIGHT",
           "tags": []
         },
         "links": {
           "homepage": "https://pandoc.org/",
-          "download": "https://pandoc.org/",
-          "releases": null,
+          "download": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-windows-x86_64.msi",
+          "releases": "https://github.com/jgm/pandoc/releases/tag/3.9.0.2",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
+          "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
           "source": "winget",
           "homepage": "https://pandoc.org/",
-          "lastUpdatedAt": "2026-06-05T06:53:55.776Z"
+          "lastUpdatedAt": "2026-06-06T03:49:27.980Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -447,11 +447,11 @@
             "version": "3.9.0.2",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://pandoc.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "a7beb0cc40ce4d17ebcd2cd9f28ce000dd1f0aa4d95e3446e9c73ca43aff8f60",
             "sizeBytes": null
           }
         ],
@@ -547,9 +547,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:55.776Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:27.980Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:55.826Z",
+          "scannedAt": "2026-06-06T03:49:28.060Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Swiss-army knife of markup format conversion",
           "source": "homebrew",
           "homepage": "https://pandoc.org/",
-          "lastUpdatedAt": "2026-06-05T06:53:55.826Z"
+          "lastUpdatedAt": "2026-06-06T03:49:28.060Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:55.826Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:28.060Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:55.883Z",
+          "scannedAt": "2026-06-06T03:49:28.116Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Universal markup converter",
           "source": "scoop",
           "homepage": "https://pandoc.org",
-          "lastUpdatedAt": "2026-06-05T06:53:55.883Z"
+          "lastUpdatedAt": "2026-06-06T03:49:28.116Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:55.883Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:28.116Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:55.996Z",
+          "scannedAt": "2026-06-06T03:49:28.222Z",
           "errors": []
         },
         "package": {
@@ -984,7 +984,7 @@
           "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX and many others. Features - HTML formats: XHTML, HTML5, and HTML slide shows using Slidy, reveal.js, Slideous, S5, or DZSlides. - Word processor formats: Microsoft Word docx, OpenOffice/LibreOffice ODT, OpenDocument XML - Ebooks: EPUB version 2 or 3, FictionBook2 - Documentation formats: DocBook, TEI Simple, GNU TexInfo, Groff man pages, Haddock markup - Page layout formats: InDesign ICML - Outline formats: OPML - TeX formats: LaTeX, ConTeXt, LaTeX Beamer slides - PDF via LaTeX - Lightweight markup formats: Markdown (including CommonMark), reStructuredText, AsciiDoc, MediaWiki markup, DokuWiki markup, Emacs Org-Mode, Textile - Custom formats: custom writers can be written in lua. Notes - The package by default installs pandoc for current user. To install for all users use choco install pandoc --install-arguments=ALLUSERS=1 - This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer up...",
           "source": "choco",
           "homepage": "http://pandoc.org/",
-          "lastUpdatedAt": "2026-06-05T06:53:55.996Z"
+          "lastUpdatedAt": "2026-06-06T03:49:28.222Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1395,7 +1395,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:55.996Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:28.222Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1443,7 +1443,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:56.004Z",
+          "scannedAt": "2026-06-06T03:49:28.407Z",
           "errors": []
         },
         "package": {
@@ -1476,7 +1476,7 @@
           "long": "Universal markup converter",
           "source": "github",
           "homepage": "https://pandoc.org",
-          "lastUpdatedAt": "2026-06-05T06:53:56.004Z"
+          "lastUpdatedAt": "2026-06-06T03:49:28.407Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2771,7 +2771,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:56.004Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:28.407Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

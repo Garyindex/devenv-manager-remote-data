@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "rust_msvc",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
+      "short": "this is the rust-lang built with msvc toolchain",
+      "long": "this is the rust-lang built with msvc toolchain",
+      "source": "winget",
       "homepage": "https://www.rust-lang.org/",
-      "lastUpdatedAt": null
+      "lastUpdatedAt": "2026-06-06T03:48:49.316Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -79,7 +79,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -93,30 +93,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:31.422Z",
+          "scannedAt": "2026-06-06T03:48:49.316Z",
           "errors": []
         },
         "package": {
           "name": "Rust MSVC",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "The Rust Project Developers",
+          "author": "The Rust Project Developers",
+          "description": "this is the rust-lang built with msvc toolchain",
+          "license": "Apache 2.0 and MIT",
+          "licenseUrl": "https://raw.githubusercontent.com/rust-lang/rust/master/COPYRIGHT",
           "tags": []
         },
         "links": {
           "homepage": "https://www.rust-lang.org/",
-          "download": "https://www.rust-lang.org/",
+          "download": "https://static.rust-lang.org/dist/rust-1.96.0-x86_64-pc-windows-msvc.msi",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "this is the rust-lang built with msvc toolchain",
+          "long": "this is the rust-lang built with msvc toolchain",
           "source": "winget",
           "homepage": "https://www.rust-lang.org/",
-          "lastUpdatedAt": "2026-06-05T06:53:31.422Z"
+          "lastUpdatedAt": "2026-06-06T03:48:49.316Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -443,11 +443,11 @@
             "version": "1.96.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.rust-lang.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://static.rust-lang.org/dist/rust-1.96.0-x86_64-pc-windows-msvc.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "5001113954be3261a48ed8efa0e613e70e425046820bab6222e6886a30a717fc",
             "sizeBytes": null
           }
         ],
@@ -543,9 +543,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:31.422Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:49.316Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "kind",
@@ -29,7 +29,7 @@
       "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
       "source": "choco",
       "homepage": "https://kind.sigs.k8s.io/",
-      "lastUpdatedAt": "2026-06-05T06:53:41.059Z"
+      "lastUpdatedAt": "2026-06-06T03:49:01.373Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,22 +97,22 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.730Z",
+          "scannedAt": "2026-06-06T03:49:00.596Z",
           "errors": []
         },
         "package": {
           "name": "kind",
-          "publisher": null,
+          "publisher": "Kubernetes SIGs",
           "author": null,
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/kubernetes-sigs/kind/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://kind.sigs.k8s.io/",
-          "releases": null,
+          "download": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
+          "releases": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.32.0",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.730Z"
+          "lastUpdatedAt": "2026-06-06T03:49:00.596Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -275,11 +275,11 @@
             "version": "0.32.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://kind.sigs.k8s.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "0bcb2d1cfedc1912d664014db716937e8a0e843e91c6807b4db2025dbc8989fa",
             "sizeBytes": null
           }
         ],
@@ -375,9 +375,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.730Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:00.596Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -424,7 +424,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.867Z",
+          "scannedAt": "2026-06-06T03:49:01.221Z",
           "errors": []
         },
         "package": {
@@ -450,7 +450,7 @@
           "long": "Run local Kubernetes cluster in Docker",
           "source": "homebrew",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:40.867Z"
+          "lastUpdatedAt": "2026-06-06T03:49:01.221Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -555,7 +555,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.867Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.221Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -601,7 +601,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:40.875Z",
+          "scannedAt": "2026-06-06T03:49:01.279Z",
           "errors": []
         },
         "package": {
@@ -627,7 +627,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
           "source": "scoop",
           "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
-          "lastUpdatedAt": "2026-06-05T06:53:40.875Z"
+          "lastUpdatedAt": "2026-06-06T03:49:01.279Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:40.875Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.279Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -777,7 +777,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:41.059Z",
+          "scannedAt": "2026-06-06T03:49:01.373Z",
           "errors": []
         },
         "package": {
@@ -807,7 +807,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
           "source": "choco",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:41.059Z"
+          "lastUpdatedAt": "2026-06-06T03:49:01.373Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1213,7 +1213,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:41.059Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.373Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1261,7 +1261,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:41.059Z",
+          "scannedAt": "2026-06-06T03:49:01.640Z",
           "errors": []
         },
         "package": {
@@ -1291,7 +1291,7 @@
           "long": "Kubernetes IN Docker - local clusters for testing Kubernetes",
           "source": "github",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:41.059Z"
+          "lastUpdatedAt": "2026-06-06T03:49:01.640Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2583,7 +2583,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:41.059Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.640Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "msys2",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
-      "homepage": "https://www.msys2.org/",
-      "lastUpdatedAt": null
+      "short": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+      "long": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+      "source": "winget",
+      "homepage": "https://github.com/msys2/msys2-installer",
+      "lastUpdatedAt": "2026-06-06T03:48:55.906Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -79,7 +79,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -93,30 +93,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:36.698Z",
+          "scannedAt": "2026-06-06T03:48:55.906Z",
           "errors": []
         },
         "package": {
           "name": "MSYS2",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "The MSYS2 Developers",
+          "author": "The MSYS2 Developers",
+          "description": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+          "license": "BSD-3-Clause",
+          "licenseUrl": "https://github.com/msys2/msys2-installer/blob/main/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.msys2.org/",
-          "download": "https://www.msys2.org/",
-          "releases": null,
+          "homepage": "https://github.com/msys2/msys2-installer",
+          "download": "https://github.com/msys2/msys2-installer/releases/download/2026-03-22/msys2-x86_64-20260322.exe",
+          "releases": "https://github.com/msys2/msys2-installer/releases/tag/2026-03-22",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+          "long": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
           "source": "winget",
-          "homepage": "https://www.msys2.org/",
-          "lastUpdatedAt": "2026-06-05T06:53:36.698Z"
+          "homepage": "https://github.com/msys2/msys2-installer",
+          "lastUpdatedAt": "2026-06-06T03:48:55.906Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -403,11 +403,11 @@
             "version": "20260322",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.msys2.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "exe",
+            "url": "https://github.com/msys2/msys2-installer/releases/download/2026-03-22/msys2-x86_64-20260322.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "8412bf15ac6311f117f8db319b3411b27535ebf947d5e389a943dec26feec7f6",
             "sizeBytes": null
           }
         ],
@@ -503,9 +503,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:36.698Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:55.906Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

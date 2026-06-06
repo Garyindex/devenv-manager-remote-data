@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "terraform",
@@ -29,7 +29,7 @@
       "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
       "source": "choco",
       "homepage": "http://www.terraform.io/",
-      "lastUpdatedAt": "2026-06-05T06:53:41.450Z"
+      "lastUpdatedAt": "2026-06-06T03:49:01.767Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,30 +97,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:41.192Z",
+          "scannedAt": "2026-06-06T03:49:01.641Z",
           "errors": []
         },
         "package": {
           "name": "Terraform",
-          "publisher": null,
-          "author": null,
+          "publisher": "HashiCorp",
+          "author": "HashiCorp, Inc.",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "BUSL-1.1",
+          "licenseUrl": "https://github.com/hashicorp/terraform/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.terraform.io/",
-          "download": "https://www.terraform.io/",
-          "releases": null,
+          "homepage": "https://github.com/hashicorp/terraform",
+          "download": "https://releases.hashicorp.com/terraform/1.15.5/terraform_1.15.5_windows_amd64.zip",
+          "releases": "https://github.com/hashicorp/terraform/releases/tag/v1.15.5",
           "docs": null
         },
         "descriptions": {
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://www.terraform.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:41.192Z"
+          "homepage": "https://github.com/hashicorp/terraform",
+          "lastUpdatedAt": "2026-06-06T03:49:01.641Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -446,11 +446,11 @@
             "version": "1.15.5",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.terraform.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://releases.hashicorp.com/terraform/1.15.5/terraform_1.15.5_windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "2f652dd854af7b7fbb51301afc55b5ef1d3f6e287be7889d4cc3818df891cd38",
             "sizeBytes": null
           }
         ],
@@ -546,9 +546,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:41.192Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.641Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:41.284Z",
+          "scannedAt": "2026-06-06T03:49:01.670Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Create and manage infrastructure as code using simple declarative configuration files.",
           "source": "scoop",
           "homepage": "https://www.terraform.io",
-          "lastUpdatedAt": "2026-06-05T06:53:41.284Z"
+          "lastUpdatedAt": "2026-06-06T03:49:01.670Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:41.284Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.670Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:41.450Z",
+          "scannedAt": "2026-06-06T03:49:01.767Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
           "source": "choco",
           "homepage": "http://www.terraform.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:41.450Z"
+          "lastUpdatedAt": "2026-06-06T03:49:01.767Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1200,7 +1200,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:41.450Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:01.767Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1248,7 +1248,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:41.502Z",
+          "scannedAt": "2026-06-06T03:49:02.244Z",
           "errors": []
         },
         "package": {
@@ -1277,7 +1277,7 @@
           "long": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
           "source": "github",
           "homepage": "http://developer.hashicorp.com/terraform",
-          "lastUpdatedAt": "2026-06-05T06:53:41.502Z"
+          "lastUpdatedAt": "2026-06-06T03:49:02.244Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1607,7 +1607,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:41.502Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:02.244Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

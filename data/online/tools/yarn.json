@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "yarn",
@@ -29,7 +29,7 @@
       "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
       "source": "choco",
       "homepage": "https://classic.yarnpkg.com/",
-      "lastUpdatedAt": "2026-06-05T06:53:27.114Z"
+      "lastUpdatedAt": "2026-06-06T03:48:44.642Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,30 +97,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:26.924Z",
+          "scannedAt": "2026-06-06T03:48:44.174Z",
           "errors": []
         },
         "package": {
           "name": "Yarn",
-          "publisher": null,
+          "publisher": "Yarn Contributors",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
+          "license": "Distributed under BSD License · Code of Conduct",
+          "licenseUrl": "https://github.com/yarnpkg/yarn/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://yarnpkg.com/",
-          "download": "https://yarnpkg.com/",
-          "releases": null,
+          "download": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi",
+          "releases": "https://github.com/yarnpkg/yarn/releases/tag/v1.22.22",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
+          "long": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
           "source": "winget",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-06-05T06:53:26.924Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.174Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -206,11 +206,11 @@
             "version": "1.22.22",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://yarnpkg.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "ebc1f46891b8d507efad2dd18eec2c4e617457f93e13bc701483cb047a053fa1",
             "sizeBytes": null
           }
         ],
@@ -306,9 +306,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:26.924Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.174Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -355,7 +355,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:27.071Z",
+          "scannedAt": "2026-06-06T03:48:44.569Z",
           "errors": []
         },
         "package": {
@@ -381,7 +381,7 @@
           "long": "JavaScript package manager",
           "source": "homebrew",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-06-05T06:53:27.071Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.569Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -487,7 +487,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:27.071Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.569Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -533,7 +533,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:27.091Z",
+          "scannedAt": "2026-06-06T03:48:44.638Z",
           "errors": []
         },
         "package": {
@@ -559,7 +559,7 @@
           "long": "Node.js dependency manager",
           "source": "scoop",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-06-05T06:53:27.091Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.638Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -664,7 +664,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:27.091Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.638Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -710,7 +710,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:27.114Z",
+          "scannedAt": "2026-06-06T03:48:44.642Z",
           "errors": []
         },
         "package": {
@@ -742,7 +742,7 @@
           "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
           "source": "choco",
           "homepage": "https://classic.yarnpkg.com/",
-          "lastUpdatedAt": "2026-06-05T06:53:27.114Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.642Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1151,7 +1151,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:27.114Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.642Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

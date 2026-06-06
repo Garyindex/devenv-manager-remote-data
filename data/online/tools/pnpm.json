@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "pnpm",
@@ -29,7 +29,7 @@
       "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
       "source": "choco",
       "homepage": "https://pnpm.io/",
-      "lastUpdatedAt": "2026-06-05T06:53:26.924Z"
+      "lastUpdatedAt": "2026-06-06T03:48:44.113Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,30 +96,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:26.669Z",
+          "scannedAt": "2026-06-06T03:48:43.939Z",
           "errors": []
         },
         "package": {
           "name": "pnpm",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "pnpm",
+          "author": "pnpm contributors",
+          "description": "Fast, disk space efficient package manager.",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/pnpm/pnpm/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://pnpm.io/",
-          "download": "https://pnpm.io/",
-          "releases": null,
+          "download": "https://github.com/pnpm/pnpm/releases/download/v11.3.0/pnpm-win32-x64.zip",
+          "releases": "https://github.com/pnpm/pnpm/releases/tag/v11.3.0",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Fast, disk space efficient package manager.",
+          "long": "Fast, disk space efficient package manager.",
           "source": "winget",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:26.669Z"
+          "lastUpdatedAt": "2026-06-06T03:48:43.939Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -444,11 +444,11 @@
             "version": "11.3.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://pnpm.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://github.com/pnpm/pnpm/releases/download/v11.3.0/pnpm-win32-x64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "1264caa0dcad06849cfd04b939f19a64c5349d5dd49f14dadbc06703c6e42653",
             "sizeBytes": null
           }
         ],
@@ -544,9 +544,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:26.669Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:43.939Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:26.723Z",
+          "scannedAt": "2026-06-06T03:48:44.010Z",
           "errors": []
         },
         "package": {
@@ -610,7 +610,7 @@
         },
         "links": {
           "homepage": "https://pnpm.io/",
-          "download": "https://registry.npmjs.org/pnpm/-/pnpm-11.5.1.tgz",
+          "download": "https://registry.npmjs.org/pnpm/-/pnpm-11.5.2.tgz",
           "releases": null,
           "docs": null
         },
@@ -619,7 +619,7 @@
           "long": "Fast, disk space efficient package manager",
           "source": "homebrew",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:26.723Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.010Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -640,7 +640,7 @@
         },
         "versions": [
           {
-            "version": "11.5.1",
+            "version": "11.5.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -673,14 +673,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "11.5.1",
+            "version": "11.5.2",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://registry.npmjs.org/pnpm/-/pnpm-11.5.1.tgz",
+            "url": "https://registry.npmjs.org/pnpm/-/pnpm-11.5.2.tgz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "de7a5c1bed8301805183a87997fe1720cd5caefb57be838535a4bfc4a1596959",
+            "sha256": "749dc54fbd3dcde9e414baae32c177ca84770d3fcd69c8816d579adc3e6a2c99",
             "sizeBytes": null
           }
         ],
@@ -744,7 +744,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:26.723Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.010Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -790,7 +790,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:26.734Z",
+          "scannedAt": "2026-06-06T03:48:44.072Z",
           "errors": []
         },
         "package": {
@@ -816,7 +816,7 @@
           "long": "A fast and disk space efficient Node package manager.",
           "source": "scoop",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:26.734Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.072Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -836,7 +836,7 @@
         },
         "versions": [
           {
-            "version": "11.5.1",
+            "version": "11.5.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -849,7 +849,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "11.5.1",
+            "version": "11.5.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -920,7 +920,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:26.734Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.072Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -966,7 +966,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:26.924Z",
+          "scannedAt": "2026-06-06T03:48:44.113Z",
           "errors": []
         },
         "package": {
@@ -993,7 +993,7 @@
           "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
           "source": "choco",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:26.924Z"
+          "lastUpdatedAt": "2026-06-06T03:48:44.113Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1396,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:26.924Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:44.113Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

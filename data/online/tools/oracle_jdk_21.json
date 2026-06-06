@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "oracle_jdk_21",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
+      "short": "The JDK is a development environment for building applications and components using the Java programming language.",
+      "long": "The JDK is a development environment for building applications and components using the Java programming language.",
+      "source": "winget",
       "homepage": "https://www.oracle.com/java/",
-      "lastUpdatedAt": null
+      "lastUpdatedAt": "2026-06-06T03:48:52.852Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -79,7 +79,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -93,30 +93,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:34.108Z",
+          "scannedAt": "2026-06-06T03:48:52.852Z",
           "errors": []
         },
         "package": {
           "name": "Oracle JDK 21",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Oracle Corporation",
+          "author": "Oracle America, Inc.",
+          "description": "The JDK is a development environment for building applications and components using the Java programming language.",
+          "license": "Oracle No-Fee Terms and Conditions",
+          "licenseUrl": "https://www.oracle.com/downloads/licenses/no-fee-license.html",
           "tags": []
         },
         "links": {
           "homepage": "https://www.oracle.com/java/",
-          "download": "https://www.oracle.com/java/",
+          "download": "https://download.oracle.com/java/21/archive/jdk-21.0.11_windows-x64_bin.msi",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "The JDK is a development environment for building applications and components using the Java programming language.",
+          "long": "The JDK is a development environment for building applications and components using the Java programming language.",
           "source": "winget",
           "homepage": "https://www.oracle.com/java/",
-          "lastUpdatedAt": "2026-06-05T06:53:34.108Z"
+          "lastUpdatedAt": "2026-06-06T03:48:52.852Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -223,11 +223,11 @@
             "version": "21.0.11.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.oracle.com/java/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://download.oracle.com/java/21/archive/jdk-21.0.11_windows-x64_bin.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "be8b61113b0961b7cd0f78fb09734897f31f1598d3dca472e21c4872693de0c1",
             "sizeBytes": null
           }
         ],
@@ -323,9 +323,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:34.108Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:52.852Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

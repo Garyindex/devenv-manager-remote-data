@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "sysmon",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
-      "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
-      "lastUpdatedAt": null
+      "short": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
+      "long": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
+      "source": "winget",
+      "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
+      "lastUpdatedAt": "2026-06-06T03:49:19.263Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -65,7 +65,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -79,30 +79,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:51.128Z",
+          "scannedAt": "2026-06-06T03:49:19.263Z",
           "errors": []
         },
         "package": {
           "name": "Sysmon",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Sysinternals",
+          "author": "Mark Russinovich & Thomas Garnier",
+          "description": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
+          "license": "Proprietary",
+          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
-          "download": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
+          "download": "https://download.sysinternals.com/files/Sysmon.zip",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
+          "long": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
-          "lastUpdatedAt": "2026-06-05T06:53:51.128Z"
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
+          "lastUpdatedAt": "2026-06-06T03:49:19.263Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,11 +138,11 @@
             "version": "15.20",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://download.sysinternals.com/files/Sysmon.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "9c7bba9c88023abd33188cff4d3562278e0b7ddccb7935b6a6530887f9e054b1",
             "sizeBytes": null
           }
         ],
@@ -238,9 +238,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:51.128Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:19.263Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

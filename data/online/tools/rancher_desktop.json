@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "rancher_desktop",
@@ -65,7 +65,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -79,22 +79,22 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:38.630Z",
+          "scannedAt": "2026-06-06T03:48:57.888Z",
           "errors": []
         },
         "package": {
           "name": "Rancher Desktop",
-          "publisher": null,
-          "author": null,
+          "publisher": "SUSE",
+          "author": "rancher-sandbox",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/rancher-sandbox/rancher-desktop/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://rancherdesktop.io/",
-          "download": "https://rancherdesktop.io/",
-          "releases": null,
+          "download": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.3/Rancher.Desktop.Setup.1.22.3.msi",
+          "releases": "https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v1.22.3",
           "docs": null
         },
         "descriptions": {
@@ -102,7 +102,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://rancherdesktop.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:38.630Z"
+          "lastUpdatedAt": "2026-06-06T03:48:57.888Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -428,11 +428,11 @@
             "version": "1.22.3",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://rancherdesktop.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.3/Rancher.Desktop.Setup.1.22.3.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "d0918c3e99d2918d84d739e47df12964b2d75ccdf3f9da769b6d4b47ede187cf",
             "sizeBytes": null
           }
         ],
@@ -528,9 +528,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:38.630Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:48:57.888Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

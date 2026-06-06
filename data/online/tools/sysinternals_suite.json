@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "sysinternals_suite",
@@ -65,7 +65,7 @@
     },
     "quality": {
       "confidence": "high",
-      "score": 90
+      "score": 100
     },
     "sources": [
       {
@@ -79,21 +79,21 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:51.082Z",
+          "scannedAt": "2026-06-06T03:49:18.325Z",
           "errors": []
         },
         "package": {
           "name": "Sysinternals Suite",
-          "publisher": null,
-          "author": null,
+          "publisher": "Sysinternals",
+          "author": "Sysinternals Team",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Proprietary",
+          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/sysinternals/",
-          "download": "https://learn.microsoft.com/sysinternals/",
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+          "download": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
           "releases": null,
           "docs": null
         },
@@ -101,8 +101,8 @@
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/sysinternals/",
-          "lastUpdatedAt": "2026-06-05T06:53:51.082Z"
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+          "lastUpdatedAt": "2026-06-06T03:49:18.325Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,11 +138,11 @@
             "version": "2026-05-07",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://learn.microsoft.com/sysinternals/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "e45ce0b3fd6d0457e253f132ef086c6c4715def16e59433de2cb5dfe2c16a76f",
             "sizeBytes": null
           }
         ],
@@ -238,9 +238,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:51.082Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:18.325Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

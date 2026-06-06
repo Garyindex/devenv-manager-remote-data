@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-05T06:53:58.082Z",
+  "generatedAt": "2026-06-06T03:49:33.118Z",
   "status": "ok",
   "tool": {
     "id": "redis",
@@ -29,7 +29,7 @@
       "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
       "source": "choco",
       "homepage": "https://github.com/microsoftarchive/redis",
-      "lastUpdatedAt": "2026-06-05T06:53:47.397Z"
+      "lastUpdatedAt": "2026-06-06T03:49:11.435Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,30 +98,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:47.260Z",
+          "scannedAt": "2026-06-06T03:49:11.137Z",
           "errors": []
         },
         "package": {
           "name": "Redis",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "MSOpenTech",
+          "author": "Salvatore Sanfilippo",
+          "description": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
+          "license": "BSD-3-Clause",
+          "licenseUrl": "https://github.com/microsoftarchive/redis/blob/3.0/license.txt",
           "tags": []
         },
         "links": {
-          "homepage": "https://redis.io/",
-          "download": "https://redis.io/",
-          "releases": null,
+          "homepage": "https://github.com/microsoftarchive/redis",
+          "download": "https://github.com/microsoftarchive/redis/releases/download/win-3.0.504/Redis-x64-3.0.504.msi",
+          "releases": "https://github.com/microsoftarchive/redis/releases/tag/win-3.0.504",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
+          "long": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
           "source": "winget",
-          "homepage": "https://redis.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:47.260Z"
+          "homepage": "https://github.com/microsoftarchive/redis",
+          "lastUpdatedAt": "2026-06-06T03:49:11.137Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -158,11 +158,11 @@
             "version": "3.0.504",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://redis.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/microsoftarchive/redis/releases/download/win-3.0.504/Redis-x64-3.0.504.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "1270bacbfafd7fa60af905abbe01d419beb6fbb20aa9350170ce7b93777f98d0",
             "sizeBytes": null
           }
         ],
@@ -258,9 +258,9 @@
         ],
         "quality": {
           "confidence": "high",
-          "score": 90,
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:47.260Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:11.137Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -307,7 +307,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:47.288Z",
+          "scannedAt": "2026-06-06T03:49:11.275Z",
           "errors": []
         },
         "package": {
@@ -333,7 +333,7 @@
           "long": "Persistent key-value database, with built-in net interface",
           "source": "homebrew",
           "homepage": "https://redis.io/",
-          "lastUpdatedAt": "2026-06-05T06:53:47.288Z"
+          "lastUpdatedAt": "2026-06-06T03:49:11.275Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -460,7 +460,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:47.288Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:11.275Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -506,7 +506,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:47.288Z",
+          "scannedAt": "2026-06-06T03:49:11.333Z",
           "errors": []
         },
         "package": {
@@ -532,7 +532,7 @@
           "long": "In-memory data structure store, used as a database, cache and message broker",
           "source": "scoop",
           "homepage": "https://redis.io",
-          "lastUpdatedAt": "2026-06-05T06:53:47.288Z"
+          "lastUpdatedAt": "2026-06-06T03:49:11.333Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -638,7 +638,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:47.288Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:11.333Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -684,7 +684,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-05T06:53:47.397Z",
+          "scannedAt": "2026-06-06T03:49:11.435Z",
           "errors": []
         },
         "package": {
@@ -711,7 +711,7 @@
           "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
           "source": "choco",
           "homepage": "https://github.com/microsoftarchive/redis",
-          "lastUpdatedAt": "2026-06-05T06:53:47.397Z"
+          "lastUpdatedAt": "2026-06-06T03:49:11.435Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -966,7 +966,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-05T06:53:47.397Z",
+          "lastSuccessfulScanAt": "2026-06-06T03:49:11.435Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
