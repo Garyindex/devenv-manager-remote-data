@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T16:24:15.717Z",
+  "generatedAt": "2026-06-08T20:33:52.699Z",
   "status": "ok",
   "tool": {
     "id": "hugo",
@@ -29,7 +29,7 @@
       "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://gohugo.io/",
-      "lastUpdatedAt": "2026-06-08T16:24:12.326Z"
+      "lastUpdatedAt": "2026-06-08T20:33:50.048Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T16:24:11.466Z",
+          "scannedAt": "2026-06-08T20:33:49.575Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-06-08T16:24:11.466Z"
+          "lastUpdatedAt": "2026-06-08T20:33:49.575Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T16:24:11.466Z",
+          "lastSuccessfulScanAt": "2026-06-08T20:33:49.575Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T16:24:12.203Z",
+          "scannedAt": "2026-06-08T20:33:49.989Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Configurable static site generator",
           "source": "homebrew",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-06-08T16:24:12.203Z"
+          "lastUpdatedAt": "2026-06-08T20:33:49.989Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T16:24:12.203Z",
+          "lastSuccessfulScanAt": "2026-06-08T20:33:49.989Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T16:24:12.237Z",
+          "scannedAt": "2026-06-08T20:33:50.028Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Speedy and flexible static site generator (without Sass/SCSS support)",
           "source": "scoop",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-06-08T16:24:12.237Z"
+          "lastUpdatedAt": "2026-06-08T20:33:50.028Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -821,7 +821,7 @@
         },
         "versions": [
           {
-            "version": "0.162.1",
+            "version": "0.163.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -834,7 +834,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.162.1",
+            "version": "0.163.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T16:24:12.237Z",
+          "lastSuccessfulScanAt": "2026-06-08T20:33:50.028Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T16:24:12.326Z",
+          "scannedAt": "2026-06-08T20:33:50.048Z",
           "errors": []
         },
         "package": {
@@ -970,8 +970,8 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.162.1",
-          "releases": "## What's Changed\n\n* modules/npm: Fix false stale warning after npm pack 59f35cd9 @jmooring #14959 \n* Revert \"tpl/collections: Make dict return nil when no values are provided\" c2709750 @bep #14958 \n* tpl/time: Fix locale-specific month abbreviations ea8b48af @jmooring #14948",
+          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.163.0",
+          "releases": "The main topic in this release is improvements to the AVIF image handling that we introduced in `v0.162.0`. See [the docs]( https://gohugo.io/configuration/imaging/#avif) for details, but:\n\n* We have turned down the default `quality` for AVIF to 60. Turns out, JPEG/WebP with quality 75 is comparable to AVIF with quality 60. You can now also set quality per image format in your project config (and also per image processed if needed).\n* We have added a `hint` to the AVIF with the same values as for `WEBP`. For `lossy` compression, the photo/picture hints (and the default) encodes with YUV420 chroma subsampling instead of YUV444, keeping 444 for text/icon/drawing. This greatly reduces the memory needed to encode these images.\n\n## Improvements\n\n* resources/jsconfig: Remove deprecated baseUrl setting ff2903a9 @bep #14991 #14996 \n* all: Adjust tests for deprecated link and image render hook settings ca68936d @jmooring \n* all: Run go fix ./... 781fabf4 @bep \n* pagesfromdata: Use relative path for content adapter template metrics 1d018ef8 @anupamojha-eng #14999 \n* ci: Re-add macos-latest to the test matrix 121bc6ce @bep \n* images: Deprecate Imaging.Compression and move it down to webp and avif configs cf18b827 @bep #14998 \n* Only support the latest Go version 98ad9b3c @bep #14997 \n* page: Add IsBranch and deprecate IsNode b89e7fe6 @bep #11574 \n* images: Force cache invalidation for AVIF target e8fefc83 @bep #14990 \n* images: Add a per-format AVIF hint setting a043d3ec @bep #14992 \n* images: Make AVIF chroma subsampling content-aware via the hint 341f575d @bep #14987 \n* Cap AVIF lossy quality at 99 248241b6 @bep #14981 \n* config: Deprecate the glogal imaging quality setting 4e47d95d @bep #14979 \n* images: Make 60 the default quality for AVIF 03b4b542 @bep #14979 \n* livereload: Disconnect from websocket server on pageswap 79be0532 @bep #14983 \n* tpl/tplimpl/embedded: Prevent leading newline in sitemap template 0f440460 @bep #14977 \n* images: Recover from memory alloc errors in WASM image processors 4e17421e @bep #14985 \n* images: Add quality setting per image format b01ecd4c @bep #14957 \n* misc: Remove duplicate words in comments 45c00b7c @jmooring #14936 #14950 #14965 \n* Add some PNG to AVIF golden test cases 28d882ab @bep \n\n## Dependency Updates\n\n* build(deps): bump github.com/bits-and-blooms/bitset 0d29fc81 @dependabot[bot] \n* build(deps): bump github.com/tetratelabs/wazero bb57404f @dependabot[bot] \n* build(deps): bump github.com/rogpeppe/go-internal from 1.14.1 to 1.15.0 7d1b1fb3 @dependabot[bot] \n* build(deps): bump github.com/getkin/kin-openapi from 0.138.0 to 0.139.0 77a11470 @dependabot[bot]",
           "docs": null
         },
         "descriptions": {
@@ -979,7 +979,7 @@
           "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-06-08T16:24:12.326Z"
+          "lastUpdatedAt": "2026-06-08T20:33:50.048Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1002,9 +1002,19 @@
         },
         "versions": [
           {
-            "version": "0.162.1",
+            "version": "0.163.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.162.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1290,29 +1300,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.151.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.162.1",
+            "version": "0.163.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.162.1",
+            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.163.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "LjZx8qqAAdt7cIr3rrVRsaPZ1iiBdekEx+Vqphdx2p0izTCE+TRT3qQedPNCZna2zwyjKWP+PmbPubVKNUCq4Q==",
+            "sha256": "wEKuPmXK/+iHNOJsXfI+b9K6qpNijetGT7Hp4W4POhPY7MgEXTzsrfo91cc4vmtL4Ssu01KUFW55QevP83ioJA==",
             "sizeBytes": null
           }
         ],
@@ -1384,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T16:24:12.326Z",
+          "lastSuccessfulScanAt": "2026-06-08T20:33:50.048Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1432,7 +1432,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T16:24:12.471Z",
+          "scannedAt": "2026-06-08T20:33:50.144Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1463,7 @@
           "long": "The world’s fastest framework for building websites.",
           "source": "github",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-06-08T16:24:12.471Z"
+          "lastUpdatedAt": "2026-06-08T20:33:50.144Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T16:24:12.471Z",
+          "lastSuccessfulScanAt": "2026-06-08T20:33:50.144Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
