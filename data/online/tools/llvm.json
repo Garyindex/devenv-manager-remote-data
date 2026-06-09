@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T20:33:52.699Z",
-  "status": "ok",
+  "generatedAt": "2026-06-09T04:35:19.272Z",
+  "status": "partial",
   "tool": {
     "id": "llvm",
     "name": "LLVM",
@@ -29,7 +29,7 @@
       "long": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. This package installs all Windows tools, which includes but is not limited to: - clang - clang-cl - clangd - clang++ - clang-format - lld - llvm-objdump",
       "source": "choco",
       "homepage": "http://llvm.org/",
-      "lastUpdatedAt": "2026-06-08T20:33:19.470Z"
+      "lastUpdatedAt": "2026-06-09T04:34:51.330Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T20:33:19.393Z",
+          "scannedAt": "2026-06-09T04:34:51.004Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://llvm.org/",
-          "download": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.6/LLVM-22.1.6-win64.exe",
-          "releases": "https://github.com/llvm/llvm-project/releases/tag/llvmorg-22.1.6",
+          "download": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.7/LLVM-22.1.7-win64.exe",
+          "releases": "https://discourse.llvm.org/t/llvm-22-1-7-released/90961",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "A collection of modular and reusable compiler and toolchain technologies.",
           "source": "winget",
           "homepage": "https://llvm.org/",
-          "lastUpdatedAt": "2026-06-08T20:33:19.393Z"
+          "lastUpdatedAt": "2026-06-09T04:34:51.004Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,19 @@
         },
         "versions": [
           {
-            "version": "22.1.6",
+            "version": "22.1.7",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.6",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -430,29 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "19.1.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "22.1.6",
+            "version": "22.1.7",
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.6/LLVM-22.1.6-win64.exe",
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.7/LLVM-22.1.7-win64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e2d9a6855ff22c0acf3adc87ff1e1ad9705b8b6fc5bab2542aefc3315fc24cf7",
+            "sha256": "e091fcf965ce589c83c0f7c5356b2fcf3e658a8ec990bfcf79cce4389a0d1eb3",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T20:33:19.393Z",
+          "lastSuccessfulScanAt": "2026-06-09T04:34:51.004Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T20:33:19.423Z",
+          "scannedAt": "2026-06-09T04:34:51.194Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Next-gen compiler infrastructure",
           "source": "homebrew",
           "homepage": "https://llvm.org/",
-          "lastUpdatedAt": "2026-06-08T20:33:19.423Z"
+          "lastUpdatedAt": "2026-06-09T04:34:51.194Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -820,7 +820,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T20:33:19.423Z",
+          "lastSuccessfulScanAt": "2026-06-09T04:34:51.194Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -866,7 +866,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T20:33:19.433Z",
+          "scannedAt": "2026-06-09T04:34:51.237Z",
           "errors": []
         },
         "package": {
@@ -892,7 +892,7 @@
           "long": "Collection of modular and reusable compiler and toolchain technologies.",
           "source": "scoop",
           "homepage": "https://www.llvm.org",
-          "lastUpdatedAt": "2026-06-08T20:33:19.433Z"
+          "lastUpdatedAt": "2026-06-09T04:34:51.237Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -998,7 +998,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T20:33:19.433Z",
+          "lastSuccessfulScanAt": "2026-06-09T04:34:51.237Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1044,7 +1044,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-08T20:33:19.470Z",
+          "scannedAt": "2026-06-09T04:34:51.330Z",
           "errors": []
         },
         "package": {
@@ -1074,7 +1074,7 @@
           "long": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. This package installs all Windows tools, which includes but is not limited to: - clang - clang-cl - clangd - clang++ - clang-format - lld - llvm-objdump",
           "source": "choco",
           "homepage": "http://llvm.org/",
-          "lastUpdatedAt": "2026-06-08T20:33:19.470Z"
+          "lastUpdatedAt": "2026-06-09T04:34:51.330Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1481,7 +1481,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T20:33:19.470Z",
+          "lastSuccessfulScanAt": "2026-06-09T04:34:51.330Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

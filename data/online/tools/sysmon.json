@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T20:33:52.699Z",
-  "status": "ok",
+  "generatedAt": "2026-06-09T04:35:19.272Z",
+  "status": "partial",
   "tool": {
     "id": "sysmon",
     "name": "Sysmon",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-      "long": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-      "source": "winget",
-      "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-      "lastUpdatedAt": "2026-06-08T20:33:39.563Z"
+      "short": null,
+      "long": null,
+      "source": "catalog",
+      "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,31 +78,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-06-08T20:33:39.563Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-06-09T04:35:07.486Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Sysmon",
-          "publisher": "Sysinternals",
-          "author": "Mark Russinovich & Thomas Garnier",
-          "description": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-          "license": "Proprietary",
-          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-          "download": "https://download.sysinternals.com/files/Sysmon.zip",
+          "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+          "download": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-          "long": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-          "lastUpdatedAt": "2026-06-08T20:33:39.563Z"
+          "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+          "lastUpdatedAt": "2026-06-09T04:35:07.486Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,11 +140,11 @@
             "version": "15.20",
             "platform": "windows",
             "architecture": null,
-            "type": "portable (zip)",
-            "url": "https://download.sysinternals.com/files/Sysmon.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "9c7bba9c88023abd33188cff4d3562278e0b7ddccb7935b6a6530887f9e054b1",
+            "type": "package-manager",
+            "url": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -237,11 +239,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-08T20:33:39.563Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
