@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T04:35:19.272Z",
-  "status": "partial",
+  "generatedAt": "2026-06-09T10:03:21.537Z",
+  "status": "ok",
   "tool": {
     "id": "anaconda",
     "name": "Anaconda",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
-      "homepage": "https://www.anaconda.com/",
-      "lastUpdatedAt": null
+      "short": "Python/R distribution for data science and machine learning.",
+      "long": "Python/R distribution for data science and machine learning.",
+      "source": "winget",
+      "homepage": "https://www.anaconda.com/download",
+      "lastUpdatedAt": "2026-06-09T10:02:53.801Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "medium",
-      "score": 65
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -92,33 +92,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-06-09T04:34:46.489Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-06-09T10:02:53.801Z",
+          "errors": []
         },
         "package": {
           "name": "Anaconda",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Anaconda, Inc.",
+          "author": "Anaconda, Inc.",
+          "description": "Python/R distribution for data science and machine learning.",
+          "license": "Proprietary",
+          "licenseUrl": "https://legal.anaconda.com/policies/en/?name=end-user-license-agreement",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.anaconda.com/",
-          "download": "https://www.anaconda.com/",
-          "releases": null,
+          "homepage": "https://www.anaconda.com/download",
+          "download": "https://repo.anaconda.com/archive/Anaconda3-2025.12-2-Windows-x86_64.exe",
+          "releases": "https://www.anaconda.com/docs/getting-started/anaconda/release-notes#anaconda-2025-12-2",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Python/R distribution for data science and machine learning.",
+          "long": "Python/R distribution for data science and machine learning.",
           "source": "winget",
-          "homepage": "https://www.anaconda.com/",
-          "lastUpdatedAt": "2026-06-09T04:34:46.489Z"
+          "homepage": "https://www.anaconda.com/download",
+          "lastUpdatedAt": "2026-06-09T10:02:53.801Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -295,11 +293,11 @@
             "version": "2025.12-2",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.anaconda.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://repo.anaconda.com/archive/Anaconda3-2025.12-2-Windows-x86_64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "2e0b8e40ec7600793f116250f5c1775c866833bac32d184ad575ecc0d360a88f",
             "sizeBytes": null
           }
         ],
@@ -394,11 +392,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-06-09T10:02:53.801Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
