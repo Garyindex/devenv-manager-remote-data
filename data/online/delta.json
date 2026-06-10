@@ -1,109 +1,125 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T10:33:14.532Z",
-  "fromGeneratedAt": "2026-06-10T04:48:46.304Z",
-  "toGeneratedAt": "2026-06-10T10:33:14.532Z",
+  "generatedAt": "2026-06-10T16:09:33.645Z",
+  "fromGeneratedAt": "2026-06-10T10:33:14.532Z",
+  "toGeneratedAt": "2026-06-10T16:09:33.645Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
-    "qualityChanges": 1
+    "versionChanges": 13,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "vscode",
+      "oh_my_posh",
+      "pnpm",
       "deno",
-      "aws_cli",
+      "cmake",
+      "terraform",
       "postman",
-      "vercel_cli",
-      "supabase_cli",
-      "unity_hub"
+      "quarto",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.123.0",
-        "to": "1.123.1"
-      },
-      {
-        "toolId": "vscode",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.123.1",
-        "to": "1.123.2"
+        "from": "1.123.2",
+        "to": "1.124.0"
       },
       {
         "toolId": "vscode",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.123.1",
-        "to": "1.123.2"
+        "from": "1.123.2",
+        "to": "1.124.0"
       },
       {
         "toolId": "vscode",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.123.0",
-        "to": "1.123.2"
+        "from": "1.123.2",
+        "to": "1.124.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.15.0",
+        "to": "29.15.1"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.15.0",
+        "to": "29.15.1"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.5.2",
+        "to": "11.5.3"
       },
       {
         "toolId": "deno",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.8.2",
+        "from": null,
+        "to": "2.8.2"
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.3.3",
         "to": null
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.35.0",
-        "to": "2.35.1"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.14.2",
-        "to": "12.14.3"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "terraform",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "1.15.5",
+        "to": "1.15.6"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.16.0-alpha20260603",
+        "to": "1.15.6"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.14.2",
         "to": "12.14.3"
       },
       {
-        "toolId": "vercel_cli",
+        "toolId": "quarto",
         "sourceId": "github",
         "manager": "github",
-        "from": "ercel@54.10.3",
-        "to": "ercel@54.11.1"
+        "from": "1.10.9",
+        "to": "1.10.10"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.106.0-beta.18",
-        "to": "2.106.0-beta.20"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.18.0",
-        "to": "3.18.2"
+        "from": "2.106.0-beta.20",
+        "to": "2.106.0-beta.21"
       }
     ],
     "qualityChanges": [
@@ -111,8 +127,15 @@
         "toolId": "deno",
         "sourceId": "choco",
         "manager": "choco",
+        "from": 40,
+        "to": 100
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
         "from": 100,
-        "to": 40
+        "to": 55
       }
     ]
   }
