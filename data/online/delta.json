@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T10:59:48.860Z",
-  "fromGeneratedAt": "2026-06-11T04:59:27.108Z",
-  "toGeneratedAt": "2026-06-11T10:59:48.860Z",
+  "generatedAt": "2026-06-11T16:23:28.071Z",
+  "fromGeneratedAt": "2026-06-11T10:59:48.860Z",
+  "toGeneratedAt": "2026-06-11T16:23:28.071Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 6,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,7 +18,9 @@
     "removedTools": [],
     "changedTools": [
       "neovim",
-      "postman",
+      "oh_my_posh",
+      "deno",
+      "vercel_cli",
       "supabase_cli"
     ],
     "addedSources": [],
@@ -26,38 +28,45 @@
     "versionChanges": [
       {
         "toolId": "neovim",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.12.3",
-        "to": "nightly"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.14.3",
-        "to": "12.14.4"
-      },
-      {
-        "toolId": "postman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.14.3",
-        "to": "12.14.4"
+        "from": "0.12.2",
+        "to": "0.12.3"
       },
       {
-        "toolId": "postman",
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.14.0",
+        "to": "29.15.1"
+      },
+      {
+        "toolId": "deno",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.8.2",
+        "to": "2.8.3"
+      },
+      {
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@54.11.1",
+        "to": "ercel@54.12.0"
+      },
+      {
+        "toolId": "supabase_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.14.3",
-        "to": "12.14.4"
+        "from": "2.105.0",
+        "to": "2.106.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.106.0-beta.22",
-        "to": "2.106.0-beta.27"
+        "from": "2.106.0-beta.27",
+        "to": "2.107.0-beta.1"
       }
     ],
     "qualityChanges": []
