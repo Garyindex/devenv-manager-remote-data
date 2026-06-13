@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T20:26:27.238Z",
+  "generatedAt": "2026-06-13T04:51:36.355Z",
   "status": "ok",
   "tool": {
     "id": "podman",
@@ -29,7 +29,7 @@
       "long": "Podman: A tool for managing OCI containers and pods.",
       "source": "github",
       "homepage": "https://podman.io",
-      "lastUpdatedAt": "2026-06-12T20:26:01.088Z"
+      "lastUpdatedAt": "2026-06-13T04:51:02.256Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:00.864Z",
+          "scannedAt": "2026-06-13T04:51:02.067Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://podman.io/",
-          "download": "https://github.com/podman-container-tools/podman/releases/download/v5.8.2/podman-installer-windows-amd64.exe",
-          "releases": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.2",
+          "download": "https://github.com/podman-container-tools/podman/releases/download/v5.8.3/podman-installer-windows-amd64.exe",
+          "releases": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-06-12T20:26:00.864Z"
+          "lastUpdatedAt": "2026-06-13T04:51:02.067Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "5.8.2",
+            "version": "5.8.3",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "5.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "5.8.2",
+            "version": "5.8.3",
             "platform": "windows",
             "architecture": null,
             "type": "burn",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.2/podman-installer-windows-amd64.exe",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.3/podman-installer-windows-amd64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "a836d0ee038db37fe6686a1d8b894bffb3b8288b857d3248b2f91597567611ad",
+            "sha256": "b87fe41c112062b3f598574ed4aa3fb82aaa4bc150b29eb4915400e59b0b6b55",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:00.864Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:02.067Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -595,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:00.937Z",
+          "scannedAt": "2026-06-13T04:51:02.188Z",
           "errors": []
         },
         "package": {
@@ -612,7 +612,7 @@
         },
         "links": {
           "homepage": "https://podman.io/",
-          "download": "https://github.com/containers/podman/archive/refs/tags/v5.8.2.tar.gz",
+          "download": "https://github.com/containers/podman/archive/refs/tags/v5.8.3.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -621,7 +621,7 @@
           "long": "Tool for managing OCI containers and pods",
           "source": "homebrew",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-06-12T20:26:00.937Z"
+          "lastUpdatedAt": "2026-06-13T04:51:02.188Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -643,7 +643,7 @@
         },
         "versions": [
           {
-            "version": "5.8.2",
+            "version": "5.8.3",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -656,14 +656,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "5.8.2",
+            "version": "5.8.3",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/containers/podman/archive/refs/tags/v5.8.2.tar.gz",
+            "url": "https://github.com/containers/podman/archive/refs/tags/v5.8.3.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b20ea65afc5a58ea1cea019bd51a5d84eb9042d25d3eb82c55010c8815732d84",
+            "sha256": "c54a2ec4b4fb5577288992aaa78684397ec3552fb2d1234d910ec50097d05c0f",
             "sizeBytes": null
           }
         ],
@@ -727,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:00.937Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:02.188Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:00.993Z",
+          "scannedAt": "2026-06-13T04:51:02.204Z",
           "errors": []
         },
         "package": {
@@ -799,7 +799,7 @@
           "long": "A tool for managing OCI containers and pods.",
           "source": "scoop",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-06-12T20:26:00.993Z"
+          "lastUpdatedAt": "2026-06-13T04:51:02.204Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -820,7 +820,7 @@
         },
         "versions": [
           {
-            "version": "5.8.2",
+            "version": "5.8.3",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -833,7 +833,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "5.8.2",
+            "version": "5.8.3",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -904,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:00.993Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:02.204Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -952,7 +952,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:01.088Z",
+          "scannedAt": "2026-06-13T04:51:02.256Z",
           "errors": []
         },
         "package": {
@@ -981,7 +981,7 @@
           "long": "Podman: A tool for managing OCI containers and pods.",
           "source": "github",
           "homepage": "https://podman.io",
-          "lastUpdatedAt": "2026-06-12T20:26:01.088Z"
+          "lastUpdatedAt": "2026-06-13T04:51:02.256Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2273,7 +2273,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:01.088Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:02.256Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

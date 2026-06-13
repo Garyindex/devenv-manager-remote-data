@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T20:26:27.238Z",
+  "generatedAt": "2026-06-13T04:51:36.355Z",
   "status": "ok",
   "tool": {
     "id": "opentofu",
@@ -29,7 +29,7 @@
       "long": "OpenTofu is an OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions. The key features of OpenTofu are: - Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. - Execution Plans : OpenTofu has a \"planning\" step where it generates an execution plan. The execution plan shows what OpenTofu will do when you call apply. This lets you avoid any surprises when OpenTofu manipulates infrastructure. - Resource Graph : OpenTofu builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, OpenTofu builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. - Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exac...",
       "source": "choco",
       "homepage": "https://opentofu.org/",
-      "lastUpdatedAt": "2026-06-12T20:26:04.853Z"
+      "lastUpdatedAt": "2026-06-13T04:51:06.077Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -99,7 +99,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:04.437Z",
+          "scannedAt": "2026-06-13T04:51:05.810Z",
           "errors": []
         },
         "package": {
@@ -113,8 +113,8 @@
         },
         "links": {
           "homepage": "https://github.com/opentofu/opentofu",
-          "download": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_windows_amd64.zip",
-          "releases": "https://github.com/opentofu/opentofu/releases/tag/v1.12.1",
+          "download": "https://github.com/opentofu/opentofu/releases/download/v1.12.2/tofu_1.12.2_windows_amd64.zip",
+          "releases": "https://github.com/opentofu/opentofu/releases/tag/v1.12.2",
           "docs": null
         },
         "descriptions": {
@@ -122,7 +122,7 @@
           "long": "OpenTofu lets you declaratively manage your cloud infrastructure.",
           "source": "winget",
           "homepage": "https://github.com/opentofu/opentofu",
-          "lastUpdatedAt": "2026-06-12T20:26:04.437Z"
+          "lastUpdatedAt": "2026-06-13T04:51:05.810Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -143,9 +143,19 @@
         },
         "versions": [
           {
-            "version": "1.12.1",
+            "version": "1.12.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -431,29 +441,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.7.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.12.1",
+            "version": "1.12.2",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.1/tofu_1.12.1_windows_amd64.zip",
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.2/tofu_1.12.2_windows_amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "a6d8fd924753ab6d3d4f0143d29214a31679a5fca8bfb59f5edde263b3a1c3fc",
+            "sha256": "9c9c33b6a92b8d8c4850dd562df199767c825bff4c08f0955a59bad0c5d5ffaf",
             "sizeBytes": null
           }
         ],
@@ -551,7 +551,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:04.437Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:05.810Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -598,7 +598,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:04.720Z",
+          "scannedAt": "2026-06-13T04:51:06.013Z",
           "errors": []
         },
         "package": {
@@ -624,7 +624,7 @@
           "long": "Drop-in replacement for Terraform. Infrastructure as Code Tool",
           "source": "homebrew",
           "homepage": "https://opentofu.org/",
-          "lastUpdatedAt": "2026-06-12T20:26:04.720Z"
+          "lastUpdatedAt": "2026-06-13T04:51:06.013Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:04.720Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:06.013Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -777,7 +777,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:04.768Z",
+          "scannedAt": "2026-06-13T04:51:06.031Z",
           "errors": []
         },
         "package": {
@@ -803,7 +803,7 @@
           "long": "An OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions.",
           "source": "scoop",
           "homepage": "https://opentofu.org/",
-          "lastUpdatedAt": "2026-06-12T20:26:04.768Z"
+          "lastUpdatedAt": "2026-06-13T04:51:06.031Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -909,7 +909,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:04.768Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:06.031Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -955,7 +955,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:04.853Z",
+          "scannedAt": "2026-06-13T04:51:06.077Z",
           "errors": []
         },
         "package": {
@@ -981,7 +981,7 @@
           "long": "OpenTofu is an OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions. The key features of OpenTofu are: - Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. - Execution Plans : OpenTofu has a \"planning\" step where it generates an execution plan. The execution plan shows what OpenTofu will do when you call apply. This lets you avoid any surprises when OpenTofu manipulates infrastructure. - Resource Graph : OpenTofu builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, OpenTofu builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. - Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exac...",
           "source": "choco",
           "homepage": "https://opentofu.org/",
-          "lastUpdatedAt": "2026-06-12T20:26:04.853Z"
+          "lastUpdatedAt": "2026-06-13T04:51:06.077Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1385,7 +1385,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:04.853Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:06.077Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1433,7 +1433,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-12T20:26:04.869Z",
+          "scannedAt": "2026-06-13T04:51:06.207Z",
           "errors": []
         },
         "package": {
@@ -1456,7 +1456,7 @@
           "long": "OpenTofu lets you declaratively manage your cloud infrastructure.",
           "source": "github",
           "homepage": "https://opentofu.org",
-          "lastUpdatedAt": "2026-06-12T20:26:04.869Z"
+          "lastUpdatedAt": "2026-06-13T04:51:06.207Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2744,7 +2744,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-12T20:26:04.869Z",
+          "lastSuccessfulScanAt": "2026-06-13T04:51:06.207Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
