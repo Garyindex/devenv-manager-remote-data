@@ -1,166 +1,156 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T20:55:43.433Z",
-  "fromGeneratedAt": "2026-09-09T16:37:49.101Z",
-  "toGeneratedAt": "2026-09-09T20:55:43.433Z",
+  "generatedAt": "2026-09-10T04:41:36.619Z",
+  "fromGeneratedAt": "2026-09-09T20:55:43.433Z",
+  "toGeneratedAt": "2026-09-10T04:41:36.619Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 12,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 17,
-    "qualityChanges": 1
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "powershell",
-      "npm",
+      "vscode",
+      "vim",
+      "node_current",
       "uv",
-      "terraform",
+      "helm",
+      "ansible",
       "aws_cli",
       "cloudflared",
-      "postman",
-      "beekeeper_studio",
-      "flutter",
-      "netlify_cli",
-      "prisma_cli",
-      "hugo"
+      "heroku_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "powershell",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "7.6.5",
-        "to": "7.6.6"
-      },
-      {
-        "toolId": "npm",
+        "toolId": "vscode",
         "sourceId": "winget",
         "manager": "winget",
-        "from": null,
-        "to": "24.19.0"
+        "from": "1.136.2",
+        "to": "1.137.0"
       },
       {
-        "toolId": "uv",
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.1054",
+        "to": "9.2.1061"
+      },
+      {
+        "toolId": "node_current",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "0.12.11",
-        "to": "0.12.12"
+        "from": "26.8.1",
+        "to": "26.8.2"
       },
       {
-        "toolId": "uv",
+        "toolId": "node_current",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.12.10",
-        "to": "0.12.11"
+        "from": "26.8.1",
+        "to": "24.21.0"
       },
       {
         "toolId": "uv",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "0.12.11",
         "to": "0.12.12"
       },
       {
-        "toolId": "terraform",
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.12.11",
+        "to": "0.12.12"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.2.4",
+        "to": "4.3.0"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.2.4",
+        "to": "4.3.0"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.2.4",
+        "to": "4.3.0"
+      },
+      {
+        "toolId": "helm",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.16.2",
-        "to": "1.17.0-beta1"
+        "from": "4.3.0-rc.1",
+        "to": "4.3.0"
+      },
+      {
+        "toolId": "ansible",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "14.3.1",
+        "to": "14.4.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.36.41",
         "to": "2.36.42"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.40",
-        "to": "2.36.41"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.8.3",
-        "to": "2026.9.0"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2026.8.3",
-        "to": "2026.9.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.27.1",
-        "to": "12.27.2"
-      },
-      {
-        "toolId": "beekeeper_studio",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "6.0.5",
-        "to": "6.1.0-beta.0"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.47.2",
-        "to": "3.47.3"
-      },
-      {
-        "toolId": "flutter",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.47.2",
-        "to": "3.47.3"
+        "from": "2.36.41",
+        "to": "2.36.42"
       },
       {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.5.1",
-        "to": "27.5.2"
-      },
-      {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "8.0.0-rc.8",
-        "to": "8.0.0-rc.9"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.165.0",
-        "to": "0.166.0"
-      }
-    ],
-    "qualityChanges": [
-      {
-        "toolId": "npm",
+        "toolId": "cloudflared",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 65,
-        "to": 100
+        "from": "2026.8.3",
+        "to": "2026.9.0"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2026.8.3",
+        "to": "2026.9.0"
+      },
+      {
+        "toolId": "heroku_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.53.0.0",
+        "to": "11.0.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.118.0-beta.9",
+        "to": "2.118.0-beta.15"
       }
-    ]
+    ],
+    "qualityChanges": []
   }
 }
