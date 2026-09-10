@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T04:41:36.619Z",
-  "status": "ok",
+  "generatedAt": "2026-09-10T11:19:10.912Z",
+  "status": "partial",
   "tool": {
     "id": "ruby",
     "name": "RubyInstaller with Devkit",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Ruby - A dynamic, open source programming language focusing on simplicity and productivity.",
-      "long": "Ruby is a dynamic, open source programming language focusing on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. This package provides a self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more.",
-      "source": "choco",
-      "homepage": "https://www.ruby-lang.org/",
-      "lastUpdatedAt": "2026-09-10T04:41:30.753Z"
+      "short": "The RubyInstaller project provides a self-contained Windows-based installer that includes a Ruby-language execution environment and a baseline set of required RubyGems and extensions, integrated with a MSYS2 installation.",
+      "long": "The RubyInstaller project provides a self-contained Windows-based installer that includes a Ruby-language execution environment and a baseline set of required RubyGems and extensions, integrated with a MSYS2 installation.",
+      "source": "winget",
+      "homepage": "https://rubyinstaller.org/downloads/",
+      "lastUpdatedAt": "2026-09-10T11:18:26.827Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.660Z",
+          "scannedAt": "2026-09-10T11:18:26.827Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "The RubyInstaller project provides a self-contained Windows-based installer that includes a Ruby-language execution environment and a baseline set of required RubyGems and extensions, integrated with a MSYS2 installation.",
           "source": "winget",
           "homepage": "https://rubyinstaller.org/downloads/",
-          "lastUpdatedAt": "2026-09-10T04:41:30.660Z"
+          "lastUpdatedAt": "2026-09-10T11:18:26.827Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -338,7 +338,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.660Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:18:26.827Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -385,7 +385,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.724Z",
+          "scannedAt": "2026-09-10T11:18:28.209Z",
           "errors": []
         },
         "package": {
@@ -411,7 +411,7 @@
           "long": "Powerful, clean, object-oriented scripting language",
           "source": "homebrew",
           "homepage": "https://www.ruby-lang.org/",
-          "lastUpdatedAt": "2026-09-10T04:41:30.724Z"
+          "lastUpdatedAt": "2026-09-10T11:18:28.209Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -557,7 +557,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.724Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:18:28.209Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -603,7 +603,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.741Z",
+          "scannedAt": "2026-09-10T11:18:28.266Z",
           "errors": []
         },
         "package": {
@@ -629,7 +629,7 @@
           "long": "A dynamic programming language with a focus on simplicity and productivity.",
           "source": "scoop",
           "homepage": "https://rubyinstaller.org",
-          "lastUpdatedAt": "2026-09-10T04:41:30.741Z"
+          "lastUpdatedAt": "2026-09-10T11:18:28.266Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -734,7 +734,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.741Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:18:28.266Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -779,39 +779,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.753Z",
-          "errors": []
-        },
-        "package": {
-          "name": "Ruby",
-          "publisher": "Yukihiro Matsumoto",
-          "author": "Yukihiro Matsumoto",
-          "description": "Ruby - A dynamic, open source programming language focusing on simplicity and productivity.",
-          "license": null,
-          "licenseUrl": "https://www.ruby-lang.org/en/about/license.txt",
-          "tags": [
-            "ruby",
-            "language",
-            "programming",
-            "development",
-            "dynamic",
-            "cross-platform",
-            "foss"
+          "status": "partial",
+          "scannedAt": "2026-09-10T11:18:28.597Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
           ]
         },
+        "package": {
+          "name": "RubyInstaller with Devkit",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
         "links": {
-          "homepage": "https://www.ruby-lang.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/ruby/3.3.12.1",
-          "releases": "https://www.ruby-lang.org/en/downloads/releases/",
+          "homepage": "https://rubyinstaller.org/",
+          "download": "https://rubyinstaller.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Ruby - A dynamic, open source programming language focusing on simplicity and productivity.",
-          "long": "Ruby is a dynamic, open source programming language focusing on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. This package provides a self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more.",
+          "short": null,
+          "long": null,
           "source": "choco",
-          "homepage": "https://www.ruby-lang.org/",
-          "lastUpdatedAt": "2026-09-10T04:41:30.753Z"
+          "homepage": "https://rubyinstaller.org/",
+          "lastUpdatedAt": "2026-09-10T11:18:28.597Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -820,13 +815,7 @@
           "keywords": [
             "ruby",
             "RubyInstaller with Devkit",
-            "choco",
-            "language",
-            "programming",
-            "development",
-            "dynamic",
-            "cross-platform",
-            "foss"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -835,319 +824,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "3.3.12.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.8.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.7.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.3.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.6.3.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.7.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.3.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.3.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.3.55100",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.3.48400",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.3.54500",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.7.35800",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.6.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.10.100",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "3.3.12.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/ruby/3.3.12.1",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "opVrm4QTrjBer6oPle+sgv19R6wHSuzS1biEuvj5TlRvQPgeHj+ovGkjn8zCFaNEQCXM9cd+M9EFe/1j2qWfjA==",
+            "url": "https://rubyinstaller.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1216,11 +904,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.753Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T04:41:36.619Z",
-  "status": "ok",
+  "generatedAt": "2026-09-10T11:19:10.912Z",
+  "status": "partial",
   "tool": {
     "id": "composer",
     "name": "Composer",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Windows installer for the Composer PHP Dependency Manager",
-      "long": "Composer Setup downloads and installs the latest version of Composer, the PHP Dependency Manager, so you can use it easily from the command line. Features Composer is installed globally - just type composer from any location to use it. Works from cmd, Git Bash, Msys2 and Cygwin terminals. Modifies php.ini, if required.",
-      "source": "choco",
+      "short": "Dependency Manager for PHP",
+      "long": "Dependency Manager for PHP",
+      "source": "homebrew",
       "homepage": "https://getcomposer.org/",
-      "lastUpdatedAt": "2026-09-10T04:41:30.577Z"
+      "lastUpdatedAt": "2026-09-10T11:18:26.566Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.540Z",
+          "scannedAt": "2026-09-10T11:18:26.566Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "Dependency Manager for PHP",
           "source": "homebrew",
           "homepage": "https://getcomposer.org/",
-          "lastUpdatedAt": "2026-09-10T04:41:30.540Z"
+          "lastUpdatedAt": "2026-09-10T11:18:26.566Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -229,7 +229,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.540Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:18:26.566Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -275,7 +275,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.561Z",
+          "scannedAt": "2026-09-10T11:18:26.644Z",
           "errors": []
         },
         "package": {
@@ -301,7 +301,7 @@
           "long": "Dependency Manager for PHP",
           "source": "scoop",
           "homepage": "https://getcomposer.org/",
-          "lastUpdatedAt": "2026-09-10T04:41:30.561Z"
+          "lastUpdatedAt": "2026-09-10T11:18:26.644Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -406,7 +406,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.561Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:18:26.644Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -451,38 +451,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-10T04:41:30.577Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-10T11:18:26.761Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
-          "name": "Composer Setup",
-          "publisher": "Nils Adermann, Jordi Boggiano and community contributors",
-          "author": "Nils Adermann, Jordi Boggiano and community contributors",
-          "description": "Windows installer for the Composer PHP Dependency Manager",
+          "name": "Composer",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/composer/composer/blob/master/LICENSE",
-          "tags": [
-            "composer",
-            "php",
-            "composer-setup",
-            "admin",
-            "foss",
-            "cli"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://getcomposer.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/composer/6.3.0",
-          "releases": "https://github.com/composer/windows-setup/releases/tag/v6.3.0",
+          "download": "https://getcomposer.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Windows installer for the Composer PHP Dependency Manager",
-          "long": "Composer Setup downloads and installs the latest version of Composer, the PHP Dependency Manager, so you can use it easily from the command line. Features Composer is installed globally - just type composer from any location to use it. Works from cmd, Git Bash, Msys2 and Cygwin terminals. Modifies php.ini, if required.",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://getcomposer.org/",
-          "lastUpdatedAt": "2026-09-10T04:41:30.577Z"
+          "lastUpdatedAt": "2026-09-10T11:18:26.761Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -491,12 +487,7 @@
           "keywords": [
             "composer",
             "Composer",
-            "choco",
-            "php",
-            "composer-setup",
-            "admin",
-            "foss",
-            "cli"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -505,159 +496,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "6.3.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "6.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "5.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "5.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "6.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "5.1.0.20200713",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.1.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "6.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.1.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "6.3.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/composer/6.3.0",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "wika/oROv1l8PfbZjDXwc01A2hHWF5MSk2YRmBItVUz1ikC38vv0wBsYpu0TKzFqcXLxnPMctR8u30UPfXViPw==",
+            "url": "https://getcomposer.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -726,11 +576,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:30.577Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

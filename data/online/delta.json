@@ -1,156 +1,641 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T04:41:36.619Z",
-  "fromGeneratedAt": "2026-09-09T20:55:43.433Z",
-  "toGeneratedAt": "2026-09-10T04:41:36.619Z",
-  "status": "ok",
+  "generatedAt": "2026-09-10T11:19:10.912Z",
+  "fromGeneratedAt": "2026-09-10T04:41:36.619Z",
+  "toGeneratedAt": "2026-09-10T11:19:10.912Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 39,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 17,
-    "qualityChanges": 0
+    "versionChanges": 44,
+    "qualityChanges": 38
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "vscode",
+      "vscodium",
       "vim",
+      "powershell",
+      "node_lts",
       "node_current",
       "uv",
-      "helm",
-      "ansible",
+      "terraform",
       "aws_cli",
       "cloudflared",
-      "heroku_cli",
-      "supabase_cli"
+      "postman",
+      "mysql",
+      "mariadb",
+      "redis",
+      "dbeaver",
+      "beekeeper_studio",
+      "android_studio",
+      "android_platform_tools",
+      "flutter",
+      "wireshark",
+      "mitmproxy",
+      "nmap",
+      "r",
+      "rstudio",
+      "julia",
+      "quarto",
+      "stripe_cli",
+      "supabase_cli",
+      "php",
+      "composer",
+      "ruby",
+      "erlang",
+      "elixir",
+      "godot",
+      "unity_hub",
+      "blender",
+      "pandoc",
+      "hugo",
+      "mkdocs"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.136.2",
-        "to": "1.137.0"
+        "to": null
+      },
+      {
+        "toolId": "vscodium",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.126.4524",
+        "to": null
       },
       {
         "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.1054",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.2.1037",
         "to": "9.2.1061"
       },
       {
-        "toolId": "node_current",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "26.8.1",
-        "to": "26.8.2"
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.1054",
+        "to": null
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "7.6.6",
+        "to": null
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "24.20.0",
+        "to": null
       },
       {
         "toolId": "node_current",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "26.8.1",
-        "to": "24.21.0"
+        "from": "24.21.0",
+        "to": null
       },
       {
         "toolId": "uv",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "0.12.11",
-        "to": "0.12.12"
+        "to": null
       },
       {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.12.11",
-        "to": "0.12.12"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.2.4",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.2.4",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "4.2.4",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "4.3.0-rc.1",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "ansible",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "14.3.1",
-        "to": "14.4.0"
+        "toolId": "terraform",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.16.1",
+        "to": null
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.36.41",
-        "to": "2.36.42"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.36.41",
-        "to": "2.36.42"
+        "to": null
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2026.8.3",
-        "to": "2026.9.0"
+        "to": null
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.27.0",
+        "to": "12.27.3"
+      },
+      {
+        "toolId": "postman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2026.8.3",
-        "to": "2026.9.0"
+        "from": "12.27.2",
+        "to": "12.27.3"
       },
       {
-        "toolId": "heroku_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "7.53.0.0",
-        "to": "11.0.0"
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.27.2",
+        "to": null
+      },
+      {
+        "toolId": "mysql",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.7.2",
+        "to": null
+      },
+      {
+        "toolId": "mariadb",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "10.11.19",
+        "to": null
+      },
+      {
+        "toolId": "redis",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.1.0",
+        "to": null
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "26.2.0",
+        "to": null
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "6.0.5",
+        "to": null
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2025.2.3.9",
+        "to": null
+      },
+      {
+        "toolId": "android_platform_tools",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "37.0.0",
+        "to": null
+      },
+      {
+        "toolId": "flutter",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.41.9",
+        "to": null
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.6.8",
+        "to": null
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.2.3",
+        "to": null
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "7.991.0",
+        "to": null
+      },
+      {
+        "toolId": "r",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.6.1",
+        "to": null
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.8.1",
+        "to": null
+      },
+      {
+        "toolId": "julia",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.12.0",
+        "to": null
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.10.18",
+        "to": null
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.50.10",
+        "to": null
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.118.0-beta.9",
-        "to": "2.118.0-beta.15"
+        "from": "2.118.0-beta.15",
+        "to": "2.118.0-beta.18"
+      },
+      {
+        "toolId": "php",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "8.5.10",
+        "to": "8.5.9"
+      },
+      {
+        "toolId": "php",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "8.4.25",
+        "to": null
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "6.3.0",
+        "to": null
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.3.12.1",
+        "to": null
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.0.6",
+        "to": null
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.20.4",
+        "to": null
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.8.0-dev4",
+        "to": null
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.21.1",
+        "to": null
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "5.2.1",
+        "to": null
+      },
+      {
+        "toolId": "pandoc",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.11.0",
+        "to": null
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.165.0",
+        "to": "0.166.0"
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.165.0",
+        "to": null
+      },
+      {
+        "toolId": "mkdocs",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.6.1",
+        "to": null
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "vscode",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vscodium",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mysql",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mariadb",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "redis",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "android_platform_tools",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "flutter",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "r",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "julia",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "php",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "pandoc",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mkdocs",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }

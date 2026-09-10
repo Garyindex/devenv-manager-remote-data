@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T04:41:36.619Z",
-  "status": "ok",
+  "generatedAt": "2026-09-10T11:19:10.912Z",
+  "status": "partial",
   "tool": {
     "id": "android_studio",
     "name": "Android Studio",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Android Studio is the official IDE for Android development",
-      "long": "Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. It provides a unified environment where you can build apps for Android phones, tablets, Android Wear, Android TV, and Android Auto. Structured code modules allow you to divide your project into units of functionality that you can independently build, test, and debug. Features Design tools Intelligent code editor Flexible build system Easily emulate any device APK Analyzer !screenshot /AddToDesktop - add a desktop shortcut for Android Studio e.g. choco install -y androidstudio --package-parameters=\"/AddToDesktop\" /InstallDir=[directory] - set the installation directory to [directory] e.g. choco install -y androidstudio --package-parameters=\"/InstallDir=C:\\Tools\\Android Studio\" /NoStartMenu - do not add a start menu entry for Android Studio e.g. choco install -y androidstudio --package-parameters=\"/NoStartMenu\" /PinToTaskbar - this put a shortcut on your taskbar to Android Studio e.g. choco install -y androidstudio --package-parameters=\"/PinToTaskbar\" Notes Android Studio provides both...",
-      "source": "choco",
-      "homepage": "https://developer.android.com/studio",
-      "lastUpdatedAt": "2026-09-10T04:41:22.161Z"
+      "short": "Tools for building Android applications",
+      "long": "Tools for building Android applications",
+      "source": "homebrew",
+      "homepage": "https://developer.android.com/studio/",
+      "lastUpdatedAt": "2026-09-10T11:17:49.104Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -110,7 +110,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:21.246Z",
+          "scannedAt": "2026-09-10T11:17:48.866Z",
           "errors": []
         },
         "package": {
@@ -133,7 +133,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.android.com/studio",
-          "lastUpdatedAt": "2026-09-10T04:41:21.246Z"
+          "lastUpdatedAt": "2026-09-10T11:17:48.866Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -563,7 +563,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:21.246Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:17:48.866Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -622,7 +622,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T04:41:22.131Z",
+          "scannedAt": "2026-09-10T11:17:49.104Z",
           "errors": []
         },
         "package": {
@@ -648,7 +648,7 @@
           "long": "Tools for building Android applications",
           "source": "homebrew",
           "homepage": "https://developer.android.com/studio/",
-          "lastUpdatedAt": "2026-09-10T04:41:22.131Z"
+          "lastUpdatedAt": "2026-09-10T11:17:49.104Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -756,7 +756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:22.131Z",
+          "lastSuccessfulScanAt": "2026-09-10T11:17:49.104Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -814,38 +814,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-10T04:41:22.161Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-10T11:17:49.166Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
-          "name": "Android Studio (Install)",
-          "publisher": "Google JetBrains",
-          "author": "Google JetBrains",
-          "description": "Android Studio is the official IDE for Android development",
+          "name": "Android Studio",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://developer.android.com/studio/terms",
-          "tags": [
-            "google",
-            "android",
-            "studio",
-            "androidstudio",
-            "android-studio",
-            "cross-platform"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://developer.android.com/studio",
-          "download": "https://community.chocolatey.org/api/v2/package/AndroidStudio/2025.2.3.9",
-          "releases": "* [Android Studio release notes](https://developer.android.com/studio/releases/)",
+          "download": "https://developer.android.com/studio",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Android Studio is the official IDE for Android development",
-          "long": "Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. It provides a unified environment where you can build apps for Android phones, tablets, Android Wear, Android TV, and Android Auto. Structured code modules allow you to divide your project into units of functionality that you can independently build, test, and debug. Features Design tools Intelligent code editor Flexible build system Easily emulate any device APK Analyzer !screenshot /AddToDesktop - add a desktop shortcut for Android Studio e.g. choco install -y androidstudio --package-parameters=\"/AddToDesktop\" /InstallDir=[directory] - set the installation directory to [directory] e.g. choco install -y androidstudio --package-parameters=\"/InstallDir=C:\\Tools\\Android Studio\" /NoStartMenu - do not add a start menu entry for Android Studio e.g. choco install -y androidstudio --package-parameters=\"/NoStartMenu\" /PinToTaskbar - this put a shortcut on your taskbar to Android Studio e.g. choco install -y androidstudio --package-parameters=\"/PinToTaskbar\" Notes Android Studio provides both...",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://developer.android.com/studio",
-          "lastUpdatedAt": "2026-09-10T04:41:22.161Z"
+          "lastUpdatedAt": "2026-09-10T11:17:49.166Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -856,12 +852,7 @@
             "Android Studio",
             "studio64",
             "studio",
-            "choco",
-            "google",
-            "android",
-            "androidstudio",
-            "android-studio",
-            "cross-platform"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -870,319 +861,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2025.2.3.9",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.2.2.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.2.2.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.2.1.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.2.1.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.1.4.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.1.3.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2023.1.1.28",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.0.24",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2022.1.1.21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.0.18",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2021.3.1.17",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2020.3.1.25",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.2.1.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.1.2.13",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.2.2.13",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.2.2.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2021.2.1.16",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.1.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.16",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.3.2.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.2.1.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2021.1.1.21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2023.3.1.19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.3.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.2.1.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2025.2.3.9",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/AndroidStudio/2025.2.3.9",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "deM1WqSzofxuUBRH63SK7OzZbh25qXJcpyk8zimvx/1G3CNVbAwHiBfoKAFH454LhwkgUE7sV1nf5fSnajA95A==",
+            "url": "https://developer.android.com/studio",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1251,11 +941,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T04:41:22.161Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
