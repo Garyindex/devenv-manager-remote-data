@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T11:19:10.912Z",
-  "status": "partial",
+  "generatedAt": "2026-09-10T16:23:57.241Z",
+  "status": "ok",
   "tool": {
     "id": "node_lts",
     "name": "Node.js LTS",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-      "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-      "source": "winget",
+      "short": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
+      "source": "choco",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-09-10T11:17:16.986Z"
+      "lastUpdatedAt": "2026-09-10T16:23:09.386Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:16.986Z",
+          "scannedAt": "2026-09-10T16:23:09.110Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-09-10T11:17:16.986Z"
+          "lastUpdatedAt": "2026-09-10T16:23:09.110Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -379,7 +379,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:16.986Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.110Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -427,7 +427,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:17.093Z",
+          "scannedAt": "2026-09-10T16:23:09.291Z",
           "errors": []
         },
         "package": {
@@ -453,7 +453,7 @@
           "long": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
           "source": "scoop",
           "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-09-10T11:17:17.093Z"
+          "lastUpdatedAt": "2026-09-10T16:23:09.291Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -559,7 +559,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:17.093Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.291Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -606,34 +606,40 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-10T11:17:17.204Z",
-          "errors": [
-            "details: 503 Service Unavailable: ",
-            "versions: 503 Service Unavailable: "
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-10T16:23:09.386Z",
+          "errors": []
         },
         "package": {
-          "name": "Node.js LTS",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Node.js LTS (Install)",
+          "publisher": "OpenJS Foundation",
+          "author": "OpenJS Foundation",
+          "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/nodejs/node/blob/master/LICENSE",
+          "tags": [
+            "nodejs-lts",
+            "nodejs",
+            "lts",
+            "node.js",
+            "node",
+            "admin",
+            "npm",
+            "javascript"
+          ]
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.20.0",
+          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V24.md#24.20.0",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
+          "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
           "source": "choco",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-09-10T11:17:17.204Z"
+          "lastUpdatedAt": "2026-09-10T16:23:09.386Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -643,7 +649,14 @@
             "node_lts",
             "Node.js LTS",
             "node",
-            "choco"
+            "choco",
+            "nodejs-lts",
+            "nodejs",
+            "lts",
+            "node.js",
+            "admin",
+            "npm",
+            "javascript"
           ],
           "relatedTools": []
         },
@@ -652,18 +665,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "24.20.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.18.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.22.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.14.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.20.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.22.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.20.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.22.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.19.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.21.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.19.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "24.20.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://nodejs.org/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.20.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "NjsSQiZW5cvfOIsbEL3EIXnfgE8Cb+T2hnFtrAd3dwwpPmAp3mt1ECFsTsBIVD7D4xPAgbzz5sY5anSMB8wABg==",
             "sizeBytes": null
           }
         ],
@@ -732,11 +1046,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.386Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

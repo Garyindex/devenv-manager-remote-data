@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T11:19:10.912Z",
-  "status": "partial",
+  "generatedAt": "2026-09-10T16:23:57.241Z",
+  "status": "ok",
   "tool": {
     "id": "unity_hub",
     "name": "Unity Hub",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
-      "long": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
-      "source": "winget",
-      "homepage": "https://unity.com/unity-hub",
-      "lastUpdatedAt": "2026-09-10T11:18:34.538Z"
+      "short": "Unity Hub is a cross-platform management tool developed by Unity Technologies and used to to manage multiple installations of the Unity Editor along with their associated components",
+      "long": "Unity Hub Features - Manage your Unity account and Editor licenses. - Create your Project, associate a default version of the Unity Editor with the Project, and manage the installation of multiple versions of the Editor. - Set your preferred version of Unity, but also easily launch other versions from your Project view. - Manage and select Project build targets without launching the Editor. - Run two versions of Unity at the same time. Note that to prevent local conflicts and other odd scenarios, you should only open a Project in one Editor instance at a time. - Add components to existing installations of the Editor. When you download a version of the Editor through Unity Hub, you can find and add additional components (such as specific platform support, Visual Studio, offline docs and Standard Assets) either during initial install or at a later date. - Use Project Templates to jump-start the creation process for common Project types. Unity’s Project Templates provide default values for common settings when you create a new Project. Project Templates preset batches of settings for a target game type or level of visual fidelity. For more information, see Project Templates. Packag...",
+      "source": "choco",
+      "homepage": "https://unity3d.com/",
+      "lastUpdatedAt": "2026-09-10T16:23:51.050Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,7 +82,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:18:34.538Z",
+          "scannedAt": "2026-09-10T16:23:50.941Z",
           "errors": []
         },
         "package": {
@@ -105,7 +105,7 @@
           "long": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
           "source": "winget",
           "homepage": "https://unity.com/unity-hub",
-          "lastUpdatedAt": "2026-09-10T11:18:34.538Z"
+          "lastUpdatedAt": "2026-09-10T16:23:50.941Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -393,7 +393,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:18:34.538Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:50.941Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -426,7 +426,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:18:35.748Z",
+          "scannedAt": "2026-09-10T16:23:51.003Z",
           "errors": []
         },
         "package": {
@@ -452,7 +452,7 @@
           "long": "Management tool for Unity",
           "source": "homebrew",
           "homepage": "https://docs.unity.com/en-us/hub",
-          "lastUpdatedAt": "2026-09-10T11:18:35.748Z"
+          "lastUpdatedAt": "2026-09-10T16:23:51.003Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -558,7 +558,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:18:35.748Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:51.003Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -590,34 +590,38 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-10T11:18:35.816Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-10T16:23:51.050Z",
+          "errors": []
         },
         "package": {
-          "name": "Unity Hub",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Unity Hub (Install)",
+          "publisher": "Unity Technologies",
+          "author": "Unity Technologies",
+          "description": "Unity Hub is a cross-platform management tool developed by Unity Technologies and used to to manage multiple installations of the Unity Editor along with their associated components",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://unity.com/legal",
+          "tags": [
+            "unity",
+            "admin",
+            "games",
+            "cross-platform",
+            "unity3d",
+            "multiplatform"
+          ]
         },
         "links": {
-          "homepage": "https://unity.com/unity-hub",
-          "download": "https://unity.com/unity-hub",
-          "releases": null,
+          "homepage": "https://unity3d.com/",
+          "download": "https://community.chocolatey.org/api/v2/package/unity-hub/3.21.1",
+          "releases": "https://unity3d.com/hub/whats-new",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Unity Hub is a cross-platform management tool developed by Unity Technologies and used to to manage multiple installations of the Unity Editor along with their associated components",
+          "long": "Unity Hub Features - Manage your Unity account and Editor licenses. - Create your Project, associate a default version of the Unity Editor with the Project, and manage the installation of multiple versions of the Editor. - Set your preferred version of Unity, but also easily launch other versions from your Project view. - Manage and select Project build targets without launching the Editor. - Run two versions of Unity at the same time. Note that to prevent local conflicts and other odd scenarios, you should only open a Project in one Editor instance at a time. - Add components to existing installations of the Editor. When you download a version of the Editor through Unity Hub, you can find and add additional components (such as specific platform support, Visual Studio, offline docs and Standard Assets) either during initial install or at a later date. - Use Project Templates to jump-start the creation process for common Project types. Unity’s Project Templates provide default values for common settings when you create a new Project. Project Templates preset batches of settings for a target game type or level of visual fidelity. For more information, see Project Templates. Packag...",
           "source": "choco",
-          "homepage": "https://unity.com/unity-hub",
-          "lastUpdatedAt": "2026-09-10T11:18:35.816Z"
+          "homepage": "https://unity3d.com/",
+          "lastUpdatedAt": "2026-09-10T16:23:51.050Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -626,7 +630,13 @@
           "keywords": [
             "unity_hub",
             "Unity Hub",
-            "choco"
+            "choco",
+            "unity",
+            "admin",
+            "games",
+            "cross-platform",
+            "unity3d",
+            "multiplatform"
           ],
           "relatedTools": []
         },
@@ -635,18 +645,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "3.21.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.20.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.19.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.14.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "3.21.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://unity.com/unity-hub",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/unity-hub/3.21.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "b1/oBSLY/tkOTUCuIir5E5Pty4ICoeLA/uvkYOkOMG5lMbVECzzpTkdkf1/iZirPBsnLtjoGISdDn4ZCoD2wdA==",
             "sizeBytes": null
           }
         ],
@@ -715,11 +1026,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-10T16:23:51.050Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

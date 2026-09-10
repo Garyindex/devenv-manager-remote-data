@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T11:19:10.912Z",
-  "status": "partial",
+  "generatedAt": "2026-09-10T16:23:57.241Z",
+  "status": "ok",
   "tool": {
     "id": "android_platform_tools",
     "name": "Android SDK Platform-Tools",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
-      "long": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
-      "source": "scoop",
-      "homepage": "https://developer.android.com/studio/releases/platform-tools",
-      "lastUpdatedAt": "2026-09-10T11:17:50.983Z"
+      "short": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.",
+      "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
+      "source": "choco",
+      "homepage": "https://developer.android.com/studio/command-line/adb",
+      "lastUpdatedAt": "2026-09-10T16:23:40.885Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:49.865Z",
+          "scannedAt": "2026-09-10T16:23:40.785Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-09-10T11:17:49.865Z"
+          "lastUpdatedAt": "2026-09-10T16:23:40.785Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -359,7 +359,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:49.865Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:40.785Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -405,7 +405,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:50.915Z",
+          "scannedAt": "2026-09-10T16:23:40.833Z",
           "errors": []
         },
         "package": {
@@ -431,7 +431,7 @@
           "long": "Android SDK component",
           "source": "homebrew",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-09-10T11:17:50.915Z"
+          "lastUpdatedAt": "2026-09-10T16:23:40.833Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -538,7 +538,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:50.915Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:40.833Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -584,7 +584,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:50.983Z",
+          "scannedAt": "2026-09-10T16:23:40.883Z",
           "errors": []
         },
         "package": {
@@ -610,7 +610,7 @@
           "long": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
           "source": "scoop",
           "homepage": "https://developer.android.com/studio/releases/platform-tools",
-          "lastUpdatedAt": "2026-09-10T11:17:50.983Z"
+          "lastUpdatedAt": "2026-09-10T16:23:40.883Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -716,7 +716,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:50.983Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:40.883Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -761,34 +761,37 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-10T11:17:51.071Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-10T16:23:40.885Z",
+          "errors": []
         },
         "package": {
-          "name": "Android SDK Platform-Tools",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Android Debug Bridge",
+          "publisher": "Google",
+          "author": "Google",
+          "description": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://developer.android.com/studio/terms",
+          "tags": [
+            "adb",
+            "fastboot",
+            "android",
+            "debug",
+            "bridge"
+          ]
         },
         "links": {
-          "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "download": "https://developer.android.com/tools/releases/platform-tools",
-          "releases": null,
+          "homepage": "https://developer.android.com/studio/command-line/adb",
+          "download": "https://community.chocolatey.org/api/v2/package/adb/37.0.0",
+          "releases": "",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.",
+          "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
           "source": "choco",
-          "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-09-10T11:17:51.071Z"
+          "homepage": "https://developer.android.com/studio/command-line/adb",
+          "lastUpdatedAt": "2026-09-10T16:23:40.885Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -798,7 +801,11 @@
             "android_platform_tools",
             "Android SDK Platform-Tools",
             "adb",
-            "choco"
+            "choco",
+            "fastboot",
+            "android",
+            "debug",
+            "bridge"
           ],
           "relatedTools": []
         },
@@ -807,18 +814,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.39",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "32.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.1.20230514",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.32",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "28.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "30.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.3.20220129",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.39.20171026",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "27.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "28.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "31.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "27.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.32.230",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "37.0.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://developer.android.com/tools/releases/platform-tools",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/adb/37.0.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "xaUlePw0ev8qlUtcq7QcyH9PXf7DTXD1B5zlwZucwB48/vgpzzn0Rtn0O1KUiR9a79IwZo3TEfSnX2TXcB9WSQ==",
             "sizeBytes": null
           }
         ],
@@ -887,11 +1195,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-10T16:23:40.885Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

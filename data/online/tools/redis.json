@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T11:19:10.912Z",
-  "status": "partial",
+  "generatedAt": "2026-09-10T16:23:57.241Z",
+  "status": "ok",
   "tool": {
     "id": "redis",
     "name": "Redis",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
-      "long": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
-      "source": "winget",
+      "short": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabili...",
+      "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
+      "source": "choco",
       "homepage": "https://github.com/microsoftarchive/redis",
-      "lastUpdatedAt": "2026-09-10T11:17:44.751Z"
+      "lastUpdatedAt": "2026-09-10T16:23:38.012Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:44.751Z",
+          "scannedAt": "2026-09-10T16:23:36.850Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
           "source": "winget",
           "homepage": "https://github.com/microsoftarchive/redis",
-          "lastUpdatedAt": "2026-09-10T11:17:44.751Z"
+          "lastUpdatedAt": "2026-09-10T16:23:36.850Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -260,7 +260,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:44.751Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:36.850Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -307,7 +307,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:45.005Z",
+          "scannedAt": "2026-09-10T16:23:37.801Z",
           "errors": []
         },
         "package": {
@@ -333,7 +333,7 @@
           "long": "Persistent key-value database, with built-in net interface",
           "source": "homebrew",
           "homepage": "https://redis.io/",
-          "lastUpdatedAt": "2026-09-10T11:17:45.005Z"
+          "lastUpdatedAt": "2026-09-10T16:23:37.801Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -460,7 +460,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:45.005Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:37.801Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -506,7 +506,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:45.073Z",
+          "scannedAt": "2026-09-10T16:23:37.920Z",
           "errors": []
         },
         "package": {
@@ -532,7 +532,7 @@
           "long": "In-memory data structure store, used as a database, cache and message broker",
           "source": "scoop",
           "homepage": "https://redis.io",
-          "lastUpdatedAt": "2026-09-10T11:17:45.073Z"
+          "lastUpdatedAt": "2026-09-10T16:23:37.920Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -638,7 +638,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:45.073Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:37.920Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -683,34 +683,35 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-10T11:17:45.220Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-10T16:23:38.012Z",
+          "errors": []
         },
         "package": {
-          "name": "Redis",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "[Deprecated] Redis 64-bit",
+          "publisher": "Alexis Campailla, Enrico Giordani, Jonathan Pickett",
+          "author": "Alexis Campailla, Enrico Giordani, Jonathan Pickett",
+          "description": "",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/MSOpenTech/redis/blob/3.0/license.txt",
+          "tags": [
+            "Redis",
+            "nosql",
+            "cache"
+          ]
         },
         "links": {
-          "homepage": "https://redis.io/",
-          "download": "https://redis.io/",
-          "releases": null,
+          "homepage": "https://github.com/microsoftarchive/redis",
+          "download": "https://community.chocolatey.org/api/v2/package/redis-64/3.1.0",
+          "releases": "The release notes are available [here](https://raw.githubusercontent.com/MSOpenTech/redis/3.0/Redis%20on%20Windows%20Release%20Notes.md)",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabili...",
+          "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
           "source": "choco",
-          "homepage": "https://redis.io/",
-          "lastUpdatedAt": "2026-09-10T11:17:45.220Z"
+          "homepage": "https://github.com/microsoftarchive/redis",
+          "lastUpdatedAt": "2026-09-10T16:23:38.012Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -720,7 +721,9 @@
             "redis",
             "Redis",
             "redis-server",
-            "choco"
+            "choco",
+            "nosql",
+            "cache"
           ],
           "relatedTools": []
         },
@@ -729,18 +732,169 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "3.1.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.503",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.501",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.2402",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.0.500",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.19",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.17",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.2101",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.2104",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.21",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.2400",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.8.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.14",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "3.1.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://redis.io/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/redis-64/3.1.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "rbnLQ+bSC3RiQWcTYelgRDMvmvE5m+3j8wkkvYpsQzeoEq/yW53QMTBSRsiK04X38UA6hkoplNN3xHpDPmkM9w==",
             "sizeBytes": null
           }
         ],
@@ -809,11 +963,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-10T16:23:38.012Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

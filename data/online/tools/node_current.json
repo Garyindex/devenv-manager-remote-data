@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T11:19:10.912Z",
-  "status": "partial",
+  "generatedAt": "2026-09-10T16:23:57.241Z",
+  "status": "ok",
   "tool": {
     "id": "node_current",
     "name": "Node.js Current",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-      "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-      "source": "winget",
-      "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-09-10T11:17:17.291Z"
+      "short": "Node JS - Evented I/O for v8 JavaScript.",
+      "long": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package runs the official Node JS installer, resulting in Node.exe and NPM being installed under Program Files, and added to the SYSTEM PATH environment variable. Notes - While this package now provides both Current and LTS releases of Node.js, it is still recommended to use the [nodejs-lts][] package if only targeting the latest LTS release is required. - Starting with version 23.x, installations for 32bit platforms are no longer supported. If this is required, an older version is required to be used. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you have problems with the package. Disqus comments will generally not be responded to. [nodejs-lts]: https://chocolatey.org/packages/nodejs-lts \"Node.js LTS Package\"",
+      "source": "choco",
+      "homepage": "http://nodejs.org/",
+      "lastUpdatedAt": "2026-09-10T16:23:09.620Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:17.291Z",
+          "scannedAt": "2026-09-10T16:23:09.421Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-09-10T11:17:17.291Z"
+          "lastUpdatedAt": "2026-09-10T16:23:09.421Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:17.291Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.421Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:17.337Z",
+          "scannedAt": "2026-09-10T16:23:09.502Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Open-source, cross-platform JavaScript runtime environment",
           "source": "homebrew",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-09-10T11:17:17.337Z"
+          "lastUpdatedAt": "2026-09-10T16:23:09.502Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -770,7 +770,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:17.337Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.502Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -816,7 +816,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-10T11:17:17.348Z",
+          "scannedAt": "2026-09-10T16:23:09.535Z",
           "errors": []
         },
         "package": {
@@ -842,7 +842,7 @@
           "long": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
           "source": "scoop",
           "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-09-10T11:17:17.348Z"
+          "lastUpdatedAt": "2026-09-10T16:23:09.535Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -948,7 +948,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-10T11:17:17.348Z",
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.535Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -993,34 +993,39 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-10T11:17:17.424Z",
-          "errors": [
-            "details: 503 Service Unavailable: ",
-            "versions: 503 Service Unavailable: "
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-10T16:23:09.620Z",
+          "errors": []
         },
         "package": {
-          "name": "Node.js Current",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Node JS",
+          "publisher": "Node.js Foundation",
+          "author": "Node.js Foundation",
+          "description": "Node JS - Evented I/O for v8 JavaScript.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/nodejs/node/blob/master/LICENSE",
+          "tags": [
+            "nodejs",
+            "node",
+            "javascript",
+            "npm",
+            "admin",
+            "foss",
+            "cross-platform"
+          ]
         },
         "links": {
-          "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/",
-          "releases": null,
+          "homepage": "http://nodejs.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/nodejs/26.8.2",
+          "releases": "",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Node JS - Evented I/O for v8 JavaScript.",
+          "long": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package runs the official Node JS installer, resulting in Node.exe and NPM being installed under Program Files, and added to the SYSTEM PATH environment variable. Notes - While this package now provides both Current and LTS releases of Node.js, it is still recommended to use the [nodejs-lts][] package if only targeting the latest LTS release is required. - Starting with version 23.x, installations for 32bit platforms are no longer supported. If this is required, an older version is required to be used. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you have problems with the package. Disqus comments will generally not be responded to. [nodejs-lts]: https://chocolatey.org/packages/nodejs-lts \"Node.js LTS Package\"",
           "source": "choco",
-          "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-09-10T11:17:17.424Z"
+          "homepage": "http://nodejs.org/",
+          "lastUpdatedAt": "2026-09-10T16:23:09.620Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1030,7 +1035,13 @@
             "node_current",
             "Node.js Current",
             "node",
-            "choco"
+            "choco",
+            "nodejs",
+            "javascript",
+            "npm",
+            "admin",
+            "foss",
+            "cross-platform"
           ],
           "relatedTools": []
         },
@@ -1039,18 +1050,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "26.8.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.18.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.22.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "25.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.20.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "25.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.22.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.14.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "25.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.20.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "26.8.2",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://nodejs.org/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/nodejs/26.8.2",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "liSCauoXTmtXM3H2SyI03s7E9W0Hv4Bb1BQHIbUHIBkl8AG/gJukuPQSTwUcmI0L/jk6ELiVwpjOO/x+9rg2qw==",
             "sizeBytes": null
           }
         ],
@@ -1119,11 +1431,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-10T16:23:09.620Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
