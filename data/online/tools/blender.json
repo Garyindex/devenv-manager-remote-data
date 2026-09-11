@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T11:19:31.845Z",
-  "status": "ok",
+  "generatedAt": "2026-09-11T16:27:36.498Z",
+  "status": "partial",
   "tool": {
     "id": "blender",
     "name": "Blender",
@@ -28,7 +28,7 @@
       "long": "Blender is a free and open-source professional-grade 3D computer graphics and video compositing program. Realistic Materials !Realistic Materials Fluid Simulations !Fluid Simulations Features Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools: Modeling Rendering Animation Video Editing and Compositing Texturing Rigging Simulations Game Creation. Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts). High-quality 3D architecture enabling fast and efficient creation work-flow. Excellent community support from forums and IRC. Small executable size, optionally portable. Notes - If you have multiple installations of the Blender software, the uninstallation of the Chocolatey package will likely fail. Please manually uninstall the Blender software (through 'Add and Remove Programs' or 'Programs and Features') and then run choco uninstall blender to remove the package. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Com...",
       "source": "choco",
       "homepage": "https://www.blender.org/",
-      "lastUpdatedAt": "2026-09-11T11:19:27.731Z"
+      "lastUpdatedAt": "2026-09-11T16:27:33.835Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,22 +95,24 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-11T11:19:27.331Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-11T16:27:33.480Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Blender",
-          "publisher": "Blender Foundation",
-          "author": "Blender Foundation",
+          "publisher": null,
+          "author": null,
           "description": null,
-          "license": "GPL-3.0-or-later",
+          "license": null,
           "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.blender.org/",
-          "download": "https://download.blender.org/release/Blender5.2/blender-5.2.1-windows-x64.msi",
+          "download": "https://www.blender.org/",
           "releases": null,
           "docs": null
         },
@@ -119,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-09-11T11:19:27.331Z"
+          "lastUpdatedAt": "2026-09-11T16:27:33.480Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -445,11 +447,11 @@
             "version": "5.2.1",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://download.blender.org/release/Blender5.2/blender-5.2.1-windows-x64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "bebb90fc5bf7e3ec7ab4eb34f4c5a5b54e28e582a722152a47fd4ee66ec3c6fa",
+            "type": "package-manager",
+            "url": "https://www.blender.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -544,11 +546,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:27.331Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -593,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:27.626Z",
+          "scannedAt": "2026-09-11T16:27:33.789Z",
           "errors": []
         },
         "package": {
@@ -619,7 +621,7 @@
           "long": "3D creation suite",
           "source": "homebrew",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-09-11T11:19:27.626Z"
+          "lastUpdatedAt": "2026-09-11T16:27:33.789Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:27.626Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:33.789Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:27.640Z",
+          "scannedAt": "2026-09-11T16:27:33.810Z",
           "errors": []
         },
         "package": {
@@ -797,7 +799,7 @@
           "long": "3D creation suite",
           "source": "scoop",
           "homepage": "https://www.blender.org",
-          "lastUpdatedAt": "2026-09-11T11:19:27.640Z"
+          "lastUpdatedAt": "2026-09-11T16:27:33.810Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -902,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:27.640Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:33.810Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -948,7 +950,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:27.731Z",
+          "scannedAt": "2026-09-11T16:27:33.835Z",
           "errors": []
         },
         "package": {
@@ -980,7 +982,7 @@
           "long": "Blender is a free and open-source professional-grade 3D computer graphics and video compositing program. Realistic Materials !Realistic Materials Fluid Simulations !Fluid Simulations Features Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools: Modeling Rendering Animation Video Editing and Compositing Texturing Rigging Simulations Game Creation. Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts). High-quality 3D architecture enabling fast and efficient creation work-flow. Excellent community support from forums and IRC. Small executable size, optionally portable. Notes - If you have multiple installations of the Blender software, the uninstallation of the Chocolatey package will likely fail. Please manually uninstall the Blender software (through 'Add and Remove Programs' or 'Programs and Features') and then run choco uninstall blender to remove the package. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Com...",
           "source": "choco",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-09-11T11:19:27.731Z"
+          "lastUpdatedAt": "2026-09-11T16:27:33.835Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1389,7 +1391,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:27.731Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:33.835Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,83 +1,129 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T11:19:31.845Z",
-  "fromGeneratedAt": "2026-09-11T04:38:37.087Z",
-  "toGeneratedAt": "2026-09-11T11:19:31.845Z",
-  "status": "ok",
+  "generatedAt": "2026-09-11T16:27:36.498Z",
+  "fromGeneratedAt": "2026-09-11T11:19:31.845Z",
+  "toGeneratedAt": "2026-09-11T16:27:36.498Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 12,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
+      "node_lts",
+      "uv",
+      "docker_desktop",
       "terraform",
+      "pulumi",
       "aws_cli",
+      "cloudflared",
       "postman",
-      "process_explorer",
-      "sysmon",
-      "rstudio"
+      "supabase_cli",
+      "unity_hub",
+      "blender"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "node_lts",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.1054",
-        "to": "9.2.1061"
+        "from": "24.20.0",
+        "to": "24.21.0"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.12.11",
+        "to": "0.12.12"
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.89.0",
+        "to": "4.90.0"
       },
       {
         "toolId": "terraform",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.16.1",
+        "to": "1.17.0-beta1"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.261.0",
+        "to": "3.262.0"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.41",
+        "to": "2.36.42"
+      },
+      {
+        "toolId": "cloudflared",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.15.9",
-        "to": "1.16.2"
+        "from": "2026.9.0",
+        "to": "2026.9.1"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.9.0",
+        "to": "2026.9.1"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2026.9.0",
+        "to": "2026.9.1"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.27.5",
-        "to": "12.27.6"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.27.2",
+        "to": "12.27.5"
       },
       {
-        "toolId": "process_explorer",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.13",
-        "to": "17.14"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.118.0-beta.23",
+        "to": "2.118.0-beta.25"
       },
       {
-        "toolId": "sysmon",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "15.21",
-        "to": "15.22"
-      },
-      {
-        "toolId": "rstudio",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.08.2+200",
-        "to": "2026.09.0+174"
+        "toolId": "unity_hub",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.21.1",
+        "to": "3.21.2"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "aws_cli",
+        "toolId": "blender",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 65,
-        "to": 100
+        "from": 100,
+        "to": 65
       }
     ]
   }

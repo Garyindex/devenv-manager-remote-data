@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T11:19:31.845Z",
-  "status": "ok",
+  "generatedAt": "2026-09-11T16:27:36.498Z",
+  "status": "partial",
   "tool": {
     "id": "cloudflared",
     "name": "cloudflared",
@@ -29,7 +29,7 @@
       "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
       "source": "choco",
       "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
-      "lastUpdatedAt": "2026-09-11T11:19:11.033Z"
+      "lastUpdatedAt": "2026-09-11T16:27:20.171Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:10.933Z",
+          "scannedAt": "2026-09-11T16:27:20.030Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://try.cloudflare.com/",
-          "download": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.0/cloudflared-windows-amd64.msi",
-          "releases": "https://github.com/cloudflare/cloudflared/blob/2026.9.0/RELEASE_NOTES",
+          "download": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-windows-amd64.msi",
+          "releases": "https://github.com/cloudflare/cloudflared/blob/2026.9.1/RELEASE_NOTES",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address. With Tunnel, you do not send traffic to an external IP — instead, a lightweight daemon in your infrastructure (cloudflared) creates outbound-only connections to Cloudflare's global network. Cloudflare Tunnel can connect HTTP web servers, SSH servers, remote desktops, and other protocols safely to Cloudflare. This way, your origins can serve traffic through Cloudflare without being vulnerable to attacks that bypass Cloudflare.",
           "source": "winget",
           "homepage": "https://try.cloudflare.com/",
-          "lastUpdatedAt": "2026-09-11T11:19:10.933Z"
+          "lastUpdatedAt": "2026-09-11T16:27:20.030Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "2026.9.0",
+            "version": "2026.9.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2026.9.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2024.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2026.9.0",
+            "version": "2026.9.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.0/cloudflared-windows-amd64.msi",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-windows-amd64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "7ee5b66c158c40f8f6cb62b01b7e48ee8cf5907e35b1a1fad3534d41b6d29488",
+            "sha256": "6f85717310db514c0db658c3b7bbdff36c1d613c4edeafb4981b3160cc7b836f",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:10.933Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:20.030Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:10.955Z",
+          "scannedAt": "2026-09-11T16:27:20.091Z",
           "errors": []
         },
         "package": {
@@ -611,7 +611,7 @@
         },
         "links": {
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "download": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.9.0.tar.gz",
+          "download": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.9.1.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -620,7 +620,7 @@
           "long": "Cloudflare Tunnel client (formerly Argo Tunnel)",
           "source": "homebrew",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-09-11T11:19:10.955Z"
+          "lastUpdatedAt": "2026-09-11T16:27:20.091Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -641,7 +641,7 @@
         },
         "versions": [
           {
-            "version": "2026.9.0",
+            "version": "2026.9.1",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -654,14 +654,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2026.9.0",
+            "version": "2026.9.1",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.9.0.tar.gz",
+            "url": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.9.1.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "27e04a5d86f400b7d66a2a7638acb7efd41c219cff7b0bf40de3c6647d2514db",
+            "sha256": "e75d9a314ae07ae42564c0d3115b9e33d8a7329d99771951ab7b67144461bd84",
             "sizeBytes": null
           }
         ],
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:10.955Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:20.091Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:10.992Z",
+          "scannedAt": "2026-09-11T16:27:20.167Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "Command-line client to interact with Cloudflare Tunnel, Cloudflare Access, start up a DNS over HTTPS resolver and more.",
           "source": "scoop",
           "homepage": "https://github.com/cloudflare/cloudflared",
-          "lastUpdatedAt": "2026-09-11T11:19:10.992Z"
+          "lastUpdatedAt": "2026-09-11T16:27:20.167Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:10.992Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:20.167Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:11.033Z",
+          "scannedAt": "2026-09-11T16:27:20.171Z",
           "errors": []
         },
         "package": {
@@ -975,7 +975,7 @@
           "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
           "source": "choco",
           "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
-          "lastUpdatedAt": "2026-09-11T11:19:11.033Z"
+          "lastUpdatedAt": "2026-09-11T16:27:20.171Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1379,7 +1379,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:11.033Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:20.171Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1427,7 +1427,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-11T11:19:11.095Z",
+          "scannedAt": "2026-09-11T16:27:20.300Z",
           "errors": []
         },
         "package": {
@@ -1455,7 +1455,7 @@
           "long": "Cloudflare Tunnel client",
           "source": "github",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-09-11T11:19:11.095Z"
+          "lastUpdatedAt": "2026-09-11T16:27:20.300Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1478,9 +1478,19 @@
         },
         "versions": [
           {
-            "version": "2026.9.0",
+            "version": "2026.9.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-09-11T13:42:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cloudflare/cloudflared/releases/tag/2026.9.1"
+          },
+          {
+            "version": "2026.9.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-09-09T18:38:16Z",
@@ -1766,19 +1776,321 @@
             "releaseDate": "2025-06-11T11:13:21Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/cloudflare/cloudflared/releases/tag/2025.6.0"
-          },
-          {
-            "version": "2025.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2025-05-15T17:09:50Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/cloudflare/cloudflared/releases/tag/2025.5.0"
           }
         ],
         "downloads": [
+          {
+            "id": "cloudflared-amd64.pkg",
+            "version": "2026.9.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-amd64.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21133622
+          },
+          {
+            "id": "cloudflared-arm64.pkg",
+            "version": "2026.9.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-arm64.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19232385
+          },
+          {
+            "id": "cloudflared-darwin-amd64.tgz",
+            "version": "2026.9.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tgz",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-darwin-amd64.tgz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21118723
+          },
+          {
+            "id": "cloudflared-darwin-arm64.tgz",
+            "version": "2026.9.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tgz",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-darwin-arm64.tgz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19217478
+          },
+          {
+            "id": "cloudflared-fips-linux-amd64",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-fips-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42527984
+          },
+          {
+            "id": "cloudflared-fips-linux-amd64.deb",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-fips-linux-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19847866
+          },
+          {
+            "id": "cloudflared-fips-linux-x86_64.rpm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-fips-linux-x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19837515
+          },
+          {
+            "id": "cloudflared-linux-386",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-386",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37143560
+          },
+          {
+            "id": "cloudflared-linux-386.deb",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18374354
+          },
+          {
+            "id": "cloudflared-linux-386.rpm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18355552
+          },
+          {
+            "id": "cloudflared-linux-aarch64.rpm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-aarch64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17661115
+          },
+          {
+            "id": "cloudflared-linux-amd64",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 39838488
+          },
+          {
+            "id": "cloudflared-linux-amd64.deb",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19160216
+          },
+          {
+            "id": "cloudflared-linux-arm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-arm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36296127
+          },
+          {
+            "id": "cloudflared-linux-arm.deb",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-arm.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17639114
+          },
+          {
+            "id": "cloudflared-linux-arm.rpm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-arm.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17620973
+          },
+          {
+            "id": "cloudflared-linux-arm64",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37466252
+          },
+          {
+            "id": "cloudflared-linux-arm64.deb",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17667370
+          },
+          {
+            "id": "cloudflared-linux-armhf",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-armhf",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36238852
+          },
+          {
+            "id": "cloudflared-linux-armhf.deb",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17626032
+          },
+          {
+            "id": "cloudflared-linux-armhf.rpm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-armhf.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17609787
+          },
+          {
+            "id": "cloudflared-linux-x86_64.rpm",
+            "version": "2026.9.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-linux-x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19150198
+          },
+          {
+            "id": "cloudflared-windows-386.exe",
+            "version": "2026.9.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-windows-386.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37424776
+          },
+          {
+            "id": "cloudflared-windows-386.msi",
+            "version": "2026.9.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "msi",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-windows-386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19146752
+          },
+          {
+            "id": "cloudflared-windows-amd64.exe",
+            "version": "2026.9.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 54976432
+          },
+          {
+            "id": "cloudflared-windows-amd64.msi",
+            "version": "2026.9.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.9.1/cloudflared-windows-amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19366912
+          },
           {
             "id": "cloudflared-amd64.pkg",
             "version": "2026.9.0",
@@ -2426,318 +2738,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 19229153
-          },
-          {
-            "id": "cloudflared-darwin-amd64.tgz",
-            "version": "2026.8.2",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tgz",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-darwin-amd64.tgz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21116242
-          },
-          {
-            "id": "cloudflared-darwin-arm64.tgz",
-            "version": "2026.8.2",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tgz",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-darwin-arm64.tgz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19214189
-          },
-          {
-            "id": "cloudflared-fips-linux-amd64",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-fips-linux-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 42495432
-          },
-          {
-            "id": "cloudflared-fips-linux-amd64.deb",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-fips-linux-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19836780
-          },
-          {
-            "id": "cloudflared-fips-linux-x86_64.rpm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-fips-linux-x86_64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19830095
-          },
-          {
-            "id": "cloudflared-linux-386",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-386",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 37102345
-          },
-          {
-            "id": "cloudflared-linux-386.deb",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-386.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18348090
-          },
-          {
-            "id": "cloudflared-linux-386.rpm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "rpm",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-386.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18328542
-          },
-          {
-            "id": "cloudflared-linux-aarch64.rpm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "rpm",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-aarch64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17656472
-          },
-          {
-            "id": "cloudflared-linux-amd64",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 39799316
-          },
-          {
-            "id": "cloudflared-linux-amd64.deb",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19146390
-          },
-          {
-            "id": "cloudflared-linux-arm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-arm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36288720
-          },
-          {
-            "id": "cloudflared-linux-arm.deb",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-arm.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17612786
-          },
-          {
-            "id": "cloudflared-linux-arm.rpm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "rpm",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-arm.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17598522
-          },
-          {
-            "id": "cloudflared-linux-arm64",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 37404344
-          },
-          {
-            "id": "cloudflared-linux-arm64.deb",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17661398
-          },
-          {
-            "id": "cloudflared-linux-armhf",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-armhf",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36166521
-          },
-          {
-            "id": "cloudflared-linux-armhf.deb",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-armhf.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17601768
-          },
-          {
-            "id": "cloudflared-linux-armhf.rpm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "rpm",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-armhf.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17585664
-          },
-          {
-            "id": "cloudflared-linux-x86_64.rpm",
-            "version": "2026.8.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-linux-x86_64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19139700
-          },
-          {
-            "id": "cloudflared-windows-386.exe",
-            "version": "2026.8.2",
-            "platform": "windows",
-            "architecture": null,
-            "type": "exe",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-windows-386.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 37369480
-          },
-          {
-            "id": "cloudflared-windows-386.msi",
-            "version": "2026.8.2",
-            "platform": "windows",
-            "architecture": null,
-            "type": "msi",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-windows-386.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19090432
-          },
-          {
-            "id": "cloudflared-windows-amd64.exe",
-            "version": "2026.8.2",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "exe",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-windows-amd64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 54893480
-          },
-          {
-            "id": "cloudflared-windows-amd64.msi",
-            "version": "2026.8.2",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.2/cloudflared-windows-amd64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19357696
-          },
-          {
-            "id": "cloudflared-amd64.pkg",
-            "version": "2026.8.1",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "pkg",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.1/cloudflared-amd64.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21131726
-          },
-          {
-            "id": "cloudflared-arm64.pkg",
-            "version": "2026.8.1",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "pkg",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.8.1/cloudflared-arm64.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19229821
           }
         ],
         "commands": [],
@@ -2745,7 +2745,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-11T11:19:11.095Z",
+          "lastSuccessfulScanAt": "2026-09-11T16:27:20.300Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
