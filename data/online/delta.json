@@ -1,58 +1,113 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T20:51:38.258Z",
-  "fromGeneratedAt": "2026-09-10T16:23:57.241Z",
-  "toGeneratedAt": "2026-09-10T20:51:38.258Z",
-  "status": "ok",
+  "generatedAt": "2026-09-11T04:38:37.087Z",
+  "fromGeneratedAt": "2026-09-10T20:51:38.258Z",
+  "toGeneratedAt": "2026-09-11T04:38:37.087Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 8,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
-    "qualityChanges": 0
+    "versionChanges": 10,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "uv",
+      "terraform",
+      "opentofu",
       "aws_cli",
-      "stripe_cli"
+      "rstudio",
+      "stripe_cli",
+      "supabase_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "0.12.12",
         "to": "0.12.13"
       },
       {
         "toolId": "uv",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "0.12.12",
         "to": "0.12.13"
       },
       {
+        "toolId": "terraform",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.15.8",
+        "to": "1.15.9"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.12.5",
+        "to": "1.12.6"
+      },
+      {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.36.42",
         "to": "2.36.43"
       },
       {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.42",
+        "to": "2.36.43"
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.08.2,200",
+        "to": "2026.09.0,174"
+      },
+      {
         "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.50.10",
         "to": "1.50.11"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.118.0-beta.21",
+        "to": "2.118.0-beta.23"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.21.1.65535",
+        "to": "3.21.2.65535"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }
