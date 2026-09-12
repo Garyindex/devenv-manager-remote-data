@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T20:57:35.793Z",
-  "fromGeneratedAt": "2026-09-11T16:27:36.498Z",
-  "toGeneratedAt": "2026-09-11T20:57:35.793Z",
+  "generatedAt": "2026-09-12T04:33:24.583Z",
+  "fromGeneratedAt": "2026-09-11T20:57:35.793Z",
+  "toGeneratedAt": "2026-09-12T04:33:24.583Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,67 +10,80 @@
     "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
-    "qualityChanges": 1
+    "versionChanges": 8,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "fzf",
       "pnpm",
       "aws_cli",
-      "cloudflared",
-      "postman",
+      "flutter",
       "supabase_cli",
-      "blender"
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
+        "toolId": "fzf",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.4.0",
+        "from": "0.74.3",
+        "to": "0.74.4"
+      },
+      {
+        "toolId": "fzf",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.74.3",
+        "to": "0.74.4"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.3.4",
         "to": "12.4.1"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.36.43",
         "to": "2.36.44"
       },
       {
-        "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2026.9.0",
-        "to": "2026.9.1"
+        "toolId": "flutter",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.47.3",
+        "to": "3.47.4"
       },
       {
-        "toolId": "postman",
+        "toolId": "flutter",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.27.6",
-        "to": "12.27.7"
+        "from": "3.47.3",
+        "to": "3.47.4"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.118.0-beta.25",
-        "to": "2.118.0-beta.26"
+        "from": "2.118.0-beta.26",
+        "to": "2.118.0-beta.27"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.21.1",
+        "to": "3.21.2"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "blender",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
