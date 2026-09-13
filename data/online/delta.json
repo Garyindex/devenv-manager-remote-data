@@ -1,33 +1,57 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T20:33:11.432Z",
-  "fromGeneratedAt": "2026-09-12T15:31:17.382Z",
-  "toGeneratedAt": "2026-09-12T20:33:11.432Z",
+  "generatedAt": "2026-09-13T04:46:15.500Z",
+  "fromGeneratedAt": "2026-09-12T20:33:11.432Z",
+  "toGeneratedAt": "2026-09-13T04:46:15.500Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "bun"
+      "miniconda",
+      "cloudflared",
+      "supabase_cli",
+      "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "bun",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.4.0",
-        "to": "1.4.2"
+        "toolId": "miniconda",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.10.1",
+        "to": "4.12.0"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.9.0",
+        "to": "2026.9.1"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.118.0-beta.27",
+        "to": "2.118.0-beta.28"
+      },
+      {
+        "toolId": "php",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "8.5.10",
+        "to": "8.5.9"
       }
     ],
     "qualityChanges": []
