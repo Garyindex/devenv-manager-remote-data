@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T04:54:56.672Z",
+  "generatedAt": "2026-09-14T12:44:12.653Z",
   "status": "ok",
   "tool": {
     "id": "miniconda",
@@ -25,10 +25,10 @@
     },
     "descriptions": {
       "short": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for...",
-      "long": "Conda is a cross-platform, Python-agnostic binary package manager by Continuum. By default, this installation: will not add miniconda python to path, will register miniconda python at default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path)",
+      "long": "This is a community-maintained package. It is not maintained by or affiliated with Anaconda, Inc. Conda is a cross-platform, Python-agnostic binary package manager. Miniconda is the minimal distribution that ships conda and Python and nothing else, so you build the environment you want rather than removing what you do not. This package downloads Anaconda's official Windows x86 64 installer at install time directly from repo.anaconda.com, verifies it against the SHA256 Anaconda publishes beside the file, and installs it silently. By default, this installation: will not add miniconda python to path, will register miniconda python as the default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path) /Force Upgrading replaces the installation. Miniconda's installer will not write over an existing one, so an upgrade removes it first. If the installation directory contains conda environmen...",
       "source": "choco",
-      "homepage": "http://conda.pydata.org/miniconda.html",
-      "lastUpdatedAt": "2026-09-14T04:54:10.401Z"
+      "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
+      "lastUpdatedAt": "2026-09-14T12:43:33.890Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T04:54:10.131Z",
+          "scannedAt": "2026-09-14T12:43:33.673Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Miniconda is a free minimal installer for conda. It is a small bootstrap version of Anaconda that includes only conda, Python, the packages they both depend on, and a small number of other useful packages (like pip, zlib, and a few others). If you need more packages, use the conda install command to install from thousands of packages available by default in Anaconda’s public repo, or from other channels, like conda-forge or bioconda.",
           "source": "winget",
           "homepage": "https://docs.anaconda.com/free/miniconda/",
-          "lastUpdatedAt": "2026-09-14T04:54:10.131Z"
+          "lastUpdatedAt": "2026-09-14T12:43:33.673Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -248,7 +248,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T04:54:10.131Z",
+          "lastSuccessfulScanAt": "2026-09-14T12:43:33.673Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -294,7 +294,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T04:54:10.265Z",
+          "scannedAt": "2026-09-14T12:43:33.715Z",
           "errors": []
         },
         "package": {
@@ -320,7 +320,7 @@
           "long": "Minimal installer for conda",
           "source": "homebrew",
           "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-          "lastUpdatedAt": "2026-09-14T04:54:10.265Z"
+          "lastUpdatedAt": "2026-09-14T12:43:33.715Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -427,7 +427,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T04:54:10.265Z",
+          "lastSuccessfulScanAt": "2026-09-14T12:43:33.715Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -473,7 +473,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T04:54:10.292Z",
+          "scannedAt": "2026-09-14T12:43:33.748Z",
           "errors": []
         },
         "package": {
@@ -499,7 +499,7 @@
           "long": "A cross-platform, Python-agnostic binary package manager",
           "source": "scoop",
           "homepage": "https://docs.anaconda.com/miniconda/",
-          "lastUpdatedAt": "2026-09-14T04:54:10.292Z"
+          "lastUpdatedAt": "2026-09-14T12:43:33.748Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -605,7 +605,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T04:54:10.292Z",
+          "lastSuccessfulScanAt": "2026-09-14T12:43:33.748Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -651,16 +651,16 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T04:54:10.401Z",
+          "scannedAt": "2026-09-14T12:43:33.890Z",
           "errors": []
         },
         "package": {
-          "name": "Miniconda (Python 3.9)",
-          "publisher": "Continuum Analytics",
-          "author": "Continuum Analytics",
+          "name": "Miniconda (Python 3.13)",
+          "publisher": "Anaconda, Inc.",
+          "author": "Anaconda, Inc.",
           "description": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for C libraries. Conda is written entirely in Python, and is BSD licensed open source.",
           "license": null,
-          "licenseUrl": "https://github.com/conda/conda/blob/master/LICENSE.txt",
+          "licenseUrl": "https://github.com/conda/conda/blob/main/LICENSE",
           "tags": [
             "conda",
             "anaconda",
@@ -670,17 +670,17 @@
           ]
         },
         "links": {
-          "homepage": "http://conda.pydata.org/miniconda.html",
-          "download": "https://community.chocolatey.org/api/v2/package/miniconda3/4.12.0",
-          "releases": "",
+          "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
+          "download": "https://community.chocolatey.org/api/v2/package/miniconda3/26.7.1.1",
+          "releases": "https://github.com/conda/conda/blob/main/CHANGELOG.md",
           "docs": null
         },
         "descriptions": {
           "short": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for...",
-          "long": "Conda is a cross-platform, Python-agnostic binary package manager by Continuum. By default, this installation: will not add miniconda python to path, will register miniconda python at default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path)",
+          "long": "This is a community-maintained package. It is not maintained by or affiliated with Anaconda, Inc. Conda is a cross-platform, Python-agnostic binary package manager. Miniconda is the minimal distribution that ships conda and Python and nothing else, so you build the environment you want rather than removing what you do not. This package downloads Anaconda's official Windows x86 64 installer at install time directly from repo.anaconda.com, verifies it against the SHA256 Anaconda publishes beside the file, and installs it silently. By default, this installation: will not add miniconda python to path, will register miniconda python as the default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path) /Force Upgrading replaces the installation. Miniconda's installer will not write over an existing one, so an upgrade removes it first. If the installation directory contains conda environmen...",
           "source": "choco",
-          "homepage": "http://conda.pydata.org/miniconda.html",
-          "lastUpdatedAt": "2026-09-14T04:54:10.401Z"
+          "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
+          "lastUpdatedAt": "2026-09-14T12:43:33.890Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -704,9 +704,19 @@
         },
         "versions": [
           {
-            "version": "4.12.0",
+            "version": "26.7.1.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.12.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -907,14 +917,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.12.0",
+            "version": "26.7.1.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/miniconda3/4.12.0",
+            "url": "https://community.chocolatey.org/api/v2/package/miniconda3/26.7.1.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "kgTJKepNxZN8H3A0f6K7TTYEUzrUupC1/X5aWHEKRPIoTsKDrXfBN05HOwKG70jjHI3/M85xystUWtxDyZ+qNg==",
+            "sha256": "sYDeqKm2C7md/F6VF5TTF1kOldHSxVIG6t7dxqAd98pXNSVGk4OVEhtgg6SPDJacE76F197aQJ8d66705xO6JQ==",
             "sizeBytes": null
           }
         ],
@@ -986,7 +996,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T04:54:10.401Z",
+          "lastSuccessfulScanAt": "2026-09-14T12:43:33.890Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
