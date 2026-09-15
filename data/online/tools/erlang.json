@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T21:49:15.761Z",
-  "status": "partial",
+  "generatedAt": "2026-09-15T04:53:12.792Z",
+  "status": "ok",
   "tool": {
     "id": "erlang",
     "name": "Erlang/OTP",
@@ -29,7 +29,7 @@
       "long": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. Features Concurrency - Lightweight processes with message passing Distribution - Built-in support for distributed systems Fault Tolerance - Supervision trees and hot code swapping Soft Real-Time - Predictable low-latency response times High Availability - Design for systems that never stop Use Cases Erlang is used in telecoms, banking, e-commerce, instant messaging, and any system requiring high availability and scalability. Learn more at erlang.org.",
       "source": "choco",
       "homepage": "http://www.erlang.org/",
-      "lastUpdatedAt": "2026-09-14T21:49:11.427Z"
+      "lastUpdatedAt": "2026-09-15T04:53:09.446Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,33 +97,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-14T21:49:11.307Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-15T04:53:09.154Z",
+          "errors": []
         },
         "package": {
           "name": "Erlang/OTP",
-          "publisher": null,
+          "publisher": "Ericsson AB",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/erlang/otp/blob/HEAD/LICENSE.txt",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.erlang.org/",
-          "download": "https://www.erlang.org/",
-          "releases": null,
+          "homepage": "https://www.erlang.org/downloads",
+          "download": "https://github.com/erlang/otp/releases/download/OTP-29.0.6/otp_win64_29.0.6.exe",
+          "releases": "https://github.com/erlang/otp/releases/tag/OTP-29.0.6",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
+          "long": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
           "source": "winget",
-          "homepage": "https://www.erlang.org/",
-          "lastUpdatedAt": "2026-09-14T21:49:11.307Z"
+          "homepage": "https://www.erlang.org/downloads",
+          "lastUpdatedAt": "2026-09-15T04:53:09.154Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -450,11 +448,11 @@
             "version": "29.0.6",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.erlang.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://github.com/erlang/otp/releases/download/OTP-29.0.6/otp_win64_29.0.6.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "d2f4fd611501a581b278439ddacfdf7a95f61e4a393dfa095cb6eff9b38fd3ff",
             "sizeBytes": null
           }
         ],
@@ -549,11 +547,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-09-15T04:53:09.154Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -599,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T21:49:11.328Z",
+          "scannedAt": "2026-09-15T04:53:09.255Z",
           "errors": []
         },
         "package": {
@@ -625,7 +623,7 @@
           "long": "Programming language for highly scalable real-time systems",
           "source": "homebrew",
           "homepage": "https://www.erlang.org/",
-          "lastUpdatedAt": "2026-09-14T21:49:11.328Z"
+          "lastUpdatedAt": "2026-09-15T04:53:09.255Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -762,7 +760,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T21:49:11.328Z",
+          "lastSuccessfulScanAt": "2026-09-15T04:53:09.255Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -808,7 +806,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T21:49:11.349Z",
+          "scannedAt": "2026-09-15T04:53:09.334Z",
           "errors": []
         },
         "package": {
@@ -834,7 +832,7 @@
           "long": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
           "source": "scoop",
           "homepage": "https://www.erlang.org",
-          "lastUpdatedAt": "2026-09-14T21:49:11.349Z"
+          "lastUpdatedAt": "2026-09-15T04:53:09.334Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -940,7 +938,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T21:49:11.349Z",
+          "lastSuccessfulScanAt": "2026-09-15T04:53:09.334Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -986,7 +984,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-14T21:49:11.427Z",
+          "scannedAt": "2026-09-15T04:53:09.446Z",
           "errors": []
         },
         "package": {
@@ -1012,7 +1010,7 @@
           "long": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. Features Concurrency - Lightweight processes with message passing Distribution - Built-in support for distributed systems Fault Tolerance - Supervision trees and hot code swapping Soft Real-Time - Predictable low-latency response times High Availability - Design for systems that never stop Use Cases Erlang is used in telecoms, banking, e-commerce, instant messaging, and any system requiring high availability and scalability. Learn more at erlang.org.",
           "source": "choco",
           "homepage": "http://www.erlang.org/",
-          "lastUpdatedAt": "2026-09-14T21:49:11.427Z"
+          "lastUpdatedAt": "2026-09-15T04:53:09.446Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1416,7 +1414,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-14T21:49:11.427Z",
+          "lastSuccessfulScanAt": "2026-09-15T04:53:09.446Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
