@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T15:53:24.594Z",
-  "status": "partial",
+  "generatedAt": "2026-09-19T20:39:15.968Z",
+  "status": "ok",
   "tool": {
     "id": "poetry",
     "name": "Poetry",
@@ -29,7 +29,7 @@
       "long": "Python packaging and dependency management made easy",
       "source": "github",
       "homepage": "https://python-poetry.org",
-      "lastUpdatedAt": "2026-09-19T15:52:41.578Z"
+      "lastUpdatedAt": "2026-09-19T20:38:33.363Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-19T15:52:41.531Z",
+          "scannedAt": "2026-09-19T20:38:33.323Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "Python package management tool",
           "source": "homebrew",
           "homepage": "https://python-poetry.org/",
-          "lastUpdatedAt": "2026-09-19T15:52:41.531Z"
+          "lastUpdatedAt": "2026-09-19T20:38:33.323Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -229,7 +229,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-19T15:52:41.531Z",
+          "lastSuccessfulScanAt": "2026-09-19T20:38:33.323Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -275,7 +275,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-19T15:52:41.567Z",
+          "scannedAt": "2026-09-19T20:38:33.354Z",
           "errors": []
         },
         "package": {
@@ -301,7 +301,7 @@
           "long": "Dependency Management for Python",
           "source": "scoop",
           "homepage": "https://python-poetry.org/",
-          "lastUpdatedAt": "2026-09-19T15:52:41.567Z"
+          "lastUpdatedAt": "2026-09-19T20:38:33.354Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -322,7 +322,7 @@
         },
         "versions": [
           {
-            "version": "2.4.3",
+            "version": "2.5.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -335,7 +335,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.4.3",
+            "version": "2.5.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -406,7 +406,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-19T15:52:41.567Z",
+          "lastSuccessfulScanAt": "2026-09-19T20:38:33.354Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -454,7 +454,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-19T15:52:41.578Z",
+          "scannedAt": "2026-09-19T20:38:33.363Z",
           "errors": []
         },
         "package": {
@@ -483,7 +483,7 @@
           "long": "Python packaging and dependency management made easy",
           "source": "github",
           "homepage": "https://python-poetry.org",
-          "lastUpdatedAt": "2026-09-19T15:52:41.578Z"
+          "lastUpdatedAt": "2026-09-19T20:38:33.363Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -507,9 +507,19 @@
         },
         "versions": [
           {
-            "version": "2.4.3",
+            "version": "2.5.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-09-19T18:12:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/2.5.0"
+          },
+          {
+            "version": "2.4.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-09-05T08:58:02Z",
@@ -795,19 +805,33 @@
             "releaseDate": "2023-05-29T16:05:27Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.5.1"
-          },
-          {
-            "version": "1.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2023-05-19T12:27:22Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/python-poetry/poetry/releases/tag/1.5.0"
           }
         ],
         "downloads": [
+          {
+            "id": "poetry-2.5.0-py3-none-any.whl",
+            "version": "2.5.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.5.0/poetry-2.5.0-py3-none-any.whl",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 307277
+          },
+          {
+            "id": "poetry-2.5.0.tar.gz",
+            "version": "2.5.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/python-poetry/poetry/releases/download/2.5.0/poetry-2.5.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3321826
+          },
           {
             "id": "poetry-2.4.3-py3-none-any.whl",
             "version": "2.4.3",
@@ -1503,30 +1527,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 1469755
-          },
-          {
-            "id": "poetry-1.5.0-py3-none-any.whl",
-            "version": "1.5.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/python-poetry/poetry/releases/download/1.5.0/poetry-1.5.0-py3-none-any.whl",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 224464
-          },
-          {
-            "id": "poetry-1.5.0.tar.gz",
-            "version": "1.5.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/python-poetry/poetry/releases/download/1.5.0/poetry-1.5.0.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1467007
           }
         ],
         "commands": [],
@@ -1534,7 +1534,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-19T15:52:41.578Z",
+          "lastSuccessfulScanAt": "2026-09-19T20:38:33.363Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
