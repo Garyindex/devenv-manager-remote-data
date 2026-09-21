@@ -1,73 +1,97 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T12:46:14.741Z",
-  "fromGeneratedAt": "2026-09-21T04:54:29.420Z",
-  "toGeneratedAt": "2026-09-21T12:46:14.741Z",
-  "status": "partial",
+  "generatedAt": "2026-09-21T21:58:41.431Z",
+  "fromGeneratedAt": "2026-09-21T12:46:14.741Z",
+  "toGeneratedAt": "2026-09-21T21:58:41.431Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 9,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_desktop",
+      "vim",
       "bat",
       "pnpm",
-      "poetry",
-      "insomnia",
-      "dbeaver",
+      "pipx",
+      "docker_desktop",
+      "aws_cli",
+      "stripe_cli",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
+        "toolId": "github_desktop",
         "sourceId": "choco",
         "manager": "choco",
+        "from": "3.6.5",
+        "to": "3.6.6"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.2.1119",
+        "to": "9.2.1122"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.4.2",
         "to": "12.5.1"
       },
       {
-        "toolId": "poetry",
+        "toolId": "pipx",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.5.0",
-        "to": "2.5.1"
+        "from": "1.17.4",
+        "to": "1.17.5"
       },
       {
-        "toolId": "insomnia",
+        "toolId": "docker_desktop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.91.0,239619",
+        "to": "4.92.0,240144"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.49",
+        "to": "2.36.50"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.49",
+        "to": "2.36.50"
+      },
+      {
+        "toolId": "stripe_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "core@13.3.0-beta.0",
-        "to": "core@13.3.0-beta.1"
-      },
-      {
-        "toolId": "dbeaver",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "26.2.0",
-        "to": "26.2.1"
-      },
-      {
-        "toolId": "dbeaver",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "26.2.0",
-        "to": "26.2.1"
+        "from": "1.51.0",
+        "to": "1.51.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.118.0-beta.55",
-        "to": "2.118.0-beta.57"
+        "from": "2.118.0-beta.57",
+        "to": "2.118.0-beta.60"
       }
     ],
     "qualityChanges": [
@@ -75,8 +99,8 @@
         "toolId": "bat",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
