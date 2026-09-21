@@ -1,50 +1,83 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T04:54:29.420Z",
-  "fromGeneratedAt": "2026-09-20T20:48:31.238Z",
-  "toGeneratedAt": "2026-09-21T04:54:29.420Z",
-  "status": "ok",
+  "generatedAt": "2026-09-21T12:46:14.741Z",
+  "fromGeneratedAt": "2026-09-21T04:54:29.420Z",
+  "toGeneratedAt": "2026-09-21T12:46:14.741Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 3,
-    "qualityChanges": 0
+    "versionChanges": 6,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "bat",
+      "pnpm",
       "poetry",
-      "dbeaver"
+      "insomnia",
+      "dbeaver",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "pnpm",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.4.2",
+        "to": "12.5.1"
+      },
+      {
         "toolId": "poetry",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.4.3",
-        "to": "2.5.0"
+        "from": "2.5.0",
+        "to": "2.5.1"
       },
       {
-        "toolId": "dbeaver",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "26.2.0",
-        "to": "26.2.1"
-      },
-      {
-        "toolId": "dbeaver",
+        "toolId": "insomnia",
         "sourceId": "github",
         "manager": "github",
+        "from": "core@13.3.0-beta.0",
+        "to": "core@13.3.0-beta.1"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "26.2.0",
         "to": "26.2.1"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "26.2.0",
+        "to": "26.2.1"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.118.0-beta.55",
+        "to": "2.118.0-beta.57"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "bat",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }
