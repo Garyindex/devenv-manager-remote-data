@@ -1,33 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T20:48:31.238Z",
-  "fromGeneratedAt": "2026-09-20T16:04:58.339Z",
-  "toGeneratedAt": "2026-09-20T20:48:31.238Z",
+  "generatedAt": "2026-09-21T04:54:29.420Z",
+  "fromGeneratedAt": "2026-09-20T20:48:31.238Z",
+  "toGeneratedAt": "2026-09-21T04:54:29.420Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 2,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 3,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "pipx"
+      "poetry",
+      "dbeaver"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pipx",
+        "toolId": "poetry",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.4.3",
+        "to": "2.5.0"
+      },
+      {
+        "toolId": "dbeaver",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.17.4",
-        "to": "1.17.5"
+        "from": "26.2.0",
+        "to": "26.2.1"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "26.2.0",
+        "to": "26.2.1"
       }
     ],
     "qualityChanges": []
