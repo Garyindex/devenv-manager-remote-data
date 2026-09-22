@@ -1,56 +1,87 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T11:36:53.143Z",
-  "fromGeneratedAt": "2026-09-22T04:54:23.080Z",
-  "toGeneratedAt": "2026-09-22T11:36:53.143Z",
+  "generatedAt": "2026-09-22T16:57:20.663Z",
+  "fromGeneratedAt": "2026-09-22T11:36:53.143Z",
+  "toGeneratedAt": "2026-09-22T16:57:20.663Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "llvm",
-      "postman"
+      "node_current",
+      "aws_cli",
+      "google_cloud_sdk",
+      "postman",
+      "netlify_cli",
+      "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "node_current",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.9.0",
+        "to": "26.10.0"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.1122",
-        "to": "9.2.1125"
+        "from": "2.36.49",
+        "to": "2.36.50"
       },
       {
-        "toolId": "llvm",
+        "toolId": "google_cloud_sdk",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "23.1.1",
-        "to": "23.1.2"
+        "from": "585.0.0",
+        "to": "586.0.0"
       },
       {
         "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.28.6",
+        "to": "12.29.1"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.8.0",
+        "to": "27.8.1"
+      },
+      {
+        "toolId": "erlang",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.28.6",
-        "to": "12.29.1"
+        "from": "29.1",
+        "to": "29.1.1"
       },
       {
-        "toolId": "postman",
+        "toolId": "erlang",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.28.6",
-        "to": "12.29.1"
+        "from": "29.1",
+        "to": "29.1.1"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.1.0",
+        "to": "29.1.1"
       }
     ],
     "qualityChanges": []
