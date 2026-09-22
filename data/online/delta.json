@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T16:57:20.663Z",
-  "fromGeneratedAt": "2026-09-22T11:36:53.143Z",
-  "toGeneratedAt": "2026-09-22T16:57:20.663Z",
+  "generatedAt": "2026-09-22T21:18:02.160Z",
+  "fromGeneratedAt": "2026-09-22T16:57:20.663Z",
+  "toGeneratedAt": "2026-09-22T21:18:02.160Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
+    "versionChanges": 11,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,10 +18,14 @@
     "removedTools": [],
     "changedTools": [
       "node_current",
+      "pnpm",
+      "nvm_windows",
+      "llvm",
       "aws_cli",
       "google_cloud_sdk",
       "postman",
-      "netlify_cli",
+      "mariadb",
+      "php",
       "erlang"
     ],
     "addedSources": [],
@@ -29,58 +33,79 @@
     "versionChanges": [
       {
         "toolId": "node_current",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "26.9.0",
         "to": "26.10.0"
       },
       {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.5.1",
+        "to": "12.6.0"
+      },
+      {
+        "toolId": "nvm_windows",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.0.1-hotfix.2",
+        "to": "2.0.1-beta.1"
+      },
+      {
+        "toolId": "llvm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "23.1.1",
+        "to": "23.1.2"
+      },
+      {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.49",
-        "to": "2.36.50"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.50",
+        "to": "2.37.0"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.50",
+        "to": "2.37.0"
       },
       {
         "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "585.0.0",
         "to": "586.0.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.28.6",
         "to": "12.29.1"
       },
       {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.8.0",
-        "to": "27.8.1"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "29.1",
-        "to": "29.1.1"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.1",
-        "to": "29.1.1"
-      },
-      {
-        "toolId": "erlang",
+        "toolId": "mariadb",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "29.1.0",
+        "from": "10.11.19",
+        "to": "13.0.2"
+      },
+      {
+        "toolId": "php",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "8.4.25",
+        "to": "8.2.34"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "29.1",
         "to": "29.1.1"
       }
     ],
