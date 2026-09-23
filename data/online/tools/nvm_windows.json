@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T21:18:02.160Z",
+  "generatedAt": "2026-09-23T04:44:21.852Z",
   "status": "ok",
   "tool": {
     "id": "nvm_windows",
@@ -27,7 +27,7 @@
       "long": "NVM for Windows Overview Manage multiple installations of Node.js on a Windows computer. Version 2 is a complete rewrite of NVM for Windows. Highlights: - No administrator rights required. The default \"shim\" mode needs no special permissions; \"link\" mode uses NTFS junctions for zero latency. - Per-directory version switching using .nvmrc , .node-version , package.json , or custom runtime config files, with optional on-demand installs. - Parallel installations and faster downloads. - Publisher verification to prevent untrusted Node.js swaps, native Windows event logging, and unified package manager handling. Full documentation: https://docs.nvm-windows.com Package notes - The installer is per-user. It installs under the local AppData of the account running the install and adds itself to that user's PATH. Chocolatey runs elevated, so NVM is set up for the elevated user. - Upgrading from the previous 1.x package runs the installer's built-in v1 migration. It copies your settings and every installed Node.js version into the new per-user folder, then removes the 1.x install and its system environment variables. - The migration is slow. Expect 10 to 30 minutes, longer with many Node.j...",
       "source": "choco",
       "homepage": "https://github.com/nvm-windows/nvm",
-      "lastUpdatedAt": "2026-09-22T21:17:17.894Z"
+      "lastUpdatedAt": "2026-09-23T04:43:38.987Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,30 +96,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-22T21:17:17.616Z",
+          "scannedAt": "2026-09-23T04:43:38.650Z",
           "errors": []
         },
         "package": {
           "name": "nvm-windows",
-          "publisher": "Ecor Ventures LLC",
-          "author": null,
-          "description": "A node.js version management utility for Windows. Ironically written in Go.",
+          "publisher": "Author Software Inc.",
+          "author": "Author Software Inc.",
+          "description": "NVM for Windows is the Microsoft/npm/Google recommended Node.js version manager for Windows. It manages multiple installations of Node.js side by side and lets you switch between them.",
           "license": "MIT",
-          "licenseUrl": "https://github.com/coreybutler/nvm-windows/blob/HEAD/LICENSE",
+          "licenseUrl": "https://github.com/nvm-windows/nvm/blob/HEAD/installer/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://github.com/coreybutler/nvm-windows",
-          "download": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe",
-          "releases": "https://github.com/coreybutler/nvm-windows/releases/tag/1.2.2",
+          "homepage": "https://nvm-windows.com/",
+          "download": "https://github.com/nvm-windows/nvm/releases/download/v2.0.0/nvm-2.0.0-amd64-setup.exe",
+          "releases": "https://github.com/nvm-windows/nvm/releases/tag/v2.0.0",
           "docs": null
         },
         "descriptions": {
-          "short": "A node.js version management utility for Windows. Ironically written in Go.",
-          "long": "A node.js version management utility for Windows. Ironically written in Go.",
+          "short": "NVM for Windows is the Microsoft/npm/Google recommended Node.js version manager for Windows. It manages multiple installations of Node.js side by side and lets you switch between them.",
+          "long": "NVM for Windows is the Microsoft/npm/Google recommended Node.js version manager for Windows. It manages multiple installations of Node.js side by side and lets you switch between them.",
           "source": "winget",
-          "homepage": "https://github.com/coreybutler/nvm-windows",
-          "lastUpdatedAt": "2026-09-22T21:17:17.616Z"
+          "homepage": "https://nvm-windows.com/",
+          "lastUpdatedAt": "2026-09-23T04:43:38.650Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "1.2.2",
+            "version": "2.0.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -203,14 +213,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.2.2",
+            "version": "2.0.0",
             "platform": "windows",
             "architecture": null,
             "type": "inno",
-            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe",
+            "url": "https://github.com/nvm-windows/nvm/releases/download/v2.0.0/nvm-2.0.0-amd64-setup.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "2d5ad523aa6182205da77c0eb8210638aaa8792f4e6a4bc12e1ac854c5455a68",
+            "sha256": "afaee67d3d7bc8ccad0b1b06f63b0f2d6b008bc7e55d5205043f095b4906ac11",
             "sizeBytes": null
           }
         ],
@@ -308,7 +318,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-22T21:17:17.616Z",
+          "lastSuccessfulScanAt": "2026-09-23T04:43:38.650Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -354,7 +364,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-22T21:17:17.758Z",
+          "scannedAt": "2026-09-23T04:43:38.964Z",
           "errors": []
         },
         "package": {
@@ -380,7 +390,7 @@
           "long": "A node.js version management utility for Windows.",
           "source": "scoop",
           "homepage": "https://github.com/nvm-windows/nvm",
-          "lastUpdatedAt": "2026-09-22T21:17:17.758Z"
+          "lastUpdatedAt": "2026-09-23T04:43:38.964Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -486,7 +496,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-22T21:17:17.758Z",
+          "lastSuccessfulScanAt": "2026-09-23T04:43:38.964Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -532,7 +542,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-22T21:17:17.894Z",
+          "scannedAt": "2026-09-23T04:43:38.987Z",
           "errors": []
         },
         "package": {
@@ -563,7 +573,7 @@
           "long": "NVM for Windows Overview Manage multiple installations of Node.js on a Windows computer. Version 2 is a complete rewrite of NVM for Windows. Highlights: - No administrator rights required. The default \"shim\" mode needs no special permissions; \"link\" mode uses NTFS junctions for zero latency. - Per-directory version switching using .nvmrc , .node-version , package.json , or custom runtime config files, with optional on-demand installs. - Parallel installations and faster downloads. - Publisher verification to prevent untrusted Node.js swaps, native Windows event logging, and unified package manager handling. Full documentation: https://docs.nvm-windows.com Package notes - The installer is per-user. It installs under the local AppData of the account running the install and adds itself to that user's PATH. Chocolatey runs elevated, so NVM is set up for the elevated user. - Upgrading from the previous 1.x package runs the installer's built-in v1 migration. It copies your settings and every installed Node.js version into the new per-user folder, then removes the 1.x install and its system environment variables. - The migration is slow. Expect 10 to 30 minutes, longer with many Node.j...",
           "source": "choco",
           "homepage": "https://github.com/nvm-windows/nvm",
-          "lastUpdatedAt": "2026-09-22T21:17:17.894Z"
+          "lastUpdatedAt": "2026-09-23T04:43:38.987Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -752,7 +762,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-22T21:17:17.894Z",
+          "lastSuccessfulScanAt": "2026-09-23T04:43:38.987Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -798,7 +808,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-22T21:17:18.025Z",
+          "scannedAt": "2026-09-23T04:43:39.049Z",
           "errors": []
         },
         "package": {
@@ -829,7 +839,7 @@
           "long": "The Node.js version manager for Windows.",
           "source": "github",
           "homepage": "https://github.com/nvm-windows/nvm",
-          "lastUpdatedAt": "2026-09-22T21:17:18.025Z"
+          "lastUpdatedAt": "2026-09-23T04:43:39.049Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2123,7 +2133,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-22T21:17:18.025Z",
+          "lastSuccessfulScanAt": "2026-09-23T04:43:39.049Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

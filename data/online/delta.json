@@ -1,112 +1,86 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T21:18:02.160Z",
-  "fromGeneratedAt": "2026-09-22T16:57:20.663Z",
-  "toGeneratedAt": "2026-09-22T21:18:02.160Z",
+  "generatedAt": "2026-09-23T04:44:21.852Z",
+  "fromGeneratedAt": "2026-09-22T21:18:02.160Z",
+  "toGeneratedAt": "2026-09-23T04:44:21.852Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "node_current",
-      "pnpm",
       "nvm_windows",
-      "llvm",
+      "uv",
+      "pipx",
       "aws_cli",
-      "google_cloud_sdk",
-      "postman",
-      "mariadb",
-      "php",
-      "erlang"
+      "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "26.9.0",
-        "to": "26.10.0"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.5.1",
-        "to": "12.6.0"
-      },
-      {
         "toolId": "nvm_windows",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.0.1-hotfix.2",
-        "to": "2.0.1-beta.1"
-      },
-      {
-        "toolId": "llvm",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "23.1.1",
-        "to": "23.1.2"
+        "from": "1.2.2",
+        "to": "2.0.0"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.17",
+        "to": "0.12.18"
+      },
+      {
+        "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.36.50",
-        "to": "2.37.0"
+        "from": "0.12.17",
+        "to": "0.12.18"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.12.17",
+        "to": "0.12.18"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.17",
+        "to": "0.12.18"
+      },
+      {
+        "toolId": "pipx",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.17.5",
+        "to": "1.17.6"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.36.50",
         "to": "2.37.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "585.0.0",
-        "to": "586.0.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.28.6",
-        "to": "12.29.1"
-      },
-      {
-        "toolId": "mariadb",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "10.11.19",
-        "to": "13.0.2"
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "8.4.25",
-        "to": "8.2.34"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "29.1",
-        "to": "29.1.1"
+        "from": "8.2.34",
+        "to": "8.5.11"
       }
     ],
     "qualityChanges": []
