@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "aws_cli",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to th...",
-      "long": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program.",
-      "source": "winget",
+      "short": "The AWS CLI is an open source tool built on top of the AWS SDK for Python (Boto) that provides commands for interacting with AWS services.",
+      "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
+      "source": "choco",
       "homepage": "https://aws.amazon.com/cli/",
-      "lastUpdatedAt": "2026-09-24T11:45:35.070Z"
+      "lastUpdatedAt": "2026-09-24T17:09:41.701Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:35.070Z",
+          "scannedAt": "2026-09-24T17:09:41.300Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program.",
           "source": "winget",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-24T11:45:35.070Z"
+          "lastUpdatedAt": "2026-09-24T17:09:41.300Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:35.070Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:41.300Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:35.749Z",
+          "scannedAt": "2026-09-24T17:09:41.617Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Official Amazon AWS command-line interface",
           "source": "homebrew",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-24T11:45:35.749Z"
+          "lastUpdatedAt": "2026-09-24T17:09:41.617Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -740,7 +740,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:35.749Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:41.617Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -786,7 +786,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:35.817Z",
+          "scannedAt": "2026-09-24T17:09:41.631Z",
           "errors": []
         },
         "package": {
@@ -812,7 +812,7 @@
           "long": "Unified tool to manage AWS services",
           "source": "scoop",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-24T11:45:35.817Z"
+          "lastUpdatedAt": "2026-09-24T17:09:41.631Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -918,7 +918,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:35.817Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:41.631Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -963,34 +963,42 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:45:35.943Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:41.701Z",
+          "errors": []
         },
         "package": {
-          "name": "AWS CLI",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "AWS Command Line Interface v2 (Install)",
+          "publisher": "Amazon Web Services",
+          "author": "Amazon Web Services",
+          "description": "The AWS CLI is an open source tool built on top of the AWS SDK for Python (Boto) that provides commands for interacting with AWS services.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/aws/aws-cli/blob/develop/LICENSE.txt",
+          "tags": [
+            "awscli",
+            "aws",
+            "cli",
+            "foss",
+            "cloud",
+            "amazon",
+            "web",
+            "services",
+            "s3",
+            "admin"
+          ]
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://aws.amazon.com/cli/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/awscli/2.37.1",
+          "releases": "https://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst#2371",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "The AWS CLI is an open source tool built on top of the AWS SDK for Python (Boto) that provides commands for interacting with AWS services.",
+          "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
           "source": "choco",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-24T11:45:35.943Z"
+          "lastUpdatedAt": "2026-09-24T17:09:41.701Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1000,7 +1008,16 @@
             "aws_cli",
             "AWS CLI",
             "aws",
-            "choco"
+            "choco",
+            "awscli",
+            "cli",
+            "foss",
+            "cloud",
+            "amazon",
+            "web",
+            "services",
+            "s3",
+            "admin"
           ],
           "relatedTools": []
         },
@@ -1009,18 +1026,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "2.37.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.37.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.50",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.49",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.48",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.47",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.46",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.45",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.44",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.43",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.42",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.41",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.40",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.39",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.38",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.37",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.36",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.34",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.33",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.32",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.31",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.30",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.29",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.28",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.27",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.25",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.24",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.23",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.22",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.20",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "2.37.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://aws.amazon.com/cli/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/awscli/2.37.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "Dm53jWRsrQVPi49l9hRVxStp8FMOnL8GRXz5jvKGct8X+P80raRY0KRlclFv7APFucPRmGc9hasGJjE/2D8xSg==",
             "sizeBytes": null
           }
         ],
@@ -1089,11 +1407,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:41.701Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

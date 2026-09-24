@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "kind",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
-      "long": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
-      "source": "scoop",
-      "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
-      "lastUpdatedAt": "2026-09-24T11:45:16.232Z"
+      "short": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+      "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
+      "source": "choco",
+      "homepage": "https://kind.sigs.k8s.io/",
+      "lastUpdatedAt": "2026-09-24T17:09:37.831Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:15.171Z",
+          "scannedAt": "2026-09-24T17:09:37.376Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:15.171Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.376Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -387,7 +387,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:15.171Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.376Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -434,7 +434,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:16.192Z",
+          "scannedAt": "2026-09-24T17:09:37.708Z",
           "errors": []
         },
         "package": {
@@ -460,7 +460,7 @@
           "long": "Run local Kubernetes cluster in Docker",
           "source": "homebrew",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:16.192Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.708Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -565,7 +565,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:16.192Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.708Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:16.232Z",
+          "scannedAt": "2026-09-24T17:09:37.741Z",
           "errors": []
         },
         "package": {
@@ -637,7 +637,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
           "source": "scoop",
           "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
-          "lastUpdatedAt": "2026-09-24T11:45:16.232Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.741Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -741,7 +741,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:16.232Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.741Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -786,34 +786,38 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:45:16.269Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:37.831Z",
+          "errors": []
         },
         "package": {
-          "name": "kind",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Kind",
+          "publisher": "Kubernetes SIGs",
+          "author": "Kubernetes SIGs",
+          "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/kubernetes-sigs/kind/blob/master/LICENSE",
+          "tags": [
+            "kind",
+            "cli",
+            "kubernetes",
+            "docker",
+            "test",
+            "go"
+          ]
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://kind.sigs.k8s.io/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/kind/0.33.0",
+          "releases": "https://github.com/kubernetes-sigs/kind/releases",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+          "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
           "source": "choco",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:16.269Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.831Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -821,7 +825,12 @@
           ],
           "keywords": [
             "kind",
-            "choco"
+            "choco",
+            "cli",
+            "kubernetes",
+            "docker",
+            "test",
+            "go"
           ],
           "relatedTools": []
         },
@@ -830,18 +839,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "0.33.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "0.33.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://kind.sigs.k8s.io/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/kind/0.33.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "GnTOvCR3++3sgqJGd00RChHmWMKDi9lU9iWikOo3GVK/IHYJwlA1qcEbdDktZHphSE4+Ok3im9HcEwASBuFQ5g==",
             "sizeBytes": null
           }
         ],
@@ -910,11 +1220,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.831Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -961,7 +1271,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:16.341Z",
+          "scannedAt": "2026-09-24T17:09:37.925Z",
           "errors": []
         },
         "package": {
@@ -991,7 +1301,7 @@
           "long": "Kubernetes IN Docker - local clusters for testing Kubernetes",
           "source": "github",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:16.341Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.925Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2283,7 +2593,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:16.341Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.925Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

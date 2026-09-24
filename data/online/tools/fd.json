@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "fd",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "A simple, fast and user-friendly alternative to 'find'",
-      "long": "A simple, fast and user-friendly alternative to 'find'",
-      "source": "winget",
+      "short": "A simple, fast and user-friendly alternative to find.",
+      "long": "fd is a simple, fast and user-friendly alternative to find . While it does not seek to mirror all of find 's powerful functionality, it provides sensible (opinionated) defaults for 80% of the use cases. Features Convenient syntax: fd PATTERN instead of find -iname ' PATTERN ' . Colorized terminal output (similar to ls ). It's fast . Smart case: the search is case-insensitive by default. It switches to case-sensitive if the pattern contains an uppercase character\\ . Ignores hidden directories and files, by default. Ignores patterns from your .gitignore , by default. Regular expressions. Unicode-awareness. The command name is 50% shorter\\ than find :-). Parallel command execution with a syntax similar to GNU Parallel.",
+      "source": "choco",
       "homepage": "https://github.com/sharkdp/fd",
-      "lastUpdatedAt": "2026-09-24T11:43:49.922Z"
+      "lastUpdatedAt": "2026-09-24T17:09:18.603Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:43:49.922Z",
+          "scannedAt": "2026-09-24T17:09:18.044Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "A simple, fast and user-friendly alternative to 'find'",
           "source": "winget",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-09-24T11:43:49.922Z"
+          "lastUpdatedAt": "2026-09-24T17:09:18.044Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -357,7 +357,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:43:49.922Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:18.044Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -404,7 +404,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:43:50.244Z",
+          "scannedAt": "2026-09-24T17:09:18.496Z",
           "errors": []
         },
         "package": {
@@ -430,7 +430,7 @@
           "long": "Simple, fast and user-friendly alternative to find",
           "source": "homebrew",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-09-24T11:43:50.244Z"
+          "lastUpdatedAt": "2026-09-24T17:09:18.496Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -535,7 +535,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:43:50.244Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:18.496Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -581,7 +581,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:43:50.305Z",
+          "scannedAt": "2026-09-24T17:09:18.538Z",
           "errors": []
         },
         "package": {
@@ -607,7 +607,7 @@
           "long": "A simple, fast and user-friendly alternative to 'find'.",
           "source": "scoop",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-09-24T11:43:50.305Z"
+          "lastUpdatedAt": "2026-09-24T17:09:18.538Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -711,7 +711,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:43:50.305Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:18.538Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -756,34 +756,35 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:43:50.403Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:18.603Z",
+          "errors": []
         },
         "package": {
           "name": "fd",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "publisher": "sharkdp",
+          "author": "sharkdp",
+          "description": "A simple, fast and user-friendly alternative to find.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/sharkdp/fd/blob/master/LICENSE-APACHE",
+          "tags": [
+            "fd",
+            "find",
+            "shell"
+          ]
         },
         "links": {
           "homepage": "https://github.com/sharkdp/fd",
-          "download": "https://github.com/sharkdp/fd",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/fd/10.5.0",
+          "releases": "https://github.com/sharkdp/fd/releases",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "A simple, fast and user-friendly alternative to find.",
+          "long": "fd is a simple, fast and user-friendly alternative to find . While it does not seek to mirror all of find 's powerful functionality, it provides sensible (opinionated) defaults for 80% of the use cases. Features Convenient syntax: fd PATTERN instead of find -iname ' PATTERN ' . Colorized terminal output (similar to ls ). It's fast . Smart case: the search is case-insensitive by default. It switches to case-sensitive if the pattern contains an uppercase character\\ . Ignores hidden directories and files, by default. Ignores patterns from your .gitignore , by default. Regular expressions. Unicode-awareness. The command name is 50% shorter\\ than find :-). Parallel command execution with a syntax similar to GNU Parallel.",
           "source": "choco",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-09-24T11:43:50.403Z"
+          "lastUpdatedAt": "2026-09-24T17:09:18.603Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -791,7 +792,9 @@
           ],
           "keywords": [
             "fd",
-            "choco"
+            "choco",
+            "find",
+            "shell"
           ],
           "relatedTools": []
         },
@@ -800,18 +803,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "10.5.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.1.0.20181001",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "10.5.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://github.com/sharkdp/fd",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/fd/10.5.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "mxuoGcR7uI8KZQv4pubBfA2DQlDInMneA2pFwrMiFxoAj3uvHRHIQyxkKJznDooT0CRhaWJF0ciwCy65+3S5NA==",
             "sizeBytes": null
           }
         ],
@@ -880,11 +1184,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:18.603Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -931,7 +1235,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:43:50.470Z",
+          "scannedAt": "2026-09-24T17:09:18.637Z",
           "errors": []
         },
         "package": {
@@ -964,7 +1268,7 @@
           "long": "A simple, fast and user-friendly alternative to 'find'",
           "source": "github",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-09-24T11:43:50.470Z"
+          "lastUpdatedAt": "2026-09-24T17:09:18.637Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2259,7 +2563,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:43:50.470Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:18.637Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

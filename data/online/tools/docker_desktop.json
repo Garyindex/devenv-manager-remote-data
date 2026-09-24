@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "docker_desktop",
@@ -28,7 +28,7 @@
       "long": "Docker Desktop is an application for macOS and Windows machines for the building and sharing of containerized applications. Access Docker Desktop and follow the guided onboarding to build your first containerized application in minutes.",
       "source": "winget",
       "homepage": "https://www.docker.com/products/docker-desktop",
-      "lastUpdatedAt": "2026-09-24T11:45:10.986Z"
+      "lastUpdatedAt": "2026-09-24T17:09:33.624Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:10.986Z",
+          "scannedAt": "2026-09-24T17:09:33.624Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Docker Desktop is an application for macOS and Windows machines for the building and sharing of containerized applications. Access Docker Desktop and follow the guided onboarding to build your first containerized application in minutes.",
           "source": "winget",
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "lastUpdatedAt": "2026-09-24T11:45:10.986Z"
+          "lastUpdatedAt": "2026-09-24T17:09:33.624Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:10.986Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:33.624Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -598,7 +598,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:11.366Z",
+          "scannedAt": "2026-09-24T17:09:34.895Z",
           "errors": []
         },
         "package": {
@@ -624,7 +624,7 @@
           "long": "App to build and share containerised applications and microservices",
           "source": "homebrew",
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "lastUpdatedAt": "2026-09-24T11:45:11.366Z"
+          "lastUpdatedAt": "2026-09-24T17:09:34.895Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:11.366Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:34.895Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -778,34 +778,36 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:45:11.462Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:34.931Z",
+          "errors": []
         },
         "package": {
           "name": "Docker Desktop",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "publisher": "Docker Inc.",
+          "author": "Docker Inc.",
+          "description": "The fastest way to containerize applications on your desktop",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://www.docker.com/legal/docker-subscription-service-agreement",
+          "tags": [
+            "docker-for-windows",
+            "docker-desktop",
+            "docker",
+            "admin"
+          ]
         },
         "links": {
-          "homepage": "https://www.docker.com/products/docker-desktop/",
-          "download": "https://www.docker.com/products/docker-desktop/",
-          "releases": null,
+          "homepage": "https://www.docker.com/products/docker-desktop",
+          "download": "https://community.chocolatey.org/api/v2/package/docker-desktop/4.92.0",
+          "releases": "https://docs.docker.com/docker-for-windows/release-notes/",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "The fastest way to containerize applications on your desktop",
+          "long": "Developer productivity tools and a local Kubernetes environment.",
           "source": "choco",
-          "homepage": "https://www.docker.com/products/docker-desktop/",
-          "lastUpdatedAt": "2026-09-24T11:45:11.462Z"
+          "homepage": "https://www.docker.com/products/docker-desktop",
+          "lastUpdatedAt": "2026-09-24T17:09:34.931Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -815,7 +817,10 @@
             "docker_desktop",
             "Docker Desktop",
             "docker",
-            "choco"
+            "choco",
+            "docker-for-windows",
+            "docker-desktop",
+            "admin"
           ],
           "relatedTools": []
         },
@@ -824,18 +829,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "4.92.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.91.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.90.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.89.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.88.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.88.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.87.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.86.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.85.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.84.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.83.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.82.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.81.0.20260709",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.81.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.80.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.79.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.78.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.77.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.75.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.74.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.73.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.73.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.72.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.71.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.70.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.69.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.68.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.67.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.66.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.66.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "4.92.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://www.docker.com/products/docker-desktop/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/docker-desktop/4.92.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "mFh+rz1M6b9XZkp0rDhBin7vfNPA69pue2oAZFVrO6n+hrRgN1ugScbqU7OOjhgaCkYdU8p0o4OnNiNooL2eWA==",
             "sizeBytes": null
           }
         ],
@@ -904,11 +1210,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:34.931Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

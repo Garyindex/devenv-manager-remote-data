@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "opentofu",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "An OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions.",
-      "long": "An OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions.",
-      "source": "scoop",
+      "short": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+      "long": "OpenTofu is an OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions. The key features of OpenTofu are: - Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. - Execution Plans : OpenTofu has a \"planning\" step where it generates an execution plan. The execution plan shows what OpenTofu will do when you call apply. This lets you avoid any surprises when OpenTofu manipulates infrastructure. - Resource Graph : OpenTofu builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, OpenTofu builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. - Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exac...",
+      "source": "choco",
       "homepage": "https://opentofu.org/",
-      "lastUpdatedAt": "2026-09-24T11:45:19.907Z"
+      "lastUpdatedAt": "2026-09-24T17:09:39.249Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -99,7 +99,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:18.776Z",
+          "scannedAt": "2026-09-24T17:09:38.711Z",
           "errors": []
         },
         "package": {
@@ -122,7 +122,7 @@
           "long": "OpenTofu lets you declaratively manage your cloud infrastructure.",
           "source": "winget",
           "homepage": "https://github.com/opentofu/opentofu",
-          "lastUpdatedAt": "2026-09-24T11:45:18.776Z"
+          "lastUpdatedAt": "2026-09-24T17:09:38.711Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -551,7 +551,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:18.776Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:38.711Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -598,7 +598,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:19.844Z",
+          "scannedAt": "2026-09-24T17:09:39.166Z",
           "errors": []
         },
         "package": {
@@ -624,7 +624,7 @@
           "long": "Drop-in replacement for Terraform. Infrastructure as Code Tool",
           "source": "homebrew",
           "homepage": "https://opentofu.org/",
-          "lastUpdatedAt": "2026-09-24T11:45:19.844Z"
+          "lastUpdatedAt": "2026-09-24T17:09:39.166Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:19.844Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:39.166Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -777,7 +777,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:19.907Z",
+          "scannedAt": "2026-09-24T17:09:39.178Z",
           "errors": []
         },
         "package": {
@@ -803,7 +803,7 @@
           "long": "An OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions.",
           "source": "scoop",
           "homepage": "https://opentofu.org/",
-          "lastUpdatedAt": "2026-09-24T11:45:19.907Z"
+          "lastUpdatedAt": "2026-09-24T17:09:39.178Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -909,7 +909,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:19.907Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:39.178Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -954,34 +954,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:45:20.036Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:39.249Z",
+          "errors": []
         },
         "package": {
           "name": "OpenTofu",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "publisher": "Linux Foundation, HashiCorp, Inc.",
+          "author": "Linux Foundation, HashiCorp, Inc.",
+          "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/opentofu/opentofu/blob/main/LICENSE",
+          "tags": [
+            "opentofu",
+            "terraform"
+          ]
         },
         "links": {
           "homepage": "https://opentofu.org/",
-          "download": "https://opentofu.org/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/opentofu/1.12.6",
+          "releases": "https://github.com/opentofu/opentofu/blob/v1.11.1/CHANGELOG.md",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+          "long": "OpenTofu is an OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions. The key features of OpenTofu are: - Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. - Execution Plans : OpenTofu has a \"planning\" step where it generates an execution plan. The execution plan shows what OpenTofu will do when you call apply. This lets you avoid any surprises when OpenTofu manipulates infrastructure. - Resource Graph : OpenTofu builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, OpenTofu builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. - Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exac...",
           "source": "choco",
           "homepage": "https://opentofu.org/",
-          "lastUpdatedAt": "2026-09-24T11:45:20.036Z"
+          "lastUpdatedAt": "2026-09-24T17:09:39.249Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -991,7 +991,8 @@
             "opentofu",
             "OpenTofu",
             "tofu",
-            "choco"
+            "choco",
+            "terraform"
           ],
           "relatedTools": []
         },
@@ -1000,18 +1001,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.12.6",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc4",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0-beta1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.12.6",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://opentofu.org/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/opentofu/1.12.6",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "dPPgE8+yHRsVSlb5jihMTQuN8K9BF6vVo5KRQHfj9vcgPpztPxPzBRs8kUNe0RbJoD7ZwgdyxN/T9dk5K6pkSQ==",
             "sizeBytes": null
           }
         ],
@@ -1080,11 +1382,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:39.249Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1131,7 +1433,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:20.938Z",
+          "scannedAt": "2026-09-24T17:09:39.322Z",
           "errors": []
         },
         "package": {
@@ -1154,7 +1456,7 @@
           "long": "OpenTofu lets you declaratively manage your cloud infrastructure.",
           "source": "github",
           "homepage": "https://opentofu.org",
-          "lastUpdatedAt": "2026-09-24T11:45:20.938Z"
+          "lastUpdatedAt": "2026-09-24T17:09:39.322Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2442,7 +2744,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:20.938Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:39.322Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

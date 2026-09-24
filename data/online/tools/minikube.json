@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "minikube",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
-      "long": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
-      "source": "winget",
-      "homepage": "https://minikube.sigs.k8s.io/docs",
-      "lastUpdatedAt": "2026-09-24T11:45:14.187Z"
+      "short": "Minikube is a tool that makes it easy to run Kubernetes locally.",
+      "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
+      "source": "choco",
+      "homepage": "https://kubernetes.io/",
+      "lastUpdatedAt": "2026-09-24T17:09:37.229Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:14.187Z",
+          "scannedAt": "2026-09-24T17:09:36.813Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
           "source": "winget",
           "homepage": "https://minikube.sigs.k8s.io/docs",
-          "lastUpdatedAt": "2026-09-24T11:45:14.187Z"
+          "lastUpdatedAt": "2026-09-24T17:09:36.813Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:14.187Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:36.813Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:14.942Z",
+          "scannedAt": "2026-09-24T17:09:37.101Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Run a Kubernetes cluster locally",
           "source": "homebrew",
           "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:14.942Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.101Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:14.942Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.101Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:14.948Z",
+          "scannedAt": "2026-09-24T17:09:37.152Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
           "source": "scoop",
           "homepage": "https://minikube.sigs.k8s.io/docs/",
-          "lastUpdatedAt": "2026-09-24T11:45:14.948Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.152Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:14.948Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.152Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -946,34 +946,40 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:45:15.007Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:37.229Z",
+          "errors": []
         },
         "package": {
-          "name": "minikube",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Minikube: Run Kubernetes locally",
+          "publisher": "Google",
+          "author": "Google",
+          "description": "Minikube is a tool that makes it easy to run Kubernetes locally.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/kubernetes/minikube/blob/master/LICENSE",
+          "tags": [
+            "kubernetes",
+            "minikube",
+            "docker",
+            "rkt",
+            "containers",
+            "devops",
+            "cli",
+            "foss"
+          ]
         },
         "links": {
-          "homepage": "https://minikube.sigs.k8s.io/",
-          "download": "https://minikube.sigs.k8s.io/",
-          "releases": null,
+          "homepage": "https://kubernetes.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/Minikube/1.39.0",
+          "releases": "https://github.com/kubernetes/minikube/blob/v1.39.0/CHANGELOG.md",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Minikube is a tool that makes it easy to run Kubernetes locally.",
+          "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
           "source": "choco",
-          "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:15.007Z"
+          "homepage": "https://kubernetes.io/",
+          "lastUpdatedAt": "2026-09-24T17:09:37.229Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -981,7 +987,14 @@
           ],
           "keywords": [
             "minikube",
-            "choco"
+            "choco",
+            "kubernetes",
+            "docker",
+            "rkt",
+            "containers",
+            "devops",
+            "cli",
+            "foss"
           ],
           "relatedTools": []
         },
@@ -990,18 +1003,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.39.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.38.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.38.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.37.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.32.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.34.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.33.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.34.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.39.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://minikube.sigs.k8s.io/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/Minikube/1.39.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "LbV1E7UZgENcCdKZldWdyL5SMkZmOxTR5LlHWPh3TcH9X12T/OP0onE+DjyPVh9D9dJsoxJSVh/PBW2n8Reo3Q==",
             "sizeBytes": null
           }
         ],
@@ -1070,11 +1384,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.229Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1121,7 +1435,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:45:15.059Z",
+          "scannedAt": "2026-09-24T17:09:37.367Z",
           "errors": []
         },
         "package": {
@@ -1151,7 +1465,7 @@
           "long": "Run Kubernetes locally",
           "source": "github",
           "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-09-24T11:45:15.059Z"
+          "lastUpdatedAt": "2026-09-24T17:09:37.367Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2442,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:45:15.059Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:37.367Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

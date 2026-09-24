@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "generatedAt": "2026-09-24T17:10:09.775Z",
   "status": "partial",
   "tool": {
     "id": "temurin_21",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
-      "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
-      "source": "scoop",
-      "homepage": "https://adoptium.net",
-      "lastUpdatedAt": "2026-09-24T11:44:39.300Z"
+      "short": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK HotSpot.",
+      "long": "Temurin The Temurin21 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
+      "source": "choco",
+      "homepage": "https://adoptium.net/",
+      "lastUpdatedAt": "2026-09-24T17:09:28.996Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -112,7 +112,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:44:38.771Z",
+          "scannedAt": "2026-09-24T17:09:28.606Z",
           "errors": []
         },
         "package": {
@@ -135,7 +135,7 @@
           "long": "Eclipse Temurin JDK is the open source Java SE build based upon OpenJDK.",
           "source": "winget",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-09-24T11:44:38.771Z"
+          "lastUpdatedAt": "2026-09-24T17:09:28.606Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -405,7 +405,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:44:38.771Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:28.606Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -465,7 +465,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:44:39.242Z",
+          "scannedAt": "2026-09-24T17:09:28.892Z",
           "errors": []
         },
         "package": {
@@ -491,7 +491,7 @@
           "long": "JDK from the Eclipse Foundation (Adoptium)",
           "source": "homebrew",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-09-24T11:44:39.242Z"
+          "lastUpdatedAt": "2026-09-24T17:09:28.892Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -599,7 +599,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:44:39.242Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:28.892Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -659,7 +659,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T11:44:39.300Z",
+          "scannedAt": "2026-09-24T17:09:28.910Z",
           "errors": []
         },
         "package": {
@@ -685,7 +685,7 @@
           "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
           "source": "scoop",
           "homepage": "https://adoptium.net",
-          "lastUpdatedAt": "2026-09-24T11:44:39.300Z"
+          "lastUpdatedAt": "2026-09-24T17:09:28.910Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -792,7 +792,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T11:44:39.300Z",
+          "lastSuccessfulScanAt": "2026-09-24T17:09:28.910Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -851,34 +851,35 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-24T11:44:39.429Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-24T17:09:28.996Z",
+          "errors": []
         },
         "package": {
-          "name": "Eclipse Temurin JDK 21",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Temurin jdk21 hotspot",
+          "publisher": "Adoptium",
+          "author": "Adoptium",
+          "description": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK_HotSpot.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/adoptium/jdk21/blob/master/LICENSE",
+          "tags": [
+            "openjdk",
+            "java",
+            "jvm"
+          ]
         },
         "links": {
           "homepage": "https://adoptium.net/",
-          "download": "https://adoptium.net/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/Temurin21/21.0.9.10",
+          "releases": "",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK HotSpot.",
+          "long": "Temurin The Temurin21 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
           "source": "choco",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-09-24T11:44:39.429Z"
+          "lastUpdatedAt": "2026-09-24T17:09:28.996Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -889,7 +890,9 @@
             "Eclipse Temurin JDK 21",
             "java",
             "javac",
-            "choco"
+            "choco",
+            "openjdk",
+            "jvm"
           ],
           "relatedTools": []
         },
@@ -898,18 +901,109 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "21.0.9.10",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.8.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.6.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.5.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.3.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.1.1200",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.0.3500",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.4.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "21.0.9.10",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://adoptium.net/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/Temurin21/21.0.9.10",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "kncrgtrOzb5Ntr762wLYlEDPRn8CZfO3hEq3nkrDDkVTVZdr2Cqo+WKmUiW64rVU/KQfr8ZcLKXVmxpSy+hzjQ==",
             "sizeBytes": null
           }
         ],
@@ -978,11 +1072,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-09-24T17:09:28.996Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
