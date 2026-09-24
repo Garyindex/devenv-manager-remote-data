@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:48:28.623Z",
-  "status": "ok",
+  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "status": "partial",
   "tool": {
     "id": "terraform",
     "name": "Terraform",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.",
-      "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
-      "source": "choco",
-      "homepage": "http://www.terraform.io/",
-      "lastUpdatedAt": "2026-09-24T04:48:09.160Z"
+      "short": "Create and manage infrastructure as code using simple declarative configuration files.",
+      "long": "Create and manage infrastructure as code using simple declarative configuration files.",
+      "source": "scoop",
+      "homepage": "https://www.terraform.io",
+      "lastUpdatedAt": "2026-09-24T11:45:18.096Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:08.942Z",
+          "scannedAt": "2026-09-24T11:45:17.084Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://github.com/hashicorp/terraform",
-          "lastUpdatedAt": "2026-09-24T04:48:08.942Z"
+          "lastUpdatedAt": "2026-09-24T11:45:17.084Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:08.942Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:45:17.084Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:09.062Z",
+          "scannedAt": "2026-09-24T11:45:18.096Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Create and manage infrastructure as code using simple declarative configuration files.",
           "source": "scoop",
           "homepage": "https://www.terraform.io",
-          "lastUpdatedAt": "2026-09-24T04:48:09.062Z"
+          "lastUpdatedAt": "2026-09-24T11:45:18.096Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:09.062Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:45:18.096Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,34 +770,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-24T04:48:09.160Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-24T11:45:18.179Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
           "name": "Terraform",
-          "publisher": "HashiCorp",
-          "author": "HashiCorp",
-          "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/hashicorp/terraform/blob/v1.16.3/LICENSE",
-          "tags": [
-            "terraform",
-            "hashicorp"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
-          "homepage": "http://www.terraform.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/terraform/1.16.3",
-          "releases": "## 1.16.3 (September 16, 2026)\n\n\nBUG FIXES:\n\n* Fix handling of destroy=false around create_before_destroy instances ([#39169](https://github.com/hashicorp/terraform/issues/39169))\n\n* Fix function result comparison when there are multiple marks ([#39170](https://github.com/hashicorp/terraform/issues/39170))\n\n* Filter logic for marks could cause values with multiple marks to erroneously fail validations ([#39171](https://github.com/hashicorp/terraform/issues/39171))\n\n* Fix issue with import provider resolution ([#39185](https://github.com/hashicorp/terraform/issues/39185))\n\n\n## Previous Releases\nFor more information on previous releases, check out the changelog on [GitHub](https://github.com/hashicorp/terraform/blob/v1.16.3/CHANGELOG.md).",
+          "homepage": "https://www.terraform.io/",
+          "download": "https://www.terraform.io/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.",
-          "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
+          "short": null,
+          "long": null,
           "source": "choco",
-          "homepage": "http://www.terraform.io/",
-          "lastUpdatedAt": "2026-09-24T04:48:09.160Z"
+          "homepage": "https://www.terraform.io/",
+          "lastUpdatedAt": "2026-09-24T11:45:18.179Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -806,8 +806,7 @@
           "keywords": [
             "terraform",
             "Terraform",
-            "choco",
-            "hashicorp"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -816,319 +815,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.16.3",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.0-beta1",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.0-alpha20260827",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-rc2",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.0-alpha20260812",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-rc1",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-beta2",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.0-alpha20260729",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-beta1",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260715",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260708",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260706",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260701",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260626",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260624",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260617",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260603",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0-alpha20260513",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.3",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/terraform/1.16.3",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "utvHfTbsjH5Ke0KZK5pK3nkXGV+1ZSHY/bh5PoQEsoJX/MttvI7OALdIKG2cLSUZMfNfISRCAUscG6sv8FWP2A==",
+            "url": "https://www.terraform.io/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1197,11 +895,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:09.160Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1248,7 +946,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:09.181Z",
+          "scannedAt": "2026-09-24T11:45:18.243Z",
           "errors": []
         },
         "package": {
@@ -1277,7 +975,7 @@
           "long": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
           "source": "github",
           "homepage": "http://developer.hashicorp.com/terraform",
-          "lastUpdatedAt": "2026-09-24T04:48:09.181Z"
+          "lastUpdatedAt": "2026-09-24T11:45:18.243Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1607,7 +1305,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:09.181Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:45:18.243Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

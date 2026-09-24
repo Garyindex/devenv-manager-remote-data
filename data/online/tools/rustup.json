@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:48:28.623Z",
-  "status": "ok",
+  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "status": "partial",
   "tool": {
     "id": "rustup",
     "name": "Rustup",
@@ -29,7 +29,7 @@
       "long": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
       "source": "winget",
       "homepage": "https://rust-lang.github.io/rustup/",
-      "lastUpdatedAt": "2026-09-24T04:48:00.767Z"
+      "lastUpdatedAt": "2026-09-24T11:44:34.019Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -109,7 +109,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:00.767Z",
+          "scannedAt": "2026-09-24T11:44:34.019Z",
           "errors": []
         },
         "package": {
@@ -132,7 +132,7 @@
           "long": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
           "source": "winget",
           "homepage": "https://rust-lang.github.io/rustup/",
-          "lastUpdatedAt": "2026-09-24T04:48:00.767Z"
+          "lastUpdatedAt": "2026-09-24T11:44:34.019Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -361,7 +361,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:00.767Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:34.019Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -418,7 +418,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:01.013Z",
+          "scannedAt": "2026-09-24T11:44:34.128Z",
           "errors": []
         },
         "package": {
@@ -444,7 +444,7 @@
           "long": "Manage multiple rust installations with ease",
           "source": "scoop",
           "homepage": "https://rustup.rs",
-          "lastUpdatedAt": "2026-09-24T04:48:01.013Z"
+          "lastUpdatedAt": "2026-09-24T11:44:34.128Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:01.013Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:34.128Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -606,36 +606,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-24T04:48:01.035Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-24T11:44:34.227Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
-          "name": "",
-          "publisher": "The Rust Project Developers",
-          "author": "The Rust Project Developers",
-          "description": "",
+          "name": "Rustup",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/rust-lang-nursery/rustup.rs/blob/master/LICENSE-MIT",
-          "tags": [
-            "rust",
-            "language",
-            "programming",
-            "development"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://rustup.rs/",
-          "download": "https://community.chocolatey.org/api/v2/package/rustup/1.11.0-beta1",
-          "releases": "",
+          "download": "https://rustup.rs/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "rustup is an installer for the systems programming language Rust",
-          "long": "rustup is an installer for the systems programming language Rust",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://rustup.rs/",
-          "lastUpdatedAt": "2026-09-24T04:48:01.035Z"
+          "lastUpdatedAt": "2026-09-24T11:44:34.227Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -645,11 +643,7 @@
             "rustup",
             "Rustup",
             "rustc",
-            "choco",
-            "rust",
-            "language",
-            "programming",
-            "development"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -658,49 +652,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.11.0-beta1",
-            "channel": "prerelease",
-            "latest": true,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.0.0-beta2",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.0.0-beta1",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.11.0-beta1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/rustup/1.11.0-beta1",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "yHc3tqZPWgkA/B88a15NUJ9Fu0HyI842vlQfQa1X52O9s/lvh8gSwRbixSdN0ZHtIe/+31A5CqCidrLs0X7MWw==",
+            "url": "https://rustup.rs/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -769,11 +732,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:01.035Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -831,7 +794,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:01.118Z",
+          "scannedAt": "2026-09-24T11:44:34.552Z",
           "errors": []
         },
         "package": {
@@ -859,7 +822,7 @@
           "long": "The Rust toolchain installer",
           "source": "github",
           "homepage": "https://rustup.rs/",
-          "lastUpdatedAt": "2026-09-24T04:48:01.118Z"
+          "lastUpdatedAt": "2026-09-24T11:44:34.552Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -889,7 +852,7 @@
           "confidence": "medium",
           "score": 50,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:01.118Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:34.552Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

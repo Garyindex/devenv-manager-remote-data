@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:48:28.623Z",
-  "status": "ok",
+  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "status": "partial",
   "tool": {
     "id": "yarn",
     "name": "Yarn",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Package manager for the npm and bower package repositories",
-      "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
-      "source": "choco",
-      "homepage": "https://classic.yarnpkg.com/",
-      "lastUpdatedAt": "2026-09-24T04:47:57.719Z"
+      "short": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
+      "long": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
+      "source": "winget",
+      "homepage": "https://yarnpkg.com/",
+      "lastUpdatedAt": "2026-09-24T11:44:10.416Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:57.521Z",
+          "scannedAt": "2026-09-24T11:44:10.416Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
           "source": "winget",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:57.521Z"
+          "lastUpdatedAt": "2026-09-24T11:44:10.416Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -308,7 +308,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:57.521Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:10.416Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -355,7 +355,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:57.661Z",
+          "scannedAt": "2026-09-24T11:44:10.925Z",
           "errors": []
         },
         "package": {
@@ -381,7 +381,7 @@
           "long": "JavaScript package manager",
           "source": "homebrew",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:57.661Z"
+          "lastUpdatedAt": "2026-09-24T11:44:10.925Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -487,7 +487,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:57.661Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:10.925Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -533,7 +533,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:57.701Z",
+          "scannedAt": "2026-09-24T11:44:10.987Z",
           "errors": []
         },
         "package": {
@@ -559,7 +559,7 @@
           "long": "Node.js dependency manager",
           "source": "scoop",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:57.701Z"
+          "lastUpdatedAt": "2026-09-24T11:44:10.987Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -664,7 +664,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:57.701Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:10.987Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -709,40 +709,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-24T04:47:57.719Z",
-          "errors": []
-        },
-        "package": {
-          "name": "Yarn (Install)",
-          "publisher": "Yarn Maintainers",
-          "author": "Yarn Maintainers",
-          "description": "Package manager for the npm and bower package repositories",
-          "license": null,
-          "licenseUrl": "https://github.com/yarnpkg/yarn/raw/master/LICENSE",
-          "tags": [
-            "yarn",
-            "node",
-            "nodejs",
-            "npm",
-            "javascript",
-            "packages",
-            "bower",
-            "admin"
+          "status": "partial",
+          "scannedAt": "2026-09-24T11:44:11.113Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
           ]
         },
+        "package": {
+          "name": "Yarn",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
         "links": {
-          "homepage": "https://classic.yarnpkg.com/",
-          "download": "https://community.chocolatey.org/api/v2/package/yarn/1.22.22",
-          "releases": "https://github.com/yarnpkg/yarn/releases/tag/v1.22.19",
+          "homepage": "https://yarnpkg.com/",
+          "download": "https://yarnpkg.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Package manager for the npm and bower package repositories",
-          "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
+          "short": null,
+          "long": null,
           "source": "choco",
-          "homepage": "https://classic.yarnpkg.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:57.719Z"
+          "homepage": "https://yarnpkg.com/",
+          "lastUpdatedAt": "2026-09-24T11:44:11.113Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -751,14 +745,7 @@
           "keywords": [
             "yarn",
             "Yarn",
-            "choco",
-            "node",
-            "nodejs",
-            "npm",
-            "javascript",
-            "packages",
-            "bower",
-            "admin"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -767,319 +754,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.22.22",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.13.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.17.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.24.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.27.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.23.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.21.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.17.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.23.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.24.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.19.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.23.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.3.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.12.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.19.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.22.22",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/yarn/1.22.22",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "8B17N0zvimKoA2UH4Xj8jLad4frUWQTLhHe3rprcmiDMhPPxU70vvdhwHudG+oGp7D7OZPTbOqwLy/zl7PW7QQ==",
+            "url": "https://yarnpkg.com/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1148,11 +834,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:57.719Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

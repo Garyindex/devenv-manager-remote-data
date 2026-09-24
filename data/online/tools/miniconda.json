@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:48:28.623Z",
-  "status": "ok",
+  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "status": "partial",
   "tool": {
     "id": "miniconda",
     "name": "Miniconda",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for...",
-      "long": "This is a community-maintained package. It is not maintained by or affiliated with Anaconda, Inc. Conda is a cross-platform, Python-agnostic binary package manager. Miniconda is the minimal distribution that ships conda and Python and nothing else, so you build the environment you want rather than removing what you do not. This package downloads Anaconda's official Windows x86 64 installer at install time directly from repo.anaconda.com, verifies it against the SHA256 Anaconda publishes beside the file, and installs it silently. By default, this installation: will not add miniconda python to path, will register miniconda python as the default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path) /Force Upgrading replaces the installation. Miniconda's installer will not write over an existing one, so an upgrade removes it first. If the installation directory contains conda environmen...",
-      "source": "choco",
-      "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-      "lastUpdatedAt": "2026-09-24T04:48:00.566Z"
+      "short": "A cross-platform, Python-agnostic binary package manager",
+      "long": "A cross-platform, Python-agnostic binary package manager",
+      "source": "scoop",
+      "homepage": "https://docs.anaconda.com/miniconda/",
+      "lastUpdatedAt": "2026-09-24T11:44:33.222Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:00.442Z",
+          "scannedAt": "2026-09-24T11:44:32.624Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Miniconda is a free minimal installer for conda. It is a small bootstrap version of Anaconda that includes only conda, Python, the packages they both depend on, and a small number of other useful packages (like pip, zlib, and a few others). If you need more packages, use the conda install command to install from thousands of packages available by default in Anaconda’s public repo, or from other channels, like conda-forge or bioconda.",
           "source": "winget",
           "homepage": "https://docs.anaconda.com/free/miniconda/",
-          "lastUpdatedAt": "2026-09-24T04:48:00.442Z"
+          "lastUpdatedAt": "2026-09-24T11:44:32.624Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -248,7 +248,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:00.442Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:32.624Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -294,7 +294,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:00.513Z",
+          "scannedAt": "2026-09-24T11:44:33.205Z",
           "errors": []
         },
         "package": {
@@ -320,7 +320,7 @@
           "long": "Minimal installer for conda",
           "source": "homebrew",
           "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-          "lastUpdatedAt": "2026-09-24T04:48:00.513Z"
+          "lastUpdatedAt": "2026-09-24T11:44:33.205Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -427,7 +427,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:00.513Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:33.205Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -473,7 +473,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:48:00.532Z",
+          "scannedAt": "2026-09-24T11:44:33.222Z",
           "errors": []
         },
         "package": {
@@ -499,7 +499,7 @@
           "long": "A cross-platform, Python-agnostic binary package manager",
           "source": "scoop",
           "homepage": "https://docs.anaconda.com/miniconda/",
-          "lastUpdatedAt": "2026-09-24T04:48:00.532Z"
+          "lastUpdatedAt": "2026-09-24T11:44:33.222Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -605,7 +605,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:00.532Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:44:33.222Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -650,37 +650,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-24T04:48:00.566Z",
-          "errors": []
-        },
-        "package": {
-          "name": "Miniconda (Python 3.13)",
-          "publisher": "Anaconda, Inc.",
-          "author": "Anaconda, Inc.",
-          "description": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for C libraries. Conda is written entirely in Python, and is BSD licensed open source.",
-          "license": null,
-          "licenseUrl": "https://github.com/conda/conda/blob/main/LICENSE",
-          "tags": [
-            "conda",
-            "anaconda",
-            "miniconda",
-            "python",
-            "miniconda3"
+          "status": "partial",
+          "scannedAt": "2026-09-24T11:44:33.275Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
           ]
         },
+        "package": {
+          "name": "Miniconda",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
         "links": {
-          "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-          "download": "https://community.chocolatey.org/api/v2/package/miniconda3/26.7.1.1",
-          "releases": "https://github.com/conda/conda/blob/main/CHANGELOG.md",
+          "homepage": "https://docs.conda.io/projects/miniconda/",
+          "download": "https://docs.conda.io/projects/miniconda/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for...",
-          "long": "This is a community-maintained package. It is not maintained by or affiliated with Anaconda, Inc. Conda is a cross-platform, Python-agnostic binary package manager. Miniconda is the minimal distribution that ships conda and Python and nothing else, so you build the environment you want rather than removing what you do not. This package downloads Anaconda's official Windows x86 64 installer at install time directly from repo.anaconda.com, verifies it against the SHA256 Anaconda publishes beside the file, and installs it silently. By default, this installation: will not add miniconda python to path, will register miniconda python as the default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path) /Force Upgrading replaces the installation. Miniconda's installer will not write over an existing one, so an upgrade removes it first. If the installation directory contains conda environmen...",
+          "short": null,
+          "long": null,
           "source": "choco",
-          "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-          "lastUpdatedAt": "2026-09-24T04:48:00.566Z"
+          "homepage": "https://docs.conda.io/projects/miniconda/",
+          "lastUpdatedAt": "2026-09-24T11:44:33.275Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -690,10 +687,7 @@
             "miniconda",
             "Miniconda",
             "conda",
-            "choco",
-            "anaconda",
-            "python",
-            "miniconda3"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -702,229 +696,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "26.7.1.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.8.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.7.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.3.21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.7.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.9.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.10.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.5.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.14",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.5.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.7.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.3.31.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.3.31.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.5.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "26.7.1.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/miniconda3/26.7.1.1",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "sYDeqKm2C7md/F6VF5TTF1kOldHSxVIG6t7dxqAd98pXNSVGk4OVEhtgg6SPDJacE76F197aQJ8d66705xO6JQ==",
+            "url": "https://docs.conda.io/projects/miniconda/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -993,11 +776,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:48:00.566Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

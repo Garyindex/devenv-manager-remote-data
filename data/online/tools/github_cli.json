@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:48:28.623Z",
-  "status": "ok",
+  "generatedAt": "2026-09-24T11:46:27.325Z",
+  "status": "partial",
   "tool": {
     "id": "github_cli",
     "name": "GitHub CLI",
@@ -28,11 +28,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Command line wrapper for git that makes you better at GitHub.",
-      "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
-      "source": "choco",
+      "short": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
+      "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
+      "source": "winget",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-09-24T04:47:49.542Z"
+      "lastUpdatedAt": "2026-09-24T11:43:25.182Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -105,7 +105,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:49.520Z",
+          "scannedAt": "2026-09-24T11:43:25.182Z",
           "errors": []
         },
         "package": {
@@ -131,7 +131,7 @@
           "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:49.520Z"
+          "lastUpdatedAt": "2026-09-24T11:43:25.182Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:49.520Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:43:25.182Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:49.539Z",
+          "scannedAt": "2026-09-24T11:43:25.194Z",
           "errors": []
         },
         "package": {
@@ -639,7 +639,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:49.539Z"
+          "lastUpdatedAt": "2026-09-24T11:43:25.194Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -750,7 +750,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:49.539Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:43:25.194Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -796,7 +796,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:49.541Z",
+          "scannedAt": "2026-09-24T11:43:25.195Z",
           "errors": []
         },
         "package": {
@@ -824,7 +824,7 @@
           "long": "Official GitHub CLI",
           "source": "scoop",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-09-24T04:47:49.541Z"
+          "lastUpdatedAt": "2026-09-24T11:43:25.195Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -934,7 +934,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:49.541Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:43:25.195Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -979,38 +979,37 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-24T04:47:49.542Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-24T11:43:25.196Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
           "name": "GitHub CLI",
-          "publisher": "GitHub",
-          "author": "GitHub",
-          "description": "Command line wrapper for git that makes you better at GitHub.",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/cli/cli/blob/trunk/LICENSE",
+          "licenseUrl": null,
           "tags": [
             "github",
-            "vcs",
-            "cli",
-            "git",
-            "scm",
-            "admin"
+            "vcs"
           ]
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://community.chocolatey.org/api/v2/package/gh/2.101.0",
-          "releases": "## Linux package repository signing key rotation\n\nGitHub CLI's APT and RPM repositories, along with individual RPM packages, are now signed only with the new PGP key (fingerprint: `7F38BBB59D064DBCB3D84D725612B36462313325`)\n\n> [!IMPORTANT]\n> Linux users who installed `gh` from the official APT or RPM repositories before April 8, 2026, and have not refreshed their keyring, may now see package installation or update failures. Follow the [PGP signing key rotation guidance](https://github.com/cli/cli/issues/13118) to check and update your keyring. Users on Windows or macOS, and users who installed `gh` through Homebrew, GitHub Releases, another package manager, or from source, are not affected.\n\n## Copy authentication codes to the clipboard by default\n\n`gh auth login` and `gh auth refresh` now copy OAuth device codes to the clipboard by default, saving a manual copy step during authentication.\n\nTo persistently opt out, run:\n\n```shell\ngh config set clipboard disabled\n```\n\nExplicit clipboard options still take precedence for an individual invocation.\n\n\n## What's Changed\n\n### ✨ Features\n* Add clipboard preference for auth flows and default to enabled by @williammartin in https://github.com/cli/cli/pull/14345\n\n\n### 🐛 Fixes\n* Use API SSH URLs for repository clones by @williammartin in https://github.com/cli/cli/pull/14346\n* Validate repository names during interactive creation by @sergiou87 in https://github.com/cli/cli/pull/14313\n* Finalize telemetry at invocation completion by @williammartin in https://github.com/cli/cli/pull/14390\n* Record attachment operation counts in telemetry by @BagToad in https://github.com/cli/cli/pull/14360\n* Propagate gh path to extensions by @williammartin in https://github.com/cli/cli/pull/14282\n* Delete repo garden command by @williammartin in https://github.com/cli/cli/pull/14416\n* Fix remote branch deletion for owner case mismatch by @williammartin in https://github.com/cli/cli/pull/14429\n* Retire multi-account migration by @williammartin in https://github.com/cli/cli/pull/14430\n\n\n### 📚 Docs & Chores\n* docs: announce Linux PGP key rotation by @babakks in https://github.com/cli/cli/pull/14340\n* Require verified SHAs in issue-triage permalinks by @sergiou87 in https://github.com/cli/cli/pull/14343\n* Add VHS demo skill by @williammartin in https://github.com/cli/cli/pull/14334\n* docs: fix broken \"GitHub language\" link in primer foundations by @areesh-ali in https://github.com/cli/cli/pull/14363\n* Fix and validate Go bump workflow by @williammartin in https://github.com/cli/cli/pull/14347\n* chore: sign Linux repositories only with the new PGP key by @babakks in https://github.com/cli/cli/pull/14197\n* Rewrite CLI agent guidance by @williammartin in https://github.com/cli/cli/pull/14388\n* Prepare exit errors for Go 1.27 by @williammartin in https://github.com/cli/cli/pull/14397\n* Reduce rate limiting and reduce time taken for acceptance tests by @williammartin in https://github.com/cli/cli/pull/14320\n* Filter acceptance tests for installation token capabilities by @williammartin in https://github.com/cli/cli/pull/14354\n* Fix Go bump workflow authentication by @williammartin in https://github.com/cli/cli/pull/14412\n* Run acceptance tests in Actions with a GitHub App token by @williammartin in https://github.com/cli/cli/pull/14356\n* Fix acceptance script paths on Windows by @williammartin in https://github.com/cli/cli/pull/14414\n* Wait for repository readiness before archiving by @williammartin in https://github.com/cli/cli/pull/14415\n* Update Go bump validation tools by @williammartin in https://github.com/cli/cli/pull/14428\n* Recognize maintainer authorization by @williammartin in https://github.com/cli/cli/pull/14438\n* Safely replace stale Go bump branches by @williammartin in https://github.com/cli/cli/pull/14441\n* Use internal Apple codesign action by @williammartin in https://github.com/cli/cli/pull/14437\n* Test explicit default repository resolution by @williammartin in https://github.com/cli/cli/pull/14460\n* Revert \"Use internal Apple codesign action\" by @williammartin in https://github.com/cli/cli/pull/14462\n\n### :dependabot: Dependencies\n* chore(deps): bump github.com/klauspost/compress from 1.19.2 to 1.20.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14376\n* chore(deps): bump github.com/google/go-containerregistry from 0.22.0 to 0.22.1 by @dependabot[bot] in https://github.com/cli/cli/pull/14377\n* chore(deps): bump github.com/yuin/goldmark from 1.8.5 to 1.8.6 by @dependabot[bot] in https://github.com/cli/cli/pull/14378\n* chore(deps): bump golang.org/x/sync from 0.22.0 to 0.23.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14391\n* chore(deps): bump github.com/microsoft/dev-tunnels from 0.1.27 to 0.2.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14375\n* chore(deps): bump golang.org/x/sys from 0.47.0 to 0.48.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14417\n* Bump Go to 1.27.1 by @github-actions[bot] in https://github.com/cli/cli/pull/14442\n* chore(deps): bump azure/login from 3.0.2 to 3.1.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14447\n* chore(deps): bump the codeql-actions group with 3 updates by @dependabot[bot] in https://github.com/cli/cli/pull/14446\n* chore(deps): bump golang.org/x/term from 0.45.0 to 0.46.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14445\n* chore(deps): bump golang.org/x/text from 0.41.0 to 0.42.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14444\n* chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.57.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14443\n* Bump github.com/cli/go-gh/v2 to v2.16.1 by @niik in https://github.com/cli/cli/pull/14461\n\n\n## New Contributors\n* @areesh-ali made their first contribution in https://github.com/cli/cli/pull/14363\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.100.0...v2.101.0",
+          "download": "https://cli.github.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Command line wrapper for git that makes you better at GitHub.",
-          "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-09-24T04:47:49.542Z"
+          "lastUpdatedAt": "2026-09-24T11:43:25.196Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1024,11 +1023,7 @@
             "github",
             "vcs",
             "gh",
-            "choco",
-            "cli",
-            "git",
-            "scm",
-            "admin"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -1037,319 +1032,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.101.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.100.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.99.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.98.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.97.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.96.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.95.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.94.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.93.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.92.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.91.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.90.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.89.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.88.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.88.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.87.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.87.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.86.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.85.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.82.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.82.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.81.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.80.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.63.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.64.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.44.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.67.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.101.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/gh/2.101.0",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "Zr2ef5WCLk7XjEvsD7iE/vKZi0Jd4ddFwkXY9/IhRS0kXtPeWQ2jvPe36pY23c8FTiE5L0dlUVz0Rvn/Yjc4sQ==",
+            "url": "https://cli.github.com/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1418,11 +1112,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:49.542Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1469,7 +1163,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-24T04:47:49.907Z",
+          "scannedAt": "2026-09-24T11:43:25.478Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1193,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-09-24T04:47:49.907Z"
+          "lastUpdatedAt": "2026-09-24T11:43:25.478Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2794,7 +2488,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-24T04:47:49.907Z",
+          "lastSuccessfulScanAt": "2026-09-24T11:43:25.478Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
