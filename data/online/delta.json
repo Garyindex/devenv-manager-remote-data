@@ -1,99 +1,102 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T21:30:21.846Z",
-  "fromGeneratedAt": "2026-09-24T17:10:09.775Z",
-  "toGeneratedAt": "2026-09-24T21:30:21.846Z",
+  "generatedAt": "2026-09-25T04:56:13.162Z",
+  "fromGeneratedAt": "2026-09-24T21:30:21.846Z",
+  "toGeneratedAt": "2026-09-25T04:56:13.162Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
-    "qualityChanges": 1
+    "versionChanges": 10,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "notepad_plus_plus",
-      "rustup",
+      "node_current",
+      "uv",
       "aws_cli",
       "cloudflared",
-      "flutter",
-      "stripe_cli",
-      "supabase_cli",
-      "prisma_cli"
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "notepad_plus_plus",
+        "toolId": "node_current",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "26.9.0",
+        "to": "26.10.0"
+      },
+      {
+        "toolId": "uv",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "8.9.8",
-        "to": "8.9.8.1"
+        "from": "0.12.18",
+        "to": "0.12.19"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.12.18",
+        "to": "0.12.19"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.18",
+        "to": "0.12.19"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.37.1",
+        "to": "2.37.2"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.37.1",
+        "to": "2.37.2"
       },
       {
         "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2.37.1",
-        "to": "2.37.2"
+        "from": "2.37.2",
+        "to": "2.37.3"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.9.1",
-        "to": "2026.9.3"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.9.1",
-        "to": "2026.9.3"
-      },
-      {
-        "toolId": "flutter",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.44.7",
-        "to": "3.47.0"
+        "from": "2026.9.1",
+        "to": "2026.9.3"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.51.1",
         "to": "1.52.0"
       },
       {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.118.0-beta.86",
-        "to": "2.118.0-beta.88"
-      },
-      {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "8.0.0-rc.11",
-        "to": "8.0.0-rc.12"
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.51.1",
+        "to": "1.52.0"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "rustup",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
