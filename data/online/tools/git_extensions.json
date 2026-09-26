@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:23:58.668Z",
-  "status": "ok",
+  "generatedAt": "2026-09-26T16:23:38.683Z",
+  "status": "partial",
   "tool": {
     "id": "git_extensions",
     "name": "Git Extensions",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
-      "long": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
-      "source": "winget",
+      "short": null,
+      "long": null,
+      "source": "catalog",
       "homepage": "https://gitextensions.github.io/",
-      "lastUpdatedAt": "2026-09-26T11:22:59.197Z"
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,31 +78,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-26T11:22:59.197Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-26T16:22:36.222Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Git Extensions",
-          "publisher": "Git Extensions Team",
-          "author": "Git Extensions Team",
-          "description": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
-          "license": "GPL-3.0",
-          "licenseUrl": "https://github.com/gitextensions/gitextensions/blob/HEAD/LICENSE.md",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://gitextensions.github.io/",
-          "download": "https://github.com/gitextensions/gitextensions/releases/download/v7.2.1/GitExtensions-x64-7.2.1.7-0aea2d6df.msi",
-          "releases": "https://github.com/gitextensions/gitextensions/releases/tag/v7.2.1",
+          "download": "https://gitextensions.github.io/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
-          "long": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://gitextensions.github.io/",
-          "lastUpdatedAt": "2026-09-26T11:22:59.197Z"
+          "lastUpdatedAt": "2026-09-26T16:22:36.222Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -358,11 +360,11 @@
             "version": "7.2.1.7",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/gitextensions/gitextensions/releases/download/v7.2.1/GitExtensions-x64-7.2.1.7-0aea2d6df.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "3d8043608fcb211b1ee26250dd1d5f0c596c82891230e8ea22549e3012c32475",
+            "type": "package-manager",
+            "url": "https://gitextensions.github.io/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -457,11 +459,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-26T11:22:59.197Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
