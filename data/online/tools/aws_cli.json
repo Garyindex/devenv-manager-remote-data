@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T21:34:58.611Z",
+  "generatedAt": "2026-09-26T04:57:26.708Z",
   "status": "ok",
   "tool": {
     "id": "aws_cli",
@@ -29,7 +29,7 @@
       "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
       "source": "choco",
       "homepage": "https://aws.amazon.com/cli/",
-      "lastUpdatedAt": "2026-09-25T21:34:31.961Z"
+      "lastUpdatedAt": "2026-09-26T04:57:00.276Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:31.432Z",
+          "scannedAt": "2026-09-26T04:57:00.012Z",
           "errors": []
         },
         "package": {
@@ -112,7 +112,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.37.3.msi",
+          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.37.4.msi",
           "releases": null,
           "docs": null
         },
@@ -121,7 +121,7 @@
           "long": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program.",
           "source": "winget",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-25T21:34:31.432Z"
+          "lastUpdatedAt": "2026-09-26T04:57:00.012Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,19 @@
         },
         "versions": [
           {
-            "version": "2.37.3",
+            "version": "2.37.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.37.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -430,29 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.36.25",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.37.3",
+            "version": "2.37.4",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.37.3.msi",
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.37.4.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "c340abe997213db8243b07c79124c6ea9a90cd177e592732bbd98d575979db68",
+            "sha256": "38c4f580622552d22d73aa9833c7770c05a2335c1386dc3ece6d36bf195eecbf",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:31.432Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:57:00.012Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:31.709Z",
+          "scannedAt": "2026-09-26T04:57:00.119Z",
           "errors": []
         },
         "package": {
@@ -614,7 +614,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://github.com/aws/aws-cli/archive/refs/tags/2.37.3.tar.gz",
+          "download": "https://github.com/aws/aws-cli/archive/refs/tags/2.37.4.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -623,7 +623,7 @@
           "long": "Official Amazon AWS command-line interface",
           "source": "homebrew",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-25T21:34:31.709Z"
+          "lastUpdatedAt": "2026-09-26T04:57:00.119Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -646,7 +646,7 @@
         },
         "versions": [
           {
-            "version": "2.37.3",
+            "version": "2.37.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -669,14 +669,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.37.3",
+            "version": "2.37.4",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/aws/aws-cli/archive/refs/tags/2.37.3.tar.gz",
+            "url": "https://github.com/aws/aws-cli/archive/refs/tags/2.37.4.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "91dd50eb35375412c636ef72949c9ac8bbafe7cc402f53e9b782516de311dfa2",
+            "sha256": "0f003652fd53309c68124be6edb5c5c14ae332d9f04e42f880c8ff565eb5a526",
             "sizeBytes": null
           }
         ],
@@ -740,7 +740,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:31.709Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:57:00.119Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -786,7 +786,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:31.784Z",
+          "scannedAt": "2026-09-26T04:57:00.194Z",
           "errors": []
         },
         "package": {
@@ -812,7 +812,7 @@
           "long": "Unified tool to manage AWS services",
           "source": "scoop",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-25T21:34:31.784Z"
+          "lastUpdatedAt": "2026-09-26T04:57:00.194Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -918,7 +918,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:31.784Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:57:00.194Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -964,7 +964,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:31.961Z",
+          "scannedAt": "2026-09-26T04:57:00.276Z",
           "errors": []
         },
         "package": {
@@ -998,7 +998,7 @@
           "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
           "source": "choco",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-09-25T21:34:31.961Z"
+          "lastUpdatedAt": "2026-09-26T04:57:00.276Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1410,7 +1410,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:31.961Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:57:00.276Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T21:34:58.611Z",
+  "generatedAt": "2026-09-26T04:57:26.708Z",
   "status": "ok",
   "tool": {
     "id": "pnpm",
@@ -29,7 +29,7 @@
       "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
       "source": "choco",
       "homepage": "https://pnpm.io/",
-      "lastUpdatedAt": "2026-09-25T21:34:11.688Z"
+      "lastUpdatedAt": "2026-09-26T04:56:39.491Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,7 +96,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:11.509Z",
+          "scannedAt": "2026-09-26T04:56:39.201Z",
           "errors": []
         },
         "package": {
@@ -110,8 +110,8 @@
         },
         "links": {
           "homepage": "https://pnpm.io/",
-          "download": "https://github.com/pnpm/pnpm/releases/download/v12.5.1/pnpm-win32-x64.zip",
-          "releases": "https://github.com/pnpm/pnpm/releases/tag/v12.5.1",
+          "download": "https://github.com/pnpm/pnpm/releases/download/v12.6.0/pnpm-win32-x64.zip",
+          "releases": "https://github.com/pnpm/pnpm/releases/tag/v12.6.0",
           "docs": null
         },
         "descriptions": {
@@ -119,7 +119,7 @@
           "long": "Fast, disk space efficient package manager.",
           "source": "winget",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-09-25T21:34:11.509Z"
+          "lastUpdatedAt": "2026-09-26T04:56:39.201Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,9 +138,19 @@
         },
         "versions": [
           {
-            "version": "12.5.1",
+            "version": "12.6.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.5.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -426,29 +436,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "10.29.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "12.5.1",
+            "version": "12.6.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/pnpm/pnpm/releases/download/v12.5.1/pnpm-win32-x64.zip",
+            "url": "https://github.com/pnpm/pnpm/releases/download/v12.6.0/pnpm-win32-x64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "fd20b55fe51414951efd4870a24dc4609694e391d07620e0df69aac151278989",
+            "sha256": "8152a1c9d14d38fb1cd98a211bcc48e4ae0c921ad918c52ffce19c222268f8b8",
             "sizeBytes": null
           }
         ],
@@ -546,7 +546,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:11.509Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:56:39.201Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:11.606Z",
+          "scannedAt": "2026-09-26T04:56:39.303Z",
           "errors": []
         },
         "package": {
@@ -619,7 +619,7 @@
           "long": "Fast, disk space efficient package manager",
           "source": "homebrew",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-09-25T21:34:11.606Z"
+          "lastUpdatedAt": "2026-09-26T04:56:39.303Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -754,7 +754,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:11.606Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:56:39.303Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -800,7 +800,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:11.610Z",
+          "scannedAt": "2026-09-26T04:56:39.374Z",
           "errors": []
         },
         "package": {
@@ -826,7 +826,7 @@
           "long": "A fast and disk space efficient Node package manager.",
           "source": "scoop",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-09-25T21:34:11.610Z"
+          "lastUpdatedAt": "2026-09-26T04:56:39.374Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -930,7 +930,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:11.610Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:56:39.374Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -976,7 +976,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-25T21:34:11.688Z",
+          "scannedAt": "2026-09-26T04:56:39.491Z",
           "errors": []
         },
         "package": {
@@ -1003,7 +1003,7 @@
           "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
           "source": "choco",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-09-25T21:34:11.688Z"
+          "lastUpdatedAt": "2026-09-26T04:56:39.491Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1406,7 +1406,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-25T21:34:11.688Z",
+          "lastSuccessfulScanAt": "2026-09-26T04:56:39.491Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
