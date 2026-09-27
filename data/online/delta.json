@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T16:57:44.898Z",
-  "fromGeneratedAt": "2026-09-27T12:00:57.297Z",
-  "toGeneratedAt": "2026-09-27T16:57:44.898Z",
+  "generatedAt": "2026-09-27T21:20:30.885Z",
+  "fromGeneratedAt": "2026-09-27T16:57:44.898Z",
+  "toGeneratedAt": "2026-09-27T21:20:30.885Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
@@ -10,56 +10,49 @@
     "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
-    "qualityChanges": 1
+    "versionChanges": 2,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "flutter",
+      "jq",
+      "nvm_windows",
       "wireshark"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.1125",
-        "to": "9.2.1132"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.1125",
-        "to": "9.2.1132"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.47.0",
-        "to": "3.47.1"
+        "toolId": "nvm_windows",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.0.1-beta.3",
+        "to": "2.0.1-beta.4"
       },
       {
         "toolId": "wireshark",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "4.6.8",
-        "to": null
+        "from": null,
+        "to": "4.6.8"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "wireshark",
+        "toolId": "jq",
         "sourceId": "winget",
         "manager": "winget",
         "from": 100,
         "to": 65
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 65,
+        "to": 100
       }
     ]
   }

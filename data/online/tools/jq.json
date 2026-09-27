@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T16:57:44.898Z",
+  "generatedAt": "2026-09-27T21:20:30.885Z",
   "status": "partial",
   "tool": {
     "id": "jq",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "jq is a lightweight and flexible command-line JSON processor.",
-      "long": "jq is a lightweight and flexible command-line JSON processor.",
-      "source": "winget",
-      "homepage": "https://github.com/jqlang/jq",
-      "lastUpdatedAt": "2026-09-27T16:57:08.797Z"
+      "short": "Lightweight and flexible command-line JSON processor",
+      "long": "Lightweight and flexible command-line JSON processor",
+      "source": "homebrew",
+      "homepage": "https://jqlang.github.io/jq/",
+      "lastUpdatedAt": "2026-09-27T21:19:48.802Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,31 +96,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-27T16:57:08.797Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-27T21:19:48.763Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "jq",
-          "publisher": "jqlang",
+          "publisher": null,
           "author": null,
-          "description": "jq is a lightweight and flexible command-line JSON processor.",
-          "license": "MIT License",
-          "licenseUrl": "https://github.com/jqlang/jq/blob/master/COPYING",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://github.com/jqlang/jq",
-          "download": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-amd64.exe",
-          "releases": "https://github.com/jqlang/jq/releases/tag/jq-1.8.2",
+          "homepage": "https://jqlang.github.io/jq/",
+          "download": "https://jqlang.github.io/jq/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "jq is a lightweight and flexible command-line JSON processor.",
-          "long": "jq is a lightweight and flexible command-line JSON processor.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://github.com/jqlang/jq",
-          "lastUpdatedAt": "2026-09-27T16:57:08.797Z"
+          "homepage": "https://jqlang.github.io/jq/",
+          "lastUpdatedAt": "2026-09-27T21:19:48.763Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -205,11 +207,11 @@
             "version": "1.8.2",
             "platform": "windows",
             "architecture": null,
-            "type": "portable",
-            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-amd64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "a6fc67fedaf9128a3309a1e2ebb8b986aeccf70122ee46d2cb4849e423f0c627",
+            "type": "package-manager",
+            "url": "https://jqlang.github.io/jq/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -304,11 +306,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-27T16:57:08.797Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -354,7 +356,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-27T16:57:08.929Z",
+          "scannedAt": "2026-09-27T21:19:48.802Z",
           "errors": []
         },
         "package": {
@@ -380,7 +382,7 @@
           "long": "Lightweight and flexible command-line JSON processor",
           "source": "homebrew",
           "homepage": "https://jqlang.github.io/jq/",
-          "lastUpdatedAt": "2026-09-27T16:57:08.929Z"
+          "lastUpdatedAt": "2026-09-27T21:19:48.802Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -485,7 +487,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-27T16:57:08.929Z",
+          "lastSuccessfulScanAt": "2026-09-27T21:19:48.802Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -531,7 +533,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-27T16:57:08.997Z",
+          "scannedAt": "2026-09-27T21:19:48.845Z",
           "errors": []
         },
         "package": {
@@ -557,7 +559,7 @@
           "long": "Lightweight and flexible command-line JSON processor",
           "source": "scoop",
           "homepage": "https://jqlang.github.io/jq/",
-          "lastUpdatedAt": "2026-09-27T16:57:08.997Z"
+          "lastUpdatedAt": "2026-09-27T21:19:48.845Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -661,7 +663,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-27T16:57:08.997Z",
+          "lastSuccessfulScanAt": "2026-09-27T21:19:48.845Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -707,7 +709,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-27T16:57:09.068Z",
+          "scannedAt": "2026-09-27T21:19:48.913Z",
           "errors": []
         },
         "package": {
@@ -733,7 +735,7 @@
           "long": "jq is a lightweight and flexible command-line JSON processor.",
           "source": "choco",
           "homepage": "https://jqlang.github.io/jq/",
-          "lastUpdatedAt": "2026-09-27T16:57:09.068Z"
+          "lastUpdatedAt": "2026-09-27T21:19:48.913Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -945,7 +947,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-27T16:57:09.068Z",
+          "lastSuccessfulScanAt": "2026-09-27T21:19:48.913Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -993,7 +995,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-27T16:57:09.081Z",
+          "scannedAt": "2026-09-27T21:19:48.948Z",
           "errors": []
         },
         "package": {
@@ -1018,7 +1020,7 @@
           "long": "Command-line JSON processor",
           "source": "github",
           "homepage": "https://jqlang.org",
-          "lastUpdatedAt": "2026-09-27T16:57:09.081Z"
+          "lastUpdatedAt": "2026-09-27T21:19:48.948Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2164,7 +2166,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-27T16:57:09.081Z",
+          "lastSuccessfulScanAt": "2026-09-27T21:19:48.948Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
