@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T13:52:15.839Z",
-  "status": "ok",
+  "generatedAt": "2026-09-28T23:15:50.417Z",
+  "status": "partial",
   "tool": {
     "id": "jetbrains_toolbox",
     "name": "JetBrains Toolbox",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Open any of your projects in any of the IDEs with one click.",
-      "long": "Open any of your projects in any of the IDEs with one click.",
-      "source": "winget",
+      "short": null,
+      "long": null,
+      "source": "catalog",
       "homepage": "https://www.jetbrains.com/toolbox-app/",
-      "lastUpdatedAt": "2026-09-28T13:51:22.476Z"
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,31 +78,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-28T13:51:22.476Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-28T23:15:13.963Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "JetBrains Toolbox",
-          "publisher": "JetBrains",
-          "author": "JetBrains s.r.o.",
-          "description": "Open any of your projects in any of the IDEs with one click.",
-          "license": "Freeware",
-          "licenseUrl": "https://www.jetbrains.com/legal/docs/toolbox/user/",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.jetbrains.com/toolbox-app/",
-          "download": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.8.1.88030.exe",
-          "releases": "https://youtrack.jetbrains.com/releaseNotes?title=Release%20notes%203.8.1&q=in:%20TBX%20Fix%20versions:%203.8,%203.8.1%20%23Resolved%20-Duplicate%20-Answered",
+          "download": "https://www.jetbrains.com/toolbox-app/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Open any of your projects in any of the IDEs with one click.",
-          "long": "Open any of your projects in any of the IDEs with one click.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://www.jetbrains.com/toolbox-app/",
-          "lastUpdatedAt": "2026-09-28T13:51:22.476Z"
+          "lastUpdatedAt": "2026-09-28T23:15:13.963Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -428,11 +430,11 @@
             "version": "3.8.1.0",
             "platform": "windows",
             "architecture": null,
-            "type": "exe",
-            "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.8.1.88030.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "c3d119512751309369b41bde0e7c6c20b73dd58e2a5a13e5549103b5c813e1e6",
+            "type": "package-manager",
+            "url": "https://www.jetbrains.com/toolbox-app/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -527,11 +529,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-28T13:51:22.476Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {

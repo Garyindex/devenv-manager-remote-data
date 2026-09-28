@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T13:52:15.839Z",
-  "status": "ok",
+  "generatedAt": "2026-09-28T23:15:50.417Z",
+  "status": "partial",
   "tool": {
     "id": "hugo",
     "name": "Hugo",
@@ -29,7 +29,7 @@
       "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://gohugo.io/",
-      "lastUpdatedAt": "2026-09-28T13:52:12.031Z"
+      "lastUpdatedAt": "2026-09-28T23:15:47.901Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-28T13:52:11.509Z",
+          "scannedAt": "2026-09-28T23:15:47.597Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_windows-amd64.zip",
-          "releases": "https://github.com/gohugoio/hugo/releases/tag/v0.166.0",
+          "download": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_windows-amd64.zip",
+          "releases": "https://github.com/gohugoio/hugo/releases/tag/v0.167.0",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-09-28T13:52:11.509Z"
+          "lastUpdatedAt": "2026-09-28T23:15:47.597Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "0.166.0",
+            "version": "0.167.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.166.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.153.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.166.0",
+            "version": "0.167.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_windows-amd64.zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_windows-amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "51e4512ff343e7a2b9d879028a92177d090031c71e7a6a2a3d7cba8536202e80",
+            "sha256": "b04cdf0ae9098fe093ea90e1bd778d21649d71f55914d267aa60aa80b59074e0",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-28T13:52:11.509Z",
+          "lastSuccessfulScanAt": "2026-09-28T23:15:47.597Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-28T13:52:11.921Z",
+          "scannedAt": "2026-09-28T23:15:47.800Z",
           "errors": []
         },
         "package": {
@@ -613,7 +613,7 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.166.0.tar.gz",
+          "download": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.167.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -622,7 +622,7 @@
           "long": "Configurable static site generator",
           "source": "homebrew",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-09-28T13:52:11.921Z"
+          "lastUpdatedAt": "2026-09-28T23:15:47.800Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -644,7 +644,7 @@
         },
         "versions": [
           {
-            "version": "0.166.0",
+            "version": "0.167.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -657,14 +657,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.166.0",
+            "version": "0.167.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.166.0.tar.gz",
+            "url": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.167.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "599566b8270a0872061f43564d81961a5f1a02857022078d1fcb3a601189f573",
+            "sha256": "10a31991b4bbfbc458282e9ad3752b186ee5d118b3ca82dcf067d5a8cbf9363e",
             "sizeBytes": null
           }
         ],
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-28T13:52:11.921Z",
+          "lastSuccessfulScanAt": "2026-09-28T23:15:47.800Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-28T13:52:11.936Z",
+          "scannedAt": "2026-09-28T23:15:47.803Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Speedy and flexible static site generator (without Sass/SCSS support)",
           "source": "scoop",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-09-28T13:52:11.936Z"
+          "lastUpdatedAt": "2026-09-28T23:15:47.803Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -821,7 +821,7 @@
         },
         "versions": [
           {
-            "version": "0.166.0",
+            "version": "0.167.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -834,7 +834,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.166.0",
+            "version": "0.167.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-28T13:52:11.936Z",
+          "lastSuccessfulScanAt": "2026-09-28T23:15:47.803Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-28T13:52:12.031Z",
+          "scannedAt": "2026-09-28T23:15:47.901Z",
           "errors": []
         },
         "package": {
@@ -970,8 +970,8 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.166.0",
-          "releases": "## Note\n\n* tpl/transform: Bump fileCacheEntryVersion in transform.ToMath (note) 8d88b8b4 @bep #15267 \n* resources/images: Bump formatVersionNumbers.PNG and fix version cache busting for images.Filter (note) d19e0a4b @bep #12536 #12543 #15266 \n* warpc/js: Upgrade katex to 0.18.4 (note) ec52e638 @bep #15254 \n* hexec: Fail on symlinks that escape the Node.js permission paths c05c012a @bep \n* config/security: Deny text/org content by default e6abb9c3 @bep \n* config/security: Add http.proxyFromEnvironment and document the resolved address check 6a2a955d @bep #15301 #15302 \n\n\nWhen upgrading to Hugo v0.166.0, sites using `transform.ToMath` with the `output` option set to `html` or `htmlAndMathml` must update the KaTeX stylesheet referenced in their template(s) to version 0.18.4 or higher. Using older CSS versions like 0.16.21 will cause certain mathematical or chemical expressions to render incorrectly.\n\nExample update:\n\n```diff\n- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css\">\n+ <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/katex@0.18.4/dist/katex.min.css\">\n```\n\nSee these examples:\n- <https://gohugo.io/functions/transform/tomath/#step-3>\n- <https://gohugo.io/render-hooks/passthrough/#example>\n\n## Bug fixes\n\n* tpl/strings: Fix replaceRE with zero-width assertions ae07063f @youdie006 \n* common/hreflect: Fix the off-by-one in the float to int overflow guards 5130d000 @youdie006 \n* resources/images: Fix filters on transparent colors and paletted images 77856683 @bep #12536 #12543 \n* github: Fix workflow for stale issues efe5cbc7 @jmooring #15261 \n* all: Run modernize -fix ./... 7b5199fd @bep \n* commands: Fix lang flag description in config command 87260e4a @jmooring #15223 \n* hugolib: Fix slice bounds panic when deleting multiple nodes at same path 49dceb19 @bep #15207 \n* hugolib: Fix ReadingTime and FuzzyWordCount calculations 5e709925 @jmooring #15206 \n\n## Improvements\n\n* js: Add es2025 as supported build target 857120b7 @bep #15307 \n* hugofs: Drop symlinked mount roots 938c8206 @bep \n* markup/highlight: Escape lineAnchors before passing it to Chroma 3b2d3b82 @bep \n* tpl/partials: Slight performance improvement of the common partialCached case 9c2527f8 @bep \n* Add internalExternal.IgnoreTailwindCSSSecurityError config option a36bd274 @bep \n* config/security: Harden the default http.urls and resolved address checks (#15285) 24d5e42f @bep \n* resources/images: Preserve the source palette for geometric filter chains 9e7c978e @bep #12543 \n* resources/images: Add golden test cases for geometric filter chains on paletted images 6b5b7d82 @bep #12543 \n* resources/images: Add some golden test cases 62e24b7e @bep #12536 #12543 \n* related: Speed up index creation f61346ed @bep \n* related: Add tokenize option for index values 850f11c0 @jmooring #7515 #15199 \n* resources/page: Don't let a title's \"/\" split an auto-derived slug 39507d51 @ipince #4092 #3577 #5571 #4090 \n* config/allconfig: Improve resilience of hugo mod init 90fe5068 @jmooring #15253 \n* tpl: Separate deferred templates by escaping mode 49835f8f @Soundcreates #15234 \n* resources: Validate the resolved address on remote fetches d6e6f9e5 @bep #15247 \n* markup: Escape code-fence attribute values in the default renderer e4dc48cf @bep #15247 \n* hugolib: Make .Render take an optional context argument bcde8063 @bep #15077 \n* modules/npm: Make the generated workspace package private with a stable name df4ac348 @bep #15245 \n* common/hstore: Keep read lock while sorting map values 166d3ee1 @Soundcreates #15237 \n* metrics: Improve template metrics duration formatting a25af7fa @Shiwang0-0 #15027 \n* Remove comments from rebuild test functions 723579ff @bep \n* hugolib: Add some fast render mode integration tests 85ad5e48 @bep \n* Upgrade to Go 1.27 e31ff547 @bep #15228 \n* tpl: Improve the return keyword in templates 8405b802 @bep #15212 \n* page: Add IndexOf method to Pages bf05832d @Shiwang0-0 #13589 \n* tpl/resources: Add resources.Publish a05736cb @bep #15208 \n* markup/pandoc: Support pandoc 3.11 and later 423e9cea @jmooring #15271 #15280 \n\n## Dependency Updates\n\n* build(deps): bump google.golang.org/grpc from 1.83.1 to 1.83.2 3fbfd273 @dependabot[bot] \n* build(deps): bump golang.org/x/sync from 0.22.0 to 0.23.0 393de587 @dependabot[bot] \n* build(deps): bump golang.org/x/mod from 0.40.0 to 0.41.0 870f7464 @dependabot[bot] \n* build(deps): bump github.com/getkin/kin-openapi from 0.146.0 to 0.149.0 6152e22e @dependabot[bot] \n* build(deps): bump github.com/bits-and-blooms/bitset 5b6e7c23 @dependabot[bot] \n* build(deps): bump github.com/bep/lazycache from 0.8.1 to 0.9.0 dc03bb27 @dependabot[bot] \n* build(deps): bump github.com/bep/tmc from 0.6.0 to 0.7.0 701dd337 @dependabot[bot] \n* build(deps): bump github.com/yuin/goldmark from 1.8.5 to 1.8.6 b4062c84 @dependabot[bot] \n* build(deps): bump golang.org/x/image from 0.44.0 to 0.45.0 cdd16273 @dependabot[bot] \n* deps: Upgrade github.com/gobwas/glob v0.2.3 => v1.0.0 efd24562 @bep #15273 \n* build(deps): bump golang.org/x/mod from 0.39.0 to 0.40.0 d4629682 @dependabot[bot] \n* build(deps): bump github.com/tdewolff/minify/v2 from 2.24.16 to 2.24.17 fd5f7c6e @dependabot[bot] \n* build(deps): bump github.com/gohugoio/httpcache from 0.8.0 to 0.9.0 6b335176 @dependabot[bot] \n* build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1 5f0d88b8 @dependabot[bot] \n* build(deps): bump golang.org/x/tools from 0.48.0 to 0.49.0 9171daeb @dependabot[bot] \n* build(deps): bump software.sslmate.com/src/go-pkcs12 from 0.7.0 to 0.7.2 d1ee825b @dependabot[bot]",
+          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.167.0",
+          "releases": "This release brings relative partial references, slug support for branch pages, and a handful of security hardening fixes.\n\n**Relative partial references.** A partial name starting with `./` or `../` is now resolved relative to the directory of the calling partial. This makes it much easier to write self-contained, movable partial trees, e.g. `{{ partial \"./item.html\" . }}` from within `layouts/_partials/card/list.html`. Relative paths are only allowed from within partials, and paths resolving outside the partials directory is an error. See #15373 and the [documentation](https://gohugo.io/functions/partials/include/#relative-paths).\n\n**Slugs for section, taxonomy and term pages.** The `slug` front matter now works for branch pages, not just regular pages, and it cascades to descendants. This is particularly useful in multilingual sites, where e.g. `content/help/_index.es.md` with `slug: ayuda` gives `/es/ayuda/`, `/es/ayuda/avanzado/` etc. See #14352.\n\n**Other notable improvements** include the new `build.cleanDestinationDir` config with `keepFiles`/`keepDirs` Glob patterns (#14937, [docs](https://gohugo.io/configuration/build/#clean-destination-directory)), `hugo` now builds without a config file (#15393), exact numeric comparisons in `eq`, `where`, `in` and the set functions (#15322, #15358), and automatic summaries that no longer end inside an open list or blockquote (#14044).\n\n## Security\n\nThis release contains several hardening fixes. None of them are known to be exploited, but if you build sites with untrusted themes or modules, you should upgrade.\n\n* Sass imports not found in Hugo's file systems were resolved by the Sass compiler itself, which follows symlinks and knows nothing about the project root. A theme could import a file outside the project and get its content into the published CSS. These imports are now resolved by Hugo and checked against the same `security.allowRead` roots as the Node.js tools and `js.Build`. 41040cc7 (thanks to @Hama1cco)\n* Likewise, imports not found in `/assets` were resolved and read by ESBuild itself. The resolved path is now checked against the allowed read paths before ESBuild loads it. 2aa51f34 (thanks to @Hama1cco)\n* A symlinked directory in a theme at the parent of a nested mount could expose files outside the module. 2fe9bab7\n* Explicit heading IDs (e.g. `## Foo {id=\"...\"}`) were written unescaped into the table of contents `href`, allowing attribute breakout. 671fbf2c\n\n## Note\n\n* The default `baseURL` is now `https://example.org/` (it was empty). Hugo has always required a valid URL to work properly, so this mostly affects new and test sites, but if you relied on the empty default for relative URLs, set `baseURL` explicitly. bc686541 @bep #14625 #15384\n* The root `cleanDestinationDir` config key is deprecated in favour of `build.cleanDestinationDir.enable`. The `--cleanDestinationDir` flag maps to the new key. Note that `.git` files in the publish dir are now kept by default. 90861931 @bep #14937\n* `eq` now compares numeric values the same way as `lt`, `le` etc., so e.g. `eq 1 1.0` is now `true`. Also, `in`, `intersect`, `union`, `uniq`, `symdiff`, `complement` and `where`'s `in`/`not in` now compare numbers exactly rather than via `float64`, and no longer require the Go types to match. 4d628bbd 366377b6 @bep #15322 #15358\n* A user table render hook is now preferred over the embedded one. 140d9362 @jmooring #15389\n* Automatic summaries are expanded past `summaryLength` when needed so they don't end inside an open container element. This may change the summary for some pages. d692a243 @bep #14044\n\n## Bug fixes\n\n* hugolib: Fix failing integration test fdbba5a6 @jmooring \n* Fix build with Go 1.26 on Fedora 44 Beta 2782bfd3 @flyn-org \n* Fix smartcrop with rotation (#15371) 5edd05bb @bep #11266 #15369 \n* ci: Fix broken magefile 1d87ee5b @bep \n* tpl/collections: Fix union of slices with different numeric element types ffbcdba9 @hktitof #15323 \n* Fix stale page content when several files in the same dir change in one batch a374b865 @bep #15330 \n\n## Improvements\n\n* Update .gitignore f6606f1f @bep \n* tocss: Confine Sass import fallbacks to the allowed read paths 41040cc7 @bep \n* js: Confine ESBuild's fallback resolver to the allowed read paths 2aa51f34 @bep \n* commands: Allow building without a config file c7f99993 @bep #15393 \n* collections: Preserve slice type when appending an empty slice dd16df14 @jakezwang #11131 \n* tpl/tplimpl: Prefer user table render hook over embedded 140d9362 @jmooring #15389 \n* Avoid allocating in SitesMatrix.MatchSiteVector 83ab7999 @bep \n* Add slug support for section, taxonomy and term pages 5d43ab70 @bep #14352 \n* tpl: Avoid reflect.Value.Call for common signatures 806a62e8 @bep #15385 \n* ci: Disable vet when running tests 8bac4de7 @bep \n* tpl/partials: Support relative partial paths from within partials (#15376) bd1588bd @bep #15373 \n* config: Add build.cleanDestinationDir config 90861931 @bep #14937 \n* commands: Make testscripts/commands/hugo__clean_destination_dir.txt portable a74b7539 @bep #8433 \n* commands: Handle missing staticDir in cleanDestinationDir 07b9fba1 @jmooring #8433 \n* hugofs: Cache symlink checks 09fa49be @bep \n* hugofs: Drop symlinks in virtual ancestor dirs of nested mounts 2fe9bab7 @bep \n* markup/tableofcontents: Escape heading IDs in ToC HTML 671fbf2c @bep \n* hugofs: Allow symlinked mount roots in the main project 25f2856a @bep #15367 \n* Expand and consolidate BOM trimming cb6a7072 @bep #15355 #15361 \n* tpl/collections: Compare numbers exactly in set operations and where 366377b6 @bep #15358 #15359 \n* ci: Skip vet on Windows 10bb97ba @bep \n* Revert \"parser/metadecoders: Strip BOM from data prior to unmarshalling\" 51cd9e6c @bep \n* parser/metadecoders: Strip BOM from data prior to unmarshalling ec578f0c @jmooring #15355 \n* tpl: Reformat templates with new formatter version 5698de94 @bep \n* resources/page: Balance container tags in automatic summaries d692a243 @bep #14044 #14927 \n* config/security: Add an integration test 3be817ed @bep \n* tpl/compare:  Consolidate numeric comparisions 4d628bbd @bep #15322 #15347 \n* tpl/strings: Add a strings.FirstLower function aaacd12c @jmooring #15332 \n* Update brevity guideline in AGENTS.md 881c0ec7 @bep \n\n## Dependency Updates\n\n* build(deps): bump github.com/olekukonko/tablewriter from 1.1.4 to 1.1.5 1567bdef @dependabot[bot] \n* build(deps): bump github.com/dustin/go-humanize from 1.0.1 to 1.1.0 9e4059cf @dependabot[bot] \n* build(deps): bump golang.org/x/tools from 0.49.0 to 0.50.0 8e3bbe67 @dependabot[bot] \n* build(deps): bump golang.org/x/image from 0.45.0 to 0.46.0 753c5fc1 @dependabot[bot] \n* build(deps): bump golang.org/x/text from 0.41.0 to 0.42.0 facde8aa @dependabot[bot] \n* build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0 c7e1a8e6 @dependabot[bot] \n* deps: Bump github.com/bep/imagemeta from 1.0.0 to 1.0.1 (#15338) ec57bb7d @dependabot[bot] #15324 \n\n## Documentation\n\n* readme: Bump minimum Go version 7a46cd2b @mikoxyz \n\n## Build Setup\n\n* Update release image to Go 1.27.1 (#15342) 34d8cdb1 @bep",
           "docs": null
         },
         "descriptions": {
@@ -979,7 +979,7 @@
           "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-09-28T13:52:12.031Z"
+          "lastUpdatedAt": "2026-09-28T23:15:47.901Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1002,9 +1002,19 @@
         },
         "versions": [
           {
-            "version": "0.166.0",
+            "version": "0.167.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.166.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1290,29 +1300,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.153.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.166.0",
+            "version": "0.167.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.166.0",
+            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.167.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "PrKTTjrG2Il68g4x5MwExgqpqLKIf677KNVL6Y9QtX1Ydnkor4GsRnSlFDPl8+8enO9BP5No1pL8IgUfcrAl5g==",
+            "sha256": "MKL7Ii8Ar9/FrLC5ryE0dUAuntpky5Edc/t3EKCCyrXKu79NGB3v+sxY9yrRBw1B5n1ELDoh3oCmjGvf9yLcCA==",
             "sizeBytes": null
           }
         ],
@@ -1384,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-28T13:52:12.031Z",
+          "lastSuccessfulScanAt": "2026-09-28T23:15:47.901Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1432,7 +1432,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-28T13:52:12.132Z",
+          "scannedAt": "2026-09-28T23:15:48.121Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1463,7 @@
           "long": "The world’s fastest framework for building websites.",
           "source": "github",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-09-28T13:52:12.132Z"
+          "lastUpdatedAt": "2026-09-28T23:15:48.121Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1489,9 +1489,19 @@
         },
         "versions": [
           {
-            "version": "0.166.0",
+            "version": "0.167.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-09-28T15:20:52Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/gohugoio/hugo/releases/tag/v0.167.0"
+          },
+          {
+            "version": "0.166.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-09-09T15:10:02Z",
@@ -1777,19 +1787,441 @@
             "releaseDate": "2025-12-31T14:25:22Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/gohugoio/hugo/releases/tag/v0.154.0"
-          },
-          {
-            "version": "0.153.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2025-12-30T10:48:25Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/gohugoio/hugo/releases/tag/v0.153.5"
           }
         ],
         "downloads": [
+          {
+            "id": "hugo_0.167.0_checksums.txt",
+            "version": "0.167.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 3698
+          },
+          {
+            "id": "hugo_0.167.0_darwin-universal.pkg",
+            "version": "0.167.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_darwin-universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 40711261
+          },
+          {
+            "id": "hugo_0.167.0_dragonfly-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_dragonfly-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20915812
+          },
+          {
+            "id": "hugo_0.167.0_freebsd-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_freebsd-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20929694
+          },
+          {
+            "id": "hugo_0.167.0_Linux-64bit.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_Linux-64bit.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20970860
+          },
+          {
+            "id": "hugo_0.167.0_linux-amd64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21834092
+          },
+          {
+            "id": "hugo_0.167.0_linux-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20970860
+          },
+          {
+            "id": "hugo_0.167.0_linux-arm.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-arm.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19544285
+          },
+          {
+            "id": "hugo_0.167.0_linux-arm64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20177748
+          },
+          {
+            "id": "hugo_0.167.0_linux-arm64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19354090
+          },
+          {
+            "id": "hugo_0.167.0_netbsd-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_netbsd-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20914021
+          },
+          {
+            "id": "hugo_0.167.0_openbsd-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_openbsd-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20928895
+          },
+          {
+            "id": "hugo_0.167.0_solaris-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_solaris-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20931972
+          },
+          {
+            "id": "hugo_0.167.0_windows-amd64.zip",
+            "version": "0.167.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_windows-amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22211175
+          },
+          {
+            "id": "hugo_0.167.0_windows-arm64.zip",
+            "version": "0.167.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_windows-arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20349342
+          },
+          {
+            "id": "hugo_extended_0.167.0_darwin-universal.pkg",
+            "version": "0.167.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_darwin-universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42138400
+          },
+          {
+            "id": "hugo_extended_0.167.0_Linux-64bit.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_Linux-64bit.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21762069
+          },
+          {
+            "id": "hugo_extended_0.167.0_linux-amd64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_linux-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22680996
+          },
+          {
+            "id": "hugo_extended_0.167.0_linux-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21762069
+          },
+          {
+            "id": "hugo_extended_0.167.0_linux-arm64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_linux-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20922290
+          },
+          {
+            "id": "hugo_extended_0.167.0_linux-arm64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20089922
+          },
+          {
+            "id": "hugo_extended_0.167.0_windows-amd64.zip",
+            "version": "0.167.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_0.167.0_windows-amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 23413300
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_darwin-universal.pkg",
+            "version": "0.167.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_darwin-universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 59439086
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_Linux-64bit.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_Linux-64bit.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 30772397
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_linux-amd64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_linux-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32100438
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_linux-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 30772397
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_linux-arm64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_linux-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29394888
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_linux-arm64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 28207247
+          },
+          {
+            "id": "hugo_extended_withdeploy_0.167.0_windows-amd64.zip",
+            "version": "0.167.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_extended_withdeploy_0.167.0_windows-amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 33168319
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_darwin-universal.pkg",
+            "version": "0.167.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_darwin-universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 58040856
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_Linux-64bit.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_Linux-64bit.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29946648
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_linux-amd64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_linux-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31264960
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_linux-amd64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29946648
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_linux-arm64.deb",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_linux-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 28579556
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_linux-arm64.tar.gz",
+            "version": "0.167.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 27460042
+          },
+          {
+            "id": "hugo_withdeploy_0.167.0_windows-amd64.zip",
+            "version": "0.167.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_withdeploy_0.167.0_windows-amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 31852497
+          },
           {
             "id": "hugo_0.166.0_checksums.txt",
             "version": "0.166.0",
@@ -2317,438 +2749,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 19427757
-          },
-          {
-            "id": "hugo_0.165.0_linux-arm64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_linux-arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20048088
-          },
-          {
-            "id": "hugo_0.165.0_linux-arm64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_linux-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19357355
-          },
-          {
-            "id": "hugo_0.165.0_netbsd-amd64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_netbsd-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20834698
-          },
-          {
-            "id": "hugo_0.165.0_openbsd-amd64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_openbsd-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20845761
-          },
-          {
-            "id": "hugo_0.165.0_solaris-amd64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_solaris-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20847381
-          },
-          {
-            "id": "hugo_0.165.0_windows-amd64.zip",
-            "version": "0.165.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_windows-amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21523673
-          },
-          {
-            "id": "hugo_0.165.0_windows-arm64.zip",
-            "version": "0.165.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_windows-arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19759768
-          },
-          {
-            "id": "hugo_extended_0.165.0_darwin-universal.pkg",
-            "version": "0.165.0",
-            "platform": "macos",
-            "architecture": null,
-            "type": "pkg",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_darwin-universal.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 42474795
-          },
-          {
-            "id": "hugo_extended_0.165.0_Linux-64bit.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_Linux-64bit.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21690586
-          },
-          {
-            "id": "hugo_extended_0.165.0_linux-amd64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22594736
-          },
-          {
-            "id": "hugo_extended_0.165.0_linux-amd64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21690586
-          },
-          {
-            "id": "hugo_extended_0.165.0_linux-arm64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20805196
-          },
-          {
-            "id": "hugo_extended_0.165.0_linux-arm64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20085682
-          },
-          {
-            "id": "hugo_extended_0.165.0_windows-amd64.zip",
-            "version": "0.165.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_windows-amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22672703
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_darwin-universal.pkg",
-            "version": "0.165.0",
-            "platform": "macos",
-            "architecture": null,
-            "type": "pkg",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_darwin-universal.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 60412041
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_Linux-64bit.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_Linux-64bit.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 30859472
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_linux-amd64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_linux-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 32203608
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_linux-amd64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_linux-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 30859472
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_linux-arm64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_linux-arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 29522340
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_linux-arm64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_linux-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 28382126
-          },
-          {
-            "id": "hugo_extended_withdeploy_0.165.0_windows-amd64.zip",
-            "version": "0.165.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_withdeploy_0.165.0_windows-amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 32179947
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_darwin-universal.pkg",
-            "version": "0.165.0",
-            "platform": "macos",
-            "architecture": null,
-            "type": "pkg",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_darwin-universal.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 58652227
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_Linux-64bit.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_Linux-64bit.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 30037253
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_linux-amd64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_linux-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 31394652
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_linux-amd64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_linux-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 30037253
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_linux-arm64.deb",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_linux-arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 28740802
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_linux-arm64.tar.gz",
-            "version": "0.165.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_linux-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 27625896
-          },
-          {
-            "id": "hugo_withdeploy_0.165.0_windows-amd64.zip",
-            "version": "0.165.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_withdeploy_0.165.0_windows-amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 31000336
-          },
-          {
-            "id": "hugo_0.164.0_checksums.txt",
-            "version": "0.164.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 3698
-          },
-          {
-            "id": "hugo_0.164.0_darwin-universal.pkg",
-            "version": "0.164.0",
-            "platform": "macos",
-            "architecture": null,
-            "type": "pkg",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_darwin-universal.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 40499275
-          },
-          {
-            "id": "hugo_0.164.0_dragonfly-amd64.tar.gz",
-            "version": "0.164.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_dragonfly-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20663831
-          },
-          {
-            "id": "hugo_0.164.0_freebsd-amd64.tar.gz",
-            "version": "0.164.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_freebsd-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20674349
-          },
-          {
-            "id": "hugo_0.164.0_Linux-64bit.tar.gz",
-            "version": "0.164.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_Linux-64bit.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20723069
-          },
-          {
-            "id": "hugo_0.164.0_linux-amd64.deb",
-            "version": "0.164.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21633616
-          },
-          {
-            "id": "hugo_0.164.0_linux-amd64.tar.gz",
-            "version": "0.164.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20723069
-          },
-          {
-            "id": "hugo_0.164.0_linux-arm.tar.gz",
-            "version": "0.164.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-arm.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19261624
           }
         ],
         "commands": [],
@@ -2756,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-28T13:52:12.132Z",
+          "lastSuccessfulScanAt": "2026-09-28T23:15:48.121Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
