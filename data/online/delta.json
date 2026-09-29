@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:51:20.542Z",
-  "fromGeneratedAt": "2026-09-29T05:42:52.519Z",
-  "toGeneratedAt": "2026-09-29T12:51:20.542Z",
+  "generatedAt": "2026-09-29T22:14:36.205Z",
+  "fromGeneratedAt": "2026-09-29T12:51:20.542Z",
+  "toGeneratedAt": "2026-09-29T22:14:36.205Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,7 +10,7 @@
     "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 12,
+    "versionChanges": 13,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,101 +18,108 @@
     "removedTools": [],
     "changedTools": [
       "git",
+      "vim",
       "uv",
       "pipx",
+      "podman",
+      "aws_cli",
       "google_cloud_sdk",
       "postman",
-      "beekeeper_studio",
-      "netlify_cli",
-      "supabase_cli",
-      "pandoc"
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "git",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.55.0.5",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.55.0",
         "to": "2.56.0"
       },
       {
-        "toolId": "uv",
+        "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.12.19",
-        "to": "0.12.20"
+        "from": "9.2.1135",
+        "to": "9.2.1143"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.20",
+        "to": "0.12.21"
       },
       {
         "toolId": "pipx",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.17.7",
+        "to": "1.17.8"
+      },
+      {
+        "toolId": "podman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.17.6",
-        "to": "1.17.7"
+        "from": "6.1.2",
+        "to": "6.1.3"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "6.1.2",
+        "to": "6.1.3"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "5.8.7",
+        "to": "6.1.3"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.37.5",
+        "to": "2.37.6"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.37.4",
+        "to": "2.37.5"
       },
       {
         "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "586.0.0",
         "to": "587.0.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.30.0",
         "to": "12.30.3"
       },
       {
-        "toolId": "beekeeper_studio",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "6.1.2",
-        "to": "6.1.4"
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.30.0",
+        "to": "12.30.3"
       },
       {
-        "toolId": "beekeeper_studio",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "6.1.2",
-        "to": "6.1.4"
-      },
-      {
-        "toolId": "netlify_cli",
+        "toolId": "stripe_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "27.10.1",
-        "to": "27.10.2"
-      },
-      {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.119.0-beta.4",
-        "to": "2.119.0-beta.9"
-      },
-      {
-        "toolId": "pandoc",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.11",
-        "to": "3.12"
-      },
-      {
-        "toolId": "pandoc",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "3.11",
-        "to": "3.12"
-      },
-      {
-        "toolId": "pandoc",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.11",
-        "to": "3.12"
+        "from": "1.52.0",
+        "to": "1.52.1"
       }
     ],
     "qualityChanges": []
