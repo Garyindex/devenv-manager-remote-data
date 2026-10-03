@@ -1,49 +1,79 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T16:17:09.530Z",
-  "fromGeneratedAt": "2026-10-03T11:38:35.586Z",
-  "toGeneratedAt": "2026-10-03T16:17:09.530Z",
+  "generatedAt": "2026-10-03T21:13:51.685Z",
+  "fromGeneratedAt": "2026-10-03T16:17:09.530Z",
+  "toGeneratedAt": "2026-10-03T21:13:51.685Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 3,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "cmake",
-      "pulumi",
-      "aws_cli"
+      "uv",
+      "pipx",
+      "aws_cli",
+      "postman",
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "cmake",
+        "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "4.4.3",
-        "to": "4.4.4"
+        "from": "0.12.22",
+        "to": "0.12.23"
       },
       {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.266.0",
-        "to": "3.267.0"
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.12.22",
+        "to": "0.12.23"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.22",
+        "to": "0.12.23"
+      },
+      {
+        "toolId": "pipx",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.17.9",
+        "to": "1.17.10"
       },
       {
         "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.37.7",
-        "to": "2.37.8"
+        "from": "2.37.8",
+        "to": "2.37.9"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.30.4",
+        "to": "12.30.5"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.52.2",
+        "to": "1.53.0"
       }
     ],
     "qualityChanges": []
