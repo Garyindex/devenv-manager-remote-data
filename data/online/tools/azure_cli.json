@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T23:04:43.625Z",
-  "status": "ok",
+  "generatedAt": "2026-10-08T06:02:39.050Z",
+  "status": "partial",
   "tool": {
     "id": "azure_cli",
     "name": "Azure CLI",
@@ -29,7 +29,7 @@
       "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
       "source": "winget",
       "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-      "lastUpdatedAt": "2026-10-07T23:04:24.819Z"
+      "lastUpdatedAt": "2026-10-08T06:02:08.589Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:24.819Z",
+          "scannedAt": "2026-10-08T06:02:08.589Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "winget",
           "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-          "lastUpdatedAt": "2026-10-07T23:04:24.819Z"
+          "lastUpdatedAt": "2026-10-08T06:02:08.589Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:24.819Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:08.589Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,34 +596,34 @@
         "official": true,
         "priority": 20,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-07T23:04:24.835Z",
-          "errors": []
-        },
-        "package": {
-          "name": "azure-cli",
-          "publisher": "homebrew/core",
-          "author": "homebrew/core",
-          "description": "Microsoft Azure CLI 2.0",
-          "license": "MIT",
-          "licenseUrl": null,
-          "tags": [
-            "formula",
-            "homebrew/core"
+          "status": "partial",
+          "scannedAt": "2026-10-08T06:02:08.610Z",
+          "errors": [
+            "details: formula: 404 Not Found: <!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:",
+            "versions: formula: 404 Not Found: <!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:"
           ]
         },
+        "package": {
+          "name": "Azure CLI",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
         "links": {
-          "homepage": "https://docs.microsoft.com/cli/azure/overview",
-          "download": "https://github.com/Azure/azure-cli/archive/refs/tags/azure-cli-2.90.0.tar.gz",
+          "homepage": "https://learn.microsoft.com/cli/azure/",
+          "download": "https://learn.microsoft.com/cli/azure/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Microsoft Azure CLI 2.0",
-          "long": "Microsoft Azure CLI 2.0",
+          "short": null,
+          "long": null,
           "source": "homebrew",
-          "homepage": "https://docs.microsoft.com/cli/azure/overview",
-          "lastUpdatedAt": "2026-10-07T23:04:24.835Z"
+          "homepage": "https://learn.microsoft.com/cli/azure/",
+          "lastUpdatedAt": "2026-10-08T06:02:08.610Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -633,9 +633,7 @@
             "azure_cli",
             "Azure CLI",
             "az",
-            "homebrew",
-            "formula",
-            "homebrew/core"
+            "homebrew"
           ],
           "relatedTools": []
         },
@@ -644,29 +642,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.90.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.90.0",
+            "version": null,
             "platform": "macos",
             "architecture": null,
-            "type": "formula",
-            "url": "https://github.com/Azure/azure-cli/archive/refs/tags/azure-cli-2.90.0.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "2d7caf68257fe6a6a7811219f940aa0b1d76b9d3adddca9482236e62c5697a7d",
+            "type": "homebrew-package",
+            "url": "https://learn.microsoft.com/cli/azure/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -727,11 +714,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:24.835Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -776,7 +763,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:24.910Z",
+          "scannedAt": "2026-10-08T06:02:08.635Z",
           "errors": []
         },
         "package": {
@@ -802,7 +789,7 @@
           "long": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
           "source": "scoop",
           "homepage": "https://aka.ms/cli",
-          "lastUpdatedAt": "2026-10-07T23:04:24.910Z"
+          "lastUpdatedAt": "2026-10-08T06:02:08.635Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -908,7 +895,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:24.910Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:08.635Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -954,7 +941,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:25.100Z",
+          "scannedAt": "2026-10-08T06:02:08.647Z",
           "errors": []
         },
         "package": {
@@ -982,7 +969,7 @@
           "long": "The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "choco",
           "homepage": "https://github.com/azure/azure-cli/",
-          "lastUpdatedAt": "2026-10-07T23:04:25.100Z"
+          "lastUpdatedAt": "2026-10-08T06:02:08.647Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1389,7 +1376,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:25.100Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:08.647Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

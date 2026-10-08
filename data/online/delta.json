@@ -1,91 +1,157 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T23:04:43.625Z",
-  "fromGeneratedAt": "2026-10-07T13:21:16.606Z",
-  "toGeneratedAt": "2026-10-07T23:04:43.625Z",
-  "status": "ok",
+  "generatedAt": "2026-10-08T06:02:39.050Z",
+  "fromGeneratedAt": "2026-10-07T23:04:43.625Z",
+  "toGeneratedAt": "2026-10-08T06:02:39.050Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
-    "qualityChanges": 0
+    "versionChanges": 16,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "vim",
+      "node_lts",
       "node_current",
-      "pipx",
+      "npm",
+      "pnpm",
       "gradle",
-      "terraform",
+      "azure_cli",
       "beekeeper_studio",
       "stripe_cli",
-      "supabase_cli"
+      "pandoc"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.1169",
+        "to": "9.2.1172"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "9.2.1167",
         "to": "9.2.1169"
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.19.0",
+        "to": "24.20.0"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "26.7.0",
+        "to": "26.8.1"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "26.10.0",
+        "to": "26.11.0"
       },
       {
         "toolId": "node_current",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "26.10.0",
-        "to": "26.11.0"
+        "from": "26.11.0",
+        "to": "26.11.1"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.17.11",
-        "to": "1.17.12"
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.19.0",
+        "to": "24.20.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.9.1",
+        "to": "12.10.1"
       },
       {
         "toolId": "gradle",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "9.8.0",
         "to": "9.8.1"
       },
       {
-        "toolId": "terraform",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.16.5",
-        "to": "1.17.0-rc1"
+        "toolId": "azure_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.90.0",
+        "to": null
       },
       {
         "toolId": "beekeeper_studio",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "6.1.5",
+        "to": "6.1.6"
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "6.1.5",
         "to": "6.1.6"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.53.0",
         "to": "1.53.1"
       },
       {
-        "toolId": "supabase_cli",
+        "toolId": "pandoc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.12",
+        "to": "3.12.1"
+      },
+      {
+        "toolId": "pandoc",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.12",
+        "to": "3.12.1"
+      },
+      {
+        "toolId": "pandoc",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.121.0-beta.6",
-        "to": "2.121.0-next.2"
+        "from": "3.12",
+        "to": "3.12.1"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "azure_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }

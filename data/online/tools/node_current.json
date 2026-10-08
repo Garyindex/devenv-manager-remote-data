@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T23:04:43.625Z",
-  "status": "ok",
+  "generatedAt": "2026-10-08T06:02:39.050Z",
+  "status": "partial",
   "tool": {
     "id": "node_current",
     "name": "Node.js Current",
@@ -29,7 +29,7 @@
       "long": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package runs the official Node JS installer, resulting in Node.exe and NPM being installed under Program Files, and added to the SYSTEM PATH environment variable. Notes - While this package now provides both Current and LTS releases of Node.js, it is still recommended to use the [nodejs-lts][] package if only targeting the latest LTS release is required. - Starting with version 23.x, installations for 32bit platforms are no longer supported. If this is required, an older version is required to be used. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you have problems with the package. Disqus comments will generally not be responded to. [nodejs-lts]: https://chocolatey.org/packages/nodejs-lts \"Node.js LTS Package\"",
       "source": "choco",
       "homepage": "http://nodejs.org/",
-      "lastUpdatedAt": "2026-10-07T23:04:08.624Z"
+      "lastUpdatedAt": "2026-10-08T06:01:47.366Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:08.417Z",
+          "scannedAt": "2026-10-08T06:01:47.111Z",
           "errors": []
         },
         "package": {
@@ -107,13 +107,13 @@
           "author": "OpenJS Foundation",
           "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "license": "MIT",
-          "licenseUrl": "https://github.com/nodejs/node/blob/v26.7.0/LICENSE",
+          "licenseUrl": "https://github.com/nodejs/node/blob/v26.8.1/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-x64.msi",
-          "releases": "https://github.com/nodejs/node/releases/tag/v26.7.0",
+          "download": "https://nodejs.org/dist/v26.8.1/node-v26.8.1-x64.msi",
+          "releases": "https://github.com/nodejs/node/releases/tag/v26.8.1",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-10-07T23:04:08.417Z"
+          "lastUpdatedAt": "2026-10-08T06:01:47.111Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,29 @@
         },
         "versions": [
           {
-            "version": "26.7.0",
+            "version": "26.8.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "26.7.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -420,39 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "24.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "26.7.0",
+            "version": "26.8.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-x64.msi",
+            "url": "https://nodejs.org/dist/v26.8.1/node-v26.8.1-x64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "28dd9d5e53f829a32310a4fed334000a1681a7534641c599d05617f893c06a2b",
+            "sha256": "8e1935459a4865cb601930b93d9b47f6b67eb665557cb2593629639db0da58ab",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:08.417Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:01:47.111Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:08.540Z",
+          "scannedAt": "2026-10-08T06:01:47.226Z",
           "errors": []
         },
         "package": {
@@ -614,7 +614,7 @@
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/dist/v26.10.0/node-v26.10.0.tar.xz",
+          "download": "https://nodejs.org/dist/v26.11.0/node-v26.11.0.tar.xz",
           "releases": null,
           "docs": null
         },
@@ -623,7 +623,7 @@
           "long": "Open-source, cross-platform JavaScript runtime environment",
           "source": "homebrew",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-10-07T23:04:08.540Z"
+          "lastUpdatedAt": "2026-10-08T06:01:47.226Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -646,7 +646,7 @@
         },
         "versions": [
           {
-            "version": "26.10.0",
+            "version": "26.11.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -699,14 +699,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "26.10.0",
+            "version": "26.11.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0.tar.xz",
+            "url": "https://nodejs.org/dist/v26.11.0/node-v26.11.0.tar.xz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "7b3a546d33cb7e15a43bdd7a57e0be5d5fd5ffc553e6e4c120033e66f0ba20c5",
+            "sha256": "aaad9242704524109e88d48be7bb7b7943486d931e740a352c02e97e107f18c9",
             "sizeBytes": null
           }
         ],
@@ -770,7 +770,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:08.540Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:01:47.226Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -816,7 +816,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:08.614Z",
+          "scannedAt": "2026-10-08T06:01:47.259Z",
           "errors": []
         },
         "package": {
@@ -842,7 +842,7 @@
           "long": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
           "source": "scoop",
           "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-10-07T23:04:08.614Z"
+          "lastUpdatedAt": "2026-10-08T06:01:47.259Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -864,7 +864,7 @@
         },
         "versions": [
           {
-            "version": "26.11.0",
+            "version": "26.11.1",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -877,7 +877,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "26.11.0",
+            "version": "26.11.1",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -948,7 +948,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:08.614Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:01:47.259Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -994,7 +994,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:08.624Z",
+          "scannedAt": "2026-10-08T06:01:47.366Z",
           "errors": []
         },
         "package": {
@@ -1025,7 +1025,7 @@
           "long": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package runs the official Node JS installer, resulting in Node.exe and NPM being installed under Program Files, and added to the SYSTEM PATH environment variable. Notes - While this package now provides both Current and LTS releases of Node.js, it is still recommended to use the [nodejs-lts][] package if only targeting the latest LTS release is required. - Starting with version 23.x, installations for 32bit platforms are no longer supported. If this is required, an older version is required to be used. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you have problems with the package. Disqus comments will generally not be responded to. [nodejs-lts]: https://chocolatey.org/packages/nodejs-lts \"Node.js LTS Package\"",
           "source": "choco",
           "homepage": "http://nodejs.org/",
-          "lastUpdatedAt": "2026-10-07T23:04:08.624Z"
+          "lastUpdatedAt": "2026-10-08T06:01:47.366Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1434,7 +1434,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:08.624Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:01:47.366Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

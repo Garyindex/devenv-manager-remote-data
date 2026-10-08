@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T23:04:43.625Z",
-  "status": "ok",
+  "generatedAt": "2026-10-08T06:02:39.050Z",
+  "status": "partial",
   "tool": {
     "id": "pandoc",
     "name": "Pandoc",
@@ -29,7 +29,7 @@
       "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX and many others. Features - HTML formats: XHTML, HTML5, and HTML slide shows using Slidy, reveal.js, Slideous, S5, or DZSlides. - Word processor formats: Microsoft Word docx, OpenOffice/LibreOffice ODT, OpenDocument XML - Ebooks: EPUB version 2 or 3, FictionBook2 - Documentation formats: DocBook, TEI Simple, GNU TexInfo, Groff man pages, Haddock markup - Page layout formats: InDesign ICML - Outline formats: OPML - TeX formats: LaTeX, ConTeXt, LaTeX Beamer slides - PDF via LaTeX - Lightweight markup formats: Markdown (including CommonMark), reStructuredText, AsciiDoc, MediaWiki markup, DokuWiki markup, Emacs Org-Mode, Textile - Custom formats: custom writers can be written in lua. Notes - The package by default installs pandoc for current user. To install for all users use choco install pandoc --install-arguments=ALLUSERS=1 - This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer up...",
       "source": "choco",
       "homepage": "http://pandoc.org/",
-      "lastUpdatedAt": "2026-10-07T23:04:41.292Z"
+      "lastUpdatedAt": "2026-10-08T06:02:33.269Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:40.837Z",
+          "scannedAt": "2026-10-08T06:02:33.024Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://pandoc.org/",
-          "download": "https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-windows-x86_64.msi",
-          "releases": "https://github.com/jgm/pandoc/releases/tag/3.12",
+          "download": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-windows-x86_64.msi",
+          "releases": "https://github.com/jgm/pandoc/releases/tag/3.12.1",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
           "source": "winget",
           "homepage": "https://pandoc.org/",
-          "lastUpdatedAt": "2026-10-07T23:04:40.837Z"
+          "lastUpdatedAt": "2026-10-08T06:02:33.024Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "3.12",
+            "version": "3.12.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.12",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.1.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "3.12",
+            "version": "3.12.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-windows-x86_64.msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-windows-x86_64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "a1342617c3ec4adb2e005284b566a9fde5dc20ee67012bbd9694fdda93fdfd61",
+            "sha256": "b6bf9f2c8408a1689272be5722e45f93ed9da17ba74321d0f7ef4e5a196605e8",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:40.837Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:33.024Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:40.879Z",
+          "scannedAt": "2026-10-08T06:02:33.059Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Swiss-army knife of markup format conversion",
           "source": "homebrew",
           "homepage": "https://pandoc.org/",
-          "lastUpdatedAt": "2026-10-07T23:04:40.879Z"
+          "lastUpdatedAt": "2026-10-08T06:02:33.059Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:40.879Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:33.059Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:41.106Z",
+          "scannedAt": "2026-10-08T06:02:33.177Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Universal markup converter",
           "source": "scoop",
           "homepage": "https://pandoc.org",
-          "lastUpdatedAt": "2026-10-07T23:04:41.106Z"
+          "lastUpdatedAt": "2026-10-08T06:02:33.177Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -821,7 +821,7 @@
         },
         "versions": [
           {
-            "version": "3.12",
+            "version": "3.12.1",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -834,7 +834,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "3.12",
+            "version": "3.12.1",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:41.106Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:33.177Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:41.292Z",
+          "scannedAt": "2026-10-08T06:02:33.269Z",
           "errors": []
         },
         "package": {
@@ -984,7 +984,7 @@
           "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX and many others. Features - HTML formats: XHTML, HTML5, and HTML slide shows using Slidy, reveal.js, Slideous, S5, or DZSlides. - Word processor formats: Microsoft Word docx, OpenOffice/LibreOffice ODT, OpenDocument XML - Ebooks: EPUB version 2 or 3, FictionBook2 - Documentation formats: DocBook, TEI Simple, GNU TexInfo, Groff man pages, Haddock markup - Page layout formats: InDesign ICML - Outline formats: OPML - TeX formats: LaTeX, ConTeXt, LaTeX Beamer slides - PDF via LaTeX - Lightweight markup formats: Markdown (including CommonMark), reStructuredText, AsciiDoc, MediaWiki markup, DokuWiki markup, Emacs Org-Mode, Textile - Custom formats: custom writers can be written in lua. Notes - The package by default installs pandoc for current user. To install for all users use choco install pandoc --install-arguments=ALLUSERS=1 - This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer up...",
           "source": "choco",
           "homepage": "http://pandoc.org/",
-          "lastUpdatedAt": "2026-10-07T23:04:41.292Z"
+          "lastUpdatedAt": "2026-10-08T06:02:33.269Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1395,7 +1395,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:41.292Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:33.269Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1443,7 +1443,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-07T23:04:41.343Z",
+          "scannedAt": "2026-10-08T06:02:33.383Z",
           "errors": []
         },
         "package": {
@@ -1476,7 +1476,7 @@
           "long": "Universal markup converter",
           "source": "github",
           "homepage": "https://pandoc.org",
-          "lastUpdatedAt": "2026-10-07T23:04:41.343Z"
+          "lastUpdatedAt": "2026-10-08T06:02:33.383Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1504,9 +1504,19 @@
         },
         "versions": [
           {
-            "version": "3.12",
+            "version": "3.12.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-10-08T01:48:41Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.12.1"
+          },
+          {
+            "version": "3.12",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-09-29T06:30:47Z",
@@ -1792,19 +1802,141 @@
             "releaseDate": "2024-03-01T06:00:15Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.12.2"
-          },
-          {
-            "version": "3.1.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2024-02-18T01:42:01Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/jgm/pandoc/releases/tag/3.1.12.1"
           }
         ],
         "downloads": [
+          {
+            "id": "pandoc-3.12.1-1-amd64.deb",
+            "version": "3.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-1-amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 34790312
+          },
+          {
+            "id": "pandoc-3.12.1-1-arm64.deb",
+            "version": "3.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-1-arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37346964
+          },
+          {
+            "id": "pandoc-3.12.1-arm64-macOS.pkg",
+            "version": "3.12.1",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-arm64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42174951
+          },
+          {
+            "id": "pandoc-3.12.1-arm64-macOS.zip",
+            "version": "3.12.1",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-arm64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42313957
+          },
+          {
+            "id": "pandoc-3.12.1-linux-amd64.tar.gz",
+            "version": "3.12.1",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 35363545
+          },
+          {
+            "id": "pandoc-3.12.1-linux-arm64.tar.gz",
+            "version": "3.12.1",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37892300
+          },
+          {
+            "id": "pandoc-3.12.1-windows-x86_64.msi",
+            "version": "3.12.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41869312
+          },
+          {
+            "id": "pandoc-3.12.1-windows-x86_64.zip",
+            "version": "3.12.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 42154914
+          },
+          {
+            "id": "pandoc-3.12.1-x86_64-macOS.pkg",
+            "version": "3.12.1",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-x86_64-macOS.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26440373
+          },
+          {
+            "id": "pandoc-3.12.1-x86_64-macOS.zip",
+            "version": "3.12.1",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-x86_64-macOS.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26487481
+          },
+          {
+            "id": "pandoc-3.12.1.wasm.zip",
+            "version": "3.12.1",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1.wasm.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 16737256
+          },
           {
             "id": "pandoc-3.12-1-amd64.deb",
             "version": "3.12",
@@ -2632,138 +2764,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 36564711
-          },
-          {
-            "id": "pandoc-3.9.0.1-arm64-macOS.zip",
-            "version": "3.9.0.1",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-arm64-macOS.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36681554
-          },
-          {
-            "id": "pandoc-3.9.0.1-linux-amd64.tar.gz",
-            "version": "3.9.0.1",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-linux-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 34518111
-          },
-          {
-            "id": "pandoc-3.9.0.1-linux-arm64.tar.gz",
-            "version": "3.9.0.1",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-linux-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36946860
-          },
-          {
-            "id": "pandoc-3.9.0.1-windows-x86_64.msi",
-            "version": "3.9.0.1",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-windows-x86_64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 40980480
-          },
-          {
-            "id": "pandoc-3.9.0.1-windows-x86_64.zip",
-            "version": "3.9.0.1",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-windows-x86_64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 41250989
-          },
-          {
-            "id": "pandoc-3.9.0.1-x86_64-macOS.pkg",
-            "version": "3.9.0.1",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "pkg",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-x86_64-macOS.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 25722692
-          },
-          {
-            "id": "pandoc-3.9.0.1-x86_64-macOS.zip",
-            "version": "3.9.0.1",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc-3.9.0.1-x86_64-macOS.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 25768056
-          },
-          {
-            "id": "pandoc.wasm.zip",
-            "version": "3.9.0.1",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9.0.1/pandoc.wasm.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 16182653
-          },
-          {
-            "id": "pandoc-3.9-1-amd64.deb",
-            "version": "3.9",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-1-amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 34090674
-          },
-          {
-            "id": "pandoc-3.9-1-arm64.deb",
-            "version": "3.9",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-1-arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36556660
-          },
-          {
-            "id": "pandoc-3.9-arm64-macOS.pkg",
-            "version": "3.9",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "pkg",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-arm64-macOS.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 42464507
           }
         ],
         "commands": [],
@@ -2771,7 +2771,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-07T23:04:41.343Z",
+          "lastSuccessfulScanAt": "2026-10-08T06:02:33.383Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
