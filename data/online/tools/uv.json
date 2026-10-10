@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T12:30:08.325Z",
+  "generatedAt": "2026-10-10T21:42:56.706Z",
   "status": "partial",
   "tool": {
     "id": "uv",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
-      "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
-      "source": "winget",
-      "homepage": "https://github.com/astral-sh/uv",
-      "lastUpdatedAt": "2026-10-10T12:29:34.521Z"
+      "short": "Extremely fast Python package installer and resolver, written in Rust",
+      "long": "Extremely fast Python package installer and resolver, written in Rust",
+      "source": "homebrew",
+      "homepage": "https://docs.astral.sh/uv/",
+      "lastUpdatedAt": "2026-10-10T21:42:23.968Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,31 +96,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-10T12:29:34.521Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-10T21:42:23.935Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "uv",
-          "publisher": "Astral Software Inc.",
-          "author": "Astral Software Inc.",
-          "description": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
-          "license": "Apache-2.0 or MIT",
-          "licenseUrl": "https://github.com/astral-sh/uv/blob/HEAD/README.md#license",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://github.com/astral-sh/uv",
-          "download": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
+          "homepage": "https://docs.astral.sh/uv/",
+          "download": "https://docs.astral.sh/uv/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
-          "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-10-10T12:29:34.521Z"
+          "homepage": "https://docs.astral.sh/uv/",
+          "lastUpdatedAt": "2026-10-10T21:42:23.935Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -445,11 +447,11 @@
             "version": "0.13.0",
             "platform": "windows",
             "architecture": null,
-            "type": "portable (zip)",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-x86_64-pc-windows-msvc.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "088962f9e7b7bd9ea740c04c650b2a21c8928c345bd99ac24350dc924dba656c",
+            "type": "package-manager",
+            "url": "https://docs.astral.sh/uv/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -544,11 +546,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-10T12:29:34.521Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -594,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-10T12:29:34.595Z",
+          "scannedAt": "2026-10-10T21:42:23.968Z",
           "errors": []
         },
         "package": {
@@ -620,7 +622,7 @@
           "long": "Extremely fast Python package installer and resolver, written in Rust",
           "source": "homebrew",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-10-10T12:29:34.595Z"
+          "lastUpdatedAt": "2026-10-10T21:42:23.968Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-10T12:29:34.595Z",
+          "lastSuccessfulScanAt": "2026-10-10T21:42:23.968Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-10T12:29:34.605Z",
+          "scannedAt": "2026-10-10T21:42:24.028Z",
           "errors": []
         },
         "package": {
@@ -797,7 +799,7 @@
           "long": "An extremely fast Python package installer and resolver, written in Rust.",
           "source": "scoop",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-10-10T12:29:34.605Z"
+          "lastUpdatedAt": "2026-10-10T21:42:24.028Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +903,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-10T12:29:34.605Z",
+          "lastSuccessfulScanAt": "2026-10-10T21:42:24.028Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +949,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-10T12:29:34.639Z",
+          "scannedAt": "2026-10-10T21:42:24.045Z",
           "errors": []
         },
         "package": {
@@ -975,7 +977,7 @@
           "long": "Dev Ensure the directory name is uv for any command to run",
           "source": "choco",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-10-10T12:29:34.639Z"
+          "lastUpdatedAt": "2026-10-10T21:42:24.045Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1382,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-10T12:29:34.639Z",
+          "lastSuccessfulScanAt": "2026-10-10T21:42:24.045Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1430,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-10T12:29:34.648Z",
+          "scannedAt": "2026-10-10T21:42:24.124Z",
           "errors": []
         },
         "package": {
@@ -1456,7 +1458,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust.",
           "source": "github",
           "homepage": "https://docs.astral.sh/uv",
-          "lastUpdatedAt": "2026-10-10T12:29:34.648Z"
+          "lastUpdatedAt": "2026-10-10T21:42:24.124Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2745,7 +2747,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-10T12:29:34.648Z",
+          "lastSuccessfulScanAt": "2026-10-10T21:42:24.124Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
