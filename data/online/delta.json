@@ -1,31 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T15:21:43.433Z",
-  "fromGeneratedAt": "2026-10-12T05:55:21.985Z",
-  "toGeneratedAt": "2026-10-12T15:21:43.433Z",
+  "generatedAt": "2026-10-13T00:38:41.194Z",
+  "fromGeneratedAt": "2026-10-12T15:21:43.433Z",
+  "toGeneratedAt": "2026-10-13T00:38:41.194Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 18,
+    "changedTools": 13,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 20,
-    "qualityChanges": 9
+    "versionChanges": 14,
+    "qualityChanges": 8
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "vim",
-      "oh_my_posh",
-      "nvm_windows",
-      "pipx",
-      "scala",
-      "cmake",
       "docker_desktop",
-      "postman",
-      "wireshark",
+      "podman",
+      "aws_cli",
       "r",
       "rstudio",
       "julia",
@@ -41,208 +36,159 @@
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "9.2.1172",
         "to": "9.2.1176"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "docker_desktop",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "31.7.0",
-        "to": "31.8.0"
+        "from": "4.94.0",
+        "to": "4.95.0"
       },
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "31.7.0",
-        "to": "31.8.0"
-      },
-      {
-        "toolId": "nvm_windows",
+        "toolId": "podman",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.0.2-beta.2",
-        "to": "2.0.2-beta.3"
+        "from": "6.1.3",
+        "to": "6.1.4"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.17.13",
-        "to": "1.17.14"
-      },
-      {
-        "toolId": "scala",
+        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.9.0",
-        "to": "3.10.0"
+        "from": "2.37.12",
+        "to": "2.37.13"
       },
       {
-        "toolId": "scala",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.9.0",
-        "to": "3.10.0"
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "4.4.4"
-      },
-      {
-        "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.94.0,241994",
-        "to": "4.95.0,242831"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.31.7",
-        "to": "12.32.0"
-      },
-      {
-        "toolId": "wireshark",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.6.8",
-        "to": "4.6.9"
+        "from": "2.37.12",
+        "to": "2.37.13"
       },
       {
         "toolId": "r",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.6.1",
-        "to": null
+        "from": null,
+        "to": "4.6.1"
       },
       {
         "toolId": "rstudio",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.8.2",
-        "to": null
+        "from": null,
+        "to": "2026.8.2"
       },
       {
         "toolId": "julia",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.12.0",
-        "to": null
+        "from": null,
+        "to": "1.12.0"
       },
       {
         "toolId": "quarto",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.10.19",
-        "to": null
+        "from": null,
+        "to": "1.10.19"
       },
       {
         "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.53.1",
-        "to": null
+        "from": null,
+        "to": "1.53.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.0.0-next.4",
-        "to": "3.0.0-next.5"
+        "from": "3.0.0-next.5",
+        "to": "3.0.0-next.6"
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "8.5.11",
-        "to": null
+        "from": null,
+        "to": "8.5.11"
       },
       {
         "toolId": "composer",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "6.3.0",
-        "to": null
+        "from": null,
+        "to": "6.3.0"
       },
       {
         "toolId": "ruby",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.4.11.1",
-        "to": null
+        "from": null,
+        "to": "3.4.11.1"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "cmake",
+        "toolId": "r",
         "sourceId": "choco",
         "manager": "choco",
         "from": 40,
         "to": 100
       },
       {
-        "toolId": "r",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 100,
-        "to": 40
-      },
-      {
         "toolId": "rstudio",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "julia",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "quarto",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "composer",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "ruby",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
