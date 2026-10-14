@@ -1,32 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T17:10:03.678Z",
-  "fromGeneratedAt": "2026-10-14T11:50:16.872Z",
-  "toGeneratedAt": "2026-10-14T17:10:03.678Z",
+  "generatedAt": "2026-10-14T21:40:18.183Z",
+  "fromGeneratedAt": "2026-10-14T17:10:03.678Z",
+  "toGeneratedAt": "2026-10-14T21:40:18.183Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 12,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 15,
+    "versionChanges": 14,
     "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_desktop",
       "vscode",
-      "node_lts",
+      "vim",
       "node_current",
-      "go",
-      "terraform",
-      "opentofu",
-      "pulumi",
-      "postman",
+      "uv",
+      "docker_desktop",
+      "aws_cli",
       "supabase_cli",
-      "prisma_cli",
       "php",
       "erlang"
     ],
@@ -34,9 +32,23 @@
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "github_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.6.6",
+        "to": "3.6.7"
+      },
+      {
         "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.141.1",
+        "to": "1.141.2"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.141.1",
         "to": "1.141.2"
       },
@@ -44,90 +56,69 @@
         "toolId": "vscode",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.141.1",
-        "to": "1.141.2"
+        "from": "1.141.2",
+        "to": "1.142.0"
       },
       {
-        "toolId": "node_lts",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "24.21.0",
-        "to": "24.22.0"
+        "toolId": "vim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.2.1176",
+        "to": "9.2.1186"
       },
       {
         "toolId": "node_current",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "26.11.1",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "26.11.0",
         "to": "26.12.0"
       },
       {
-        "toolId": "go",
+        "toolId": "uv",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.27.1",
-        "to": "1.27.2"
+        "from": "0.13.0",
+        "to": "0.13.1"
       },
       {
-        "toolId": "terraform",
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.94.0",
+        "to": "4.95.0"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.16.5",
-        "to": "1.16.6"
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.13.1",
-        "to": "1.12.8"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.268.0",
-        "to": "3.269.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.32.1",
-        "to": "12.32.2"
+        "from": "2.38.0",
+        "to": "2.38.1"
       },
       {
         "toolId": "supabase_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.120.0",
         "to": "2.121.0"
-      },
-      {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.121.0-beta.25",
-        "to": "3.0.0-next.10"
-      },
-      {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "8.0.0-rc.17",
-        "to": "8.0.0-rc.18"
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "8.5.11",
-        "to": null
+        "from": null,
+        "to": "8.5.11"
       },
       {
         "toolId": "erlang",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "29.1.1",
+        "to": "29.1.2"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "29.1.1",
         "to": "29.1.2"
       },
@@ -135,8 +126,8 @@
         "toolId": "erlang",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "29.1.1",
-        "to": null
+        "from": null,
+        "to": "29.1.1"
       }
     ],
     "qualityChanges": [
@@ -144,15 +135,15 @@
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "erlang",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
