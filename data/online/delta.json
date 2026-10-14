@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T04:51:53.714Z",
-  "fromGeneratedAt": "2026-10-13T22:43:53.562Z",
-  "toGeneratedAt": "2026-10-14T04:51:53.714Z",
+  "generatedAt": "2026-10-14T11:50:16.872Z",
+  "fromGeneratedAt": "2026-10-14T04:51:53.714Z",
+  "toGeneratedAt": "2026-10-14T11:50:16.872Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
@@ -10,124 +10,138 @@
     "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 14,
+    "versionChanges": 16,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vscode",
       "vscodium",
+      "vim",
       "powershell",
-      "temurin_21",
-      "temurin_17",
-      "visual_studio_community",
-      "packer",
+      "uv",
+      "terraform",
       "aws_cli",
       "postman",
-      "unity_hub",
-      "hugo"
+      "quarto",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.141.0",
+        "to": "1.141.1"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.141.0",
+        "to": "1.141.1"
+      },
+      {
         "toolId": "vscodium",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.126.04524",
-        "to": "1.140.06880"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.135.6055",
+        "to": "1.140.6880"
       },
       {
-        "toolId": "powershell",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "7.6.6.0",
-        "to": "7.6.7.0"
-      },
-      {
-        "toolId": "powershell",
+        "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "7.4.21",
+        "from": "9.2.1178",
+        "to": "9.2.1186"
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "7.6.6",
         "to": "7.6.7"
       },
       {
-        "toolId": "temurin_21",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "21.0.9.10",
-        "to": "21.0.12.101"
-      },
-      {
-        "toolId": "temurin_17",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "17.0.17.10",
-        "to": "17.0.20.101"
-      },
-      {
-        "toolId": "visual_studio_community",
+        "toolId": "uv",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "17.14.41",
-        "to": "17.14.42"
+        "from": "0.13.0",
+        "to": "0.13.1"
       },
       {
-        "toolId": "packer",
+        "toolId": "uv",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "0.13.0",
+        "to": "0.13.1"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.13.0",
+        "to": "0.13.1"
+      },
+      {
+        "toolId": "uv",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.16.1",
-        "to": "nightly"
+        "from": "0.13.0",
+        "to": "0.13.1"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.17.0-rc1",
+        "to": "1.17.0-rc2"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.37.13",
+        "to": "2.38.0"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.37.13",
         "to": "2.38.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.32.1",
         "to": "12.32.2"
       },
       {
         "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.32.0",
-        "to": "12.32.1"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.22.2.65535",
-        "to": "3.22.3.65535"
-      },
-      {
-        "toolId": "unity_hub",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.22.2",
-        "to": "3.22.3"
+        "from": "12.32.1",
+        "to": "12.32.2"
       },
       {
-        "toolId": "hugo",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.167.0",
-        "to": "0.168.0"
+        "toolId": "quarto",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.10.19",
+        "to": "1.11.6"
       },
       {
-        "toolId": "hugo",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.167.0",
-        "to": "0.168.0"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.0.0-next.9",
+        "to": "2.121.0-beta.25"
       }
     ],
     "qualityChanges": []
