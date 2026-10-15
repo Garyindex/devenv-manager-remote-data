@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T17:00:45.427Z",
-  "fromGeneratedAt": "2026-10-15T11:26:47.002Z",
-  "toGeneratedAt": "2026-10-15T17:00:45.427Z",
+  "generatedAt": "2026-10-15T21:22:11.045Z",
+  "fromGeneratedAt": "2026-10-15T17:00:45.427Z",
+  "toGeneratedAt": "2026-10-15T21:22:11.045Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
@@ -10,18 +10,18 @@
     "changedTools": 12,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 13,
+    "versionChanges": 16,
     "qualityChanges": 7
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "node_lts",
-      "pnpm",
-      "postman",
-      "julia",
-      "supabase_cli",
+      "node_current",
+      "nvm_windows",
+      "cmake",
+      "pulumi",
+      "cloudflared",
       "erlang",
       "elixir",
       "godot",
@@ -34,95 +34,116 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "node_lts",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "22.23.3",
-        "to": "24.22.0"
+        "toolId": "node_current",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "26.11.1",
+        "to": "26.12.0"
       },
       {
-        "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.13.0",
-        "to": "12.14.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.32.2",
-        "to": "12.32.3"
-      },
-      {
-        "toolId": "julia",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.13.1",
-        "to": "1.13.2"
-      },
-      {
-        "toolId": "julia",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.13.1",
-        "to": "1.13.2"
-      },
-      {
-        "toolId": "supabase_cli",
+        "toolId": "nvm_windows",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.0.0-next.13",
-        "to": "3.0.0-next.15"
+        "from": "2.0.1-hotfix.3",
+        "to": "2.0.1-hotfix.4"
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.4.4",
+        "to": "4.5.0-rc1"
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.4.4",
+        "to": "4.5.0-rc1"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.268.0",
+        "to": "3.269.0"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.10.0",
+        "to": "2026.10.1"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2026.10.0",
+        "to": "2026.10.1"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.10.0",
+        "to": "2026.10.1"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2026.10.0",
+        "to": "2026.10.1"
       },
       {
         "toolId": "erlang",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "29.1.1",
-        "to": null
+        "from": null,
+        "to": "29.1.2"
       },
       {
         "toolId": "elixir",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.20.4",
-        "to": null
+        "from": null,
+        "to": "1.20.4"
       },
       {
         "toolId": "godot",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.8.0-dev7",
-        "to": null
+        "from": null,
+        "to": "4.8.0-dev7"
       },
       {
         "toolId": "blender",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "5.2.2",
-        "to": null
+        "from": null,
+        "to": "5.2.2"
       },
       {
         "toolId": "pandoc",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.12.1",
-        "to": null
+        "from": null,
+        "to": "3.12.1"
       },
       {
         "toolId": "hugo",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.168.0",
-        "to": null
+        "from": null,
+        "to": "0.168.0"
       },
       {
         "toolId": "mkdocs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.6.1",
-        "to": null
+        "from": null,
+        "to": "1.6.1"
       }
     ],
     "qualityChanges": [
@@ -130,50 +151,50 @@
         "toolId": "erlang",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "elixir",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "godot",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "blender",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "pandoc",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "hugo",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "mkdocs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
