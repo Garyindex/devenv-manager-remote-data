@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T10:42:08.288Z",
+  "generatedAt": "2026-10-17T15:33:06.935Z",
   "status": "partial",
   "tool": {
     "id": "npm",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-      "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-      "source": "winget",
-      "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-10-17T10:41:20.071Z"
+      "short": null,
+      "long": null,
+      "source": "catalog",
+      "homepage": "https://www.npmjs.com/",
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -92,31 +92,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-17T10:41:20.071Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-17T15:32:18.291Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "npm",
-          "publisher": "Node.js Foundation",
-          "author": "OpenJS Foundation",
-          "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-          "license": "MIT",
-          "licenseUrl": "https://github.com/nodejs/node/blob/v24.20.0/LICENSE",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/dist/v24.20.0/node-v24.20.0-x64.msi",
-          "releases": "https://github.com/nodejs/node/releases/tag/v24.20.0",
+          "homepage": "https://www.npmjs.com/",
+          "download": "https://www.npmjs.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-          "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-10-17T10:41:20.071Z"
+          "homepage": "https://www.npmjs.com/",
+          "lastUpdatedAt": "2026-10-17T15:32:18.291Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -281,11 +283,11 @@
             "version": "24.20.0",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://nodejs.org/dist/v24.20.0/node-v24.20.0-x64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "28b69132c35ccc033bf8f2a67cd10c9d75ef5822593363309da448f2afff2d8a",
+            "type": "package-manager",
+            "url": "https://www.npmjs.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -380,11 +382,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-17T10:41:20.071Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
