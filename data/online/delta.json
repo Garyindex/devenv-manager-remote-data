@@ -1,47 +1,99 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T21:06:01.462Z",
-  "fromGeneratedAt": "2026-10-16T16:37:59.209Z",
-  "toGeneratedAt": "2026-10-16T21:06:01.462Z",
+  "generatedAt": "2026-10-17T04:24:30.380Z",
+  "fromGeneratedAt": "2026-10-16T21:06:01.462Z",
+  "toGeneratedAt": "2026-10-17T04:24:30.380Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 3,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "pnpm",
+      "rust_msvc",
+      "vs_build_tools",
+      "terraform",
       "pulumi",
+      "process_explorer",
       "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.11.2",
-        "to": "12.14.0"
+        "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.99.0",
+        "to": "1.99.1"
+      },
+      {
+        "toolId": "vs_build_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.41",
+        "to": "17.14.42"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.16.5",
+        "to": "1.16.6"
       },
       {
         "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.269.0",
         "to": "3.270.0"
       },
       {
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.269.0",
+        "to": "3.270.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.268.0",
+        "to": "3.270.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.269.0",
+        "to": "3.270.0"
+      },
+      {
+        "toolId": "process_explorer",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14",
+        "to": "17.2"
+      },
+      {
         "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.53.1",
+        "to": "1.54.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.53.1",
         "to": "1.54.0"
       }
