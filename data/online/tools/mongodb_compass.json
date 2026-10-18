@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T15:51:23.098Z",
+  "generatedAt": "2026-10-18T20:40:41.839Z",
   "status": "partial",
   "tool": {
     "id": "mongodb_compass",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, d...",
-      "long": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, document validation, and more.",
-      "source": "winget",
-      "homepage": "https://www.mongodb.com/products/compass",
-      "lastUpdatedAt": "2026-10-18T15:51:04.697Z"
+      "short": null,
+      "long": null,
+      "source": "catalog",
+      "homepage": "https://www.mongodb.com/products/tools/compass",
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,31 +78,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-18T15:51:04.697Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-18T20:40:30.302Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "MongoDB Compass",
-          "publisher": "MongoDB Inc",
+          "publisher": null,
           "author": null,
-          "description": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, document validation, and more.",
-          "license": "Proprietary",
-          "licenseUrl": "https://github.com/mongodb-js/compass/blob/HEAD/LICENSE",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://www.mongodb.com/products/compass",
-          "download": "https://github.com/mongodb-js/compass/releases/download/v1.53.0/mongodb-compass-1.53.0-win32-x64.msi",
-          "releases": "https://github.com/mongodb-js/compass/releases/tag/v1.53.0",
+          "homepage": "https://www.mongodb.com/products/tools/compass",
+          "download": "https://www.mongodb.com/products/tools/compass",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, d...",
-          "long": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, document validation, and more.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://www.mongodb.com/products/compass",
-          "lastUpdatedAt": "2026-10-18T15:51:04.697Z"
+          "homepage": "https://www.mongodb.com/products/tools/compass",
+          "lastUpdatedAt": "2026-10-18T20:40:30.302Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -428,11 +430,11 @@
             "version": "1.53.0.0",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/mongodb-js/compass/releases/download/v1.53.0/mongodb-compass-1.53.0-win32-x64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "533f4f9dd77ffc8b99adff08cfaa47d36aaf50691429642d6a49c56e9f1fe313",
+            "type": "package-manager",
+            "url": "https://www.mongodb.com/products/tools/compass",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -527,11 +529,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-18T15:51:04.697Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
