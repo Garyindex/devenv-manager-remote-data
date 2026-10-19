@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T13:12:25.929Z",
-  "fromGeneratedAt": "2026-10-19T04:38:42.628Z",
-  "toGeneratedAt": "2026-10-19T13:12:25.929Z",
+  "generatedAt": "2026-10-19T22:20:43.665Z",
+  "fromGeneratedAt": "2026-10-19T13:12:25.929Z",
+  "toGeneratedAt": "2026-10-19T22:20:43.665Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
@@ -11,7 +11,7 @@
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 12,
-    "qualityChanges": 6
+    "qualityChanges": 7
   },
   "changes": {
     "addedTools": [],
@@ -19,15 +19,15 @@
     "changedTools": [
       "vscodium",
       "starship",
-      "pnpm",
-      "pipx",
+      "uv",
       "rust_msvc",
+      "gradle",
+      "docker_desktop",
+      "packer",
       "aws_cli",
-      "postman",
       "mysql",
       "quarto",
-      "supabase_cli",
-      "prisma_cli"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
@@ -36,85 +36,85 @@
         "toolId": "vscodium",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.140.6880",
-        "to": null
+        "from": null,
+        "to": "1.140.6880"
       },
       {
         "toolId": "starship",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.27.0",
-        "to": null
+        "from": null,
+        "to": "1.27.0"
       },
       {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.11.2",
-        "to": "12.14.0"
-      },
-      {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.18.3",
-        "to": "1.18.4"
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.13.1",
+        "to": "0.13.2"
       },
       {
         "toolId": "rust_msvc",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.99.1",
+        "from": null,
+        "to": "1.99.1"
+      },
+      {
+        "toolId": "gradle",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.8.1",
+        "to": "9.8.2"
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.95.0,242831",
+        "to": "4.96.0,243774"
+      },
+      {
+        "toolId": "packer",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.16.1",
         "to": null
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.38.1",
+        "to": "2.38.2"
       },
       {
         "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.38.0",
-        "to": null
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.32.4",
-        "to": "12.33.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.32.4",
-        "to": "12.33.0"
+        "from": null,
+        "to": "2.38.0"
       },
       {
         "toolId": "mysql",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.7.2",
-        "to": null
+        "from": null,
+        "to": "9.7.2"
       },
       {
         "toolId": "quarto",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.10.19",
-        "to": null
+        "from": null,
+        "to": "1.10.19"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.0.0-next.16",
-        "to": "3.0.0-next.19"
-      },
-      {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "8.0.0-rc.18",
-        "to": "7.10.1"
+        "from": "3.0.0-next.19",
+        "to": "3.0.0-next.21"
       }
     ],
     "qualityChanges": [
@@ -122,18 +122,25 @@
         "toolId": "vscodium",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "starship",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 65,
+        "to": 100
+      },
+      {
+        "toolId": "packer",
         "sourceId": "winget",
         "manager": "winget",
         "from": 100,
@@ -143,22 +150,22 @@
         "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "mysql",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "quarto",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }

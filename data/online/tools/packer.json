@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T13:12:25.929Z",
+  "generatedAt": "2026-10-19T22:20:43.665Z",
   "status": "partial",
   "tool": {
     "id": "packer",
@@ -29,7 +29,7 @@
       "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
       "source": "choco",
       "homepage": "http://packer.io/",
-      "lastUpdatedAt": "2026-10-19T13:11:13.039Z"
+      "lastUpdatedAt": "2026-10-19T22:20:18.233Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,9 +96,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-19T13:11:11.340Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-19T22:20:18.036Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Packer",
@@ -120,7 +122,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-10-19T13:11:11.340Z"
+          "lastUpdatedAt": "2026-10-19T22:20:18.036Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,302 +140,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.16.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.13.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.13.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.11.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
@@ -535,11 +246,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-19T13:11:11.340Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -584,7 +295,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-19T13:11:12.910Z",
+          "scannedAt": "2026-10-19T22:20:18.192Z",
           "errors": []
         },
         "package": {
@@ -610,7 +321,7 @@
           "long": "Automates the creation of any type of virtual machine image.",
           "source": "scoop",
           "homepage": "https://www.packer.io",
-          "lastUpdatedAt": "2026-10-19T13:11:12.910Z"
+          "lastUpdatedAt": "2026-10-19T22:20:18.192Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -715,7 +426,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-19T13:11:12.910Z",
+          "lastSuccessfulScanAt": "2026-10-19T22:20:18.192Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -761,7 +472,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-19T13:11:13.039Z",
+          "scannedAt": "2026-10-19T22:20:18.233Z",
           "errors": []
         },
         "package": {
@@ -795,7 +506,7 @@
           "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
           "source": "choco",
           "homepage": "http://packer.io/",
-          "lastUpdatedAt": "2026-10-19T13:11:13.039Z"
+          "lastUpdatedAt": "2026-10-19T22:20:18.233Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1206,7 +917,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-19T13:11:13.039Z",
+          "lastSuccessfulScanAt": "2026-10-19T22:20:18.233Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1254,7 +965,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-19T13:11:13.646Z",
+          "scannedAt": "2026-10-19T22:20:18.246Z",
           "errors": []
         },
         "package": {
@@ -1277,7 +988,7 @@
           "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
           "source": "github",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-10-19T13:11:13.646Z"
+          "lastUpdatedAt": "2026-10-19T22:20:18.246Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2480,7 +2191,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-19T13:11:13.646Z",
+          "lastSuccessfulScanAt": "2026-10-19T22:20:18.246Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
