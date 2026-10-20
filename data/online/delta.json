@@ -1,117 +1,150 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T04:48:36.477Z",
-  "fromGeneratedAt": "2026-10-19T22:20:43.665Z",
-  "toGeneratedAt": "2026-10-20T04:48:36.477Z",
+  "generatedAt": "2026-10-20T11:35:29.511Z",
+  "fromGeneratedAt": "2026-10-20T04:48:36.477Z",
+  "toGeneratedAt": "2026-10-20T11:35:29.511Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
+    "versionChanges": 15,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_desktop",
+      "oh_my_posh",
+      "fzf",
+      "pnpm",
       "uv",
       "go",
-      "gradle",
-      "packer",
+      "aws_cli",
+      "cloudflared",
       "postman",
-      "stripe_cli"
+      "netlify_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "31.8.0",
+        "to": "31.9.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "31.8.0",
+        "to": "31.9.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "31.8.0",
+        "to": "31.9.1"
+      },
+      {
+        "toolId": "fzf",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.74.4",
+        "to": "0.74.5"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.11.2",
+        "to": "12.14.0"
+      },
+      {
         "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "0.13.1",
-        "to": "0.13.2"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.13.1",
-        "to": "0.13.3"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.13.1",
-        "to": "0.13.3"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "github",
-        "manager": "github",
         "from": "0.13.2",
         "to": "0.13.3"
       },
       {
         "toolId": "go",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.27.2",
         "to": "1.27.3"
       },
       {
-        "toolId": "gradle",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "9.8.1",
-        "to": "9.8.2"
+        "toolId": "go",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.27.2",
+        "to": "1.27.3"
       },
       {
-        "toolId": "packer",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "1.16.1"
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.38.1",
+        "to": "2.38.2"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.38.0",
+        "to": "2.38.2"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2026.10.1",
+        "to": "2026.10.2"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.32.4",
+        "to": "12.33.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "12.33.0",
         "to": "12.33.1"
       },
       {
-        "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.54.0",
-        "to": "1.54.1"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.54.0",
-        "to": "1.54.1"
-      },
-      {
-        "toolId": "stripe_cli",
+        "toolId": "netlify_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.54.0",
-        "to": "1.54.1"
+        "from": "27.13.0",
+        "to": "27.14.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.0.0-next.21",
+        "to": "2.122.0-beta.7"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "packer",
+        "toolId": "github_desktop",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 65,
-        "to": 100
+        "from": 100,
+        "to": 65
       }
     ]
   }
