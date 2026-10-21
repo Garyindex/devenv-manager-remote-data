@@ -1,89 +1,135 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T04:44:13.608Z",
-  "fromGeneratedAt": "2026-10-20T21:37:01.504Z",
-  "toGeneratedAt": "2026-10-21T04:44:13.608Z",
+  "generatedAt": "2026-10-21T11:46:50.860Z",
+  "fromGeneratedAt": "2026-10-21T04:44:13.608Z",
+  "toGeneratedAt": "2026-10-21T11:46:50.860Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
-    "qualityChanges": 1
+    "versionChanges": 12,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_cli",
       "vim",
-      "uv",
-      "oracle_jdk_21",
-      "aws_cli",
-      "cloudflared",
-      "heroku_cli"
+      "node_lts",
+      "node_current",
+      "pnpm",
+      "llvm",
+      "postman",
+      "mysql",
+      "heroku_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "github_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.102.0",
+        "to": "2.102.1"
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.102.0",
+        "to": "2.102.1"
+      },
+      {
         "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "9.2.1202",
         "to": "9.2.1217"
       },
       {
-        "toolId": "uv",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.13.3",
-        "to": "0.13.4"
+        "toolId": "node_lts",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "24.22.0",
+        "to": "24.22.1"
       },
       {
-        "toolId": "oracle_jdk_21",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "21.0.12.0",
-        "to": "21.0.13.0"
+        "toolId": "node_current",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.12.0",
+        "to": "26.12.1"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.38.1",
-        "to": "2.38.3"
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.14.0",
+        "to": "12.15.0"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "llvm",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.38.2",
-        "to": "2.38.3"
+        "from": "23.1.3",
+        "to": "23.1.4"
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.33.1",
+        "to": "12.33.2"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.33.1",
+        "to": "12.33.2"
+      },
+      {
+        "toolId": "mysql",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.10.1",
-        "to": "2026.10.2"
+        "from": "26.10.0",
+        "to": "9.7.4"
       },
       {
         "toolId": "heroku_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "11.0.0",
-        "to": null
+        "from": null,
+        "to": "11.0.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.122.0-beta.9",
+        "to": "3.0.0-next.22"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "heroku_cli",
+        "toolId": "pnpm",
         "sourceId": "winget",
         "manager": "winget",
         "from": 100,
         "to": 65
+      },
+      {
+        "toolId": "heroku_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 65,
+        "to": 100
       }
     ]
   }
