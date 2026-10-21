@@ -1,211 +1,164 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T17:10:35.912Z",
-  "fromGeneratedAt": "2026-10-21T11:46:50.860Z",
-  "toGeneratedAt": "2026-10-21T17:10:35.912Z",
+  "generatedAt": "2026-10-21T21:42:11.817Z",
+  "fromGeneratedAt": "2026-10-21T17:10:35.912Z",
+  "toGeneratedAt": "2026-10-21T21:42:11.817Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 15,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 23,
-    "qualityChanges": 1
+    "versionChanges": 18,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "github_cli",
-      "vscode",
-      "node_current",
-      "pnpm",
       "deno",
-      "rustup",
+      "nvm_windows",
       "docker_desktop",
-      "opentofu",
+      "terraform",
+      "pulumi",
       "aws_cli",
-      "cloudflared",
       "postman",
-      "mysql",
-      "mysql_workbench",
-      "prisma_cli",
-      "php"
+      "netlify_cli",
+      "php",
+      "ruby"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "github_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.102.1",
         "to": "2.103.0"
       },
       {
         "toolId": "github_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.102.1",
         "to": "2.103.0"
       },
       {
-        "toolId": "vscode",
+        "toolId": "github_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.102.1",
+        "to": "2.103.0"
+      },
+      {
+        "toolId": "deno",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.9.7",
+        "to": "2.9.8"
+      },
+      {
+        "toolId": "deno",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.142.0",
-        "to": "1.143.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.142.0",
-        "to": "1.143.0"
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "26.12.0",
-        "to": "26.12.1"
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "scoop",
-        "manager": "scoop",
         "from": "2.9.7",
         "to": "2.9.8"
       },
       {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.9.7",
-        "to": "2.9.8"
-      },
-      {
-        "toolId": "deno",
+        "toolId": "nvm_windows",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.9.7",
-        "to": "2.9.8"
-      },
-      {
-        "toolId": "rustup",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.29.1",
-        "to": "1.29.2"
+        "from": "2.0.1-hotfix.6",
+        "to": "2.1.0-beta.1"
       },
       {
         "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.96.0,243774",
-        "to": "4.96.1,244132"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.95.0",
+        "to": "4.96.1"
       },
       {
-        "toolId": "opentofu",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.13.1",
-        "to": "1.13.2"
-      },
-      {
-        "toolId": "opentofu",
+        "toolId": "terraform",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.13.1",
-        "to": "1.13.2"
+        "from": "1.16.6",
+        "to": "1.17.0"
       },
       {
-        "toolId": "opentofu",
+        "toolId": "terraform",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.12.8",
-        "to": "1.13.2"
+        "from": "1.17.0-rc2",
+        "to": "1.17.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.270.0",
+        "to": "3.271.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.270.0",
+        "to": "3.271.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.270.0",
+        "to": "3.271.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.270.0",
+        "to": "3.271.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.38.2",
-        "to": "2.38.3"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.10.2",
-        "to": "2026.10.3"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.10.2",
-        "to": "2026.10.3"
-      },
-      {
-        "toolId": "cloudflared",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2026.10.2",
-        "to": "2026.10.3"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2026.10.2",
-        "to": "2026.10.3"
+        "from": "2.38.3",
+        "to": "2.38.4"
       },
       {
         "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.33.1",
         "to": "12.33.2"
       },
       {
-        "toolId": "mysql",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "26.7.0",
-        "to": "26.10.0"
-      },
-      {
-        "toolId": "mysql_workbench",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "26.7.0",
-        "to": "26.10.0"
-      },
-      {
-        "toolId": "prisma_cli",
+        "toolId": "netlify_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "7.10.1",
-        "to": "8.0.0-rc.19"
+        "from": "27.14.0",
+        "to": "27.14.1"
       },
       {
         "toolId": "php",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "8.5.11",
         "to": "8.5.12"
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.0.7-1",
+        "to": "4.0.7-2"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "pnpm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
