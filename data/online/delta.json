@@ -1,246 +1,89 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T21:37:01.504Z",
-  "fromGeneratedAt": "2026-10-20T17:03:30.152Z",
-  "toGeneratedAt": "2026-10-20T21:37:01.504Z",
+  "generatedAt": "2026-10-21T04:44:13.608Z",
+  "fromGeneratedAt": "2026-10-20T21:37:01.504Z",
+  "toGeneratedAt": "2026-10-21T04:44:13.608Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 16,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 18,
-    "qualityChanges": 11
+    "versionChanges": 7,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_cli",
-      "node_current",
-      "deno",
+      "vim",
       "uv",
-      "miniconda",
-      "llvm",
+      "oracle_jdk_21",
       "aws_cli",
-      "google_cloud_sdk",
-      "mysql",
-      "julia",
-      "quarto",
-      "stripe_cli",
-      "php",
-      "ruby",
-      "erlang",
-      "elixir"
+      "cloudflared",
+      "heroku_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.102.0",
-        "to": "2.102.1"
-      },
-      {
-        "toolId": "github_cli",
+        "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2.102.0",
-        "to": "2.102.1"
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.102.0",
-        "to": "2.102.1"
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "26.12.0"
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2.9.7"
+        "from": "9.2.1202",
+        "to": "9.2.1217"
       },
       {
         "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.13.3",
         "to": "0.13.4"
       },
       {
-        "toolId": "miniconda",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "26.9.3"
-      },
-      {
-        "toolId": "llvm",
+        "toolId": "oracle_jdk_21",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "23.1.3",
-        "to": "23.1.4"
+        "from": "21.0.12.0",
+        "to": "21.0.13.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.38.1",
+        "to": "2.38.3"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.38.2",
         "to": "2.38.3"
       },
       {
-        "toolId": "google_cloud_sdk",
+        "toolId": "cloudflared",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.10.1",
+        "to": "2026.10.2"
+      },
+      {
+        "toolId": "heroku_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "589.0.0",
-        "to": "590.0.0"
-      },
-      {
-        "toolId": "mysql",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.7.2",
-        "to": "26.10.0"
-      },
-      {
-        "toolId": "julia",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.12.0"
-      },
-      {
-        "toolId": "quarto",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.10.19"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.54.1"
-      },
-      {
-        "toolId": "php",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "8.5.11"
-      },
-      {
-        "toolId": "ruby",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "3.4.11.1"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "29.1.2"
-      },
-      {
-        "toolId": "elixir",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.20.4"
+        "from": "11.0.0",
+        "to": null
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "miniconda",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "julia",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "quarto",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "php",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "ruby",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "elixir",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
+        "toolId": "heroku_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
       }
     ]
   }

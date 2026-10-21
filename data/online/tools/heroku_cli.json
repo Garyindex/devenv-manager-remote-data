@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T21:37:01.504Z",
+  "generatedAt": "2026-10-21T04:44:13.608Z",
   "status": "partial",
   "tool": {
     "id": "heroku_cli",
@@ -27,7 +27,7 @@
       "long": "The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It is an essential part of using Heroku.",
       "source": "winget",
       "homepage": "https://devcenter.heroku.com/articles/heroku-cli",
-      "lastUpdatedAt": "2026-10-20T21:36:52.973Z"
+      "lastUpdatedAt": "2026-10-21T04:44:07.463Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -92,9 +92,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-20T21:36:52.973Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-21T04:44:07.463Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Heroku CLI",
@@ -116,7 +118,7 @@
           "long": "The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It is an essential part of using Heroku.",
           "source": "winget",
           "homepage": "https://devcenter.heroku.com/articles/heroku-cli",
-          "lastUpdatedAt": "2026-10-20T21:36:52.973Z"
+          "lastUpdatedAt": "2026-10-21T04:44:07.463Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -135,32 +137,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "11.0.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.53.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "11.0.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
@@ -262,11 +243,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-20T21:36:52.973Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
