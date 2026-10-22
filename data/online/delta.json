@@ -1,58 +1,90 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T17:09:19.465Z",
-  "fromGeneratedAt": "2026-10-22T11:50:24.241Z",
-  "toGeneratedAt": "2026-10-22T17:09:19.465Z",
+  "generatedAt": "2026-10-22T21:34:40.892Z",
+  "fromGeneratedAt": "2026-10-22T17:09:19.465Z",
+  "toGeneratedAt": "2026-10-22T21:34:40.892Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 21,
+    "changedTools": 18,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 29,
+    "versionChanges": 20,
     "qualityChanges": 4
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "git",
+      "git_lfs",
       "vscode",
       "powershell",
       "oh_my_posh",
-      "node_lts",
-      "node_current",
-      "npm",
-      "pnpm",
-      "bun",
       "rustup",
+      "temurin_21",
+      "temurin_17",
+      "oracle_jdk_21",
       "ninja",
       "docker_desktop",
       "packer",
+      "pulumi",
       "aws_cli",
-      "postman",
-      "insomnia",
       "bruno",
-      "mitmproxy",
-      "netlify_cli",
-      "supabase_cli",
-      "unity_hub",
-      "blender"
+      "beekeeper_studio",
+      "stripe_cli",
+      "prisma_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
+        "toolId": "git",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.56.0.2",
+        "to": "2.56.0.3"
+      },
+      {
+        "toolId": "git_lfs",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.8.0",
+        "to": "3.8.1"
+      },
+      {
+        "toolId": "git_lfs",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.8.0",
+        "to": "3.8.1"
+      },
+      {
+        "toolId": "git_lfs",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.142.0",
+        "from": "3.8.0",
+        "to": "3.8.1"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.141.2",
         "to": "1.143.0"
       },
       {
         "toolId": "powershell",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "7.6.7",
+        "to": "7.6.8"
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "7.6.7",
         "to": "7.6.8"
       },
@@ -60,190 +92,92 @@
         "toolId": "oh_my_posh",
         "sourceId": "github",
         "manager": "github",
-        "from": "31.9.1",
-        "to": null
+        "from": null,
+        "to": "31.9.1"
       },
       {
-        "toolId": "node_lts",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "24.20.0",
-        "to": "24.22.1"
-      },
-      {
-        "toolId": "node_lts",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "24.22.0",
-        "to": "24.22.1"
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "26.8.1",
-        "to": "26.12.1"
-      },
-      {
-        "toolId": "npm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "24.20.0",
-        "to": "24.22.1"
-      },
-      {
-        "toolId": "pnpm",
+        "toolId": "temurin_17",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.14.0",
-        "to": "12.15.0"
+        "from": "17.0.20.1,1",
+        "to": "17.0.21,9"
       },
       {
-        "toolId": "bun",
+        "toolId": "oracle_jdk_21",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.4.3",
-        "to": "1.4.4"
-      },
-      {
-        "toolId": "bun",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.4.3",
-        "to": "1.4.4"
-      },
-      {
-        "toolId": "bun",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.4.3",
-        "to": "1.4.4"
+        "from": "21.0.13.0",
+        "to": "21.0.12.0"
       },
       {
         "toolId": "ninja",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.13.2",
-        "to": null
+        "from": null,
+        "to": "1.13.2"
       },
       {
         "toolId": "docker_desktop",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.96.1",
-        "to": "4.96.2"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.96.2,244353",
+        "to": "4.96.3,244472"
       },
       {
         "toolId": "packer",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "1.16.1",
         "to": "1.16.2"
       },
       {
-        "toolId": "packer",
+        "toolId": "pulumi",
         "sourceId": "github",
         "manager": "github",
-        "from": "nightly",
-        "to": "1.16.2"
+        "from": "3.271.0",
+        "to": "3.272.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.38.3",
-        "to": "2.38.4"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.33.2",
-        "to": "12.33.3"
-      },
-      {
-        "toolId": "insomnia",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "core@13.3.1",
-        "to": "core@13.4.0-beta.0"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.2.1",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "bruno",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "4.2.1",
-        "to": "4.3.0"
+        "from": "2.38.4",
+        "to": "2.38.5"
       },
       {
         "toolId": "bruno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.2.1",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "4.2.1",
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "mitmproxy",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.2.3",
-        "to": "12.3.0"
+        "from": "4.2.1",
+        "to": "4.3.0"
       },
       {
-        "toolId": "mitmproxy",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.2.3",
-        "to": "12.3.0"
-      },
-      {
-        "toolId": "netlify_cli",
+        "toolId": "beekeeper_studio",
         "sourceId": "github",
         "manager": "github",
-        "from": "27.14.1",
-        "to": "27.14.2"
+        "from": "6.1.6",
+        "to": "6.2.0-beta.2"
       },
       {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.0.0-next.22",
-        "to": "2.122.0-beta.14"
-      },
-      {
-        "toolId": "unity_hub",
+        "toolId": "stripe_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.22.3",
-        "to": "3.22.4"
+        "from": "1.55.0",
+        "to": "1.55.1"
       },
       {
-        "toolId": "blender",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "5.2.2",
-        "to": "5.2.3"
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.55.0",
+        "to": "1.55.1"
       },
       {
-        "toolId": "blender",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "5.2.2",
-        "to": "5.2.3"
+        "toolId": "prisma_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "8.0.0-rc.19",
+        "to": "8.0.0-rc.20"
       }
     ],
     "qualityChanges": [
@@ -251,11 +185,18 @@
         "toolId": "oh_my_posh",
         "sourceId": "github",
         "manager": "github",
-        "from": 100,
-        "to": 50
+        "from": 50,
+        "to": 100
       },
       {
         "toolId": "rustup",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 65,
+        "to": 100
+      },
+      {
+        "toolId": "temurin_21",
         "sourceId": "winget",
         "manager": "winget",
         "from": 100,
@@ -265,14 +206,7 @@
         "toolId": "ninja",
         "sourceId": "github",
         "manager": "github",
-        "from": 100,
-        "to": 50
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
+        "from": 50,
         "to": 100
       }
     ]
