@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T21:42:11.817Z",
+  "generatedAt": "2026-10-22T04:42:20.736Z",
   "status": "partial",
   "tool": {
     "id": "vim",
@@ -29,7 +29,7 @@
       "long": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often called a programmer's editor, and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files. Features Vim : Vim terminal(CLI) application can be used from Powershell and Command Prompt. GVim : The GUI version of Vim provides full featured Windows GUI application experience. Terminal Integration : Batch files are created to provide vim , gvim , evim , view , gview , vimdiff , gvimdiff and vimtutor command on terminal use. Shell Integration : Vim is added in Open with ... context menu. And by default Edit with Vim context menu is created to open files whose extensions are associated with other applications.",
       "source": "choco",
       "homepage": "https://www.vim.org/",
-      "lastUpdatedAt": "2026-10-21T21:41:17.071Z"
+      "lastUpdatedAt": "2026-10-22T04:41:24.814Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,31 +96,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-21T21:41:16.870Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-22T04:41:23.840Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Vim",
-          "publisher": "Bram Moolenaar et al.",
-          "author": "Bram Moolenaar et al.",
-          "description": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
-          "license": "Copyright (C) 1991-2020 Bram Moolenaar [Bram@vim.org] - Charityware / GNU GPL compatible",
-          "licenseUrl": "https://github.com/vim/vim-win32-installer#license--copyright",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.vim.org/",
-          "download": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1186/gvim_9.2.1186_x64.exe",
-          "releases": "https://github.com/vim/vim-win32-installer/releases/tag/v9.2.1186",
+          "download": "https://www.vim.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
-          "long": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-10-21T21:41:16.870Z"
+          "lastUpdatedAt": "2026-10-22T04:41:23.840Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -446,11 +448,11 @@
             "version": "9.2.1186",
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1186/gvim_9.2.1186_x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "4aedd4813659e8de3f0e17e5e695e8fa4d896f05619c2ac9097b49dfa293dd97",
+            "type": "package-manager",
+            "url": "https://www.vim.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -545,11 +547,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-21T21:41:16.870Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -595,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-21T21:41:16.996Z",
+          "scannedAt": "2026-10-22T04:41:24.812Z",
           "errors": []
         },
         "package": {
@@ -621,7 +623,7 @@
           "long": "Vi 'workalike' with many additional features",
           "source": "homebrew",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-10-21T21:41:16.996Z"
+          "lastUpdatedAt": "2026-10-22T04:41:24.812Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -727,7 +729,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-21T21:41:16.996Z",
+          "lastSuccessfulScanAt": "2026-10-22T04:41:24.812Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,7 +775,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-21T21:41:17.051Z",
+          "scannedAt": "2026-10-22T04:41:24.814Z",
           "errors": []
         },
         "package": {
@@ -799,7 +801,7 @@
           "long": "A highly configurable text editor",
           "source": "scoop",
           "homepage": "https://www.vim.org",
-          "lastUpdatedAt": "2026-10-21T21:41:17.051Z"
+          "lastUpdatedAt": "2026-10-22T04:41:24.814Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -904,7 +906,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-21T21:41:17.051Z",
+          "lastSuccessfulScanAt": "2026-10-22T04:41:24.814Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,7 +952,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-21T21:41:17.071Z",
+          "scannedAt": "2026-10-22T04:41:24.814Z",
           "errors": []
         },
         "package": {
@@ -983,7 +985,7 @@
           "long": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often called a programmer's editor, and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files. Features Vim : Vim terminal(CLI) application can be used from Powershell and Command Prompt. GVim : The GUI version of Vim provides full featured Windows GUI application experience. Terminal Integration : Batch files are created to provide vim , gvim , evim , view , gview , vimdiff , gvimdiff and vimtutor command on terminal use. Shell Integration : Vim is added in Open with ... context menu. And by default Edit with Vim context menu is created to open files whose extensions are associated with other applications.",
           "source": "choco",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-10-21T21:41:17.071Z"
+          "lastUpdatedAt": "2026-10-22T04:41:24.814Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1393,7 +1395,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-21T21:41:17.071Z",
+          "lastSuccessfulScanAt": "2026-10-22T04:41:24.814Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
