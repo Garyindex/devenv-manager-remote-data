@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T11:50:24.241Z",
+  "generatedAt": "2026-10-22T17:09:19.465Z",
   "status": "partial",
   "tool": {
     "id": "packer",
@@ -29,7 +29,7 @@
       "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
       "source": "choco",
       "homepage": "http://packer.io/",
-      "lastUpdatedAt": "2026-10-22T11:49:35.008Z"
+      "lastUpdatedAt": "2026-10-22T17:08:55.818Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-22T11:49:34.814Z",
+          "scannedAt": "2026-10-22T17:08:55.607Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-10-22T11:49:34.814Z"
+          "lastUpdatedAt": "2026-10-22T17:08:55.607Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -538,7 +538,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-22T11:49:34.814Z",
+          "lastSuccessfulScanAt": "2026-10-22T17:08:55.607Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -584,7 +584,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-22T11:49:34.940Z",
+          "scannedAt": "2026-10-22T17:08:55.724Z",
           "errors": []
         },
         "package": {
@@ -610,7 +610,7 @@
           "long": "Automates the creation of any type of virtual machine image.",
           "source": "scoop",
           "homepage": "https://www.packer.io",
-          "lastUpdatedAt": "2026-10-22T11:49:34.940Z"
+          "lastUpdatedAt": "2026-10-22T17:08:55.724Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -631,7 +631,7 @@
         },
         "versions": [
           {
-            "version": "1.16.1",
+            "version": "1.16.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -644,7 +644,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.1",
+            "version": "1.16.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -715,7 +715,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-22T11:49:34.940Z",
+          "lastSuccessfulScanAt": "2026-10-22T17:08:55.724Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -761,7 +761,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-22T11:49:35.008Z",
+          "scannedAt": "2026-10-22T17:08:55.818Z",
           "errors": []
         },
         "package": {
@@ -795,7 +795,7 @@
           "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
           "source": "choco",
           "homepage": "http://packer.io/",
-          "lastUpdatedAt": "2026-10-22T11:49:35.008Z"
+          "lastUpdatedAt": "2026-10-22T17:08:55.818Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1206,7 +1206,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-22T11:49:35.008Z",
+          "lastSuccessfulScanAt": "2026-10-22T17:08:55.818Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1254,7 +1254,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-22T11:49:35.175Z",
+          "scannedAt": "2026-10-22T17:08:55.905Z",
           "errors": []
         },
         "package": {
@@ -1277,7 +1277,7 @@
           "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
           "source": "github",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-10-22T11:49:35.175Z"
+          "lastUpdatedAt": "2026-10-22T17:08:55.905Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1297,9 +1297,19 @@
         },
         "versions": [
           {
+            "version": "1.16.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-10-22T13:30:50Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/packer/releases/tag/v1.16.2"
+          },
+          {
             "version": "nightly",
             "channel": "prerelease",
-            "latest": true,
+            "latest": false,
             "prerelease": true,
             "lts": null,
             "releaseDate": "2022-03-10T00:30:39Z",
@@ -1585,16 +1595,6 @@
             "releaseDate": "2023-08-17T16:42:40Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/hashicorp/packer/releases/tag/v1.9.3"
-          },
-          {
-            "version": "1.9.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2023-07-19T21:03:15Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/hashicorp/packer/releases/tag/v1.9.2"
           }
         ],
         "downloads": [
@@ -2480,7 +2480,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-22T11:49:35.175Z",
+          "lastSuccessfulScanAt": "2026-10-22T17:08:55.905Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
