@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T11:36:53.690Z",
+  "generatedAt": "2026-10-23T17:05:31.419Z",
   "status": "partial",
   "tool": {
     "id": "powershell",
@@ -29,7 +29,7 @@
       "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
       "source": "choco",
       "homepage": "https://github.com/PowerShell/PowerShell",
-      "lastUpdatedAt": "2026-10-23T11:36:03.577Z"
+      "lastUpdatedAt": "2026-10-23T17:04:38.716Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -101,7 +101,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T11:36:03.479Z",
+          "scannedAt": "2026-10-23T17:04:38.361Z",
           "errors": []
         },
         "package": {
@@ -115,8 +115,8 @@
         },
         "links": {
           "homepage": "https://microsoft.com/PowerShell",
-          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.7/PowerShell-7.6.7.msixbundle",
-          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.7",
+          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8-win-x64.msi",
+          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.8",
           "docs": null
         },
         "descriptions": {
@@ -124,7 +124,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-10-23T11:36:03.479Z"
+          "lastUpdatedAt": "2026-10-23T17:04:38.361Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,9 +145,19 @@
         },
         "versions": [
           {
-            "version": "7.6.7.0",
+            "version": "7.6.8",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.6.7.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -433,29 +443,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "7.4.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.7.0",
+            "version": "7.6.8",
             "platform": "windows",
             "architecture": null,
-            "type": "msix",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.7/PowerShell-7.6.7.msixbundle",
+            "type": "wix",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8-win-x64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "4dda8f77324028d2fc043a120cddb9ea32465a96a31d48f6062df2445fe12829",
+            "sha256": "079e7cecedd1e87fa7b4676e5c33ddfbe66859a44a97fbcd1db797245cbb93d2",
             "sizeBytes": null
           }
         ],
@@ -553,7 +553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T11:36:03.479Z",
+          "lastSuccessfulScanAt": "2026-10-23T17:04:38.361Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -602,7 +602,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T11:36:03.506Z",
+          "scannedAt": "2026-10-23T17:04:38.704Z",
           "errors": []
         },
         "package": {
@@ -628,7 +628,7 @@
           "long": "Command-line shell and scripting language",
           "source": "homebrew",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-10-23T11:36:03.506Z"
+          "lastUpdatedAt": "2026-10-23T17:04:38.704Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -735,7 +735,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T11:36:03.506Z",
+          "lastSuccessfulScanAt": "2026-10-23T17:04:38.704Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -783,7 +783,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T11:36:03.512Z",
+          "scannedAt": "2026-10-23T17:04:38.709Z",
           "errors": []
         },
         "package": {
@@ -809,7 +809,7 @@
           "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
           "source": "scoop",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-10-23T11:36:03.512Z"
+          "lastUpdatedAt": "2026-10-23T17:04:38.709Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -915,7 +915,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T11:36:03.512Z",
+          "lastSuccessfulScanAt": "2026-10-23T17:04:38.709Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -963,7 +963,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T11:36:03.577Z",
+          "scannedAt": "2026-10-23T17:04:38.716Z",
           "errors": []
         },
         "package": {
@@ -991,7 +991,7 @@
           "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
           "source": "choco",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-10-23T11:36:03.577Z"
+          "lastUpdatedAt": "2026-10-23T17:04:38.716Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1396,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T11:36:03.577Z",
+          "lastSuccessfulScanAt": "2026-10-23T17:04:38.716Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1446,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T11:36:03.608Z",
+          "scannedAt": "2026-10-23T17:04:38.760Z",
           "errors": []
         },
         "package": {
@@ -1478,7 +1478,7 @@
           "long": "PowerShell for every system!",
           "source": "github",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-10-23T11:36:03.608Z"
+          "lastUpdatedAt": "2026-10-23T17:04:38.760Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2773,7 +2773,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T11:36:03.608Z",
+          "lastSuccessfulScanAt": "2026-10-23T17:04:38.760Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
