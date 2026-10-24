@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T21:23:21.608Z",
+  "generatedAt": "2026-10-24T04:36:32.656Z",
   "status": "partial",
   "tool": {
     "id": "visual_studio_community",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
+      "short": "Everything you need to build modern apps - free for you, built for impact.",
+      "long": "Everything you need to build modern apps - free for you, built for impact.",
+      "source": "winget",
       "homepage": "https://visualstudio.microsoft.com/",
-      "lastUpdatedAt": null
+      "lastUpdatedAt": "2026-10-24T04:35:22.474Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "medium",
-      "score": 65
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -92,33 +92,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-10-23T21:23:01.340Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-10-24T04:35:22.474Z",
+          "errors": []
         },
         "package": {
           "name": "Visual Studio Community",
-          "publisher": null,
+          "publisher": "Microsoft Corporation",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "Everything you need to build modern apps - free for you, built for impact.",
+          "license": "Proprietary",
+          "licenseUrl": "https://visualstudio.microsoft.com/license-terms/",
           "tags": []
         },
         "links": {
           "homepage": "https://visualstudio.microsoft.com/",
-          "download": "https://visualstudio.microsoft.com/",
+          "download": "https://download.visualstudio.microsoft.com/download/pr/c95450be-0a45-4779-b142-33f567ccfd6e/d52e18859b0996bac3a89ba7d07e180508e49eb55f824d7eda2822aded495020/vs_Community.exe",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Everything you need to build modern apps - free for you, built for impact.",
+          "long": "Everything you need to build modern apps - free for you, built for impact.",
           "source": "winget",
           "homepage": "https://visualstudio.microsoft.com/",
-          "lastUpdatedAt": "2026-10-23T21:23:01.340Z"
+          "lastUpdatedAt": "2026-10-24T04:35:22.474Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -445,11 +443,11 @@
             "version": "17.14.42",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://visualstudio.microsoft.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "exe",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/c95450be-0a45-4779-b142-33f567ccfd6e/d52e18859b0996bac3a89ba7d07e180508e49eb55f824d7eda2822aded495020/vs_Community.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "d52e18859b0996bac3a89ba7d07e180508e49eb55f824d7eda2822aded495020",
             "sizeBytes": null
           }
         ],
@@ -544,11 +542,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-10-24T04:35:22.474Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

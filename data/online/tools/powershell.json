@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T21:23:21.608Z",
+  "generatedAt": "2026-10-24T04:36:32.656Z",
   "status": "partial",
   "tool": {
     "id": "powershell",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "PowerShell Core is the open source multiplatform version of PowerShell",
-      "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
-      "source": "choco",
-      "homepage": "https://github.com/PowerShell/PowerShell",
-      "lastUpdatedAt": "2026-10-23T21:22:51.621Z"
+      "short": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
+      "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
+      "source": "scoop",
+      "homepage": "https://microsoft.com/PowerShell",
+      "lastUpdatedAt": "2026-10-24T04:33:52.521Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -101,7 +101,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T21:22:51.388Z",
+          "scannedAt": "2026-10-24T04:33:52.326Z",
           "errors": []
         },
         "package": {
@@ -115,8 +115,8 @@
         },
         "links": {
           "homepage": "https://microsoft.com/PowerShell",
-          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8-win-x64.msi",
-          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.8",
+          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8.msixbundle",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
@@ -124,7 +124,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-10-23T21:22:51.388Z"
+          "lastUpdatedAt": "2026-10-24T04:33:52.326Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,19 +145,9 @@
         },
         "versions": [
           {
-            "version": "7.6.8",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
             "version": "7.6.8.0",
             "channel": "stable",
-            "latest": false,
+            "latest": true,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -443,19 +433,29 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
+          },
+          {
+            "version": "7.4.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.8",
+            "version": "7.6.8.0",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8-win-x64.msi",
+            "type": "msix",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8.msixbundle",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "079e7cecedd1e87fa7b4676e5c33ddfbe66859a44a97fbcd1db797245cbb93d2",
+            "sha256": "a77ef80d069c342739211904b7917769c190dd0c9ccbe492f21d637f318b5e96",
             "sizeBytes": null
           }
         ],
@@ -553,7 +553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T21:22:51.388Z",
+          "lastSuccessfulScanAt": "2026-10-24T04:33:52.326Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -602,7 +602,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T21:22:51.467Z",
+          "scannedAt": "2026-10-24T04:33:52.386Z",
           "errors": []
         },
         "package": {
@@ -628,7 +628,7 @@
           "long": "Command-line shell and scripting language",
           "source": "homebrew",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-10-23T21:22:51.467Z"
+          "lastUpdatedAt": "2026-10-24T04:33:52.386Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -735,7 +735,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T21:22:51.467Z",
+          "lastSuccessfulScanAt": "2026-10-24T04:33:52.386Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -783,7 +783,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T21:22:51.526Z",
+          "scannedAt": "2026-10-24T04:33:52.521Z",
           "errors": []
         },
         "package": {
@@ -809,7 +809,7 @@
           "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
           "source": "scoop",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-10-23T21:22:51.526Z"
+          "lastUpdatedAt": "2026-10-24T04:33:52.521Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -915,7 +915,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T21:22:51.526Z",
+          "lastSuccessfulScanAt": "2026-10-24T04:33:52.521Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -962,36 +962,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-23T21:22:51.621Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-24T04:33:52.522Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
-          "name": "powershell-core (Install)",
-          "publisher": "Microsoft",
-          "author": "Microsoft",
-          "description": "PowerShell Core is the open source multiplatform version of PowerShell",
+          "name": "PowerShell 7",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt",
-          "tags": [
-            "powershell-core",
-            "powershell",
-            "pwsh",
-            "admin"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "download": "https://community.chocolatey.org/api/v2/package/powershell-core/7.6.8",
-          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.8",
+          "download": "https://github.com/PowerShell/PowerShell",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "PowerShell Core is the open source multiplatform version of PowerShell",
-          "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-10-23T21:22:51.621Z"
+          "lastUpdatedAt": "2026-10-24T04:33:52.522Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1001,9 +999,7 @@
             "powershell",
             "PowerShell 7",
             "pwsh",
-            "choco",
-            "powershell-core",
-            "admin"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -1012,319 +1008,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "7.6.8",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.20",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.18",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "6.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.17",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.16",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.14",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.0-rc1",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.6.0-preview06",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.5.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.13",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.8",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/powershell-core/7.6.8",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "ftqpG0paxQtH0vC1+JPTrHLjmPhb5+P6xTCdtFFKyaVbeDOIU4yS589oWCZ/i7UOd7JZ1MhYX3/f5RyMf2xg1Q==",
+            "url": "https://github.com/PowerShell/PowerShell",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1393,11 +1088,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T21:22:51.621Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1446,7 +1141,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-23T21:22:51.750Z",
+          "scannedAt": "2026-10-24T04:33:52.644Z",
           "errors": []
         },
         "package": {
@@ -1478,7 +1173,7 @@
           "long": "PowerShell for every system!",
           "source": "github",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-10-23T21:22:51.750Z"
+          "lastUpdatedAt": "2026-10-24T04:33:52.644Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2773,7 +2468,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-23T21:22:51.750Z",
+          "lastSuccessfulScanAt": "2026-10-24T04:33:52.644Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
