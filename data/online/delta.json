@@ -1,42 +1,292 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T20:49:56.528Z",
-  "fromGeneratedAt": "2026-10-25T16:16:01.252Z",
-  "toGeneratedAt": "2026-10-25T20:49:56.528Z",
+  "generatedAt": "2026-10-26T04:45:19.323Z",
+  "fromGeneratedAt": "2026-10-25T20:49:56.528Z",
+  "toGeneratedAt": "2026-10-26T04:45:19.323Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 19,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
-    "qualityChanges": 0
+    "versionChanges": 24,
+    "qualityChanges": 11
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "powershell"
+      "git_lfs",
+      "vim",
+      "powershell",
+      "python_312",
+      "python_311",
+      "dotnet_9",
+      "dotnet_8",
+      "visual_studio_community",
+      "docker_desktop",
+      "kubectl",
+      "helm",
+      "minikube",
+      "terraform",
+      "opentofu",
+      "aws_cli",
+      "azure_cli",
+      "google_cloud_sdk",
+      "postman",
+      "mitmproxy"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "powershell",
+        "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "9.2.1229",
+        "to": "9.2.1240"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.1229",
+        "to": "9.2.1240"
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.6.8.0",
+        "to": "7.6.9.0"
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "7.6.8",
         "to": "7.6.9"
       },
       {
-        "toolId": "powershell",
+        "toolId": "python_312",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.12.15",
+        "to": "3.12.16"
+      },
+      {
+        "toolId": "python_311",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.11.17",
+        "to": "3.11.18"
+      },
+      {
+        "toolId": "dotnet_9",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.0.319",
+        "to": "9.0.320"
+      },
+      {
+        "toolId": "dotnet_8",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.0.426",
+        "to": "8.0.427"
+      },
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.42",
+        "to": "17.14.43"
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.96.3",
+        "to": null
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.37.1",
+        "to": null
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.1.4",
+        "to": null
+      },
+      {
+        "toolId": "minikube",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.39.0",
+        "to": null
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.16.7",
+        "to": null
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.12.6",
+        "to": null
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.38.5",
+        "to": null
+      },
+      {
+        "toolId": "azure_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.91.0",
+        "to": null
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "590.0.1",
+        "to": null
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.33.4",
+        "to": "12.34.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.33.4",
+        "to": null
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.3.0",
+        "to": "12.3.1"
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.3.0",
+        "to": "12.3.1"
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.3.0",
+        "to": "12.3.1"
+      },
+      {
+        "toolId": "mitmproxy",
         "sourceId": "github",
         "manager": "github",
-        "from": "7.6.8",
-        "to": "7.6.9"
+        "from": "12.3.0",
+        "to": "12.3.1"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "git_lfs",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "minikube",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "azure_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }
