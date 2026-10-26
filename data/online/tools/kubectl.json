@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T04:45:19.323Z",
+  "generatedAt": "2026-10-26T12:59:22.620Z",
   "status": "partial",
   "tool": {
     "id": "kubectl",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "A command line tool for communicating with a Kubernetes cluster's control plane, using the Kubernetes API",
-      "long": "A command line tool for communicating with a Kubernetes cluster's control plane, using the Kubernetes API",
-      "source": "winget",
-      "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-      "lastUpdatedAt": "2026-10-26T04:44:28.320Z"
+      "short": "Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications.",
+      "long": "Production-Grade Container Orchestration Automated container deployment, scaling, and management Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community. Planet Scale Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team. Never Outgrow Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is. Run Anywhere Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you. Features Automatic binpacking Automatically places containers based on their resource requirements...",
+      "source": "choco",
+      "homepage": "https://kubernetes.io/",
+      "lastUpdatedAt": "2026-10-26T12:58:59.329Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-26T04:44:28.320Z",
+          "scannedAt": "2026-10-26T12:58:59.033Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "A command line tool for communicating with a Kubernetes cluster's control plane, using the Kubernetes API",
           "source": "winget",
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-10-26T04:44:28.320Z"
+          "lastUpdatedAt": "2026-10-26T12:58:59.033Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-26T04:44:28.320Z",
+          "lastSuccessfulScanAt": "2026-10-26T12:58:59.033Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-26T04:44:28.479Z",
+          "scannedAt": "2026-10-26T12:58:59.252Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Kubernetes command-line interface",
           "source": "homebrew",
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-10-26T04:44:28.479Z"
+          "lastUpdatedAt": "2026-10-26T12:58:59.252Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -778,7 +778,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-26T04:44:28.479Z",
+          "lastSuccessfulScanAt": "2026-10-26T12:58:59.252Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -826,7 +826,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-26T04:44:28.519Z",
+          "scannedAt": "2026-10-26T12:58:59.269Z",
           "errors": []
         },
         "package": {
@@ -852,7 +852,7 @@
           "long": "Control the Kubernetes cluster manager.",
           "source": "scoop",
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-10-26T04:44:28.519Z"
+          "lastUpdatedAt": "2026-10-26T12:58:59.269Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -956,7 +956,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-26T04:44:28.519Z",
+          "lastSuccessfulScanAt": "2026-10-26T12:58:59.269Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1003,34 +1003,40 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-10-26T04:44:28.616Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-10-26T12:58:59.329Z",
+          "errors": []
         },
         "package": {
-          "name": "kubectl",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Kubernetes Command Line Interface (CLI)",
+          "publisher": "Google",
+          "author": "Google",
+          "description": "Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/kubernetes/kubernetes/blob/master/LICENSE",
+          "tags": [
+            "kubernetes",
+            "kubectl",
+            "docker",
+            "rkt",
+            "containers",
+            "devops",
+            "cli",
+            "foss"
+          ]
         },
         "links": {
-          "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "download": "https://kubernetes.io/docs/reference/kubectl/",
-          "releases": null,
+          "homepage": "https://kubernetes.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/kubernetes-cli/1.37.1",
+          "releases": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications.",
+          "long": "Production-Grade Container Orchestration Automated container deployment, scaling, and management Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community. Planet Scale Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team. Never Outgrow Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is. Run Anywhere Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you. Features Automatic binpacking Automatically places containers based on their resource requirements...",
           "source": "choco",
-          "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-10-26T04:44:28.616Z"
+          "homepage": "https://kubernetes.io/",
+          "lastUpdatedAt": "2026-10-26T12:58:59.329Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1038,7 +1044,14 @@
           ],
           "keywords": [
             "kubectl",
-            "choco"
+            "choco",
+            "kubernetes",
+            "docker",
+            "rkt",
+            "containers",
+            "devops",
+            "cli",
+            "foss"
           ],
           "relatedTools": []
         },
@@ -1047,18 +1060,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.37.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.37.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.35.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.32.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.33.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.34.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.37.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://kubernetes.io/docs/reference/kubectl/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/kubernetes-cli/1.37.1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "CtmvSaq0OJq9Xtnq46LNSOAYTppBMD5K4Pi9Z7jcURbz1T5lc497jqxkQsNDbDQO7yneUNKHdqtiAIcu9rme+w==",
             "sizeBytes": null
           }
         ],
@@ -1127,11 +1441,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-10-26T12:58:59.329Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
