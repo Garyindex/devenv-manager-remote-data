@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T12:59:22.620Z",
+  "generatedAt": "2026-10-26T22:39:50.842Z",
   "status": "partial",
   "tool": {
     "id": "stripe_cli",
@@ -29,7 +29,7 @@
       "long": "The Stripe CLI helps you build, test, and manage your Stripe integration right from the terminal. With the CLI, you can: - Securely test webhooks without relying on 3rd party software - Trigger webhook events or resend events for easy testing - Tail your API request logs in real-time - Create, retrieve, update, or delete API objects.",
       "source": "choco",
       "homepage": "https://stripe.com/docs/cli",
-      "lastUpdatedAt": "2026-10-26T12:59:17.376Z"
+      "lastUpdatedAt": "2026-10-26T22:39:43.141Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-26T12:59:17.330Z",
+          "scannedAt": "2026-10-26T22:39:43.007Z",
           "errors": []
         },
         "package": {
@@ -115,7 +115,7 @@
         },
         "links": {
           "homepage": "https://docs.stripe.com/stripe-cli",
-          "download": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.55.1.tar.gz",
+          "download": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.55.2.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -124,7 +124,7 @@
           "long": "Command-line tool for Stripe",
           "source": "homebrew",
           "homepage": "https://docs.stripe.com/stripe-cli",
-          "lastUpdatedAt": "2026-10-26T12:59:17.330Z"
+          "lastUpdatedAt": "2026-10-26T22:39:43.007Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -147,7 +147,7 @@
         },
         "versions": [
           {
-            "version": "1.55.1",
+            "version": "1.55.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -160,14 +160,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.55.1",
+            "version": "1.55.2",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.55.1.tar.gz",
+            "url": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.55.2.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "ce12c100dc8a95f17f5e759cdd0b0fdcb281308fda6d8a3aaf698c17678bc780",
+            "sha256": "c21ab3ffbb6ad8229c98d1538fdc953fbf34e1f25e62e3a561e3461467ab3a20",
             "sizeBytes": null
           }
         ],
@@ -231,7 +231,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-26T12:59:17.330Z",
+          "lastSuccessfulScanAt": "2026-10-26T22:39:43.007Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -277,7 +277,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-26T12:59:17.376Z",
+          "scannedAt": "2026-10-26T22:39:43.141Z",
           "errors": []
         },
         "package": {
@@ -304,7 +304,7 @@
           "long": "The Stripe CLI helps you build, test, and manage your Stripe integration right from the terminal. With the CLI, you can: - Securely test webhooks without relying on 3rd party software - Trigger webhook events or resend events for easy testing - Tail your API request logs in real-time - Create, retrieve, update, or delete API objects.",
           "source": "choco",
           "homepage": "https://stripe.com/docs/cli",
-          "lastUpdatedAt": "2026-10-26T12:59:17.376Z"
+          "lastUpdatedAt": "2026-10-26T22:39:43.141Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -709,7 +709,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-26T12:59:17.376Z",
+          "lastSuccessfulScanAt": "2026-10-26T22:39:43.141Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -757,7 +757,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-26T12:59:17.391Z",
+          "scannedAt": "2026-10-26T22:39:43.200Z",
           "errors": []
         },
         "package": {
@@ -780,7 +780,7 @@
           "long": "A command-line tool for Stripe",
           "source": "github",
           "homepage": "https://docs.stripe.com/cli",
-          "lastUpdatedAt": "2026-10-26T12:59:17.391Z"
+          "lastUpdatedAt": "2026-10-26T22:39:43.200Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -801,9 +801,19 @@
         },
         "versions": [
           {
-            "version": "1.55.1",
+            "version": "1.55.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-10-26T20:00:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/stripe/stripe-cli/releases/tag/v1.55.2"
+          },
+          {
+            "version": "1.55.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-10-22T17:52:55Z",
@@ -1089,19 +1099,165 @@
             "releaseDate": "2026-07-20T17:16:34Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/stripe/stripe-cli/releases/tag/v1.44.0"
-          },
-          {
-            "version": "1.43.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-07-13T20:07:42Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/stripe/stripe-cli/releases/tag/v1.43.8"
           }
         ],
         "downloads": [
+          {
+            "id": "stripe-linux-checksums.txt",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe-linux-checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 583
+          },
+          {
+            "id": "stripe-mac-checksums.txt",
+            "version": "1.55.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe-mac-checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 201
+          },
+          {
+            "id": "stripe-windows-checksums.txt",
+            "version": "1.55.2",
+            "platform": "windows",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe-windows-checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 196
+          },
+          {
+            "id": "stripe_1.55.2_linux_amd64.deb",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11363956
+          },
+          {
+            "id": "stripe_1.55.2_linux_amd64.rpm",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11761663
+          },
+          {
+            "id": "stripe_1.55.2_linux_arm64.deb",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10293904
+          },
+          {
+            "id": "stripe_1.55.2_linux_arm64.rpm",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10641577
+          },
+          {
+            "id": "stripe_1.55.2_linux_arm64.tar.gz",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10293354
+          },
+          {
+            "id": "stripe_1.55.2_linux_x86_64.tar.gz",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_linux_x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11362788
+          },
+          {
+            "id": "stripe_1.55.2_mac-os_arm64.tar.gz",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_mac-os_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10656259
+          },
+          {
+            "id": "stripe_1.55.2_mac-os_x86_64.tar.gz",
+            "version": "1.55.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_mac-os_x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11735500
+          },
+          {
+            "id": "stripe_1.55.2_windows_i386.zip",
+            "version": "1.55.2",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_windows_i386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11041961
+          },
+          {
+            "id": "stripe_1.55.2_windows_x86_64.zip",
+            "version": "1.55.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.2/stripe_1.55.2_windows_x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11527964
+          },
           {
             "id": "stripe-linux-checksums.txt",
             "version": "1.55.1",
@@ -1905,162 +2061,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 201
-          },
-          {
-            "id": "stripe-windows-checksums.txt",
-            "version": "1.53.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe-windows-checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 196
-          },
-          {
-            "id": "stripe_1.53.0_linux_amd64.deb",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_linux_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11313164
-          },
-          {
-            "id": "stripe_1.53.0_linux_amd64.rpm",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_linux_amd64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11313463
-          },
-          {
-            "id": "stripe_1.53.0_linux_arm64.deb",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_linux_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10242936
-          },
-          {
-            "id": "stripe_1.53.0_linux_arm64.rpm",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "rpm",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_linux_arm64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10244209
-          },
-          {
-            "id": "stripe_1.53.0_linux_arm64.tar.gz",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10242577
-          },
-          {
-            "id": "stripe_1.53.0_linux_x86_64.tar.gz",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_linux_x86_64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11312724
-          },
-          {
-            "id": "stripe_1.53.0_mac-os_arm64.tar.gz",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_mac-os_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10596814
-          },
-          {
-            "id": "stripe_1.53.0_mac-os_x86_64.tar.gz",
-            "version": "1.53.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_mac-os_x86_64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11421820
-          },
-          {
-            "id": "stripe_1.53.0_windows_i386.zip",
-            "version": "1.53.0",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_windows_i386.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10988850
-          },
-          {
-            "id": "stripe_1.53.0_windows_x86_64.zip",
-            "version": "1.53.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.53.0/stripe_1.53.0_windows_x86_64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11473157
-          },
-          {
-            "id": "stripe-linux-checksums.txt",
-            "version": "1.52.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.52.2/stripe-linux-checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 583
-          },
-          {
-            "id": "stripe-mac-checksums.txt",
-            "version": "1.52.2",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.52.2/stripe-mac-checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 201
           }
         ],
         "commands": [],
@@ -2068,7 +2068,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-26T12:59:17.391Z",
+          "lastSuccessfulScanAt": "2026-10-26T22:39:43.200Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
