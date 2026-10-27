@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T18:00:32.742Z",
+  "generatedAt": "2026-10-27T22:12:35.131Z",
   "status": "partial",
   "tool": {
     "id": "cmake",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Family of tools designed to build, test and package software",
-      "long": "Family of tools designed to build, test and package software",
-      "source": "scoop",
-      "homepage": "https://cmake.org",
-      "lastUpdatedAt": "2026-10-27T17:59:32.832Z"
+      "short": "Cross-platform, open-source build system including CMake, CTest, CPack, and CMake-GUI",
+      "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
+      "source": "choco",
+      "homepage": "https://www.cmake.org/",
+      "lastUpdatedAt": "2026-10-27T22:12:14.737Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -100,7 +100,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-27T17:59:31.676Z",
+          "scannedAt": "2026-10-27T22:12:14.607Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://cmake.org/",
-          "lastUpdatedAt": "2026-10-27T17:59:31.676Z"
+          "lastUpdatedAt": "2026-10-27T22:12:14.607Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -551,7 +551,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-27T17:59:31.676Z",
+          "lastSuccessfulScanAt": "2026-10-27T22:12:14.607Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -600,7 +600,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-27T17:59:32.804Z",
+          "scannedAt": "2026-10-27T22:12:14.698Z",
           "errors": []
         },
         "package": {
@@ -626,7 +626,7 @@
           "long": "Cross-platform make",
           "source": "homebrew",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-10-27T17:59:32.804Z"
+          "lastUpdatedAt": "2026-10-27T22:12:14.698Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -732,7 +732,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-27T17:59:32.804Z",
+          "lastSuccessfulScanAt": "2026-10-27T22:12:14.698Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -780,7 +780,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-27T17:59:32.832Z",
+          "scannedAt": "2026-10-27T22:12:14.724Z",
           "errors": []
         },
         "package": {
@@ -806,7 +806,7 @@
           "long": "Family of tools designed to build, test and package software",
           "source": "scoop",
           "homepage": "https://cmake.org",
-          "lastUpdatedAt": "2026-10-27T17:59:32.832Z"
+          "lastUpdatedAt": "2026-10-27T22:12:14.724Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -827,7 +827,7 @@
         },
         "versions": [
           {
-            "version": "4.4.4",
+            "version": "4.4.5",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -840,7 +840,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.4.4",
+            "version": "4.4.5",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -911,7 +911,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-27T17:59:32.832Z",
+          "lastSuccessfulScanAt": "2026-10-27T22:12:14.724Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -958,34 +958,38 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-10-27T17:59:32.873Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-10-27T22:12:14.737Z",
+          "errors": []
         },
         "package": {
           "name": "CMake",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "publisher": "Andy Cedilnik, Bill Hoffman, Brad King, Ken Martin, Alexander Neundorf",
+          "author": "Andy Cedilnik, Bill Hoffman, Brad King, Ken Martin, Alexander Neundorf",
+          "description": "Cross-platform, open-source build system including CMake, CTest, CPack, and CMake-GUI",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://gitlab.kitware.com/cmake/cmake/blob/master/Copyright.txt",
+          "tags": [
+            "cmake",
+            "compiler",
+            "make",
+            "build",
+            "foss",
+            "cross-platform"
+          ]
         },
         "links": {
-          "homepage": "https://cmake.org/",
-          "download": "https://cmake.org/",
-          "releases": null,
+          "homepage": "https://www.cmake.org/",
+          "download": "https://community.chocolatey.org/api/v2/package/cmake/4.5.0-rc1",
+          "releases": "#### Program\n* [News](https://blog.kitware.com/tag/CMake/)\n* [Changelog](https://www.cmake.org/download/#latest)",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Cross-platform, open-source build system including CMake, CTest, CPack, and CMake-GUI",
+          "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
           "source": "choco",
-          "homepage": "https://cmake.org/",
-          "lastUpdatedAt": "2026-10-27T17:59:32.873Z"
+          "homepage": "https://www.cmake.org/",
+          "lastUpdatedAt": "2026-10-27T22:12:14.737Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -994,7 +998,12 @@
           "keywords": [
             "cmake",
             "CMake",
-            "choco"
+            "choco",
+            "compiler",
+            "make",
+            "build",
+            "foss",
+            "cross-platform"
           ],
           "relatedTools": []
         },
@@ -1003,18 +1012,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "4.5.0-rc1",
+            "channel": "prerelease",
+            "latest": true,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0-rc3",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0-rc2",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0-rc1",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "4.5.0-rc1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://cmake.org/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/cmake/4.5.0-rc1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "1e1qMtN+GZ2jif2TCIlBLJ8a0ojFf9jK6VfEyqcEBMd/g0BaDoSBxjM4l1bAp0CGjCXk1NuvB5ELDre1wWsePA==",
             "sizeBytes": null
           }
         ],
@@ -1083,11 +1393,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-10-27T22:12:14.737Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1136,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-27T17:59:40.411Z",
+          "scannedAt": "2026-10-27T22:12:14.814Z",
           "errors": []
         },
         "package": {
@@ -1159,7 +1469,7 @@
           "long": "Mirror of CMake upstream repository",
           "source": "github",
           "homepage": "https://gitlab.kitware.com/cmake/cmake",
-          "lastUpdatedAt": "2026-10-27T17:59:40.411Z"
+          "lastUpdatedAt": "2026-10-27T22:12:14.814Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1179,9 +1489,29 @@
         },
         "versions": [
           {
+            "version": "4.4.5",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-10-27T19:54:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kitware/CMake/releases/tag/v4.4.5"
+          },
+          {
+            "version": "4.3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-10-27T19:53:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/Kitware/CMake/releases/tag/v4.3.6"
+          },
+          {
             "version": "4.5.0-rc1",
             "channel": "prerelease",
-            "latest": true,
+            "latest": false,
             "prerelease": true,
             "lts": null,
             "releaseDate": "2026-10-15T17:15:23Z",
@@ -1457,29 +1787,561 @@
             "releaseDate": "2026-01-27T16:28:54Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/Kitware/CMake/releases/tag/v4.1.5"
-          },
-          {
-            "version": "4.0.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-01-27T16:00:45Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/Kitware/CMake/releases/tag/v4.0.6"
-          },
-          {
-            "version": "3.31.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-01-26T19:52:05Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/Kitware/CMake/releases/tag/v3.31.11"
           }
         ],
         "downloads": [
+          {
+            "id": "cmake-4.4.5-files-v1.json",
+            "version": "4.4.5",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-files-v1.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4291
+          },
+          {
+            "id": "cmake-4.4.5-linux-aarch64.sh",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-linux-aarch64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 52046167
+          },
+          {
+            "id": "cmake-4.4.5-linux-aarch64.tar.gz",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-linux-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 52041209
+          },
+          {
+            "id": "cmake-4.4.5-linux-x86_64.sh",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-linux-x86_64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 64867620
+          },
+          {
+            "id": "cmake-4.4.5-linux-x86_64.tar.gz",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-linux-x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 64865573
+          },
+          {
+            "id": "cmake-4.4.5-macos-universal.dmg",
+            "version": "4.4.5",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-macos-universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 90656156
+          },
+          {
+            "id": "cmake-4.4.5-macos-universal.tar.gz",
+            "version": "4.4.5",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-macos-universal.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 89451542
+          },
+          {
+            "id": "cmake-4.4.5-macos10.10-universal.dmg",
+            "version": "4.4.5",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-macos10.10-universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 88132760
+          },
+          {
+            "id": "cmake-4.4.5-macos10.10-universal.tar.gz",
+            "version": "4.4.5",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-macos10.10-universal.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86705272
+          },
+          {
+            "id": "cmake-4.4.5-SHA-256.txt",
+            "version": "4.4.5",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-SHA-256.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2015
+          },
+          {
+            "id": "cmake-4.4.5-SHA-256.txt.asc",
+            "version": "4.4.5",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-SHA-256.txt.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 833
+          },
+          {
+            "id": "cmake-4.4.5-sunos-sparc64.sh",
+            "version": "4.4.5",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-sunos-sparc64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46980793
+          },
+          {
+            "id": "cmake-4.4.5-sunos-sparc64.tar.gz",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-sunos-sparc64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 46978654
+          },
+          {
+            "id": "cmake-4.4.5-sunos-x86_64.sh",
+            "version": "4.4.5",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-sunos-x86_64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49142908
+          },
+          {
+            "id": "cmake-4.4.5-sunos-x86_64.tar.gz",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-sunos-x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49143822
+          },
+          {
+            "id": "cmake-4.4.5-windows-arm64.msi",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37224448
+          },
+          {
+            "id": "cmake-4.4.5-windows-arm64.zip",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-windows-arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 52564319
+          },
+          {
+            "id": "cmake-4.4.5-windows-i386.msi",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-windows-i386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36532224
+          },
+          {
+            "id": "cmake-4.4.5-windows-i386.zip",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-windows-i386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 50823815
+          },
+          {
+            "id": "cmake-4.4.5-windows-x86_64.msi",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 39153664
+          },
+          {
+            "id": "cmake-4.4.5-windows-x86_64.zip",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 54412232
+          },
+          {
+            "id": "cmake-4.4.5.tar.gz",
+            "version": "4.4.5",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13289246
+          },
+          {
+            "id": "cmake-4.4.5.zip",
+            "version": "4.4.5",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 24343703
+          },
+          {
+            "id": "cmake-4.3.6-files-v1.json",
+            "version": "4.3.6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-files-v1.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 4291
+          },
+          {
+            "id": "cmake-4.3.6-linux-aarch64.sh",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-linux-aarch64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 51285139
+          },
+          {
+            "id": "cmake-4.3.6-linux-aarch64.tar.gz",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-linux-aarch64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 51280301
+          },
+          {
+            "id": "cmake-4.3.6-linux-x86_64.sh",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-linux-x86_64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 64048622
+          },
+          {
+            "id": "cmake-4.3.6-linux-x86_64.tar.gz",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-linux-x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 64044697
+          },
+          {
+            "id": "cmake-4.3.6-macos-universal.dmg",
+            "version": "4.3.6",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-macos-universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 88616507
+          },
+          {
+            "id": "cmake-4.3.6-macos-universal.tar.gz",
+            "version": "4.3.6",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-macos-universal.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 87478109
+          },
+          {
+            "id": "cmake-4.3.6-macos10.10-universal.dmg",
+            "version": "4.3.6",
+            "platform": "macos",
+            "architecture": null,
+            "type": "dmg",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-macos10.10-universal.dmg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 86092571
+          },
+          {
+            "id": "cmake-4.3.6-macos10.10-universal.tar.gz",
+            "version": "4.3.6",
+            "platform": "macos",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-macos10.10-universal.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84736008
+          },
+          {
+            "id": "cmake-4.3.6-SHA-256.txt",
+            "version": "4.3.6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-SHA-256.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2015
+          },
+          {
+            "id": "cmake-4.3.6-SHA-256.txt.asc",
+            "version": "4.3.6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-SHA-256.txt.asc",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 833
+          },
+          {
+            "id": "cmake-4.3.6-sunos-sparc64.sh",
+            "version": "4.3.6",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-sunos-sparc64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 45840573
+          },
+          {
+            "id": "cmake-4.3.6-sunos-sparc64.tar.gz",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-sunos-sparc64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 45838920
+          },
+          {
+            "id": "cmake-4.3.6-sunos-x86_64.sh",
+            "version": "4.3.6",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-sunos-x86_64.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 47972587
+          },
+          {
+            "id": "cmake-4.3.6-sunos-x86_64.tar.gz",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-sunos-x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 47970173
+          },
+          {
+            "id": "cmake-4.3.6-windows-arm64.msi",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 36507648
+          },
+          {
+            "id": "cmake-4.3.6-windows-arm64.zip",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-windows-arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 51302305
+          },
+          {
+            "id": "cmake-4.3.6-windows-i386.msi",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-windows-i386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 35647488
+          },
+          {
+            "id": "cmake-4.3.6-windows-i386.zip",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-windows-i386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49489408
+          },
+          {
+            "id": "cmake-4.3.6-windows-x86_64.msi",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 38154240
+          },
+          {
+            "id": "cmake-4.3.6-windows-x86_64.zip",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6-windows-x86_64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 52975338
+          },
+          {
+            "id": "cmake-4.3.6.tar.gz",
+            "version": "4.3.6",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12977831
+          },
+          {
+            "id": "cmake-4.3.6.zip",
+            "version": "4.3.6",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.6/cmake-4.3.6.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 23631375
+          },
           {
             "id": "cmake-4.5.0-rc1-files-v1.json",
             "version": "4.5.0-rc1",
@@ -1887,558 +2749,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 833
-          },
-          {
-            "id": "cmake-4.4.4-sunos-sparc64.sh",
-            "version": "4.4.4",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-sunos-sparc64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 46968077
-          },
-          {
-            "id": "cmake-4.4.4-sunos-sparc64.tar.gz",
-            "version": "4.4.4",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-sunos-sparc64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 46967257
-          },
-          {
-            "id": "cmake-4.4.4-sunos-x86_64.sh",
-            "version": "4.4.4",
-            "platform": "unknown",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-sunos-x86_64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 49146300
-          },
-          {
-            "id": "cmake-4.4.4-sunos-x86_64.tar.gz",
-            "version": "4.4.4",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-sunos-x86_64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 49144107
-          },
-          {
-            "id": "cmake-4.4.4-windows-arm64.msi",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "msi",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-arm64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 37216256
-          },
-          {
-            "id": "cmake-4.4.4-windows-arm64.zip",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 52553164
-          },
-          {
-            "id": "cmake-4.4.4-windows-i386.msi",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "msi",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-i386.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36536320
-          },
-          {
-            "id": "cmake-4.4.4-windows-i386.zip",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-i386.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 50813024
-          },
-          {
-            "id": "cmake-4.4.4-windows-x86_64.msi",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-x86_64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 39145472
-          },
-          {
-            "id": "cmake-4.4.4-windows-x86_64.zip",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-x86_64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 54400562
-          },
-          {
-            "id": "cmake-4.4.4.tar.gz",
-            "version": "4.4.4",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13289137
-          },
-          {
-            "id": "cmake-4.4.4.zip",
-            "version": "4.4.4",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 24341892
-          },
-          {
-            "id": "cmake-4.3.5-files-v1.json",
-            "version": "4.3.5",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-files-v1.json",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 4291
-          },
-          {
-            "id": "cmake-4.3.5-linux-aarch64.sh",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-linux-aarch64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 51284511
-          },
-          {
-            "id": "cmake-4.3.5-linux-aarch64.tar.gz",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-linux-aarch64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 51279536
-          },
-          {
-            "id": "cmake-4.3.5-linux-x86_64.sh",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-linux-x86_64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 64038402
-          },
-          {
-            "id": "cmake-4.3.5-linux-x86_64.tar.gz",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-linux-x86_64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 64036374
-          },
-          {
-            "id": "cmake-4.3.5-macos-universal.dmg",
-            "version": "4.3.5",
-            "platform": "macos",
-            "architecture": null,
-            "type": "dmg",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-macos-universal.dmg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 88613399
-          },
-          {
-            "id": "cmake-4.3.5-macos-universal.tar.gz",
-            "version": "4.3.5",
-            "platform": "macos",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-macos-universal.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 87477585
-          },
-          {
-            "id": "cmake-4.3.5-macos10.10-universal.dmg",
-            "version": "4.3.5",
-            "platform": "macos",
-            "architecture": null,
-            "type": "dmg",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-macos10.10-universal.dmg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 86089501
-          },
-          {
-            "id": "cmake-4.3.5-macos10.10-universal.tar.gz",
-            "version": "4.3.5",
-            "platform": "macos",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-macos10.10-universal.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 84734349
-          },
-          {
-            "id": "cmake-4.3.5-SHA-256.txt",
-            "version": "4.3.5",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-SHA-256.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 2015
-          },
-          {
-            "id": "cmake-4.3.5-SHA-256.txt.asc",
-            "version": "4.3.5",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-SHA-256.txt.asc",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 833
-          },
-          {
-            "id": "cmake-4.3.5-sunos-sparc64.sh",
-            "version": "4.3.5",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-sunos-sparc64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 45846355
-          },
-          {
-            "id": "cmake-4.3.5-sunos-sparc64.tar.gz",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-sunos-sparc64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 45846405
-          },
-          {
-            "id": "cmake-4.3.5-sunos-x86_64.sh",
-            "version": "4.3.5",
-            "platform": "unknown",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-sunos-x86_64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 47985401
-          },
-          {
-            "id": "cmake-4.3.5-sunos-x86_64.tar.gz",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-sunos-x86_64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 47986449
-          },
-          {
-            "id": "cmake-4.3.5-windows-arm64.msi",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "msi",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-windows-arm64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 36511744
-          },
-          {
-            "id": "cmake-4.3.5-windows-arm64.zip",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-windows-arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 51306135
-          },
-          {
-            "id": "cmake-4.3.5-windows-i386.msi",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "msi",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-windows-i386.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 35635200
-          },
-          {
-            "id": "cmake-4.3.5-windows-i386.zip",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-windows-i386.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 49493418
-          },
-          {
-            "id": "cmake-4.3.5-windows-x86_64.msi",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-windows-x86_64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 38146048
-          },
-          {
-            "id": "cmake-4.3.5-windows-x86_64.zip",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5-windows-x86_64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 52979296
-          },
-          {
-            "id": "cmake-4.3.5.tar.gz",
-            "version": "4.3.5",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 12976379
-          },
-          {
-            "id": "cmake-4.3.5.zip",
-            "version": "4.3.5",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.5/cmake-4.3.5.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 23626974
-          },
-          {
-            "id": "cmake-4.2.8-files-v1.json",
-            "version": "4.2.8",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-files-v1.json",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 4291
-          },
-          {
-            "id": "cmake-4.2.8-linux-aarch64.sh",
-            "version": "4.2.8",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-linux-aarch64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 59519802
-          },
-          {
-            "id": "cmake-4.2.8-linux-aarch64.tar.gz",
-            "version": "4.2.8",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-linux-aarch64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 59517287
-          },
-          {
-            "id": "cmake-4.2.8-linux-x86_64.sh",
-            "version": "4.2.8",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-linux-x86_64.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 58199607
-          },
-          {
-            "id": "cmake-4.2.8-linux-x86_64.tar.gz",
-            "version": "4.2.8",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-linux-x86_64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 58195651
-          },
-          {
-            "id": "cmake-4.2.8-macos-universal.dmg",
-            "version": "4.2.8",
-            "platform": "macos",
-            "architecture": null,
-            "type": "dmg",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-macos-universal.dmg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 86035377
-          },
-          {
-            "id": "cmake-4.2.8-macos-universal.tar.gz",
-            "version": "4.2.8",
-            "platform": "macos",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-macos-universal.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 84717619
-          },
-          {
-            "id": "cmake-4.2.8-macos10.10-universal.dmg",
-            "version": "4.2.8",
-            "platform": "macos",
-            "architecture": null,
-            "type": "dmg",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-macos10.10-universal.dmg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 84879185
-          },
-          {
-            "id": "cmake-4.2.8-macos10.10-universal.tar.gz",
-            "version": "4.2.8",
-            "platform": "macos",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-macos10.10-universal.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 83883480
-          },
-          {
-            "id": "cmake-4.2.8-SHA-256.txt",
-            "version": "4.2.8",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-SHA-256.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 2015
-          },
-          {
-            "id": "cmake-4.2.8-SHA-256.txt.asc",
-            "version": "4.2.8",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.2.8/cmake-4.2.8-SHA-256.txt.asc",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 833
           }
         ],
         "commands": [],
@@ -2446,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-27T17:59:40.411Z",
+          "lastSuccessfulScanAt": "2026-10-27T22:12:14.814Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
