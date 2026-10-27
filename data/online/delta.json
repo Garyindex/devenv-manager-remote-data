@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T22:39:50.842Z",
-  "fromGeneratedAt": "2026-10-26T12:59:22.620Z",
-  "toGeneratedAt": "2026-10-26T22:39:50.842Z",
+  "generatedAt": "2026-10-27T05:01:45.436Z",
+  "fromGeneratedAt": "2026-10-26T22:39:50.842Z",
+  "toGeneratedAt": "2026-10-27T05:01:45.436Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 18,
+    "changedTools": 17,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 27,
-    "qualityChanges": 6
+    "versionChanges": 23,
+    "qualityChanges": 7
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "git",
       "github_cli",
       "github_desktop",
       "vscodium",
       "pnpm",
-      "docker_desktop",
-      "podman",
+      "uv",
+      "temurin_21",
       "aws_cli",
       "google_cloud_sdk",
       "cloudflared",
@@ -32,7 +31,7 @@
       "mysql",
       "mariadb",
       "redis",
-      "julia",
+      "nmap",
       "stripe_cli",
       "pandoc"
     ],
@@ -40,93 +39,72 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "git",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.56.0.3",
-        "to": "2.56.0.4"
-      },
-      {
         "toolId": "github_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.103.2",
         "to": "2.103.3"
       },
       {
         "toolId": "github_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.103.2",
         "to": "2.103.3"
       },
       {
         "toolId": "github_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.6.9-e0ba6bb8",
-        "to": "3.6.10-ffeefe5d"
-      },
-      {
-        "toolId": "vscodium",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.140.06880",
-        "to": "1.143.17183"
+        "from": "3.6.9",
+        "to": "3.6.10"
       },
       {
         "toolId": "vscodium",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.140.06880",
-        "to": "1.143.17183"
-      },
-      {
-        "toolId": "vscodium",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.140.06880",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.140.6880",
         "to": "1.143.17183"
       },
       {
         "toolId": "pnpm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.14.0",
-        "to": "12.15.0"
-      },
-      {
-        "toolId": "docker_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.96.3",
-        "to": "4.97.0"
-      },
-      {
-        "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.96.3,244472",
-        "to": "4.97.0,244584"
-      },
-      {
-        "toolId": "podman",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "6.1.4",
-        "to": "6.2.0-rc1"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.38.5",
-        "to": "2.38.6"
-      },
-      {
-        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "12.15.0",
+        "to": "12.16.0"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.13.5",
+        "to": "0.13.6"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "0.13.5",
+        "to": "0.13.6"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.13.5",
+        "to": "0.13.6"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.13.5",
+        "to": "0.13.6"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.38.5",
         "to": "2.38.6"
       },
@@ -134,20 +112,13 @@
         "toolId": "google_cloud_sdk",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "590.0.1",
-        "to": null
+        "from": null,
+        "to": "590.0.1"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.10.3",
-        "to": "2026.10.4"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2026.10.3",
         "to": "2026.10.4"
       },
@@ -155,122 +126,129 @@
         "toolId": "cloudflared",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.10.3",
-        "to": null
+        "from": null,
+        "to": "2026.10.4"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.33.4",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": null,
         "to": "12.34.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.33.4",
-        "to": null
       },
       {
         "toolId": "bruno",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.3.0",
-        "to": null
+        "from": null,
+        "to": "4.3.0"
       },
       {
         "toolId": "mysql",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.7.4",
-        "to": null
+        "from": null,
+        "to": "9.7.4"
       },
       {
         "toolId": "mariadb",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "13.0.2",
-        "to": null
+        "from": null,
+        "to": "13.0.2"
       },
       {
         "toolId": "redis",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "8.10.2",
         "to": "8.10.3"
       },
       {
-        "toolId": "julia",
+        "toolId": "nmap",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.13.2",
-        "to": "1.13.3"
+        "from": "7.992",
+        "to": "7.993"
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "7.992",
+        "to": "7.993"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.55.1",
-        "to": "1.55.2"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.55.1",
         "to": "1.55.2"
       },
       {
         "toolId": "pandoc",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.12.1",
+        "to": "3.13"
+      },
+      {
+        "toolId": "pandoc",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "3.12.1",
         "to": "3.13"
       }
     ],
     "qualityChanges": [
       {
+        "toolId": "temurin_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      },
+      {
         "toolId": "google_cloud_sdk",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "cloudflared",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "postman",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "bruno",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "mysql",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "mariadb",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
