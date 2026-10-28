@@ -1,195 +1,205 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T12:51:40.681Z",
-  "fromGeneratedAt": "2026-10-28T05:40:51.363Z",
-  "toGeneratedAt": "2026-10-28T12:51:40.681Z",
+  "generatedAt": "2026-10-28T22:33:41.285Z",
+  "fromGeneratedAt": "2026-10-28T12:51:40.681Z",
+  "toGeneratedAt": "2026-10-28T22:33:41.285Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 13,
+    "changedTools": 17,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 19,
-    "qualityChanges": 3
+    "versionChanges": 23,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vscode",
       "vscodium",
+      "node_lts",
+      "node_current",
+      "pnpm",
       "pipx",
-      "tinygo",
       "sbt",
-      "kubectl",
+      "cmake",
+      "terraform",
+      "pulumi",
       "aws_cli",
-      "cloudflared",
-      "postman",
-      "dbeaver",
       "beekeeper_studio",
       "android_studio",
-      "supabase_cli",
-      "hugo"
+      "rstudio",
+      "netlify_cli",
+      "stripe_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscodium",
+        "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.142.0",
+        "to": "1.143.1"
+      },
+      {
+        "toolId": "vscode",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.143.17183",
-        "to": "1.143.17232"
+        "from": "1.143.1",
+        "to": "1.144.0"
       },
       {
-        "toolId": "vscodium",
+        "toolId": "vscode",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "1.143.1",
+        "to": "1.144.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.143.1",
+        "to": "1.144.0"
+      },
+      {
+        "toolId": "vscodium",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "1.143.17183",
         "to": "1.143.17232"
       },
       {
-        "toolId": "vscodium",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.143.17183",
-        "to": "1.143.17232"
+        "toolId": "node_lts",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "24.22.1",
+        "to": "26.13.0"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.12.1",
+        "to": "26.13.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.15.0",
+        "to": "12.16.1"
       },
       {
         "toolId": "pipx",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.18.6",
-        "to": "1.18.7"
-      },
-      {
-        "toolId": "tinygo",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.43.0",
-        "to": "0.44.0"
-      },
-      {
-        "toolId": "tinygo",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.43.0",
-        "to": "0.44.0"
-      },
-      {
-        "toolId": "sbt",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.0.11",
-        "to": "2.0.12"
+        "from": "1.18.4",
+        "to": "1.18.5"
       },
       {
         "toolId": "sbt",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.0.11",
-        "to": "2.0.12"
-      },
-      {
-        "toolId": "kubectl",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.37.1",
-        "to": "1.37.2"
+        "from": "2.0.11",
+        "to": "2.0.12"
       },
       {
-        "toolId": "kubectl",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.37.1",
-        "to": "1.37.2"
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.4.5",
+        "to": "4.5.0-rc2"
       },
       {
-        "toolId": "kubectl",
+        "toolId": "terraform",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.37.1",
-        "to": "1.37.2"
+        "from": "1.17.0",
+        "to": "1.17.1"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.16.7",
+        "to": "1.17.1"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.272.0",
+        "to": "3.273.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.272.0",
+        "to": "3.273.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.38.6",
-        "to": "2.39.0"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2026.10.4",
-        "to": "2026.10.5"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.34.1",
-        "to": "12.34.2"
-      },
-      {
-        "toolId": "dbeaver",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "26.2.3"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.39.0",
+        "to": "2.39.1"
       },
       {
         "toolId": "beekeeper_studio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "6.0.5"
-      },
-      {
-        "toolId": "android_studio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2025.2.3.9"
-      },
-      {
-        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.0.0-next.25",
-        "to": "2.123.0-beta.9"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.168.0",
-        "to": "0.169.0"
-      }
-    ],
-    "qualityChanges": [
-      {
-        "toolId": "dbeaver",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "beekeeper_studio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
+        "from": "6.2.0-beta.3",
+        "to": "6.2.0"
       },
       {
         "toolId": "android_studio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.2.1.8,rabbit1",
+        "to": "2026.2.2.8,rabbit2"
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.10.0,233",
+        "to": "2026.10.1,239"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.15.0",
+        "to": "27.16.0"
+      },
+      {
+        "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 40,
-        "to": 100
+        "from": "1.55.2",
+        "to": "1.55.3"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.22.4.65535",
+        "to": "3.22.5.65535"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.22.4",
+        "to": "3.22.5"
       }
-    ]
+    ],
+    "qualityChanges": []
   }
 }
