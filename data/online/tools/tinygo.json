@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T05:40:51.363Z",
+  "generatedAt": "2026-10-28T12:51:40.681Z",
   "status": "partial",
   "tool": {
     "id": "tinygo",
@@ -29,7 +29,7 @@
       "long": "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.",
       "source": "github",
       "homepage": "https://tinygo.org",
-      "lastUpdatedAt": "2026-10-28T05:39:46.224Z"
+      "lastUpdatedAt": "2026-10-28T12:51:18.586Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,7 +95,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:39:46.139Z",
+          "scannedAt": "2026-10-28T12:51:18.520Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "A Go compiler for small places",
           "source": "scoop",
           "homepage": "https://tinygo.org",
-          "lastUpdatedAt": "2026-10-28T05:39:46.139Z"
+          "lastUpdatedAt": "2026-10-28T12:51:18.520Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,7 +142,7 @@
         },
         "versions": [
           {
-            "version": "0.43.0",
+            "version": "0.44.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -155,7 +155,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.43.0",
+            "version": "0.44.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -226,7 +226,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:39:46.139Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:18.520Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -274,7 +274,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:39:46.224Z",
+          "scannedAt": "2026-10-28T12:51:18.586Z",
           "errors": []
         },
         "package": {
@@ -317,7 +317,7 @@
           "long": "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.",
           "source": "github",
           "homepage": "https://tinygo.org",
-          "lastUpdatedAt": "2026-10-28T05:39:46.224Z"
+          "lastUpdatedAt": "2026-10-28T12:51:18.586Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -355,9 +355,19 @@
         },
         "versions": [
           {
-            "version": "0.43.0",
+            "version": "0.44.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-10-28T08:00:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/tinygo-org/tinygo/releases/tag/v0.44.0"
+          },
+          {
+            "version": "0.43.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-10-09T21:29:22Z",
@@ -643,19 +653,117 @@
             "releaseDate": "2021-11-18T14:30:34Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/tinygo-org/tinygo/releases/tag/v0.21.0"
-          },
-          {
-            "version": "0.20.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2021-09-21T18:31:36Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/tinygo-org/tinygo/releases/tag/v0.20.0"
           }
         ],
         "downloads": [
+          {
+            "id": "tinygo0.44.0.darwin-amd64.tar.gz",
+            "version": "0.44.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo0.44.0.darwin-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 167526980
+          },
+          {
+            "id": "tinygo0.44.0.darwin-arm64.tar.gz",
+            "version": "0.44.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo0.44.0.darwin-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 164734272
+          },
+          {
+            "id": "tinygo0.44.0.linux-amd64.tar.gz",
+            "version": "0.44.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo0.44.0.linux-amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 188295677
+          },
+          {
+            "id": "tinygo0.44.0.linux-arm.tar.gz",
+            "version": "0.44.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo0.44.0.linux-arm.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 179783026
+          },
+          {
+            "id": "tinygo0.44.0.linux-arm64.tar.gz",
+            "version": "0.44.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo0.44.0.linux-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 182920807
+          },
+          {
+            "id": "tinygo0.44.0.windows-amd64.zip",
+            "version": "0.44.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo0.44.0.windows-amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 180259399
+          },
+          {
+            "id": "tinygo_0.44.0_amd64.deb",
+            "version": "0.44.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo_0.44.0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 188650296
+          },
+          {
+            "id": "tinygo_0.44.0_arm64.deb",
+            "version": "0.44.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo_0.44.0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 180536890
+          },
+          {
+            "id": "tinygo_0.44.0_armhf.deb",
+            "version": "0.44.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.44.0/tinygo_0.44.0_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 177416758
+          },
           {
             "id": "tinygo0.43.0.darwin-amd64.tar.gz",
             "version": "0.43.0",
@@ -1507,114 +1615,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 153567886
-          },
-          {
-            "id": "tinygo_0.38.0_armhf.deb",
-            "version": "0.38.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.38.0/tinygo_0.38.0_armhf.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 150291576
-          },
-          {
-            "id": "tinygo0.37.0.darwin-amd64.tar.gz",
-            "version": "0.37.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.darwin-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 129910755
-          },
-          {
-            "id": "tinygo0.37.0.darwin-arm64.tar.gz",
-            "version": "0.37.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.darwin-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 127128533
-          },
-          {
-            "id": "tinygo0.37.0.linux-amd64.tar.gz",
-            "version": "0.37.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.linux-amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 153063689
-          },
-          {
-            "id": "tinygo0.37.0.linux-arm.tar.gz",
-            "version": "0.37.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.linux-arm.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 144145448
-          },
-          {
-            "id": "tinygo0.37.0.linux-arm64.tar.gz",
-            "version": "0.37.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.linux-arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 147485005
-          },
-          {
-            "id": "tinygo0.37.0.windows-amd64.zip",
-            "version": "0.37.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo0.37.0.windows-amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 139242252
-          },
-          {
-            "id": "tinygo_0.37.0_amd64.deb",
-            "version": "0.37.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo_0.37.0_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 153322160
-          },
-          {
-            "id": "tinygo_0.37.0_arm64.deb",
-            "version": "0.37.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.37.0/tinygo_0.37.0_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 145547238
           }
         ],
         "commands": [],
@@ -1622,7 +1622,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:39:46.224Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:18.586Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

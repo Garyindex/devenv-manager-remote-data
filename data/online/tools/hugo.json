@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T05:40:51.363Z",
+  "generatedAt": "2026-10-28T12:51:40.681Z",
   "status": "partial",
   "tool": {
     "id": "hugo",
@@ -29,7 +29,7 @@
       "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://gohugo.io/",
-      "lastUpdatedAt": "2026-10-28T05:40:40.500Z"
+      "lastUpdatedAt": "2026-10-28T12:51:39.098Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:40:40.235Z",
+          "scannedAt": "2026-10-28T12:51:38.846Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-10-28T05:40:40.235Z"
+          "lastUpdatedAt": "2026-10-28T12:51:38.846Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:40:40.235Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:38.846Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:40:40.411Z",
+          "scannedAt": "2026-10-28T12:51:38.965Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Configurable static site generator",
           "source": "homebrew",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-10-28T05:40:40.411Z"
+          "lastUpdatedAt": "2026-10-28T12:51:38.965Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:40:40.411Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:38.965Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:40:40.425Z",
+          "scannedAt": "2026-10-28T12:51:38.983Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Speedy and flexible static site generator (without Sass/SCSS support)",
           "source": "scoop",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-10-28T05:40:40.425Z"
+          "lastUpdatedAt": "2026-10-28T12:51:38.983Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:40:40.425Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:38.983Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:40:40.500Z",
+          "scannedAt": "2026-10-28T12:51:39.098Z",
           "errors": []
         },
         "package": {
@@ -970,8 +970,8 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.168.0",
-          "releases": "## Notable new features\n\n* New [`imaging.firstFrameOnly`](https://gohugo.io/configuration/imaging/#firstframeonly) option (and a matching processing flag) to only decode/encode the first frame of animated images. Hugo now also only decodes the first frame when the target format doesn't support animation, and fails early with an informative error if processing all frames would exceed the WASM memory limit.\n* New [`FrameCount`](https://gohugo.io/methods/resource/framecount/) method on images, e.g. to check if an image is animated.\n* [`site.Language`](https://gohugo.io/methods/site/language/) now has `Translate` and `Format*` methods, so you can e.g. range over `site.Languages` and translate into each language.\n* New `charset` option for [`js.Build`](https://gohugo.io/functions/js/build/) and [`css.Build`](https://gohugo.io/functions/css/build/).\n* Basic support for the OSC 7501 program status (working/done/idle/error) in terminals that support it, alongside the existing OSC 9;4 progress.\n\n## Security fixes\n\nThis release is built with Go 1.27.2, which includes [15 security fixes](https://seclists.org/oss-sec/2026/q4/101). The most relevant for Hugo are:\n\n* Two `html/template` escaping fixes, which also apply to Hugo's fork of the package: [CVE-2026-94448](https://github.com/golang/go/issues/81821) (context tracking not reset on consecutive expressions in JS template literals) and [CVE-2026-97030](https://github.com/golang/go/issues/81823) (`yield` not recognized as a regexp preceder keyword). Both could lead to incorrect escaping of inline JavaScript.\n* Several `net/http` fixes (HTTP/2 server crash and memory exhaustion, connection desynchronization, unbounded `Range` header parsing), relevant for `hugo server` and remote resources. The corresponding HTTP/2 fixes are also included via the upgrade of `golang.org/x/net` to v0.61.0.\n* [CVE-2026-56857](https://github.com/golang/go/issues/81739): `os.Root.Mkdir(All)` could follow junctions out of the root on Windows.\n\nAlso:\n\n* `github.com/tdewolff/minify` is upgraded to v2.24.19, which fixes [GHSA-3ppm-p7r9-c5w3](https://github.com/tdewolff/minify/releases/tag/v2.24.18): `</script>` (and `<!--`) inside inline scripts was not properly escaped (case-insensitively) when minifying JS in HTML.\n* Hugo now ignores `module.replacements` defined in themes; only the project can define replacements.\n\n## Changes\n\n* Fix PAGE.IsNode warning in jsonify 0732eadd @bep #15420 \n* hugolib: Fix rebuild when content is also mounted as assets ac62c804 @taekop #12838 \n* Fix deprecation issues in tests be8ffd62 @bep \n* circleci: Update config.yml to version 2.1 285d0efc @bep \n* warpc: Upgrade libavif, AOM, dav1d versions c94bdf92 @bep \n* warpc: Upgrade to javy 9.1.0 63fb71ca @bep \n* warpc: Upgrade to wasi-sdk-34 2f2f33b2 @bep \n* ci: Drop extended build tag on Windows tests 53aae446 @bep \n* Add imaging.firstFrameOnly and some animation performance improvements 13ee7e97 @bep #15433 \n* js, css: Add charset option to js.Build and css.Build 0688a8cd @bep #15435 \n* Add ImageResource.FrameCount c9f6e4d4 @bep #15430 \n* Add Translate and Format* methods to Language df8badea @bep #7844 \n* Add basic support for OSC 7501 program status d1024ae6 @bep #15425 \n* modules: Ignore module.replacements defined in themes 6883b55a @bep \n* Upgrade to Go 1.27.2 f44c355e @bep #15427 \n* ci: Add temporary workaround for staticcheck vs Go 1.27.2 46123a60 @bep \n* transform/metainject: Inject Hugo generator tag last in <head> 31f5395d @toddy15 \n* Make tests run on GOARCH 386 6b3ba3a7 @bep #15403 \n* Update vulnerability reporting instructions ec69d0e6 @bep \n\n## Dependency Updates\n\n* build(deps): bump golang.org/x/image from 0.46.0 to 0.47.0 2bbad501 @dependabot[bot] \n* build(deps): bump golang.org/x/mod from 0.41.0 to 0.42.0 030619b4 @dependabot[bot] \n* build(deps): bump golang.org/x/net from 0.59.0 to 0.61.0 13ef7079 @dependabot[bot] \n* build(deps): bump github.com/bits-and-blooms/bitset 846b1d74 @dependabot[bot] \n* build(deps): bump github.com/tdewolff/minify/v2 from 2.24.17 to 2.24.19 16441d2f @dependabot[bot] \n\n## Build Setup\n\n* snap: Update base to core26 8c88da37 @jmooring",
+          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.169.0",
+          "releases": "The main motivation behind this release is to get out a build with [Go 1.27.3](https://github.com/golang/go/issues?q=milestone%3AGo1.27.3+label%3ACherryPickApproved), which blocks trust in a small set of intermediate certificates due to specific security concerns around their operation. See the [eMudhra incident](https://go.dev/blog/emudhra-incident) for more information. This affects Hugo features that fetch remote resources over HTTPS, e.g. `resources.GetRemote`.\n\nThis release also contains some security hardening of the template functions and menu entries that can render content as HTML (see below), a deprecation of looking up reserved front matter fields via `.Params` (also below), a faster and more robust `plainify`, and a set of bug fixes.\n\n## Security notes\n\nTemplates are trusted in Hugo, but content (including front matter) is not necessarily. This release tightens a few places where values from content could end up rendered as unescaped HTML:\n\n* `pre` and `post` values in menu entries defined in **front matter** are now HTML escaped, unless `text/html` is allowed in [`security.allowContent`](https://gohugo.io/configuration/security/), which already marks HTML in `/content` as trusted. A warning (`warning-menu-pre-post-html-escaped`) is logged when a value containing HTML markup is escaped. Menu entries defined in the project configuration are not affected. f63482bf\n* `emojify` and `plainify` now return a `string` unless the input is `template.HTML`, in which case the result is also `template.HTML`. Previously both always returned `template.HTML`, so e.g. `{{ .Title | emojify }}` would mark a potentially unsafe title as safe HTML. If you relied on the old behavior with trusted input, pipe the result through `safeHTML`. Thanks to @Reload3d for reporting this. #15452\n\n## Deprecations\n\nReserved front matter fields such as `title`, `date` and `summary` are currently also stored in `.Params`. Lookups such as `.Params.title` (and `ByParam \"title\"`, `where .Pages \"Params.title\" ...` etc.) are now redirected to the corresponding `Page` method and logged as deprecated, unless the field was set in the `params` section of front matter. The content of `.Params` is unchanged for now. 53e1fef9\n\n| Deprecated | Use instead |\n| --- | --- |\n| `.Params.date` | `.Date` |\n| `.Params.description` | `.Description` |\n| `.Params.draft` | `.Draft` |\n| `.Params.expirydate` | `.ExpiryDate` |\n| `.Params.keywords` | `.Keywords` |\n| `.Params.lastmod` | `.Lastmod` |\n| `.Params.layout` | `.Layout` |\n| `.Params.linktitle` | `.LinkTitle` |\n| `.Params.publishdate` | `.PublishDate` |\n| `.Params.slug` | `.Slug` |\n| `.Params.summary` | `.RawSummary` (new) |\n| `.Params.title` | `.Title` |\n| `.Params.translationkey` | `.TranslationKey` |\n| `.Params.type` | `.Type` |\n| `.Params.weight` | `.Weight` |\n\n## Bug fixes\n\n* hugolib: Fix template change detection when saving via temp file and rename 46e51f30 @bep #15484 \n* markup/goldmark: Fix auto heading ID when link text starts with a bracket c22158c1 @chanellebingham #15472 \n* urls: Fix JoinPath panic with empty slice ce5d232b @Ferdinand-MZ #15473 \n* js: Fix js.Build with browser-disabled extensionless requires 2efee511 @bep #15481 \n* Fix Site.Key used in e.g. partialCached b86e0caa @bep #15466 \n* ci: Fix Windows running out of disk space and simplify test runs 77230eba @bep \n* hugolib: Fix build hang after too many page render errors 85fb23f1 @bep #15449 \n* tpl/cast: Fix nil pointer panic in hugo gen docshelper 8df31809 @jmooring #15444 \n\n## Improvements\n\n* Redirect .Params.title etc. to .Title etc. and deprecate it 53e1fef9 @bep \n* ci: Revert to plain go install honnef.co/go/tools/cmd/staticcheck@latest 3e67572c @bep \n* navigation: Escape pre/post in front matter menu entries f63482bf @bep \n* Upgrade to Go 1.27.3 7343fc9c @bep \n* resources: Make processed image key stable across builds ff4eab75 @bep #15467 \n* tpl: Make StripHTML (plainify) more robust and faster 7ec3a366 @bep #15462 \n* tpl/transform: Make emojify and plainify preserve template.HTML input type 895f5837 @bep #15452 \n* Make emojify return a string 87bf5858 @bep #15452 \n* Skip staticcheck in check.sh unless --full is set 9d502917 @bep #15453 \n* Delete CLAUDE.md 683a877f @bep \n\n## Dependency Updates\n\n* build(deps): bump github.com/getkin/kin-openapi from 0.151.0 to 0.152.0 6e494d01 @dependabot[bot] \n* build(deps): bump github.com/tdewolff/minify/v2 from 2.24.19 to 2.24.22 8c1fdcac @dependabot[bot] \n* build(deps): bump github.com/tdewolff/parse/v2 from 2.8.16 to 2.8.18 ed22b85c @dependabot[bot] \n* build(deps): bump github.com/getkin/kin-openapi from 0.149.0 to 0.151.0 4102d1af @dependabot[bot] \n* build(deps): bump golang.org/x/tools from 0.51.0 to 0.52.0 ac5af664 @dependabot[bot]",
           "docs": null
         },
         "descriptions": {
@@ -979,7 +979,7 @@
           "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-10-28T05:40:40.500Z"
+          "lastUpdatedAt": "2026-10-28T12:51:39.098Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1002,9 +1002,19 @@
         },
         "versions": [
           {
-            "version": "0.168.0",
+            "version": "0.169.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.168.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1290,29 +1300,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.154.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.168.0",
+            "version": "0.169.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.168.0",
+            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.169.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "oddvPO186l1v3X5Ki3fOLA1C4MrDdQsqNhwi3A+2jIlPPB0SwNjByoBh3IqyRiLZnQj1BUr1Kmtye4xwN8sUIw==",
+            "sha256": "MCP6uC8Wg6eS3DjkQ/QHKkw11CoKcSjGizyxGT0vm09fAUV6MTlAhkwWFRhTdG9HahwyxQvF0Fk33sAwQ/G2AQ==",
             "sizeBytes": null
           }
         ],
@@ -1384,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:40:40.500Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:39.098Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1432,7 +1432,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T05:40:40.592Z",
+          "scannedAt": "2026-10-28T12:51:39.227Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1463,7 @@
           "long": "The world’s fastest framework for building websites.",
           "source": "github",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-10-28T05:40:40.592Z"
+          "lastUpdatedAt": "2026-10-28T12:51:39.227Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T05:40:40.592Z",
+          "lastSuccessfulScanAt": "2026-10-28T12:51:39.227Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
