@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T12:58:48.403Z",
+  "generatedAt": "2026-10-29T22:44:48.545Z",
   "status": "partial",
   "tool": {
     "id": "cloudflared",
@@ -29,7 +29,7 @@
       "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
       "source": "choco",
       "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
-      "lastUpdatedAt": "2026-10-29T12:58:29.902Z"
+      "lastUpdatedAt": "2026-10-29T22:44:03.840Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-29T12:58:29.571Z",
+          "scannedAt": "2026-10-29T22:44:03.237Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://try.cloudflare.com/",
-          "download": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.5/cloudflared-windows-amd64.msi",
-          "releases": "https://github.com/cloudflare/cloudflared/blob/2026.10.5/RELEASE_NOTES",
+          "download": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.6/cloudflared-windows-amd64.msi",
+          "releases": "https://github.com/cloudflare/cloudflared/blob/2026.10.6/RELEASE_NOTES",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address. With Tunnel, you do not send traffic to an external IP — instead, a lightweight daemon in your infrastructure (cloudflared) creates outbound-only connections to Cloudflare's global network. Cloudflare Tunnel can connect HTTP web servers, SSH servers, remote desktops, and other protocols safely to Cloudflare. This way, your origins can serve traffic through Cloudflare without being vulnerable to attacks that bypass Cloudflare.",
           "source": "winget",
           "homepage": "https://try.cloudflare.com/",
-          "lastUpdatedAt": "2026-10-29T12:58:29.571Z"
+          "lastUpdatedAt": "2026-10-29T22:44:03.237Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "2026.10.5",
+            "version": "2026.10.6",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2026.10.5",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2025.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2026.10.5",
+            "version": "2026.10.6",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.5/cloudflared-windows-amd64.msi",
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.6/cloudflared-windows-amd64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "13de1bd2d40f0d896fc7875d663f9180c1bace50981349cd323f50711643d01d",
+            "sha256": "f702616fceb9a4500b2a1e7d894c8a3833f5ed6c420ec0c467629b037b44f41c",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-29T12:58:29.571Z",
+          "lastSuccessfulScanAt": "2026-10-29T22:44:03.237Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-29T12:58:29.770Z",
+          "scannedAt": "2026-10-29T22:44:03.661Z",
           "errors": []
         },
         "package": {
@@ -611,7 +611,7 @@
         },
         "links": {
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "download": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.10.5.tar.gz",
+          "download": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.10.6.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -620,7 +620,7 @@
           "long": "Cloudflare Tunnel client (formerly Argo Tunnel)",
           "source": "homebrew",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-10-29T12:58:29.770Z"
+          "lastUpdatedAt": "2026-10-29T22:44:03.661Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -641,7 +641,7 @@
         },
         "versions": [
           {
-            "version": "2026.10.5",
+            "version": "2026.10.6",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -654,14 +654,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2026.10.5",
+            "version": "2026.10.6",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.10.5.tar.gz",
+            "url": "https://github.com/cloudflare/cloudflared/archive/refs/tags/2026.10.6.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "cca0918e869d6e303ab9d0a31bc1d96ae7dbbbfe6ff2bde9208159ea91f793d6",
+            "sha256": "eb4d6b02b017cd3e49676934f14fe3025cebb07f9f272cd60dd790a2d812b90b",
             "sizeBytes": null
           }
         ],
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-29T12:58:29.770Z",
+          "lastSuccessfulScanAt": "2026-10-29T22:44:03.661Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-29T12:58:29.841Z",
+          "scannedAt": "2026-10-29T22:44:03.777Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "Command-line client to interact with Cloudflare Tunnel, Cloudflare Access, start up a DNS over HTTPS resolver and more.",
           "source": "scoop",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-10-29T12:58:29.841Z"
+          "lastUpdatedAt": "2026-10-29T22:44:03.777Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-29T12:58:29.841Z",
+          "lastSuccessfulScanAt": "2026-10-29T22:44:03.777Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-29T12:58:29.902Z",
+          "scannedAt": "2026-10-29T22:44:03.840Z",
           "errors": []
         },
         "package": {
@@ -975,7 +975,7 @@
           "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
           "source": "choco",
           "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
-          "lastUpdatedAt": "2026-10-29T12:58:29.902Z"
+          "lastUpdatedAt": "2026-10-29T22:44:03.840Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1379,7 +1379,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-29T12:58:29.902Z",
+          "lastSuccessfulScanAt": "2026-10-29T22:44:03.840Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1427,7 +1427,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-29T12:58:30.019Z",
+          "scannedAt": "2026-10-29T22:44:03.894Z",
           "errors": []
         },
         "package": {
@@ -1455,7 +1455,7 @@
           "long": "Cloudflare Tunnel client",
           "source": "github",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-10-29T12:58:30.019Z"
+          "lastUpdatedAt": "2026-10-29T22:44:03.894Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2745,7 +2745,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-29T12:58:30.019Z",
+          "lastSuccessfulScanAt": "2026-10-29T22:44:03.894Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
