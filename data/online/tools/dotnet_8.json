@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T05:48:14.670Z",
+  "generatedAt": "2026-10-29T12:58:48.403Z",
   "status": "partial",
   "tool": {
     "id": "dotnet_8",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
-      "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
-      "source": "winget",
-      "homepage": "https://dotnet.microsoft.com",
-      "lastUpdatedAt": "2026-10-29T05:46:00.769Z"
+      "short": null,
+      "long": null,
+      "source": "catalog",
+      "homepage": "https://dotnet.microsoft.com/",
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -92,31 +92,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-29T05:46:00.769Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-29T12:58:17.096Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": ".NET SDK 8",
-          "publisher": "Microsoft Corporation",
+          "publisher": null,
           "author": null,
-          "description": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
-          "license": "MIT",
+          "description": null,
+          "license": null,
           "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://dotnet.microsoft.com",
-          "download": "https://download.microsoft.com/download/1c8c36ae-1e08-4005-b94c-ee0e9da9ba08/8d751af1-8c2a-4c90-b2b8-989b212d267b/dotnet-sdk-8.0.427-win-x64.exe",
+          "homepage": "https://dotnet.microsoft.com/",
+          "download": "https://dotnet.microsoft.com/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
-          "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://dotnet.microsoft.com",
-          "lastUpdatedAt": "2026-10-29T05:46:00.769Z"
+          "homepage": "https://dotnet.microsoft.com/",
+          "lastUpdatedAt": "2026-10-29T12:58:17.096Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -443,11 +445,11 @@
             "version": "8.0.427",
             "platform": "windows",
             "architecture": null,
-            "type": "burn",
-            "url": "https://download.microsoft.com/download/1c8c36ae-1e08-4005-b94c-ee0e9da9ba08/8d751af1-8c2a-4c90-b2b8-989b212d267b/dotnet-sdk-8.0.427-win-x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "e6b52377eed55ff967bde16fc02587c054c11f9270d6e29ec18e87a825eb9705",
+            "type": "package-manager",
+            "url": "https://dotnet.microsoft.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -542,11 +544,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-29T05:46:00.769Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
