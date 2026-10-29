@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T22:33:41.285Z",
+  "generatedAt": "2026-10-29T05:48:14.670Z",
   "status": "partial",
   "tool": {
     "id": "wireshark",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and edu...",
-      "long": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998. Wireshark has a rich feature set which includes the following: - Deep inspection of hundreds of protocols, with more being added all the time - Live capture and offline analysis - Standard three-pane packet browser - Multi-platform: Runs on Windows, Linux, macOS, Solaris, FreeBSD, NetBSD, and many others - Captured network data can be browsed via a GUI, or via the TTY-mode TShark utility - The most powerful display filters in the industry - Rich VoIP analysis - Read/write many different capture file formats: tcpdump (libpcap), Pcap NG, Catapult DCT2000, Cisco Secure IDS iplog, Microsoft Network Monitor, Network General Sniffer® (compressed and uncompressed), Sniffer® Pro, and NetXray®, Network Instruments Obser...",
-      "source": "choco",
-      "homepage": "http://www.wireshark.org/",
-      "lastUpdatedAt": "2026-10-28T22:33:25.197Z"
+      "short": "A network protocol analyzer that lets you see what's happening on your network at a microscopic level.",
+      "long": "A network protocol analyzer that lets you see what's happening on your network at a microscopic level.",
+      "source": "scoop",
+      "homepage": "https://www.wireshark.org/",
+      "lastUpdatedAt": "2026-10-29T05:47:34.347Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -84,7 +84,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T22:33:24.413Z",
+          "scannedAt": "2026-10-29T05:47:33.050Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.wireshark.org/",
-          "lastUpdatedAt": "2026-10-28T22:33:24.413Z"
+          "lastUpdatedAt": "2026-10-29T05:47:33.050Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -535,7 +535,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T22:33:24.413Z",
+          "lastSuccessfulScanAt": "2026-10-29T05:47:33.050Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -569,7 +569,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T22:33:24.945Z",
+          "scannedAt": "2026-10-29T05:47:34.201Z",
           "errors": []
         },
         "package": {
@@ -595,7 +595,7 @@
           "long": "Network analyzer and capture tool - without graphical user interface",
           "source": "homebrew",
           "homepage": "https://www.wireshark.org",
-          "lastUpdatedAt": "2026-10-28T22:33:24.945Z"
+          "lastUpdatedAt": "2026-10-29T05:47:34.201Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -701,7 +701,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T22:33:24.945Z",
+          "lastSuccessfulScanAt": "2026-10-29T05:47:34.201Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -734,7 +734,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-28T22:33:24.995Z",
+          "scannedAt": "2026-10-29T05:47:34.347Z",
           "errors": []
         },
         "package": {
@@ -760,7 +760,7 @@
           "long": "A network protocol analyzer that lets you see what's happening on your network at a microscopic level.",
           "source": "scoop",
           "homepage": "https://www.wireshark.org/",
-          "lastUpdatedAt": "2026-10-28T22:33:24.995Z"
+          "lastUpdatedAt": "2026-10-29T05:47:34.347Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -865,7 +865,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T22:33:24.995Z",
+          "lastSuccessfulScanAt": "2026-10-29T05:47:34.347Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -897,38 +897,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-28T22:33:25.197Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-29T05:47:34.572Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
           "name": "Wireshark",
-          "publisher": "Gerald Combs, Wireshark team",
-          "author": "Gerald Combs, Wireshark team",
-          "description": "Wireshark",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://gitlab.com/wireshark/wireshark/-/blob/master/COPYING",
-          "tags": [
-            "wireshark",
-            "network",
-            "protocol",
-            "analyzer",
-            "sniffer",
-            "admin"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
-          "homepage": "http://www.wireshark.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/wireshark/4.6.9",
-          "releases": "https://www.wireshark.org/docs/relnotes/",
+          "homepage": "https://www.wireshark.org/",
+          "download": "https://www.wireshark.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and edu...",
-          "long": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998. Wireshark has a rich feature set which includes the following: - Deep inspection of hundreds of protocols, with more being added all the time - Live capture and offline analysis - Standard three-pane packet browser - Multi-platform: Runs on Windows, Linux, macOS, Solaris, FreeBSD, NetBSD, and many others - Captured network data can be browsed via a GUI, or via the TTY-mode TShark utility - The most powerful display filters in the industry - Rich VoIP analysis - Read/write many different capture file formats: tcpdump (libpcap), Pcap NG, Catapult DCT2000, Cisco Secure IDS iplog, Microsoft Network Monitor, Network General Sniffer® (compressed and uncompressed), Sniffer® Pro, and NetXray®, Network Instruments Obser...",
+          "short": null,
+          "long": null,
           "source": "choco",
-          "homepage": "http://www.wireshark.org/",
-          "lastUpdatedAt": "2026-10-28T22:33:25.197Z"
+          "homepage": "https://www.wireshark.org/",
+          "lastUpdatedAt": "2026-10-29T05:47:34.572Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -937,12 +933,7 @@
           "keywords": [
             "wireshark",
             "Wireshark",
-            "choco",
-            "network",
-            "protocol",
-            "analyzer",
-            "sniffer",
-            "admin"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -951,319 +942,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "4.6.9",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "4.6.9",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/wireshark/4.6.9",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "BqHKqkVFPWGzUqs6jBQUeE/tBdbcTJgMZZrRwvlacac2j34RL+idP11Ch4nEFcOCvsdhJil4jIO0nxj1GaqZaQ==",
+            "url": "https://www.wireshark.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1332,11 +1022,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-28T22:33:25.197Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
