@@ -1,136 +1,122 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T05:45:48.940Z",
-  "fromGeneratedAt": "2026-10-29T22:44:48.545Z",
-  "toGeneratedAt": "2026-10-30T05:45:48.940Z",
+  "generatedAt": "2026-10-30T12:53:11.681Z",
+  "fromGeneratedAt": "2026-10-30T05:45:48.940Z",
+  "toGeneratedAt": "2026-10-30T12:53:11.681Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
-    "qualityChanges": 3
+    "versionChanges": 12,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "node_current",
+      "pnpm",
       "pipx",
-      "temurin_21",
-      "aws_cli",
+      "vs_build_tools",
+      "visual_studio_community",
+      "cloudflared",
       "postman",
-      "pgadmin",
-      "flutter",
-      "supabase_cli",
-      "pandoc",
-      "hugo",
-      "mkdocs"
+      "mitmproxy",
+      "quarto",
+      "netlify_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.18.7",
-        "to": "1.18.8"
-      },
-      {
-        "toolId": "pipx",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.18.9",
-        "to": "1.18.10"
-      },
-      {
-        "toolId": "temurin_21",
+        "toolId": "node_current",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "21.0.12.101",
-        "to": "21.0.13.9"
+        "from": "26.12.1",
+        "to": "27.0.0-alpha.0.0.0"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.15.0",
+        "to": "12.16.1"
+      },
+      {
+        "toolId": "pipx",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.39.1",
-        "to": "2.39.2"
+        "from": "1.18.8",
+        "to": "1.18.9"
+      },
+      {
+        "toolId": "vs_build_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.42",
+        "to": "17.14.44"
+      },
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.43",
+        "to": "17.14.44"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.10.5",
+        "to": "2026.10.6"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.34.3",
         "to": "12.34.4"
       },
       {
-        "toolId": "pgadmin",
+        "toolId": "mitmproxy",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "9.18",
-        "to": "9.19"
+        "from": "12.3.0",
+        "to": "12.3.1"
       },
       {
-        "toolId": "flutter",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.47.8",
-        "to": "3.47.9"
+        "toolId": "quarto",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.10.19",
+        "to": "1.10.20"
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.11.8",
+        "to": "1.10.20"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.16.0",
+        "to": "27.16.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.0.0-next.27",
-        "to": "3.0.0-beta.15"
-      },
-      {
-        "toolId": "pandoc",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "3.13.0"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "0.169.0"
-      },
-      {
-        "toolId": "mkdocs",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.6.1"
+        "from": "3.0.0-beta.15",
+        "to": "3.0.0-beta.17"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "pandoc",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "mkdocs",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }

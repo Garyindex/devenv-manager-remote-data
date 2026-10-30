@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T05:45:48.940Z",
+  "generatedAt": "2026-10-30T12:53:11.681Z",
   "status": "partial",
   "tool": {
     "id": "mitmproxy",
@@ -29,7 +29,7 @@
       "long": "The mitmproxy project's tools are a set of front-ends that expose common underlying functionality. mitmproxy is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface (not available on Windows yet). mitmdump is the command-line version of mitmproxy. Think tcpdump for HTTP. mitmweb is a web-based interface for mitmproxy. Documentation, tutorials and distribution packages can be found on the mitmproxy website. Features Intercept HTTP & HTTPS requests and responses and modify them on the fly Save complete HTTP conversations for later replay and analysis Replay the client-side of an HTTP conversations Replay HTTP responses of a previously recorded server Reverse proxy mode to forward traffic to a specified server Transparent proxy mode on OSX and Linux Make scripted changes to HTTP traffic using Python SSL/TLS certificates for interception are generated on the fly And much, much more…",
       "source": "choco",
       "homepage": "https://mitmproxy.org/",
-      "lastUpdatedAt": "2026-10-30T05:45:33.896Z"
+      "lastUpdatedAt": "2026-10-30T12:52:56.501Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-30T05:45:33.728Z",
+          "scannedAt": "2026-10-30T12:52:56.169Z",
           "errors": []
         },
         "package": {
@@ -111,7 +111,7 @@
         },
         "links": {
           "homepage": "https://mitmproxy.org/",
-          "download": "https://downloads.mitmproxy.org/12.3.0/mitmproxy-12.3.0-windows-x86_64-installer.exe",
+          "download": "https://downloads.mitmproxy.org/12.3.1/mitmproxy-12.3.1-windows-x86_64-installer.exe",
           "releases": null,
           "docs": null
         },
@@ -120,7 +120,7 @@
           "long": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
           "source": "winget",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-30T05:45:33.728Z"
+          "lastUpdatedAt": "2026-10-30T12:52:56.169Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "12.3.0",
+            "version": "12.3.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.3.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "10.1.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "12.3.0",
+            "version": "12.3.1",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://downloads.mitmproxy.org/12.3.0/mitmproxy-12.3.0-windows-x86_64-installer.exe",
+            "url": "https://downloads.mitmproxy.org/12.3.1/mitmproxy-12.3.1-windows-x86_64-installer.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "641c0b8f88643c2f6cc8387f1cbb720afcf82e3b72878c24d693dda78da7d5b1",
+            "sha256": "1a51f81c256d1f4403de73ee7516e135c538b17f445c870a68acf280a98badd7",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-30T05:45:33.728Z",
+          "lastSuccessfulScanAt": "2026-10-30T12:52:56.169Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-30T05:45:33.882Z",
+          "scannedAt": "2026-10-30T12:52:56.296Z",
           "errors": []
         },
         "package": {
@@ -619,7 +619,7 @@
           "long": "Intercept, modify, replay, save HTTP/S traffic",
           "source": "homebrew",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-30T05:45:33.882Z"
+          "lastUpdatedAt": "2026-10-30T12:52:56.296Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -724,7 +724,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-30T05:45:33.882Z",
+          "lastSuccessfulScanAt": "2026-10-30T12:52:56.296Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,7 +770,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-30T05:45:33.890Z",
+          "scannedAt": "2026-10-30T12:52:56.342Z",
           "errors": []
         },
         "package": {
@@ -796,7 +796,7 @@
           "long": "A free and open source interactive HTTPS proxy",
           "source": "scoop",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-30T05:45:33.890Z"
+          "lastUpdatedAt": "2026-10-30T12:52:56.342Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -900,7 +900,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-30T05:45:33.890Z",
+          "lastSuccessfulScanAt": "2026-10-30T12:52:56.342Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -946,7 +946,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-30T05:45:33.896Z",
+          "scannedAt": "2026-10-30T12:52:56.501Z",
           "errors": []
         },
         "package": {
@@ -975,7 +975,7 @@
           "long": "The mitmproxy project's tools are a set of front-ends that expose common underlying functionality. mitmproxy is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface (not available on Windows yet). mitmdump is the command-line version of mitmproxy. Think tcpdump for HTTP. mitmweb is a web-based interface for mitmproxy. Documentation, tutorials and distribution packages can be found on the mitmproxy website. Features Intercept HTTP & HTTPS requests and responses and modify them on the fly Save complete HTTP conversations for later replay and analysis Replay the client-side of an HTTP conversations Replay HTTP responses of a previously recorded server Reverse proxy mode to forward traffic to a specified server Transparent proxy mode on OSX and Linux Make scripted changes to HTTP traffic using Python SSL/TLS certificates for interception are generated on the fly And much, much more…",
           "source": "choco",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-30T05:45:33.896Z"
+          "lastUpdatedAt": "2026-10-30T12:52:56.501Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1380,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-30T05:45:33.896Z",
+          "lastSuccessfulScanAt": "2026-10-30T12:52:56.501Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1428,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-30T05:45:33.972Z",
+          "scannedAt": "2026-10-30T12:52:56.577Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1463,7 @@
           "long": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
           "source": "github",
           "homepage": "https://mitmproxy.org",
-          "lastUpdatedAt": "2026-10-30T05:45:33.972Z"
+          "lastUpdatedAt": "2026-10-30T12:52:56.577Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1798,7 +1798,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-30T05:45:33.972Z",
+          "lastSuccessfulScanAt": "2026-10-30T12:52:56.577Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
