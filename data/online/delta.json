@@ -1,97 +1,150 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T12:53:11.681Z",
-  "fromGeneratedAt": "2026-10-30T05:45:48.940Z",
-  "toGeneratedAt": "2026-10-30T12:53:11.681Z",
+  "generatedAt": "2026-10-30T22:18:00.646Z",
+  "fromGeneratedAt": "2026-10-30T12:53:11.681Z",
+  "toGeneratedAt": "2026-10-30T22:18:00.646Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 11,
+    "changedTools": 15,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 12,
+    "versionChanges": 23,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "git",
+      "github_desktop",
+      "jetbrains_toolbox",
       "node_current",
       "pnpm",
-      "pipx",
-      "vs_build_tools",
-      "visual_studio_community",
+      "nvm_windows",
+      "aws_cli",
       "cloudflared",
       "postman",
-      "mitmproxy",
+      "r",
       "quarto",
-      "netlify_cli",
-      "supabase_cli"
+      "stripe_cli",
+      "prisma_cli",
+      "composer",
+      "elixir"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "git",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.56.0.3",
+        "to": "2.56.0.4"
+      },
+      {
+        "toolId": "github_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.6.7",
+        "to": "3.6.10"
+      },
+      {
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.9.0.0",
+        "to": "3.9.1.0"
+      },
+      {
         "toolId": "node_current",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "26.12.1",
-        "to": "27.0.0-alpha.0.0.0"
+        "from": "27.0.0-alpha.0.0.0",
+        "to": "26.12.1"
       },
       {
         "toolId": "pnpm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.15.0",
-        "to": "12.16.1"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.16.1",
+        "to": "12.17.0"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.18.8",
-        "to": "1.18.9"
+        "toolId": "nvm_windows",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.0.1-hotfix0002",
+        "to": "2.0.1.20261030"
       },
       {
-        "toolId": "vs_build_tools",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.14.42",
-        "to": "17.14.44"
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.39.2",
+        "to": "2.39.3"
       },
       {
-        "toolId": "visual_studio_community",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.14.43",
-        "to": "17.14.44"
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.39.1",
+        "to": "2.39.2"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2026.10.5",
-        "to": "2026.10.6"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2026.10.6",
+        "to": "2026.10.7"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2026.10.6",
+        "to": "2026.10.7"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.34.3",
         "to": "12.34.4"
       },
       {
-        "toolId": "mitmproxy",
+        "toolId": "r",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.3.0",
-        "to": "12.3.1"
+        "from": "4.6.1",
+        "to": "4.6.2"
+      },
+      {
+        "toolId": "r",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.6.1",
+        "to": "4.6.2"
       },
       {
         "toolId": "quarto",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.10.19",
+        "to": "1.10.20"
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.10.19",
+        "to": "1.10.20"
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.10.19",
         "to": "1.10.20"
       },
@@ -99,22 +152,50 @@
         "toolId": "quarto",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.11.8",
-        "to": "1.10.20"
+        "from": "1.10.20",
+        "to": "1.11.9"
       },
       {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.16.0",
-        "to": "27.16.1"
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.55.3",
+        "to": "1.55.4"
       },
       {
-        "toolId": "supabase_cli",
+        "toolId": "stripe_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.0.0-beta.15",
-        "to": "3.0.0-beta.17"
+        "from": "1.55.3",
+        "to": "1.55.4"
+      },
+      {
+        "toolId": "prisma_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "8.0.0-rc.20",
+        "to": "8.0.0-rc.22"
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.11.0",
+        "to": "2.11.1"
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.11.0",
+        "to": "2.11.1"
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.20.4",
+        "to": "1.20.5"
       }
     ],
     "qualityChanges": []
