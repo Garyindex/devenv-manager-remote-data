@@ -1,43 +1,74 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T12:24:20.635Z",
-  "fromGeneratedAt": "2026-10-31T05:38:02.252Z",
-  "toGeneratedAt": "2026-10-31T12:24:20.635Z",
+  "generatedAt": "2026-10-31T21:31:48.595Z",
+  "fromGeneratedAt": "2026-10-31T12:24:20.635Z",
+  "toGeneratedAt": "2026-10-31T21:31:48.595Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
-    "qualityChanges": 0
+    "versionChanges": 4,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "stripe_cli"
+      "nvm_windows",
+      "temurin_17",
+      "aws_cli",
+      "mitmproxy"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.1252",
-        "to": "9.2.1254"
+        "toolId": "nvm_windows",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.1.0-beta.6",
+        "to": "2.1.0-beta.7"
       },
       {
-        "toolId": "stripe_cli",
+        "toolId": "temurin_17",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.0.20.101",
+        "to": null
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.55.3",
-        "to": "1.55.6"
+        "from": "2.39.2",
+        "to": "2.39.3"
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.3.1",
+        "to": null
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "temurin_17",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }

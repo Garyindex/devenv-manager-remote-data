@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T12:24:20.635Z",
+  "generatedAt": "2026-10-31T21:31:48.595Z",
   "status": "partial",
   "tool": {
     "id": "mitmproxy",
@@ -29,7 +29,7 @@
       "long": "The mitmproxy project's tools are a set of front-ends that expose common underlying functionality. mitmproxy is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface (not available on Windows yet). mitmdump is the command-line version of mitmproxy. Think tcpdump for HTTP. mitmweb is a web-based interface for mitmproxy. Documentation, tutorials and distribution packages can be found on the mitmproxy website. Features Intercept HTTP & HTTPS requests and responses and modify them on the fly Save complete HTTP conversations for later replay and analysis Replay the client-side of an HTTP conversations Replay HTTP responses of a previously recorded server Reverse proxy mode to forward traffic to a specified server Transparent proxy mode on OSX and Linux Make scripted changes to HTTP traffic using Python SSL/TLS certificates for interception are generated on the fly And much, much more…",
       "source": "choco",
       "homepage": "https://mitmproxy.org/",
-      "lastUpdatedAt": "2026-10-31T12:24:12.586Z"
+      "lastUpdatedAt": "2026-10-31T21:31:38.419Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,9 +96,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-10-31T12:24:12.445Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-10-31T21:31:38.129Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "mitmproxy",
@@ -120,7 +122,7 @@
           "long": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
           "source": "winget",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-31T12:24:12.445Z"
+          "lastUpdatedAt": "2026-10-31T21:31:38.129Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,312 +139,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "12.3.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.3.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.1.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.1.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.1.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.4.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.4.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.3.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.3.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.2.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.2.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.2.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.1.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.1.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.1.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "12.3.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "exe",
@@ -544,11 +245,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-31T12:24:12.445Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -593,7 +294,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-31T12:24:12.500Z",
+          "scannedAt": "2026-10-31T21:31:38.348Z",
           "errors": []
         },
         "package": {
@@ -619,7 +320,7 @@
           "long": "Intercept, modify, replay, save HTTP/S traffic",
           "source": "homebrew",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-31T12:24:12.500Z"
+          "lastUpdatedAt": "2026-10-31T21:31:38.348Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -724,7 +425,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-31T12:24:12.500Z",
+          "lastSuccessfulScanAt": "2026-10-31T21:31:38.348Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,7 +471,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-31T12:24:12.555Z",
+          "scannedAt": "2026-10-31T21:31:38.389Z",
           "errors": []
         },
         "package": {
@@ -796,7 +497,7 @@
           "long": "A free and open source interactive HTTPS proxy",
           "source": "scoop",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-31T12:24:12.555Z"
+          "lastUpdatedAt": "2026-10-31T21:31:38.389Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -900,7 +601,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-31T12:24:12.555Z",
+          "lastSuccessfulScanAt": "2026-10-31T21:31:38.389Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -946,7 +647,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-31T12:24:12.586Z",
+          "scannedAt": "2026-10-31T21:31:38.419Z",
           "errors": []
         },
         "package": {
@@ -975,7 +676,7 @@
           "long": "The mitmproxy project's tools are a set of front-ends that expose common underlying functionality. mitmproxy is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface (not available on Windows yet). mitmdump is the command-line version of mitmproxy. Think tcpdump for HTTP. mitmweb is a web-based interface for mitmproxy. Documentation, tutorials and distribution packages can be found on the mitmproxy website. Features Intercept HTTP & HTTPS requests and responses and modify them on the fly Save complete HTTP conversations for later replay and analysis Replay the client-side of an HTTP conversations Replay HTTP responses of a previously recorded server Reverse proxy mode to forward traffic to a specified server Transparent proxy mode on OSX and Linux Make scripted changes to HTTP traffic using Python SSL/TLS certificates for interception are generated on the fly And much, much more…",
           "source": "choco",
           "homepage": "https://mitmproxy.org/",
-          "lastUpdatedAt": "2026-10-31T12:24:12.586Z"
+          "lastUpdatedAt": "2026-10-31T21:31:38.419Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1081,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-31T12:24:12.586Z",
+          "lastSuccessfulScanAt": "2026-10-31T21:31:38.419Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1129,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-10-31T12:24:12.682Z",
+          "scannedAt": "2026-10-31T21:31:38.528Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1164,7 @@
           "long": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
           "source": "github",
           "homepage": "https://mitmproxy.org",
-          "lastUpdatedAt": "2026-10-31T12:24:12.682Z"
+          "lastUpdatedAt": "2026-10-31T21:31:38.528Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1798,7 +1499,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-10-31T12:24:12.682Z",
+          "lastSuccessfulScanAt": "2026-10-31T21:31:38.528Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
