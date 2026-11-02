@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T22:00:40.197Z",
-  "fromGeneratedAt": "2026-11-01T13:19:46.923Z",
-  "toGeneratedAt": "2026-11-01T22:00:40.197Z",
+  "generatedAt": "2026-11-02T06:00:02.878Z",
+  "fromGeneratedAt": "2026-11-01T22:00:40.197Z",
+  "toGeneratedAt": "2026-11-02T06:00:02.878Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 11,
+    "changedTools": 16,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
-    "qualityChanges": 6
+    "versionChanges": 20,
+    "qualityChanges": 14
   },
   "changes": {
     "addedTools": [],
@@ -23,11 +23,16 @@
       "vscode",
       "vim",
       "oh_my_posh",
-      "rustup",
-      "cargo",
-      "opentofu",
-      "google_cloud_sdk",
-      "dbeaver"
+      "nvm_windows",
+      "dbeaver",
+      "julia",
+      "quarto",
+      "stripe_cli",
+      "php",
+      "composer",
+      "ruby",
+      "erlang",
+      "elixir"
     ],
     "addedSources": [],
     "removedSources": [],
@@ -36,78 +41,141 @@
         "toolId": "github_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.103.3",
-        "to": null
+        "from": null,
+        "to": "2.103.3"
       },
       {
         "toolId": "git_lfs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.8.1",
-        "to": null
+        "from": null,
+        "to": "3.8.1"
       },
       {
         "toolId": "github_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.6.10",
-        "to": null
+        "from": null,
+        "to": "3.6.10"
       },
       {
         "toolId": "vscode",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.144.0",
-        "to": null
+        "from": null,
+        "to": "1.144.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.2.1250",
+        "to": "9.2.1276"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.1252",
+        "to": "9.2.1276"
       },
       {
         "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.1259",
-        "to": null
+        "from": null,
+        "to": "9.2.1259"
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "31.9.1",
-        "to": null
+        "from": null,
+        "to": "31.9.1"
       },
       {
-        "toolId": "rustup",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.29.1",
-        "to": "1.29.2"
-      },
-      {
-        "toolId": "cargo",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.29.1",
-        "to": "1.29.2"
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.13.2",
-        "to": "1.13.5"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "590.0.1",
-        "to": "591.0.0"
+        "toolId": "nvm_windows",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.1.0-beta.7",
+        "to": "2.1.0-beta.9"
       },
       {
         "toolId": "dbeaver",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "26.2.3",
         "to": "26.2.4"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.2.3",
+        "to": "26.2.4"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "26.2.3",
+        "to": "26.2.4"
+      },
+      {
+        "toolId": "julia",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.12.0",
+        "to": null
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.10.20",
+        "to": null
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.55.6",
+        "to": null
+      },
+      {
+        "toolId": "php",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "8.2.35",
+        "to": null
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "6.3.0",
+        "to": null
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.4.12.1",
+        "to": null
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.1.2",
+        "to": null
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.20.5",
+        "to": null
       }
     ],
     "qualityChanges": [
@@ -115,39 +183,95 @@
         "toolId": "github_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "git_lfs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "github_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "vscode",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 40,
+        "to": 100
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 40,
+        "to": 100
+      },
+      {
+        "toolId": "julia",
         "sourceId": "choco",
         "manager": "choco",
         "from": 100,
         "to": 40
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "quarto",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "php",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "elixir",
         "sourceId": "choco",
         "manager": "choco",
         "from": 100,
