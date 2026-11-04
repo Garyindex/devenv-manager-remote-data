@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T14:39:20.458Z",
-  "fromGeneratedAt": "2026-11-04T06:17:43.691Z",
-  "toGeneratedAt": "2026-11-04T14:39:20.458Z",
+  "generatedAt": "2026-11-04T23:39:55.991Z",
+  "fromGeneratedAt": "2026-11-04T14:39:20.458Z",
+  "toGeneratedAt": "2026-11-04T23:39:55.991Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 13,
+    "versionChanges": 15,
     "qualityChanges": 2
   },
   "changes": {
@@ -19,13 +19,14 @@
     "changedTools": [
       "git",
       "vscode",
+      "intellij_idea_community",
+      "vim",
       "fd",
       "fzf",
-      "pipx",
-      "llvm",
+      "cmake",
+      "opentofu",
       "pulumi",
       "postman",
-      "stripe_cli",
       "supabase_cli"
     ],
     "addedSources": [],
@@ -33,36 +34,29 @@
     "versionChanges": [
       {
         "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.144.1",
-        "to": "1.145.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.144.1",
-        "to": "1.145.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.144.0",
         "to": "1.145.0"
       },
       {
-        "toolId": "fd",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "10.5.0",
-        "to": "10.5.1"
+        "toolId": "intellij_idea_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2025.2.6.2",
+        "to": "2025.3"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.2.1286",
+        "to": "9.2.1292"
       },
       {
         "toolId": "fd",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "10.5.0",
         "to": "10.5.1"
       },
@@ -70,57 +64,78 @@
         "toolId": "fzf",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "0.74.5",
-        "to": null
+        "from": null,
+        "to": "0.74.5"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.18.11",
-        "to": "1.18.12"
+        "toolId": "cmake",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.5.0-rc2",
+        "to": "4.5.0-rc3"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.18.12",
-        "to": "1.18.13"
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.5.0-rc2",
+        "to": "4.5.0-rc3"
       },
       {
-        "toolId": "llvm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "23.1.4",
-        "to": "23.1.5"
+        "toolId": "opentofu",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.12.11",
+        "to": "1.13.8"
       },
       {
         "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.272.0",
+        "to": "3.274.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.273.0",
+        "to": "3.274.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.273.0",
+        "to": "3.274.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "3.273.0",
         "to": "3.274.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.35.1",
         "to": "12.35.2"
       },
       {
-        "toolId": "stripe_cli",
+        "toolId": "postman",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.55.6",
-        "to": "1.55.8"
+        "from": "12.34.4",
+        "to": "12.35.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.1.0-beta.9",
-        "to": "3.1.0-beta.14"
+        "from": "3.1.0-beta.14",
+        "to": "3.1.0-beta.16"
       }
     ],
     "qualityChanges": [
@@ -128,15 +143,15 @@
         "toolId": "git",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       },
       {
         "toolId": "fzf",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
