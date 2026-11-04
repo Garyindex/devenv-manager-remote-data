@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T23:21:32.698Z",
-  "fromGeneratedAt": "2026-11-03T14:10:22.282Z",
-  "toGeneratedAt": "2026-11-03T23:21:32.698Z",
+  "generatedAt": "2026-11-04T06:17:43.691Z",
+  "fromGeneratedAt": "2026-11-03T23:21:32.698Z",
+  "toGeneratedAt": "2026-11-04T06:17:43.691Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 9,
+    "versionChanges": 6,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,9 +18,8 @@
     "removedTools": [],
     "changedTools": [
       "rustup",
-      "temurin_17",
-      "docker_desktop",
-      "google_cloud_sdk",
+      "cargo",
+      "llvm",
       "beekeeper_studio",
       "stripe_cli"
     ],
@@ -29,64 +28,43 @@
     "versionChanges": [
       {
         "toolId": "rustup",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "1.29.2",
         "to": "1.29.3"
       },
       {
-        "toolId": "temurin_17",
+        "toolId": "cargo",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "17.0.20.101",
-        "to": "17.0.21.9"
+        "from": "1.29.2",
+        "to": "1.29.3"
       },
       {
-        "toolId": "temurin_17",
+        "toolId": "llvm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "23.1.4",
+        "to": "23.1.5"
+      },
+      {
+        "toolId": "llvm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "17.0.20-101",
-        "to": "17.0.21-9"
-      },
-      {
-        "toolId": "docker_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.97.0",
-        "to": "4.98.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "591.0.0",
-        "to": "592.0.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "591.0.0",
-        "to": "592.0.0"
+        "from": "23.1.4",
+        "to": "23.1.5"
       },
       {
         "toolId": "beekeeper_studio",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "6.2.0",
-        "to": "6.2.1"
-      },
-      {
-        "toolId": "beekeeper_studio",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "6.2.0",
         "to": "6.2.1"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.55.6",
         "to": "1.55.8"
       }
