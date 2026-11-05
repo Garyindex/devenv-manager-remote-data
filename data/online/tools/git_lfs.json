@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T23:39:55.991Z",
+  "generatedAt": "2026-11-05T06:42:49.627Z",
   "status": "partial",
   "tool": {
     "id": "git_lfs",
@@ -29,7 +29,7 @@
       "long": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. Features Large file versioning: Version large files-even those as large as a couple GB in size with Git. More repository space: Host more in your Git repositories. External file storage makes it easy to keep your repository at a manageable size. Faster cloning and fetching: Download less data. This means faster cloning and fetching from repositories that deal with large files. Same Git workflow: Work like you always do on Git-no need for additional commands, secondary storage systems, or toolsets. Same access controls and permissions: Keep the same access controls and permissions for large files as the rest of your Git repository when working with a remote host like GitHub.",
       "source": "choco",
       "homepage": "https://git-lfs.github.com/",
-      "lastUpdatedAt": "2026-11-04T23:38:54.417Z"
+      "lastUpdatedAt": "2026-11-05T06:42:05.785Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,9 +98,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-04T23:38:54.381Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-05T06:42:05.757Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Git LFS",
@@ -122,7 +124,7 @@
           "long": "Git Large File Storage is a command line extension and specification for managing large files with Git.",
           "source": "winget",
           "homepage": "https://github.com/git-lfs",
-          "lastUpdatedAt": "2026-11-04T23:38:54.381Z"
+          "lastUpdatedAt": "2026-11-05T06:42:05.757Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,312 +143,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "3.8.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.7.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.13.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.13.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.13.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.9.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.7.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.7.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "3.8.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "inno",
@@ -548,11 +249,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-04T23:38:54.381Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -598,7 +299,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-04T23:38:54.401Z",
+          "scannedAt": "2026-11-05T06:42:05.774Z",
           "errors": []
         },
         "package": {
@@ -624,7 +325,7 @@
           "long": "Git extension for versioning large files",
           "source": "homebrew",
           "homepage": "https://git-lfs.com/",
-          "lastUpdatedAt": "2026-11-04T23:38:54.401Z"
+          "lastUpdatedAt": "2026-11-05T06:42:05.774Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +432,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-04T23:38:54.401Z",
+          "lastSuccessfulScanAt": "2026-11-05T06:42:05.774Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -777,7 +478,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-04T23:38:54.402Z",
+          "scannedAt": "2026-11-05T06:42:05.782Z",
           "errors": []
         },
         "package": {
@@ -803,7 +504,7 @@
           "long": "Git extension for versioning large files.",
           "source": "scoop",
           "homepage": "https://git-lfs.com",
-          "lastUpdatedAt": "2026-11-04T23:38:54.402Z"
+          "lastUpdatedAt": "2026-11-05T06:42:05.782Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -909,7 +610,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-04T23:38:54.402Z",
+          "lastSuccessfulScanAt": "2026-11-05T06:42:05.782Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -955,7 +656,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-04T23:38:54.417Z",
+          "scannedAt": "2026-11-05T06:42:05.785Z",
           "errors": []
         },
         "package": {
@@ -987,7 +688,7 @@
           "long": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. Features Large file versioning: Version large files-even those as large as a couple GB in size with Git. More repository space: Host more in your Git repositories. External file storage makes it easy to keep your repository at a manageable size. Faster cloning and fetching: Download less data. This means faster cloning and fetching from repositories that deal with large files. Same Git workflow: Work like you always do on Git-no need for additional commands, secondary storage systems, or toolsets. Same access controls and permissions: Keep the same access controls and permissions for large files as the rest of your Git repository when working with a remote host like GitHub.",
           "source": "choco",
           "homepage": "https://git-lfs.github.com/",
-          "lastUpdatedAt": "2026-11-04T23:38:54.417Z"
+          "lastUpdatedAt": "2026-11-05T06:42:05.785Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1398,7 +1099,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-04T23:38:54.417Z",
+          "lastSuccessfulScanAt": "2026-11-05T06:42:05.785Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1446,7 +1147,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-04T23:38:54.421Z",
+          "scannedAt": "2026-11-05T06:42:05.789Z",
           "errors": []
         },
         "package": {
@@ -1473,7 +1174,7 @@
           "long": "Git extension for versioning large files",
           "source": "github",
           "homepage": "https://git-lfs.com",
-          "lastUpdatedAt": "2026-11-04T23:38:54.421Z"
+          "lastUpdatedAt": "2026-11-05T06:42:05.789Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2763,7 +2464,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-04T23:38:54.421Z",
+          "lastSuccessfulScanAt": "2026-11-05T06:42:05.789Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
