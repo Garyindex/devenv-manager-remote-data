@@ -1,59 +1,66 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T21:48:23.381Z",
-  "fromGeneratedAt": "2026-11-07T12:58:29.308Z",
-  "toGeneratedAt": "2026-11-07T21:48:23.381Z",
+  "generatedAt": "2026-11-08T05:58:51.842Z",
+  "fromGeneratedAt": "2026-11-07T21:48:23.381Z",
+  "toGeneratedAt": "2026-11-08T05:58:51.842Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
-    "qualityChanges": 0
+    "versionChanges": 3,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "fzf",
-      "pipx",
-      "beekeeper_studio",
-      "unity_hub"
+      "bun",
+      "dotnet_8"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "fzf",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "0.74.5",
         "to": "0.75.0"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.18.14",
-        "to": "1.18.15"
+        "toolId": "bun",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "bun-v1.4.4",
+        "to": null
       },
       {
-        "toolId": "beekeeper_studio",
+        "toolId": "dotnet_8",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "6.2.1",
-        "to": "6.2.2"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.22.5.65535",
-        "to": "3.22.6.65535"
+        "from": "8.0.427",
+        "to": null
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "bun",
+        "sourceId": "github",
+        "manager": "github",
+        "from": 100,
+        "to": 50
+      },
+      {
+        "toolId": "dotnet_8",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }
