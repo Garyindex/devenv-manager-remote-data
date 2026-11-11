@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T19:42:46.194Z",
+  "generatedAt": "2026-11-11T06:13:10.199Z",
   "status": "partial",
   "tool": {
     "id": "podman",
@@ -29,7 +29,7 @@
       "long": "Podman: A tool for managing OCI containers and pods.",
       "source": "github",
       "homepage": "https://podman.io",
-      "lastUpdatedAt": "2026-11-10T19:42:21.243Z"
+      "lastUpdatedAt": "2026-11-11T06:12:44.975Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:20.474Z",
+          "scannedAt": "2026-11-11T06:12:44.841Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://podman.io/",
-          "download": "https://github.com/podman-container-tools/podman/releases/download/v5.8.3/podman-installer-windows-amd64.exe",
-          "releases": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
+          "download": "https://github.com/podman-container-tools/podman/releases/download/v5.8.9/podman-installer-windows-amd64.exe",
+          "releases": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.9",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-11-10T19:42:20.474Z"
+          "lastUpdatedAt": "2026-11-11T06:12:44.841Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "5.8.3",
+            "version": "5.8.9",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "5.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "5.8.3",
+            "version": "5.8.9",
             "platform": "windows",
             "architecture": null,
             "type": "burn",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.3/podman-installer-windows-amd64.exe",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.9/podman-installer-windows-amd64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b87fe41c112062b3f598574ed4aa3fb82aaa4bc150b29eb4915400e59b0b6b55",
+            "sha256": "ced3ec446643a44dc256dea617d1c71ed49d6255176f310a52b03250a9b96a7c",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:20.474Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:44.841Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -595,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:21.039Z",
+          "scannedAt": "2026-11-11T06:12:44.863Z",
           "errors": []
         },
         "package": {
@@ -612,7 +612,7 @@
         },
         "links": {
           "homepage": "https://podman.io/",
-          "download": "https://github.com/podman-container-tools/podman/archive/refs/tags/v6.1.4.tar.gz",
+          "download": "https://github.com/podman-container-tools/podman/archive/refs/tags/v6.2.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -621,7 +621,7 @@
           "long": "Tool for managing OCI containers and pods",
           "source": "homebrew",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-11-10T19:42:21.039Z"
+          "lastUpdatedAt": "2026-11-11T06:12:44.863Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -643,7 +643,7 @@
         },
         "versions": [
           {
-            "version": "6.1.4",
+            "version": "6.2.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -656,14 +656,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "6.1.4",
+            "version": "6.2.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/podman-container-tools/podman/archive/refs/tags/v6.1.4.tar.gz",
+            "url": "https://github.com/podman-container-tools/podman/archive/refs/tags/v6.2.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "200fd9b4b6d820cae24fc99d8e290ec945512365cf3cda8283b3905c0c284ea8",
+            "sha256": "cb182273c5c5e3ea079f8f88a9a30a574d247f80e0b9dd9c02df1d2e6f6f3705",
             "sizeBytes": null
           }
         ],
@@ -727,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:21.039Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:44.863Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:21.131Z",
+          "scannedAt": "2026-11-11T06:12:44.898Z",
           "errors": []
         },
         "package": {
@@ -799,7 +799,7 @@
           "long": "A tool for managing OCI containers and pods.",
           "source": "scoop",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-11-10T19:42:21.131Z"
+          "lastUpdatedAt": "2026-11-11T06:12:44.898Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -820,7 +820,7 @@
         },
         "versions": [
           {
-            "version": "6.1.4",
+            "version": "6.2.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -833,7 +833,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "6.1.4",
+            "version": "6.2.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -904,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:21.131Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:44.898Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -952,7 +952,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:21.243Z",
+          "scannedAt": "2026-11-11T06:12:44.975Z",
           "errors": []
         },
         "package": {
@@ -981,7 +981,7 @@
           "long": "Podman: A tool for managing OCI containers and pods.",
           "source": "github",
           "homepage": "https://podman.io",
-          "lastUpdatedAt": "2026-11-10T19:42:21.243Z"
+          "lastUpdatedAt": "2026-11-11T06:12:44.975Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1006,9 +1006,29 @@
         },
         "versions": [
           {
+            "version": "6.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-11-10T20:01:54Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.0"
+          },
+          {
+            "version": "5.8.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-11-10T19:52:42Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.10"
+          },
+          {
             "version": "6.2.0-rc1",
             "channel": "prerelease",
-            "latest": true,
+            "latest": false,
             "prerelease": true,
             "lts": null,
             "releaseDate": "2026-10-26T13:09:42Z",
@@ -1284,29 +1304,297 @@
             "releaseDate": "2025-09-04T20:55:43Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/podman-container-tools/podman/releases/tag/v5.6.1"
-          },
-          {
-            "version": "5.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2025-08-15T15:50:25Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/podman-container-tools/podman/releases/tag/v5.6.0"
-          },
-          {
-            "version": "5.6.0-rc2",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": "2025-08-08T17:27:31Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/podman-container-tools/podman/releases/tag/v5.6.0-rc2"
           }
         ],
         "downloads": [
+          {
+            "id": "podman-installer-macos-arm64.pkg",
+            "version": "6.2.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-installer-macos-arm64.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 76730429
+          },
+          {
+            "id": "podman-installer-windows-amd64.msi",
+            "version": "6.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-installer-windows-amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29102080
+          },
+          {
+            "id": "podman-installer-windows-arm64.msi",
+            "version": "6.2.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-installer-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26812416
+          },
+          {
+            "id": "podman-remote-release-darwin_arm64.zip",
+            "version": "6.2.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-remote-release-darwin_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26140403
+          },
+          {
+            "id": "podman-remote-release-windows_amd64.zip",
+            "version": "6.2.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-remote-release-windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32765692
+          },
+          {
+            "id": "podman-remote-release-windows_arm64.zip",
+            "version": "6.2.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-remote-release-windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29871428
+          },
+          {
+            "id": "podman-remote-static-linux_amd64.tar.gz",
+            "version": "6.2.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-remote-static-linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 24238285
+          },
+          {
+            "id": "podman-remote-static-linux_arm64.tar.gz",
+            "version": "6.2.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/podman-remote-static-linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22222763
+          },
+          {
+            "id": "shasums",
+            "version": "6.2.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.0/shasums",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 830
+          },
+          {
+            "id": "podman-5.8.10-setup.exe",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": null,
+            "type": "exe",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-5.8.10-setup.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29924904
+          },
+          {
+            "id": "podman-installer-macos-amd64.pkg",
+            "version": "5.8.10",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "pkg",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-macos-amd64.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 78856920
+          },
+          {
+            "id": "podman-installer-macos-arm64.pkg",
+            "version": "5.8.10",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "pkg",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-macos-arm64.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 76527138
+          },
+          {
+            "id": "podman-installer-macos-universal.pkg",
+            "version": "5.8.10",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-macos-universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 104100139
+          },
+          {
+            "id": "podman-installer-windows-amd64.exe",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29924904
+          },
+          {
+            "id": "podman-installer-windows-amd64.msi",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29151232
+          },
+          {
+            "id": "podman-installer-windows-arm64.exe",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "exe",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-arm64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 27594664
+          },
+          {
+            "id": "podman-installer-windows-arm64.msi",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 26869760
+          },
+          {
+            "id": "podman-remote-release-darwin_amd64.zip",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-remote-release-darwin_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 27574923
+          },
+          {
+            "id": "podman-remote-release-darwin_arm64.zip",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-remote-release-darwin_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 25924759
+          },
+          {
+            "id": "podman-remote-release-windows_amd64.zip",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-remote-release-windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 32691622
+          },
+          {
+            "id": "podman-remote-release-windows_arm64.zip",
+            "version": "5.8.10",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-remote-release-windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 29816910
+          },
+          {
+            "id": "podman-remote-static-linux_amd64.tar.gz",
+            "version": "5.8.10",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-remote-static-linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 23948881
+          },
+          {
+            "id": "podman-remote-static-linux_arm64.tar.gz",
+            "version": "5.8.10",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-remote-static-linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21943446
+          },
+          {
+            "id": "shasums",
+            "version": "5.8.10",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/shasums",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1429
+          },
           {
             "id": "podman-installer-macos-arm64.pkg",
             "version": "6.2.0-rc1",
@@ -1978,294 +2266,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 21911567
-          },
-          {
-            "id": "shasums",
-            "version": "5.8.8",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.8/shasums",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1428
-          },
-          {
-            "id": "podman-5.8.7-setup.exe",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": null,
-            "type": "exe",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-5.8.7-setup.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 29328408
-          },
-          {
-            "id": "podman-installer-macos-amd64.pkg",
-            "version": "5.8.7",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "pkg",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-macos-amd64.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 78115520
-          },
-          {
-            "id": "podman-installer-macos-arm64.pkg",
-            "version": "5.8.7",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "pkg",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-macos-arm64.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 75802275
-          },
-          {
-            "id": "podman-installer-macos-universal.pkg",
-            "version": "5.8.7",
-            "platform": "macos",
-            "architecture": null,
-            "type": "pkg",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-macos-universal.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 103332081
-          },
-          {
-            "id": "podman-installer-windows-amd64.exe",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "exe",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-windows-amd64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 29328408
-          },
-          {
-            "id": "podman-installer-windows-amd64.msi",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-windows-amd64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 28557312
-          },
-          {
-            "id": "podman-installer-windows-arm64.exe",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "exe",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-windows-arm64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 27070552
-          },
-          {
-            "id": "podman-installer-windows-arm64.msi",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "msi",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-installer-windows-arm64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 26324992
-          },
-          {
-            "id": "podman-remote-release-darwin_amd64.zip",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-remote-release-darwin_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 27532947
-          },
-          {
-            "id": "podman-remote-release-darwin_arm64.zip",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-remote-release-darwin_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 25893570
-          },
-          {
-            "id": "podman-remote-release-windows_amd64.zip",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-remote-release-windows_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 32010012
-          },
-          {
-            "id": "podman-remote-release-windows_arm64.zip",
-            "version": "5.8.7",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-remote-release-windows_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 29195556
-          },
-          {
-            "id": "podman-remote-static-linux_amd64.tar.gz",
-            "version": "5.8.7",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-remote-static-linux_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 23916179
-          },
-          {
-            "id": "podman-remote-static-linux_arm64.tar.gz",
-            "version": "5.8.7",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/podman-remote-static-linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21914821
-          },
-          {
-            "id": "shasums",
-            "version": "5.8.7",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.7/shasums",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1428
-          },
-          {
-            "id": "podman-installer-macos-arm64.pkg",
-            "version": "6.1.2",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "pkg",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-installer-macos-arm64.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 76397383
-          },
-          {
-            "id": "podman-installer-windows-amd64.msi",
-            "version": "6.1.2",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-installer-windows-amd64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 28876800
-          },
-          {
-            "id": "podman-installer-windows-arm64.msi",
-            "version": "6.1.2",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "msi",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-installer-windows-arm64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 26578944
-          },
-          {
-            "id": "podman-remote-release-darwin_arm64.zip",
-            "version": "6.1.2",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-remote-release-darwin_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 26490992
-          },
-          {
-            "id": "podman-remote-release-windows_amd64.zip",
-            "version": "6.1.2",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-remote-release-windows_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 32386920
-          },
-          {
-            "id": "podman-remote-release-windows_arm64.zip",
-            "version": "6.1.2",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-remote-release-windows_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 29492397
-          },
-          {
-            "id": "podman-remote-static-linux_amd64.tar.gz",
-            "version": "6.1.2",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-remote-static-linux_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 24547747
-          },
-          {
-            "id": "podman-remote-static-linux_arm64.tar.gz",
-            "version": "6.1.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.2/podman-remote-static-linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22468282
           }
         ],
         "commands": [],
@@ -2273,7 +2273,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:21.243Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:44.975Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

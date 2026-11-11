@@ -1,47 +1,77 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T19:42:46.194Z",
-  "fromGeneratedAt": "2026-11-10T07:15:22.382Z",
-  "toGeneratedAt": "2026-11-10T19:42:46.194Z",
+  "generatedAt": "2026-11-11T06:13:10.199Z",
+  "fromGeneratedAt": "2026-11-10T19:42:46.194Z",
+  "toGeneratedAt": "2026-11-11T06:13:10.199Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 17,
+    "changedTools": 19,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 27,
+    "versionChanges": 33,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "git",
+      "github_desktop",
       "vscode",
       "vim",
-      "oh_my_posh",
-      "fzf",
+      "windows_terminal",
+      "powershell",
       "miniconda",
-      "dotnet_9",
-      "dotnet_8",
+      "go",
       "gradle",
+      "vs_build_tools",
+      "visual_studio_community",
+      "podman",
+      "terraform",
       "aws_cli",
-      "google_cloud_sdk",
-      "postman",
-      "flutter",
-      "netlify_cli",
+      "dbeaver",
+      "android_platform_tools",
       "stripe_cli",
       "supabase_cli",
-      "composer",
       "blender"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "git",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.56.0.4",
+        "to": "2.56.1"
+      },
+      {
+        "toolId": "github_desktop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.6.10-ffeefe5d",
+        "to": "3.6.11-0102f49a"
+      },
+      {
         "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.143.1",
+        "to": "1.144.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.145.2",
+        "to": "1.145.3"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "1.145.2",
         "to": "1.145.3"
       },
@@ -49,139 +79,181 @@
         "toolId": "vim",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "9.2.1308",
-        "to": "9.2.1316"
+        "from": "9.2.1316",
+        "to": "9.2.1320"
       },
       {
         "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.1310",
-        "to": "9.2.1316"
+        "from": "9.2.1316",
+        "to": "9.2.1320"
       },
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.1310",
-        "to": "9.2.1316"
+        "toolId": "windows_terminal",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.26.2734.0",
+        "to": "1.26.3133.0"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "powershell",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "31.9.1",
-        "to": "32.0.0"
+        "from": "7.6.9.0",
+        "to": "7.6.10.0"
       },
       {
-        "toolId": "fzf",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.74.5",
-        "to": "0.75.0"
-      },
-      {
-        "toolId": "miniconda",
+        "toolId": "powershell",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "26.9.4-0",
-        "to": "26.9.4-1"
+        "from": "7.6.9",
+        "to": "7.7.0"
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "7.7.0-rc.1",
+        "to": "7.7.0"
       },
       {
         "toolId": "miniconda",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "py314_26.9.4-0",
+        "to": "py314_26.9.4-1"
+      },
+      {
+        "toolId": "go",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.27.3",
+        "to": "1.27.4"
+      },
+      {
+        "toolId": "go",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.27.3",
+        "to": "1.27.4"
+      },
+      {
+        "toolId": "go",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "26.9.4",
-        "to": "26.9.4.1"
-      },
-      {
-        "toolId": "dotnet_9",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "9.0.320",
-        "to": "9.0.321"
-      },
-      {
-        "toolId": "dotnet_8",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "8.0.427",
-        "to": "8.0.428"
+        "from": "1.27.3",
+        "to": "1.27.4"
       },
       {
         "toolId": "gradle",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.8.2",
-        "to": "9.9.0"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.9.0",
+        "to": "9.9.1"
+      },
+      {
+        "toolId": "gradle",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.9.0",
+        "to": "9.9.1"
+      },
+      {
+        "toolId": "vs_build_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.44",
+        "to": "17.14.45"
+      },
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.44",
+        "to": "17.14.45"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "5.8.3",
+        "to": "5.8.9"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "6.1.4",
+        "to": "6.2.0"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "6.1.4",
+        "to": "6.2.0"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "6.2.0-rc1",
+        "to": "6.2.0"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.17.0",
+        "to": "1.17.1"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.39.7",
+        "to": "2.40.0"
       },
       {
         "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.39.6",
-        "to": "2.39.7"
+        "from": "2.39.7",
+        "to": "2.40.0"
       },
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "592.0.0",
-        "to": "593.0.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "592.0.0",
-        "to": "593.0.0"
+        "from": "2.39.7",
+        "to": "2.40.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "dbeaver",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.36.0",
-        "to": "12.36.1"
+        "from": "26.2.0",
+        "to": "26.2.4"
       },
       {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.36.0",
-        "to": "12.36.1"
+        "toolId": "android_platform_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "37.0.2",
+        "to": "37.0.3"
       },
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.36.0",
-        "to": "12.36.1"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.47.4",
-        "to": "3.47.5"
-      },
-      {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.16.3",
-        "to": "27.17.0"
+        "toolId": "android_platform_tools",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "37.0.2",
+        "to": "37.0.1"
       },
       {
         "toolId": "stripe_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.55.8",
-        "to": "1.55.9"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
         "from": "1.55.9",
         "to": "1.55.10"
       },
@@ -189,41 +261,13 @@
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "4.0.0-next.9",
-        "to": "4.0.0-next.11"
-      },
-      {
-        "toolId": "composer",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.11.1",
-        "to": "2.11.2"
-      },
-      {
-        "toolId": "composer",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.11.1",
-        "to": "2.11.2"
+        "from": "4.0.0-next.11",
+        "to": "4.0.0-next.12"
       },
       {
         "toolId": "blender",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "5.2.3",
-        "to": "5.3.0"
-      },
-      {
-        "toolId": "blender",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "5.2.3",
-        "to": "5.3.0"
-      },
-      {
-        "toolId": "blender",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "5.2.3",
         "to": "5.3.0"
       }

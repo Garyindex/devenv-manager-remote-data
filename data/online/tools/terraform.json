@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T19:42:46.194Z",
+  "generatedAt": "2026-11-11T06:13:10.199Z",
   "status": "partial",
   "tool": {
     "id": "terraform",
@@ -29,7 +29,7 @@
       "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
       "source": "choco",
       "homepage": "http://www.terraform.io/",
-      "lastUpdatedAt": "2026-11-10T19:42:24.189Z"
+      "lastUpdatedAt": "2026-11-11T06:12:48.045Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:23.989Z",
+          "scannedAt": "2026-11-11T06:12:47.901Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/hashicorp/terraform",
-          "download": "https://releases.hashicorp.com/terraform/1.17.0/terraform_1.17.0_windows_amd64.zip",
-          "releases": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
+          "download": "https://releases.hashicorp.com/terraform/1.17.1/terraform_1.17.1_windows_amd64.zip",
+          "releases": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://github.com/hashicorp/terraform",
-          "lastUpdatedAt": "2026-11-10T19:42:23.989Z"
+          "lastUpdatedAt": "2026-11-11T06:12:47.901Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "1.17.0",
+            "version": "1.17.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.17.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.13.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.17.0",
+            "version": "1.17.1",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://releases.hashicorp.com/terraform/1.17.0/terraform_1.17.0_windows_amd64.zip",
+            "url": "https://releases.hashicorp.com/terraform/1.17.1/terraform_1.17.1_windows_amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "2948dd7f77dec0f562ec29000103e0441d915be5e5f1a02c1ce23681951cfb19",
+            "sha256": "a3b71365cff94c0f978cf75d86addb075ea1bb6409055ea0ab359bf057d7898a",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:23.989Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:47.901Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:24.074Z",
+          "scannedAt": "2026-11-11T06:12:47.962Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Create and manage infrastructure as code using simple declarative configuration files.",
           "source": "scoop",
           "homepage": "https://www.terraform.io",
-          "lastUpdatedAt": "2026-11-10T19:42:24.074Z"
+          "lastUpdatedAt": "2026-11-11T06:12:47.962Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:24.074Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:47.962Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:24.189Z",
+          "scannedAt": "2026-11-11T06:12:48.045Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
           "source": "choco",
           "homepage": "http://www.terraform.io/",
-          "lastUpdatedAt": "2026-11-10T19:42:24.189Z"
+          "lastUpdatedAt": "2026-11-11T06:12:48.045Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1200,7 +1200,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:24.189Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:48.045Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1248,7 +1248,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-10T19:42:24.230Z",
+          "scannedAt": "2026-11-11T06:12:48.074Z",
           "errors": []
         },
         "package": {
@@ -1277,7 +1277,7 @@
           "long": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
           "source": "github",
           "homepage": "http://developer.hashicorp.com/terraform",
-          "lastUpdatedAt": "2026-11-10T19:42:24.230Z"
+          "lastUpdatedAt": "2026-11-11T06:12:48.074Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1607,7 +1607,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-10T19:42:24.230Z",
+          "lastSuccessfulScanAt": "2026-11-11T06:12:48.074Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
