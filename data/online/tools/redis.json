@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "redis",
@@ -29,7 +29,7 @@
       "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
       "source": "choco",
       "homepage": "https://github.com/microsoftarchive/redis",
-      "lastUpdatedAt": "2026-11-13T06:41:29.458Z"
+      "lastUpdatedAt": "2026-11-13T19:39:40.627Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:28.803Z",
+          "scannedAt": "2026-11-13T19:39:40.438Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. This is a Windows port maintained by Microsoft Archive",
           "source": "winget",
           "homepage": "https://github.com/microsoftarchive/redis",
-          "lastUpdatedAt": "2026-11-13T06:41:28.803Z"
+          "lastUpdatedAt": "2026-11-13T19:39:40.438Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -260,7 +260,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:28.803Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:40.438Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -307,7 +307,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:28.986Z",
+          "scannedAt": "2026-11-13T19:39:40.487Z",
           "errors": []
         },
         "package": {
@@ -333,7 +333,7 @@
           "long": "Persistent key-value database, with built-in net interface",
           "source": "homebrew",
           "homepage": "https://redis.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:28.986Z"
+          "lastUpdatedAt": "2026-11-13T19:39:40.487Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -460,7 +460,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:28.986Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:40.487Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -505,34 +505,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:29.030Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:40.521Z",
+          "errors": []
         },
         "package": {
           "name": "Redis",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "In-memory data structure store, used as a database, cache and message broker",
+          "license": "BSD-3-Clause",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://redis.io/",
+          "homepage": "https://redis.io",
           "download": "https://redis.io/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "In-memory data structure store, used as a database, cache and message broker",
+          "long": "In-memory data structure store, used as a database, cache and message broker",
           "source": "scoop",
-          "homepage": "https://redis.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:29.030Z"
+          "homepage": "https://redis.io",
+          "lastUpdatedAt": "2026-11-13T19:39:40.521Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -542,7 +542,8 @@
             "redis",
             "Redis",
             "redis-server",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -551,17 +552,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "8.10.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "8.10.3",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://redis.io/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -623,11 +635,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:40.521Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -672,7 +684,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:29.458Z",
+          "scannedAt": "2026-11-13T19:39:40.627Z",
           "errors": []
         },
         "package": {
@@ -699,7 +711,7 @@
           "long": "The MS Open Tech Redis on Windows was frozen at version 3.x when it was archived few years ago. Since that time there were a few new major releases of Redis on Linux. Reading the release notes for Redis 4.x and Redis 5.x, one can see that there are several security vulnerabilities that were fixed since. The current package might pose risk to systems and it is better to retire it. As an alternative to the old package we recommend using Memurai which is on par with Redis 5.x and has the known security vulnerabilities addressed.",
           "source": "choco",
           "homepage": "https://github.com/microsoftarchive/redis",
-          "lastUpdatedAt": "2026-11-13T06:41:29.458Z"
+          "lastUpdatedAt": "2026-11-13T19:39:40.627Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -954,7 +966,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:29.458Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:40.627Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

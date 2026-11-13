@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "helm",
@@ -29,7 +29,7 @@
       "long": "Helm helps you manage Kubernetes applications - Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish - so start using Helm and stop the copy-and-paste madness. The latest version of Helm is maintained by the CNCF - in collaboration with Microsoft, Google, Bitnami and the Helm contributor community",
       "source": "choco",
       "homepage": "https://helm.sh/",
-      "lastUpdatedAt": "2026-11-13T06:41:21.665Z"
+      "lastUpdatedAt": "2026-11-13T19:39:34.471Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:21.394Z",
+          "scannedAt": "2026-11-13T19:39:34.373Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://helm.sh/",
-          "download": "https://get.helm.sh/helm-v4.3.1-windows-amd64.zip",
-          "releases": null,
+          "download": "https://get.helm.sh/helm-v4.3.2-windows-amd64.zip",
+          "releases": "https://github.com/helm/helm/releases/tag/v4.3.2",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "The Package Manager for Kubernetes",
           "source": "winget",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-11-13T06:41:21.394Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.373Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "4.3.1",
+            "version": "4.3.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.17.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://get.helm.sh/helm-v4.3.1-windows-amd64.zip",
+            "url": "https://get.helm.sh/helm-v4.3.2-windows-amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "fcfd7b796dcf0f225abc40b5636a3b01f55f3de2fb1dfb18475df94e62c14112",
+            "sha256": "77c5c782aaef1abbfafe75b88412d2b6df8e4a36d14522273397f0d02c6ecc29",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:21.394Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.373Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:21.629Z",
+          "scannedAt": "2026-11-13T19:39:34.401Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Kubernetes package manager",
           "source": "homebrew",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-11-13T06:41:21.629Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.401Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -738,7 +738,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:21.629Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.401Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -784,7 +784,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:21.635Z",
+          "scannedAt": "2026-11-13T19:39:34.445Z",
           "errors": []
         },
         "package": {
@@ -810,7 +810,7 @@
           "long": "The package manager for Kubernetes.",
           "source": "scoop",
           "homepage": "https://helm.sh",
-          "lastUpdatedAt": "2026-11-13T06:41:21.635Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.445Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -831,7 +831,7 @@
         },
         "versions": [
           {
-            "version": "4.3.1",
+            "version": "4.3.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -844,7 +844,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -915,7 +915,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:21.635Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.445Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -961,7 +961,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:21.665Z",
+          "scannedAt": "2026-11-13T19:39:34.471Z",
           "errors": []
         },
         "package": {
@@ -988,7 +988,7 @@
           "long": "Helm helps you manage Kubernetes applications - Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish - so start using Helm and stop the copy-and-paste madness. The latest version of Helm is maintained by the CNCF - in collaboration with Microsoft, Google, Bitnami and the Helm contributor community",
           "source": "choco",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-11-13T06:41:21.665Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.471Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1392,7 +1392,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:21.665Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.471Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1440,7 +1440,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:21.727Z",
+          "scannedAt": "2026-11-13T19:39:34.545Z",
           "errors": []
         },
         "package": {
@@ -1469,7 +1469,7 @@
           "long": "The Kubernetes Package Manager",
           "source": "github",
           "homepage": "https://helm.sh",
-          "lastUpdatedAt": "2026-11-13T06:41:21.727Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.545Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2760,7 +2760,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:21.727Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.545Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

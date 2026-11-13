@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "maven",
@@ -29,7 +29,7 @@
       "long": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "http://maven.apache.org/",
-      "lastUpdatedAt": "2026-11-13T06:41:16.644Z"
+      "lastUpdatedAt": "2026-11-13T19:39:30.817Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:16.282Z",
+          "scannedAt": "2026-11-13T19:39:30.773Z",
           "errors": []
         },
         "package": {
@@ -124,7 +124,7 @@
           "long": "Java-based project management",
           "source": "homebrew",
           "homepage": "https://maven.apache.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:16.282Z"
+          "lastUpdatedAt": "2026-11-13T19:39:30.773Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -231,7 +231,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:16.282Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:30.773Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -276,34 +276,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:16.326Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:30.813Z",
+          "errors": []
         },
         "package": {
           "name": "Apache Maven",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Software project management and comprehension tool",
+          "license": "Apache-2.0",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
           "homepage": "https://maven.apache.org/",
-          "download": "https://maven.apache.org/",
+          "download": "https://dlcdn.apache.org/maven/maven-3/3.10.0/binaries/apache-maven-3.10.0-bin.zip",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Software project management and comprehension tool",
+          "long": "Software project management and comprehension tool",
           "source": "scoop",
           "homepage": "https://maven.apache.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:16.326Z"
+          "lastUpdatedAt": "2026-11-13T19:39:30.813Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -313,7 +313,8 @@
             "maven",
             "Apache Maven",
             "mvn",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -322,18 +323,29 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "3.10.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "3.10.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
-            "url": "https://maven.apache.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "url": "https://dlcdn.apache.org/maven/maven-3/3.10.0/binaries/apache-maven-3.10.0-bin.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "sha512:22d31676d5b92ed53308c19ecded3245d0efd0cddfec51ec7bab62f4f13ad70ddddceff8e62940e0e8e2421f3cde8106737f4becec0aa034ffeff2a754e88337",
             "sizeBytes": null
           }
         ],
@@ -394,11 +406,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:30.813Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -443,7 +455,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:16.644Z",
+          "scannedAt": "2026-11-13T19:39:30.817Z",
           "errors": []
         },
         "package": {
@@ -474,7 +486,7 @@
           "long": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "http://maven.apache.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:16.644Z"
+          "lastUpdatedAt": "2026-11-13T19:39:30.817Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -883,7 +895,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:16.644Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:30.817Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

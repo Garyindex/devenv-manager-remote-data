@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "bun",
@@ -29,7 +29,7 @@
       "long": "Bun is a fast JavaScript runtime & toolkit. All in one. Runtime, package manager, test runner and bundler in a single binary.",
       "source": "choco",
       "homepage": "https://bun.com/",
-      "lastUpdatedAt": "2026-11-13T06:41:11.036Z"
+      "lastUpdatedAt": "2026-11-13T19:39:26.504Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:10.770Z",
+          "scannedAt": "2026-11-13T19:39:26.358Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
           "source": "winget",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-11-13T06:41:10.770Z"
+          "lastUpdatedAt": "2026-11-13T19:39:26.358Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:10.770Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:26.358Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:10.939Z",
+          "scannedAt": "2026-11-13T19:39:26.390Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager",
           "source": "homebrew",
           "homepage": "https://bun.com/",
-          "lastUpdatedAt": "2026-11-13T06:41:10.939Z"
+          "lastUpdatedAt": "2026-11-13T19:39:26.390Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:10.939Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:26.390Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,21 +773,21 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:10.981Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:26.402Z",
+          "errors": []
         },
         "package": {
           "name": "Bun",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
+          "license": "MIT",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
           "homepage": "https://bun.sh/",
@@ -796,11 +796,11 @@
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
+          "long": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
           "source": "scoop",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-11-13T06:41:10.981Z"
+          "lastUpdatedAt": "2026-11-13T19:39:26.402Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -809,7 +809,8 @@
           "keywords": [
             "bun",
             "Bun",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -818,17 +819,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.4.4",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.4.4",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://bun.sh/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -890,11 +902,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:26.402Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -939,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:11.036Z",
+          "scannedAt": "2026-11-13T19:39:26.504Z",
           "errors": []
         },
         "package": {
@@ -967,7 +979,7 @@
           "long": "Bun is a fast JavaScript runtime & toolkit. All in one. Runtime, package manager, test runner and bundler in a single binary.",
           "source": "choco",
           "homepage": "https://bun.com/",
-          "lastUpdatedAt": "2026-11-13T06:41:11.036Z"
+          "lastUpdatedAt": "2026-11-13T19:39:26.504Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1372,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:11.036Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:26.504Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1420,7 +1432,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:11.149Z",
+          "scannedAt": "2026-11-13T19:39:26.511Z",
           "errors": []
         },
         "package": {
@@ -1456,7 +1468,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
           "source": "github",
           "homepage": "https://bun.com",
-          "lastUpdatedAt": "2026-11-13T06:41:11.149Z"
+          "lastUpdatedAt": "2026-11-13T19:39:26.511Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2754,7 +2766,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:11.149Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:26.511Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

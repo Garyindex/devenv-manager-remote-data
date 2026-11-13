@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "scala",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Official release of the Scala Programming Language on Chocolatey.",
-      "long": "Official release of the Scala Programming Language on Chocolatey.",
-      "source": "choco",
-      "homepage": "https://scala-lang.org/",
-      "lastUpdatedAt": "2026-11-13T06:41:17.047Z"
+      "short": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
+      "long": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
+      "source": "scoop",
+      "homepage": "https://www.scala-lang.org/",
+      "lastUpdatedAt": "2026-11-13T19:39:31.078Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:16.965Z",
+          "scannedAt": "2026-11-13T19:39:31.042Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "JVM-based programming language",
           "source": "homebrew",
           "homepage": "https://scala-lang.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:16.965Z"
+          "lastUpdatedAt": "2026-11-13T19:39:31.042Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -259,7 +259,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:16.965Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:31.042Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -304,34 +304,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:17.010Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:31.078Z",
+          "errors": []
         },
         "package": {
           "name": "Scala",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
+          "license": "BSD-3-Clause",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
           "homepage": "https://www.scala-lang.org/",
-          "download": "https://www.scala-lang.org/",
+          "download": "https://github.com/scala/scala3/releases/download/3.10.1/scala3-3.10.1.msi",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
+          "long": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
           "source": "scoop",
           "homepage": "https://www.scala-lang.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:17.010Z"
+          "lastUpdatedAt": "2026-11-13T19:39:31.078Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -340,7 +340,8 @@
           "keywords": [
             "scala",
             "Scala",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -349,18 +350,29 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "3.10.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "3.10.1",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
-            "url": "https://www.scala-lang.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "url": "https://github.com/scala/scala3/releases/download/3.10.1/scala3-3.10.1.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "09257d133199d3513ef892aa34c745f9b33f5d6105fd1e9d5fd0cc398740b110",
             "sizeBytes": null
           }
         ],
@@ -421,11 +433,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:31.078Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -470,7 +482,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:17.047Z",
+          "scannedAt": "2026-11-13T19:39:31.079Z",
           "errors": []
         },
         "package": {
@@ -495,7 +507,7 @@
           "long": "Official release of the Scala Programming Language on Chocolatey.",
           "source": "choco",
           "homepage": "https://scala-lang.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:17.047Z"
+          "lastUpdatedAt": "2026-11-13T19:39:31.079Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -897,7 +909,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:17.047Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:31.079Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "terraform",
@@ -29,7 +29,7 @@
       "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
       "source": "choco",
       "homepage": "http://www.terraform.io/",
-      "lastUpdatedAt": "2026-11-13T06:41:23.407Z"
+      "lastUpdatedAt": "2026-11-13T19:39:35.644Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:22.974Z",
+          "scannedAt": "2026-11-13T19:39:35.504Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://github.com/hashicorp/terraform",
-          "lastUpdatedAt": "2026-11-13T06:41:22.974Z"
+          "lastUpdatedAt": "2026-11-13T19:39:35.504Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:22.974Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:35.504Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,34 +593,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:23.098Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:35.540Z",
+          "errors": []
         },
         "package": {
           "name": "Terraform",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Create and manage infrastructure as code using simple declarative configuration files.",
+          "license": "BUSL-1.1",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://www.terraform.io/",
+          "homepage": "https://www.terraform.io",
           "download": "https://www.terraform.io/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Create and manage infrastructure as code using simple declarative configuration files.",
+          "long": "Create and manage infrastructure as code using simple declarative configuration files.",
           "source": "scoop",
-          "homepage": "https://www.terraform.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:23.098Z"
+          "homepage": "https://www.terraform.io",
+          "lastUpdatedAt": "2026-11-13T19:39:35.540Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -629,7 +629,8 @@
           "keywords": [
             "terraform",
             "Terraform",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -638,17 +639,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.17.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.17.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://www.terraform.io/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -710,11 +722,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:35.540Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -759,7 +771,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:23.407Z",
+          "scannedAt": "2026-11-13T19:39:35.644Z",
           "errors": []
         },
         "package": {
@@ -785,7 +797,7 @@
           "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
           "source": "choco",
           "homepage": "http://www.terraform.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:23.407Z"
+          "lastUpdatedAt": "2026-11-13T19:39:35.644Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1188,7 +1200,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:23.407Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:35.644Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1236,7 +1248,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:23.412Z",
+          "scannedAt": "2026-11-13T19:39:35.748Z",
           "errors": []
         },
         "package": {
@@ -1265,7 +1277,7 @@
           "long": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
           "source": "github",
           "homepage": "http://developer.hashicorp.com/terraform",
-          "lastUpdatedAt": "2026-11-13T06:41:23.412Z"
+          "lastUpdatedAt": "2026-11-13T19:39:35.748Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1595,7 +1607,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:23.412Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:35.748Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

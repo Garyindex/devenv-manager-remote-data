@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "msys2",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
-      "homepage": "https://www.msys2.org/",
-      "lastUpdatedAt": null
+      "short": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+      "long": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+      "source": "winget",
+      "homepage": "https://github.com/msys2/msys2-installer",
+      "lastUpdatedAt": "2026-11-13T19:39:32.449Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "medium",
-      "score": 65
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -92,33 +92,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:18.399Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:32.449Z",
+          "errors": []
         },
         "package": {
           "name": "MSYS2",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "The MSYS2 Developers",
+          "author": "The MSYS2 Developers",
+          "description": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+          "license": "BSD-3-Clause",
+          "licenseUrl": "https://github.com/msys2/msys2-installer/blob/main/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.msys2.org/",
-          "download": "https://www.msys2.org/",
-          "releases": null,
+          "homepage": "https://github.com/msys2/msys2-installer",
+          "download": "https://github.com/msys2/msys2-installer/releases/download/2026-09-27/msys2-x86_64-20260927.exe",
+          "releases": "https://github.com/msys2/msys2-installer/releases/tag/2026-09-27",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
+          "long": "MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.",
           "source": "winget",
-          "homepage": "https://www.msys2.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:18.399Z"
+          "homepage": "https://github.com/msys2/msys2-installer",
+          "lastUpdatedAt": "2026-11-13T19:39:32.449Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -425,11 +423,11 @@
             "version": "20260927",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.msys2.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "exe",
+            "url": "https://github.com/msys2/msys2-installer/releases/download/2026-09-27/msys2-x86_64-20260927.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "416d506c839a2da4bc184eeec8cbaaf1055ee698618228c62dfc4232a6970f0e",
             "sizeBytes": null
           }
         ],
@@ -524,11 +522,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:32.449Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "nmap",
@@ -29,7 +29,7 @@
       "long": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. Nmap runs on all major computer operating systems, and official binary packages are available for Linux, Windows, and Mac OS X. In addition to the classic command-line Nmap executable, the Nmap suite includes an advanced GUI and results viewer (Zenmap), a flexible data transfer, redirection, and debugging tool (Ncat), a utility for comparing scan results (Ndiff), and a packet generation and response analysis tool (Nping). Features - Host discovery - Identifying hosts on a network. For example, listing the hosts that respo...",
       "source": "choco",
       "homepage": "https://nmap.org/",
-      "lastUpdatedAt": "2026-11-13T06:41:33.581Z"
+      "lastUpdatedAt": "2026-11-13T19:39:43.952Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:33.018Z",
+          "scannedAt": "2026-11-13T19:39:43.735Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing.",
           "source": "winget",
           "homepage": "https://nmap.org",
-          "lastUpdatedAt": "2026-11-13T06:41:33.018Z"
+          "lastUpdatedAt": "2026-11-13T19:39:43.735Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -268,7 +268,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:33.018Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:43.735Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -315,7 +315,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:33.280Z",
+          "scannedAt": "2026-11-13T19:39:43.756Z",
           "errors": []
         },
         "package": {
@@ -341,7 +341,7 @@
           "long": "Port scanning utility for large networks",
           "source": "homebrew",
           "homepage": "https://nmap.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:33.280Z"
+          "lastUpdatedAt": "2026-11-13T19:39:43.756Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -447,7 +447,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:33.280Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:43.756Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -492,34 +492,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:33.323Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:43.871Z",
+          "errors": []
         },
         "package": {
           "name": "Nmap",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Network exploration and security auditing utility.",
+          "license": "GPL-2.0-only",
+          "licenseUrl": "https://github.com/nmap/nmap/blob/master/COPYING",
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://nmap.org/",
-          "download": "https://nmap.org/",
+          "homepage": "https://nmap.org",
+          "download": "https://nmap.org/dist/nmap-7.993-setup.exe#/dl.7z",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Network exploration and security auditing utility.",
+          "long": "Network exploration and security auditing utility.",
           "source": "scoop",
-          "homepage": "https://nmap.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:33.323Z"
+          "homepage": "https://nmap.org",
+          "lastUpdatedAt": "2026-11-13T19:39:43.871Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -528,7 +528,8 @@
           "keywords": [
             "nmap",
             "Nmap",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -537,18 +538,29 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "7.993",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "7.993",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
-            "url": "https://nmap.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "url": "https://nmap.org/dist/nmap-7.993-setup.exe#/dl.7z",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "22e5928d1738a1b94ffd3643014f52cb87d467dbec4cff9e5f721fe0b3782f1b",
             "sizeBytes": null
           }
         ],
@@ -609,11 +621,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:43.871Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -658,7 +670,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:33.581Z",
+          "scannedAt": "2026-11-13T19:39:43.952Z",
           "errors": []
         },
         "package": {
@@ -689,7 +701,7 @@
           "long": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. Nmap runs on all major computer operating systems, and official binary packages are available for Linux, Windows, and Mac OS X. In addition to the classic command-line Nmap executable, the Nmap suite includes an advanced GUI and results viewer (Zenmap), a flexible data transfer, redirection, and debugging tool (Ncat), a utility for comparing scan results (Ndiff), and a packet generation and response analysis tool (Nping). Features - Host discovery - Identifying hosts on a network. For example, listing the hosts that respo...",
           "source": "choco",
           "homepage": "https://nmap.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:33.581Z"
+          "lastUpdatedAt": "2026-11-13T19:39:43.952Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1097,7 +1109,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:33.581Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:43.952Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "packer",
@@ -29,7 +29,7 @@
       "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
       "source": "choco",
       "homepage": "http://packer.io/",
-      "lastUpdatedAt": "2026-11-13T06:41:23.929Z"
+      "lastUpdatedAt": "2026-11-13T19:39:36.375Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:23.704Z",
+          "scannedAt": "2026-11-13T19:39:36.146Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-11-13T06:41:23.704Z"
+          "lastUpdatedAt": "2026-11-13T19:39:36.146Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:23.704Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:36.146Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,34 +593,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:23.782Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:36.286Z",
+          "errors": []
         },
         "package": {
           "name": "Packer",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Automates the creation of any type of virtual machine image.",
+          "license": "MPL-2.0",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://www.packer.io/",
+          "homepage": "https://www.packer.io",
           "download": "https://www.packer.io/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Automates the creation of any type of virtual machine image.",
+          "long": "Automates the creation of any type of virtual machine image.",
           "source": "scoop",
-          "homepage": "https://www.packer.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:23.782Z"
+          "homepage": "https://www.packer.io",
+          "lastUpdatedAt": "2026-11-13T19:39:36.286Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -629,7 +629,8 @@
           "keywords": [
             "packer",
             "Packer",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -638,17 +639,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.16.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.16.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://www.packer.io/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -710,11 +722,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:36.286Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -759,7 +771,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:23.929Z",
+          "scannedAt": "2026-11-13T19:39:36.375Z",
           "errors": []
         },
         "package": {
@@ -793,7 +805,7 @@
           "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
           "source": "choco",
           "homepage": "http://packer.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:23.929Z"
+          "lastUpdatedAt": "2026-11-13T19:39:36.375Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1204,7 +1216,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:23.929Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:36.375Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1252,7 +1264,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:24.034Z",
+          "scannedAt": "2026-11-13T19:39:36.421Z",
           "errors": []
         },
         "package": {
@@ -1275,7 +1287,7 @@
           "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
           "source": "github",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-11-13T06:41:24.034Z"
+          "lastUpdatedAt": "2026-11-13T19:39:36.421Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2478,7 +2490,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:24.034Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:36.421Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

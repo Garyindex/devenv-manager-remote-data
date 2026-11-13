@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "minikube",
@@ -29,7 +29,7 @@
       "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
       "source": "choco",
       "homepage": "https://kubernetes.io/",
-      "lastUpdatedAt": "2026-11-13T06:41:22.336Z"
+      "lastUpdatedAt": "2026-11-13T19:39:34.799Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:21.859Z",
+          "scannedAt": "2026-11-13T19:39:34.614Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.",
           "source": "winget",
           "homepage": "https://minikube.sigs.k8s.io/docs",
-          "lastUpdatedAt": "2026-11-13T06:41:21.859Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.614Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:21.859Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.614Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:22.025Z",
+          "scannedAt": "2026-11-13T19:39:34.656Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Run a Kubernetes cluster locally",
           "source": "homebrew",
           "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:22.025Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.656Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:22.025Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.656Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,34 +770,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:22.161Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:34.697Z",
+          "errors": []
         },
         "package": {
           "name": "minikube",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
+          "license": "Apache-2.0",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://minikube.sigs.k8s.io/",
+          "homepage": "https://minikube.sigs.k8s.io/docs/",
           "download": "https://minikube.sigs.k8s.io/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
+          "long": "Runs a single-node Kubernetes cluster inside a Virtual Machine to try out Kubernetes.",
           "source": "scoop",
-          "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:22.161Z"
+          "homepage": "https://minikube.sigs.k8s.io/docs/",
+          "lastUpdatedAt": "2026-11-13T19:39:34.697Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -805,7 +805,8 @@
           ],
           "keywords": [
             "minikube",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -814,17 +815,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.39.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.39.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://minikube.sigs.k8s.io/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -886,11 +898,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.697Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -935,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:22.336Z",
+          "scannedAt": "2026-11-13T19:39:34.799Z",
           "errors": []
         },
         "package": {
@@ -967,7 +979,7 @@
           "long": "Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day. Minikube Features Minikube supports Kubernetes features such as: DNS NodePorts ConfigMaps and Secrets Dashboards Container Runtime: Docker, rkt and CRI-O Enabling CNI (Container Network Interface) Ingress Note: Windows support is limited to 64bit systems.",
           "source": "choco",
           "homepage": "https://kubernetes.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:22.336Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.799Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1375,7 +1387,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:22.336Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.799Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1423,7 +1435,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:22.444Z",
+          "scannedAt": "2026-11-13T19:39:34.808Z",
           "errors": []
         },
         "package": {
@@ -1453,7 +1465,7 @@
           "long": "Run Kubernetes locally",
           "source": "github",
           "homepage": "https://minikube.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-11-13T06:41:22.444Z"
+          "lastUpdatedAt": "2026-11-13T19:39:34.808Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2744,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:22.444Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:34.808Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

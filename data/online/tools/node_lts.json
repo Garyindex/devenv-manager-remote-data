@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "node_lts",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
       "source": "choco",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-11-13T06:41:09.815Z"
+      "lastUpdatedAt": "2026-11-13T19:39:25.437Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:09.579Z",
+          "scannedAt": "2026-11-13T19:39:25.411Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:09.579Z"
+          "lastUpdatedAt": "2026-11-13T19:39:25.411Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -439,7 +439,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:09.579Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:25.411Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -486,34 +486,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:09.635Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:25.427Z",
+          "errors": []
         },
         "package": {
           "name": "Node.js LTS",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
+          "license": "MIT",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://nodejs.org/",
+          "homepage": "https://nodejs.org",
           "download": "https://nodejs.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
+          "long": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
           "source": "scoop",
-          "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:09.635Z"
+          "homepage": "https://nodejs.org",
+          "lastUpdatedAt": "2026-11-13T19:39:25.427Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -523,7 +523,8 @@
             "node_lts",
             "Node.js LTS",
             "node",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -532,17 +533,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "26.13.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "26.13.1",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://nodejs.org/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -604,11 +616,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:25.427Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -655,7 +667,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:09.815Z",
+          "scannedAt": "2026-11-13T19:39:25.437Z",
           "errors": []
         },
         "package": {
@@ -678,8 +690,8 @@
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.22.2",
-          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V24.md#24.22.2",
+          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/26.13.1",
+          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V26.md#26.13.1",
           "docs": null
         },
         "descriptions": {
@@ -687,7 +699,7 @@
           "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
           "source": "choco",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:09.815Z"
+          "lastUpdatedAt": "2026-11-13T19:39:25.437Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -715,9 +727,39 @@
         },
         "versions": [
           {
-            "version": "24.22.2",
+            "version": "26.13.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.22.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.22.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -983,49 +1025,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "22.22.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "20.19.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "24.22.2",
+            "version": "26.13.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.22.2",
+            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/26.13.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "dRWncVizgz9ysn5BjJLraCELP6x6dcC+6B/pOd+33NVgFzflIB8XC5kRw1BPHxu1Gy6G0+BBONDkSlNkTaOoog==",
+            "sha256": "s7H/SSZcxYTJJ+WX5dh1eFw5f8U7MDZo8A53DOiLSgk0sSJesdBJ0UUAr6SRkf25Pb00GkqoiY7tZgbP4u4Wrw==",
             "sizeBytes": null
           }
         ],
@@ -1097,7 +1109,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:09.815Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:25.437Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

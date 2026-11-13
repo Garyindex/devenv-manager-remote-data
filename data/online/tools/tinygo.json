@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:41:42.146Z",
+  "generatedAt": "2026-11-13T19:39:51.955Z",
   "status": "partial",
   "tool": {
     "id": "tinygo",
@@ -29,7 +29,7 @@
       "long": "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.",
       "source": "github",
       "homepage": "https://tinygo.org",
-      "lastUpdatedAt": "2026-11-13T06:41:15.092Z"
+      "lastUpdatedAt": "2026-11-13T19:39:29.586Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -94,34 +94,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-13T06:41:14.958Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
-            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-13T19:39:29.542Z",
+          "errors": []
         },
         "package": {
           "name": "TinyGo",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Main",
+          "author": "ScoopInstaller/Main",
+          "description": "A Go compiler for small places",
+          "license": "BSD-3-Clause",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Main"
+          ]
         },
         "links": {
-          "homepage": "https://tinygo.org/",
+          "homepage": "https://tinygo.org",
           "download": "https://tinygo.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "A Go compiler for small places",
+          "long": "A Go compiler for small places",
           "source": "scoop",
-          "homepage": "https://tinygo.org/",
-          "lastUpdatedAt": "2026-11-13T06:41:14.958Z"
+          "homepage": "https://tinygo.org",
+          "lastUpdatedAt": "2026-11-13T19:39:29.542Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -130,7 +130,8 @@
           "keywords": [
             "tinygo",
             "TinyGo",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Main"
           ],
           "relatedTools": []
         },
@@ -139,17 +140,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "0.44.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "0.44.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://tinygo.org/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -211,11 +223,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-11-13T19:39:29.542Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -262,7 +274,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T06:41:15.092Z",
+          "scannedAt": "2026-11-13T19:39:29.586Z",
           "errors": []
         },
         "package": {
@@ -305,7 +317,7 @@
           "long": "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.",
           "source": "github",
           "homepage": "https://tinygo.org",
-          "lastUpdatedAt": "2026-11-13T06:41:15.092Z"
+          "lastUpdatedAt": "2026-11-13T19:39:29.586Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1610,7 +1622,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T06:41:15.092Z",
+          "lastSuccessfulScanAt": "2026-11-13T19:39:29.586Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
