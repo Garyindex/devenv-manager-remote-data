@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "google_cloud_sdk",
@@ -27,7 +27,7 @@
       "long": "Google Cloud CLI What is the gcloud CLI? The Google Cloud CLI is a set of tools to create and manage Google Cloud resources. You can use these tools to perform many common platform tasks from the command line or through scripts and other automation. For example, you can use the gcloud CLI to create and manage the following: - Compute Engine virtual machine instances and other resources - Cloud SQL instances - Google Kubernetes Engine clusters - Dataproc clusters and jobs - Cloud DNS managed zones and record sets - Cloud Deployment Manager deployments You can also use the gcloud CLI to deploy App Engine applications, manage authentication, customize local configuration, and perform other tasks. The gcloud CLI cheat sheet For a quick introduction to the gcloud CLI, a list of commonly used commands, and a look at how these commands are structured, see the gcloud CLI cheat sheet. Configurations A configuration is a set of gcloud CLI properties. A configuration works like a profile . When you start using the gcloud CLI, you'll work with a single configuration named default and you can set properties by running gcloud init or gcloud config set . This single default configuration is su...",
       "source": "choco",
       "homepage": "https://cloud.google.com/cli",
-      "lastUpdatedAt": "2026-11-12T23:37:21.841Z"
+      "lastUpdatedAt": "2026-11-13T06:41:25.885Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,7 +95,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.674Z",
+          "scannedAt": "2026-11-13T06:41:25.817Z",
           "errors": []
         },
         "package": {
@@ -118,7 +118,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://cloud.google.com/sdk",
-          "lastUpdatedAt": "2026-11-12T23:37:21.674Z"
+          "lastUpdatedAt": "2026-11-13T06:41:25.817Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -257,7 +257,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.674Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:25.817Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -302,34 +302,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.735Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:25.833Z",
+          "errors": [
+            "details: ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "Google Cloud SDK",
-          "publisher": "ScoopInstaller/Extras",
-          "author": "ScoopInstaller/Extras",
-          "description": "Command-line interface for Google Cloud Platform products and services.",
-          "license": "Proprietary",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Extras"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://cloud.google.com/sdk/",
+          "homepage": "https://cloud.google.com/sdk",
           "download": "https://cloud.google.com/sdk",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Command-line interface for Google Cloud Platform products and services.",
-          "long": "Command-line interface for Google Cloud Platform products and services.",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://cloud.google.com/sdk/",
-          "lastUpdatedAt": "2026-11-12T23:37:21.735Z"
+          "homepage": "https://cloud.google.com/sdk",
+          "lastUpdatedAt": "2026-11-13T06:41:25.833Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -339,8 +339,7 @@
             "google_cloud_sdk",
             "Google Cloud SDK",
             "gcloud",
-            "scoop",
-            "ScoopInstaller/Extras"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -349,28 +348,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "593.0.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "593.0.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://cloud.google.com/sdk",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -432,11 +420,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.735Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -481,7 +469,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.841Z",
+          "scannedAt": "2026-11-13T06:41:25.885Z",
           "errors": []
         },
         "package": {
@@ -513,7 +501,7 @@
           "long": "Google Cloud CLI What is the gcloud CLI? The Google Cloud CLI is a set of tools to create and manage Google Cloud resources. You can use these tools to perform many common platform tasks from the command line or through scripts and other automation. For example, you can use the gcloud CLI to create and manage the following: - Compute Engine virtual machine instances and other resources - Cloud SQL instances - Google Kubernetes Engine clusters - Dataproc clusters and jobs - Cloud DNS managed zones and record sets - Cloud Deployment Manager deployments You can also use the gcloud CLI to deploy App Engine applications, manage authentication, customize local configuration, and perform other tasks. The gcloud CLI cheat sheet For a quick introduction to the gcloud CLI, a list of commonly used commands, and a look at how these commands are structured, see the gcloud CLI cheat sheet. Configurations A configuration is a set of gcloud CLI properties. A configuration works like a profile . When you start using the gcloud CLI, you'll work with a single configuration named default and you can set properties by running gcloud init or gcloud config set . This single default configuration is su...",
           "source": "choco",
           "homepage": "https://cloud.google.com/cli",
-          "lastUpdatedAt": "2026-11-12T23:37:21.841Z"
+          "lastUpdatedAt": "2026-11-13T06:41:25.885Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -923,7 +911,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.841Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:25.885Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

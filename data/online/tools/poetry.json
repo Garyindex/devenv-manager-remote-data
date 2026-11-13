@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "poetry",
@@ -29,7 +29,7 @@
       "long": "Python packaging and dependency management made easy",
       "source": "github",
       "homepage": "https://python-poetry.org",
-      "lastUpdatedAt": "2026-11-12T23:37:04.488Z"
+      "lastUpdatedAt": "2026-11-13T06:41:13.690Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.426Z",
+          "scannedAt": "2026-11-13T06:41:13.644Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "Python package management tool",
           "source": "homebrew",
           "homepage": "https://python-poetry.org/",
-          "lastUpdatedAt": "2026-11-12T23:37:04.426Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.644Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -229,7 +229,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.426Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:13.644Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -274,34 +274,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.437Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:13.687Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
+          ]
         },
         "package": {
           "name": "Poetry",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "Dependency Management for Python",
-          "license": "MIT",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
           "homepage": "https://python-poetry.org/",
-          "download": "https://install.python-poetry.org#/install-poetry.py",
+          "download": "https://python-poetry.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Dependency Management for Python",
-          "long": "Dependency Management for Python",
+          "short": null,
+          "long": null,
           "source": "scoop",
           "homepage": "https://python-poetry.org/",
-          "lastUpdatedAt": "2026-11-12T23:37:04.437Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.687Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -310,8 +310,7 @@
           "keywords": [
             "poetry",
             "Poetry",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -320,29 +319,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.5.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.5.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
-            "url": "https://install.python-poetry.org#/install-poetry.py",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "75745ca71373a7b22fa150953543f03d826a52f8e4bc4350328a33bddd668026",
+            "url": "https://python-poetry.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -403,11 +391,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.437Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -454,7 +442,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.488Z",
+          "scannedAt": "2026-11-13T06:41:13.690Z",
           "errors": []
         },
         "package": {
@@ -483,7 +471,7 @@
           "long": "Python packaging and dependency management made easy",
           "source": "github",
           "homepage": "https://python-poetry.org",
-          "lastUpdatedAt": "2026-11-12T23:37:04.488Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.690Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1534,7 +1522,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.488Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:13.690Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

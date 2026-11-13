@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "temurin_21",
@@ -28,7 +28,7 @@
       "long": "Temurin The Temurin21 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
       "source": "choco",
       "homepage": "https://adoptium.net/",
-      "lastUpdatedAt": "2026-11-12T23:37:08.356Z"
+      "lastUpdatedAt": "2026-11-13T06:41:15.856Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -112,7 +112,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:08.162Z",
+          "scannedAt": "2026-11-13T06:41:15.523Z",
           "errors": []
         },
         "package": {
@@ -135,7 +135,7 @@
           "long": "Eclipse Temurin JDK is the open source Java SE build based upon OpenJDK.",
           "source": "winget",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-11-12T23:37:08.162Z"
+          "lastUpdatedAt": "2026-11-13T06:41:15.523Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -415,7 +415,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:08.162Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:15.523Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -475,7 +475,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:08.195Z",
+          "scannedAt": "2026-11-13T06:41:15.750Z",
           "errors": []
         },
         "package": {
@@ -501,7 +501,7 @@
           "long": "JDK from the Eclipse Foundation (Adoptium)",
           "source": "homebrew",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-11-12T23:37:08.195Z"
+          "lastUpdatedAt": "2026-11-13T06:41:15.750Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -609,7 +609,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:08.195Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:15.750Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -668,34 +668,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:08.265Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:15.795Z",
+          "errors": [
+            "details: ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "Eclipse Temurin JDK 21",
-          "publisher": "ScoopInstaller/Java",
-          "author": "ScoopInstaller/Java",
-          "description": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
-          "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Java"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://adoptium.net",
+          "homepage": "https://adoptium.net/",
           "download": "https://adoptium.net/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
-          "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://adoptium.net",
-          "lastUpdatedAt": "2026-11-12T23:37:08.265Z"
+          "homepage": "https://adoptium.net/",
+          "lastUpdatedAt": "2026-11-13T06:41:15.795Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -706,8 +706,7 @@
             "Eclipse Temurin JDK 21",
             "java",
             "javac",
-            "scoop",
-            "ScoopInstaller/Java"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -716,28 +715,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "21.0.13-9.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "21.0.13-9.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://adoptium.net/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -799,11 +787,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:08.265Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -862,7 +850,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:08.356Z",
+          "scannedAt": "2026-11-13T06:41:15.856Z",
           "errors": []
         },
         "package": {
@@ -889,7 +877,7 @@
           "long": "Temurin The Temurin21 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
           "source": "choco",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-11-12T23:37:08.356Z"
+          "lastUpdatedAt": "2026-11-13T06:41:15.856Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1105,7 +1093,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:08.356Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:15.856Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

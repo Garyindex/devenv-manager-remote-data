@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "node_lts",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
       "source": "choco",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-11-12T23:36:59.771Z"
+      "lastUpdatedAt": "2026-11-13T06:41:09.815Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:59.392Z",
+          "scannedAt": "2026-11-13T06:41:09.579Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-11-12T23:36:59.392Z"
+          "lastUpdatedAt": "2026-11-13T06:41:09.579Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -439,7 +439,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:59.392Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:09.579Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -486,34 +486,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:36:59.737Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:09.635Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "Node.js LTS",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
-          "license": "MIT",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://nodejs.org",
+          "homepage": "https://nodejs.org/",
           "download": "https://nodejs.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
-          "long": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-11-12T23:36:59.737Z"
+          "homepage": "https://nodejs.org/",
+          "lastUpdatedAt": "2026-11-13T06:41:09.635Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -523,8 +523,7 @@
             "node_lts",
             "Node.js LTS",
             "node",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -533,28 +532,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "26.13.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "26.13.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://nodejs.org/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -616,11 +604,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:59.737Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -667,7 +655,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:59.771Z",
+          "scannedAt": "2026-11-13T06:41:09.815Z",
           "errors": []
         },
         "package": {
@@ -699,7 +687,7 @@
           "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
           "source": "choco",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-11-12T23:36:59.771Z"
+          "lastUpdatedAt": "2026-11-13T06:41:09.815Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1109,7 +1097,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:59.771Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:09.815Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

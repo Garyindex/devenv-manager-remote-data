@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "github_cli",
@@ -32,7 +32,7 @@
       "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-11-12T23:36:48.865Z"
+      "lastUpdatedAt": "2026-11-13T06:41:01.588Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -105,7 +105,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:48.839Z",
+          "scannedAt": "2026-11-13T06:41:01.569Z",
           "errors": []
         },
         "package": {
@@ -122,8 +122,8 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.msi",
-          "releases": "https://github.com/cli/cli/releases/tag/v2.103.3",
+          "download": "https://github.com/cli/cli/releases/download/v2.104.0/gh_2.104.0_windows_amd64.msi",
+          "releases": "https://github.com/cli/cli/releases/tag/v2.104.0",
           "docs": null
         },
         "descriptions": {
@@ -131,7 +131,7 @@
           "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-11-12T23:36:48.839Z"
+          "lastUpdatedAt": "2026-11-13T06:41:01.569Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -156,9 +156,19 @@
         },
         "versions": [
           {
-            "version": "2.103.3",
+            "version": "2.104.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.103.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -444,29 +454,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.83.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.103.3",
+            "version": "2.104.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.104.0/gh_2.104.0_windows_amd64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "5073112b7abb5ffbba24b76aee7e89269af531218c0a42751f5f0bfb6440c2cc",
+            "sha256": "cc89beb33ee020669efac70270aff55ca3ad52321aa813307537f2fe9237cc6e",
             "sizeBytes": null
           }
         ],
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:48.839Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:01.569Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:48.862Z",
+          "scannedAt": "2026-11-13T06:41:01.586Z",
           "errors": []
         },
         "package": {
@@ -639,7 +639,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-11-12T23:36:48.862Z"
+          "lastUpdatedAt": "2026-11-13T06:41:01.586Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -750,7 +750,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:48.862Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:01.586Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -795,36 +795,37 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:36:48.863Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:01.587Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "GitHub CLI",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "Official GitHub CLI",
-          "license": "MIT",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
           "tags": [
             "github",
-            "vcs",
-            "scoop",
-            "ScoopInstaller/Main"
+            "vcs"
           ]
         },
         "links": {
-          "homepage": "https://cli.github.com",
+          "homepage": "https://cli.github.com/",
           "download": "https://cli.github.com/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Official GitHub CLI",
-          "long": "Official GitHub CLI",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-11-12T23:36:48.863Z"
+          "homepage": "https://cli.github.com/",
+          "lastUpdatedAt": "2026-11-13T06:41:01.587Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -838,8 +839,7 @@
             "github",
             "vcs",
             "gh",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -848,28 +848,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.104.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.104.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://cli.github.com/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -931,11 +920,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:48.863Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -980,7 +969,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:48.865Z",
+          "scannedAt": "2026-11-13T06:41:01.588Z",
           "errors": []
         },
         "package": {
@@ -1010,7 +999,7 @@
           "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-11-12T23:36:48.865Z"
+          "lastUpdatedAt": "2026-11-13T06:41:01.588Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1421,7 +1410,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:48.865Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:01.588Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1469,7 +1458,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:49.131Z",
+          "scannedAt": "2026-11-13T06:41:01.826Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1488,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-11-12T23:36:49.131Z"
+          "lastUpdatedAt": "2026-11-13T06:41:01.826Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2794,7 +2783,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:49.131Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:01.826Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

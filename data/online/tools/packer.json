@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "packer",
@@ -29,7 +29,7 @@
       "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
       "source": "choco",
       "homepage": "http://packer.io/",
-      "lastUpdatedAt": "2026-11-12T23:37:19.019Z"
+      "lastUpdatedAt": "2026-11-13T06:41:23.929Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:18.874Z",
+          "scannedAt": "2026-11-13T06:41:23.704Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-11-12T23:37:18.874Z"
+          "lastUpdatedAt": "2026-11-13T06:41:23.704Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:18.874Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:23.704Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,34 +593,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:18.916Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:23.782Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "Packer",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "Automates the creation of any type of virtual machine image.",
-          "license": "MPL-2.0",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://www.packer.io",
+          "homepage": "https://www.packer.io/",
           "download": "https://www.packer.io/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Automates the creation of any type of virtual machine image.",
-          "long": "Automates the creation of any type of virtual machine image.",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://www.packer.io",
-          "lastUpdatedAt": "2026-11-12T23:37:18.916Z"
+          "homepage": "https://www.packer.io/",
+          "lastUpdatedAt": "2026-11-13T06:41:23.782Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -629,8 +629,7 @@
           "keywords": [
             "packer",
             "Packer",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -639,28 +638,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.16.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.2",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://www.packer.io/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -722,11 +710,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:18.916Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -771,7 +759,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:19.019Z",
+          "scannedAt": "2026-11-13T06:41:23.929Z",
           "errors": []
         },
         "package": {
@@ -805,7 +793,7 @@
           "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
           "source": "choco",
           "homepage": "http://packer.io/",
-          "lastUpdatedAt": "2026-11-12T23:37:19.019Z"
+          "lastUpdatedAt": "2026-11-13T06:41:23.929Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1216,7 +1204,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:19.019Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:23.929Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1264,7 +1252,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:19.130Z",
+          "scannedAt": "2026-11-13T06:41:24.034Z",
           "errors": []
         },
         "package": {
@@ -1287,7 +1275,7 @@
           "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
           "source": "github",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-11-12T23:37:19.130Z"
+          "lastUpdatedAt": "2026-11-13T06:41:24.034Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1609,96 +1597,96 @@
         ],
         "downloads": [
           {
-            "id": "docker_tag_list_release-full.386.14659.json",
+            "id": "docker_tag_list_release-full.386.23880.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.386.14659.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.386.23880.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 345
           },
           {
-            "id": "docker_tag_list_release-full.amd64.2627.json",
+            "id": "docker_tag_list_release-full.amd64.6046.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.amd64.2627.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.amd64.6046.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 345
           },
           {
-            "id": "docker_tag_list_release-full.arm.23409.json",
+            "id": "docker_tag_list_release-full.arm.9634.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm.23409.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm.9634.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 345
           },
           {
-            "id": "docker_tag_list_release-full.arm64.34290.json",
+            "id": "docker_tag_list_release-full.arm64.15300.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm64.34290.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm64.15300.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 345
           },
           {
-            "id": "docker_tag_list_release-light.386.15938.json",
+            "id": "docker_tag_list_release-light.386.15103.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.386.15938.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.386.15103.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 432
           },
           {
-            "id": "docker_tag_list_release-light.amd64.33522.json",
+            "id": "docker_tag_list_release-light.amd64.30012.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.amd64.33522.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.amd64.30012.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 432
           },
           {
-            "id": "docker_tag_list_release-light.arm.10900.json",
+            "id": "docker_tag_list_release-light.arm.2476.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm.10900.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm.2476.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 432
           },
           {
-            "id": "docker_tag_list_release-light.arm64.25043.json",
+            "id": "docker_tag_list_release-light.arm64.8169.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm64.25043.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm64.8169.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
@@ -1726,7 +1714,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31375005
+            "sizeBytes": 31373747
           },
           {
             "id": "packer-1.16.3.dev-1.armv7hl.rpm",
@@ -1738,7 +1726,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 32301875
+            "sizeBytes": 32311162
           },
           {
             "id": "packer-1.16.3.dev-1.i386.rpm",
@@ -1750,7 +1738,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 32305068
+            "sizeBytes": 32277991
           },
           {
             "id": "packer-1.16.3.dev-1.ppc64le.rpm",
@@ -1762,7 +1750,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31291581
+            "sizeBytes": 31319926
           },
           {
             "id": "packer-1.16.3.dev-1.x86_64.rpm",
@@ -1774,7 +1762,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 34632562
+            "sizeBytes": 34618977
           },
           {
             "id": "packer_1.16.3-dev_darwin_amd64.zip",
@@ -1786,7 +1774,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 34763478
+            "sizeBytes": 34763057
           },
           {
             "id": "packer_1.16.3-dev_darwin_amd64.zip.json",
@@ -1810,7 +1798,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 32381348
+            "sizeBytes": 32381536
           },
           {
             "id": "packer_1.16.3-dev_darwin_arm64.zip.json",
@@ -1834,7 +1822,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 22056556
+            "sizeBytes": 22056601
           },
           {
             "id": "packer_1.16.3-dev_freebsd_386.zip.json",
@@ -1846,7 +1834,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7286
+            "sizeBytes": 7285
           },
           {
             "id": "packer_1.16.3-dev_freebsd_amd64.zip",
@@ -1858,7 +1846,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 33971867
+            "sizeBytes": 33968915
           },
           {
             "id": "packer_1.16.3-dev_freebsd_amd64.zip.json",
@@ -1882,7 +1870,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 22137093
+            "sizeBytes": 22137549
           },
           {
             "id": "packer_1.16.3-dev_freebsd_arm.zip.json",
@@ -1894,7 +1882,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7284
+            "sizeBytes": 7285
           },
           {
             "id": "packer_1.16.3-dev_linux_386.zip",
@@ -1906,7 +1894,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31753134
+            "sizeBytes": 31753209
           },
           {
             "id": "packer_1.16.3-dev_linux_386.zip.json",
@@ -1918,7 +1906,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7254
+            "sizeBytes": 7255
           },
           {
             "id": "packer_1.16.3-dev_linux_amd64.zip",
@@ -1930,7 +1918,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 34050473
+            "sizeBytes": 34050877
           },
           {
             "id": "packer_1.16.3-dev_linux_amd64.zip.json",
@@ -1954,7 +1942,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31853403
+            "sizeBytes": 31854625
           },
           {
             "id": "packer_1.16.3-dev_linux_arm.zip.json",
@@ -1966,7 +1954,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7255
+            "sizeBytes": 7254
           },
           {
             "id": "packer_1.16.3-dev_linux_arm64.zip",
@@ -1978,7 +1966,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 30909735
+            "sizeBytes": 30910051
           },
           {
             "id": "packer_1.16.3-dev_linux_arm64.zip.json",
@@ -1990,7 +1978,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7286
+            "sizeBytes": 7285
           },
           {
             "id": "packer_1.16.3-dev_linux_ppc64le.zip",
@@ -2002,7 +1990,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 30891703
+            "sizeBytes": 30890608
           },
           {
             "id": "packer_1.16.3-dev_linux_ppc64le.zip.json",
@@ -2014,7 +2002,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7316
+            "sizeBytes": 7318
           },
           {
             "id": "packer_1.16.3-dev_netbsd_386.zip",
@@ -2026,7 +2014,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 22034082
+            "sizeBytes": 22033037
           },
           {
             "id": "packer_1.16.3-dev_netbsd_386.zip.json",
@@ -2050,7 +2038,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 23786390
+            "sizeBytes": 23786401
           },
           {
             "id": "packer_1.16.3-dev_netbsd_amd64.zip.json",
@@ -2062,7 +2050,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7301
+            "sizeBytes": 7300
           },
           {
             "id": "packer_1.16.3-dev_netbsd_arm.zip",
@@ -2074,7 +2062,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 22111417
+            "sizeBytes": 22110927
           },
           {
             "id": "packer_1.16.3-dev_netbsd_arm.zip.json",
@@ -2086,7 +2074,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7269
+            "sizeBytes": 7271
           },
           {
             "id": "packer_1.16.3-dev_openbsd_386.zip",
@@ -2098,7 +2086,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 22045110
+            "sizeBytes": 22044462
           },
           {
             "id": "packer_1.16.3-dev_openbsd_386.zip.json",
@@ -2122,7 +2110,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 23796587
+            "sizeBytes": 23796309
           },
           {
             "id": "packer_1.16.3-dev_openbsd_amd64.zip.json",
@@ -2146,7 +2134,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 22119860
+            "sizeBytes": 22120100
           },
           {
             "id": "packer_1.16.3-dev_openbsd_arm.zip.json",
@@ -2170,7 +2158,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 23759782
+            "sizeBytes": 23761819
           },
           {
             "id": "packer_1.16.3-dev_solaris_amd64.zip.json",
@@ -2182,7 +2170,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7316
+            "sizeBytes": 7315
           },
           {
             "id": "packer_1.16.3-dev_windows_386.zip",
@@ -2194,7 +2182,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 33196773
+            "sizeBytes": 33196268
           },
           {
             "id": "packer_1.16.3-dev_windows_386.zip.json",
@@ -2206,7 +2194,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7332
+            "sizeBytes": 7330
           },
           {
             "id": "packer_1.16.3-dev_windows_amd64.zip",
@@ -2218,7 +2206,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 34850528
+            "sizeBytes": 34850098
           },
           {
             "id": "packer_1.16.3-dev_windows_amd64.zip.json",
@@ -2242,7 +2230,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 33576804
+            "sizeBytes": 33576834
           },
           {
             "id": "packer_1.16.3.dev-1_arm64.deb",
@@ -2254,7 +2242,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 30488778
+            "sizeBytes": 30488918
           },
           {
             "id": "packer_1.16.3.dev-1_armhf.deb",
@@ -2266,7 +2254,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31472668
+            "sizeBytes": 31472924
           },
           {
             "id": "packer_1.16.3.dev-1_i386.deb",
@@ -2278,7 +2266,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31395304
+            "sizeBytes": 31395756
           },
           {
             "id": "packer_1.16.3.dev-1_ppc64el.deb",
@@ -2290,195 +2278,195 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 30389816
+            "sizeBytes": 30389398
           },
           {
-            "id": "packer_release-full_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-full_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 578899968
           },
           {
-            "id": "packer_release-full_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-full_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 578899968
           },
           {
-            "id": "packer_release-full_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-full_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 621057024
           },
           {
-            "id": "packer_release-full_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-full_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 621057024
           },
           {
-            "id": "packer_release-full_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-full_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 582047232
+            "sizeBytes": 582112768
           },
           {
-            "id": "packer_release-full_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-full_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 582047232
+            "sizeBytes": 582112768
           },
           {
-            "id": "packer_release-full_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-full_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 572334080
           },
           {
-            "id": "packer_release-full_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-full_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-full_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 572334080
           },
           {
-            "id": "packer_release-light_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-light_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 137373696
           },
           {
-            "id": "packer_release-light_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-light_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_386_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_386_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 137374720
           },
           {
-            "id": "packer_release-light_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-light_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 145243136
           },
           {
-            "id": "packer_release-light_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-light_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_amd64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_amd64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 145244160
           },
           {
-            "id": "packer_release-light_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-light_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 142663168
+            "sizeBytes": 142728704
           },
           {
-            "id": "packer_release-light_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-light_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm64_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm64_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 142664192
+            "sizeBytes": 142729728
           },
           {
-            "id": "packer_release-light_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "id": "packer_release-light_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.dev.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.dev.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 135768064
           },
           {
-            "id": "packer_release-light_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "id": "packer_release-light_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "version": "nightly",
             "platform": "linux",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm_1.16.3-dev_8b9634fa4821c2394b7163a8801e05e9f3d3d821.docker.tar",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/packer_release-light_linux_arm_1.16.3-dev_9a6ce6451c938686f06eb2ca7efecea440f9f462.docker.tar",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
@@ -2490,7 +2478,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:19.130Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:24.034Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

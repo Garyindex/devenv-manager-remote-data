@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "uv",
@@ -29,7 +29,7 @@
       "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
       "source": "winget",
       "homepage": "https://github.com/astral-sh/uv",
-      "lastUpdatedAt": "2026-11-12T23:37:04.000Z"
+      "lastUpdatedAt": "2026-11-13T06:41:13.239Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.000Z",
+          "scannedAt": "2026-11-13T06:41:13.239Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/astral-sh/uv",
-          "download": "https://github.com/astral-sh/uv/releases/download/0.13.7/uv-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/astral-sh/uv/releases/tag/0.13.7",
+          "download": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-x86_64-pc-windows-msvc.zip",
+          "releases": "https://github.com/astral-sh/uv/releases/tag/0.13.8",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
           "source": "winget",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-11-12T23:37:04.000Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.239Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "0.13.7",
+            "version": "0.13.8",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.13.7",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.12.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.13.7",
+            "version": "0.13.8",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.13.7/uv-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-x86_64-pc-windows-msvc.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "0cdc5b38fe5a8168ed6a25814f5ba43c21d313dd3187314fccb37b7cec46e021",
+            "sha256": "529e78a9cec6cd7e3e014f7ecd8bda0c113969d4ed0f2efeedb85c30943325b8",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.000Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:13.239Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.058Z",
+          "scannedAt": "2026-11-13T06:41:13.261Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Extremely fast Python package installer and resolver, written in Rust",
           "source": "homebrew",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-11-12T23:37:04.058Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.261Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.058Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:13.261Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,21 +770,21 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.081Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:13.305Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "uv",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "An extremely fast Python package installer and resolver, written in Rust.",
-          "license": "Apache-2.0|MIT",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
           "homepage": "https://docs.astral.sh/uv/",
@@ -793,11 +793,11 @@
           "docs": null
         },
         "descriptions": {
-          "short": "An extremely fast Python package installer and resolver, written in Rust.",
-          "long": "An extremely fast Python package installer and resolver, written in Rust.",
+          "short": null,
+          "long": null,
           "source": "scoop",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-11-12T23:37:04.081Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.305Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -805,8 +805,7 @@
           ],
           "keywords": [
             "uv",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -815,28 +814,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "0.13.8",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "0.13.8",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://docs.astral.sh/uv/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -898,11 +886,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.081Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -947,7 +935,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.126Z",
+          "scannedAt": "2026-11-13T06:41:13.471Z",
           "errors": []
         },
         "package": {
@@ -975,7 +963,7 @@
           "long": "Dev Ensure the directory name is uv for any command to run",
           "source": "choco",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-11-12T23:37:04.126Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.471Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1368,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.126Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:13.471Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1416,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:04.169Z",
+          "scannedAt": "2026-11-13T06:41:13.483Z",
           "errors": []
         },
         "package": {
@@ -1456,7 +1444,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust.",
           "source": "github",
           "homepage": "https://docs.astral.sh/uv",
-          "lastUpdatedAt": "2026-11-12T23:37:04.169Z"
+          "lastUpdatedAt": "2026-11-13T06:41:13.483Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2745,7 +2733,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:04.169Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:13.483Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

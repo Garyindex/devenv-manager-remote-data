@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "php",
@@ -29,7 +29,7 @@
       "long": "PHP is an HTML-embedded scripting language. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly. This product includes PHP software, freely available from http://www.php.net/software/",
       "source": "choco",
       "homepage": "http://www.php.net/",
-      "lastUpdatedAt": "2026-11-12T23:37:43.457Z"
+      "lastUpdatedAt": "2026-11-13T06:41:37.569Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:43.392Z",
+          "scannedAt": "2026-11-13T06:41:37.450Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "General-purpose scripting language",
           "source": "homebrew",
           "homepage": "https://www.php.net/",
-          "lastUpdatedAt": "2026-11-12T23:37:43.392Z"
+          "lastUpdatedAt": "2026-11-13T06:41:37.450Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -269,7 +269,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:43.392Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:37.450Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -314,21 +314,21 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:43.410Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:37.492Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
+          ]
         },
         "package": {
           "name": "PHP",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "A popular general-purpose scripting language that is especially suited to web development. (thread safe)",
-          "license": "PHP-3.01",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
           "homepage": "https://www.php.net/",
@@ -337,11 +337,11 @@
           "docs": null
         },
         "descriptions": {
-          "short": "A popular general-purpose scripting language that is especially suited to web development. (thread safe)",
-          "long": "A popular general-purpose scripting language that is especially suited to web development. (thread safe)",
+          "short": null,
+          "long": null,
           "source": "scoop",
           "homepage": "https://www.php.net/",
-          "lastUpdatedAt": "2026-11-12T23:37:43.410Z"
+          "lastUpdatedAt": "2026-11-13T06:41:37.492Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -350,8 +350,7 @@
           "keywords": [
             "php",
             "PHP",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -360,28 +359,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "8.5.12-1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "8.5.12-1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://www.php.net/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -443,11 +431,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:43.410Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -492,7 +480,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:43.457Z",
+          "scannedAt": "2026-11-13T06:41:37.569Z",
           "errors": []
         },
         "package": {
@@ -522,7 +510,7 @@
           "long": "PHP is an HTML-embedded scripting language. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly. This product includes PHP software, freely available from http://www.php.net/software/",
           "source": "choco",
           "homepage": "http://www.php.net/",
-          "lastUpdatedAt": "2026-11-12T23:37:43.457Z"
+          "lastUpdatedAt": "2026-11-13T06:41:37.569Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -929,7 +917,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:43.457Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:37.569Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

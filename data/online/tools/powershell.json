@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "powershell",
@@ -29,7 +29,7 @@
       "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
       "source": "choco",
       "homepage": "https://github.com/PowerShell/PowerShell",
-      "lastUpdatedAt": "2026-11-12T23:36:55.209Z"
+      "lastUpdatedAt": "2026-11-13T06:41:06.714Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -101,7 +101,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:55.038Z",
+          "scannedAt": "2026-11-13T06:41:06.399Z",
           "errors": []
         },
         "package": {
@@ -124,7 +124,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-11-12T23:36:55.038Z"
+          "lastUpdatedAt": "2026-11-13T06:41:06.399Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -553,7 +553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:55.038Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:06.399Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -602,7 +602,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:55.160Z",
+          "scannedAt": "2026-11-13T06:41:06.545Z",
           "errors": []
         },
         "package": {
@@ -628,7 +628,7 @@
           "long": "Command-line shell and scripting language",
           "source": "homebrew",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-11-12T23:36:55.160Z"
+          "lastUpdatedAt": "2026-11-13T06:41:06.545Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -735,7 +735,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:55.160Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:06.545Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -782,34 +782,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:36:55.169Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:06.591Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
+          ]
         },
         "package": {
           "name": "PowerShell 7",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
-          "license": "MIT",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://microsoft.com/PowerShell",
+          "homepage": "https://github.com/PowerShell/PowerShell",
           "download": "https://github.com/PowerShell/PowerShell",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
-          "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-11-12T23:36:55.169Z"
+          "homepage": "https://github.com/PowerShell/PowerShell",
+          "lastUpdatedAt": "2026-11-13T06:41:06.591Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -819,8 +819,7 @@
             "powershell",
             "PowerShell 7",
             "pwsh",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -829,28 +828,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "7.7.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "7.7.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://github.com/PowerShell/PowerShell",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -912,11 +900,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:55.169Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -963,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:55.209Z",
+          "scannedAt": "2026-11-13T06:41:06.714Z",
           "errors": []
         },
         "package": {
@@ -991,7 +979,7 @@
           "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
           "source": "choco",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-11-12T23:36:55.209Z"
+          "lastUpdatedAt": "2026-11-13T06:41:06.714Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1396,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:55.209Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:06.714Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1446,7 +1434,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:36:55.323Z",
+          "scannedAt": "2026-11-13T06:41:06.847Z",
           "errors": []
         },
         "package": {
@@ -1478,7 +1466,7 @@
           "long": "PowerShell for every system!",
           "source": "github",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-11-12T23:36:55.323Z"
+          "lastUpdatedAt": "2026-11-13T06:41:06.847Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2773,7 +2761,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:36:55.323Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:06.847Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

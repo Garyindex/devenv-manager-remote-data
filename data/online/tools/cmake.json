@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "cmake",
@@ -29,7 +29,7 @@
       "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
       "source": "choco",
       "homepage": "https://www.cmake.org/",
-      "lastUpdatedAt": "2026-11-12T23:37:10.413Z"
+      "lastUpdatedAt": "2026-11-13T06:41:17.436Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -100,7 +100,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:10.097Z",
+          "scannedAt": "2026-11-13T06:41:17.347Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://cmake.org/",
-          "lastUpdatedAt": "2026-11-12T23:37:10.097Z"
+          "lastUpdatedAt": "2026-11-13T06:41:17.347Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -551,7 +551,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:10.097Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:17.347Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -600,7 +600,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:10.260Z",
+          "scannedAt": "2026-11-13T06:41:17.371Z",
           "errors": []
         },
         "package": {
@@ -617,7 +617,7 @@
         },
         "links": {
           "homepage": "https://www.cmake.org/",
-          "download": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5.tar.gz",
+          "download": "https://github.com/Kitware/CMake/releases/download/v4.5.0/cmake-4.5.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -626,7 +626,7 @@
           "long": "Cross-platform make",
           "source": "homebrew",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-11-12T23:37:10.260Z"
+          "lastUpdatedAt": "2026-11-13T06:41:17.371Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -648,7 +648,7 @@
         },
         "versions": [
           {
-            "version": "4.4.5",
+            "version": "4.5.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -661,14 +661,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.4.5",
+            "version": "4.5.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5.tar.gz",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.5.0/cmake-4.5.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "a0c54c88abb8078dd8eccadb717fc6bb194bf18e7d44c86309910288886e04e2",
+            "sha256": "424352d6133e8455e020da787008e8dc67abb18820af3532572ab35657e49213",
             "sizeBytes": null
           }
         ],
@@ -732,7 +732,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:10.260Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:17.371Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -779,34 +779,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:10.323Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:17.412Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "CMake",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "Family of tools designed to build, test and package software",
-          "license": "BSD-3-Clause",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://cmake.org",
+          "homepage": "https://cmake.org/",
           "download": "https://cmake.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Family of tools designed to build, test and package software",
-          "long": "Family of tools designed to build, test and package software",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://cmake.org",
-          "lastUpdatedAt": "2026-11-12T23:37:10.323Z"
+          "homepage": "https://cmake.org/",
+          "lastUpdatedAt": "2026-11-13T06:41:17.412Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -815,8 +815,7 @@
           "keywords": [
             "cmake",
             "CMake",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -825,28 +824,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "4.5.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "4.5.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://cmake.org/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -908,11 +896,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:10.323Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -959,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:10.413Z",
+          "scannedAt": "2026-11-13T06:41:17.436Z",
           "errors": []
         },
         "package": {
@@ -989,7 +977,7 @@
           "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
           "source": "choco",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-11-12T23:37:10.413Z"
+          "lastUpdatedAt": "2026-11-13T06:41:17.436Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1396,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:10.413Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:17.436Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1446,7 +1434,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:10.559Z",
+          "scannedAt": "2026-11-13T06:41:17.460Z",
           "errors": []
         },
         "package": {
@@ -1469,7 +1457,7 @@
           "long": "Mirror of CMake upstream repository",
           "source": "github",
           "homepage": "https://gitlab.kitware.com/cmake/cmake",
-          "lastUpdatedAt": "2026-11-12T23:37:10.559Z"
+          "lastUpdatedAt": "2026-11-13T06:41:17.460Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2744,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:10.559Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:17.460Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

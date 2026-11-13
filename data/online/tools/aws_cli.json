@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T23:37:49.567Z",
+  "generatedAt": "2026-11-13T06:41:42.146Z",
   "status": "partial",
   "tool": {
     "id": "aws_cli",
@@ -29,7 +29,7 @@
       "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
       "source": "choco",
       "homepage": "https://aws.amazon.com/cli/",
-      "lastUpdatedAt": "2026-11-12T23:37:21.502Z"
+      "lastUpdatedAt": "2026-11-13T06:41:25.269Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.107Z",
+          "scannedAt": "2026-11-13T06:41:25.132Z",
           "errors": []
         },
         "package": {
@@ -112,7 +112,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.40.0.msi",
+          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.40.2.msi",
           "releases": null,
           "docs": null
         },
@@ -121,7 +121,7 @@
           "long": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program.",
           "source": "winget",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-11-12T23:37:21.107Z"
+          "lastUpdatedAt": "2026-11-13T06:41:25.132Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,29 @@
         },
         "versions": [
           {
-            "version": "2.40.0",
+            "version": "2.40.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.40.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.40.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -420,39 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.37.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.37.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.40.0",
+            "version": "2.40.2",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.0.msi",
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.2.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "2da0ece2673bcadc38fabf8f1cb6c4dc89c0f624ea7ce01ea44961387023de4d",
+            "sha256": "9ed438e8c0f1f12ff4e415efe92aba49a9ded130efa435005ab9091a8f458431",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.107Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:25.132Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.308Z",
+          "scannedAt": "2026-11-13T06:41:25.154Z",
           "errors": []
         },
         "package": {
@@ -614,7 +614,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://github.com/aws/aws-cli/archive/refs/tags/2.40.1.tar.gz",
+          "download": "https://github.com/aws/aws-cli/archive/refs/tags/2.40.2.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -623,7 +623,7 @@
           "long": "Official Amazon AWS command-line interface",
           "source": "homebrew",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-11-12T23:37:21.308Z"
+          "lastUpdatedAt": "2026-11-13T06:41:25.154Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -646,7 +646,7 @@
         },
         "versions": [
           {
-            "version": "2.40.1",
+            "version": "2.40.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -669,14 +669,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.40.1",
+            "version": "2.40.2",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/aws/aws-cli/archive/refs/tags/2.40.1.tar.gz",
+            "url": "https://github.com/aws/aws-cli/archive/refs/tags/2.40.2.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "ac94d479daa96a2d58bc94dd1143b05a717d3da2255160d3cfc24e2e073151a2",
+            "sha256": "1dad72bbe062d3bc3193e33a992f2fb3a3229001cff6e84f3fb06904c7ff405a",
             "sizeBytes": null
           }
         ],
@@ -740,7 +740,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.308Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:25.154Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -785,21 +785,21 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.374Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-11-13T06:41:25.223Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
+            "versions: ScoopInstaller/Main: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Extras: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).; ScoopInstaller/Nonportable: 429 Too Many Requests: 429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
+          ]
         },
         "package": {
           "name": "AWS CLI",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "Unified tool to manage AWS services",
-          "license": "Apache-2.0",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
@@ -808,11 +808,11 @@
           "docs": null
         },
         "descriptions": {
-          "short": "Unified tool to manage AWS services",
-          "long": "Unified tool to manage AWS services",
+          "short": null,
+          "long": null,
           "source": "scoop",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-11-12T23:37:21.374Z"
+          "lastUpdatedAt": "2026-11-13T06:41:25.223Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -822,8 +822,7 @@
             "aws_cli",
             "AWS CLI",
             "aws",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -832,28 +831,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.40.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.40.2",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://aws.amazon.com/cli/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -915,11 +903,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.374Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -964,7 +952,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-12T23:37:21.502Z",
+          "scannedAt": "2026-11-13T06:41:25.269Z",
           "errors": []
         },
         "package": {
@@ -998,7 +986,7 @@
           "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
           "source": "choco",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-11-12T23:37:21.502Z"
+          "lastUpdatedAt": "2026-11-13T06:41:25.269Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1410,7 +1398,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-12T23:37:21.502Z",
+          "lastSuccessfulScanAt": "2026-11-13T06:41:25.269Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
