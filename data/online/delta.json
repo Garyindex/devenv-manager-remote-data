@@ -1,994 +1,176 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T19:39:51.955Z",
-  "fromGeneratedAt": "2026-11-13T06:41:42.146Z",
-  "toGeneratedAt": "2026-11-13T19:39:51.955Z",
+  "generatedAt": "2026-11-14T06:19:03.755Z",
+  "fromGeneratedAt": "2026-11-13T19:39:51.955Z",
+  "toGeneratedAt": "2026-11-14T06:19:03.755Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 63,
+    "changedTools": 16,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 70,
-    "qualityChanges": 59
+    "versionChanges": 19,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "git",
       "github_cli",
-      "git_lfs",
-      "vscodium",
       "vim",
-      "emacs",
-      "powershell",
-      "oh_my_posh",
-      "starship",
-      "ripgrep",
-      "fd",
-      "bat",
-      "fzf",
-      "jq",
-      "zoxide",
-      "node_lts",
-      "node_current",
-      "bun",
-      "nvm_windows",
-      "python_311",
+      "pnpm",
       "uv",
-      "poetry",
-      "miniconda",
-      "rust_msvc",
-      "tinygo",
-      "temurin_21",
-      "maven",
-      "gradle",
-      "scala",
       "cmake",
-      "ninja",
-      "llvm",
-      "msys2",
-      "podman",
-      "helm",
-      "minikube",
-      "terraform",
-      "opentofu",
-      "packer",
-      "vagrant",
+      "docker_desktop",
       "aws_cli",
-      "azure_cli",
-      "google_cloud_sdk",
       "cloudflared",
       "postman",
-      "bruno",
-      "mysql",
-      "mariadb",
-      "redis",
-      "dbeaver",
-      "android_platform_tools",
+      "beekeeper_studio",
       "flutter",
-      "mitmproxy",
-      "nmap",
+      "rstudio",
       "julia",
-      "quarto",
-      "netlify_cli",
       "supabase_cli",
-      "php",
-      "ruby",
-      "erlang",
-      "blender",
-      "hugo"
+      "unity_hub",
+      "pandoc"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "git",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "2.56.1"
-      },
-      {
         "toolId": "github_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.103.3",
         "to": "2.104.0"
       },
       {
-        "toolId": "git_lfs",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "3.8.1"
-      },
-      {
-        "toolId": "vscodium",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.143.17232"
+        "toolId": "vim",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.2.1342",
+        "to": "9.2.1345"
       },
       {
         "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": null,
-        "to": "9.2.1320"
+        "from": "9.2.1320",
+        "to": "9.2.1345"
       },
       {
-        "toolId": "emacs",
+        "toolId": "pnpm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": null,
-        "to": "31.1"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "7.6.9",
-        "to": "7.7.0"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "7.7.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "32.0.0"
-      },
-      {
-        "toolId": "starship",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.27.0"
-      },
-      {
-        "toolId": "ripgrep",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "15.2.0"
-      },
-      {
-        "toolId": "fd",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "10.5.2"
-      },
-      {
-        "toolId": "bat",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "0.26.1"
-      },
-      {
-        "toolId": "fzf",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "0.75.0"
-      },
-      {
-        "toolId": "jq",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.8.2"
-      },
-      {
-        "toolId": "zoxide",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "0.10.0"
-      },
-      {
-        "toolId": "node_lts",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "26.13.1"
-      },
-      {
-        "toolId": "node_lts",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "24.22.2",
-        "to": "26.13.1"
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "26.13.1"
-      },
-      {
-        "toolId": "bun",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.4.4"
-      },
-      {
-        "toolId": "nvm_windows",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "2.0.1"
-      },
-      {
-        "toolId": "python_311",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "3.11.9"
+        "from": "12.20.0",
+        "to": "12.21.0"
       },
       {
         "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.13.7",
         "to": "0.13.8"
       },
       {
-        "toolId": "poetry",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "2.5.1"
-      },
-      {
-        "toolId": "miniconda",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "26.9.4-1"
-      },
-      {
-        "toolId": "rust_msvc",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.99.1",
-        "to": "1.100.0"
-      },
-      {
-        "toolId": "tinygo",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "0.44.0"
-      },
-      {
-        "toolId": "temurin_21",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "21.0.13-9.0"
-      },
-      {
-        "toolId": "maven",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "3.10.0"
-      },
-      {
-        "toolId": "gradle",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "9.9.1"
-      },
-      {
-        "toolId": "scala",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "3.10.1"
-      },
-      {
         "toolId": "cmake",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.5.0-rc3",
         "to": "4.5.0"
       },
       {
-        "toolId": "ninja",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.13.2"
-      },
-      {
-        "toolId": "llvm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "23.1.5"
-      },
-      {
-        "toolId": "podman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "6.2.0"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.3.1",
-        "to": "4.3.2"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "4.3.1",
-        "to": "4.3.2"
-      },
-      {
-        "toolId": "minikube",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.39.0"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.17.2"
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.13.9"
-      },
-      {
-        "toolId": "packer",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.16.2"
-      },
-      {
-        "toolId": "vagrant",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "2.4.9"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "2.40.2"
-      },
-      {
-        "toolId": "aws_cli",
+        "toolId": "docker_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.40.0",
-        "to": "2.40.1"
+        "from": "4.98.0",
+        "to": "4.99.0"
       },
       {
-        "toolId": "azure_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "2.92.0"
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.40.2",
+        "to": "2.40.3"
       },
       {
-        "toolId": "google_cloud_sdk",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": null,
-        "to": "593.0.0"
+        "from": "2.40.2",
+        "to": "2.40.3"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.10.7",
         "to": "2026.11.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.36.3",
-        "to": "12.36.4"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.36.2",
+        "to": "12.36.3"
       },
       {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.36.3",
-        "to": "12.36.4"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "12.36.4"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "4.3.0"
-      },
-      {
-        "toolId": "mysql",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "26.10.0"
-      },
-      {
-        "toolId": "mariadb",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "13.0.2"
-      },
-      {
-        "toolId": "redis",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "8.10.3"
-      },
-      {
-        "toolId": "dbeaver",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "26.2.4"
-      },
-      {
-        "toolId": "android_platform_tools",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "37.0.1"
+        "toolId": "beekeeper_studio",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "6.2.2",
+        "to": "6.3.0-beta.0"
       },
       {
         "toolId": "flutter",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "3.50.0"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.47.5",
+        "to": "3.47.6"
       },
       {
-        "toolId": "mitmproxy",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "12.3.1"
+        "toolId": "rstudio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.10.1",
+        "to": "2026.11.0"
       },
       {
-        "toolId": "nmap",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "7.993"
+        "toolId": "julia",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.13.3",
+        "to": "1.13.4"
       },
       {
         "toolId": "julia",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": null,
-        "to": "1.13.3"
-      },
-      {
-        "toolId": "quarto",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "1.11.9"
-      },
-      {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.17.0",
-        "to": "27.19.0"
+        "from": "1.13.3",
+        "to": "1.13.4"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "4.0.0-next.22",
-        "to": "4.0.0-next.24"
+        "from": "4.0.0-next.24",
+        "to": "4.0.0-next.25"
       },
       {
-        "toolId": "php",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "8.5.12-1"
+        "toolId": "unity_hub",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.22.6",
+        "to": "4.0.0"
       },
       {
-        "toolId": "ruby",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "4.0.9-1"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "29.1.2"
-      },
-      {
-        "toolId": "blender",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "5.3.0"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.169.0",
-        "to": "0.170.0"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": null,
-        "to": "0.170.0"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.169.0",
-        "to": "0.170.0"
+        "toolId": "pandoc",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.13",
+        "to": "3.14"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "git",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "git_lfs",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "vscodium",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "emacs",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "starship",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "ripgrep",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "fd",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "bat",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "fzf",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "jq",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "zoxide",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "node_lts",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "bun",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "nvm_windows",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "python_311",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "poetry",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "miniconda",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "tinygo",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "temurin_21",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "maven",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "gradle",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "scala",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "ninja",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "llvm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "msys2",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "podman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "minikube",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "packer",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "vagrant",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "azure_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "mysql",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "mariadb",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "redis",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "dbeaver",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "android_platform_tools",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "mitmproxy",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "nmap",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "julia",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "quarto",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "php",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "ruby",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "blender",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": 40,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }

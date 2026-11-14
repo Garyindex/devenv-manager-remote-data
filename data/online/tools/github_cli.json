@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T19:39:51.955Z",
+  "generatedAt": "2026-11-14T06:19:03.755Z",
   "status": "partial",
   "tool": {
     "id": "github_cli",
@@ -32,7 +32,7 @@
       "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-11-13T19:39:18.801Z"
+      "lastUpdatedAt": "2026-11-14T06:18:05.961Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -105,7 +105,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T19:39:18.782Z",
+          "scannedAt": "2026-11-14T06:18:05.920Z",
           "errors": []
         },
         "package": {
@@ -131,7 +131,7 @@
           "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-11-13T19:39:18.782Z"
+          "lastUpdatedAt": "2026-11-14T06:18:05.920Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T19:39:18.782Z",
+          "lastSuccessfulScanAt": "2026-11-14T06:18:05.920Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T19:39:18.799Z",
+          "scannedAt": "2026-11-14T06:18:05.957Z",
           "errors": []
         },
         "package": {
@@ -639,7 +639,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-11-13T19:39:18.799Z"
+          "lastUpdatedAt": "2026-11-14T06:18:05.957Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -750,7 +750,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T19:39:18.799Z",
+          "lastSuccessfulScanAt": "2026-11-14T06:18:05.957Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -796,7 +796,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T19:39:18.800Z",
+          "scannedAt": "2026-11-14T06:18:05.959Z",
           "errors": []
         },
         "package": {
@@ -824,7 +824,7 @@
           "long": "Official GitHub CLI",
           "source": "scoop",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-11-13T19:39:18.800Z"
+          "lastUpdatedAt": "2026-11-14T06:18:05.959Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -934,7 +934,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T19:39:18.800Z",
+          "lastSuccessfulScanAt": "2026-11-14T06:18:05.959Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -980,7 +980,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T19:39:18.801Z",
+          "scannedAt": "2026-11-14T06:18:05.961Z",
           "errors": []
         },
         "package": {
@@ -1001,8 +1001,8 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://community.chocolatey.org/api/v2/package/gh/2.103.3",
-          "releases": "## What's Changed\n### 🐛 Fixes\n\n* fix(gh auth status): explain expired expiring tokens with `--no-refresh` by @babakks in [#14815](https://github.com/cli/cli/pull/14815)\n\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.103.2...v2.103.3",
+          "download": "https://community.chocolatey.org/api/v2/package/gh/2.104.0",
+          "releases": "## Protect private forks when deleting repositories\n\n`gh repo delete` now warns when deleting a private or internal repository will also delete its forks. The additional confirmation is required even with `--yes`.\n\nNon-interactive workflows and agents must explicitly accept the cascading deletion:\n\n```shell\ngh repo delete OWNER/REPO --yes --accept-cascading-deletion-of-private-forks\n```\n\n## What's Changed\n\n### ✨ Features\n\n* Require confirmation before `gh repo delete` deletes private forks by @BagToad in [#14858](https://github.com/cli/cli/pull/14858)\n\n### 🐛 Fixes\n\n* fix(auth status): surface underlying rate-limit, server, and network errors in terminal output by @babakks and @Copilot in [#15009](https://github.com/cli/cli/pull/15009)\n* fix(auth): skip token refresh when `gh`'s state directory is not writable by @babakks in [#14845](https://github.com/cli/cli/pull/14845)\n\n### 📚 Docs & Chores\n\n* Use REST to apply issue triage labels by @BagToad in [#15041](https://github.com/cli/cli/pull/15041)\n* Prevent repeated Dependabot triage assessments by @BagToad in [#15002](https://github.com/cli/cli/pull/15002)\n* Apply issue triage labels directly by @BagToad in [#15001](https://github.com/cli/cli/pull/15001)\n* Provide verified build versions to issue triage by @BagToad in [#15000](https://github.com/cli/cli/pull/15000)\n* Use a synthetic namespace for triage fixtures by @BagToad in [#14976](https://github.com/cli/cli/pull/14976)\n* Remove the accidental issue-triage model pin by @BagToad in [#14972](https://github.com/cli/cli/pull/14972)\n* Add a fake GitHub API runner for reproductions by @BagToad in [#14951](https://github.com/cli/cli/pull/14951)\n* Clarify which hosts use `GH_ENTERPRISE_TOKEN` by @BagToad in [#14918](https://github.com/cli/cli/pull/14918)\n* Regenerate triage workflows with `gh-aw` v1.0.1 by @tidy-dev in [#14910](https://github.com/cli/cli/pull/14910)\n* Test the `ShowRefs` option separator by @BagToad in [#14879](https://github.com/cli/cli/pull/14879)\n* Fix local extension-install test path normalization by @bobrik in [#14854](https://github.com/cli/cli/pull/14854)\n* Save Go caches only from trunk by @williammartin in [#14840](https://github.com/cli/cli/pull/14840)\n* Add a private vulnerability report form by @BagToad in [#14825](https://github.com/cli/cli/pull/14825)\n* Replace `msgpack` with a minimal node ID encoder by @tj-smith47 in [#14801](https://github.com/cli/cli/pull/14801)\n* Test the Git client with real repositories by @williammartin in [#14348](https://github.com/cli/cli/pull/14348)\n\n### :dependabot: Dependencies\n\n* chore(deps): bump `github.com/klauspost/compress` from 1.20.3 to 1.20.4 by @dependabot in [#15040](https://github.com/cli/cli/pull/15040)\n* chore(deps): bump `charm.land/lipgloss/v2` from 2.0.6 to 2.1.0 by @dependabot in [#15039](https://github.com/cli/cli/pull/15039)\n* chore(deps): bump Go toolchain from 1.27.3 to 1.27.4 by @github-actions[bot] in [#15028](https://github.com/cli/cli/pull/15028)\n* chore(deps): bump `golang.org/x/sys` from 0.49.0 to 0.50.0 by @dependabot in [#15010](https://github.com/cli/cli/pull/15010)\n* chore(deps): bump `golang.org/x/sync` from 0.24.0 to 0.25.0 by @dependabot in [#14998](https://github.com/cli/cli/pull/14998)\n* chore(deps): bump the `codeql-actions` group across 1 directory with 3 updates by @dependabot in [#14964](https://github.com/cli/cli/pull/14964)\n* chore(deps): bump `github.com/spf13/pflag` from 1.0.10 to 1.1.0 by @dependabot in [#14963](https://github.com/cli/cli/pull/14963)\n* chore(deps): bump `github.com/yuin/goldmark` from 1.8.6 to 1.8.7 by @dependabot in [#14907](https://github.com/cli/cli/pull/14907)\n* chore(deps): bump `charm.land/bubbletea/v2` from 2.1.0 to 2.1.1 by @dependabot in [#14906](https://github.com/cli/cli/pull/14906)\n* chore(deps): bump `github.com/sigstore/sigstore-go` from 1.3.0 to 1.4.0 by @dependabot in [#14905](https://github.com/cli/cli/pull/14905)\n* chore(deps): bump `google.golang.org/grpc` from 1.84.0 to 1.85.0 by @dependabot in [#14878](https://github.com/cli/cli/pull/14878)\n* chore(deps): bump the `codeql-actions` group with 3 updates by @dependabot in [#14824](https://github.com/cli/cli/pull/14824)\n\n\n## New Contributors\n* @tj-smith47 made their first contribution in https://github.com/cli/cli/pull/14801\n* @bobrik made their first contribution in https://github.com/cli/cli/pull/14854\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.103.3...v2.104.0",
           "docs": null
         },
         "descriptions": {
@@ -1010,7 +1010,7 @@
           "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-11-13T19:39:18.801Z"
+          "lastUpdatedAt": "2026-11-14T06:18:05.961Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1039,9 +1039,19 @@
         },
         "versions": [
           {
-            "version": "2.103.3",
+            "version": "2.104.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.103.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1327,29 +1337,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.82.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.103.3",
+            "version": "2.104.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/gh/2.103.3",
+            "url": "https://community.chocolatey.org/api/v2/package/gh/2.104.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "rGkfP0joUbB92ns4UD6yLIynNX01C2GSKL+clWIXY9gH0rnX48yZ7AsIBOHYKT5gYh0WhKgUiu9v4SVv03uQZQ==",
+            "sha256": "MmDOzLBFMcyci9kRUVWcaqf6mkQy2i6QUAQNMqLNROtsTVVXiOD/Xgpz0AybWFaA+3o4a+FugTrrhPZDDMJESw==",
             "sizeBytes": null
           }
         ],
@@ -1421,7 +1421,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T19:39:18.801Z",
+          "lastSuccessfulScanAt": "2026-11-14T06:18:05.961Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1469,7 +1469,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-13T19:39:19.074Z",
+          "scannedAt": "2026-11-14T06:18:06.345Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1499,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-11-13T19:39:19.074Z"
+          "lastUpdatedAt": "2026-11-14T06:18:06.345Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2794,7 +2794,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-13T19:39:19.074Z",
+          "lastSuccessfulScanAt": "2026-11-14T06:18:06.345Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
