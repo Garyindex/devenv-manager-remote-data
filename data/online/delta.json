@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T06:26:18.918Z",
-  "fromGeneratedAt": "2026-11-14T22:22:29.937Z",
-  "toGeneratedAt": "2026-11-15T06:26:18.918Z",
+  "generatedAt": "2026-11-15T18:50:12.320Z",
+  "fromGeneratedAt": "2026-11-15T06:26:18.918Z",
+  "toGeneratedAt": "2026-11-15T18:50:12.320Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 12,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,8 +18,10 @@
     "removedTools": [],
     "changedTools": [
       "vim",
-      "aws_cli",
-      "google_cloud_sdk",
+      "oh_my_posh",
+      "pnpm",
+      "maven",
+      "dbeaver",
       "flutter"
     ],
     "addedSources": [],
@@ -27,31 +29,87 @@
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.1342",
-        "to": "9.2.1345"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.2.1345",
+        "to": "9.2.1351"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.40.2",
-        "to": "2.40.3"
+        "from": "9.2.1345",
+        "to": "9.2.1351"
       },
       {
-        "toolId": "google_cloud_sdk",
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "32.0.0",
+        "to": "32.1.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "32.0.0",
+        "to": "32.1.0"
+      },
+      {
+        "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "592.0.0",
-        "to": "593.0.0"
+        "from": "32.0.0",
+        "to": "32.1.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "32.0.0",
+        "to": "32.1.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.18.0",
+        "to": "12.21.0"
+      },
+      {
+        "toolId": "maven",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.10.0",
+        "to": "3.10.1"
+      },
+      {
+        "toolId": "maven",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.10.0",
+        "to": "3.10.1"
+      },
+      {
+        "toolId": "maven",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.10.0",
+        "to": "3.10.1"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "26.2.4",
+        "to": "26.2.5"
       },
       {
         "toolId": "flutter",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.47.7",
-        "to": "3.47.8"
+        "from": "3.47.8",
+        "to": "3.47.9"
       }
     ],
     "qualityChanges": []
