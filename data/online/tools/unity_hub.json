@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T22:00:09.763Z",
+  "generatedAt": "2026-11-17T07:53:16.655Z",
   "status": "partial",
   "tool": {
     "id": "unity_hub",
@@ -28,7 +28,7 @@
       "long": "Unity Hub Features - Manage your Unity account and Editor licenses. - Create your Project, associate a default version of the Unity Editor with the Project, and manage the installation of multiple versions of the Editor. - Set your preferred version of Unity, but also easily launch other versions from your Project view. - Manage and select Project build targets without launching the Editor. - Run two versions of Unity at the same time. Note that to prevent local conflicts and other odd scenarios, you should only open a Project in one Editor instance at a time. - Add components to existing installations of the Editor. When you download a version of the Editor through Unity Hub, you can find and add additional components (such as specific platform support, Visual Studio, offline docs and Standard Assets) either during initial install or at a later date. - Use Project Templates to jump-start the creation process for common Project types. Unity’s Project Templates provide default values for common settings when you create a new Project. Project Templates preset batches of settings for a target game type or level of visual fidelity. For more information, see Project Templates. Packag...",
       "source": "choco",
       "homepage": "https://unity3d.com/",
-      "lastUpdatedAt": "2026-11-16T22:00:04.918Z"
+      "lastUpdatedAt": "2026-11-17T07:53:10.646Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,7 +82,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-16T22:00:04.676Z",
+          "scannedAt": "2026-11-17T07:53:10.171Z",
           "errors": []
         },
         "package": {
@@ -96,7 +96,7 @@
         },
         "links": {
           "homepage": "https://unity.com/unity-hub",
-          "download": "https://public-cdn.cloud.unity3d.com/hub/prod/3.22.6/UnityHubSetup-3.22.6-x64.exe",
+          "download": "https://public-cdn.cloud.unity3d.com/hub/prod/4.0.1/UnityHubSetup-4.0.1-x64-msix-converter.exe",
           "releases": null,
           "docs": null
         },
@@ -105,7 +105,7 @@
           "long": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
           "source": "winget",
           "homepage": "https://unity.com/unity-hub",
-          "lastUpdatedAt": "2026-11-16T22:00:04.676Z"
+          "lastUpdatedAt": "2026-11-17T07:53:10.171Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -125,9 +125,19 @@
         },
         "versions": [
           {
-            "version": "3.22.6.65535",
+            "version": "4.0.1.65535",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.22.6.65535",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -378,14 +388,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "3.22.6.65535",
+            "version": "4.0.1.65535",
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://public-cdn.cloud.unity3d.com/hub/prod/3.22.6/UnityHubSetup-3.22.6-x64.exe",
+            "url": "https://public-cdn.cloud.unity3d.com/hub/prod/4.0.1/UnityHubSetup-4.0.1-x64-msix-converter.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "2bd8b7086c0bc986f033a31b55bc5d1f5452d10cab66b5f41c98ab5d84cabfa2",
+            "sha256": "eeb7f99330eb516d3e6b03191bb2e31cfff9add5c263042a8ad123ee8d559b90",
             "sizeBytes": null
           }
         ],
@@ -483,7 +493,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-16T22:00:04.676Z",
+          "lastSuccessfulScanAt": "2026-11-17T07:53:10.171Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -516,7 +526,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-16T22:00:04.839Z",
+          "scannedAt": "2026-11-17T07:53:10.617Z",
           "errors": []
         },
         "package": {
@@ -533,7 +543,7 @@
         },
         "links": {
           "homepage": "https://docs.unity.com/en-us/hub",
-          "download": "https://public-cdn.cloud.unity3d.com/hub/prod/4.0.0/UnityHubSetup-4.0.0-arm64.dmg",
+          "download": "https://public-cdn.cloud.unity3d.com/hub/prod/4.0.1/UnityHubSetup-4.0.1-arm64.dmg",
           "releases": null,
           "docs": null
         },
@@ -542,7 +552,7 @@
           "long": "Management tool for Unity",
           "source": "homebrew",
           "homepage": "https://docs.unity.com/en-us/hub",
-          "lastUpdatedAt": "2026-11-16T22:00:04.839Z"
+          "lastUpdatedAt": "2026-11-17T07:53:10.617Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -564,7 +574,7 @@
         },
         "versions": [
           {
-            "version": "4.0.0",
+            "version": "4.0.1",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -577,14 +587,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "platform": "macos",
             "architecture": null,
             "type": "cask",
-            "url": "https://public-cdn.cloud.unity3d.com/hub/prod/4.0.0/UnityHubSetup-4.0.0-arm64.dmg",
+            "url": "https://public-cdn.cloud.unity3d.com/hub/prod/4.0.1/UnityHubSetup-4.0.1-arm64.dmg",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "253ba613bb06e9e24a1f97d1ac194255ad4cf72207d2194f40b958bfd49f64cf",
+            "sha256": "38604d555a6cb8faf01a1cc80d647bfb381a57387611923d83f5b3b2b519f293",
             "sizeBytes": null
           }
         ],
@@ -648,7 +658,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-16T22:00:04.839Z",
+          "lastSuccessfulScanAt": "2026-11-17T07:53:10.617Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -681,7 +691,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-16T22:00:04.918Z",
+          "scannedAt": "2026-11-17T07:53:10.646Z",
           "errors": []
         },
         "package": {
@@ -702,7 +712,7 @@
         },
         "links": {
           "homepage": "https://unity3d.com/",
-          "download": "https://community.chocolatey.org/api/v2/package/unity-hub/4.0.0",
+          "download": "https://community.chocolatey.org/api/v2/package/unity-hub/4.0.1",
           "releases": "https://unity3d.com/hub/whats-new",
           "docs": null
         },
@@ -711,7 +721,7 @@
           "long": "Unity Hub Features - Manage your Unity account and Editor licenses. - Create your Project, associate a default version of the Unity Editor with the Project, and manage the installation of multiple versions of the Editor. - Set your preferred version of Unity, but also easily launch other versions from your Project view. - Manage and select Project build targets without launching the Editor. - Run two versions of Unity at the same time. Note that to prevent local conflicts and other odd scenarios, you should only open a Project in one Editor instance at a time. - Add components to existing installations of the Editor. When you download a version of the Editor through Unity Hub, you can find and add additional components (such as specific platform support, Visual Studio, offline docs and Standard Assets) either during initial install or at a later date. - Use Project Templates to jump-start the creation process for common Project types. Unity’s Project Templates provide default values for common settings when you create a new Project. Project Templates preset batches of settings for a target game type or level of visual fidelity. For more information, see Project Templates. Packag...",
           "source": "choco",
           "homepage": "https://unity3d.com/",
-          "lastUpdatedAt": "2026-11-16T22:00:04.918Z"
+          "lastUpdatedAt": "2026-11-17T07:53:10.646Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -737,9 +747,19 @@
         },
         "versions": [
           {
-            "version": "4.0.0",
+            "version": "4.0.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1025,29 +1045,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/unity-hub/4.0.0",
+            "url": "https://community.chocolatey.org/api/v2/package/unity-hub/4.0.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "m5HRGSHyPv3Vk1xdJk0aD7ov/5XFLOFFm6IQpMcbL1Yn963VfQe7QiVzR0i3UkIwmAM35jBj9LM2bnWv6LQXSQ==",
+            "sha256": "GPvYIPMjn4DwVob+5nrAnOowbeZeCOioI5uiP8NuKW9M96/BIozEZ0BGOFhZ2ka7Y3uOdhZSBgFEqxieHkPkoQ==",
             "sizeBytes": null
           }
         ],
@@ -1119,7 +1129,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-16T22:00:04.918Z",
+          "lastSuccessfulScanAt": "2026-11-17T07:53:10.646Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
