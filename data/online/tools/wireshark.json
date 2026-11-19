@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T20:29:40.859Z",
+  "generatedAt": "2026-11-19T07:22:07.269Z",
   "status": "partial",
   "tool": {
     "id": "wireshark",
@@ -29,7 +29,7 @@
       "long": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998. Wireshark has a rich feature set which includes the following: - Deep inspection of hundreds of protocols, with more being added all the time - Live capture and offline analysis - Standard three-pane packet browser - Multi-platform: Runs on Windows, Linux, macOS, Solaris, FreeBSD, NetBSD, and many others - Captured network data can be browsed via a GUI, or via the TTY-mode TShark utility - The most powerful display filters in the industry - Rich VoIP analysis - Read/write many different capture file formats: tcpdump (libpcap), Pcap NG, Catapult DCT2000, Cisco Secure IDS iplog, Microsoft Network Monitor, Network General Sniffer® (compressed and uncompressed), Sniffer® Pro, and NetXray®, Network Instruments Obser...",
       "source": "choco",
       "homepage": "http://www.wireshark.org/",
-      "lastUpdatedAt": "2026-11-18T20:29:30.215Z"
+      "lastUpdatedAt": "2026-11-19T07:21:56.402Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -84,7 +84,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-18T20:29:29.852Z",
+          "scannedAt": "2026-11-19T07:21:55.920Z",
           "errors": []
         },
         "package": {
@@ -98,8 +98,8 @@
         },
         "links": {
           "homepage": "https://www.wireshark.org/",
-          "download": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.9-x64.exe",
-          "releases": null,
+          "download": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.10-x64.exe",
+          "releases": "https://www.wireshark.org/update/relnotes/wireshark-4.6.10.html",
           "docs": null
         },
         "descriptions": {
@@ -107,7 +107,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.wireshark.org/",
-          "lastUpdatedAt": "2026-11-18T20:29:29.852Z"
+          "lastUpdatedAt": "2026-11-19T07:21:55.920Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -127,9 +127,19 @@
         },
         "versions": [
           {
-            "version": "4.6.9",
+            "version": "4.6.10",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.6.9",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -415,29 +425,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.6.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "4.6.9",
+            "version": "4.6.10",
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.9-x64.exe",
+            "url": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.10-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "bf9b5ce8a89f244c376a9b1a946276eaa06463dde3e33069a34d7f102f5878cf",
+            "sha256": "c3bd915305aef0cfaffb29981790623f97b8aa673fb5c790b1c64a3fd85c1e94",
             "sizeBytes": null
           }
         ],
@@ -535,7 +535,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-18T20:29:29.852Z",
+          "lastSuccessfulScanAt": "2026-11-19T07:21:55.920Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -569,7 +569,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-18T20:29:29.969Z",
+          "scannedAt": "2026-11-19T07:21:56.328Z",
           "errors": []
         },
         "package": {
@@ -586,7 +586,7 @@
         },
         "links": {
           "homepage": "https://www.wireshark.org",
-          "download": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.9.tar.xz",
+          "download": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.10.tar.xz",
           "releases": null,
           "docs": null
         },
@@ -595,7 +595,7 @@
           "long": "Network analyzer and capture tool - without graphical user interface",
           "source": "homebrew",
           "homepage": "https://www.wireshark.org",
-          "lastUpdatedAt": "2026-11-18T20:29:29.969Z"
+          "lastUpdatedAt": "2026-11-19T07:21:56.328Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -617,7 +617,7 @@
         },
         "versions": [
           {
-            "version": "4.6.9",
+            "version": "4.6.10",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -630,14 +630,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.6.9",
+            "version": "4.6.10",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.9.tar.xz",
+            "url": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.10.tar.xz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "d062d416a1ab3a49975aafe3a671c882dde0562ccd71b078808ceb59d465fc0f",
+            "sha256": "268f41bdf8acee561b670217cf6ea74cf9e779477543e59f92f1cd00294a03dd",
             "sizeBytes": null
           }
         ],
@@ -701,7 +701,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-18T20:29:29.969Z",
+          "lastSuccessfulScanAt": "2026-11-19T07:21:56.328Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -734,7 +734,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-18T20:29:30.023Z",
+          "scannedAt": "2026-11-19T07:21:56.357Z",
           "errors": []
         },
         "package": {
@@ -760,7 +760,7 @@
           "long": "A network protocol analyzer that lets you see what's happening on your network at a microscopic level.",
           "source": "scoop",
           "homepage": "https://www.wireshark.org/",
-          "lastUpdatedAt": "2026-11-18T20:29:30.023Z"
+          "lastUpdatedAt": "2026-11-19T07:21:56.357Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -781,7 +781,7 @@
         },
         "versions": [
           {
-            "version": "4.6.9",
+            "version": "4.6.10",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -794,7 +794,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "4.6.9",
+            "version": "4.6.10",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -865,7 +865,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-18T20:29:30.023Z",
+          "lastSuccessfulScanAt": "2026-11-19T07:21:56.357Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -898,7 +898,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-18T20:29:30.215Z",
+          "scannedAt": "2026-11-19T07:21:56.402Z",
           "errors": []
         },
         "package": {
@@ -928,7 +928,7 @@
           "long": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998. Wireshark has a rich feature set which includes the following: - Deep inspection of hundreds of protocols, with more being added all the time - Live capture and offline analysis - Standard three-pane packet browser - Multi-platform: Runs on Windows, Linux, macOS, Solaris, FreeBSD, NetBSD, and many others - Captured network data can be browsed via a GUI, or via the TTY-mode TShark utility - The most powerful display filters in the industry - Rich VoIP analysis - Read/write many different capture file formats: tcpdump (libpcap), Pcap NG, Catapult DCT2000, Cisco Secure IDS iplog, Microsoft Network Monitor, Network General Sniffer® (compressed and uncompressed), Sniffer® Pro, and NetXray®, Network Instruments Obser...",
           "source": "choco",
           "homepage": "http://www.wireshark.org/",
-          "lastUpdatedAt": "2026-11-18T20:29:30.215Z"
+          "lastUpdatedAt": "2026-11-19T07:21:56.402Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1335,7 +1335,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-18T20:29:30.215Z",
+          "lastSuccessfulScanAt": "2026-11-19T07:21:56.402Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
