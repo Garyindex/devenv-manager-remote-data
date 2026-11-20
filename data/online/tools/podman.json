@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T20:34:34.427Z",
+  "generatedAt": "2026-11-20T07:12:27.294Z",
   "status": "partial",
   "tool": {
     "id": "podman",
@@ -29,7 +29,7 @@
       "long": "Podman: A tool for managing OCI containers and pods.",
       "source": "github",
       "homepage": "https://podman.io",
-      "lastUpdatedAt": "2026-11-19T20:34:04.285Z"
+      "lastUpdatedAt": "2026-11-20T07:12:07.710Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,25 +96,23 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-11-19T20:34:03.462Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-11-20T07:12:07.371Z",
+          "errors": []
         },
         "package": {
           "name": "Podman",
-          "publisher": null,
-          "author": null,
+          "publisher": "Red Hat",
+          "author": "Red Hat Inc.",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/podman-container-tools/podman/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://podman.io/",
-          "download": "https://podman.io/",
-          "releases": null,
+          "download": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-amd64.exe",
+          "releases": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.10",
           "docs": null
         },
         "descriptions": {
@@ -122,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-11-19T20:34:03.462Z"
+          "lastUpdatedAt": "2026-11-20T07:12:07.371Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -448,11 +446,11 @@
             "version": "5.8.10",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://podman.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "burn",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "1d4ad41b58f8881c30272cd70e1c05570f272ef74338848c1b776c668c427e7a",
             "sizeBytes": null
           }
         ],
@@ -547,11 +545,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-11-20T07:12:07.371Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -597,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-19T20:34:03.889Z",
+          "scannedAt": "2026-11-20T07:12:07.646Z",
           "errors": []
         },
         "package": {
@@ -623,7 +621,7 @@
           "long": "Tool for managing OCI containers and pods",
           "source": "homebrew",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-11-19T20:34:03.889Z"
+          "lastUpdatedAt": "2026-11-20T07:12:07.646Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -729,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-19T20:34:03.889Z",
+          "lastSuccessfulScanAt": "2026-11-20T07:12:07.646Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -775,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-19T20:34:03.964Z",
+          "scannedAt": "2026-11-20T07:12:07.660Z",
           "errors": []
         },
         "package": {
@@ -801,7 +799,7 @@
           "long": "A tool for managing OCI containers and pods.",
           "source": "scoop",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-11-19T20:34:03.964Z"
+          "lastUpdatedAt": "2026-11-20T07:12:07.660Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -906,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-19T20:34:03.964Z",
+          "lastSuccessfulScanAt": "2026-11-20T07:12:07.660Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -954,7 +952,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-19T20:34:04.285Z",
+          "scannedAt": "2026-11-20T07:12:07.710Z",
           "errors": []
         },
         "package": {
@@ -983,7 +981,7 @@
           "long": "Podman: A tool for managing OCI containers and pods.",
           "source": "github",
           "homepage": "https://podman.io",
-          "lastUpdatedAt": "2026-11-19T20:34:04.285Z"
+          "lastUpdatedAt": "2026-11-20T07:12:07.710Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2275,7 +2273,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-19T20:34:04.285Z",
+          "lastSuccessfulScanAt": "2026-11-20T07:12:07.710Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
