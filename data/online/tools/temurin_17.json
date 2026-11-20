@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T07:12:27.294Z",
+  "generatedAt": "2026-11-20T20:14:54.084Z",
   "status": "partial",
   "tool": {
     "id": "temurin_17",
@@ -28,7 +28,7 @@
       "long": "Temurin The Temurin17 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
       "source": "choco",
       "homepage": "https://adoptium.net/",
-      "lastUpdatedAt": "2026-11-20T07:12:04.952Z"
+      "lastUpdatedAt": "2026-11-20T20:14:13.501Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -109,7 +109,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-20T07:12:04.757Z",
+          "scannedAt": "2026-11-20T20:14:13.199Z",
           "errors": []
         },
         "package": {
@@ -123,8 +123,8 @@
         },
         "links": {
           "homepage": "https://adoptium.net/",
-          "download": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.msi",
-          "releases": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.21+9",
+          "download": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2.msi",
+          "releases": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.21.1+2",
           "docs": null
         },
         "descriptions": {
@@ -132,7 +132,7 @@
           "long": "Eclipse Temurin JDK is the open source Java SE build based upon OpenJDK.",
           "source": "winget",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-11-20T07:12:04.757Z"
+          "lastUpdatedAt": "2026-11-20T20:14:13.199Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -154,9 +154,19 @@
         },
         "versions": [
           {
-            "version": "17.0.21.9",
+            "version": "17.0.21.102",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "17.0.21.9",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -407,14 +417,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "17.0.21.9",
+            "version": "17.0.21.102",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.msi",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "9f06b736ef2bd07aaf82f1bd575dc92108b442b97f5d4308eb3816613c086977",
+            "sha256": "28ef9ba7e252c9b16534694a070e0810fdcc7cdb26b72e7b1663c42f6453d45d",
             "sizeBytes": null
           }
         ],
@@ -512,7 +522,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-20T07:12:04.757Z",
+          "lastSuccessfulScanAt": "2026-11-20T20:14:13.199Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -569,7 +579,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-20T07:12:04.784Z",
+          "scannedAt": "2026-11-20T20:14:13.395Z",
           "errors": []
         },
         "package": {
@@ -595,7 +605,7 @@
           "long": "JDK from the Eclipse Foundation (Adoptium)",
           "source": "homebrew",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-11-20T07:12:04.784Z"
+          "lastUpdatedAt": "2026-11-20T20:14:13.395Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -703,7 +713,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-20T07:12:04.784Z",
+          "lastSuccessfulScanAt": "2026-11-20T20:14:13.395Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -760,7 +770,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-20T07:12:04.892Z",
+          "scannedAt": "2026-11-20T20:14:13.419Z",
           "errors": []
         },
         "package": {
@@ -786,7 +796,7 @@
           "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
           "source": "scoop",
           "homepage": "https://adoptium.net",
-          "lastUpdatedAt": "2026-11-20T07:12:04.892Z"
+          "lastUpdatedAt": "2026-11-20T20:14:13.419Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -809,7 +819,7 @@
         },
         "versions": [
           {
-            "version": "17.0.21-9",
+            "version": "17.0.21-100000002",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -822,7 +832,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "17.0.21-9",
+            "version": "17.0.21-100000002",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -893,7 +903,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-20T07:12:04.892Z",
+          "lastSuccessfulScanAt": "2026-11-20T20:14:13.419Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,7 +960,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-20T07:12:04.952Z",
+          "scannedAt": "2026-11-20T20:14:13.501Z",
           "errors": []
         },
         "package": {
@@ -977,7 +987,7 @@
           "long": "Temurin The Temurin17 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
           "source": "choco",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-11-20T07:12:04.952Z"
+          "lastUpdatedAt": "2026-11-20T20:14:13.501Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1293,7 +1303,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-20T07:12:04.952Z",
+          "lastSuccessfulScanAt": "2026-11-20T20:14:13.501Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
