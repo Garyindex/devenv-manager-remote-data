@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T09:51:56.071Z",
+  "generatedAt": "2026-11-24T22:24:57.606Z",
   "status": "partial",
   "tool": {
     "id": "mariadb",
@@ -29,7 +29,7 @@
       "long": "MariaDB is designed as a drop-in replacement of MySQL with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team. MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability. MariaDB comparison to MySQL Features Compatibility Community Facebook Google+ Twitter Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://mariadb.org/",
-      "lastUpdatedAt": "2026-11-24T09:51:39.335Z"
+      "lastUpdatedAt": "2026-11-24T22:24:35.811Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-24T09:51:38.705Z",
+          "scannedAt": "2026-11-24T22:24:35.354Z",
           "errors": []
         },
         "package": {
@@ -111,7 +111,7 @@
         },
         "links": {
           "homepage": "https://mariadb.org/download/",
-          "download": "https://downloads.mariadb.org/rest-api/mariadb/13.0.2/mariadb-13.0.2-winx64.msi",
+          "download": "https://downloads.mariadb.org/rest-api/mariadb/13.1.2/mariadb-13.1.2-winx64.msi",
           "releases": "https://mariadb.com/kb/en/release-notes/",
           "docs": null
         },
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://mariadb.org/download/",
-          "lastUpdatedAt": "2026-11-24T09:51:38.705Z"
+          "lastUpdatedAt": "2026-11-24T22:24:35.354Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "13.0.2.0",
+            "version": "13.1.2.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "13.0.2.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -363,14 +373,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "13.0.2.0",
+            "version": "13.1.2.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://downloads.mariadb.org/rest-api/mariadb/13.0.2/mariadb-13.0.2-winx64.msi",
+            "url": "https://downloads.mariadb.org/rest-api/mariadb/13.1.2/mariadb-13.1.2-winx64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "9fbee3a481f7cb133bde017f614c1e0c72d596992456983dbabde4374290d7bf",
+            "sha256": "6440e27647148aa56de20c3d0d0d5495a3ece9daef04982e0be9e996fbbfdbc7",
             "sizeBytes": null
           }
         ],
@@ -468,7 +478,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-24T09:51:38.705Z",
+          "lastSuccessfulScanAt": "2026-11-24T22:24:35.354Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -515,7 +525,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-24T09:51:39.156Z",
+          "scannedAt": "2026-11-24T22:24:35.652Z",
           "errors": []
         },
         "package": {
@@ -532,7 +542,7 @@
         },
         "links": {
           "homepage": "https://mariadb.org/",
-          "download": "https://archive.mariadb.org/mariadb-13.0.2/source/mariadb-13.0.2.tar.gz",
+          "download": "https://archive.mariadb.org/mariadb-13.1.2/source/mariadb-13.1.2.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -541,7 +551,7 @@
           "long": "Drop-in replacement for MySQL",
           "source": "homebrew",
           "homepage": "https://mariadb.org/",
-          "lastUpdatedAt": "2026-11-24T09:51:39.156Z"
+          "lastUpdatedAt": "2026-11-24T22:24:35.652Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -563,7 +573,7 @@
         },
         "versions": [
           {
-            "version": "13.0.2",
+            "version": "13.1.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -636,14 +646,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "13.0.2",
+            "version": "13.1.2",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://archive.mariadb.org/mariadb-13.0.2/source/mariadb-13.0.2.tar.gz",
+            "url": "https://archive.mariadb.org/mariadb-13.1.2/source/mariadb-13.1.2.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "8ee8d955530faedcea344535de85495afb5b98128bbf660e56893e93e21ee8f7",
+            "sha256": "097bf3b7692ebbe8106a854af4ada1f4ecb0759c93ebd946b536fe9ef78eaa7a",
             "sizeBytes": null
           }
         ],
@@ -707,7 +717,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-24T09:51:39.156Z",
+          "lastSuccessfulScanAt": "2026-11-24T22:24:35.652Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -753,7 +763,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-24T09:51:39.224Z",
+          "scannedAt": "2026-11-24T22:24:35.670Z",
           "errors": []
         },
         "package": {
@@ -779,7 +789,7 @@
           "long": "Community developed fork of MySQL server.",
           "source": "scoop",
           "homepage": "https://mariadb.org",
-          "lastUpdatedAt": "2026-11-24T09:51:39.224Z"
+          "lastUpdatedAt": "2026-11-24T22:24:35.670Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -800,7 +810,7 @@
         },
         "versions": [
           {
-            "version": "13.0.2",
+            "version": "13.1.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -813,7 +823,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "13.0.2",
+            "version": "13.1.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -884,7 +894,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-24T09:51:39.224Z",
+          "lastSuccessfulScanAt": "2026-11-24T22:24:35.670Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -930,7 +940,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-24T09:51:39.335Z",
+          "scannedAt": "2026-11-24T22:24:35.811Z",
           "errors": []
         },
         "package": {
@@ -949,8 +959,8 @@
         },
         "links": {
           "homepage": "https://mariadb.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/mariadb/10.11.20",
-          "releases": "https://mariadb.com/kb/en/mariadb-101120-release-notes/",
+          "download": "https://community.chocolatey.org/api/v2/package/mariadb/13.1.2",
+          "releases": "https://mariadb.com/kb/en/mariadb-1312-release-notes/",
           "docs": null
         },
         "descriptions": {
@@ -958,7 +968,7 @@
           "long": "MariaDB is designed as a drop-in replacement of MySQL with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team. MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability. MariaDB comparison to MySQL Features Compatibility Community Facebook Google+ Twitter Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://mariadb.org/",
-          "lastUpdatedAt": "2026-11-24T09:51:39.335Z"
+          "lastUpdatedAt": "2026-11-24T22:24:35.811Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -982,9 +992,29 @@
         },
         "versions": [
           {
-            "version": "10.11.20",
+            "version": "13.1.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "13.2.1-rc",
+            "channel": "prerelease",
+            "latest": false,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.11.20",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1260,39 +1290,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "11.4.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.8.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "10.11.20",
+            "version": "13.1.2",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/mariadb/10.11.20",
+            "url": "https://community.chocolatey.org/api/v2/package/mariadb/13.1.2",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "lejcykC3+xGqJKdRHFjIvh/Mv3NmEjBAUtIJbg3tbNjD37D5HYLslu+nJAjJzOsQ3iZWxMpqe5wfRHCEfeQaXQ==",
+            "sha256": "lRd+RT9EBj/BsvqhQKdxZyD5D8lQeyOjmEHsULYmunUf1MWvPMHSjbgLxK33+MtlpW7ATZO4Kf0sjmoNomV8uQ==",
             "sizeBytes": null
           }
         ],
@@ -1364,7 +1374,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-24T09:51:39.335Z",
+          "lastSuccessfulScanAt": "2026-11-24T22:24:35.811Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
