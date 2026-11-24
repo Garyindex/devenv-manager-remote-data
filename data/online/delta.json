@@ -1,227 +1,95 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T23:51:50.563Z",
-  "fromGeneratedAt": "2026-11-23T07:34:52.209Z",
-  "toGeneratedAt": "2026-11-23T23:51:50.563Z",
+  "generatedAt": "2026-11-24T09:51:56.071Z",
+  "fromGeneratedAt": "2026-11-23T23:51:50.563Z",
+  "toGeneratedAt": "2026-11-24T09:51:56.071Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 13,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 27,
+    "versionChanges": 9,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
       "oh_my_posh",
-      "ripgrep",
-      "pnpm",
-      "nvm_windows",
       "pipx",
       "sbt",
+      "docker_desktop",
       "opentofu",
-      "google_cloud_sdk",
-      "cloudflared",
-      "postman",
-      "supabase_cli",
-      "prisma_cli"
+      "aws_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "9.2.1393",
-        "to": "9.2.1397"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "33.2.0",
-        "to": "33.4.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "33.3.0",
-        "to": "33.4.0"
-      },
-      {
         "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "33.2.0",
-        "to": "33.3.1"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
         "from": "33.3.1",
         "to": "33.4.0"
-      },
-      {
-        "toolId": "ripgrep",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "15.2.0",
-        "to": "16.0.0"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.21.0",
-        "to": "12.23.0"
-      },
-      {
-        "toolId": "nvm_windows",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.1.0-beta.14",
-        "to": "2.1.0-beta.15"
       },
       {
         "toolId": "pipx",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.18.19",
-        "to": "1.19.0"
+        "from": "1.19.0",
+        "to": "1.19.1"
       },
       {
         "toolId": "sbt",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.1.0",
         "to": "2.1.1"
       },
       {
-        "toolId": "sbt",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.1.0",
-        "to": "2.1.1"
-      },
-      {
-        "toolId": "sbt",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.1.0",
-        "to": "2.1.1"
+        "toolId": "docker_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.100.0",
+        "to": "4.100.1"
       },
       {
         "toolId": "opentofu",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.13.9",
-        "to": "1.13.10"
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.13.9",
-        "to": "1.13.10"
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.13.9",
-        "to": "1.13.10"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "594.0.0",
-        "to": "594.0.1"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.11.1",
-        "to": "2026.11.2"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.11.1",
-        "to": "2026.11.2"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2026.11.1",
-        "to": "2026.11.2"
-      },
-      {
-        "toolId": "cloudflared",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.11.1",
-        "to": "2026.11.2"
+        "from": "1.12.12",
+        "to": "1.13.10"
       },
       {
-        "toolId": "cloudflared",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2026.11.1",
-        "to": "2026.11.2"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "aws_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.37.4",
-        "to": "12.38.0"
+        "from": "2.42.1",
+        "to": "2.42.2"
       },
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.37.3",
-        "to": "12.38.0"
-      },
-      {
-        "toolId": "supabase_cli",
+        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.2.0",
-        "to": "3.3.0"
+        "from": "2.42.1",
+        "to": "2.42.2"
       },
       {
-        "toolId": "supabase_cli",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.2.0",
-        "to": "3.3.0"
+        "from": "2.42.1",
+        "to": "2.42.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "4.0.0-next.43",
-        "to": "4.0.0-next.48"
-      },
-      {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "8.0.0-rc.24",
-        "to": "8.0.0-rc.25"
+        "from": "4.0.0-next.48",
+        "to": "4.0.0-next.49"
       }
     ],
     "qualityChanges": []
