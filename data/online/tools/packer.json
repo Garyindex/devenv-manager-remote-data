@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T08:29:37.007Z",
+  "generatedAt": "2026-11-25T21:40:21.828Z",
   "status": "partial",
   "tool": {
     "id": "packer",
@@ -29,7 +29,7 @@
       "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
       "source": "choco",
       "homepage": "http://packer.io/",
-      "lastUpdatedAt": "2026-11-25T08:28:58.497Z"
+      "lastUpdatedAt": "2026-11-25T21:39:52.352Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-25T08:28:58.112Z",
+          "scannedAt": "2026-11-25T21:39:52.186Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://developer.hashicorp.com/packer",
-          "download": "https://releases.hashicorp.com/packer/1.16.2/packer_1.16.2_windows_amd64.zip",
-          "releases": "https://github.com/hashicorp/packer/releases/tag/v1.16.2",
+          "download": "https://releases.hashicorp.com/packer/1.16.3/packer_1.16.3_windows_amd64.zip",
+          "releases": "https://github.com/hashicorp/packer/releases/tag/v1.16.3",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-11-25T08:28:58.112Z"
+          "lastUpdatedAt": "2026-11-25T21:39:52.186Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "1.16.2",
+            "version": "1.16.3",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.16.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.8.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.2",
+            "version": "1.16.3",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://releases.hashicorp.com/packer/1.16.2/packer_1.16.2_windows_amd64.zip",
+            "url": "https://releases.hashicorp.com/packer/1.16.3/packer_1.16.3_windows_amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "1b3984ae7f5954cc3ae416b527ae5c5a747ea7bb7977366038609199be4a2710",
+            "sha256": "257bb1af9ff9771aaa5542ee764c439d0983b6e28d6ae2f6e0e3b586489bc108",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-25T08:28:58.112Z",
+          "lastSuccessfulScanAt": "2026-11-25T21:39:52.186Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-25T08:28:58.365Z",
+          "scannedAt": "2026-11-25T21:39:52.261Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Automates the creation of any type of virtual machine image.",
           "source": "scoop",
           "homepage": "https://www.packer.io",
-          "lastUpdatedAt": "2026-11-25T08:28:58.365Z"
+          "lastUpdatedAt": "2026-11-25T21:39:52.261Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -641,7 +641,7 @@
         },
         "versions": [
           {
-            "version": "1.16.2",
+            "version": "1.16.3",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -654,7 +654,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.2",
+            "version": "1.16.3",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-25T08:28:58.365Z",
+          "lastSuccessfulScanAt": "2026-11-25T21:39:52.261Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-25T08:28:58.497Z",
+          "scannedAt": "2026-11-25T21:39:52.352Z",
           "errors": []
         },
         "package": {
@@ -796,7 +796,7 @@
         },
         "links": {
           "homepage": "http://packer.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/packer/1.16.2",
+          "download": "https://community.chocolatey.org/api/v2/package/packer/1.16.3",
           "releases": "",
           "docs": null
         },
@@ -805,7 +805,7 @@
           "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
           "source": "choco",
           "homepage": "http://packer.io/",
-          "lastUpdatedAt": "2026-11-25T08:28:58.497Z"
+          "lastUpdatedAt": "2026-11-25T21:39:52.352Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -834,9 +834,19 @@
         },
         "versions": [
           {
-            "version": "1.16.2",
+            "version": "1.16.3",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.16.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1122,29 +1132,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.2",
+            "version": "1.16.3",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/packer/1.16.2",
+            "url": "https://community.chocolatey.org/api/v2/package/packer/1.16.3",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "h4+0I3WmhUNbidAtypMxR8PmaIcFI3BvjYQnUOkBBFM56Ifcqcp+ALlMjLO/y+hHX5oC3pN2Iq6euBtXRxRjGg==",
+            "sha256": "G3JJOE9mkCSXIkW8iuw5iU+f4argL5sw7ctf2/U8RKZbp8dQEphqVKXEaARkBNbD+Yc3eRncNeLrng1D1XWXeA==",
             "sizeBytes": null
           }
         ],
@@ -1216,7 +1216,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-25T08:28:58.497Z",
+          "lastSuccessfulScanAt": "2026-11-25T21:39:52.352Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1264,7 +1264,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-11-25T08:28:58.816Z",
+          "scannedAt": "2026-11-25T21:39:52.421Z",
           "errors": []
         },
         "package": {
@@ -1287,7 +1287,7 @@
           "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
           "source": "github",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-11-25T08:28:58.816Z"
+          "lastUpdatedAt": "2026-11-25T21:39:52.421Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1307,9 +1307,19 @@
         },
         "versions": [
           {
+            "version": "1.16.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-11-25T10:51:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/hashicorp/packer/releases/tag/v1.16.3"
+          },
+          {
             "version": "nightly",
             "channel": "prerelease",
-            "latest": true,
+            "latest": false,
             "prerelease": true,
             "lts": null,
             "releaseDate": "2022-03-10T00:30:39Z",
@@ -1595,16 +1605,6 @@
             "releaseDate": "2023-08-18T19:11:27Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/hashicorp/packer/releases/tag/v1.9.4"
-          },
-          {
-            "version": "1.9.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2023-08-17T16:42:40Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/hashicorp/packer/releases/tag/v1.9.3"
           }
         ],
         "downloads": [
@@ -2490,7 +2490,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-11-25T08:28:58.816Z",
+          "lastSuccessfulScanAt": "2026-11-25T21:39:52.421Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
