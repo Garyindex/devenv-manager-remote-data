@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T08:13:37.238Z",
-  "fromGeneratedAt": "2026-11-25T21:40:21.828Z",
-  "toGeneratedAt": "2026-11-26T08:13:37.238Z",
+  "generatedAt": "2026-11-26T21:29:50.647Z",
+  "fromGeneratedAt": "2026-11-26T08:13:37.238Z",
+  "toGeneratedAt": "2026-11-26T21:29:50.647Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
@@ -10,131 +10,103 @@
     "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 15,
-    "qualityChanges": 1
+    "versionChanges": 11,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "github_cli",
-      "vscode",
       "vim",
       "oh_my_posh",
-      "pipx",
+      "pnpm",
+      "docker_desktop",
+      "opentofu",
       "aws_cli",
       "postman",
-      "mysql_workbench",
-      "android_studio",
-      "unity_hub"
+      "r",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.105.0",
-        "to": "2.106.0"
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.105.0",
-        "to": "2.106.0"
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.105.0",
-        "to": "2.106.0"
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.105.0",
-        "to": "2.106.0"
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.105.0",
-        "to": "2.106.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.146.0",
-        "to": "1.148.0"
-      },
-      {
         "toolId": "vim",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "9.2.1404",
-        "to": "9.2.1416"
+        "from": "9.2.1416",
+        "to": "9.2.1417"
       },
       {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "33.4.0",
         "to": "33.4.1"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.19.0",
-        "to": "1.19.1"
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "33.4.0",
+        "to": "33.4.1"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.23.0",
+        "to": "12.24.0"
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.99.0",
+        "to": "4.100.1"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.13.9",
+        "to": "1.13.10"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.42.2",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.42.3",
         "to": "2.42.4"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "12.38.3",
         "to": "12.38.5"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.38.3",
         "to": "12.38.5"
       },
       {
-        "toolId": "mysql_workbench",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "26.10.0",
-        "to": "26.10.0.1"
-      },
-      {
-        "toolId": "android_studio",
+        "toolId": "r",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.2.2.10",
-        "to": "2026.2.2.11"
+        "from": "4.6.2",
+        "to": null
       },
       {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.0.1.65535",
-        "to": "4.0.2.65535"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.0.0-next.54",
+        "to": "4.0.0-next.55"
       }
     ],
     "qualityChanges": [
@@ -142,8 +114,15 @@
         "toolId": "github_cli",
         "sourceId": "winget",
         "manager": "winget",
+        "from": 65,
+        "to": 100
+      },
+      {
+        "toolId": "r",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": 100,
-        "to": 65
+        "to": 40
       }
     ]
   }
